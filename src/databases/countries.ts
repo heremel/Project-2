@@ -185,10 +185,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2978650"
         },
         "population": 5379475,
-        "gini": {
-            "2018": 27.6
-        },
-        "fifa": "NOR",
+        "gini": 27.6
+        , "fifa": "NOR",
         "car": {
             "signs": [
                 "N"
@@ -393,10 +391,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192307"
         },
         "population": 10715549,
-        "gini": {
-            "2018": 32.9
-        },
-        "fifa": "GRE",
+        "gini": 32.9
+        , "fifa": "GRE",
         "car": {
             "signs": [
                 "GR"
@@ -811,10 +807,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/51701"
         },
         "population": 8654622,
-        "gini": {
-            "2018": 33.1
-        },
-        "fifa": "SUI",
+        "gini": 33.1
+        , "fifa": "SUI",
         "car": {
             "signs": [
                 "CH"
@@ -1020,10 +1014,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/214885"
         },
         "population": 4047200,
-        "gini": {
-            "2018": 29.7
-        },
-        "fifa": "CRO",
+        "gini": 29.7
+        , "fifa": "CRO",
         "car": {
             "signs": [
                 "HR"
@@ -1222,10 +1214,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/299133"
         },
         "population": 366425,
-        "gini": {
-            "2017": 26.1
-        },
-        "fifa": "ISL",
+        "gini": 26.1
+        , "fifa": "ISL",
         "car": {
             "signs": [
                 "IS"
@@ -1440,10 +1430,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2171347#map=10/49.8167/6.1335"
         },
         "population": 632275,
-        "gini": {
-            "2018": 35.4
-        },
-        "fifa": "LUX",
+        "gini": 35.4
+        , "fifa": "LUX",
         "car": {
             "signs": [
                 "L"
@@ -1648,10 +1636,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/21335"
         },
         "population": 9749763,
-        "gini": {
-            "2018": 29.6
-        },
-        "fifa": "HUN",
+        "gini": 29.6
+        , "fifa": "HUN",
         "car": {
             "signs": [
                 "H"
@@ -1854,10 +1840,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/47796"
         },
         "population": 16655799,
-        "gini": {
-            "2018": 28.1
-        },
-        "fifa": "NED",
+        "gini": 28.1
+        , "fifa": "NED",
         "car": {
             "signs": [
                 "NL"
@@ -2061,10 +2045,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/72596"
         },
         "population": 2794700,
-        "gini": {
-            "2018": 35.7
-        },
-        "fifa": "LTU",
+        "gini": 35.7
+        , "fifa": "LTU",
         "car": {
             "signs": [
                 "LT"
@@ -2269,10 +2251,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/14296"
         },
         "population": 5458827,
-        "gini": {
-            "2018": 25
-        },
-        "fifa": "SVK",
+        "gini": 25
+        , "fifa": "SVK",
         "car": {
             "signs": [
                 "SK"
@@ -2677,10 +2657,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/58974"
         },
         "population": 2617820,
-        "gini": {
-            "2018": 25.7
-        },
-        "fifa": "MDA",
+        "gini": 25.7
+        , "fifa": "MDA",
         "car": {
             "signs": [
                 "MD"
@@ -2886,10 +2864,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/365331"
         },
         "population": 59554023,
-        "gini": {
-            "2017": 35.9
-        },
-        "fifa": "ITA",
+        "gini": 35.9
+        , "fifa": "ITA",
         "car": {
             "signs": [
                 "I"
@@ -3511,10 +3487,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/59065"
         },
         "population": 9398861,
-        "gini": {
-            "2019": 25.3
-        },
-        "fifa": "BLR",
+        "gini": 25.3
+        , "fifa": "BLR",
         "car": {
             "signs": [
                 "BY"
@@ -3718,10 +3692,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/72594"
         },
         "population": 1901548,
-        "gini": {
-            "2018": 35.1
-        },
-        "fifa": "LVA",
+        "gini": 35.1
+        , "fifa": "LVA",
         "car": {
             "signs": [
                 "LV"
@@ -4131,10 +4103,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1403916"
         },
         "population": 67391582,
-        "gini": {
-            "2018": 32.4
-        },
-        "fifa": "FRA",
+        "gini": 32.4
+        , "fifa": "FRA",
         "car": {
             "signs": [
                 "F"
@@ -4542,10 +4512,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/50046"
         },
         "population": 5831404,
-        "gini": {
-            "2018": 28.2
-        },
-        "fifa": "DEN",
+        "gini": 28.2
+        , "fifa": "DEN",
         "car": {
             "signs": [
                 "DK"
@@ -4756,10 +4724,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/53293"
         },
         "population": 2077132,
-        "gini": {
-            "2018": 33
-        },
-        "fifa": "MKD",
+        "gini": 33
+        , "fifa": "MKD",
         "car": {
             "signs": [
                 "MK"
@@ -4962,10 +4928,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/365307"
         },
         "population": 525285,
-        "gini": {
-            "2018": 28.7
-        },
-        "fifa": "MLT",
+        "gini": 28.7
+        , "fifa": "MLT",
         "car": {
             "signs": [
                 "M"
@@ -5174,10 +5138,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/51684"
         },
         "population": 10698896,
-        "gini": {
-            "2018": 25
-        },
-        "fifa": "CZE",
+        "gini": 25
+        , "fifa": "CZE",
         "car": {
             "signs": [
                 "CZ"
@@ -5585,10 +5547,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2088990"
         },
         "population": 1775378,
-        "gini": {
-            "2017": 29
-        },
-        "fifa": "KVX",
+        "gini": 29
+        , "fifa": "KVX",
         "car": {
             "signs": [
                 "CS"
@@ -5972,10 +5932,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/53296"
         },
         "population": 621718,
-        "gini": {
-            "2016": 38.5
-        },
-        "fifa": "MNE",
+        "gini": 38.5
+        , "fifa": "MNE",
         "car": {
             "signs": [
                 "SCG"
@@ -6385,10 +6343,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/53292"
         },
         "population": 2837743,
-        "gini": {
-            "2017": 33.2
-        },
-        "fifa": "ALB",
+        "gini": 33.2
+        , "fifa": "ALB",
         "car": {
             "signs": [
                 "AL"
@@ -6595,10 +6551,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1741311"
         },
         "population": 6908224,
-        "gini": {
-            "2017": 36.2
-        },
-        "fifa": "SRB",
+        "gini": 36.2
+        , "fifa": "SRB",
         "car": {
             "signs": [
                 "SRB"
@@ -6805,10 +6759,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/60199"
         },
         "population": 44134693,
-        "gini": {
-            "2019": 26.6
-        },
-        "fifa": "UKR",
+        "gini": 26.6
+        , "fifa": "UKR",
         "car": {
             "signs": [
                 "UA"
@@ -7212,10 +7164,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/79510"
         },
         "population": 1331057,
-        "gini": {
-            "2018": 30.3
-        },
-        "fifa": "EST",
+        "gini": 30.3
+        , "fifa": "EST",
         "car": {
             "signs": [
                 "EST"
@@ -7421,10 +7371,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/90689"
         },
         "population": 19286123,
-        "gini": {
-            "2018": 35.8
-        },
-        "fifa": "ROU",
+        "gini": 35.8
+        , "fifa": "ROU",
         "car": {
             "signs": [
                 "RO"
@@ -7629,10 +7577,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/186382"
         },
         "population": 6927288,
-        "gini": {
-            "2018": 41.3
-        },
-        "fifa": "BUL",
+        "gini": 41.3
+        , "fifa": "BUL",
         "car": {
             "signs": [
                 "BG"
@@ -7841,10 +7787,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/51477"
         },
         "population": 83240525,
-        "gini": {
-            "2016": 31.9
-        },
-        "fifa": "GER",
+        "gini": 31.9
+        , "fifa": "GER",
         "car": {
             "signs": [
                 "DY"
@@ -8051,10 +7995,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/49715"
         },
         "population": 37950802,
-        "gini": {
-            "2018": 30.2
-        },
-        "fifa": "POL",
+        "gini": 30.2
+        , "fifa": "POL",
         "car": {
             "signs": [
                 "PL"
@@ -8255,9 +8197,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/62149"
         },
         "population": 67215293,
-        "gini": {
-            "2017": 35.1
-        },
+        "gini": 35.1,
         "car": {
             "signs": [
                 "GB"
@@ -8475,10 +8415,8 @@ export const countries = [
             "openStreetMaps": "openstreetmap.org/relation/54224"
         },
         "population": 5530719,
-        "gini": {
-            "2018": 27.3
-        },
-        "fifa": "FIN",
+        "gini": 27.3
+        , "fifa": "FIN",
         "car": {
             "signs": [
                 "FIN"
@@ -8680,10 +8618,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/52822"
         },
         "population": 10353442,
-        "gini": {
-            "2018": 30
-        },
-        "fifa": "SWE",
+        "gini": 30
+        , "fifa": "SWE",
         "car": {
             "signs": [
                 "S"
@@ -9105,10 +9041,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/60189#map=3/65.15/105.29"
         },
         "population": 144104080,
-        "gini": {
-            "2018": 37.5
-        },
-        "fifa": "RUS",
+        "gini": 37.5
+        , "fifa": "RUS",
         "car": {
             "signs": [
                 "RUS"
@@ -9325,10 +9259,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/16239"
         },
         "population": 8917205,
-        "gini": {
-            "2018": 30.8
-        },
-        "fifa": "AUT",
+        "gini": 30.8
+        , "fifa": "AUT",
         "car": {
             "signs": [
                 "A"
@@ -9534,10 +9466,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/307787"
         },
         "population": 1207361,
-        "gini": {
-            "2018": 32.7
-        },
-        "fifa": "CYP",
+        "gini": 32.7
+        , "fifa": "CYP",
         "car": {
             "signs": [
                 "CY"
@@ -9739,10 +9669,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/295480"
         },
         "population": 10305564,
-        "gini": {
-            "2018": 33.5
-        },
-        "fifa": "POR",
+        "gini": 33.5
+        , "fifa": "POR",
         "car": {
             "signs": [
                 "P"
@@ -9956,10 +9884,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2528142"
         },
         "population": 3280815,
-        "gini": {
-            "2011": 33
-        },
-        "fifa": "BIH",
+        "gini": 33
+        , "fifa": "BIH",
         "car": {
             "signs": [
                 "BIH"
@@ -10179,10 +10105,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/52411"
         },
         "population": 11555997,
-        "gini": {
-            "2018": 27.2
-        },
-        "fifa": "BEL",
+        "gini": 27.2
+        , "fifa": "BEL",
         "car": {
             "signs": [
                 "B"
@@ -10390,10 +10314,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1311341"
         },
         "population": 47351567,
-        "gini": {
-            "2018": 34.7
-        },
-        "fifa": "ESP",
+        "gini": 34.7
+        , "fifa": "ESP",
         "car": {
             "signs": [
                 "E"
@@ -10598,10 +10520,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/218657"
         },
         "population": 2100126,
-        "gini": {
-            "2018": 24.6
-        },
-        "fifa": "SVN",
+        "gini": 24.6
+        , "fifa": "SVN",
         "car": {
             "signs": [
                 "SLO"
@@ -11009,10 +10929,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/62273"
         },
         "population": 4994724,
-        "gini": {
-            "2017": 31.4
-        },
-        "fifa": "IRL",
+        "gini": 31.4
+        , "fifa": "IRL",
         "car": {
             "signs": [
                 "IRL"
@@ -11219,10 +11137,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2093234"
         },
         "population": 2142252,
-        "gini": {
-            "2017": 44.9
-        },
-        "fifa": "LES",
+        "gini": 44.9
+        , "fifa": "LES",
         "car": {
             "signs": [
                 "LS"
@@ -11433,10 +11349,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192790"
         },
         "population": 4829764,
-        "gini": {
-            "2008": 56.2
-        },
-        "fifa": "CTA",
+        "gini": 56.2
+        , "fifa": "CTA",
         "car": {
             "signs": [
                 "RCA"
@@ -11641,10 +11555,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/3630439"
         },
         "population": 36910558,
-        "gini": {
-            "2013": 39.5
-        },
-        "fifa": "MAR",
+        "gini": 39.5
+        , "fifa": "MAR",
         "car": {
             "signs": [
                 "MA"
@@ -11845,10 +11757,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192777"
         },
         "population": 7976985,
-        "gini": {
-            "2018": 35.7
-        },
-        "fifa": "SLE",
+        "gini": 35.7
+        , "fifa": "SLE",
         "car": {
             "signs": [
                 "WAL"
@@ -12048,10 +11958,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192783"
         },
         "population": 20903278,
-        "gini": {
-            "2014": 35.3
-        },
-        "fifa": "BFA",
+        "gini": 35.3
+        , "fifa": "BFA",
         "car": {
             "signs": [
                 "BF"
@@ -12473,10 +12381,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/195270"
         },
         "population": 59734213,
-        "gini": {
-            "2017": 40.5
-        },
-        "fifa": "TAN",
+        "gini": 40.5
+        , "fifa": "TAN",
         "car": {
             "signs": [
                 "EAT"
@@ -12680,10 +12586,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192756"
         },
         "population": 44700000,
-        "gini": {
-            "2011": 27.6
-        },
-        "fifa": "ALG",
+        "gini": 27.6
+        , "fifa": "ALG",
         "car": {
             "signs": [
                 "DZ"
@@ -12887,10 +12791,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192763"
         },
         "population": 4649660,
-        "gini": {
-            "2014": 32.6
-        },
-        "fifa": "MTN",
+        "gini": 32.6
+        , "fifa": "MTN",
         "car": {
             "signs": [
                 "RIM"
@@ -13098,10 +13000,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192789"
         },
         "population": 43849269,
-        "gini": {
-            "2014": 34.2
-        },
-        "fifa": "SDN",
+        "gini": 34.2
+        , "fifa": "SDN",
         "car": {
             "signs": [
                 "SUD"
@@ -13514,10 +13414,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/195267"
         },
         "population": 32866268,
-        "gini": {
-            "2018": 51.3
-        },
-        "fifa": "ANG",
+        "gini": 51.3
+        , "fifa": "ANG",
         "car": {
             "signs": [
                 "ANG"
@@ -13720,10 +13618,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192779"
         },
         "population": 26378275,
-        "gini": {
-            "2015": 41.5
-        },
-        "fifa": "CIV",
+        "gini": 41.5
+        , "fifa": "CIV",
         "car": {
             "signs": [
                 "CI"
@@ -13921,10 +13817,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192757"
         },
         "population": 11818618,
-        "gini": {
-            "2015": 32.8
-        },
-        "fifa": "TUN",
+        "gini": 32.8
+        , "fifa": "TUN",
         "car": {
             "signs": [
                 "TN"
@@ -14131,10 +14025,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192785"
         },
         "population": 20250834,
-        "gini": {
-            "2009": 33
-        },
-        "fifa": "MLI",
+        "gini": 33
+        , "fifa": "MLI",
         "car": {
             "signs": [
                 "RMM"
@@ -14334,10 +14226,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192784"
         },
         "population": 12123198,
-        "gini": {
-            "2015": 47.8
-        },
-        "fifa": "BEN",
+        "gini": 47.8
+        , "fifa": "BEN",
         "car": {
             "signs": [
                 "DY"
@@ -14531,10 +14421,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/535774"
         },
         "population": 555988,
-        "gini": {
-            "2015": 42.4
-        },
-        "fifa": "CPV",
+        "gini": 42.4
+        , "fifa": "CPV",
         "car": {
             "signs": [
                 "CV"
@@ -14954,10 +14842,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192796"
         },
         "population": 45741000,
-        "gini": {
-            "2016": 42.8
-        },
-        "fifa": "UGA",
+        "gini": 42.8
+        , "fifa": "UGA",
         "car": {
             "signs": [
                 "EAU"
@@ -15162,10 +15048,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1889339"
         },
         "population": 2351625,
-        "gini": {
-            "2015": 53.3
-        },
-        "fifa": "BOT",
+        "gini": 53.3
+        , "fifa": "BOT",
         "car": {
             "signs": [
                 "BW"
@@ -15370,10 +15254,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/195269"
         },
         "population": 11890781,
-        "gini": {
-            "2013": 38.6
-        },
-        "fifa": "BDI",
+        "gini": 38.6
+        , "fifa": "BDI",
         "car": {
             "signs": [
                 "RU"
@@ -15628,10 +15510,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/87565"
         },
         "population": 59308690,
-        "gini": {
-            "2014": 63
-        },
-        "fifa": "RSA",
+        "gini": 63
+        , "fifa": "RSA",
         "car": {
             "signs": [
                 "ZA"
@@ -16230,10 +16110,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192793"
         },
         "population": 2225728,
-        "gini": {
-            "2017": 38
-        },
-        "fifa": "GAB",
+        "gini": 38
+        , "fifa": "GAB",
         "car": {
             "signs": [
                 "G"
@@ -16440,10 +16318,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192830"
         },
         "population": 26545864,
-        "gini": {
-            "2014": 46.6
-        },
-        "fifa": "CMR",
+        "gini": 46.6
+        , "fifa": "CMR",
         "car": {
             "signs": [
                 "CAM"
@@ -16645,10 +16521,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192778"
         },
         "population": 13132792,
-        "gini": {
-            "2012": 33.7
-        },
-        "fifa": "GUI",
+        "gini": 33.7
+        , "fifa": "GUI",
         "car": {
             "signs": [
                 "RG"
@@ -16853,10 +16727,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/536765"
         },
         "population": 98462,
-        "gini": {
-            "2018": 32.1
-        },
-        "fifa": "SEY",
+        "gini": 32.1
+        , "fifa": "SEY",
         "car": {
             "signs": [
                 "SY"
@@ -17240,10 +17112,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/447325"
         },
         "population": 27691019,
-        "gini": {
-            "2012": 42.6
-        },
-        "fifa": "MAD",
+        "gini": 42.6
+        , "fifa": "MAD",
         "car": {
             "signs": [
                 "RM"
@@ -17474,10 +17344,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192795"
         },
         "population": 108407721,
-        "gini": {
-            "2012": 42.1
-        },
-        "fifa": "COD",
+        "gini": 42.1
+        , "fifa": "COD",
         "car": {
             "signs": [
                 "CGO"
@@ -17674,10 +17542,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192774"
         },
         "population": 2416664,
-        "gini": {
-            "2015": 35.9
-        },
-        "fifa": "GAM",
+        "gini": 35.9
+        , "fifa": "GAM",
         "car": {
             "signs": [
                 "WAG"
@@ -17883,10 +17749,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192799"
         },
         "population": 15893219,
-        "gini": {
-            "2017": 36.8
-        },
-        "fifa": "SOM",
+        "gini": 36.8
+        , "fifa": "SOM",
         "car": {
             "signs": [
                 "SO"
@@ -18091,10 +17955,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192787"
         },
         "population": 206139587,
-        "gini": {
-            "2018": 35.1
-        },
-        "fifa": "NGA",
+        "gini": 35.1
+        , "fifa": "NGA",
         "car": {
             "signs": [
                 "WAN"
@@ -18298,10 +18160,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1656678"
         },
         "population": 11193729,
-        "gini": {
-            "2016": 44.1
-        },
-        "fifa": "SSD",
+        "gini": 44.1
+        , "fifa": "SSD",
         "car": {
             "signs": [
                 ""
@@ -18512,10 +18372,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/88210"
         },
         "population": 1160164,
-        "gini": {
-            "2016": 54.6
-        },
-        "fifa": "SWZ",
+        "gini": 54.6
+        , "fifa": "SWZ",
         "car": {
             "signs": [
                 "SD"
@@ -18718,10 +18576,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1473947"
         },
         "population": 102334403,
-        "gini": {
-            "2017": 31.5
-        },
-        "fifa": "EGY",
+        "gini": 31.5
+        , "fifa": "EGY",
         "car": {
             "signs": [
                 "ET"
@@ -19125,10 +18981,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192775"
         },
         "population": 16743930,
-        "gini": {
-            "2011": 40.3
-        },
-        "fifa": "SEN",
+        "gini": 40.3
+        , "fifa": "SEN",
         "car": {
             "signs": [
                 "SN"
@@ -19332,10 +19186,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192782"
         },
         "population": 8278737,
-        "gini": {
-            "2015": 43.1
-        },
-        "fifa": "TOG",
+        "gini": 43.1
+        , "fifa": "TOG",
         "car": {
             "signs": [
                 "TG"
@@ -19541,10 +19393,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192798"
         },
         "population": 53771300,
-        "gini": {
-            "2015": 40.8
-        },
-        "fifa": "KEN",
+        "gini": 40.8
+        , "fifa": "KEN",
         "car": {
             "signs": [
                 "EAK"
@@ -19759,10 +19609,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/171496"
         },
         "population": 12952209,
-        "gini": {
-            "2016": 43.7
-        },
-        "fifa": "RWA",
+        "gini": 43.7
+        , "fifa": "RWA",
         "car": {
             "signs": [
                 "RWA"
@@ -20006,10 +19854,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/195266"
         },
         "population": 2540916,
-        "gini": {
-            "2015": 59.1
-        },
-        "fifa": "NAM",
+        "gini": 59.1
+        , "fifa": "NAM",
         "car": {
             "signs": [
                 "NAM"
@@ -20207,10 +20053,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192780"
         },
         "population": 5057677,
-        "gini": {
-            "2016": 35.3
-        },
-        "fifa": "LBR",
+        "gini": 35.3
+        , "fifa": "LBR",
         "car": {
             "signs": [
                 "LB"
@@ -20417,10 +20261,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/195271"
         },
         "population": 18383956,
-        "gini": {
-            "2015": 57.1
-        },
-        "fifa": "ZAM",
+        "gini": 57.1
+        , "fifa": "ZAM",
         "car": {
             "signs": [
                 "RNR"
@@ -20626,10 +20468,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192786"
         },
         "population": 24206636,
-        "gini": {
-            "2014": 34.3
-        },
-        "fifa": "NIG",
+        "gini": 34.3
+        , "fifa": "NIG",
         "car": {
             "signs": [
                 "RN"
@@ -20839,10 +20679,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/535790"
         },
         "population": 869595,
-        "gini": {
-            "2014": 45.3
-        },
-        "fifa": "COM",
+        "gini": 45.3
+        , "fifa": "COM",
         "car": {
             "signs": [
                 "COM"
@@ -21045,10 +20883,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192776"
         },
         "population": 1967998,
-        "gini": {
-            "2010": 50.7
-        },
-        "fifa": "GNB",
+        "gini": 50.7
+        , "fifa": "GNB",
         "car": {
             "signs": [
                 "RGB"
@@ -21249,10 +21085,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192781"
         },
         "population": 31072945,
-        "gini": {
-            "2016": 43.5
-        },
-        "fifa": "GHA",
+        "gini": 43.5
+        , "fifa": "GHA",
         "car": {
             "signs": [
                 "GH"
@@ -21460,10 +21294,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2361304"
         },
         "population": 16425859,
-        "gini": {
-            "2011": 43.3
-        },
-        "fifa": "CHA",
+        "gini": 43.3
+        , "fifa": "CHA",
         "car": {
             "signs": [
                 "TCH",
@@ -21733,10 +21565,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/195272"
         },
         "population": 14862927,
-        "gini": {
-            "2019": 50.3
-        },
-        "fifa": "ZIM",
+        "gini": 50.3
+        , "fifa": "ZIM",
         "car": {
             "signs": [
                 "ZW"
@@ -22124,10 +21954,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/535880"
         },
         "population": 219161,
-        "gini": {
-            "2017": 56.3
-        },
-        "fifa": "STP",
+        "gini": 56.3
+        , "fifa": "STP",
         "car": {
             "signs": [
                 "STP"
@@ -22330,10 +22158,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/195290"
         },
         "population": 19129955,
-        "gini": {
-            "2016": 44.7
-        },
-        "fifa": "MWI",
+        "gini": 44.7
+        , "fifa": "MWI",
         "car": {
             "signs": [
                 "MW"
@@ -22536,10 +22362,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192800"
         },
         "population": 114963583,
-        "gini": {
-            "2015": 35
-        },
-        "fifa": "ETH",
+        "gini": 35
+        , "fifa": "ETH",
         "car": {
             "signs": [
                 "ETH"
@@ -22754,10 +22578,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192794"
         },
         "population": 5657000,
-        "gini": {
-            "2011": 48.9
-        },
-        "fifa": "CGO",
+        "gini": 48.9
+        , "fifa": "CGO",
         "car": {
             "signs": [
                 "RCB"
@@ -22964,10 +22786,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192801"
         },
         "population": 988002,
-        "gini": {
-            "2017": 41.6
-        },
-        "fifa": "DJI",
+        "gini": 41.6
+        , "fifa": "DJI",
         "car": {
             "signs": [
                 "DJI"
@@ -23171,10 +22991,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/535828"
         },
         "population": 1265740,
-        "gini": {
-            "2017": 36.8
-        },
-        "fifa": "MRI",
+        "gini": 36.8
+        , "fifa": "MRI",
         "car": {
             "signs": [
                 "MS"
@@ -23376,10 +23194,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/195273"
         },
         "population": 31255435,
-        "gini": {
-            "2014": 54
-        },
-        "fifa": "MOZ",
+        "gini": 54
+        , "fifa": "MOZ",
         "car": {
             "signs": [
                 "MOC"
@@ -23585,10 +23401,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/120027"
         },
         "population": 50882884,
-        "gini": {
-            "2019": 51.3
-        },
-        "fifa": "COL",
+        "gini": 51.3
+        , "fifa": "COL",
         "car": {
             "signs": [
                 "CO"
@@ -24584,10 +24398,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/286393"
         },
         "population": 45376763,
-        "gini": {
-            "2019": 42.9
-        },
-        "fifa": "ARG",
+        "gini": 42.9
+        , "fifa": "ARG",
         "car": {
             "signs": [
                 "RA"
@@ -25359,10 +25171,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/287667"
         },
         "population": 5094114,
-        "gini": {
-            "2019": 48.2
-        },
-        "fifa": "CRC",
+        "gini": 48.2
+        , "fifa": "CRC",
         "car": {
             "signs": [
                 "CR"
@@ -25569,10 +25379,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/307829"
         },
         "population": 11402533,
-        "gini": {
-            "2012": 41.1
-        },
-        "fifa": "HAI",
+        "gini": 41.1
+        , "fifa": "HAI",
         "car": {
             "signs": [
                 "RH"
@@ -25971,10 +25779,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/287670"
         },
         "population": 9904608,
-        "gini": {
-            "2019": 48.2
-        },
-        "fifa": "HON",
+        "gini": 48.2
+        , "fifa": "HON",
         "car": {
             "signs": [
                 "HN"
@@ -26756,10 +26562,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/550728"
         },
         "population": 183629,
-        "gini": {
-            "2016": 51.2
-        },
-        "fifa": "LCA",
+        "gini": 51.2
+        , "fifa": "LCA",
         "car": {
             "signs": [
                 "WL"
@@ -27177,10 +26981,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/252645"
         },
         "population": 11673029,
-        "gini": {
-            "2019": 41.6
-        },
-        "fifa": "BOL",
+        "gini": 41.6
+        , "fifa": "BOL",
         "car": {
             "signs": [
                 "BOL"
@@ -27379,10 +27181,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/167454"
         },
         "population": 19116209,
-        "gini": {
-            "2017": 44.4
-        },
-        "fifa": "CHI",
+        "gini": 44.4
+        , "fifa": "CHI",
         "car": {
             "signs": [
                 "RCH"
@@ -27901,10 +27701,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/148838#map=2/20.6/-85.8"
         },
         "population": 329484123,
-        "gini": {
-            "2018": 41.4
-        },
-        "fifa": "USA",
+        "gini": 41.4
+        , "fifa": "USA",
         "car": {
             "signs": [
                 "USA"
@@ -28312,10 +28110,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/114686"
         },
         "population": 128932753,
-        "gini": {
-            "2018": 45.4
-        },
-        "fifa": "MEX",
+        "gini": 45.4
+        , "fifa": "MEX",
         "car": {
             "signs": [
                 "MEX"
@@ -28908,10 +28704,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/307828"
         },
         "population": 10847904,
-        "gini": {
-            "2019": 41.9
-        },
-        "fifa": "DOM",
+        "gini": 41.9
+        , "fifa": "DOM",
         "car": {
             "signs": [
                 "DOM"
@@ -29113,10 +28907,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1521463"
         },
         "population": 16858333,
-        "gini": {
-            "2014": 48.3
-        },
-        "fifa": "GUA",
+        "gini": 48.3
+        , "fifa": "GUA",
         "car": {
             "signs": [
                 "GCA"
@@ -29318,10 +29110,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/108089"
         },
         "population": 17643060,
-        "gini": {
-            "2019": 45.7
-        },
-        "fifa": "ECU",
+        "gini": 45.7
+        , "fifa": "ECU",
         "car": {
             "signs": [
                 "EC"
@@ -29720,10 +29510,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/287082"
         },
         "population": 586634,
-        "gini": {
-            "1999": 57.9
-        },
-        "fifa": "SUR",
+        "gini": 57.9
+        , "fifa": "SUR",
         "car": {
             "signs": [
                 "SME"
@@ -30319,10 +30107,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/287077"
         },
         "population": 7132530,
-        "gini": {
-            "2019": 45.7
-        },
-        "fifa": "PAR",
+        "gini": 45.7
+        , "fifa": "PAR",
         "car": {
             "signs": [
                 "PY"
@@ -30721,10 +30507,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/59470"
         },
         "population": 212559409,
-        "gini": {
-            "2019": 53.4
-        },
-        "fifa": "BRA",
+        "gini": 53.4
+        , "fifa": "BRA",
         "car": {
             "signs": [
                 "BR"
@@ -30937,10 +30721,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/287827"
         },
         "population": 397621,
-        "gini": {
-            "1999": 53.3
-        },
-        "fifa": "BLZ",
+        "gini": 53.3
+        , "fifa": "BLZ",
         "car": {
             "signs": [
                 "BH"
@@ -31140,10 +30922,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/272644"
         },
         "population": 28435943,
-        "gini": {
-            "2006": 44.8
-        },
-        "fifa": "VEN",
+        "gini": 44.8
+        , "fifa": "VEN",
         "car": {
             "signs": [
                 "YV"
@@ -31345,10 +31125,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1520612"
         },
         "population": 6486201,
-        "gini": {
-            "2019": 38.8
-        },
-        "fifa": "SLV",
+        "gini": 38.8
+        , "fifa": "SLV",
         "car": {
             "signs": [
                 "ES"
@@ -31563,10 +31341,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/288247"
         },
         "population": 32971846,
-        "gini": {
-            "2019": 41.5
-        },
-        "fifa": "PER",
+        "gini": 41.5
+        , "fifa": "PER",
         "car": {
             "signs": [
                 "PE"
@@ -31763,10 +31539,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/555717"
         },
         "population": 1399491,
-        "gini": {
-            "1992": 40.3
-        },
-        "fifa": "TRI",
+        "gini": 40.3
+        , "fifa": "TRI",
         "car": {
             "signs": [
                 "TT"
@@ -32161,10 +31935,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/287083"
         },
         "population": 786559,
-        "gini": {
-            "1998": 45.1
-        },
-        "fifa": "GUY",
+        "gini": 45.1
+        , "fifa": "GUY",
         "car": {
             "signs": [
                 "GUY"
@@ -32361,10 +32133,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/555017"
         },
         "population": 2961161,
-        "gini": {
-            "2004": 45.5
-        },
-        "fifa": "JAM",
+        "gini": 45.5
+        , "fifa": "JAM",
         "car": {
             "signs": [
                 "JA"
@@ -33148,10 +32918,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/287072"
         },
         "population": 3473727,
-        "gini": {
-            "2019": 39.7
-        },
-        "fifa": "URU",
+        "gini": 39.7
+        , "fifa": "URU",
         "car": {
             "signs": [
                 "ROU"
@@ -33745,10 +33513,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1428125"
         },
         "population": 38005238,
-        "gini": {
-            "2017": 33.3
-        },
-        "fifa": "CAN",
+        "gini": 33.3
+        , "fifa": "CAN",
         "car": {
             "signs": [
                 "CDN"
@@ -33959,10 +33725,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/287668"
         },
         "population": 4314768,
-        "gini": {
-            "2019": 49.8
-        },
-        "fifa": "PAN",
+        "gini": 49.8
+        , "fifa": "PAN",
         "car": {
             "signs": [
                 "PA"
@@ -34350,10 +34114,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/287666"
         },
         "population": 6624554,
-        "gini": {
-            "2014": 46.2
-        },
-        "fifa": "NCA",
+        "gini": 46.2
+        , "fifa": "NCA",
         "car": {
             "signs": [
                 "NIC"
@@ -35128,10 +34890,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/307756"
         },
         "population": 51780579,
-        "gini": {
-            "2016": 31.4
-        },
-        "fifa": "KOR",
+        "gini": 31.4
+        , "fifa": "KOR",
         "car": {
             "signs": [
                 "ROK"
@@ -35330,6 +35090,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/449220"
         },
         "population": 23503349,
+        "gini": -1,
         "fifa": "TPE",
         "car": {
             "signs": [
@@ -35535,10 +35296,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/184818"
         },
         "population": 10203140,
-        "gini": {
-            "2010": 33.7
-        },
-        "fifa": "JOR",
+        "gini": 33.7
+        , "fifa": "JOR",
         "car": {
             "signs": [
                 "HKJ"
@@ -35740,10 +35499,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/184633"
         },
         "population": 29136808,
-        "gini": {
-            "2010": 32.8
-        },
-        "fifa": "NEP",
+        "gini": 32.8
+        , "fifa": "NEP",
         "car": {
             "signs": [
                 "NEP"
@@ -35951,10 +35708,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2067731"
         },
         "population": 69799978,
-        "gini": {
-            "2019": 34.9
-        },
-        "fifa": "THA",
+        "gini": 34.9
+        , "fifa": "THA",
         "car": {
             "signs": [
                 "T"
@@ -36171,10 +35926,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/214665"
         },
         "population": 18754440,
-        "gini": {
-            "2018": 27.8
-        },
-        "fifa": "KAZ",
+        "gini": 27.8
+        , "fifa": "KAZ",
         "car": {
             "signs": [
                 "KZ"
@@ -36378,10 +36131,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/28699"
         },
         "population": 3714000,
-        "gini": {
-            "2019": 35.9
-        },
-        "fifa": "GEO",
+        "gini": 35.9
+        , "fifa": "GEO",
         "car": {
             "signs": [
                 "GE"
@@ -36591,10 +36342,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/307573"
         },
         "population": 220892331,
-        "gini": {
-            "2018": 31.6
-        },
-        "fifa": "PAK",
+        "gini": 31.6
+        , "fifa": "PAK",
         "car": {
             "signs": [
                 "PK"
@@ -36799,10 +36548,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/364066"
         },
         "population": 2963234,
-        "gini": {
-            "2019": 29.9
-        },
-        "fifa": "ARM",
+        "gini": 29.9
+        , "fifa": "ARM",
         "car": {
             "signs": [
                 "AM"
@@ -37005,10 +36752,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/21335"
         },
         "population": 273523621,
-        "gini": {
-            "2019": 38.2
-        },
-        "fifa": "IDN",
+        "gini": 38.2
+        , "fifa": "IDN",
         "car": {
             "signs": [
                 "RI"
@@ -37209,10 +36954,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/382313"
         },
         "population": 125836021,
-        "gini": {
-            "2013": 32.9
-        },
-        "fifa": "JPN",
+        "gini": 32.9
+        , "fifa": "JPN",
         "car": {
             "signs": [
                 "J"
@@ -37418,10 +37161,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/49903"
         },
         "population": 7275556,
-        "gini": {
-            "2018": 38.8
-        },
-        "fifa": "LAO",
+        "gini": 38.8
+        , "fifa": "LAO",
         "car": {
             "signs": [
                 "LAO"
@@ -37628,10 +37369,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/184843"
         },
         "population": 6825442,
-        "gini": {
-            "2011": 31.8
-        },
-        "fifa": "LBN",
+        "gini": 31.8
+        , "fifa": "LBN",
         "car": {
             "signs": [
                 "RL"
@@ -37834,10 +37573,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/443174"
         },
         "population": 109581085,
-        "gini": {
-            "2018": 42.3
-        },
-        "fifa": "PHI",
+        "gini": 42.3
+        , "fifa": "PHI",
         "car": {
             "signs": [
                 "RP"
@@ -38035,6 +37772,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/378734"
         },
         "population": 1701583,
+        "gini": -1,
         "fifa": "BHR",
         "car": {
             "signs": [
@@ -38237,6 +37975,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/305095"
         },
         "population": 2881060,
+        "gini": -1,
         "fifa": "QAT",
         "car": {
             "signs": [
@@ -38444,10 +38183,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/214626"
         },
         "population": 9537642,
-        "gini": {
-            "2015": 34
-        },
-        "fifa": "TJK",
+        "gini": 34
+        , "fifa": "TJK",
         "car": {
             "signs": [
                 "TJ"
@@ -38667,10 +38404,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/270056"
         },
         "population": 1402112000,
-        "gini": {
-            "2016": 38.5
-        },
-        "fifa": "CHN",
+        "gini": 38.5
+        , "fifa": "CHN",
         "car": {
             "signs": [
                 "RC"
@@ -38872,10 +38607,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/305092"
         },
         "population": 29825968,
-        "gini": {
-            "2014": 36.7
-        },
-        "fifa": "YEM",
+        "gini": 36.7
+        , "fifa": "YEM",
         "car": {
             "signs": [
                 "YAR"
@@ -39089,10 +38822,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/304716"
         },
         "population": 1380004385,
-        "gini": {
-            "2011": 35.7
-        },
-        "fifa": "IND",
+        "gini": 35.7
+        , "fifa": "IND",
         "car": {
             "signs": [
                 "IND"
@@ -39294,6 +39025,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/305099"
         },
         "population": 4270563,
+        "gini": -1,
         "fifa": "KUW",
         "car": {
             "signs": [
@@ -39500,10 +39232,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/184840"
         },
         "population": 17500657,
-        "gini": {
-            "2003": 37.5
-        },
-        "fifa": "SYR",
+        "gini": 37.5
+        , "fifa": "SYR",
         "car": {
             "signs": [
                 "SYR"
@@ -39698,10 +39428,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/536773"
         },
         "population": 540542,
-        "gini": {
-            "2016": 31.3
-        },
-        "fifa": "MDV",
+        "gini": 31.3
+        , "fifa": "MDV",
         "car": {
             "signs": [
                 "MV"
@@ -39912,10 +39640,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/196240"
         },
         "population": 34232050,
-        "gini": {
-            "2003": 35.3
-        },
-        "fifa": "UZB",
+        "gini": 35.3
+        , "fifa": "UZB",
         "car": {
             "signs": [
                 "UZ"
@@ -40120,10 +39846,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/304938"
         },
         "population": 83992953,
-        "gini": {
-            "2018": 42
-        },
-        "fifa": "IRN",
+        "gini": 42
+        , "fifa": "IRN",
         "car": {
             "signs": [
                 "IR"
@@ -40329,10 +40053,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/50371"
         },
         "population": 54409794,
-        "gini": {
-            "2017": 30.7
-        },
-        "fifa": "MYA",
+        "gini": 30.7
+        , "fifa": "MYA",
         "car": {
             "signs": [
                 "BUR"
@@ -40540,10 +40262,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/536807"
         },
         "population": 21919000,
-        "gini": {
-            "2016": 39.3
-        },
-        "fifa": "SRI",
+        "gini": 39.3
+        , "fifa": "SRI",
         "car": {
             "signs": [
                 "CL"
@@ -40748,10 +40468,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/184629"
         },
         "population": 771612,
-        "gini": {
-            "2017": 37.4
-        },
-        "fifa": "BHU",
+        "gini": 37.4
+        , "fifa": "BHU",
         "car": {
             "signs": [
                 "BHT"
@@ -40961,10 +40679,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1703814"
         },
         "population": 4803269,
-        "gini": {
-            "2016": 33.7
-        },
-        "fifa": "PLE",
+        "gini": 33.7
+        , "fifa": "PLE",
         "car": {
             "signs": [
                 "PS"
@@ -41161,10 +40877,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/184640"
         },
         "population": 164689383,
-        "gini": {
-            "2016": 32.4
-        },
-        "fifa": "BAN",
+        "gini": 32.4
+        , "fifa": "BAN",
         "car": {
             "signs": [
                 "BD"
@@ -41376,6 +41090,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/536780"
         },
         "population": 5685807,
+        "gini": -1,
         "fifa": "SIN",
         "car": {
             "signs": [
@@ -41585,10 +41300,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/174737"
         },
         "population": 84339067,
-        "gini": {
-            "2019": 41.9
-        },
-        "fifa": "TUR",
+        "gini": 41.9
+        , "fifa": "TUR",
         "car": {
             "signs": [
                 "TR"
@@ -41792,10 +41505,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/307763"
         },
         "population": 9890400,
-        "gini": {
-            "2018": 26
-        },
-        "fifa": "UAE",
+        "gini": 26
+        , "fifa": "UAE",
         "car": {
             "signs": [
                 "UAE"
@@ -42006,6 +41717,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/303427"
         },
         "population": 40218234,
+        "gini": -1,
         "fifa": "AFG",
         "car": {
             "signs": [
@@ -42212,10 +41924,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/305142"
         },
         "population": 1318442,
-        "gini": {
-            "2014": 28.7
-        },
-        "fifa": "TLS",
+        "gini": 28.7
+        , "fifa": "TLS",
         "car": {
             "signs": [
                 "TL"
@@ -42414,10 +42124,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/49915"
         },
         "population": 97338583,
-        "gini": {
-            "2018": 35.7
-        },
-        "fifa": "VIE",
+        "gini": 35.7
+        , "fifa": "VIE",
         "car": {
             "signs": [
                 "VN"
@@ -42623,6 +42331,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/49898"
         },
         "population": 16718971,
+        "gini": -1,
         "fifa": "CAM",
         "car": {
             "signs": [
@@ -42839,10 +42548,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/304934"
         },
         "population": 40222503,
-        "gini": {
-            "2012": 29.5
-        },
-        "fifa": "IRQ",
+        "gini": 29.5
+        , "fifa": "IRQ",
         "car": {
             "signs": [
                 "IRQ"
@@ -43048,6 +42755,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2103120"
         },
         "population": 437483,
+        "gini": -1,
         "fifa": "BRU",
         "car": {
             "signs": [
@@ -43259,10 +42967,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/178009"
         },
         "population": 6591600,
-        "gini": {
-            "2019": 29.7
-        },
-        "fifa": "KGZ",
+        "gini": 29.7
+        , "fifa": "KGZ",
         "car": {
             "signs": [
                 "KS"
@@ -43467,10 +43173,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/364110"
         },
         "population": 10110116,
-        "gini": {
-            "2005": 26.6
-        },
-        "fifa": "AZE",
+        "gini": 26.6
+        , "fifa": "AZE",
         "car": {
             "signs": [
                 "AZ"
@@ -43672,6 +43376,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/913110"
         },
         "population": 7500700,
+        "gini": -1,
         "fifa": "HKG",
         "car": {
             "signs": [
@@ -43873,10 +43578,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2108121"
         },
         "population": 32365998,
-        "gini": {
-            "2015": 41.1
-        },
-        "fifa": "MAS",
+        "gini": 41.1
+        , "fifa": "MAS",
         "car": {
             "signs": [
                 "MAL"
@@ -44076,10 +43779,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/161033"
         },
         "population": 3278292,
-        "gini": {
-            "2018": 32.7
-        },
-        "fifa": "MNG",
+        "gini": 32.7
+        , "fifa": "MNG",
         "car": {
             "signs": [
                 "MGL"
@@ -44289,6 +43990,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/307584"
         },
         "population": 34813867,
+        "gini": -1,
         "fifa": "KSA",
         "car": {
             "signs": [
@@ -44496,10 +44198,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/223026"
         },
         "population": 6031187,
-        "gini": {
-            "1998": 40.8
-        },
-        "fifa": "TKM",
+        "gini": 40.8
+        , "fifa": "TKM",
         "car": {
             "signs": [
                 "TM"
@@ -44707,6 +44407,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/192734"
         },
         "population": 25778815,
+        "gini": -1,
         "fifa": "PRK",
         "car": {
             "signs": [
@@ -44917,10 +44618,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1473946"
         },
         "population": 9216900,
-        "gini": {
-            "2016": 39
-        },
-        "fifa": "ISR",
+        "gini": 39
+        , "fifa": "ISR",
         "car": {
             "signs": [
                 "IL"
@@ -45123,6 +44822,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/305138"
         },
         "population": 5106622,
+        "gini": -1,
         "fifa": "OMA",
         "car": {
             "signs": [
@@ -45324,6 +45024,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1867188"
         },
         "population": 649342,
+        "gini": -1,
         "fifa": "MAC",
         "car": {
             "signs": [
@@ -45515,6 +45216,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/3407643"
         },
         "population": 271960,
+        "gini": -1,
         "fifa": "NCL",
         "car": {
             "signs": [
@@ -45710,10 +45412,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1857436"
         },
         "population": 686878,
-        "gini": {
-            "2012": 37.1
-        },
-        "fifa": "SOL",
+        "gini": 37.1
+        , "fifa": "SOL",
         "car": {
             "signs": [
                 "SOL"
@@ -45912,6 +45612,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/571771"
         },
         "population": 59194,
+        "gini": -1,
         "car": {
             "signs": [
                 "MH"
@@ -46116,10 +45817,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2177246"
         },
         "population": 307150,
-        "gini": {
-            "2010": 37.6
-        },
-        "fifa": "VAN",
+        "gini": 37.6
+        , "fifa": "VAN",
         "car": {
             "signs": [
                 "VU"
@@ -46315,6 +46014,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1558556"
         },
         "population": 1470,
+        "gini": -1,
         "car": {
             "signs": [
                 "NZ"
@@ -46513,9 +46213,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/571804"
         },
         "population": 10834,
-        "gini": {
-            "2012": 34.8
-        },
+        "gini": 34.8,
         "car": {
             "signs": [
                 "NAU"
@@ -46704,6 +46402,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/82636"
         },
         "population": 544,
+        "gini": -1,
         "car": {
             "signs": [
                 "AUS"
@@ -46907,10 +46606,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/571747"
         },
         "population": 896444,
-        "gini": {
-            "2013": 36.7
-        },
-        "fifa": "FIJ",
+        "gini": 36.7
+        , "fifa": "FIJ",
         "car": {
             "signs": [
                 "FJI"
@@ -47099,6 +46796,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/3412448"
         },
         "population": 11750,
+        "gini": -1,
         "car": {
             "signs": [
                 "F"
@@ -47302,6 +47000,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2184233"
         },
         "population": 18100,
+        "gini": -1,
         "fifa": "COK",
         "car": {
             "signs": [
@@ -47493,10 +47192,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/80500"
         },
         "population": 25687041,
-        "gini": {
-            "2014": 34.4
-        },
-        "fifa": "AUS",
+        "gini": 34.4
+        , "fifa": "AUS",
         "car": {
             "signs": [
                 "AUS"
@@ -47708,9 +47405,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2177266"
         },
         "population": 11792,
-        "gini": {
-            "2010": 39.1
-        },
+        "gini": 39.1,
         "car": {
             "signs": [
                 "TUV"
@@ -47903,6 +47598,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2185375"
         },
         "population": 56,
+        "gini": -1,
         "car": {
             "signs": [
                 "GB"
@@ -48088,6 +47784,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/6365444"
         },
         "population": 2072,
+        "gini": -1,
         "car": {
             "signs": [
                 "AUS"
@@ -48289,6 +47986,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/306001"
         },
         "population": 168783,
+        "gini": -1,
         "fifa": "GUM",
         "car": {
             "signs": [
@@ -48489,10 +48187,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2186665"
         },
         "population": 105697,
-        "gini": {
-            "2015": 37.6
-        },
-        "fifa": "TGA",
+        "gini": 37.6
+        , "fifa": "TGA",
         "car": {
             "signs": [
                 "TO"
@@ -48689,6 +48385,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2186600"
         },
         "population": 1411,
+        "gini": -1,
         "car": {
             "signs": [
                 ""
@@ -48885,10 +48582,8 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/1872673"
         },
         "population": 198410,
-        "gini": {
-            "2013": 38.7
-        },
-        "fifa": "SAM",
+        "gini": 38.7
+        , "fifa": "SAM",
         "car": {
             "signs": [
                 "WS"
@@ -49091,9 +48786,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/571178"
         },
         "population": 119446,
-        "gini": {
-            "2006": 37
-        },
+        "gini": 37,
         "car": {
             "signs": [
                 "KIR"
@@ -49500,10 +49193,8 @@ export const countries = [
             "openStreetMaps": "https://goo.gl/maps/ChGmzZBjZ3vnBwR2A"
         },
         "population": 8947027,
-        "gini": {
-            "2009": 41.9
-        },
-        "fifa": "PNG",
+        "gini": 41.9
+        , "fifa": "PNG",
         "car": {
             "signs": [
                 "PNG"
@@ -49909,6 +49600,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/2177187"
         },
         "population": 55197,
+
         "fifa": "ASA",
         "car": {
             "signs": [
@@ -50707,9 +50399,7 @@ export const countries = [
             "openStreetMaps": "https://www.openstreetmap.org/relation/571802"
         },
         "population": 115021,
-        "gini": {
-            "2013": 40.1
-        },
+        "gini": 40.1,
         "car": {
             "signs": [
                 "FSM"
