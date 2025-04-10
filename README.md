@@ -1,54 +1,33 @@
-# React + TypeScript + Vite
+DiPiRi
+(Dream, Plan, Rembember)
+===
+DiPiRi is an informative travel planning website in English. It provides essential information for planning your trips, such as weather forecasts, currency exchange rates, and living standards (e.g., economic status of countries), without booking options. It's purely informational to help you plan your journey!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Installation
 
-Currently, two official plugins are available:
+Since DiPiRi is hosted on GitHub Pages, there is no installation required. Simply visit the website to start planning your trip!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Usage
 
-## Expanding the ESLint configuration
+To use DiPiRi, navigate to the website and explore the various features:
+- Check the weather for your destination.
+-  Learn about the local currency used in different countries
+- Know about the living standards in different countries.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## About the Project
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+DiPiRi aims to be your go-to platform for travel planning by offering:
+- **Weather Forecasts**: Get up-to-date weather information for your destination.
+- **Currency Information**: Learn about the local currency used in different countries (e.g., $, €).
+- **Living Standards**: Understand the economic status of different countries to plan your budget accordingly.
+- **Recommendations**: See different recommendations when you first arrive on the main page to inspire your travel plans.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Contact
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Feel free to reach out to us with any questions or suggestions:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- [ErnestDaph](https://www.linkedin.com/in/daphnee-ernest/)
+- [LaurentKatsesSandalman](https://www.linkedin.com/in/laurent-durup-85598035?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- [heremel](https://www.linkedin.com/in/m%C3%A9lissa-ferreira-61a84b286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+
+###### tags: `Documentation` `React Project`
