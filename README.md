@@ -9,7 +9,7 @@ Since DiPiRi is hosted on GitHub Pages, there is no installation required. Simpl
 
 ## Usage
 
-To use DiPiRi, navigate to the website and explore the various features:
+To use DiPiRi, go to the website and explore the various features:
 - Check the weather for your destination.
 -  Learn about the local currency used in different countries
 - Know about the living standards in different countries.
