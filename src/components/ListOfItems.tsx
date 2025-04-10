@@ -1,5 +1,7 @@
 import styles from "./../assets/styles/ListOfItems.module.css";
 import PopUp from "./PopUp";
+import { countries } from "../databases/countries";
+import { weathers } from "../databases/weather";
 const fakeObject = {
 	countries: [
 		{
@@ -24,26 +26,29 @@ const fakeObject = {
 };
 
 function ListOfItems() {
+	for (let country of fakeObject.countries) {
+		country.longitude = countries.latlng[0]
+	}
 	return (
-	  <>
-		<div className={styles.container}>
-		  {fakeObject.countries.map((country, index) => (
-			<div
-			  key={index}
-			  className={styles.img}
-			  style={{
-				backgroundImage: `url(${country.image})`,
-			  }}
-			>
-			  <div className={styles.textOverlay}>
-				<h2>{country.name}</h2>
-				<p>Température : {country.temperature} °C</p>
-				<p>Devise : {country.currency}</p>
-			  </div>
+		<>
+			<div className={styles.container}>
+				{fakeObject.countries.map((country, index) => (
+					<div
+						key={index}
+						className={styles.img}
+						style={{
+							backgroundImage: `url(${country.image})`,
+						}}
+					>
+						<div className={styles.textOverlay}>
+							<h2>{country.name}</h2>
+							<p>Température : {country.temperature} °C</p>
+							<p>Devise : {country.currency}</p>
+						</div>
+					</div>
+				))}
 			</div>
-		  ))}
-		</div>
-	  </>
+		</>
 	)
 };
 
