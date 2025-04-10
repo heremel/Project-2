@@ -1,11 +1,11 @@
 import styles from "./../assets/styles/ListOfItems.module.css";
 import PopUp from "./PopUp";
-import React, { useState } from "react";
+import { useState } from "react";
 const fakeObject = {
 	countries: [
 		{
 			name: "France",
-			temperature: 25,
+			temperature: 12,
 			currency: "Euro",
 			image: "https://img.freepik.com/photos-gratuite/capture-verticale-magnifique-tour-eiffel-capturee-paris-france_181624-45445.jpg",
 			popupInfo:{
@@ -16,7 +16,7 @@ const fakeObject = {
 		},
 		{
 			name: "Canada",
-			temperature: 15,
+			temperature: -5,
 			currency: "Dollar Canadien",
 			image: "https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
 			popupInfo:{
@@ -35,6 +35,17 @@ const fakeObject = {
 				touristSpots: ["Le Rila Monastery", "Sofia", "Plovdiv"],
 				famousFood: "Banista"
 			}
+		},
+		{
+			name: "Japon",
+			temperature: 16,
+			currency: "Yen",
+			image: "https://img.freepik.com/free-photo/beautiful-aerial-shot-modern-city-architecture-with-illuminated-tower-side_181624-1714.jpg?semt=ais_hybrid&w=740",
+			popupInfo: {
+			  culturalFacts: "Le Japon est réputé pour sa technologie avancée et sa culture traditionnelle.",
+			  touristSpots: ["Mont Fuji", "Temple Senso-ji", "Château d'Osaka"],
+			  famousFood: "Sushi, Ramen"
+			}
 		}
 	]
 };
@@ -42,10 +53,10 @@ const fakeObject = {
 function ListOfItems() {
 	const [selectedCountryIndex, setSelectedCountryIndex] = useState<number | null>(null);
 	const windowpopup = (index: number) => {
-		setSelectedCountryIndex(index); //met popup a true pour afficher la popup
+		setSelectedCountryIndex(index);
 	};
 	const windowclosepopup = () => {
-		setSelectedCountryIndex(null); //met la popup a false pour la re-cacher
+		setSelectedCountryIndex(null);
 	};
 	return (
 		<>
@@ -55,7 +66,7 @@ function ListOfItems() {
 				key={index}
 				className={styles.img}
 				style={{
-				  backgroundImage: `url(${country.image})`, // Utiliser l'image comme fond
+				  backgroundImage: `url(${country.image})`,
 				}}
 			  >
 				<div className={styles.textOverlay}>
