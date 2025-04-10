@@ -10,7 +10,7 @@ const fakeObject = {
 			image: "https://img.freepik.com/photos-gratuite/capture-verticale-magnifique-tour-eiffel-capturee-paris-france_181624-45445.jpg",
 			popupInfo:{
 				culturalFacts: "J'en ai pas",
-				touristSpots: ["La Tour Eiffel", "Le Louvre", "Le Mont Saint-Michel"],
+				touristSpots: ["The Eiffel Tower", "The Louvre", "The Mont Saint-Michel"],
 				famousFood: "Baguette, Croissant"
 			}
 		},
