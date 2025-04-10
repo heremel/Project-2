@@ -1,7 +1,7 @@
 DiPiRi
 (Dream, Plan, Rembember)
 ===
-DiPiRi is an informative travel planning website in English. It provides essential information for planning your trips, such as weather forecasts, currency exchange rates, and living standards (e.g., economic status of countries), without booking options. It's purely informational to help you plan your journey!
+DiPiRi is an informative travel planning website in English. It provides essential information for planning your trips, such as weather forecasts, currency exchange rates, and living standards (e.g., inequality rate in each country), without booking options. It's purely informational to help you plan your journey!
 
 ## Installation
 
