@@ -1,6 +1,4 @@
-import React, { useState } from "react";
 import styles from "./../assets/styles/PopUp.module.css";
-import ListOfItems from "./ListOfItems";
 
 type PopupInfo = {
 	culturalFacts: string;
