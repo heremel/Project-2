@@ -62,27 +62,30 @@ export const fakeObject = {
 };
 
 function ListOfItems() {
-	const [selectedCountryIndex, setSelectedCountryIndex] = useState<
-		number | null
-	>(null);
-	const windowpopup = (index: number) => {
-		setSelectedCountryIndex(index);
+	const [selectedCountry, setSelectedCountry] = useState(null);
+
+	const windowpopup = (country) => {
+		console.log(country); // crée un type country
+		setSelectedCountry(country);
 	};
 	const windowclosepopup = () => {
-		setSelectedCountryIndex(null);
+		setSelectedCountry(null);
 	};
 	return (
 		<>
 			<div className={styles.container}>
 				{fakeObject.countries.map((country, index) => (
-					<Item />
+					<Item
+						currentCountry={country}
+						key={index}
+						handleClickPopup={windowpopup}
+					/> // currentCountry = props dont va avoir besoin le composant item pour fonctionner
+					//valeur fournis c'est country entre les accolades, c'est une valeur dynamique et country cest la valeur qu'attends mon
+					//composant,
 				))}
 			</div>
-			{selectedCountryIndex !== null && (
-				<PopUp
-					country={fakeObject.countries[selectedCountryIndex]}
-					closePopup={windowclosepopup}
-				/>
+			{selectedCountry !== null && (
+				<PopUp country={selectedCountry} closePopup={windowclosepopup} />
 			)}
 		</>
 	);
