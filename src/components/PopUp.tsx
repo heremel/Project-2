@@ -2,27 +2,38 @@ import React, { useState } from "react";
 import styles from "./../assets/styles/PopUp.module.css";
 import ListOfItems from "./ListOfItems";
 
-function PopUp(){
-	const [isPopupOpen, setIsPopupOpen] = useState(false); //false pour cacher la popup par défault
+type PopupInfo = {
+	culturalFacts: string;
+	touristSpots: string[];
+	famousFood: string;
+  };
 
-	const windowpopup = () => {
-			setIsPopupOpen(true); //met popup a true pour afficher la popup
-	};
-	const windowclosepopup = () => {
-		setIsPopupOpen(false); //met la popup a false pour la re-cacher
-	};
+type Country = {
+	name: string;
+	temperature: number;
+	currency: string;
+	image: string;
+	popupInfo: PopupInfo;
+  };
+  
+  type PopUpProps = {
+	country: Country;
+	closePopup: () => void;
+  };
 
-	return(
-		<>
-		<button type="button" onClick={windowpopup}>More Info</button>
-		<button type="button" onClick={windowclosepopup}>Close</button>
-		{isPopupOpen && (
-          <div className={styles.popUp}>
-			<h1>boo</h1>
+function PopUp({country, closePopup}: PopUpProps){
+	const { popupInfo } = country;
+	return (
+		<div className={styles.popUp}>
+		  <div className={styles.popupContent}>
+			<h3>Informations supplémentaires</h3>
+			<p>Culture : {popupInfo.culturalFacts}</p>
+			<p>Tourists Spots : {popupInfo.touristSpots.join(", ")}</p>
+			<p>Famous Dishes : {popupInfo.famousFood}</p>
+			<button type="button" onClick={closePopup}>Fermer</button>
 		  </div>
-      	)}
-		</>
-	)
-}
+		</div>
+	  );
+	}
 
 export default PopUp;

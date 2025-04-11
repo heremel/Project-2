@@ -74,7 +74,6 @@ function App() {
   return (
     <>
       <ListOfItems countries={countries} weathers={weathers} />
-      <PopUp />
     </>
   )
 }
