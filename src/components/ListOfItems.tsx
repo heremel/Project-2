@@ -54,8 +54,14 @@ const fakeObject = {
 };
 
 function ListOfItems() {
-<<<<<<< HEAD
 
+	const [selectedCountryIndex, setSelectedCountryIndex] = useState<number | null>(null);
+	const windowpopup = (index: number) => {
+		setSelectedCountryIndex(index);
+	};
+	const windowclosepopup = () => {
+		setSelectedCountryIndex(null);
+	};
 	return (
 		<>
 			<div className={styles.container}>
@@ -68,6 +74,7 @@ function ListOfItems() {
 						}}
 					>
 						<div className={styles.textOverlay}>
+							<button type="button" onClick={() => windowpopup(index)}>More Info</button>
 							<h2>{country.name}</h2>
 							<p>Température : {country.temperature} °C</p>
 							<p>Devise : {country.currency}</p>
@@ -75,48 +82,17 @@ function ListOfItems() {
 					</div>
 				))}
 			</div>
-		</>
-	)
-};
-=======
-	const [selectedCountryIndex, setSelectedCountryIndex] = useState<number | null>(null);
-	const windowpopup = (index: number) => {
-		setSelectedCountryIndex(index);
-	};
-	const windowclosepopup = () => {
-		setSelectedCountryIndex(null);
-	};
-	return (
-		<>
-		  <div className={styles.container}>
-			{fakeObject.countries.map((country, index) => (
-			  <div
-				key={index}
-				className={styles.img}
-				style={{
-				  backgroundImage: `url(${country.image})`,
-				}}
-			  >
-				<div className={styles.textOverlay}>
-				  <button type="button" onClick={() => windowpopup(index)}>More Info</button>
-				  <h2>{country.name}</h2>
-				  <p>Température : {country.temperature} °C</p>
-				  <p>Devise : {country.currency}</p>
-				</div>
-			  </div>
-			))}
-		  </div>
 
-		  {selectedCountryIndex !== null && (
-			<PopUp
-			  country={fakeObject.countries[selectedCountryIndex]} // Passer les données du pays à la pop-up
-			  closePopup={windowclosepopup}
-			/>
-		  )}
+			{selectedCountryIndex !== null && (
+				<PopUp
+					country={fakeObject.countries[selectedCountryIndex]} // Passer les données du pays à la pop-up
+					closePopup={windowclosepopup}
+				/>
+			)}
 		</>
-	  );
-	}
+	);
+}
 
->>>>>>> origin/popup-branch
+
 
 export default ListOfItems;
