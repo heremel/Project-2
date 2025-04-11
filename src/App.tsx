@@ -1,6 +1,5 @@
 import './App.css'
 import ListOfItems from './components/ListOfItems';
-import PopUp from './components/PopUp';
 import { countries } from './databases/countries';
 import { weathers } from './databases/weather';
 
@@ -9,17 +8,24 @@ export interface Country {
     common: string,
     official: string,
   },
-  currencies?: object,
+  currencies: string,
   capital: string[],
   region: string,
   subregion: string,
-  languages?: object,
+  languages: string[],
+  landlocked: boolean, // le pays est-il sans accès à la mer
   latlng: [number, number],
-  demonyms: {
+  demonyms: { // va servir pour les plats
     eng: {
-      masc: string
+      fem: string,
+      masc: string,
+    },
+    fra: {
+      fem: string,
+      masc: string,
     }
   }
+  flag: string,
   maps: {
     googleMaps: string,
     openStreetMaps: string
@@ -39,6 +45,8 @@ export interface Country {
     latlng: [number, number]
   },
 }
+
+export type Countries = Country[]
 
 export interface Weather {
   latitude: number,
@@ -68,6 +76,8 @@ export interface Weather {
     precipitation_hours: number[],
   }
 }
+
+export type Weathers = Weather[]
 
 function App() {
 

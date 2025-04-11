@@ -1,4 +1,6 @@
-export const countries = [
+import { Countries } from "../App";
+
+export const countries: Countries = [
 
     {
         name: {
@@ -1139,12 +1141,7 @@ export const countries = [
         name: {
             common: "Gibraltar",
             official: "Gibraltar",
-            "nativeName": {
-                eng: {
-                    official: "Gibraltar",
-                    common: "Gibraltar"
-                }
-            }
+
         },
 
         currencies: "Gibraltar pound",
@@ -7295,7 +7292,7 @@ export const countries = [
             region: "Africa",
                 subregion: "Northern Africa",
                     languages: [
-                        "ara": "Arabic",
+                        "Arabic",
                         "ber": "Berber"
                     ],
                         "translations": {
@@ -7909,7 +7906,7 @@ export const countries = [
             region: "Africa",
                 subregion: "Eastern Africa",
                     languages: [
-                        "ara": "Arabic",
+                        "Arabic",
                         "English",
                         "tir": "Tigrinya"
                     ],
@@ -8323,7 +8320,7 @@ export const countries = [
             region: "Africa",
                 subregion: "Northern Africa",
                     languages: [
-                        "ara": "Arabic"
+                        "Arabic"
                     ],
                         "translations": {
         "ara": {
@@ -8530,7 +8527,7 @@ export const countries = [
             region: "Africa",
                 subregion: "Western Africa",
                     languages: [
-                        "ara": "Arabic"
+                        "Arabic"
                     ],
                         "translations": {
         "ara": {
@@ -8735,7 +8732,7 @@ export const countries = [
             region: "Africa",
                 subregion: "Northern Africa",
                     languages: [
-                        "ara": "Arabic",
+                        "Arabic",
                         "English"
                     ],
                         "translations": {
@@ -9558,7 +9555,7 @@ export const countries = [
             region: "Africa",
                 subregion: "Northern Africa",
                     languages: [
-                        "ara": "Arabic"
+                        "Arabic"
                     ],
                         "translations": {
         "ara": {
@@ -11452,7 +11449,7 @@ export const countries = [
             region: "Africa",
                 subregion: "Northern Africa",
                     languages: [
-                        "ara": "Arabic"
+                        "Arabic"
                     ],
                         "translations": {
         "ara": {
@@ -13482,7 +13479,7 @@ export const countries = [
             region: "Africa",
                 subregion: "Eastern Africa",
                     languages: [
-                        "ara": "Arabic",
+                        "Arabic",
                         "som": "Somali"
                     ],
                         "translations": {
@@ -14304,7 +14301,7 @@ export const countries = [
             region: "Africa",
                 subregion: "Northern Africa",
                     languages: [
-                        "ara": "Arabic"
+                        "Arabic"
                     ],
                         "translations": {
         "ara": {
@@ -16404,7 +16401,7 @@ export const countries = [
             region: "Africa",
                 subregion: "Eastern Africa",
                     languages: [
-                        "ara": "Arabic",
+                        "Arabic",
                         "French",
                         "zdj": "Comorian"
                     ],
@@ -17011,7 +17008,7 @@ export const countries = [
             region: "Africa",
                 subregion: "Middle Africa",
                     languages: [
-                        "ara": "Arabic",
+                        "Arabic",
                         "French"
                     ],
                         "translations": {
@@ -18500,7 +18497,7 @@ export const countries = [
             region: "Africa",
                 subregion: "Eastern Africa",
                     languages: [
-                        "ara": "Arabic",
+                        "Arabic",
                         "French"
                     ],
                         "translations": {
@@ -30960,7 +30957,7 @@ export const countries = [
             region: "Asia",
                 subregion: "Western Asia",
                     languages: [
-                        "ara": "Arabic"
+                        "Arabic"
                     ],
                         "translations": {
         "ara": {
@@ -33024,7 +33021,7 @@ export const countries = [
             region: "Asia",
                 subregion: "Western Asia",
                     languages: [
-                        "ara": "Arabic",
+                        "Arabic",
                         "French"
                     ],
                         "translations": {
@@ -33429,7 +33426,7 @@ export const countries = [
             region: "Asia",
                 subregion: "Western Asia",
                     languages: [
-                        "ara": "Arabic"
+                        "Arabic"
                     ],
                         "translations": {
         "ara": {
@@ -33627,7 +33624,7 @@ export const countries = [
             region: "Asia",
                 subregion: "Western Asia",
                     languages: [
-                        "ara": "Arabic"
+                        "Arabic"
                     ],
                         "translations": {
         "ara": {
@@ -34256,7 +34253,7 @@ export const countries = [
             region: "Asia",
                 subregion: "Western Asia",
                     languages: [
-                        "ara": "Arabic"
+                        "Arabic"
                     ],
                         "translations": {
         "ara": {
@@ -34673,7 +34670,7 @@ export const countries = [
             region: "Asia",
                 subregion: "Western Asia",
                     languages: [
-                        "ara": "Arabic"
+                        "Arabic"
                     ],
                         "translations": {
         "ara": {
@@ -34876,7 +34873,7 @@ export const countries = [
             region: "Asia",
                 subregion: "Western Asia",
                     languages: [
-                        "ara": "Arabic"
+                        "Arabic"
                     ],
                         "translations": {
         "ara": {
@@ -36319,7 +36316,7 @@ export const countries = [
             region: "Asia",
                 subregion: "Western Asia",
                     languages: [
-                        "ara": "Arabic"
+                        "Arabic"
                     ],
                         "translations": {
         "ara": {
@@ -37143,7 +37140,7 @@ export const countries = [
             region: "Asia",
                 subregion: "Western Asia",
                     languages: [
-                        "ara": "Arabic"
+                        "Arabic"
                     ],
                         "translations": {
         "ara": {
@@ -38178,7 +38175,7 @@ export const countries = [
             region: "Asia",
                 subregion: "Western Asia",
                     languages: [
-                        "ara": "Arabic",
+                        "Arabic",
                         "arc": "Aramaic",
                         "ckb": "Sorani"
                     ],
@@ -39613,7 +39610,7 @@ export const countries = [
             region: "Asia",
                 subregion: "Western Asia",
                     languages: [
-                        "ara": "Arabic"
+                        "Arabic"
                     ],
                         "translations": {
         "ara": {
@@ -40238,7 +40235,7 @@ export const countries = [
             region: "Asia",
                 subregion: "Western Asia",
                     languages: [
-                        "ara": "Arabic",
+                        "Arabic",
                         "heb": "Hebrew"
                     ],
                         "translations": {
@@ -40444,7 +40441,7 @@ export const countries = [
             region: "Asia",
                 subregion: "Western Asia",
                     languages: [
-                        "ara": "Arabic"
+                        "Arabic"
                     ],
                         "translations": {
         "ara": {
