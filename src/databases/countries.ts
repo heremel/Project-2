@@ -169,14 +169,14 @@ export const countries = [
             "RUS"
         ],
         "area": 323802,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Norwegian",
-                "m": "Norwegian"
+                masc: "Norwegian"
             },
             "fra": {
                 "f": "Norvégienne",
-                "m": "Norvégien"
+                masc: "Norvégien"
             }
         },
         flag: "🇳🇴",
@@ -375,14 +375,14 @@ export const countries = [
             "MKD"
         ],
         "area": 131990,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Greek",
-                "m": "Greek"
+                masc: "Greek"
             },
             "fra": {
                 "f": "Grecque",
-                "m": "Grec"
+                masc: "Grec"
             }
         },
         flag: "🇬🇷",
@@ -574,14 +574,14 @@ export const countries = [
         latlng: [60.116667, 19.9],
         "landlocked": false,
         "area": 1580,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Ålandish",
-                "m": "Ålandish"
+                masc: "Ålandish"
             },
             "fra": {
                 "f": "Ålandaise",
-                "m": "Ålandais"
+                masc: "Ålandais"
             }
         },
         flag: "🇦🇽",
@@ -792,14 +792,14 @@ export const countries = [
             "DEU"
         ],
         "area": 41284,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Swiss",
-                "m": "Swiss"
+                masc: "Swiss"
             },
             "fra": {
                 "f": "Suisse",
-                "m": "Suisse"
+                masc: "Suisse"
             }
         },
         flag: "🇨🇭",
@@ -999,14 +999,14 @@ export const countries = [
             "SVN"
         ],
         "area": 56594,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Croatian",
-                "m": "Croatian"
+                masc: "Croatian"
             },
             "fra": {
                 "f": "Croate",
-                "m": "Croate"
+                masc: "Croate"
             }
         },
         flag: "🇭🇷",
@@ -1199,14 +1199,14 @@ export const countries = [
         latlng: [65, -18],
         "landlocked": false,
         "area": 103000,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Icelander",
-                "m": "Icelander"
+                masc: "Icelander"
             },
             "fra": {
                 "f": "Islandaise",
-                "m": "Islandais"
+                masc: "Islandais"
             }
         },
         flag: "🇮🇸",
@@ -1415,14 +1415,14 @@ export const countries = [
             "DEU"
         ],
         "area": 2586,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Luxembourger",
-                "m": "Luxembourger"
+                masc: "Luxembourger"
             },
             "fra": {
                 "f": "Luxembourgeoise",
-                "m": "Luxembourgeois"
+                masc: "Luxembourgeois"
             }
         },
         flag: "🇱🇺",
@@ -1621,14 +1621,14 @@ export const countries = [
             "UKR"
         ],
         "area": 93028,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Hungarian",
-                "m": "Hungarian"
+                masc: "Hungarian"
             },
             "fra": {
                 "f": "Hongroise",
-                "m": "Hongrois"
+                masc: "Hongrois"
             }
         },
         flag: "🇭🇺",
@@ -1825,14 +1825,14 @@ export const countries = [
             "DEU"
         ],
         "area": 41850,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Dutch",
-                "m": "Dutch"
+                masc: "Dutch"
             },
             "fra": {
                 "f": "Néerlandaise",
-                "m": "Néerlandais"
+                masc: "Néerlandais"
             }
         },
         flag: "🇳🇱",
@@ -2030,14 +2030,14 @@ export const countries = [
             "RUS"
         ],
         "area": 65300,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Lithuanian",
-                "m": "Lithuanian"
+                masc: "Lithuanian"
             },
             "fra": {
                 "f": "Lituanienne",
-                "m": "Lituanien"
+                masc: "Lituanien"
             }
         },
         flag: "🇱🇹",
@@ -2236,14 +2236,14 @@ export const countries = [
             "UKR"
         ],
         "area": 49037,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Slovak",
-                "m": "Slovak"
+                masc: "Slovak"
             },
             "fra": {
                 "f": "Slovaque",
-                "m": "Slovaque"
+                masc: "Slovaque"
             }
         },
         flag: "🇸🇰",
@@ -2439,14 +2439,14 @@ export const countries = [
             "CHE"
         ],
         "area": 160,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Liechtensteiner",
-                "m": "Liechtensteiner"
+                masc: "Liechtensteiner"
             },
             "fra": {
                 "f": "Liechtensteinoise",
-                "m": "Liechtensteinois"
+                masc: "Liechtensteinois"
             }
         },
         flag: "🇱🇮",
@@ -2643,14 +2643,14 @@ export const countries = [
             "UKR"
         ],
         "area": 33846,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Moldovan",
-                "m": "Moldovan"
+                masc: "Moldovan"
             },
             "fra": {
                 "f": "Moldave",
-                "m": "Moldave"
+                masc: "Moldave"
             }
         },
         flag: "🇲🇩",
@@ -2850,14 +2850,14 @@ export const countries = [
             "VAT"
         ],
         "area": 301336,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Italian",
-                "m": "Italian"
+                masc: "Italian"
             },
             "fra": {
                 "f": "Italienne",
-                "m": "Italien"
+                masc: "Italien"
             }
         },
         flag: "🇮🇹",
@@ -2903,7 +2903,7 @@ export const countries = [
             common: "Jersey",
             official: "Bailiwick of Jersey",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Bailiwick of Jersey",
                     common: "Jersey"
                 },
@@ -2954,7 +2954,7 @@ export const countries = [
         region: "Europe",
         subregion: "Northern Europe",
         languages: {
-            "eng": "English",
+            eng: "English",
             "fra": "French",
             "nrf": "Jèrriais"
         },
@@ -3063,14 +3063,14 @@ export const countries = [
         latlng: [49.25, -2.16666666],
         "landlocked": false,
         "area": 116,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Channel Islander",
-                "m": "Channel Islander"
+                masc: "Channel Islander"
             },
             "fra": {
                 "f": "Jersiaise",
-                "m": "Jersiais"
+                masc: "Jersiais"
             }
         },
         flag: "🇯🇪",
@@ -3263,14 +3263,14 @@ export const countries = [
             "FRA"
         ],
         "area": 2.02,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Monegasque",
-                "m": "Monegasque"
+                masc: "Monegasque"
             },
             "fra": {
                 "f": "Monégasque",
-                "m": "Monégasque"
+                masc: "Monégasque"
             }
         },
         flag: "🇲🇨",
@@ -3475,14 +3475,14 @@ export const countries = [
             "UKR"
         ],
         "area": 207600,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Belarusian",
-                "m": "Belarusian"
+                masc: "Belarusian"
             },
             "fra": {
                 "f": "Biélorusse",
-                "m": "Biélorusse"
+                masc: "Biélorusse"
             }
         },
         flag: "🇧🇾",
@@ -3680,14 +3680,14 @@ export const countries = [
             "RUS"
         ],
         "area": 64559,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Latvian",
-                "m": "Latvian"
+                masc: "Latvian"
             },
             "fra": {
                 "f": "Lettone",
-                "m": "Letton"
+                masc: "Letton"
             }
         },
         flag: "🇱🇻",
@@ -3883,14 +3883,14 @@ export const countries = [
             "ESP"
         ],
         "area": 468,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Andorran",
-                "m": "Andorran"
+                masc: "Andorran"
             },
             "fra": {
                 "f": "Andorrane",
-                "m": "Andorran"
+                masc: "Andorran"
             }
         },
         flag: "🇦🇩",
@@ -4092,14 +4092,14 @@ export const countries = [
             "CHE"
         ],
         "area": 551695,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "French",
-                "m": "French"
+                masc: "French"
             },
             "fra": {
                 "f": "Française",
-                "m": "Français"
+                masc: "Français"
             }
         },
         flag: "🇫🇷",
@@ -4158,7 +4158,7 @@ export const countries = [
             common: "Gibraltar",
             official: "Gibraltar",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Gibraltar",
                     common: "Gibraltar"
                 }
@@ -4194,7 +4194,7 @@ export const countries = [
         region: "Europe",
         subregion: "Southern Europe",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -4304,14 +4304,14 @@ export const countries = [
             "ESP"
         ],
         "area": 6,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Gibraltar",
-                "m": "Gibraltar"
+                masc: "Gibraltar"
             },
             "fra": {
                 "f": "Gibraltarienne",
-                "m": "Gibraltarien"
+                masc: "Gibraltarien"
             }
         },
         flag: "🇬🇮",
@@ -4502,14 +4502,14 @@ export const countries = [
             "DEU"
         ],
         "area": 43094,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Danish",
-                "m": "Danish"
+                masc: "Danish"
             },
             "fra": {
                 "f": "Danoise",
-                "m": "Danois"
+                masc: "Danois"
             }
         },
         flag: "🇩🇰",
@@ -4714,14 +4714,14 @@ export const countries = [
             "SRB"
         ],
         "area": 25713,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Macedonian",
-                "m": "Macedonian"
+                masc: "Macedonian"
             },
             "fra": {
                 "f": "Macédonienne",
-                "m": "Macédonien"
+                masc: "Macédonien"
             }
         },
         flag: "🇲🇰",
@@ -4767,7 +4767,7 @@ export const countries = [
             common: "Malta",
             official: "Republic of Malta",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Republic of Malta",
                     common: "Malta"
                 },
@@ -4810,7 +4810,7 @@ export const countries = [
         region: "Europe",
         subregion: "Southern Europe",
         languages: {
-            "eng": "English",
+            eng: "English",
             "mlt": "Maltese"
         },
         "translations": {
@@ -4918,14 +4918,14 @@ export const countries = [
         latlng: [35.9375, 14.3754],
         "landlocked": false,
         "area": 316,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Maltese",
-                "m": "Maltese"
+                masc: "Maltese"
             },
             "fra": {
                 "f": "Maltaise",
-                "m": "Maltais"
+                masc: "Maltais"
             }
         },
         flag: "🇲🇹",
@@ -5128,14 +5128,14 @@ export const countries = [
             "SVK"
         ],
         "area": 78865,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Czech",
-                "m": "Czech"
+                masc: "Czech"
             },
             "fra": {
                 "f": "Tchèque",
-                "m": "Tchèque"
+                masc: "Tchèque"
             }
         },
         flag: "🇨🇿",
@@ -5181,7 +5181,7 @@ export const countries = [
             common: "Guernsey",
             official: "Bailiwick of Guernsey",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Bailiwick of Guernsey",
                     common: "Guernsey"
                 },
@@ -5231,7 +5231,7 @@ export const countries = [
         region: "Europe",
         subregion: "Northern Europe",
         languages: {
-            "eng": "English",
+            eng: "English",
             "fra": "French",
             "nfr": "Guernésiais"
         },
@@ -5340,14 +5340,14 @@ export const countries = [
         latlng: [49.46666666, -2.58333333],
         "landlocked": false,
         "area": 78,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Channel Islander",
-                "m": "Channel Islander"
+                masc: "Channel Islander"
             },
             "fra": {
                 "f": "Guernesiaise",
-                "m": "Guernesiais"
+                masc: "Guernesiais"
             }
         },
         flag: "🇬🇬",
@@ -5538,14 +5538,14 @@ export const countries = [
             "SRB"
         ],
         "area": 10908,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Kosovar",
-                "m": "Kosovar"
+                masc: "Kosovar"
             },
             "fra": {
                 "f": "Kosovare",
-                "m": "Kosovar"
+                masc: "Kosovar"
             }
         },
         flag: "🇽🇰",
@@ -5730,10 +5730,10 @@ export const countries = [
         latlng: [78, 20],
         "landlocked": false,
         "area": 61399,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Norwegian",
-                "m": "Norwegian"
+                masc: "Norwegian"
             }
         },
         flag: "🇸🇯",
@@ -5924,14 +5924,14 @@ export const countries = [
             "SRB"
         ],
         "area": 13812,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Montenegrin",
-                "m": "Montenegrin"
+                masc: "Montenegrin"
             },
             "fra": {
                 "f": "Monténégrine",
-                "m": "Monténégrin"
+                masc: "Monténégrin"
             }
         },
         flag: "🇲🇪",
@@ -6131,14 +6131,14 @@ export const countries = [
         latlng: [62, -7],
         "landlocked": false,
         "area": 1393,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Faroese",
-                "m": "Faroese"
+                masc: "Faroese"
             },
             "fra": {
                 "f": "Féroïenne",
-                "m": "Féroïen"
+                masc: "Féroïen"
             }
         },
         flag: "🇫🇴",
@@ -6336,14 +6336,14 @@ export const countries = [
             "UNK"
         ],
         "area": 28748,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Albanian",
-                "m": "Albanian"
+                masc: "Albanian"
             },
             "fra": {
                 "f": "Albanaise",
-                "m": "Albanais"
+                masc: "Albanais"
             }
         },
         flag: "🇦🇱",
@@ -6544,14 +6544,14 @@ export const countries = [
             "ROU"
         ],
         "area": 88361,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Serbian",
-                "m": "Serbian"
+                masc: "Serbian"
             },
             "fra": {
                 "f": "Serbe",
-                "m": "Serbe"
+                masc: "Serbe"
             }
         },
         flag: "🇷🇸",
@@ -6752,14 +6752,14 @@ export const countries = [
             "SVK"
         ],
         "area": 603500,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Ukrainian",
-                "m": "Ukrainian"
+                masc: "Ukrainian"
             },
             "fra": {
                 "f": "Ukrainienne",
-                "m": "Ukrainien"
+                masc: "Ukrainien"
             }
         },
         flag: "🇺🇦",
@@ -6805,7 +6805,7 @@ export const countries = [
             common: "Isle of Man",
             official: "Isle of Man",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Isle of Man",
                     common: "Isle of Man"
                 },
@@ -6852,7 +6852,7 @@ export const countries = [
         region: "Europe",
         subregion: "Northern Europe",
         languages: {
-            "eng": "English",
+            eng: "English",
             "glv": "Manx"
         },
         "translations": {
@@ -6960,10 +6960,10 @@ export const countries = [
         latlng: [54.25, -4.5],
         "landlocked": false,
         "area": 572,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Manx",
-                "m": "Manx"
+                masc: "Manx"
             }
         },
         flag: "🇮🇲",
@@ -7158,14 +7158,14 @@ export const countries = [
             "RUS"
         ],
         "area": 45227,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Estonian",
-                "m": "Estonian"
+                masc: "Estonian"
             },
             "fra": {
                 "f": "Estonienne",
-                "m": "Estonien"
+                masc: "Estonien"
             }
         },
         flag: "🇪🇪",
@@ -7365,14 +7365,14 @@ export const countries = [
             "UKR"
         ],
         "area": 238391,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Romanian",
-                "m": "Romanian"
+                masc: "Romanian"
             },
             "fra": {
                 "f": "Roumaine",
-                "m": "Roumain"
+                masc: "Roumain"
             }
         },
         flag: "🇷🇴",
@@ -7571,14 +7571,14 @@ export const countries = [
             "TUR"
         ],
         "area": 110879,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Bulgarian",
-                "m": "Bulgarian"
+                masc: "Bulgarian"
             },
             "fra": {
                 "f": "Bulgare",
-                "m": "Bulgare"
+                masc: "Bulgare"
             }
         },
         flag: "🇧🇬",
@@ -7781,14 +7781,14 @@ export const countries = [
             "CHE"
         ],
         "area": 357114,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "German",
-                "m": "German"
+                masc: "German"
             },
             "fra": {
                 "f": "Allemande",
-                "m": "Allemand"
+                masc: "Allemand"
             }
         },
         flag: "🇩🇪",
@@ -7989,14 +7989,14 @@ export const countries = [
             "UKR"
         ],
         "area": 312679,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Polish",
-                "m": "Polish"
+                masc: "Polish"
             },
             "fra": {
                 "f": "Polonaise",
-                "m": "Polonais"
+                masc: "Polonais"
             }
         },
         flag: "🇵🇱",
@@ -8042,7 +8042,7 @@ export const countries = [
             common: "United Kingdom",
             official: "United Kingdom of Great Britain and Northern Ireland",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "United Kingdom of Great Britain and Northern Ireland",
                     common: "United Kingdom"
                 }
@@ -8081,7 +8081,7 @@ export const countries = [
         region: "Europe",
         subregion: "Northern Europe",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -8191,14 +8191,14 @@ export const countries = [
             "IRL"
         ],
         "area": 242900,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "British",
-                "m": "British"
+                masc: "British"
             },
             "fra": {
                 "f": "Britannique",
-                "m": "Britannique"
+                masc: "Britannique"
             }
         },
         flag: "🇬🇧",
@@ -8409,14 +8409,14 @@ export const countries = [
             "RUS"
         ],
         "area": 338424,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Finnish",
-                "m": "Finnish"
+                masc: "Finnish"
             },
             "fra": {
                 "f": "Finlandaise",
-                "m": "Finlandais"
+                masc: "Finlandais"
             }
         },
         flag: "🇫🇮",
@@ -8612,14 +8612,14 @@ export const countries = [
             "NOR"
         ],
         "area": 450295,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Swedish",
-                "m": "Swedish"
+                masc: "Swedish"
             },
             "fra": {
                 "f": "Suédoise",
-                "m": "Suédois"
+                masc: "Suédois"
             }
         },
         flag: "🇸🇪",
@@ -8820,14 +8820,14 @@ export const countries = [
             "ITA"
         ],
         "area": 0.44,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Vatican",
-                "m": "Vatican"
+                masc: "Vatican"
             },
             "fra": {
                 "f": "Vaticane",
-                "m": "Vatican"
+                masc: "Vatican"
             }
         },
         flag: "🇻🇦",
@@ -9036,14 +9036,14 @@ export const countries = [
             "UKR"
         ],
         "area": 17098242,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Russian",
-                "m": "Russian"
+                masc: "Russian"
             },
             "fra": {
                 "f": "Russe",
-                "m": "Russe"
+                masc: "Russe"
             }
         },
         flag: "🇷🇺",
@@ -9254,14 +9254,14 @@ export const countries = [
             "CHE"
         ],
         "area": 83871,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Austrian",
-                "m": "Austrian"
+                masc: "Austrian"
             },
             "fra": {
                 "f": "Autrichienne",
-                "m": "Autrichien"
+                masc: "Autrichien"
             }
         },
         flag: "🇦🇹",
@@ -9461,14 +9461,14 @@ export const countries = [
         latlng: [35, 33],
         "landlocked": false,
         "area": 9251,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Cypriot",
-                "m": "Cypriot"
+                masc: "Cypriot"
             },
             "fra": {
                 "f": "Chypriote",
-                "m": "Chypriote"
+                masc: "Chypriote"
             }
         },
         flag: "🇨🇾",
@@ -9664,14 +9664,14 @@ export const countries = [
             "ESP"
         ],
         "area": 92090,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Portuguese",
-                "m": "Portuguese"
+                masc: "Portuguese"
             },
             "fra": {
                 "f": "Portugaise",
-                "m": "Portugais"
+                masc: "Portugais"
             }
         },
         flag: "🇵🇹",
@@ -9879,14 +9879,14 @@ export const countries = [
             "SRB"
         ],
         "area": 51209,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Bosnian, Herzegovinian",
-                "m": "Bosnian, Herzegovinian"
+                masc: "Bosnian, Herzegovinian"
             },
             "fra": {
                 "f": "Bosnienne",
-                "m": "Bosnien"
+                masc: "Bosnien"
             }
         },
         flag: "🇧🇦",
@@ -10100,14 +10100,14 @@ export const countries = [
             "NLD"
         ],
         "area": 30528,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Belgian",
-                "m": "Belgian"
+                masc: "Belgian"
             },
             "fra": {
                 "f": "Belge",
-                "m": "Belge"
+                masc: "Belge"
             }
         },
         flag: "🇧🇪",
@@ -10309,14 +10309,14 @@ export const countries = [
             "MAR"
         ],
         "area": 505992,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Spanish",
-                "m": "Spanish"
+                masc: "Spanish"
             },
             "fra": {
                 "f": "Espagnole",
-                "m": "Espagnol"
+                masc: "Espagnol"
             }
         },
         flag: "🇪🇸",
@@ -10515,14 +10515,14 @@ export const countries = [
             "HUN"
         ],
         "area": 20273,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Slovene",
-                "m": "Slovene"
+                masc: "Slovene"
             },
             "fra": {
                 "f": "Slovène",
-                "m": "Slovène"
+                masc: "Slovène"
             }
         },
         flag: "🇸🇮",
@@ -10717,14 +10717,14 @@ export const countries = [
             "ITA"
         ],
         "area": 61,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Sammarinese",
-                "m": "Sammarinese"
+                masc: "Sammarinese"
             },
             "fra": {
                 "f": "Saint-Marinaise",
-                "m": "Saint-Marinais"
+                masc: "Saint-Marinais"
             }
         },
         flag: "🇸🇲",
@@ -10770,7 +10770,7 @@ export const countries = [
             common: "Ireland",
             official: "Republic of Ireland",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Republic of Ireland",
                     common: "Ireland"
                 },
@@ -10814,7 +10814,7 @@ export const countries = [
         region: "Europe",
         subregion: "Northern Europe",
         languages: {
-            "eng": "English",
+            eng: "English",
             "gle": "Irish"
         },
         "translations": {
@@ -10925,14 +10925,14 @@ export const countries = [
             "GBR"
         ],
         "area": 70273,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Irish",
-                "m": "Irish"
+                masc: "Irish"
             },
             "fra": {
                 "f": "Irlandaise",
-                "m": "Irlandais"
+                masc: "Irlandais"
             }
         },
         flag: "🇮🇪",
@@ -10975,7 +10975,7 @@ export const countries = [
             common: "Lesotho",
             official: "Kingdom of Lesotho",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Kingdom of Lesotho",
                     common: "Lesotho"
                 },
@@ -11022,7 +11022,7 @@ export const countries = [
         region: "Africa",
         subregion: "Southern Africa",
         languages: {
-            "eng": "English",
+            eng: "English",
             "sot": "Sotho"
         },
         "translations": {
@@ -11133,14 +11133,14 @@ export const countries = [
             "ZAF"
         ],
         "area": 30355,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Mosotho",
-                "m": "Mosotho"
+                masc: "Mosotho"
             },
             "fra": {
                 "f": "Lésothienne",
-                "m": "Lésothien"
+                masc: "Lésothien"
             }
         },
         flag: "🇱🇸",
@@ -11345,14 +11345,14 @@ export const countries = [
             "SDN"
         ],
         "area": 622984,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Central African",
-                "m": "Central African"
+                masc: "Central African"
             },
             "fra": {
                 "f": "Centrafricaine",
-                "m": "Centrafricain"
+                masc: "Centrafricain"
             }
         },
         flag: "🇨🇫",
@@ -11551,14 +11551,14 @@ export const countries = [
             "ESP"
         ],
         "area": 446550,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Moroccan",
-                "m": "Moroccan"
+                masc: "Moroccan"
             },
             "fra": {
                 "f": "Marocaine",
-                "m": "Marocain"
+                masc: "Marocain"
             }
         },
         flag: "🇲🇦",
@@ -11604,7 +11604,7 @@ export const countries = [
             common: "Sierra Leone",
             official: "Republic of Sierra Leone",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Republic of Sierra Leone",
                     common: "Sierra Leone"
                 }
@@ -11642,7 +11642,7 @@ export const countries = [
         region: "Africa",
         subregion: "Western Africa",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -11753,14 +11753,14 @@ export const countries = [
             "LBR"
         ],
         "area": 71740,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Sierra Leonean",
-                "m": "Sierra Leonean"
+                masc: "Sierra Leonean"
             },
             "fra": {
                 "f": "Sierra-leonaise",
-                "m": "Sierra-leonais"
+                masc: "Sierra-leonais"
             }
         },
         flag: "🇸🇱",
@@ -11954,14 +11954,14 @@ export const countries = [
             "TGO"
         ],
         "area": 272967,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Burkinabe",
-                "m": "Burkinabe"
+                masc: "Burkinabe"
             },
             "fra": {
                 "f": "Burkinabée",
-                "m": "Burkinabé"
+                masc: "Burkinabé"
             }
         },
         flag: "🇧🇫",
@@ -12007,7 +12007,7 @@ export const countries = [
                     official: "دولة إرتريا",
                     common: "إرتريا‎"
                 },
-                "eng": {
+                eng: {
                     official: "State of Eritrea",
                     common: "Eritrea"
                 },
@@ -12054,7 +12054,7 @@ export const countries = [
         subregion: "Eastern Africa",
         languages: {
             "ara": "Arabic",
-            "eng": "English",
+            eng: "English",
             "tir": "Tigrinya"
         },
         "translations": {
@@ -12167,14 +12167,14 @@ export const countries = [
             "SDN"
         ],
         "area": 117600,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Eritrean",
-                "m": "Eritrean"
+                masc: "Eritrean"
             },
             "fra": {
                 "f": "Érythréenne",
-                "m": "Érythréen"
+                masc: "Érythréen"
             }
         },
         flag: "🇪🇷",
@@ -12216,7 +12216,7 @@ export const countries = [
             common: "Tanzania",
             official: "United Republic of Tanzania",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "United Republic of Tanzania",
                     common: "Tanzania"
                 },
@@ -12260,7 +12260,7 @@ export const countries = [
         region: "Africa",
         subregion: "Eastern Africa",
         languages: {
-            "eng": "English",
+            eng: "English",
             "swa": "Swahili"
         },
         "translations": {
@@ -12378,14 +12378,14 @@ export const countries = [
             "ZMB"
         ],
         "area": 945087,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Tanzanian",
-                "m": "Tanzanian"
+                masc: "Tanzanian"
             },
             "fra": {
                 "f": "Tanzanienne",
-                "m": "Tanzanien"
+                masc: "Tanzanien"
             }
         },
         flag: "🇹🇿",
@@ -12583,14 +12583,14 @@ export const countries = [
             "MAR"
         ],
         "area": 2381741,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Algerian",
-                "m": "Algerian"
+                masc: "Algerian"
             },
             "fra": {
                 "f": "Algérienne",
-                "m": "Algérien"
+                masc: "Algérien"
             }
         },
         flag: "🇩🇿",
@@ -12788,14 +12788,14 @@ export const countries = [
             "ESH"
         ],
         "area": 1030700,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Mauritanian",
-                "m": "Mauritanian"
+                masc: "Mauritanian"
             },
             "fra": {
                 "f": "Mauritanienne",
-                "m": "Mauritanien"
+                masc: "Mauritanien"
             }
         },
         flag: "🇲🇷",
@@ -12841,7 +12841,7 @@ export const countries = [
                     official: "جمهورية السودان",
                     common: "السودان"
                 },
-                "eng": {
+                eng: {
                     official: "Republic of the Sudan",
                     common: "Sudan"
                 }
@@ -12881,7 +12881,7 @@ export const countries = [
         subregion: "Northern Africa",
         languages: {
             "ara": "Arabic",
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -12997,14 +12997,14 @@ export const countries = [
             "SSD"
         ],
         "area": 1886068,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Sudanese",
-                "m": "Sudanese"
+                masc: "Sudanese"
             },
             "fra": {
                 "f": "Soudanaise",
-                "m": "Soudanais"
+                masc: "Soudanais"
             }
         },
         flag: "🇸🇩",
@@ -13218,10 +13218,10 @@ export const countries = [
             "MAR"
         ],
         "area": 266000,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Sahrawi",
-                "m": "Sahrawi"
+                masc: "Sahrawi"
             }
         },
         flag: "🇪🇭",
@@ -13412,14 +13412,14 @@ export const countries = [
             "NAM"
         ],
         "area": 1246700,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Angolan",
-                "m": "Angolan"
+                masc: "Angolan"
             },
             "fra": {
                 "f": "Angolaise",
-                "m": "Angolais"
+                masc: "Angolais"
             }
         },
         flag: "🇦🇴",
@@ -13616,14 +13616,14 @@ export const countries = [
             "MLI"
         ],
         "area": 322463,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Ivorian",
-                "m": "Ivorian"
+                masc: "Ivorian"
             },
             "fra": {
                 "f": "Ivoirienne",
-                "m": "Ivoirien"
+                masc: "Ivoirien"
             }
         },
         flag: "🇨🇮",
@@ -13815,14 +13815,14 @@ export const countries = [
             "LBY"
         ],
         "area": 163610,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Tunisian",
-                "m": "Tunisian"
+                masc: "Tunisian"
             },
             "fra": {
                 "f": "Tunisienne",
-                "m": "Tunisien"
+                masc: "Tunisien"
             }
         },
         flag: "🇹🇳",
@@ -14023,14 +14023,14 @@ export const countries = [
             "SEN"
         ],
         "area": 1240192,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Malian",
-                "m": "Malian"
+                masc: "Malian"
             },
             "fra": {
                 "f": "Malienne",
-                "m": "Malien"
+                masc: "Malien"
             }
         },
         flag: "🇲🇱",
@@ -14224,14 +14224,14 @@ export const countries = [
             "TGO"
         ],
         "area": 112622,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Beninese",
-                "m": "Beninese"
+                masc: "Beninese"
             },
             "fra": {
                 "f": "Béninoise",
-                "m": "Béninois"
+                masc: "Béninois"
             }
         },
         flag: "🇧🇯",
@@ -14419,14 +14419,14 @@ export const countries = [
         latlng: [16.5388, -23.0418],
         "landlocked": false,
         "area": 4033,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Cape Verdian",
-                "m": "Cape Verdian"
+                masc: "Cape Verdian"
             },
             "fra": {
                 "f": "Cap-verdienne",
-                "m": "Cap-verdien"
+                masc: "Cap-verdien"
             }
         },
         flag: "🇨🇻",
@@ -14634,14 +14634,14 @@ export const countries = [
             "GAB"
         ],
         "area": 28051,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Equatorial Guinean",
-                "m": "Equatorial Guinean"
+                masc: "Equatorial Guinean"
             },
             "fra": {
                 "f": "Équato-guinéenne",
-                "m": "Équato-guinéen"
+                masc: "Équato-guinéen"
             }
         },
         flag: "🇬🇶",
@@ -14683,7 +14683,7 @@ export const countries = [
             common: "Uganda",
             official: "Republic of Uganda",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Republic of Uganda",
                     common: "Uganda"
                 },
@@ -14726,7 +14726,7 @@ export const countries = [
         region: "Africa",
         subregion: "Eastern Africa",
         languages: {
-            "eng": "English",
+            eng: "English",
             "swa": "Swahili"
         },
         "translations": {
@@ -14841,14 +14841,14 @@ export const countries = [
             "TZA"
         ],
         "area": 241550,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Ugandan",
-                "m": "Ugandan"
+                masc: "Ugandan"
             },
             "fra": {
                 "f": "Ougandaise",
-                "m": "Ougandais"
+                masc: "Ougandais"
             }
         },
         flag: "🇺🇬",
@@ -14890,7 +14890,7 @@ export const countries = [
             common: "Botswana",
             official: "Republic of Botswana",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Republic of Botswana",
                     common: "Botswana"
                 },
@@ -14933,7 +14933,7 @@ export const countries = [
         region: "Africa",
         subregion: "Southern Africa",
         languages: {
-            "eng": "English",
+            eng: "English",
             "tsn": "Tswana"
         },
         "translations": {
@@ -15047,14 +15047,14 @@ export const countries = [
             "ZWE"
         ],
         "area": 582000,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Motswana",
-                "m": "Motswana"
+                masc: "Motswana"
             },
             "fra": {
                 "f": "Botswanaise",
-                "m": "Botswanais"
+                masc: "Botswanais"
             }
         },
         flag: "🇧🇼",
@@ -15253,14 +15253,14 @@ export const countries = [
             "TZA"
         ],
         "area": 27834,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Burundian",
-                "m": "Burundian"
+                masc: "Burundian"
             },
             "fra": {
                 "f": "Burundaise",
-                "m": "Burundais"
+                masc: "Burundais"
             }
         },
         flag: "🇧🇮",
@@ -15306,7 +15306,7 @@ export const countries = [
                     official: "Republiek van Suid-Afrika",
                     common: "South Africa"
                 },
-                "eng": {
+                eng: {
                     official: "Republic of South Africa",
                     common: "South Africa"
                 },
@@ -15385,7 +15385,7 @@ export const countries = [
         subregion: "Southern Africa",
         languages: {
             "afr": "Afrikaans",
-            "eng": "English",
+            eng: "English",
             "nbl": "Southern Ndebele",
             "nso": "Northern Sotho",
             "sot": "Southern Sotho",
@@ -15509,14 +15509,14 @@ export const countries = [
             "ZWE"
         ],
         "area": 1221037,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "South African",
-                "m": "South African"
+                masc: "South African"
             },
             "fra": {
                 "f": "Sud-africaine",
-                "m": "Sud-africain"
+                masc: "Sud-africain"
             }
         },
         flag: "🇿🇦",
@@ -15716,14 +15716,14 @@ export const countries = [
             "TUN"
         ],
         "area": 1759540,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Libyan",
-                "m": "Libyan"
+                masc: "Libyan"
             },
             "fra": {
                 "f": "Libyenne",
-                "m": "Libyen"
+                masc: "Libyen"
             }
         },
         flag: "🇱🇾",
@@ -15910,14 +15910,14 @@ export const countries = [
         latlng: [-12.83333333, 45.16666666],
         "landlocked": false,
         "area": 374,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Mahoran",
-                "m": "Mahoran"
+                masc: "Mahoran"
             },
             "fra": {
                 "f": "Mahoraise",
-                "m": "Mahorais"
+                masc: "Mahorais"
             }
         },
         flag: "🇾🇹",
@@ -16111,14 +16111,14 @@ export const countries = [
             "GNQ"
         ],
         "area": 267668,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Gabonese",
-                "m": "Gabonese"
+                masc: "Gabonese"
             },
             "fra": {
                 "f": "Gabonaise",
-                "m": "Gabonais"
+                masc: "Gabonais"
             }
         },
         flag: "🇬🇦",
@@ -16160,7 +16160,7 @@ export const countries = [
             common: "Cameroon",
             official: "Republic of Cameroon",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Republic of Cameroon",
                     common: "Cameroon"
                 },
@@ -16203,7 +16203,7 @@ export const countries = [
         region: "Africa",
         subregion: "Middle Africa",
         languages: {
-            "eng": "English",
+            eng: "English",
             "fra": "French"
         },
         "translations": {
@@ -16319,14 +16319,14 @@ export const countries = [
             "NGA"
         ],
         "area": 475442,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Cameroonian",
-                "m": "Cameroonian"
+                masc: "Cameroonian"
             },
             "fra": {
                 "f": "Camerounaise",
-                "m": "Camerounais"
+                masc: "Camerounais"
             }
         },
         flag: "🇨🇲",
@@ -16522,14 +16522,14 @@ export const countries = [
             "SLE"
         ],
         "area": 245857,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Guinean",
-                "m": "Guinean"
+                masc: "Guinean"
             },
             "fra": {
                 "f": "Guinéenne",
-                "m": "Guinéen"
+                masc: "Guinéen"
             }
         },
         flag: "🇬🇳",
@@ -16575,7 +16575,7 @@ export const countries = [
                     official: "Repiblik Sesel",
                     common: "Sesel"
                 },
-                "eng": {
+                eng: {
                     official: "Republic of Seychelles",
                     common: "Seychelles"
                 },
@@ -16620,7 +16620,7 @@ export const countries = [
         subregion: "Eastern Africa",
         languages: {
             "crs": "Seychellois Creole",
-            "eng": "English",
+            eng: "English",
             "fra": "French"
         },
         "translations": {
@@ -16728,14 +16728,14 @@ export const countries = [
         latlng: [-4.58333333, 55.66666666],
         "landlocked": false,
         "area": 452,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Seychellois",
-                "m": "Seychellois"
+                masc: "Seychellois"
             },
             "fra": {
                 "f": "Seychelloise",
-                "m": "Seychellois"
+                masc: "Seychellois"
             }
         },
         flag: "🇸🇨",
@@ -16777,7 +16777,7 @@ export const countries = [
             common: "British Indian Ocean Territory",
             official: "British Indian Ocean Territory",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "British Indian Ocean Territory",
                     common: "British Indian Ocean Territory"
                 }
@@ -16813,7 +16813,7 @@ export const countries = [
         region: "Africa",
         subregion: "Eastern Africa",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -16920,10 +16920,10 @@ export const countries = [
         latlng: [-6, 71.5],
         "landlocked": false,
         "area": 60,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Indian",
-                "m": "Indian"
+                masc: "Indian"
             }
         },
         flag: "🇮🇴",
@@ -17114,14 +17114,14 @@ export const countries = [
         latlng: [-20, 47],
         "landlocked": false,
         "area": 587041,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Malagasy",
-                "m": "Malagasy"
+                masc: "Malagasy"
             },
             "fra": {
                 "f": "Malgache",
-                "m": "Malgache"
+                masc: "Malgache"
             }
         },
         flag: "🇲🇬",
@@ -17346,14 +17346,14 @@ export const countries = [
             "ZMB"
         ],
         "area": 2344858,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Congolese",
-                "m": "Congolese"
+                masc: "Congolese"
             },
             "fra": {
                 "f": "Congolaise",
-                "m": "Congolais"
+                masc: "Congolais"
             }
         },
         flag: "🇨🇩",
@@ -17396,7 +17396,7 @@ export const countries = [
             common: "Gambia",
             official: "Republic of the Gambia",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Republic of the Gambia",
                     common: "Gambia"
                 }
@@ -17434,7 +17434,7 @@ export const countries = [
         region: "Africa",
         subregion: "Western Africa",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -17544,14 +17544,14 @@ export const countries = [
             "SEN"
         ],
         "area": 10689,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Gambian",
-                "m": "Gambian"
+                masc: "Gambian"
             },
             "fra": {
                 "f": "Gambienne",
-                "m": "Gambien"
+                masc: "Gambien"
             }
         },
         flag: "🇬🇲",
@@ -17751,14 +17751,14 @@ export const countries = [
             "KEN"
         ],
         "area": 637657,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Somali",
-                "m": "Somali"
+                masc: "Somali"
             },
             "fra": {
                 "f": "Somalienne",
-                "m": "Somalien"
+                masc: "Somalien"
             }
         },
         flag: "🇸🇴",
@@ -17804,7 +17804,7 @@ export const countries = [
             common: "Nigeria",
             official: "Federal Republic of Nigeria",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Federal Republic of Nigeria",
                     common: "Nigeria"
                 }
@@ -17844,7 +17844,7 @@ export const countries = [
         region: "Africa",
         subregion: "Western Africa",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -17957,14 +17957,14 @@ export const countries = [
             "NER"
         ],
         "area": 923768,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Nigerian",
-                "m": "Nigerian"
+                masc: "Nigerian"
             },
             "fra": {
                 "f": "Nigériane",
-                "m": "Nigérian"
+                masc: "Nigérian"
             }
         },
         flag: "🇳🇬",
@@ -18010,7 +18010,7 @@ export const countries = [
             common: "South Sudan",
             official: "Republic of South Sudan",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Republic of South Sudan",
                     common: "South Sudan"
                 }
@@ -18047,7 +18047,7 @@ export const countries = [
         region: "Africa",
         subregion: "Middle Africa",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -18162,14 +18162,14 @@ export const countries = [
             "UGA"
         ],
         "area": 619745,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "South Sudanese",
-                "m": "South Sudanese"
+                masc: "South Sudanese"
             },
             "fra": {
                 "f": "Sud-Soudanaise",
-                "m": "Sud-Soudanais"
+                masc: "Sud-Soudanais"
             }
         },
         flag: "🇸🇸",
@@ -18211,7 +18211,7 @@ export const countries = [
             common: "Eswatini",
             official: "Kingdom of Eswatini",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Kingdom of Eswatini",
                     common: "Eswatini"
                 },
@@ -18262,7 +18262,7 @@ export const countries = [
         region: "Africa",
         subregion: "Southern Africa",
         languages: {
-            "eng": "English",
+            eng: "English",
             "ssw": "Swazi"
         },
         "translations": {
@@ -18374,14 +18374,14 @@ export const countries = [
             "ZAF"
         ],
         "area": 17364,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Swazi",
-                "m": "Swazi"
+                masc: "Swazi"
             },
             "fra": {
                 "f": "Swazie",
-                "m": "Swazie"
+                masc: "Swazie"
             }
         },
         flag: "🇸🇿",
@@ -18578,14 +18578,14 @@ export const countries = [
             "SDN"
         ],
         "area": 1002450,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Egyptian",
-                "m": "Egyptian"
+                masc: "Egyptian"
             },
             "fra": {
                 "f": "Égyptienne",
-                "m": "Égyptien"
+                masc: "Égyptien"
             }
         },
         flag: "🇪🇬",
@@ -18631,7 +18631,7 @@ export const countries = [
             common: "Saint Helena, Ascension and Tristan da Cunha",
             official: "Saint Helena, Ascension and Tristan da Cunha",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Saint Helena, Ascension and Tristan da Cunha",
                     common: "Saint Helena, Ascension and Tristan da Cunha"
                 }
@@ -18674,7 +18674,7 @@ export const countries = [
         region: "Africa",
         subregion: "Western Africa",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -18781,14 +18781,14 @@ export const countries = [
         latlng: [-15.95, -5.72],
         "landlocked": false,
         "area": 394,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Saint Helenian",
-                "m": "Saint Helenian"
+                masc: "Saint Helenian"
             },
             "fra": {
                 "f": "Sainte-Hélénoise",
-                "m": "Sainte-Hélènois"
+                masc: "Sainte-Hélènois"
             }
         },
         flag: "🇸🇭",
@@ -18984,14 +18984,14 @@ export const countries = [
             "MRT"
         ],
         "area": 196722,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Senegalese",
-                "m": "Senegalese"
+                masc: "Senegalese"
             },
             "fra": {
                 "f": "Sénégalaise",
-                "m": "Sénégalais"
+                masc: "Sénégalais"
             }
         },
         flag: "🇸🇳",
@@ -19189,14 +19189,14 @@ export const countries = [
             "GHA"
         ],
         "area": 56785,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Togolese",
-                "m": "Togolese"
+                masc: "Togolese"
             },
             "fra": {
                 "f": "Togolaise",
-                "m": "Togolais"
+                masc: "Togolais"
             }
         },
         flag: "🇹🇬",
@@ -19238,7 +19238,7 @@ export const countries = [
             common: "Kenya",
             official: "Republic of Kenya",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Republic of Kenya",
                     common: "Kenya"
                 },
@@ -19281,7 +19281,7 @@ export const countries = [
         region: "Africa",
         subregion: "Eastern Africa",
         languages: {
-            "eng": "English",
+            eng: "English",
             "swa": "Swahili"
         },
         "translations": {
@@ -19396,14 +19396,14 @@ export const countries = [
             "UGA"
         ],
         "area": 580367,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Kenyan",
-                "m": "Kenyan"
+                masc: "Kenyan"
             },
             "fra": {
                 "f": "Kényane",
-                "m": "Kényan"
+                masc: "Kényan"
             }
         },
         flag: "🇰🇪",
@@ -19449,7 +19449,7 @@ export const countries = [
             common: "Rwanda",
             official: "Republic of Rwanda",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Republic of Rwanda",
                     common: "Rwanda"
                 },
@@ -19497,7 +19497,7 @@ export const countries = [
         region: "Africa",
         subregion: "Eastern Africa",
         languages: {
-            "eng": "English",
+            eng: "English",
             "fra": "French",
             "kin": "Kinyarwanda"
         },
@@ -19612,14 +19612,14 @@ export const countries = [
             "UGA"
         ],
         "area": 26338,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Rwandan",
-                "m": "Rwandan"
+                masc: "Rwandan"
             },
             "fra": {
                 "f": "Rwandaise",
-                "m": "Rwandais"
+                masc: "Rwandais"
             }
         },
         flag: "🇷🇼",
@@ -19669,7 +19669,7 @@ export const countries = [
                     official: "Republik Namibia",
                     common: "Namibia"
                 },
-                "eng": {
+                eng: {
                     official: "Republic of Namibia",
                     common: "Namibia"
                 },
@@ -19738,7 +19738,7 @@ export const countries = [
         languages: {
             "afr": "Afrikaans",
             "deu": "German",
-            "eng": "English",
+            eng: "English",
             "her": "Herero",
             "hgm": "Khoekhoe",
             "kwn": "Kwangali",
@@ -19857,14 +19857,14 @@ export const countries = [
             "ZMB"
         ],
         "area": 825615,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Namibian",
-                "m": "Namibian"
+                masc: "Namibian"
             },
             "fra": {
                 "f": "Namibienne",
-                "m": "Namibien"
+                masc: "Namibien"
             }
         },
         flag: "🇳🇦",
@@ -19906,7 +19906,7 @@ export const countries = [
             common: "Liberia",
             official: "Republic of Liberia",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Republic of Liberia",
                     common: "Liberia"
                 }
@@ -19944,7 +19944,7 @@ export const countries = [
         region: "Africa",
         subregion: "Western Africa",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -20056,14 +20056,14 @@ export const countries = [
             "SLE"
         ],
         "area": 111369,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Liberian",
-                "m": "Liberian"
+                masc: "Liberian"
             },
             "fra": {
                 "f": "Libérienne",
-                "m": "Libérien"
+                masc: "Libérien"
             }
         },
         flag: "🇱🇷",
@@ -20109,7 +20109,7 @@ export const countries = [
             common: "Zambia",
             official: "Republic of Zambia",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Republic of Zambia",
                     common: "Zambia"
                 }
@@ -20147,7 +20147,7 @@ export const countries = [
         region: "Africa",
         subregion: "Eastern Africa",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -20264,14 +20264,14 @@ export const countries = [
             "ZWE"
         ],
         "area": 752612,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Zambian",
-                "m": "Zambian"
+                masc: "Zambian"
             },
             "fra": {
                 "f": "Zambienne",
-                "m": "Zambien"
+                masc: "Zambien"
             }
         },
         flag: "🇿🇲",
@@ -20471,14 +20471,14 @@ export const countries = [
             "NGA"
         ],
         "area": 1267000,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Nigerien",
-                "m": "Nigerien"
+                masc: "Nigerien"
             },
             "fra": {
                 "f": "Nigérienne",
-                "m": "Nigérien"
+                masc: "Nigérien"
             }
         },
         flag: "🇳🇪",
@@ -20682,14 +20682,14 @@ export const countries = [
         latlng: [-12.16666666, 44.25],
         "landlocked": false,
         "area": 1862,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Comoran",
-                "m": "Comoran"
+                masc: "Comoran"
             },
             "fra": {
                 "f": "Comorienne",
-                "m": "Comorien"
+                masc: "Comorien"
             }
         },
         flag: "🇰🇲",
@@ -20886,14 +20886,14 @@ export const countries = [
             "SEN"
         ],
         "area": 36125,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Guinea-Bissauan",
-                "m": "Guinea-Bissauan"
+                masc: "Guinea-Bissauan"
             },
             "fra": {
                 "f": "Bissau-Guinéenne",
-                "m": "Bissau-Guinéen"
+                masc: "Bissau-Guinéen"
             }
         },
         flag: "🇬🇼",
@@ -20939,7 +20939,7 @@ export const countries = [
             common: "Ghana",
             official: "Republic of Ghana",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Republic of Ghana",
                     common: "Ghana"
                 }
@@ -20976,7 +20976,7 @@ export const countries = [
         region: "Africa",
         subregion: "Western Africa",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -21088,14 +21088,14 @@ export const countries = [
             "TGO"
         ],
         "area": 238533,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Ghanaian",
-                "m": "Ghanaian"
+                masc: "Ghanaian"
             },
             "fra": {
                 "f": "Ghanéenne",
-                "m": "Ghanéen"
+                masc: "Ghanéen"
             }
         },
         flag: "🇬🇭",
@@ -21297,14 +21297,14 @@ export const countries = [
             "SDN"
         ],
         "area": 1284000,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Chadian",
-                "m": "Chadian"
+                masc: "Chadian"
             },
             "fra": {
                 "f": "Tchadienne",
-                "m": "Tchadien"
+                masc: "Tchadien"
             }
         },
         flag: "🇹🇩",
@@ -21351,7 +21351,7 @@ export const countries = [
                     official: "Republic of Zimbabwe",
                     common: "Zimbabwe"
                 },
-                "eng": {
+                eng: {
                     official: "Republic of Zimbabwe",
                     common: "Zimbabwe"
                 },
@@ -21442,7 +21442,7 @@ export const countries = [
         subregion: "Southern Africa",
         languages: {
             "bwg": "Chibarwe",
-            "eng": "English",
+            eng: "English",
             "kck": "Kalanga",
             "khi": "Khoisan",
             "ndc": "Ndau",
@@ -21568,14 +21568,14 @@ export const countries = [
             "ZMB"
         ],
         "area": 390757,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Zimbabwean",
-                "m": "Zimbabwean"
+                masc: "Zimbabwean"
             },
             "fra": {
                 "f": "Zimbabwéenne",
-                "m": "Zimbabwéen"
+                masc: "Zimbabwéen"
             }
         },
         flag: "🇿🇼",
@@ -21761,14 +21761,14 @@ export const countries = [
         latlng: [-21.15, 55.5],
         "landlocked": false,
         "area": 2511,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Réunionese",
-                "m": "Réunionese"
+                masc: "Réunionese"
             },
             "fra": {
                 "f": "Réunionnaise",
-                "m": "Réunionnais"
+                masc: "Réunionnais"
             }
         },
         flag: "🇷🇪",
@@ -21958,14 +21958,14 @@ export const countries = [
         latlng: [1, 7],
         "landlocked": false,
         "area": 964,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Sao Tomean",
-                "m": "Sao Tomean"
+                masc: "Sao Tomean"
             },
             "fra": {
                 "f": "Santoméenne",
-                "m": "Santoméen"
+                masc: "Santoméen"
             }
         },
         flag: "🇸🇹",
@@ -22007,7 +22007,7 @@ export const countries = [
             common: "Malawi",
             official: "Republic of Malawi",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Republic of Malawi",
                     common: "Malawi"
                 },
@@ -22049,7 +22049,7 @@ export const countries = [
         region: "Africa",
         subregion: "Eastern Africa",
         languages: {
-            "eng": "English",
+            eng: "English",
             "nya": "Chewa"
         },
         "translations": {
@@ -22162,14 +22162,14 @@ export const countries = [
             "ZMB"
         ],
         "area": 118484,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Malawian",
-                "m": "Malawian"
+                masc: "Malawian"
             },
             "fra": {
                 "f": "Malawienne",
-                "m": "Malawien"
+                masc: "Malawien"
             }
         },
         flag: "🇲🇼",
@@ -22366,14 +22366,14 @@ export const countries = [
             "SDN"
         ],
         "area": 1104300,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Ethiopian",
-                "m": "Ethiopian"
+                masc: "Ethiopian"
             },
             "fra": {
                 "f": "Éthiopienne",
-                "m": "Éthiopien"
+                masc: "Éthiopien"
             }
         },
         flag: "🇪🇹",
@@ -22582,14 +22582,14 @@ export const countries = [
             "GAB"
         ],
         "area": 342000,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Congolese",
-                "m": "Congolese"
+                masc: "Congolese"
             },
             "fra": {
                 "f": "Congolaise",
-                "m": "Congolais"
+                masc: "Congolais"
             }
         },
         flag: "🇨🇬",
@@ -22790,14 +22790,14 @@ export const countries = [
             "SOM"
         ],
         "area": 23200,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Djibouti",
-                "m": "Djibouti"
+                masc: "Djibouti"
             },
             "fra": {
                 "f": "Djiboutienne",
-                "m": "Djiboutien"
+                masc: "Djiboutien"
             }
         },
         flag: "🇩🇯",
@@ -22839,7 +22839,7 @@ export const countries = [
             common: "Mauritius",
             official: "Republic of Mauritius",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Republic of Mauritius",
                     common: "Mauritius"
                 },
@@ -22886,7 +22886,7 @@ export const countries = [
         region: "Africa",
         subregion: "Eastern Africa",
         languages: {
-            "eng": "English",
+            eng: "English",
             "fra": "French",
             "mfe": "Mauritian Creole"
         },
@@ -22995,14 +22995,14 @@ export const countries = [
         latlng: [-20.28333333, 57.55],
         "landlocked": false,
         "area": 2040,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Mauritian",
-                "m": "Mauritian"
+                masc: "Mauritian"
             },
             "fra": {
                 "f": "Mauricienne",
-                "m": "Mauricien"
+                masc: "Mauricien"
             }
         },
         flag: "🇲🇺",
@@ -23198,14 +23198,14 @@ export const countries = [
             "ZWE"
         ],
         "area": 801590,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Mozambican",
-                "m": "Mozambican"
+                masc: "Mozambican"
             },
             "fra": {
                 "f": "Mozambicaine",
-                "m": "Mozambicain"
+                masc: "Mozambicain"
             }
         },
         flag: "🇲🇿",
@@ -23405,14 +23405,14 @@ export const countries = [
             "VEN"
         ],
         "area": 1141748,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Colombian",
-                "m": "Colombian"
+                masc: "Colombian"
             },
             "fra": {
                 "f": "Colombienne",
-                "m": "Colombien"
+                masc: "Colombien"
             }
         },
         flag: "🇨🇴",
@@ -23454,7 +23454,7 @@ export const countries = [
             common: "Curaçao",
             official: "Country of Curaçao",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Country of Curaçao",
                     common: "Curaçao"
                 },
@@ -23503,7 +23503,7 @@ export const countries = [
         region: "Americas",
         subregion: "Caribbean",
         languages: {
-            "eng": "English",
+            eng: "English",
             "nld": "Dutch",
             "pap": "Papiamento"
         },
@@ -23604,14 +23604,14 @@ export const countries = [
         latlng: [12.116667, -68.933333],
         "landlocked": false,
         "area": 444,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Curaçaoan",
-                "m": "Curaçaoan"
+                masc: "Curaçaoan"
             },
             "fra": {
                 "f": "Curacienne",
-                "m": "Curacien"
+                masc: "Curacien"
             }
         },
         flag: "🇨🇼",
@@ -23801,14 +23801,14 @@ export const countries = [
             "SUR"
         ],
         "area": 83534,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Guianan",
-                "m": "Guianan"
+                masc: "Guianan"
             },
             "fra": {
                 "f": "Guyanaise",
-                "m": "Guyanais"
+                masc: "Guyanais"
             }
         },
         flag: "🇬🇫",
@@ -23852,7 +23852,7 @@ export const countries = [
             common: "Grenada",
             official: "Grenada",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Grenada",
                     common: "Grenada"
                 }
@@ -23889,7 +23889,7 @@ export const countries = [
         region: "Americas",
         subregion: "Caribbean",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -23996,14 +23996,14 @@ export const countries = [
         latlng: [12.11666666, -61.66666666],
         "landlocked": false,
         "area": 344,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Grenadian",
-                "m": "Grenadian"
+                masc: "Grenadian"
             },
             "fra": {
                 "f": "Grenadienne",
-                "m": "Grenadien"
+                masc: "Grenadien"
             }
         },
         flag: "🇬🇩",
@@ -24045,7 +24045,7 @@ export const countries = [
             common: "Sint Maarten",
             official: "Sint Maarten",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Sint Maarten",
                     common: "Sint Maarten"
                 },
@@ -24090,7 +24090,7 @@ export const countries = [
         region: "Americas",
         subregion: "Caribbean",
         languages: {
-            "eng": "English",
+            eng: "English",
             "fra": "French",
             "nld": "Dutch"
         },
@@ -24202,14 +24202,14 @@ export const countries = [
             "MAF"
         ],
         "area": 34,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "St. Maartener",
-                "m": "St. Maartener"
+                masc: "St. Maartener"
             },
             "fra": {
                 "f": "Saint-Martinoise",
-                "m": "Saint-Martinois"
+                masc: "Saint-Martinois"
             }
         },
         flag: "🇸🇽",
@@ -24406,14 +24406,14 @@ export const countries = [
             "URY"
         ],
         "area": 2780400,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Argentine",
-                "m": "Argentine"
+                masc: "Argentine"
             },
             "fra": {
                 "f": "Argentine",
-                "m": "Argentin"
+                masc: "Argentin"
             }
         },
         flag: "🇦🇷",
@@ -24459,7 +24459,7 @@ export const countries = [
             common: "Turks and Caicos Islands",
             official: "Turks and Caicos Islands",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Turks and Caicos Islands",
                     common: "Turks and Caicos Islands"
                 }
@@ -24495,7 +24495,7 @@ export const countries = [
         region: "Americas",
         subregion: "Caribbean",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -24602,10 +24602,10 @@ export const countries = [
         latlng: [21.75, -71.58333333],
         "landlocked": false,
         "area": 948,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Turks and Caicos Islander",
-                "m": "Turks and Caicos Islander"
+                masc: "Turks and Caicos Islander"
             }
         },
         flag: "🇹🇨",
@@ -24649,7 +24649,7 @@ export const countries = [
             common: "Dominica",
             official: "Commonwealth of Dominica",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Commonwealth of Dominica",
                     common: "Dominica"
                 }
@@ -24689,7 +24689,7 @@ export const countries = [
         region: "Americas",
         subregion: "Caribbean",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -24796,14 +24796,14 @@ export const countries = [
         latlng: [15.41666666, -61.33333333],
         "landlocked": false,
         "area": 751,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Dominican",
-                "m": "Dominican"
+                masc: "Dominican"
             },
             "fra": {
                 "f": "Dominiquaise",
-                "m": "Dominiquais"
+                masc: "Dominiquais"
             }
         },
         flag: "🇩🇲",
@@ -24845,7 +24845,7 @@ export const countries = [
             common: "United States Minor Outlying Islands",
             official: "United States Minor Outlying Islands",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "United States Minor Outlying Islands",
                     common: "United States Minor Outlying Islands"
                 }
@@ -24881,7 +24881,7 @@ export const countries = [
         region: "Americas",
         subregion: "North America",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -24988,10 +24988,10 @@ export const countries = [
         latlng: [19.3, 166.633333],
         "landlocked": false,
         "area": 34.2,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "American Islander",
-                "m": "American Islander"
+                masc: "American Islander"
             }
         },
         flag: "🇺🇲",
@@ -25182,14 +25182,14 @@ export const countries = [
             "PAN"
         ],
         "area": 51100,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Costa Rican",
-                "m": "Costa Rican"
+                masc: "Costa Rican"
             },
             "fra": {
                 "f": "Costaricaine",
-                "m": "Costaricain"
+                masc: "Costaricain"
             }
         },
         flag: "🇨🇷",
@@ -25390,14 +25390,14 @@ export const countries = [
             "DOM"
         ],
         "area": 27750,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Haitian",
-                "m": "Haitian"
+                masc: "Haitian"
             },
             "fra": {
                 "f": "Haïtienne",
-                "m": "Haïtien"
+                masc: "Haïtien"
             }
         },
         flag: "🇭🇹",
@@ -25443,7 +25443,7 @@ export const countries = [
             common: "Barbados",
             official: "Barbados",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Barbados",
                     common: "Barbados"
                 }
@@ -25480,7 +25480,7 @@ export const countries = [
         region: "Americas",
         subregion: "Caribbean",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -25587,14 +25587,14 @@ export const countries = [
         latlng: [13.16666666, -59.53333333],
         "landlocked": false,
         "area": 430,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Barbadian",
-                "m": "Barbadian"
+                masc: "Barbadian"
             },
             "fra": {
                 "f": "Barbadienne",
-                "m": "Barbadien"
+                masc: "Barbadien"
             }
         },
         flag: "🇧🇧",
@@ -25791,14 +25791,14 @@ export const countries = [
             "NIC"
         ],
         "area": 112492,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Honduran",
-                "m": "Honduran"
+                masc: "Honduran"
             },
             "fra": {
                 "f": "Hondurienne",
-                "m": "Hondurien"
+                masc: "Hondurien"
             }
         },
         flag: "🇭🇳",
@@ -25844,7 +25844,7 @@ export const countries = [
             common: "Puerto Rico",
             official: "Commonwealth of Puerto Rico",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Commonwealth of Puerto Rico",
                     common: "Puerto Rico"
                 },
@@ -25888,7 +25888,7 @@ export const countries = [
         region: "Americas",
         subregion: "Caribbean",
         languages: {
-            "eng": "English",
+            eng: "English",
             "spa": "Spanish"
         },
         "translations": {
@@ -25996,14 +25996,14 @@ export const countries = [
         latlng: [18.25, -66.5],
         "landlocked": false,
         "area": 8870,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Puerto Rican",
-                "m": "Puerto Rican"
+                masc: "Puerto Rican"
             },
             "fra": {
                 "f": "Portoricaine",
-                "m": "Portoricain"
+                masc: "Portoricain"
             }
         },
         flag: "🇵🇷",
@@ -26047,7 +26047,7 @@ export const countries = [
             common: "Falkland Islands",
             official: "Falkland Islands",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Falkland Islands",
                     common: "Falkland Islands"
                 }
@@ -26085,7 +26085,7 @@ export const countries = [
         region: "Americas",
         subregion: "South America",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -26192,14 +26192,14 @@ export const countries = [
         latlng: [-51.75, -59],
         "landlocked": false,
         "area": 12173,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Falkland Islander",
-                "m": "Falkland Islander"
+                masc: "Falkland Islander"
             },
             "fra": {
                 "f": "Malouinne",
-                "m": "Malouin"
+                masc: "Malouin"
             }
         },
         flag: "🇫🇰",
@@ -26239,7 +26239,7 @@ export const countries = [
             common: "Saint Kitts and Nevis",
             official: "Federation of Saint Christopher and Nevis",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Federation of Saint Christopher and Nevis",
                     common: "Saint Kitts and Nevis"
                 }
@@ -26277,7 +26277,7 @@ export const countries = [
         region: "Americas",
         subregion: "Caribbean",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -26384,14 +26384,14 @@ export const countries = [
         latlng: [17.33333333, -62.75],
         "landlocked": false,
         "area": 261,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Kittitian or Nevisian",
-                "m": "Kittitian or Nevisian"
+                masc: "Kittitian or Nevisian"
             },
             "fra": {
                 "f": "Kittitienne-et-nevicienne",
-                "m": "Kittitien-et-nevicien"
+                masc: "Kittitien-et-nevicien"
             }
         },
         flag: "🇰🇳",
@@ -26433,7 +26433,7 @@ export const countries = [
             common: "Saint Lucia",
             official: "Saint Lucia",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Saint Lucia",
                     common: "Saint Lucia"
                 }
@@ -26470,7 +26470,7 @@ export const countries = [
         region: "Americas",
         subregion: "Caribbean",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -26577,14 +26577,14 @@ export const countries = [
         latlng: [13.88333333, -60.96666666],
         "landlocked": false,
         "area": 616,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Saint Lucian",
-                "m": "Saint Lucian"
+                masc: "Saint Lucian"
             },
             "fra": {
                 "f": "Saint-Lucienne",
-                "m": "Saint-Lucien"
+                masc: "Saint-Lucien"
             }
         },
         flag: "🇱🇨",
@@ -26667,7 +26667,7 @@ export const countries = [
         region: "Americas",
         subregion: "Caribbean",
         languages: {
-            "eng": "English",
+            eng: "English",
             "nld": "Dutch",
             "pap": "Papiamento"
         },
@@ -26776,14 +26776,14 @@ export const countries = [
         latlng: [12.18, -68.25],
         "landlocked": false,
         "area": 328,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Dutch",
-                "m": "Dutch"
+                masc: "Dutch"
             },
             "fra": {
                 "f": "Néerlandaise",
-                "m": "Néerlandais"
+                masc: "Néerlandais"
             }
         },
         flag: "🇧🇶",
@@ -26997,14 +26997,14 @@ export const countries = [
             "PER"
         ],
         "area": 1098581,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Bolivian",
-                "m": "Bolivian"
+                masc: "Bolivian"
             },
             "fra": {
                 "f": "Bolivienne",
-                "m": "Bolivien"
+                masc: "Bolivien"
             }
         },
         flag: "🇧🇴",
@@ -27197,14 +27197,14 @@ export const countries = [
             "PER"
         ],
         "area": 756102,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Chilean",
-                "m": "Chilean"
+                masc: "Chilean"
             },
             "fra": {
                 "f": "Chilienne",
-                "m": "Chilien"
+                masc: "Chilien"
             }
         },
         flag: "🇨🇱",
@@ -27251,7 +27251,7 @@ export const countries = [
             common: "United States",
             official: "United States of America",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "United States of America",
                     common: "United States"
                 }
@@ -27606,7 +27606,7 @@ export const countries = [
         region: "Americas",
         subregion: "North America",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -27717,14 +27717,14 @@ export const countries = [
             "MEX"
         ],
         "area": 9372610,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "American",
-                "m": "American"
+                masc: "American"
             },
             "fra": {
                 "f": "Américaine",
-                "m": "Américain"
+                masc: "Américain"
             }
         },
         flag: "🇺🇸",
@@ -27924,14 +27924,14 @@ export const countries = [
         latlng: [16.25, -61.583333],
         "landlocked": false,
         "area": 1628,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Guadeloupian",
-                "m": "Guadeloupian"
+                masc: "Guadeloupian"
             },
             "fra": {
                 "f": "Guadeloupéenne",
-                "m": "Guadeloupéen"
+                masc: "Guadeloupéen"
             }
         },
         flag: "🇬🇵",
@@ -28127,14 +28127,14 @@ export const countries = [
             "USA"
         ],
         "area": 1964375,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Mexican",
-                "m": "Mexican"
+                masc: "Mexican"
             },
             "fra": {
                 "f": "Mexicaine",
-                "m": "Mexicain"
+                masc: "Mexicain"
             }
         },
         flag: "🇲🇽",
@@ -28182,7 +28182,7 @@ export const countries = [
             common: "Saint Vincent and the Grenadines",
             official: "Saint Vincent and the Grenadines",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Saint Vincent and the Grenadines",
                     common: "Saint Vincent and the Grenadines"
                 }
@@ -28219,7 +28219,7 @@ export const countries = [
         region: "Americas",
         subregion: "Caribbean",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -28326,14 +28326,14 @@ export const countries = [
         latlng: [13.25, -61.2],
         "landlocked": false,
         "area": 389,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Saint Vincentian",
-                "m": "Saint Vincentian"
+                masc: "Saint Vincentian"
             },
             "fra": {
                 "f": "Vincentaise",
-                "m": "Vincentais"
+                masc: "Vincentais"
             }
         },
         flag: "🇻🇨",
@@ -28375,7 +28375,7 @@ export const countries = [
             common: "Bermuda",
             official: "Bermuda",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Bermuda",
                     common: "Bermuda"
                 }
@@ -28415,7 +28415,7 @@ export const countries = [
         region: "Americas",
         subregion: "North America",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -28522,14 +28522,14 @@ export const countries = [
         latlng: [32.33333333, -64.75],
         "landlocked": false,
         "area": 54,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Bermudian",
-                "m": "Bermudian"
+                masc: "Bermudian"
             },
             "fra": {
                 "f": "Bermudienne",
-                "m": "Bermudien"
+                masc: "Bermudien"
             }
         },
         flag: "🇧🇲",
@@ -28723,14 +28723,14 @@ export const countries = [
             "HTI"
         ],
         "area": 48671,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Dominican",
-                "m": "Dominican"
+                masc: "Dominican"
             },
             "fra": {
                 "f": "Dominicaine",
-                "m": "Dominicain"
+                masc: "Dominicain"
             }
         },
         flag: "🇩🇴",
@@ -28926,14 +28926,14 @@ export const countries = [
             "MEX"
         ],
         "area": 108889,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Guatemalan",
-                "m": "Guatemalan"
+                masc: "Guatemalan"
             },
             "fra": {
                 "f": "Guatémaltèque",
-                "m": "Guatémaltèque"
+                masc: "Guatémaltèque"
             }
         },
         flag: "🇬🇹",
@@ -29129,14 +29129,14 @@ export const countries = [
             "PER"
         ],
         "area": 276841,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Ecuadorean",
-                "m": "Ecuadorean"
+                masc: "Ecuadorean"
             },
             "fra": {
                 "f": "Équatorienne",
-                "m": "Équatorien"
+                masc: "Équatorien"
             }
         },
         flag: "🇪🇨",
@@ -29326,14 +29326,14 @@ export const countries = [
         latlng: [14.666667, -61],
         "landlocked": false,
         "area": 1128,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Martinican",
-                "m": "Martinican"
+                masc: "Martinican"
             },
             "fra": {
                 "f": "Martiniquaise",
-                "m": "Martiniquais"
+                masc: "Martiniquais"
             }
         },
         flag: "🇲🇶",
@@ -29530,14 +29530,14 @@ export const countries = [
             "GUY"
         ],
         "area": 163820,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Surinamer",
-                "m": "Surinamer"
+                masc: "Surinamer"
             },
             "fra": {
                 "f": "Surinamaise",
-                "m": "Surinamais"
+                masc: "Surinamais"
             }
         },
         flag: "🇸🇷",
@@ -29725,14 +29725,14 @@ export const countries = [
         latlng: [18.5, -63.41666666],
         "landlocked": false,
         "area": 21,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Saint Barthélemy Islander",
-                "m": "Saint Barthélemy Islander"
+                masc: "Saint Barthélemy Islander"
             },
             "fra": {
                 "f": "Barthéloméenne",
-                "m": "Barthéloméen"
+                masc: "Barthéloméen"
             }
         },
         flag: "🇧🇱",
@@ -29774,7 +29774,7 @@ export const countries = [
             common: "Bahamas",
             official: "Commonwealth of the Bahamas",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Commonwealth of the Bahamas",
                     common: "Bahamas"
                 }
@@ -29816,7 +29816,7 @@ export const countries = [
         region: "Americas",
         subregion: "Caribbean",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -29923,14 +29923,14 @@ export const countries = [
         latlng: [25.0343, -77.3963],
         "landlocked": false,
         "area": 13943,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Bahamian",
-                "m": "Bahamian"
+                masc: "Bahamian"
             },
             "fra": {
                 "f": "Bahamienne",
-                "m": "Bahamien"
+                masc: "Bahamien"
             }
         },
         flag: "🇧🇸",
@@ -30129,14 +30129,14 @@ export const countries = [
             "BRA"
         ],
         "area": 406752,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Paraguayan",
-                "m": "Paraguayan"
+                masc: "Paraguayan"
             },
             "fra": {
                 "f": "Paraguayenne",
-                "m": "Paraguayen"
+                masc: "Paraguayen"
             }
         },
         flag: "🇵🇾",
@@ -30182,7 +30182,7 @@ export const countries = [
             common: "British Virgin Islands",
             official: "Virgin Islands",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Virgin Islands",
                     common: "British Virgin Islands"
                 }
@@ -30220,7 +30220,7 @@ export const countries = [
         region: "Americas",
         subregion: "Caribbean",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -30327,10 +30327,10 @@ export const countries = [
         latlng: [18.431383, -64.62305],
         "landlocked": false,
         "area": 151,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Virgin Islander",
-                "m": "Virgin Islander"
+                masc: "Virgin Islander"
             }
         },
         flag: "🇻🇬",
@@ -30530,14 +30530,14 @@ export const countries = [
             "VEN"
         ],
         "area": 8515767,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Brazilian",
-                "m": "Brazilian"
+                masc: "Brazilian"
             },
             "fra": {
                 "f": "Brésilienne",
-                "m": "Brésilien"
+                masc: "Brésilien"
             }
         },
         flag: "🇧🇷",
@@ -30590,7 +30590,7 @@ export const countries = [
                     official: "Belize",
                     common: "Belize"
                 },
-                "eng": {
+                eng: {
                     official: "Belize",
                     common: "Belize"
                 },
@@ -30632,7 +30632,7 @@ export const countries = [
         subregion: "Central America",
         languages: {
             "bjz": "Belizean Creole",
-            "eng": "English",
+            eng: "English",
             "spa": "Spanish"
         },
         "translations": {
@@ -30744,14 +30744,14 @@ export const countries = [
             "MEX"
         ],
         "area": 22966,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Belizean",
-                "m": "Belizean"
+                masc: "Belizean"
             },
             "fra": {
                 "f": "Bélizienne",
-                "m": "Bélizien"
+                masc: "Bélizien"
             }
         },
         flag: "🇧🇿",
@@ -30945,14 +30945,14 @@ export const countries = [
             "GUY"
         ],
         "area": 916445,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Venezuelan",
-                "m": "Venezuelan"
+                masc: "Venezuelan"
             },
             "fra": {
                 "f": "Vénézuélienne",
-                "m": "Vénézuélien"
+                masc: "Vénézuélien"
             }
         },
         flag: "🇻🇪",
@@ -31148,14 +31148,14 @@ export const countries = [
             "HND"
         ],
         "area": 21041,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Salvadoran",
-                "m": "Salvadoran"
+                masc: "Salvadoran"
             },
             "fra": {
                 "f": "Salvadorienne",
-                "m": "Salvadorien"
+                masc: "Salvadorien"
             }
         },
         flag: "🇸🇻",
@@ -31364,14 +31364,14 @@ export const countries = [
             "ECU"
         ],
         "area": 1285216,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Peruvian",
-                "m": "Peruvian"
+                masc: "Peruvian"
             },
             "fra": {
                 "f": "Péruvienne",
-                "m": "Péruvien"
+                masc: "Péruvien"
             }
         },
         flag: "🇵🇪",
@@ -31417,7 +31417,7 @@ export const countries = [
             common: "Trinidad and Tobago",
             official: "Republic of Trinidad and Tobago",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Republic of Trinidad and Tobago",
                     common: "Trinidad and Tobago"
                 }
@@ -31455,7 +31455,7 @@ export const countries = [
         region: "Americas",
         subregion: "Caribbean",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -31562,14 +31562,14 @@ export const countries = [
         latlng: [10.6918, -61.2225],
         "landlocked": false,
         "area": 5130,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Trinidadian",
-                "m": "Trinidadian"
+                masc: "Trinidadian"
             },
             "fra": {
                 "f": "Trinidadienne",
-                "m": "Trinidadien"
+                masc: "Trinidadien"
             }
         },
         flag: "🇹🇹",
@@ -31755,14 +31755,14 @@ export const countries = [
         latlng: [72, -40],
         "landlocked": false,
         "area": 2166086,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Greenlandic",
-                "m": "Greenlandic"
+                masc: "Greenlandic"
             },
             "fra": {
                 "f": "Groenlandaise",
-                "m": "Groenlandais"
+                masc: "Groenlandais"
             }
         },
         flag: "🇬🇱",
@@ -31809,7 +31809,7 @@ export const countries = [
             common: "Guyana",
             official: "Co-operative Republic of Guyana",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Co-operative Republic of Guyana",
                     common: "Guyana"
                 }
@@ -31847,7 +31847,7 @@ export const countries = [
         region: "Americas",
         subregion: "South America",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -31959,14 +31959,14 @@ export const countries = [
             "VEN"
         ],
         "area": 214969,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Guyanese",
-                "m": "Guyanese"
+                masc: "Guyanese"
             },
             "fra": {
                 "f": "Guyanienne",
-                "m": "Guyanien"
+                masc: "Guyanien"
             }
         },
         flag: "🇬🇾",
@@ -32008,7 +32008,7 @@ export const countries = [
             common: "Jamaica",
             official: "Jamaica",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Jamaica",
                     common: "Jamaica"
                 },
@@ -32049,7 +32049,7 @@ export const countries = [
         region: "Americas",
         subregion: "Caribbean",
         languages: {
-            "eng": "English",
+            eng: "English",
             "jam": "Jamaican Patois"
         },
         "translations": {
@@ -32157,14 +32157,14 @@ export const countries = [
         latlng: [18.25, -77.5],
         "landlocked": false,
         "area": 10991,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Jamaican",
-                "m": "Jamaican"
+                masc: "Jamaican"
             },
             "fra": {
                 "f": "Jamaïcaine",
-                "m": "Jamaïcain"
+                masc: "Jamaïcain"
             }
         },
         flag: "🇯🇲",
@@ -32355,14 +32355,14 @@ export const countries = [
         latlng: [12.5, -69.96666666],
         "landlocked": false,
         "area": 180,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Aruban",
-                "m": "Aruban"
+                masc: "Aruban"
             },
             "fra": {
                 "f": "Arubaise",
-                "m": "Arubais"
+                masc: "Arubais"
             }
         },
         flag: "🇦🇼",
@@ -32400,7 +32400,7 @@ export const countries = [
             common: "Cayman Islands",
             official: "Cayman Islands",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Cayman Islands",
                     common: "Cayman Islands"
                 }
@@ -32437,7 +32437,7 @@ export const countries = [
         region: "Americas",
         subregion: "Caribbean",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -32544,14 +32544,14 @@ export const countries = [
         latlng: [19.3133, -81.2546],
         "landlocked": false,
         "area": 264,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Caymanian",
-                "m": "Caymanian"
+                masc: "Caymanian"
             },
             "fra": {
                 "f": "Caïmanienne",
-                "m": "Caïmanien"
+                masc: "Caïmanien"
             }
         },
         flag: "🇰🇾",
@@ -32742,14 +32742,14 @@ export const countries = [
         latlng: [21.5, -80],
         "landlocked": false,
         "area": 109884,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Cuban",
-                "m": "Cuban"
+                masc: "Cuban"
             },
             "fra": {
                 "f": "Cubaine",
-                "m": "Cubain"
+                masc: "Cubain"
             }
         },
         flag: "🇨🇺",
@@ -32945,14 +32945,14 @@ export const countries = [
             "BRA"
         ],
         "area": 181034,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Uruguayan",
-                "m": "Uruguayan"
+                masc: "Uruguayan"
             },
             "fra": {
                 "f": "Uruguayenne",
-                "m": "Uruguayen"
+                masc: "Uruguayen"
             }
         },
         flag: "🇺🇾",
@@ -33148,14 +33148,14 @@ export const countries = [
             "SXM"
         ],
         "area": 53,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Saint Martin Islander",
-                "m": "Saint Martin Islander"
+                masc: "Saint Martin Islander"
             },
             "fra": {
                 "f": "Saint-Martinoise",
-                "m": "Saint-Martinois"
+                masc: "Saint-Martinois"
             }
         },
         flag: "🇲🇫",
@@ -33197,7 +33197,7 @@ export const countries = [
             common: "Antigua and Barbuda",
             official: "Antigua and Barbuda",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Antigua and Barbuda",
                     common: "Antigua and Barbuda"
                 }
@@ -33234,7 +33234,7 @@ export const countries = [
         region: "Americas",
         subregion: "Caribbean",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -33341,14 +33341,14 @@ export const countries = [
         latlng: [17.05, -61.8],
         "landlocked": false,
         "area": 442,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Antiguan, Barbudan",
-                "m": "Antiguan, Barbudan"
+                masc: "Antiguan, Barbudan"
             },
             "fra": {
                 "f": "Antiguaise et barbudienne",
-                "m": "Antiguaise et barbudien"
+                masc: "Antiguaise et barbudien"
             }
         },
         flag: "🇦🇬",
@@ -33390,7 +33390,7 @@ export const countries = [
             common: "Canada",
             official: "Canada",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Canada",
                     common: "Canada"
                 },
@@ -33431,7 +33431,7 @@ export const countries = [
         region: "Americas",
         subregion: "North America",
         languages: {
-            "eng": "English",
+            eng: "English",
             "fra": "French"
         },
         "translations": {
@@ -33542,14 +33542,14 @@ export const countries = [
             "USA"
         ],
         "area": 9984670,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Canadian",
-                "m": "Canadian"
+                masc: "Canadian"
             },
             "fra": {
                 "f": "Canadienne",
-                "m": "Canadien"
+                masc: "Canadien"
             }
         },
         flag: "🇨🇦",
@@ -33754,14 +33754,14 @@ export const countries = [
             "CRI"
         ],
         "area": 75417,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Panamanian",
-                "m": "Panamanian"
+                masc: "Panamanian"
             },
             "fra": {
                 "f": "Panaméenne",
-                "m": "Panaméen"
+                masc: "Panaméen"
             }
         },
         flag: "🇵🇦",
@@ -33803,7 +33803,7 @@ export const countries = [
             common: "Montserrat",
             official: "Montserrat",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Montserrat",
                     common: "Montserrat"
                 }
@@ -33839,7 +33839,7 @@ export const countries = [
         region: "Americas",
         subregion: "Caribbean",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -33946,14 +33946,14 @@ export const countries = [
         latlng: [16.75, -62.2],
         "landlocked": false,
         "area": 102,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Montserratian",
-                "m": "Montserratian"
+                masc: "Montserratian"
             },
             "fra": {
                 "f": "Montserratienne",
-                "m": "Montserratien"
+                masc: "Montserratien"
             }
         },
         flag: "🇲🇸",
@@ -34144,14 +34144,14 @@ export const countries = [
             "HND"
         ],
         "area": 130373,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Nicaraguan",
-                "m": "Nicaraguan"
+                masc: "Nicaraguan"
             },
             "fra": {
                 "f": "Nicaraguayenne",
-                "m": "Nicaraguayen"
+                masc: "Nicaraguayen"
             }
         },
         flag: "🇳🇮",
@@ -34341,14 +34341,14 @@ export const countries = [
         latlng: [46.83333333, -56.33333333],
         "landlocked": false,
         "area": 242,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Saint-Pierrais, Miquelonnais",
-                "m": "Saint-Pierrais, Miquelonnais"
+                masc: "Saint-Pierrais, Miquelonnais"
             },
             "fra": {
                 "f": "Saint-Pierraise, Miquelonaise",
-                "m": "Saint-Pierrais, Miquelonais"
+                masc: "Saint-Pierrais, Miquelonais"
             }
         },
         flag: "🇵🇲",
@@ -34391,7 +34391,7 @@ export const countries = [
             common: "United States Virgin Islands",
             official: "Virgin Islands of the United States",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Virgin Islands of the United States",
                     common: "United States Virgin Islands"
                 }
@@ -34429,7 +34429,7 @@ export const countries = [
         region: "Americas",
         subregion: "Caribbean",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -34536,10 +34536,10 @@ export const countries = [
         latlng: [18.35, -64.933333],
         "landlocked": false,
         "area": 347,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Virgin Islander",
-                "m": "Virgin Islander"
+                masc: "Virgin Islander"
             }
         },
         flag: "🇻🇮",
@@ -34579,7 +34579,7 @@ export const countries = [
             common: "Anguilla",
             official: "Anguilla",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Anguilla",
                     common: "Anguilla"
                 }
@@ -34615,7 +34615,7 @@ export const countries = [
         region: "Americas",
         subregion: "Caribbean",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -34722,14 +34722,14 @@ export const countries = [
         latlng: [18.25, -63.16666666],
         "landlocked": false,
         "area": 91,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Anguillian",
-                "m": "Anguillian"
+                masc: "Anguillian"
             },
             "fra": {
                 "f": "Anguillane",
-                "m": "Anguillan"
+                masc: "Anguillan"
             }
         },
         flag: "🇦🇮",
@@ -34923,14 +34923,14 @@ export const countries = [
             "PRK"
         ],
         "area": 100210,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "South Korean",
-                "m": "South Korean"
+                masc: "South Korean"
             },
             "fra": {
                 "f": "Sud-coréenne",
-                "m": "Sud-coréen"
+                masc: "Sud-coréen"
             }
         },
         flag: "🇰🇷",
@@ -35123,14 +35123,14 @@ export const countries = [
         latlng: [23.5, 121],
         "landlocked": false,
         "area": 36193,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Taiwanese",
-                "m": "Taiwanese"
+                masc: "Taiwanese"
             },
             "fra": {
                 "f": "Taïwanaise",
-                "m": "Taïwanais"
+                masc: "Taïwanais"
             }
         },
         flag: "🇹🇼",
@@ -35329,14 +35329,14 @@ export const countries = [
             "SYR"
         ],
         "area": 89342,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Jordanian",
-                "m": "Jordanian"
+                masc: "Jordanian"
             },
             "fra": {
                 "f": "Jordanienne",
-                "m": "Jordanien"
+                masc: "Jordanien"
             }
         },
         flag: "🇯🇴",
@@ -35532,14 +35532,14 @@ export const countries = [
             "IND"
         ],
         "area": 147181,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Nepalese",
-                "m": "Nepalese"
+                masc: "Nepalese"
             },
             "fra": {
                 "f": "Népalaise",
-                "m": "Népalais"
+                masc: "Népalais"
             }
         },
         flag: "🇳🇵",
@@ -35741,14 +35741,14 @@ export const countries = [
             "MYS"
         ],
         "area": 513120,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Thai",
-                "m": "Thai"
+                masc: "Thai"
             },
             "fra": {
                 "f": "Thaïlandaise",
-                "m": "Thaïlandais"
+                masc: "Thaïlandais"
             }
         },
         flag: "🇹🇭",
@@ -35959,14 +35959,14 @@ export const countries = [
             "UZB"
         ],
         "area": 2724900,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Kazakhstani",
-                "m": "Kazakhstani"
+                masc: "Kazakhstani"
             },
             "fra": {
                 "f": "Kazakhstanaise",
-                "m": "Kazakhstanais"
+                masc: "Kazakhstanais"
             }
         },
         flag: "🇰🇿",
@@ -36164,14 +36164,14 @@ export const countries = [
             "TUR"
         ],
         "area": 69700,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Georgian",
-                "m": "Georgian"
+                masc: "Georgian"
             },
             "fra": {
                 "f": "Géorgienne",
-                "m": "Géorgien"
+                masc: "Géorgien"
             }
         },
         flag: "🇬🇪",
@@ -36217,7 +36217,7 @@ export const countries = [
             common: "Pakistan",
             official: "Islamic Republic of Pakistan",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Islamic Republic of Pakistan",
                     common: "Pakistan"
                 },
@@ -36261,7 +36261,7 @@ export const countries = [
         region: "Asia",
         subregion: "Southern Asia",
         languages: {
-            "eng": "English",
+            eng: "English",
             "urd": "Urdu"
         },
         "translations": {
@@ -36375,14 +36375,14 @@ export const countries = [
             "IRN"
         ],
         "area": 881912,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Pakistani",
-                "m": "Pakistani"
+                masc: "Pakistani"
             },
             "fra": {
                 "f": "Pakistanaise",
-                "m": "Pakistanais"
+                masc: "Pakistanais"
             }
         },
         flag: "🇵🇰",
@@ -36581,14 +36581,14 @@ export const countries = [
             "TUR"
         ],
         "area": 29743,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Armenian",
-                "m": "Armenian"
+                masc: "Armenian"
             },
             "fra": {
                 "f": "Arménienne",
-                "m": "Arménien"
+                masc: "Arménien"
             }
         },
         flag: "🇦🇲",
@@ -36785,14 +36785,14 @@ export const countries = [
             "png"
         ],
         "area": 1904569,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Indonesian",
-                "m": "Indonesian"
+                masc: "Indonesian"
             },
             "fra": {
                 "f": "Indonésienne",
-                "m": "Indonésien"
+                masc: "Indonésien"
             }
         },
         flag: "🇮🇩",
@@ -36987,14 +36987,14 @@ export const countries = [
         latlng: [36, 138],
         "landlocked": false,
         "area": 377930,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Japanese",
-                "m": "Japanese"
+                masc: "Japanese"
             },
             "fra": {
                 "f": "Japonaise",
-                "m": "Japonais"
+                masc: "Japonais"
             }
         },
         flag: "🇯🇵",
@@ -37194,14 +37194,14 @@ export const countries = [
             "VNM"
         ],
         "area": 236800,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Laotian",
-                "m": "Laotian"
+                masc: "Laotian"
             },
             "fra": {
                 "f": "Laotienne",
-                "m": "Laotien"
+                masc: "Laotien"
             }
         },
         flag: "🇱🇦",
@@ -37402,14 +37402,14 @@ export const countries = [
             "SYR"
         ],
         "area": 10452,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Lebanese",
-                "m": "Lebanese"
+                masc: "Lebanese"
             },
             "fra": {
                 "f": "Libanaise",
-                "m": "Libanais"
+                masc: "Libanais"
             }
         },
         flag: "🇱🇧",
@@ -37455,7 +37455,7 @@ export const countries = [
             common: "Philippines",
             official: "Republic of the Philippines",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Republic of the Philippines",
                     common: "Philippines"
                 },
@@ -37498,7 +37498,7 @@ export const countries = [
         region: "Asia",
         subregion: "South-Eastern Asia",
         languages: {
-            "eng": "English",
+            eng: "English",
             "fil": "Filipino"
         },
         "translations": {
@@ -37606,14 +37606,14 @@ export const countries = [
         latlng: [13, 122],
         "landlocked": false,
         "area": 342353,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Filipino",
-                "m": "Filipino"
+                masc: "Filipino"
             },
             "fra": {
                 "f": "Philippine",
-                "m": "Philippin"
+                masc: "Philippin"
             }
         },
         flag: "🇵🇭",
@@ -37805,14 +37805,14 @@ export const countries = [
         latlng: [26, 50.55],
         "landlocked": false,
         "area": 765,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Bahraini",
-                "m": "Bahraini"
+                masc: "Bahraini"
             },
             "fra": {
                 "f": "Bahreïnienne",
-                "m": "Bahreïnien"
+                masc: "Bahreïnien"
             }
         },
         flag: "🇧🇭",
@@ -38008,14 +38008,14 @@ export const countries = [
             "SAU"
         ],
         "area": 11586,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Qatari",
-                "m": "Qatari"
+                masc: "Qatari"
             },
             "fra": {
                 "f": "Qatarienne",
-                "m": "Qatarien"
+                masc: "Qatarien"
             }
         },
         flag: "🇶🇦",
@@ -38216,14 +38216,14 @@ export const countries = [
             "UZB"
         ],
         "area": 143100,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Tadzhik",
-                "m": "Tadzhik"
+                masc: "Tadzhik"
             },
             "fra": {
                 "f": "Tadjike",
-                "m": "Tadjike"
+                masc: "Tadjike"
             }
         },
         flag: "🇹🇯",
@@ -38437,14 +38437,14 @@ export const countries = [
             "VNM"
         ],
         "area": 9706961,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Chinese",
-                "m": "Chinese"
+                masc: "Chinese"
             },
             "fra": {
                 "f": "Chinoise",
-                "m": "Chinois"
+                masc: "Chinois"
             }
         },
         flag: "🇨🇳",
@@ -38640,14 +38640,14 @@ export const countries = [
             "SAU"
         ],
         "area": 527968,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Yemeni",
-                "m": "Yemeni"
+                masc: "Yemeni"
             },
             "fra": {
                 "f": "Yéménite",
-                "m": "Yéménite"
+                masc: "Yéménite"
             }
         },
         flag: "🇾🇪",
@@ -38689,7 +38689,7 @@ export const countries = [
             common: "India",
             official: "Republic of India",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Republic of India",
                     common: "India"
                 },
@@ -38738,7 +38738,7 @@ export const countries = [
         region: "Asia",
         subregion: "Southern Asia",
         languages: {
-            "eng": "English",
+            eng: "English",
             "hin": "Hindi",
             "tam": "Tamil"
         },
@@ -38855,14 +38855,14 @@ export const countries = [
             "PAK"
         ],
         "area": 3287590,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Indian",
-                "m": "Indian"
+                masc: "Indian"
             },
             "fra": {
                 "f": "Indienne",
-                "m": "Indien"
+                masc: "Indien"
             }
         },
         flag: "🇮🇳",
@@ -39058,14 +39058,14 @@ export const countries = [
             "SAU"
         ],
         "area": 17818,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Kuwaiti",
-                "m": "Kuwaiti"
+                masc: "Kuwaiti"
             },
             "fra": {
                 "f": "Koweïtienne",
-                "m": "Koweïtien"
+                masc: "Koweïtien"
             }
         },
         flag: "🇰🇼",
@@ -39265,14 +39265,14 @@ export const countries = [
             "TUR"
         ],
         "area": 185180,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Syrian",
-                "m": "Syrian"
+                masc: "Syrian"
             },
             "fra": {
                 "f": "Syrienne",
-                "m": "Syrien"
+                masc: "Syrien"
             }
         },
         flag: "🇸🇾",
@@ -39461,14 +39461,14 @@ export const countries = [
         latlng: [3.25, 73],
         "landlocked": false,
         "area": 300,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Maldivan",
-                "m": "Maldivan"
+                masc: "Maldivan"
             },
             "fra": {
                 "f": "Maldivienne",
-                "m": "Maldivien"
+                masc: "Maldivien"
             }
         },
         flag: "🇲🇻",
@@ -39673,14 +39673,14 @@ export const countries = [
             "TKM"
         ],
         "area": 447400,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Uzbekistani",
-                "m": "Uzbekistani"
+                masc: "Uzbekistani"
             },
             "fra": {
                 "f": "Ouzbèke",
-                "m": "Ouzbèke"
+                masc: "Ouzbèke"
             }
         },
         flag: "🇺🇿",
@@ -39879,14 +39879,14 @@ export const countries = [
             "TKM"
         ],
         "area": 1648195,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Iranian",
-                "m": "Iranian"
+                masc: "Iranian"
             },
             "fra": {
                 "f": "Iranienne",
-                "m": "Iranien"
+                masc: "Iranien"
             }
         },
         flag: "🇮🇷",
@@ -40086,14 +40086,14 @@ export const countries = [
             "THA"
         ],
         "area": 676578,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Burmese",
-                "m": "Burmese"
+                masc: "Burmese"
             },
             "fra": {
                 "f": "Birmane",
-                "m": "Birman"
+                masc: "Birman"
             }
         },
         flag: "🇲🇲",
@@ -40295,14 +40295,14 @@ export const countries = [
             "IND"
         ],
         "area": 65610,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Sri Lankan",
-                "m": "Sri Lankan"
+                masc: "Sri Lankan"
             },
             "fra": {
                 "f": "Sri-lankaise",
-                "m": "Sri-lankais"
+                masc: "Sri-lankais"
             }
         },
         flag: "🇱🇰",
@@ -40501,14 +40501,14 @@ export const countries = [
             "IND"
         ],
         "area": 38394,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Bhutanese",
-                "m": "Bhutanese"
+                masc: "Bhutanese"
             },
             "fra": {
                 "f": "Bhoutanaise",
-                "m": "Bhoutanais"
+                masc: "Bhoutanais"
             }
         },
         flag: "🇧🇹",
@@ -40712,14 +40712,14 @@ export const countries = [
             "JOR"
         ],
         "area": 6220,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Palestinian",
-                "m": "Palestinian"
+                masc: "Palestinian"
             },
             "fra": {
                 "f": "Palestinienne",
-                "m": "Palestinien"
+                masc: "Palestinien"
             }
         },
         flag: "🇵🇸",
@@ -40910,14 +40910,14 @@ export const countries = [
             "IND"
         ],
         "area": 147570,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Bangladeshi",
-                "m": "Bangladeshi"
+                masc: "Bangladeshi"
             },
             "fra": {
                 "f": "Bangladaise",
-                "m": "Bangladais"
+                masc: "Bangladais"
             }
         },
         flag: "🇧🇩",
@@ -40963,7 +40963,7 @@ export const countries = [
             common: "Singapore",
             official: "Republic of Singapore",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Republic of Singapore",
                     common: "Singapore"
                 },
@@ -41017,7 +41017,7 @@ export const countries = [
         region: "Asia",
         subregion: "South-Eastern Asia",
         languages: {
-            "eng": "English",
+            eng: "English",
             "zho": "Chinese",
             "msa": "Malay",
             "tam": "Tamil"
@@ -41123,14 +41123,14 @@ export const countries = [
         latlng: [1.36666666, 103.8],
         "landlocked": false,
         "area": 710,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Singaporean",
-                "m": "Singaporean"
+                masc: "Singaporean"
             },
             "fra": {
                 "f": "Singapourienne",
-                "m": "Singapourien"
+                masc: "Singapourien"
             }
         },
         flag: "🇸🇬",
@@ -41333,14 +41333,14 @@ export const countries = [
             "SYR"
         ],
         "area": 783562,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Turkish",
-                "m": "Turkish"
+                masc: "Turkish"
             },
             "fra": {
                 "f": "Turque",
-                "m": "Turc"
+                masc: "Turc"
             }
         },
         flag: "🇹🇷",
@@ -41538,14 +41538,14 @@ export const countries = [
             "SAU"
         ],
         "area": 83600,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Emirati",
-                "m": "Emirati"
+                masc: "Emirati"
             },
             "fra": {
                 "f": "Emirienne",
-                "m": "Emirien"
+                masc: "Emirien"
             }
         },
         flag: "🇦🇪",
@@ -41750,14 +41750,14 @@ export const countries = [
             "CHN"
         ],
         "area": 652230,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Afghan",
-                "m": "Afghan"
+                masc: "Afghan"
             },
             "fra": {
                 "f": "Afghane",
-                "m": "Afghan"
+                masc: "Afghan"
             }
         },
         flag: "🇦🇫",
@@ -41957,14 +41957,14 @@ export const countries = [
             "IDN"
         ],
         "area": 14874,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "East Timorese",
-                "m": "East Timorese"
+                masc: "East Timorese"
             },
             "fra": {
                 "f": "Est-timoraise",
-                "m": "Est-timorais"
+                masc: "Est-timorais"
             }
         },
         flag: "🇹🇱",
@@ -42157,14 +42157,14 @@ export const countries = [
             "LAO"
         ],
         "area": 331212,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Vietnamese",
-                "m": "Vietnamese"
+                masc: "Vietnamese"
             },
             "fra": {
                 "f": "Vietnamienne",
-                "m": "Vietnamien"
+                masc: "Vietnamien"
             }
         },
         flag: "🇻🇳",
@@ -42364,14 +42364,14 @@ export const countries = [
             "VNM"
         ],
         "area": 181035,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Cambodian",
-                "m": "Cambodian"
+                masc: "Cambodian"
             },
             "fra": {
                 "f": "Cambodgienne",
-                "m": "Cambodgien"
+                masc: "Cambodgien"
             }
         },
         flag: "🇰🇭",
@@ -42581,14 +42581,14 @@ export const countries = [
             "TUR"
         ],
         "area": 438317,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Iraqi",
-                "m": "Iraqi"
+                masc: "Iraqi"
             },
             "fra": {
                 "f": "Irakienne",
-                "m": "Irakien"
+                masc: "Irakien"
             }
         },
         flag: "🇮🇶",
@@ -42788,14 +42788,14 @@ export const countries = [
             "MYS"
         ],
         "area": 5765,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Bruneian",
-                "m": "Bruneian"
+                masc: "Bruneian"
             },
             "fra": {
                 "f": "Brunéienne",
-                "m": "Brunéien"
+                masc: "Brunéien"
             }
         },
         flag: "🇧🇳",
@@ -43000,14 +43000,14 @@ export const countries = [
             "UZB"
         ],
         "area": 199951,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Kirghiz",
-                "m": "Kirghiz"
+                masc: "Kirghiz"
             },
             "fra": {
                 "f": "Kirghize",
-                "m": "Kirghize"
+                masc: "Kirghize"
             }
         },
         flag: "🇰🇬",
@@ -43206,14 +43206,14 @@ export const countries = [
             "TUR"
         ],
         "area": 86600,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Azerbaijani",
-                "m": "Azerbaijani"
+                masc: "Azerbaijani"
             },
             "fra": {
                 "f": "Azerbaïdjanaise",
-                "m": "Azerbaïdjanais"
+                masc: "Azerbaïdjanais"
             }
         },
         flag: "🇦🇿",
@@ -43260,7 +43260,7 @@ export const countries = [
             common: "Hong Kong",
             official: "Hong Kong Special Administrative Region of the People's Republic of China",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Hong Kong Special Administrative Region of the People's Republic of China",
                     common: "Hong Kong"
                 },
@@ -43302,7 +43302,7 @@ export const countries = [
         region: "Asia",
         subregion: "Eastern Asia",
         languages: {
-            "eng": "English",
+            eng: "English",
             "zho": "Chinese"
         },
         "translations": {
@@ -43409,14 +43409,14 @@ export const countries = [
             "CHN"
         ],
         "area": 1104,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Hong Konger",
-                "m": "Hong Konger"
+                masc: "Hong Konger"
             },
             "fra": {
                 "f": "Hongkongaise",
-                "m": "Hongkongais"
+                masc: "Hongkongais"
             }
         },
         flag: "🇭🇰",
@@ -43457,7 +43457,7 @@ export const countries = [
             common: "Malaysia",
             official: "Malaysia",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Malaysia",
                     common: "Malaysia"
                 },
@@ -43498,7 +43498,7 @@ export const countries = [
         region: "Asia",
         subregion: "South-Eastern Asia",
         languages: {
-            "eng": "English",
+            eng: "English",
             "msa": "Malay"
         },
         "translations": {
@@ -43611,14 +43611,14 @@ export const countries = [
             "THA"
         ],
         "area": 330803,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Malaysian",
-                "m": "Malaysian"
+                masc: "Malaysian"
             },
             "fra": {
                 "f": "Malaisienne",
-                "m": "Malaisien"
+                masc: "Malaisien"
             }
         },
         flag: "🇲🇾",
@@ -43812,14 +43812,14 @@ export const countries = [
             "RUS"
         ],
         "area": 1564110,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Mongolian",
-                "m": "Mongolian"
+                masc: "Mongolian"
             },
             "fra": {
                 "f": "Mongole",
-                "m": "Mongol"
+                masc: "Mongol"
             }
         },
         flag: "🇲🇳",
@@ -44023,14 +44023,14 @@ export const countries = [
             "YEM"
         ],
         "area": 2149690,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Saudi Arabian",
-                "m": "Saudi Arabian"
+                masc: "Saudi Arabian"
             },
             "fra": {
                 "f": "Saoudienne",
-                "m": "Saoudien"
+                masc: "Saoudien"
             }
         },
         flag: "🇸🇦",
@@ -44231,14 +44231,14 @@ export const countries = [
             "UZB"
         ],
         "area": 488100,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Turkmen",
-                "m": "Turkmen"
+                masc: "Turkmen"
             },
             "fra": {
                 "f": "Turkmène",
-                "m": "Turkmène"
+                masc: "Turkmène"
             }
         },
         flag: "🇹🇲",
@@ -44440,14 +44440,14 @@ export const countries = [
             "RUS"
         ],
         "area": 120538,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "North Korean",
-                "m": "North Korean"
+                masc: "North Korean"
             },
             "fra": {
                 "f": "Nord-coréenne",
-                "m": "Nord-coréen"
+                masc: "Nord-coréen"
             }
         },
         flag: "🇰🇵",
@@ -44651,14 +44651,14 @@ export const countries = [
             "SYR"
         ],
         "area": 20770,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Israeli",
-                "m": "Israeli"
+                masc: "Israeli"
             },
             "fra": {
                 "f": "Israélienne",
-                "m": "Israélien"
+                masc: "Israélien"
             }
         },
         flag: "🇮🇱",
@@ -44855,14 +44855,14 @@ export const countries = [
             "YEM"
         ],
         "area": 309500,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Omani",
-                "m": "Omani"
+                masc: "Omani"
             },
             "fra": {
                 "f": "Omanaise",
-                "m": "Omanais"
+                masc: "Omanais"
             }
         },
         flag: "🇴🇲",
@@ -45057,14 +45057,14 @@ export const countries = [
             "CHN"
         ],
         "area": 30,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Macanese",
-                "m": "Macanese"
+                masc: "Macanese"
             },
             "fra": {
                 "f": "Macanaise",
-                "m": "Macanais"
+                masc: "Macanais"
             }
         },
         flag: "🇲🇴",
@@ -45249,14 +45249,14 @@ export const countries = [
         latlng: [-21.5, 165.5],
         "landlocked": false,
         "area": 18575,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "New Caledonian",
-                "m": "New Caledonian"
+                masc: "New Caledonian"
             },
             "fra": {
                 "f": "Néo-Calédonienne",
-                "m": "Néo-Calédonien"
+                masc: "Néo-Calédonien"
             }
         },
         flag: "🇳🇨",
@@ -45301,7 +45301,7 @@ export const countries = [
             common: "Solomon Islands",
             official: "Solomon Islands",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Solomon Islands",
                     common: "Solomon Islands"
                 }
@@ -45338,7 +45338,7 @@ export const countries = [
         region: "Oceania",
         subregion: "Melanesia",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -45445,14 +45445,14 @@ export const countries = [
         latlng: [-8, 159],
         "landlocked": false,
         "area": 28896,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Solomon Islander",
-                "m": "Solomon Islander"
+                masc: "Solomon Islander"
             },
             "fra": {
                 "f": "Salomonienne",
-                "m": "Salomonien"
+                masc: "Salomonien"
             }
         },
         flag: "🇸🇧",
@@ -45494,7 +45494,7 @@ export const countries = [
             common: "Marshall Islands",
             official: "Republic of the Marshall Islands",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Republic of the Marshall Islands",
                     common: "Marshall Islands"
                 },
@@ -45537,7 +45537,7 @@ export const countries = [
         region: "Oceania",
         subregion: "Micronesia",
         languages: {
-            "eng": "English",
+            eng: "English",
             "mah": "Marshallese"
         },
         "translations": {
@@ -45645,14 +45645,14 @@ export const countries = [
         latlng: [9, 168],
         "landlocked": false,
         "area": 181,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Marshallese",
-                "m": "Marshallese"
+                masc: "Marshallese"
             },
             "fra": {
                 "f": "Marshallaise",
-                "m": "Marshallais"
+                masc: "Marshallais"
             }
         },
         flag: "🇲🇭",
@@ -45697,7 +45697,7 @@ export const countries = [
                     official: "Ripablik blong Vanuatu",
                     common: "Vanuatu"
                 },
-                "eng": {
+                eng: {
                     official: "Republic of Vanuatu",
                     common: "Vanuatu"
                 },
@@ -45742,7 +45742,7 @@ export const countries = [
         subregion: "Melanesia",
         languages: {
             "bis": "Bislama",
-            "eng": "English",
+            eng: "English",
             "fra": "French"
         },
         "translations": {
@@ -45850,14 +45850,14 @@ export const countries = [
         latlng: [-16, 167],
         "landlocked": false,
         "area": 12189,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Ni-Vanuatu",
-                "m": "Ni-Vanuatu"
+                masc: "Ni-Vanuatu"
             },
             "fra": {
                 "f": "Vanuatuane",
-                "m": "Vanuatuan"
+                masc: "Vanuatuan"
             }
         },
         flag: "🇻🇺",
@@ -45899,7 +45899,7 @@ export const countries = [
             common: "Niue",
             official: "Niue",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Niue",
                     common: "Niue"
                 },
@@ -45939,7 +45939,7 @@ export const countries = [
         region: "Oceania",
         subregion: "Polynesia",
         languages: {
-            "eng": "English",
+            eng: "English",
             "niu": "Niuean"
         },
         "translations": {
@@ -46047,14 +46047,14 @@ export const countries = [
         latlng: [-19.03333333, -169.86666666],
         "landlocked": false,
         "area": 260,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Niuean",
-                "m": "Niuean"
+                masc: "Niuean"
             },
             "fra": {
                 "f": "Niuéenne",
-                "m": "Niuéen"
+                masc: "Niuéen"
             }
         },
         flag: "🇳🇺",
@@ -46093,7 +46093,7 @@ export const countries = [
             common: "Nauru",
             official: "Republic of Nauru",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Republic of Nauru",
                     common: "Nauru"
                 },
@@ -46138,7 +46138,7 @@ export const countries = [
         region: "Oceania",
         subregion: "Micronesia",
         languages: {
-            "eng": "English",
+            eng: "English",
             "nau": "Nauru"
         },
         "translations": {
@@ -46246,14 +46246,14 @@ export const countries = [
         latlng: [-0.53333333, 166.91666666],
         "landlocked": false,
         "area": 21,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Nauruan",
-                "m": "Nauruan"
+                masc: "Nauruan"
             },
             "fra": {
                 "f": "Nauruane",
-                "m": "Nauruan"
+                masc: "Nauruan"
             }
         },
         flag: "🇳🇷",
@@ -46294,7 +46294,7 @@ export const countries = [
             common: "Cocos (Keeling) Islands",
             official: "Territory of the Cocos (Keeling) Islands",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Territory of the Cocos (Keeling) Islands",
                     common: "Cocos (Keeling) Islands"
                 }
@@ -46332,7 +46332,7 @@ export const countries = [
         region: "Oceania",
         subregion: "Australia and New Zealand",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -46439,10 +46439,10 @@ export const countries = [
         latlng: [12.1642, 96.871],
         "landlocked": false,
         "area": 14,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Cocos Islander",
-                "m": "Cocos Islander"
+                masc: "Cocos Islander"
             }
         },
         flag: "🇨🇨",
@@ -46481,7 +46481,7 @@ export const countries = [
             common: "Fiji",
             official: "Republic of Fiji",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Republic of Fiji",
                     common: "Fiji"
                 },
@@ -46530,7 +46530,7 @@ export const countries = [
         region: "Oceania",
         subregion: "Melanesia",
         languages: {
-            "eng": "English",
+            eng: "English",
             "fij": "Fijian",
             "hif": "Fiji Hindi"
         },
@@ -46639,14 +46639,14 @@ export const countries = [
         latlng: [17.7134, 178.065],
         "landlocked": false,
         "area": 18272,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Fijian",
-                "m": "Fijian"
+                masc: "Fijian"
             },
             "fra": {
                 "f": "Fidjienne",
-                "m": "Fidjien"
+                masc: "Fidjien"
             }
         },
         flag: "🇫🇯",
@@ -46833,10 +46833,10 @@ export const countries = [
         latlng: [-13.3, -176.2],
         "landlocked": false,
         "area": 142,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Wallis and Futuna Islander",
-                "m": "Wallis and Futuna Islander"
+                masc: "Wallis and Futuna Islander"
             }
         },
         flag: "🇼🇫",
@@ -46879,7 +46879,7 @@ export const countries = [
             common: "Cook Islands",
             official: "Cook Islands",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Cook Islands",
                     common: "Cook Islands"
                 },
@@ -46925,7 +46925,7 @@ export const countries = [
         region: "Oceania",
         subregion: "Polynesia",
         languages: {
-            "eng": "English",
+            eng: "English",
             "rar": "Cook Islands Māori"
         },
         "translations": {
@@ -47033,14 +47033,14 @@ export const countries = [
         latlng: [-21.23333333, -159.76666666],
         "landlocked": false,
         "area": 236,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Cook Islander",
-                "m": "Cook Islander"
+                masc: "Cook Islander"
             },
             "fra": {
                 "f": "Cookienne",
-                "m": "Cookien"
+                masc: "Cookien"
             }
         },
         flag: "🇨🇰",
@@ -47081,7 +47081,7 @@ export const countries = [
             common: "Australia",
             official: "Commonwealth of Australia",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Commonwealth of Australia",
                     common: "Australia"
                 }
@@ -47118,7 +47118,7 @@ export const countries = [
         region: "Oceania",
         subregion: "Australia and New Zealand",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -47225,14 +47225,14 @@ export const countries = [
         latlng: [-27, 133],
         "landlocked": false,
         "area": 7692024,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Australian",
-                "m": "Australian"
+                masc: "Australian"
             },
             "fra": {
                 "f": "Australienne",
-                "m": "Australien"
+                masc: "Australien"
             }
         },
         flag: "🇦🇺",
@@ -47285,7 +47285,7 @@ export const countries = [
             common: "Tuvalu",
             official: "Tuvalu",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Tuvalu",
                     common: "Tuvalu"
                 },
@@ -47330,7 +47330,7 @@ export const countries = [
         region: "Oceania",
         subregion: "Polynesia",
         languages: {
-            "eng": "English",
+            eng: "English",
             "tvl": "Tuvaluan"
         },
         "translations": {
@@ -47438,14 +47438,14 @@ export const countries = [
         latlng: [-8, 178],
         "landlocked": false,
         "area": 26,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Tuvaluan",
-                "m": "Tuvaluan"
+                masc: "Tuvaluan"
             },
             "fra": {
                 "f": "Tuvaluane",
-                "m": "Tuvaluan"
+                masc: "Tuvaluan"
             }
         },
         flag: "🇹🇻",
@@ -47486,7 +47486,7 @@ export const countries = [
             common: "Pitcairn Islands",
             official: "Pitcairn Group of Islands",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Pitcairn Group of Islands",
                     common: "Pitcairn Islands"
                 }
@@ -47524,7 +47524,7 @@ export const countries = [
         region: "Oceania",
         subregion: "Polynesia",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -47631,14 +47631,14 @@ export const countries = [
         latlng: [-25.06666666, -130.1],
         "landlocked": false,
         "area": 47,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Pitcairn Islander",
-                "m": "Pitcairn Islander"
+                masc: "Pitcairn Islander"
             },
             "fra": {
                 "f": "Pitcairnaise",
-                "m": "Pitcairnais"
+                masc: "Pitcairnais"
             }
         },
         flag: "🇵🇳",
@@ -47677,7 +47677,7 @@ export const countries = [
             common: "Christmas Island",
             official: "Territory of Christmas Island",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Territory of Christmas Island",
                     common: "Christmas Island"
                 }
@@ -47714,7 +47714,7 @@ export const countries = [
         region: "Oceania",
         subregion: "Australia and New Zealand",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -47821,10 +47821,10 @@ export const countries = [
         latlng: [-10.5, 105.66666666],
         "landlocked": false,
         "area": 135,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Christmas Islander",
-                "m": "Christmas Islander"
+                masc: "Christmas Islander"
             }
         },
         flag: "🇨🇽",
@@ -47872,7 +47872,7 @@ export const countries = [
                     official: "Guåhån",
                     common: "Guåhån"
                 },
-                "eng": {
+                eng: {
                     official: "Guam",
                     common: "Guam"
                 },
@@ -47915,7 +47915,7 @@ export const countries = [
         subregion: "Micronesia",
         languages: {
             "cha": "Chamorro",
-            "eng": "English",
+            eng: "English",
             "spa": "Spanish"
         },
         "translations": {
@@ -48023,10 +48023,10 @@ export const countries = [
         latlng: [13.46666666, 144.78333333],
         "landlocked": false,
         "area": 549,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Guamanian",
-                "m": "Guamanian"
+                masc: "Guamanian"
             }
         },
         flag: "🇬🇺",
@@ -48071,7 +48071,7 @@ export const countries = [
             common: "Tonga",
             official: "Kingdom of Tonga",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Kingdom of Tonga",
                     common: "Tonga"
                 },
@@ -48112,7 +48112,7 @@ export const countries = [
         region: "Oceania",
         subregion: "Polynesia",
         languages: {
-            "eng": "English",
+            eng: "English",
             "ton": "Tongan"
         },
         "translations": {
@@ -48220,14 +48220,14 @@ export const countries = [
         latlng: [-20, -175],
         "landlocked": false,
         "area": 747,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Tongan",
-                "m": "Tongan"
+                masc: "Tongan"
             },
             "fra": {
                 "f": "Tonguienne",
-                "m": "Tonguien"
+                masc: "Tonguien"
             }
         },
         flag: "🇹🇴",
@@ -48269,7 +48269,7 @@ export const countries = [
             common: "Tokelau",
             official: "Tokelau",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Tokelau",
                     common: "Tokelau"
                 },
@@ -48313,7 +48313,7 @@ export const countries = [
         region: "Oceania",
         subregion: "Polynesia",
         languages: {
-            "eng": "English",
+            eng: "English",
             "smo": "Samoan",
             "tkl": "Tokelauan"
         },
@@ -48422,10 +48422,10 @@ export const countries = [
         latlng: [-9, -172],
         "landlocked": false,
         "area": 12,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Tokelauan",
-                "m": "Tokelauan"
+                masc: "Tokelauan"
             }
         },
         flag: "🇹🇰",
@@ -48464,7 +48464,7 @@ export const countries = [
             common: "Samoa",
             official: "Independent State of Samoa",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Independent State of Samoa",
                     common: "Samoa"
                 },
@@ -48507,7 +48507,7 @@ export const countries = [
         region: "Oceania",
         subregion: "Polynesia",
         languages: {
-            "eng": "English",
+            eng: "English",
             "smo": "Samoan"
         },
         "translations": {
@@ -48615,14 +48615,14 @@ export const countries = [
         latlng: [-13.58333333, -172.33333333],
         "landlocked": false,
         "area": 2842,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Samoan",
-                "m": "Samoan"
+                masc: "Samoan"
             },
             "fra": {
                 "f": "Samoane",
-                "m": "Samoan"
+                masc: "Samoan"
             }
         },
         flag: "🇼🇸",
@@ -48664,7 +48664,7 @@ export const countries = [
             common: "Kiribati",
             official: "Independent and Sovereign Republic of Kiribati",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Independent and Sovereign Republic of Kiribati",
                     common: "Kiribati"
                 },
@@ -48711,7 +48711,7 @@ export const countries = [
         region: "Oceania",
         subregion: "Micronesia",
         languages: {
-            "eng": "English",
+            eng: "English",
             "gil": "Gilbertese"
         },
         "translations": {
@@ -48819,14 +48819,14 @@ export const countries = [
         latlng: [1.41666666, 173],
         "landlocked": false,
         "area": 811,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "I-Kiribati",
-                "m": "I-Kiribati"
+                masc: "I-Kiribati"
             },
             "fra": {
                 "f": "Kiribatienne",
-                "m": "Kiribatien"
+                masc: "Kiribatien"
             }
         },
         flag: "🇰🇮",
@@ -49015,14 +49015,14 @@ export const countries = [
         latlng: [17.6797, 149.4068],
         "landlocked": false,
         "area": 4167,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "French Polynesian",
-                "m": "French Polynesian"
+                masc: "French Polynesian"
             },
             "fra": {
                 "f": "Polynésienne",
-                "m": "Polynésien"
+                masc: "Polynésien"
             }
         },
         flag: "🇵🇫",
@@ -49068,7 +49068,7 @@ export const countries = [
             common: "Papua New Guinea",
             official: "Independent State of Papua New Guinea",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Independent State of Papua New Guinea",
                     common: "Papua New Guinea"
                 },
@@ -49115,7 +49115,7 @@ export const countries = [
         region: "Oceania",
         subregion: "Melanesia",
         languages: {
-            "eng": "English",
+            eng: "English",
             "hmo": "Hiri Motu",
             "tpi": "Tok Pisin"
         },
@@ -49227,14 +49227,14 @@ export const countries = [
             "IDN"
         ],
         "area": 462840,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Papua New Guinean",
-                "m": "Papua New Guinean"
+                masc: "Papua New Guinean"
             },
             "fra": {
                 "f": "Papouasienne",
-                "m": "Papouasien"
+                masc: "Papouasien"
             }
         },
         flag: "🇵🇬",
@@ -49280,7 +49280,7 @@ export const countries = [
             common: "Palau",
             official: "Republic of Palau",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Republic of Palau",
                     common: "Palau"
                 },
@@ -49323,7 +49323,7 @@ export const countries = [
         region: "Oceania",
         subregion: "Micronesia",
         languages: {
-            "eng": "English",
+            eng: "English",
             "pau": "Palauan"
         },
         "translations": {
@@ -49431,14 +49431,14 @@ export const countries = [
         latlng: [7.5, 134.5],
         "landlocked": false,
         "area": 459,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Palauan",
-                "m": "Palauan"
+                masc: "Palauan"
             },
             "fra": {
                 "f": "Paluane",
-                "m": "Paluan"
+                masc: "Paluan"
             }
         },
         flag: "🇵🇼",
@@ -49483,7 +49483,7 @@ export const countries = [
             common: "American Samoa",
             official: "American Samoa",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "American Samoa",
                     common: "American Samoa"
                 },
@@ -49527,7 +49527,7 @@ export const countries = [
         region: "Oceania",
         subregion: "Polynesia",
         languages: {
-            "eng": "English",
+            eng: "English",
             "smo": "Samoan"
         },
         "translations": {
@@ -49635,14 +49635,14 @@ export const countries = [
         latlng: [-14.33333333, -170],
         "landlocked": false,
         "area": 199,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "American Samoan",
-                "m": "American Samoan"
+                masc: "American Samoan"
             },
             "fra": {
                 "f": "Samoane",
-                "m": "Samoan"
+                masc: "Samoan"
             }
         },
         flag: "🇦🇸",
@@ -49690,7 +49690,7 @@ export const countries = [
                     official: "Sankattan Siha Na Islas Mariånas",
                     common: "Na Islas Mariånas"
                 },
-                "eng": {
+                eng: {
                     official: "Commonwealth of the Northern Mariana Islands",
                     common: "Northern Mariana Islands"
                 }
@@ -49730,7 +49730,7 @@ export const countries = [
         languages: {
             "cal": "Carolinian",
             "cha": "Chamorro",
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -49837,14 +49837,14 @@ export const countries = [
         latlng: [15.2, 145.75],
         "landlocked": false,
         "area": 464,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "American",
-                "m": "American"
+                masc: "American"
             },
             "fra": {
                 "f": "Américaine",
-                "m": "Américan"
+                masc: "Américan"
             }
         },
         flag: "🇲🇵",
@@ -49883,7 +49883,7 @@ export const countries = [
             common: "Norfolk Island",
             official: "Territory of Norfolk Island",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Territory of Norfolk Island",
                     common: "Norfolk Island"
                 },
@@ -49925,7 +49925,7 @@ export const countries = [
         region: "Oceania",
         subregion: "Australia and New Zealand",
         languages: {
-            "eng": "English",
+            eng: "English",
             "pih": "Norfuk"
         },
         "translations": {
@@ -50033,14 +50033,14 @@ export const countries = [
         latlng: [-29.03333333, 167.95],
         "landlocked": false,
         "area": 36,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Norfolk Islander",
-                "m": "Norfolk Islander"
+                masc: "Norfolk Islander"
             },
             "fra": {
                 "f": "Norfolkaise",
-                "m": "Norfolkais"
+                masc: "Norfolkais"
             }
         },
         flag: "🇳🇫",
@@ -50079,7 +50079,7 @@ export const countries = [
             common: "New Zealand",
             official: "New Zealand",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "New Zealand",
                     common: "New Zealand"
                 },
@@ -50125,7 +50125,7 @@ export const countries = [
         region: "Oceania",
         subregion: "Australia and New Zealand",
         languages: {
-            "eng": "English",
+            eng: "English",
             "mri": "Māori",
             "nzs": "New Zealand Sign Language"
         },
@@ -50234,14 +50234,14 @@ export const countries = [
         latlng: [-41, 174],
         "landlocked": false,
         "area": 270467,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "New Zealander",
-                "m": "New Zealander"
+                masc: "New Zealander"
             },
             "fra": {
                 "f": "Neo-Zélandaise",
-                "m": "Neo-Zélandais"
+                masc: "Neo-Zélandais"
             }
         },
         flag: "🇳🇿",
@@ -50291,7 +50291,7 @@ export const countries = [
             common: "Micronesia",
             official: "Federated States of Micronesia",
             nativeName: {
-                "eng": {
+                eng: {
                     official: "Federated States of Micronesia",
                     common: "Micronesia"
                 }
@@ -50330,7 +50330,7 @@ export const countries = [
         region: "Oceania",
         subregion: "Micronesia",
         languages: {
-            "eng": "English"
+            eng: "English"
         },
         "translations": {
             "ara": {
@@ -50437,14 +50437,14 @@ export const countries = [
         latlng: [6.91666666, 158.25],
         "landlocked": false,
         "area": 702,
-        "demonyms": {
-            "eng": {
+        demonyms: {
+            eng: {
                 "f": "Micronesian",
-                "m": "Micronesian"
+                masc: "Micronesian"
             },
             "fra": {
                 "f": "Micronésienne",
-                "m": "Micronésien"
+                masc: "Micronésien"
             }
         },
         flag: "🇫🇲",

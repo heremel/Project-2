@@ -9,13 +9,17 @@ export interface Country {
     common: string,
     official: string,
   },
-  currencies: object,
+  currencies?: object,
   capital: string[],
   region: string,
   subregion: string,
-  languages: object,
+  languages?: object,
   latlng: [number, number],
-  flag: string,
+  demonyms: {
+    eng: {
+      masc: string
+    }
+  }
   maps: {
     googleMaps: string,
     openStreetMaps: string
@@ -23,19 +27,47 @@ export interface Country {
   population: number,
   gini: number,
   flags: {
-    png: string,
-    svg: string,
-    alt: string
+    png?: string,
+    svg?: string,
+    alt?: string
   },
   coatOfArms: {
-    png: string,
-    svg: string
+    png?: string,
+    svg?: string
   },
   capitalInfo: {
     latlng: [number, number]
   },
 }
 
+export interface Weather {
+  latitude: number,
+  longitude: number,
+  generationtime_ms: number,
+  utc_offset_seconds: number,
+  timezone: string,
+  timezone_abbreviation: string,
+  elevation: number,
+  location_id: number,
+  daily_units: {
+    time: string,
+    temperature_2m_mean: string,// C°
+    temperature_2m_max: string,
+    temperature_2m_min: string,
+    rain_sum: string, //"mm",
+    snowfall_sum: string, //"cm",
+    precipitation_hours: string,
+  },
+  daily: {
+    time: string[],
+    temperature_2m_mean: number[],
+    temperature_2m_max: number[],
+    temperature_2m_min: number[],
+    rain_sum: number[],
+    snowfall_sum: number[],
+    precipitation_hours: number[],
+  }
+}
 
 function App() {
 
