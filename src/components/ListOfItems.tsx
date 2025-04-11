@@ -26,9 +26,7 @@ const fakeObject = {
 };
 
 function ListOfItems() {
-	for (let country of fakeObject.countries) {
-		country.longitude = countries.latlng[0]
-	}
+
 	return (
 		<>
 			<div className={styles.container}>
