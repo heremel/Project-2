@@ -247,7 +247,7 @@ export const countries: Countries = [
             "Croatian"
         ],
 
-        latlng: [45.16666666, 15.5],
+        latlng: [45.16666666, 15.6],
         landlocked: false,
 
         demonyms: {
@@ -449,7 +449,7 @@ export const countries: Countries = [
         },
 
         capitalInfo: {
-            latlng: [47.5, 19.08]
+            latlng: [47.4, 19.08]
         },
 
 
@@ -474,7 +474,7 @@ export const countries: Countries = [
             "Dutch"
         ],
 
-        latlng: [52.5, 5.75],
+        latlng: [52.4, 5.75],
         landlocked: false,
 
         demonyms: {
@@ -588,7 +588,7 @@ export const countries: Countries = [
             "Slovak"
         ],
 
-        latlng: [48.66666666, 19.5],
+        latlng: [48.66666666, 19.4],
         landlocked: true,
 
         demonyms: {
@@ -1042,7 +1042,7 @@ export const countries: Countries = [
             "Catalan"
         ],
 
-        latlng: [42.5, 1.5],
+        latlng: [42.4, 1.4],
         landlocked: true,
 
         demonyms: {
@@ -1074,7 +1074,7 @@ export const countries: Countries = [
         },
 
         capitalInfo: {
-            latlng: [42.5, 1.52]
+            latlng: [42.4, 1.52]
         },
 
 
@@ -1353,7 +1353,7 @@ export const countries: Countries = [
         },
 
         capitalInfo: {
-            latlng: [35.88, 14.5]
+            latlng: [35.88, 14.4]
         },
 
 
@@ -1378,7 +1378,7 @@ export const countries: Countries = [
             "Slovak"
         ],
 
-        latlng: [49.75, 15.5],
+        latlng: [49.75, 15.4],
         landlocked: true,
 
         demonyms: {
@@ -1526,6325 +1526,1859 @@ export const countries: Countries = [
         capitalInfo: {
             latlng: [42.67, 21.17]
         }
-    }/*,
-{
-    name: {
-        common: "Svalbard and Jan Mayen",
+    },
+    {
+        name: {
+            common: "Svalbard and Jan Mayen",
             official: "Svalbard og Jan Mayen",
-                "nativeName": {
-            "nor": {
-                official: "Svalbard og Jan Mayen",
-                    common: "Svalbard og Jan Mayen"
-            }
-        }
-    },
-    "tld": [
-        ".sj"
-    ],
-        "cca2": "SJ",
-            "ccn3": "744",
-                "cca3": "SJM",
-                    "independent": false,
-                        "status": "officially-assigned",
-                            "unMember": false,
-                                currencies: {
-        "NOK": {
-            name: "krone",
-                "symbol": "kr"
-        }
-    },
-    "idd": {
-        "root": "+4",
-            "suffixes": [
-                "779"
-            ]
-    },
-    capital: [
-        "Longyearbyen"
-    ],
-        "altSpellings": [
-            "SJ",
-            "Svalbard and Jan Mayen Islands"
+
+        },
+
+        currencies: "krone",
+        capital: [
+            "Longyearbyen"
         ],
-            region: "Europe",
-                subregion: "Northern Europe",
-                    languages: [
-                        "nor": "Norwegian"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "سفالبارد ويان ماين",
-                common: "سفالبارد ويان ماين"
-        },
-        "bre": {
-            official: "Svalbard ha Jan Mayen",
-                common: "Svalbard ha Jan Mayen"
-        },
-        "ces": {
-            official: "Špicberky a Jan Mayen",
-                common: "Špicberky a Jan Mayen"
-        },
-        "cym": {
-            official: "Svalbard og Jan Mayen",
-                common: "Svalbard and Jan Mayen"
-        },
-        "deu": {
-            official: "Spitzbergen und Jan Mayen",
-                common: "Spitzbergen und Jan Mayen"
-        },
-        "est": {
-            official: "Svalbard",
-                common: "Svalbard"
-        },
-        "fin": {
-            official: "Huippuvuoret",
-                common: "Huippuvuoret"
-        },
-        fra: {
-            official: "Jan Mayen Svalbard",
-                common: "Svalbard et Jan Mayen"
-        },
-        "hrv": {
-            official: "Svalbard og Jan Mayen",
-                common: "Svalbard i Jan Mayen"
-        },
-        "hun": {
-            official: "Svalbard és Jan Mayen",
-                common: "Svalbard és Jan Mayen"
-        },
-        "ita": {
-            official: "Svalbard og Jan Mayen",
-                common: "Svalbard e Jan Mayen"
-        },
-        "jpn": {
-            official: "スバールバル諸島OGヤンマイエン",
-                common: "スヴァールバル諸島およびヤンマイエン島"
-        },
-        "kor": {
-            official: "스발바르 얀마옌 제도",
-                common: "스발바르 얀마옌 제도"
-        },
-        "nld": {
-            official: "Svalbard og Jan Mayen",
-                common: "Svalbard en Jan Mayen"
-        },
-        "per": {
-            official: "سوالبارد و یان ماین",
-                common: "سوالبارد و یان ماین"
-        },
-        "pol": {
-            official: "Svalbard i Jan Mayen",
-                common: "Svalbard i Jan Mayen"
-        },
-        "por": {
-            official: "Svalbard og Jan Mayen",
-                common: "Ilhas Svalbard e Jan Mayen"
-        },
-        "rus": {
-            official: "Свальбарда ог Ян-Майен",
-                common: "Шпицберген и Ян-Майен"
-        },
-        "slk": {
-            official: "Svalbard a Jan Mayen",
-                common: "Svalbard a Jan Mayen"
-        },
-        "spa": {
-            official: "Svalbard og Jan Mayen",
-                common: "Islas Svalbard y Jan Mayen"
-        },
-        "srp": {
-            official: "Свалбард и Јан Мајен",
-                common: "Свалбард и Јан Мајен"
-        },
-        "swe": {
-            official: "Svalbard och Jan Mayen",
-                common: "Svalbard och Jan Mayen"
-        },
-        "tur": {
-            official: "Svalbard ve Jan Mayen",
-                common: "Svalbard ve Jan Mayen"
-        },
-        "urd": {
-            official: "سوالبارڈ اور جان میئن",
-                common: "سوالبارڈ اور جان میئن"
-        },
-        "zho": {
-            official: "斯瓦尔巴特",
-                common: "斯瓦尔巴特"
-        }
-    },
-    latlng: [78, 20],
+        region: "Europe",
+        subregion: "Northern Europe",
+        languages: [
+            "Norwegian"
+        ],
+
+        latlng: [78, 20],
         landlocked: false,
-            "area": 61399,
-                demonyms: {
-        eng: {
-            fem: "Norwegian",
+
+        demonyms: {
+            eng: {
+                fem: "Norwegian",
                 masc: "Norwegian"
-        }
-    },
-    flag: "🇸🇯",
+            }
+        },
+        flag: "🇸🇯",
         maps: {
-        googleMaps: "https://goo.gl/maps/L2wyyn3cQ16PzQ5J8",
+            googleMaps: "https://goo.gl/maps/L2wyyn3cQ16PzQ5J8",
             openStreetMaps: "https://www.openstreetmap.org/relation/1337397"
-    },
-    population: 2562,
+        },
+        population: 2562,
         gini: -1,
-            "car": {
-        "signs": [
-            "N"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/sj.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/sj.png",
             svg: "https://flagcdn.com/sj.svg"
-    },
-    coatOfArms: {
+        },
+        coatOfArms: {
 
-    },
+        },
 
-    capitalInfo: {
-        latlng: [78.22, 15.63]
-    }
-},
-{
-    name: {
-        common: "Montenegro",
-            official: "Montenegro",
-                "nativeName": {
-            "cnr": {
-                official: "Црна Гора",
-                    common: "Црна Гора"
-            }
+        capitalInfo: {
+            latlng: [78.22, 15.63]
         }
     },
-    "tld": [
-        ".me"
-    ],
-        "cca2": "ME",
-            "ccn3": "499",
-                "cca3": "MNE",
-                    "cioc": "MNE",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: "Euro",
-                                        "idd": {
-        "root": "+3",
-            "suffixes": [
-                "82"
-            ]
-    },
-    capital: [
-        "Podgorica"
-    ],
-        "altSpellings": [
-            "ME",
-            "Crna Gora"
+    {
+        name: {
+            common: "Montenegro",
+            official: "Montenegro",
+
+        },
+
+        currencies: "Euro",
+
+        capital: [
+            "Podgorica"
         ],
-            region: "Europe",
-                subregion: "Southeast Europe",
-                    languages: [
-                        "cnr": "Montenegrin"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "الجبل الاسود",
-                common: "الجبل الاسود"
-        },
-        "bre": {
-            official: "Republik Montenegro",
-                common: "Montenegro"
-        },
-        "ces": {
-            official: "Černá Hora",
-                common: "Černá Hora"
-        },
-        "cym": {
-            official: "Montenegro",
-                common: "Montenegro"
-        },
-        "deu": {
-            official: "Montenegro",
-                common: "Montenegro"
-        },
-        "est": {
-            official: "Montenegro",
-                common: "Montenegro"
-        },
-        "fin": {
-            official: "Montenegro",
-                common: "Montenegro"
-        },
-        fra: {
-            official: "Monténégro",
-                common: "Monténégro"
-        },
-        "hrv": {
-            official: "Crna Gora",
-                common: "Crna Gora"
-        },
-        "hun": {
-            official: "Montenegró",
-                common: "Montenegró"
-        },
-        "ita": {
-            official: "Montenegro",
-                common: "Montenegro"
-        },
-        "jpn": {
-            official: "モンテネグロ",
-                common: "モンテネグロ"
-        },
-        "kor": {
-            official: "몬테네그로",
-                common: "몬테네그로"
-        },
-        "nld": {
-            official: "Montenegro",
-                common: "Montenegro"
-        },
-        "per": {
-            official: "مونته‌نگرو",
-                common: "مونته‌نگرو"
-        },
-        "pol": {
-            official: "Czarnogóra",
-                common: "Czarnogóra"
-        },
-        "por": {
-            official: "Montenegro",
-                common: "Montenegro"
-        },
-        "rus": {
-            official: "Черногория",
-                common: "Черногория"
-        },
-        "slk": {
-            official: "Čierna Hora",
-                common: "Čierna Hora"
-        },
-        "spa": {
-            official: "Montenegro",
-                common: "Montenegro"
-        },
-        "srp": {
-            official: "Црна Гора",
-                common: "Црна Гора"
-        },
-        "swe": {
-            official: "Montenegro",
-                common: "Montenegro"
-        },
-        "tur": {
-            official: "Karadağ",
-                common: "Karadağ"
-        },
-        "urd": {
-            official: "مونٹینیگرو",
-                common: "مونٹینیگرو"
-        },
-        "zho": {
-            official: "黑山",
-                common: "黑山"
-        }
-    },
-    latlng: [42.5, 19.3],
+
+        region: "Europe",
+        subregion: "Southeast Europe",
+        languages: [
+            "Montenegrin"
+        ],
+
+        latlng: [42.4, 19.3],
         landlocked: false,
-            "borders": [
-                "ALB",
-                "BIH",
-                "HRV",
-                "UNK",
-                "SRB"
-            ],
-                "area": 13812,
-                    demonyms: {
-        eng: {
-            fem: "Montenegrin",
+
+        demonyms: {
+            eng: {
+                fem: "Montenegrin",
                 masc: "Montenegrin"
-        },
-        fra: {
-            fem: "Monténégrine",
+            },
+            fra: {
+                fem: "Monténégrine",
                 masc: "Monténégrin"
-        }
-    },
-    flag: "🇲🇪",
+            }
+        },
+        flag: "🇲🇪",
         maps: {
-        googleMaps: "https://goo.gl/maps/4THX1fM7WqANuPbB8",
+            googleMaps: "https://goo.gl/maps/4THX1fM7WqANuPbB8",
             openStreetMaps: "https://www.openstreetmap.org/relation/53296"
-    },
-    population: 621718,
+        },
+        population: 621718,
         gini: 38.5,
-        , "fifa": "MNE",
-        "car": {
-        "signs": [
-            "SCG"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/me.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/me.png",
             svg: "https://flagcdn.com/me.svg",
-                alt: "The flag of Montenegro features a large red central rectangular area surrounded by a golden-yellow border. The coat of arms of Montenegro is centered in the red rectangle."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/me.png",
+            alt: "The flag of Montenegro features a large red central rectangular area surrounded by a golden-yellow border. The coat of arms of Montenegro is centered in the red rectangle."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/me.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/me.svg"
-    },
-
-    capitalInfo: {
-        latlng: [42.43, 19.27]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Faroe Islands",
-            official: "Faroe Islands",
-                "nativeName": {
-            "dan": {
-                official: "Færøerne",
-                    common: "Færøerne"
-            },
-            "fao": {
-                official: "Føroyar",
-                    common: "Føroyar"
-            }
-        }
-    },
-    "tld": [
-        ".fo"
-    ],
-        "cca2": "FO",
-            "ccn3": "234",
-                "cca3": "FRO",
-                    "independent": false,
-                        "status": "officially-assigned",
-                            "unMember": false,
-                                currencies: {
-        "DKK": {
-            name: "Danish krone",
-                "symbol": "kr"
         },
-        "FOK": {
-            name: "Faroese króna",
-                "symbol": "kr"
-        }
+
+        capitalInfo: {
+            latlng: [42.43, 19.27]
+        },
+
+
+
     },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "98"
-            ]
-    },
-    capital: [
-        "Tórshavn"
-    ],
-        "altSpellings": [
-            "FO",
-            "Føroyar",
-            "Færøerne"
+    {
+        name: {
+            common: "Faroe Islands",
+            official: "Faroe Islands",
+
+        },
+
+        currencies: "Danish krone",
+
+        capital: [
+            "Tórshavn"
         ],
-            region: "Europe",
-                subregion: "Northern Europe",
-                    languages: [
-                        "dan": "Danish",
-                        "fao": "Faroese"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جزر فارو",
-                common: "جزر فارو"
-        },
-        "bre": {
-            official: "Inizi Faero",
-                common: "Inizi Faero"
-        },
-        "ces": {
-            official: "Faerské ostrovy",
-                common: "Faerské ostrovy"
-        },
-        "cym": {
-            official: "Faroe Islands",
-                common: "Faroe Islands"
-        },
-        "deu": {
-            official: "Färöer",
-                common: "Färöer-Inseln"
-        },
-        "est": {
-            official: "Fääri saared",
-                common: "Fääri saared"
-        },
-        "fin": {
-            official: "Färsaaret",
-                common: "Färsaaret"
-        },
-        fra: {
-            official: "Îles Féroé",
-                common: "Îles Féroé"
-        },
-        "hrv": {
-            official: "Farski Otoci",
-                common: "Farski Otoci"
-        },
-        "hun": {
-            official: "Feröer",
-                common: "Feröer"
-        },
-        "ita": {
-            official: "Isole Faroe",
-                common: "Isole Far Oer"
-        },
-        "jpn": {
-            official: "フェロー諸島",
-                common: "フェロー諸島"
-        },
-        "kor": {
-            official: "페로 제도",
-                common: "페로 제도"
-        },
-        "nld": {
-            official: "Faeröer",
-                common: "Faeröer"
-        },
-        "per": {
-            official: "جزایر فاروئه",
-                common: "جزایر فاروئه"
-        },
-        "pol": {
-            official: "Wyspy Owcze",
-                common: "Wyspy Owcze"
-        },
-        "por": {
-            official: "Ilhas Faroe",
-                common: "Ilhas Faroé"
-        },
-        "rus": {
-            official: "Фарерские острова",
-                common: "Фарерские острова"
-        },
-        "slk": {
-            official: "Faerské ostrovy",
-                common: "Faerské ostrovy"
-        },
-        "spa": {
-            official: "Islas Feroe",
-                common: "Islas Faroe"
-        },
-        "srp": {
-            official: "Фарска острва",
-                common: "Фарска острва"
-        },
-        "swe": {
-            official: "Färöarna",
-                common: "Färöarna"
-        },
-        "tur": {
-            official: "Faroe Adaları",
-                common: "Faroe Adaları"
-        },
-        "urd": {
-            official: "جزائر فارو",
-                common: "جزائر فارو"
-        },
-        "zho": {
-            official: "法罗群岛",
-                common: "法罗群岛"
-        }
-    },
-    latlng: [62, -7],
+
+        region: "Europe",
+        subregion: "Northern Europe",
+        languages: [
+            "Danish",
+            "Faroese"
+        ],
+
+        latlng: [62, -7],
         landlocked: false,
-            "area": 1393,
-                demonyms: {
-        eng: {
-            fem: "Faroese",
+
+        demonyms: {
+            eng: {
+                fem: "Faroese",
                 masc: "Faroese"
-        },
-        fra: {
-            fem: "Féroïenne",
+            },
+            fra: {
+                fem: "Féroïenne",
                 masc: "Féroïen"
-        }
-    },
-    flag: "🇫🇴",
+            }
+        },
+        flag: "🇫🇴",
         maps: {
-        googleMaps: "https://goo.gl/maps/6sTru4SmHdEVcNkM6",
+            googleMaps: "https://goo.gl/maps/6sTru4SmHdEVcNkM6",
             openStreetMaps: "https://www.openstreetmap.org/relation/52939"
-    },
-    population: 48865,
+        },
+        population: 48865,
         gini: -1,
-            "fifa": "FRO",
-                "car": {
-        "signs": [
-            "FO"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+00:00"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/fo.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/fo.png",
             svg: "https://flagcdn.com/fo.svg"
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/fo.png",
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/fo.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/fo.svg"
+        },
+
+        capitalInfo: {
+            latlng: [62.01, -6.77]
+        },
+
+
+
     },
-
-    capitalInfo: {
-        latlng: [62.01, -6.77]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Albania",
+    {
+        name: {
+            common: "Albania",
             official: "Republic of Albania",
-                "nativeName": {
-            "sqi": {
-                official: "Republika e Shqipërisë",
-                    common: "Shqipëria"
-            }
-        }
-    },
-    "tld": [
-        ".al"
-    ],
-        "cca2": "AL",
-            "ccn3": "008",
-                "cca3": "ALB",
-                    "cioc": "ALB",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "ALL": {
-            name: "Albanian lek",
-                "symbol": "L"
-        }
-    },
-    "idd": {
-        "root": "+3",
-            "suffixes": [
-                "55"
-            ]
-    },
-    capital: [
-        "Tirana"
-    ],
-        "altSpellings": [
-            "AL",
-            "Shqipëri",
-            "Shqipëria",
-            "Shqipnia"
+
+        },
+
+        currencies: "Albanian lek",
+        capital: [
+            "Tirana"
         ],
-            region: "Europe",
-                subregion: "Southeast Europe",
-                    languages: [
-                        "sqi": "Albanian"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية ألبانيا",
-                common: "ألبانيا"
-        },
-        "bre": {
-            official: "Republik Albania",
-                common: "Albania"
-        },
-        "ces": {
-            official: "Albánská republika",
-                common: "Albánie"
-        },
-        "cym": {
-            official: "Gweriniaeth Albania",
-                common: "Albania"
-        },
-        "deu": {
-            official: "Republik Albanien",
-                common: "Albanien"
-        },
-        "est": {
-            official: "Albaania Vabariik",
-                common: "Albaania"
-        },
-        "fin": {
-            official: "Albanian tasavalta",
-                common: "Albania"
-        },
-        fra: {
-            official: "République d'Albanie",
-                common: "Albanie"
-        },
-        "hrv": {
-            official: "Republika Albanija",
-                common: "Albanija"
-        },
-        "hun": {
-            official: "Albán Köztársaság",
-                common: "Albánia"
-        },
-        "ita": {
-            official: "Repubblica d'Albania",
-                common: "Albania"
-        },
-        "jpn": {
-            official: "アルバニア共和国",
-                common: "アルバニア"
-        },
-        "kor": {
-            official: "알바니아 공화국",
-                common: "알바니아"
-        },
-        "nld": {
-            official: "Republiek Albanië",
-                common: "Albanië"
-        },
-        "per": {
-            official: "جمهوری آلبانی",
-                common: "آلبانی"
-        },
-        "pol": {
-            official: "Republika Albanii",
-                common: "Albania"
-        },
-        "por": {
-            official: "República da Albânia",
-                common: "Albânia"
-        },
-        "rus": {
-            official: "Республика Албания",
-                common: "Албания"
-        },
-        "slk": {
-            official: "Albánska republika",
-                common: "Albánsko"
-        },
-        "spa": {
-            official: "República de Albania",
-                common: "Albania"
-        },
-        "srp": {
-            official: "Република Албанија",
-                common: "Албанија"
-        },
-        "swe": {
-            official: "Republiken Albanien",
-                common: "Albanien"
-        },
-        "tur": {
-            official: "Arnavutluk Cumhuriyeti",
-                common: "Arnavutluk"
-        },
-        "urd": {
-            official: "جمہوریہ البانیا",
-                common: "البانیا"
-        },
-        "zho": {
-            official: "阿尔巴尼亚共和国",
-                common: "阿尔巴尼亚"
-        }
-    },
-    latlng: [41, 20],
+
+        region: "Europe",
+        subregion: "Southeast Europe",
+        languages: [
+            "Albanian"
+        ],
+
+        latlng: [41, 20],
         landlocked: false,
-            "borders": [
-                "MNE",
-                "GRC",
-                "MKD",
-                "UNK"
-            ],
-                "area": 28748,
-                    demonyms: {
-        eng: {
-            fem: "Albanian",
+
+        demonyms: {
+            eng: {
+                fem: "Albanian",
                 masc: "Albanian"
-        },
-        fra: {
-            fem: "Albanaise",
+            },
+            fra: {
+                fem: "Albanaise",
                 masc: "Albanais"
-        }
-    },
-    flag: "🇦🇱",
+            }
+        },
+        flag: "🇦🇱",
         maps: {
-        googleMaps: "https://goo.gl/maps/BzN9cTuj68ZA8SyZ8",
+            googleMaps: "https://goo.gl/maps/BzN9cTuj68ZA8SyZ8",
             openStreetMaps: "https://www.openstreetmap.org/relation/53292"
-    },
-    population: 2837743,
+        },
+        population: 2837743,
         gini: 33.2,
-        , "fifa": "ALB",
-        "car": {
-        "signs": [
-            "AL"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/al.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/al.png",
             svg: "https://flagcdn.com/al.svg",
-                alt: "The flag of Albania features a silhouetted double-headed black eagle at the center of a red field."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/al.png",
+            alt: "The flag of Albania features a silhouetted double-headed black eagle at the center of a red field."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/al.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/al.svg"
-    },
+        },
 
-    capitalInfo: {
-        latlng: [41.32, 19.82]
-    }
-},
-{
-    name: {
-        common: "Serbia",
+        capitalInfo: {
+            latlng: [41.32, 19.82]
+        }
+    },
+    {
+        name: {
+            common: "Serbia",
             official: "Republic of Serbia",
-                "nativeName": {
-            "srp": {
-                official: "Република Србија",
-                    common: "Србија"
-            }
-        }
-    },
-    "tld": [
-        ".rs",
-        ".срб"
-    ],
-        "cca2": "RS",
-            "ccn3": "688",
-                "cca3": "SRB",
-                    "cioc": "SRB",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "RSD": {
-            name: "Serbian dinar",
-                "symbol": "дин."
-        }
-    },
-    "idd": {
-        "root": "+3",
-            "suffixes": [
-                "81"
-            ]
-    },
-    capital: [
-        "Belgrade"
-    ],
-        "altSpellings": [
-            "RS",
-            "Srbija",
-            "Republic of Serbia",
-            "Република Србија",
-            "Republika Srbija"
+
+        },
+
+        currencies: "Serbian dinar",
+        capital: [
+            "Belgrade"
         ],
-            region: "Europe",
-                subregion: "Southeast Europe",
-                    languages: [
-                        "srp": "Serbian"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية صيربيا",
-                common: "صيربيا"
-        },
-        "bre": {
-            official: "Republik Serbia",
-                common: "Serbia"
-        },
-        "ces": {
-            official: "Srbská republika",
-                common: "Srbsko"
-        },
-        "cym": {
-            official: "Republic of Serbia",
-                common: "Serbia"
-        },
-        "deu": {
-            official: "Republik Serbien",
-                common: "Serbien"
-        },
-        "est": {
-            official: "Serbia Vabariik",
-                common: "Serbia"
-        },
-        "fin": {
-            official: "Serbian tasavalta",
-                common: "Serbia"
-        },
-        fra: {
-            official: "République de Serbie",
-                common: "Serbie"
-        },
-        "hrv": {
-            official: "Republika Srbija",
-                common: "Srbija"
-        },
-        "hun": {
-            official: "Szerb Köztársaság",
-                common: "Szerbia"
-        },
-        "ita": {
-            official: "Repubblica di Serbia",
-                common: "Serbia"
-        },
-        "jpn": {
-            official: "セルビア共和国",
-                common: "セルビア"
-        },
-        "kor": {
-            official: "세르비아 공화국",
-                common: "세르비아"
-        },
-        "nld": {
-            official: "Republiek Servië",
-                common: "Servië"
-        },
-        "per": {
-            official: "جمهوری صربستان",
-                common: "صربستان"
-        },
-        "pol": {
-            official: "Republika Serbii",
-                common: "Serbia"
-        },
-        "por": {
-            official: "República da Sérvia",
-                common: "Sérvia"
-        },
-        "rus": {
-            official: "Республика Сербия",
-                common: "Сербия"
-        },
-        "slk": {
-            official: "Srbská republika",
-                common: "Srbsko"
-        },
-        "spa": {
-            official: "República de Serbia",
-                common: "Serbia"
-        },
-        "srp": {
-            official: "Република Србија",
-                common: "Србија"
-        },
-        "swe": {
-            official: "Republiken Serbien",
-                common: "Serbien"
-        },
-        "tur": {
-            official: "Sırbistan Cumhuriyeti",
-                common: "Sırbistan"
-        },
-        "urd": {
-            official: "جمہوریہ سربیا",
-                common: "سربیا"
-        },
-        "zho": {
-            official: "塞尔维亚共和国",
-                common: "塞尔维亚"
-        }
-    },
-    latlng: [44, 21],
+
+        region: "Europe",
+        subregion: "Southeast Europe",
+        languages: [
+            "Serbian"
+        ],
+
+        latlng: [44, 21],
         landlocked: true,
-            "borders": [
-                "BIH",
-                "BGR",
-                "HRV",
-                "HUN",
-                "UNK",
-                "MKD",
-                "MNE",
-                "ROU"
-            ],
-                "area": 88361,
-                    demonyms: {
-        eng: {
-            fem: "Serbian",
+
+        demonyms: {
+            eng: {
+                fem: "Serbian",
                 masc: "Serbian"
-        },
-        fra: {
-            fem: "Serbe",
+            },
+            fra: {
+                fem: "Serbe",
                 masc: "Serbe"
-        }
-    },
-    flag: "🇷🇸",
+            }
+        },
+        flag: "🇷🇸",
         maps: {
-        googleMaps: "https://goo.gl/maps/2Aqof7aV2Naq8YEK8",
+            googleMaps: "https://goo.gl/maps/2Aqof7aV2Naq8YEK8",
             openStreetMaps: "https://www.openstreetmap.org/relation/1741311"
-    },
-    population: 6908224,
+        },
+        population: 6908224,
         gini: 36.2,
-        , "fifa": "SRB",
-        "car": {
-        "signs": [
-            "SRB"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/rs.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/rs.png",
             svg: "https://flagcdn.com/rs.svg",
-                alt: "The flag of Serbia is composed of three equal horizontal bands of red, blue and white. The coat of arms of Serbia is superimposed at the center of the field slightly towards the hoist side."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/rs.png",
+            alt: "The flag of Serbia is composed of three equal horizontal bands of red, blue and white. The coat of arms of Serbia is superimposed at the center of the field slightly towards the hoist side."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/rs.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/rs.svg"
+        },
+
+        capitalInfo: {
+            latlng: [44.83, 20.4]
+        },
+
+
+
     },
-
-    capitalInfo: {
-        latlng: [44.83, 20.5]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Ukraine",
+    {
+        name: {
+            common: "Ukraine",
             official: "Ukraine",
-                "nativeName": {
-            "ukr": {
-                official: "Україна",
-                    common: "Україна"
-            }
-        }
-    },
-    "tld": [
-        ".ua",
-        ".укр"
-    ],
-        "cca2": "UA",
-            "ccn3": "804",
-                "cca3": "UKR",
-                    "cioc": "UKR",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "UAH": {
-            name: "Ukrainian hryvnia",
-                "symbol": "₴"
-        }
-    },
-    "idd": {
-        "root": "+3",
-            "suffixes": [
-                "80"
-            ]
-    },
-    capital: [
-        "Kyiv"
-    ],
-        "altSpellings": [
-            "UA",
-            "Ukrayina"
+
+        },
+
+        currencies: "Ukrainian hryvnia",
+        capital: [
+            "Kyiv"
         ],
-            region: "Europe",
-                subregion: "Eastern Europe",
-                    languages: [
-                        "ukr": "Ukrainian"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "أوكرانيا",
-                common: "أوكرانيا"
-        },
-        "bre": {
-            official: "Ukraina",
-                common: "Ukraina"
-        },
-        "ces": {
-            official: "Ukrajina",
-                common: "Ukrajina"
-        },
-        "cym": {
-            official: "Ukraine",
-                common: "Ukraine"
-        },
-        "deu": {
-            official: "Ukraine",
-                common: "Ukraine"
-        },
-        "est": {
-            official: "Ukraina",
-                common: "Ukraina"
-        },
-        "fin": {
-            official: "Ukraina",
-                common: "Ukraina"
-        },
-        fra: {
-            official: "Ukraine",
-                common: "Ukraine"
-        },
-        "hrv": {
-            official: "Ukrajina",
-                common: "Ukrajina"
-        },
-        "hun": {
-            official: "Ukrajna",
-                common: "Ukrajna"
-        },
-        "ita": {
-            official: "Ucraina",
-                common: "Ucraina"
-        },
-        "jpn": {
-            official: "ウクライナ",
-                common: "ウクライナ"
-        },
-        "kor": {
-            official: "우크라이나",
-                common: "우크라이나"
-        },
-        "nld": {
-            official: "Oekraïne",
-                common: "Oekraïne"
-        },
-        "per": {
-            official: "اوکراین",
-                common: "اوکراین"
-        },
-        "pol": {
-            official: "Ukraina",
-                common: "Ukraina"
-        },
-        "por": {
-            official: "Ucrânia",
-                common: "Ucrânia"
-        },
-        "rus": {
-            official: "Украина",
-                common: "Украина"
-        },
-        "slk": {
-            official: "Ukrajina",
-                common: "Ukrajina"
-        },
-        "spa": {
-            official: "Ucrania",
-                common: "Ucrania"
-        },
-        "srp": {
-            official: "Украјина",
-                common: "Украјина"
-        },
-        "swe": {
-            official: "Ukraina",
-                common: "Ukraina"
-        },
-        "tur": {
-            official: "Ukrayna",
-                common: "Ukrayna"
-        },
-        "urd": {
-            official: "یوکرین",
-                common: "یوکرین"
-        },
-        "zho": {
-            official: "乌克兰",
-                common: "乌克兰"
-        }
-    },
-    latlng: [49, 32],
+
+        region: "Europe",
+        subregion: "Eastern Europe",
+        languages: [
+            "Ukrainian"
+        ],
+
+        latlng: [49, 32],
         landlocked: false,
-            "borders": [
-                "BLR",
-                "HUN",
-                "MDA",
-                "POL",
-                "ROU",
-                "RUS",
-                "SVK"
-            ],
-                "area": 603500,
-                    demonyms: {
-        eng: {
-            fem: "Ukrainian",
+
+        demonyms: {
+            eng: {
+                fem: "Ukrainian",
                 masc: "Ukrainian"
-        },
-        fra: {
-            fem: "Ukrainienne",
+            },
+            fra: {
+                fem: "Ukrainienne",
                 masc: "Ukrainien"
-        }
-    },
-    flag: "🇺🇦",
+            }
+        },
+        flag: "🇺🇦",
         maps: {
-        googleMaps: "https://goo.gl/maps/DvgJMiPJ7aozKFZv7",
+            googleMaps: "https://goo.gl/maps/DvgJMiPJ7aozKFZv7",
             openStreetMaps: "https://www.openstreetmap.org/relation/60199"
-    },
-    population: 44134693,
+        },
+        population: 44134693,
         gini: 26.6,
-        , "fifa": "UKR",
-        "car": {
-        "signs": [
-            "UA"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+02:00"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/ua.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/ua.png",
             svg: "https://flagcdn.com/ua.svg",
-                alt: "The flag of Ukraine is composed of two equal horizontal bands of blue and yellow."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/ua.png",
+            alt: "The flag of Ukraine is composed of two equal horizontal bands of blue and yellow."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/ua.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/ua.svg"
-    },
-
-    capitalInfo: {
-        latlng: [50.43, 30.52]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Isle of Man",
-            official: "Isle of Man",
-                "nativeName": {
-            eng: {
-                official: "Isle of Man",
-                    common: "Isle of Man"
-            },
-            "glv": {
-                official: "Ellan Vannin or Mannin",
-                    common: "Mannin"
-            }
-        }
-    },
-    "tld": [
-        ".im"
-    ],
-        "cca2": "IM",
-            "ccn3": "833",
-                "cca3": "IMN",
-                    "independent": false,
-                        "status": "officially-assigned",
-                            "unMember": false,
-                                currencies: {
-        "GBP": {
-            name: "British pound",
-                "symbol": "£"
         },
-        "IMP": {
-            name: "Manx pound",
-                "symbol": "£"
-        }
+
+        capitalInfo: {
+            latlng: [50.43, 30.52]
+        },
+
+
+
     },
-    "idd": {
-        "root": "+4",
-            "suffixes": [
-                "4"
-            ]
-    },
-    capital: [
-        "Douglas"
-    ],
-        "altSpellings": [
-            "IM",
-            "Ellan Vannin",
-            "Mann",
-            "Mannin"
+    {
+        name: {
+            common: "Isle of Man",
+            official: "Isle of Man",
+
+        },
+
+        currencies: "British pound",
+        capital: [
+            "Douglas"
         ],
-            region: "Europe",
-                subregion: "Northern Europe",
-                    languages: [
-                        "English",
-                        "glv": "Manx"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جزيرة مان",
-                common: "جزيرة مان"
-        },
-        "bre": {
-            official: "Enez Vanav",
-                common: "Enez Vanav"
-        },
-        "ces": {
-            official: "Ostrov Man",
-                common: "Ostrov Man"
-        },
-        "cym": {
-            official: "Isle of Man",
-                common: "Isle of Man"
-        },
-        "deu": {
-            official: "Isle of Man",
-                common: "Insel Man"
-        },
-        "est": {
-            official: "Mani saar",
-                common: "Mani saar"
-        },
-        "fin": {
-            official: "Mansaari",
-                common: "Mansaari"
-        },
-        fra: {
-            official: "Isle of Man",
-                common: "Île de Man"
-        },
-        "hrv": {
-            official: "Mana ostrvo",
-                common: "Otok Man"
-        },
-        "hun": {
-            official: "Man",
-                common: "Man"
-        },
-        "ita": {
-            official: "Isola di Man",
-                common: "Isola di Man"
-        },
-        "jpn": {
-            official: "マン島",
-                common: "マン島"
-        },
-        "kor": {
-            official: "맨섬",
-                common: "맨섬"
-        },
-        "nld": {
-            official: "Isle of Man",
-                common: "Isle of Man"
-        },
-        "per": {
-            official: "جزیرهٔ مَن",
-                common: "جزیرهٔ مَن"
-        },
-        "pol": {
-            official: "Wyspa Man",
-                common: "Wyspa Man"
-        },
-        "por": {
-            official: "Isle of Man",
-                common: "Ilha de Man"
-        },
-        "rus": {
-            official: "Остров Мэн",
-                common: "Остров Мэн"
-        },
-        "slk": {
-            official: "Ostrov Man",
-                common: "Man"
-        },
-        "spa": {
-            official: "Isla de Man",
-                common: "Isla de Man"
-        },
-        "srp": {
-            official: "Острво Мен",
-                common: "Острво Мен"
-        },
-        "swe": {
-            official: "Isle of Man",
-                common: "Isle of Man"
-        },
-        "tur": {
-            official: "Man Adası",
-                common: "Man Adası"
-        },
-        "urd": {
-            official: "آئل آف مین",
-                common: "آئل آف مین"
-        },
-        "zho": {
-            official: "马恩岛",
-                common: "马恩岛"
-        }
-    },
-    latlng: [54.25, -4.5],
+
+        region: "Europe",
+        subregion: "Northern Europe",
+        languages: [
+            "English",
+            "Manx"
+        ],
+
+        latlng: [54.25, -4.6],
         landlocked: false,
-            "area": 572,
-                demonyms: {
-        eng: {
-            fem: "Manx",
+
+        demonyms: {
+            eng: {
+                fem: "Manx",
                 masc: "Manx"
-        }
-    },
-    flag: "🇮🇲",
+            }
+        },
+        flag: "🇮🇲",
         maps: {
-        googleMaps: "https://goo.gl/maps/4DqVHDgVaFgnh8ZV8",
+            googleMaps: "https://goo.gl/maps/4DqVHDgVaFgnh8ZV8",
             openStreetMaps: "https://www.openstreetmap.org/relation/62269"
-    },
-    population: 85032,
+        },
+        population: 85032,
         gini: -1,
-            "car": {
-        "signs": [
-            "GBM"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC+00:00"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/im.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/im.png",
             svg: "https://flagcdn.com/im.svg"
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/im.png",
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/im.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/im.svg"
+        },
+
+        capitalInfo: {
+            latlng: [54.15, -4.48]
+        },
+
+
+
     },
-
-    capitalInfo: {
-        latlng: [54.15, -4.48]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Estonia",
+    {
+        name: {
+            common: "Estonia",
             official: "Republic of Estonia",
-                "nativeName": {
-            "est": {
-                official: "Eesti Vabariik",
-                    common: "Eesti"
-            }
-        }
-    },
-    "tld": [
-        ".ee"
-    ],
-        "cca2": "EE",
-            "ccn3": "233",
-                "cca3": "EST",
-                    "cioc": "EST",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: "Euro",
-                                        "idd": {
-        "root": "+3",
-            "suffixes": [
-                "72"
-            ]
-    },
-    capital: [
-        "Tallinn"
-    ],
-        "altSpellings": [
-            "EE",
-            "Eesti",
-            "Republic of Estonia",
-            "Eesti Vabariik"
+
+        },
+
+        currencies: "Euro",
+
+        capital: [
+            "Tallinn"
         ],
-            region: "Europe",
-                subregion: "Northern Europe",
-                    languages: [
-                        "est": "Estonian"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية إستونيا",
-                common: "إستونيا"
-        },
-        "bre": {
-            official: "Republik Estonia",
-                common: "Estonia"
-        },
-        "ces": {
-            official: "Estonská republika",
-                common: "Estonsko"
-        },
-        "cym": {
-            official: "Gweriniaeth Estonia",
-                common: "Estonia"
-        },
-        "deu": {
-            official: "Republik Estland",
-                common: "Estland"
-        },
-        "est": {
-            official: "Eesti Vabariik",
-                common: "Eesti"
-        },
-        "fin": {
-            official: "Viron tasavalta",
-                common: "Viro"
-        },
-        fra: {
-            official: "République d'Estonie",
-                common: "Estonie"
-        },
-        "hrv": {
-            official: "Republika Estonija",
-                common: "Estonija"
-        },
-        "hun": {
-            official: "Észt Köztársaság",
-                common: "Észtország"
-        },
-        "ita": {
-            official: "Repubblica di Estonia",
-                common: "Estonia"
-        },
-        "jpn": {
-            official: "エストニア共和国",
-                common: "エストニア"
-        },
-        "kor": {
-            official: "에스토니아 공화국",
-                common: "에스토니아"
-        },
-        "nld": {
-            official: "Republiek Estland",
-                common: "Estland"
-        },
-        "per": {
-            official: "جمهوری استونی",
-                common: "اِستونی"
-        },
-        "pol": {
-            official: "Republika Estońska",
-                common: "Estonia"
-        },
-        "por": {
-            official: "República da Estónia",
-                common: "Estónia"
-        },
-        "rus": {
-            official: "Эстонская Республика",
-                common: "Эстония"
-        },
-        "slk": {
-            official: "Estónska republika",
-                common: "Estónsko"
-        },
-        "spa": {
-            official: "República de Estonia",
-                common: "Estonia"
-        },
-        "srp": {
-            official: "Естонска Република",
-                common: "Естонија"
-        },
-        "swe": {
-            official: "Republiken Estland",
-                common: "Estland"
-        },
-        "tur": {
-            official: "Estonya Cumhuriyeti",
-                common: "Estonya"
-        },
-        "urd": {
-            official: "جمہوریہ اسٹونیا",
-                common: "اسٹونیا"
-        },
-        "zho": {
-            official: "爱沙尼亚共和国",
-                common: "爱沙尼亚"
-        }
-    },
-    latlng: [59, 26],
+
+        region: "Europe",
+        subregion: "Northern Europe",
+        languages: [
+            "Estonian"
+        ],
+
+        latlng: [59, 26],
         landlocked: false,
-            "borders": [
-                "LVA",
-                "RUS"
-            ],
-                "area": 45227,
-                    demonyms: {
-        eng: {
-            fem: "Estonian",
+
+        demonyms: {
+            eng: {
+                fem: "Estonian",
                 masc: "Estonian"
-        },
-        fra: {
-            fem: "Estonienne",
+            },
+            fra: {
+                fem: "Estonienne",
                 masc: "Estonien"
-        }
-    },
-    flag: "🇪🇪",
+            }
+        },
+        flag: "🇪🇪",
         maps: {
-        googleMaps: "https://goo.gl/maps/6SsynwGUodL1sDvq8",
+            googleMaps: "https://goo.gl/maps/6SsynwGUodL1sDvq8",
             openStreetMaps: "https://www.openstreetmap.org/relation/79510"
-    },
-    population: 1331057,
+        },
+        population: 1331057,
         gini: 30.3,
-        , "fifa": "EST",
-        "car": {
-        "signs": [
-            "EST"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+02:00"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/ee.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/ee.png",
             svg: "https://flagcdn.com/ee.svg",
-                alt: "The flag of Estonia is composed of three equal horizontal bands of blue, black and white."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/ee.png",
+            alt: "The flag of Estonia is composed of three equal horizontal bands of blue, black and white."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/ee.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/ee.svg"
+        },
+
+        capitalInfo: {
+            latlng: [59.43, 24.72]
+        },
+
+
+
     },
-
-    capitalInfo: {
-        latlng: [59.43, 24.72]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Romania",
+    {
+        name: {
+            common: "Romania",
             official: "Romania",
-                "nativeName": {
-            "ron": {
-                official: "România",
-                    common: "România"
-            }
-        }
-    },
-    "tld": [
-        ".ro"
-    ],
-        "cca2": "RO",
-            "ccn3": "642",
-                "cca3": "ROU",
-                    "cioc": "ROU",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "RON": {
-            name: "Romanian leu",
-                "symbol": "lei"
-        }
-    },
-    "idd": {
-        "root": "+4",
-            "suffixes": [
-                "0"
-            ]
-    },
-    capital: [
-        "Bucharest"
-    ],
-        "altSpellings": [
-            "RO",
-            "Rumania",
-            "Roumania",
-            "România"
+
+        },
+
+        currencies: "Romanian leu",
+        capital: [
+            "Bucharest"
         ],
-            region: "Europe",
-                subregion: "Southeast Europe",
-                    languages: [
-                        "ron": "Romanian"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "رومانيا",
-                common: "رومانيا"
-        },
-        "bre": {
-            official: "Roumania",
-                common: "Roumania"
-        },
-        "ces": {
-            official: "Rumunsko",
-                common: "Rumunsko"
-        },
-        "cym": {
-            official: "Romania",
-                common: "Romania"
-        },
-        "deu": {
-            official: "Rumänien",
-                common: "Rumänien"
-        },
-        "est": {
-            official: "Rumeenia",
-                common: "Rumeenia"
-        },
-        "fin": {
-            official: "Romania",
-                common: "Romania"
-        },
-        fra: {
-            official: "Roumanie",
-                common: "Roumanie"
-        },
-        "hrv": {
-            official: "Rumunija",
-                common: "Rumunjska"
-        },
-        "hun": {
-            official: "Románia",
-                common: "Románia"
-        },
-        "ita": {
-            official: "Romania",
-                common: "Romania"
-        },
-        "jpn": {
-            official: "ルーマニア",
-                common: "ルーマニア"
-        },
-        "kor": {
-            official: "루마니아",
-                common: "루마니아"
-        },
-        "nld": {
-            official: "Roemenië",
-                common: "Roemenië"
-        },
-        "per": {
-            official: "رومانی",
-                common: "رومانی"
-        },
-        "pol": {
-            official: "Rumunia",
-                common: "Rumunia"
-        },
-        "por": {
-            official: "Romênia",
-                common: "Roménia"
-        },
-        "rus": {
-            official: "Румыния",
-                common: "Румыния"
-        },
-        "slk": {
-            official: "Rumunsko",
-                common: "Rumunsko"
-        },
-        "spa": {
-            official: "Rumania",
-                common: "Rumania"
-        },
-        "srp": {
-            official: "Румунија",
-                common: "Румунија"
-        },
-        "swe": {
-            official: "Rumänien",
-                common: "Rumänien"
-        },
-        "tur": {
-            official: "Romanya",
-                common: "Romanya"
-        },
-        "urd": {
-            official: "رومانیہ",
-                common: "رومانیہ"
-        },
-        "zho": {
-            official: "罗马尼亚",
-                common: "罗马尼亚"
-        }
-    },
-    latlng: [46, 25],
+
+        region: "Europe",
+        subregion: "Southeast Europe",
+        languages: [
+            "Romanian"
+        ],
+
+        latlng: [46, 25],
         landlocked: false,
-            "borders": [
-                "BGR",
-                "HUN",
-                "MDA",
-                "SRB",
-                "UKR"
-            ],
-                "area": 238391,
-                    demonyms: {
-        eng: {
-            fem: "Romanian",
+
+        demonyms: {
+            eng: {
+                fem: "Romanian",
                 masc: "Romanian"
-        },
-        fra: {
-            fem: "Roumaine",
+            },
+            fra: {
+                fem: "Roumaine",
                 masc: "Roumain"
-        }
-    },
-    flag: "🇷🇴",
+            }
+        },
+        flag: "🇷🇴",
         maps: {
-        googleMaps: "https://goo.gl/maps/845hAgCf1mDkN3vr7",
+            googleMaps: "https://goo.gl/maps/845hAgCf1mDkN3vr7",
             openStreetMaps: "https://www.openstreetmap.org/relation/90689"
-    },
-    population: 19286123,
+        },
+        population: 19286123,
         gini: 35.8,
-        , "fifa": "ROU",
-        "car": {
-        "signs": [
-            "RO"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+02:00"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/ro.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/ro.png",
             svg: "https://flagcdn.com/ro.svg",
-                alt: "The flag of Romania is composed of three equal vertical bands of navy blue, yellow and red."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/ro.png",
+            alt: "The flag of Romania is composed of three equal vertical bands of navy blue, yellow and red."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/ro.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/ro.svg"
+        },
+
+        capitalInfo: {
+            latlng: [44.43, 26.1]
+        },
+
+
+
     },
-
-    capitalInfo: {
-        latlng: [44.43, 26.1]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Bulgaria",
+    {
+        name: {
+            common: "Bulgaria",
             official: "Republic of Bulgaria",
-                "nativeName": {
-            "bul": {
-                official: "Република България",
-                    common: "България"
-            }
-        }
-    },
-    "tld": [
-        ".bg"
-    ],
-        "cca2": "BG",
-            "ccn3": "100",
-                "cca3": "BGR",
-                    "cioc": "BUL",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "BGN": {
-            name: "Bulgarian lev",
-                "symbol": "лв"
-        }
-    },
-    "idd": {
-        "root": "+3",
-            "suffixes": [
-                "59"
-            ]
-    },
-    capital: [
-        "Sofia"
-    ],
-        "altSpellings": [
-            "BG",
-            "Republic of Bulgaria",
-            "Република България"
+
+        },
+
+        currencies: "Bulgarian lev",
+        capital: [
+            "Sofia"
         ],
-            region: "Europe",
-                subregion: "Southeast Europe",
-                    languages: [
-                        "bul": "Bulgarian"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية بلغاريا",
-                common: "بلغاريا"
-        },
-        "bre": {
-            official: "Republik Bulgaria",
-                common: "Bulgaria"
-        },
-        "ces": {
-            official: "Bulharská republika",
-                common: "Bulharsko"
-        },
-        "cym": {
-            official: "Gweriniaeth Bwlgaria",
-                common: "Bwlgaria"
-        },
-        "deu": {
-            official: "Republik Bulgarien",
-                common: "Bulgarien"
-        },
-        "est": {
-            official: "Bulgaaria Vabariik",
-                common: "Bulgaaria"
-        },
-        "fin": {
-            official: "Bulgarian tasavalta",
-                common: "Bulgaria"
-        },
-        fra: {
-            official: "République de Bulgarie",
-                common: "Bulgarie"
-        },
-        "hrv": {
-            official: "Republika Bugarska",
-                common: "Bugarska"
-        },
-        "hun": {
-            official: "Bolgár Köztársaság",
-                common: "Bulgária"
-        },
-        "ita": {
-            official: "Repubblica di Bulgaria",
-                common: "Bulgaria"
-        },
-        "jpn": {
-            official: "ブルガリア共和国",
-                common: "ブルガリア"
-        },
-        "kor": {
-            official: "불가리아 공화국",
-                common: "불가리아"
-        },
-        "nld": {
-            official: "Republiek Bulgarije",
-                common: "Bulgarije"
-        },
-        "per": {
-            official: "جمهوری بلغارستان",
-                common: "بلغارستان"
-        },
-        "pol": {
-            official: "Republika Bułgarii",
-                common: "Bułgaria"
-        },
-        "por": {
-            official: "República da Bulgária",
-                common: "Bulgária"
-        },
-        "rus": {
-            official: "Республика Болгария",
-                common: "Болгария"
-        },
-        "slk": {
-            official: "Bulharská republika",
-                common: "Bulharsko"
-        },
-        "spa": {
-            official: "República de Bulgaria",
-                common: "Bulgaria"
-        },
-        "srp": {
-            official: "Република Бугарска",
-                common: "Бугарска"
-        },
-        "swe": {
-            official: "Republiken Bulgarien",
-                common: "Bulgarien"
-        },
-        "tur": {
-            official: "Bulgaristan Cumhuriyeti",
-                common: "Bulgaristan"
-        },
-        "urd": {
-            official: "جمہوریہ بلغاریہ",
-                common: "بلغاریہ"
-        },
-        "zho": {
-            official: "保加利亚共和国",
-                common: "保加利亚"
-        }
-    },
-    latlng: [43, 25],
+
+        region: "Europe",
+        subregion: "Southeast Europe",
+        languages: [
+            "Bulgarian"
+        ],
+
+        latlng: [43, 25],
         landlocked: false,
-            "borders": [
-                "GRC",
-                "MKD",
-                "ROU",
-                "SRB",
-                "TUR"
-            ],
-                "area": 110879,
-                    demonyms: {
-        eng: {
-            fem: "Bulgarian",
+
+        demonyms: {
+            eng: {
+                fem: "Bulgarian",
                 masc: "Bulgarian"
-        },
-        fra: {
-            fem: "Bulgare",
+            },
+            fra: {
+                fem: "Bulgare",
                 masc: "Bulgare"
-        }
-    },
-    flag: "🇧🇬",
+            }
+        },
+        flag: "🇧🇬",
         maps: {
-        googleMaps: "https://goo.gl/maps/F5uAhDGWzc3BrHfm9",
+            googleMaps: "https://goo.gl/maps/F5uAhDGWzc3BrHfm9",
             openStreetMaps: "https://www.openstreetmap.org/relation/186382"
-    },
-    population: 6927288,
+        },
+        population: 6927288,
         gini: 41.3,
-        , "fifa": "BUL",
-        "car": {
-        "signs": [
-            "BG"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+02:00"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/bg.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/bg.png",
             svg: "https://flagcdn.com/bg.svg",
-                alt: "The flag of Bulgaria is composed of three equal horizontal bands of white, green and red."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/bg.png",
+            alt: "The flag of Bulgaria is composed of three equal horizontal bands of white, green and red."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/bg.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/bg.svg"
+        },
+
+        capitalInfo: {
+            latlng: [42.68, 23.32]
+        },
+
+
+
     },
-
-    capitalInfo: {
-        latlng: [42.68, 23.32]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Germany",
+    {
+        name: {
+            common: "Germany",
             official: "Federal Republic of Germany",
-                "nativeName": {
-            "deu": {
-                official: "Bundesrepublik Deutschland",
-                    common: "Deutschland"
-            }
-        }
-    },
-    "tld": [
-        ".de"
-    ],
-        "cca2": "DE",
-            "ccn3": "276",
-                "cca3": "DEU",
-                    "cioc": "GER",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: "Euro",
-                                        "idd": {
-        "root": "+4",
-            "suffixes": [
-                "9"
-            ]
-    },
-    capital: [
-        "Berlin"
-    ],
-        "altSpellings": [
-            "DE",
-            "Federal Republic of Germany",
-            "Bundesrepublik Deutschland"
+
+        },
+
+        currencies: "Euro",
+
+        capital: [
+            "Berlin"
         ],
-            region: "Europe",
-                subregion: "Western Europe",
-                    languages: [
-                        "deu": "German"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية ألمانيا الاتحادية",
-                common: "ألمانيا"
-        },
-        "bre": {
-            official: "Republik Kevreadel Alamagn",
-                common: "Alamagn"
-        },
-        "ces": {
-            official: "Spolková republika Německo",
-                common: "Německo"
-        },
-        "cym": {
-            official: "Federal Republic of Germany",
-                common: "Germany"
-        },
-        "deu": {
-            official: "Bundesrepublik Deutschland",
-                common: "Deutschland"
-        },
-        "est": {
-            official: "Saksamaa Liitvabariik",
-                common: "Saksamaa"
-        },
-        "fin": {
-            official: "Saksan liittotasavalta",
-                common: "Saksa"
-        },
-        fra: {
-            official: "République fédérale d'Allemagne",
-                common: "Allemagne"
-        },
-        "hrv": {
-            official: "Njemačka Federativna Republika",
-                common: "Njemačka"
-        },
-        "hun": {
-            official: "Német Szövetségi Köztársaság",
-                common: "Németország"
-        },
-        "ita": {
-            official: "Repubblica federale di Germania",
-                common: "Germania"
-        },
-        "jpn": {
-            official: "ドイツ連邦共和国",
-                common: "ドイツ"
-        },
-        "kor": {
-            official: "독일 연방 공화국",
-                common: "독일"
-        },
-        "nld": {
-            official: "Bondsrepubliek Duitsland",
-                common: "Duitsland"
-        },
-        "per": {
-            official: "جمهوری فدرال آلمان",
-                common: "آلمان"
-        },
-        "pol": {
-            official: "Republika Federalna Niemiec",
-                common: "Niemcy"
-        },
-        "por": {
-            official: "República Federal da Alemanha",
-                common: "Alemanha"
-        },
-        "rus": {
-            official: "Федеративная Республика Германия",
-                common: "Германия"
-        },
-        "slk": {
-            official: "Nemecká spolková republika",
-                common: "Nemecko"
-        },
-        "spa": {
-            official: "República Federal de Alemania",
-                common: "Alemania"
-        },
-        "srp": {
-            official: "Савезна Република Немачка",
-                common: "Немачка"
-        },
-        "swe": {
-            official: "Förbundsrepubliken Tyskland",
-                common: "Tyskland"
-        },
-        "tur": {
-            official: "Almanya Federal Cumhuriyeti",
-                common: "Almanya"
-        },
-        "urd": {
-            official: "وفاقی جمہوریہ جرمنی",
-                common: "جرمنی"
-        },
-        "zho": {
-            official: "德意志联邦共和国",
-                common: "德国"
-        }
-    },
-    latlng: [51, 9],
+
+        region: "Europe",
+        subregion: "Western Europe",
+        languages: [
+            "German"
+        ],
+
+        latlng: [51, 9],
         landlocked: false,
-            "borders": [
-                "AUT",
-                "BEL",
-                "CZE",
-                "DNK",
-                "FRA",
-                "LUX",
-                "NLD",
-                "POL",
-                "CHE"
-            ],
-                "area": 357114,
-                    demonyms: {
-        eng: {
-            fem: "German",
+
+        demonyms: {
+            eng: {
+                fem: "German",
                 masc: "German"
-        },
-        fra: {
-            fem: "Allemande",
+            },
+            fra: {
+                fem: "Allemande",
                 masc: "Allemand"
-        }
-    },
-    flag: "🇩🇪",
+            }
+        },
+        flag: "🇩🇪",
         maps: {
-        googleMaps: "https://goo.gl/maps/mD9FBMq1nvXUBrkv6",
+            googleMaps: "https://goo.gl/maps/mD9FBMq1nvXUBrkv6",
             openStreetMaps: "https://www.openstreetmap.org/relation/51477"
-    },
-    population: 83240525,
+        },
+        population: 83240525,
         gini: 31.9,
-        , "fifa": "GER",
-        "car": {
-        "signs": [
-            "DY"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/de.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/de.png",
             svg: "https://flagcdn.com/de.svg",
-                alt: "The flag of Germany is composed of three equal horizontal bands of black, red and gold."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/de.png",
+            alt: "The flag of Germany is composed of three equal horizontal bands of black, red and gold."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/de.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/de.svg"
+        },
+
+        capitalInfo: {
+            latlng: [52.52, 13.4]
+        },
+
+
+
     },
-
-    capitalInfo: {
-        latlng: [52.52, 13.4]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Poland",
+    {
+        name: {
+            common: "Poland",
             official: "Republic of Poland",
-                "nativeName": {
-            "pol": {
-                official: "Rzeczpospolita Polska",
-                    common: "Polska"
-            }
-        }
-    },
-    "tld": [
-        ".pl"
-    ],
-        "cca2": "PL",
-            "ccn3": "616",
-                "cca3": "POL",
-                    "cioc": "POL",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "PLN": {
-            name: "Polish złoty",
-                "symbol": "zł"
-        }
-    },
-    "idd": {
-        "root": "+4",
-            "suffixes": [
-                "8"
-            ]
-    },
-    capital: [
-        "Warsaw"
-    ],
-        "altSpellings": [
-            "PL",
-            "Republic of Poland",
-            "Rzeczpospolita Polska"
+
+        },
+
+        currencies: "Polish złoty",
+        capital: [
+            "Warsaw"
         ],
-            region: "Europe",
-                subregion: "Central Europe",
-                    languages: [
-                        "pol": "Polish"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "الجمهورية البولندية",
-                common: "بولندا"
-        },
-        "bre": {
-            official: "Republik Polonia",
-                common: "Polonia"
-        },
-        "ces": {
-            official: "Polská republika",
-                common: "Polsko"
-        },
-        "cym": {
-            official: "Republic of Poland",
-                common: "Poland"
-        },
-        "deu": {
-            official: "Republik Polen",
-                common: "Polen"
-        },
-        "est": {
-            official: "Poola Vabariik",
-                common: "Poola"
-        },
-        "fin": {
-            official: "Puolan tasavalta",
-                common: "Puola"
-        },
-        fra: {
-            official: "République de Pologne",
-                common: "Pologne"
-        },
-        "hrv": {
-            official: "Republika Poljska",
-                common: "Poljska"
-        },
-        "hun": {
-            official: "Lengyel Köztársaság",
-                common: "Lengyelország"
-        },
-        "ita": {
-            official: "Repubblica di Polonia",
-                common: "Polonia"
-        },
-        "jpn": {
-            official: "ポーランド共和国",
-                common: "ポーランド"
-        },
-        "kor": {
-            official: "폴란드 공화국",
-                common: "폴란드"
-        },
-        "nld": {
-            official: "Republiek Polen",
-                common: "Polen"
-        },
-        "per": {
-            official: "جمهوری لهستان",
-                common: "لهستان"
-        },
-        "pol": {
-            official: "Rzeczpospolita Polska",
-                common: "Polska"
-        },
-        "por": {
-            official: "República da Polónia",
-                common: "Polónia"
-        },
-        "rus": {
-            official: "Республика Польша",
-                common: "Польша"
-        },
-        "slk": {
-            official: "Poľská republika",
-                common: "Poľsko"
-        },
-        "spa": {
-            official: "República de Polonia",
-                common: "Polonia"
-        },
-        "srp": {
-            official: "Република Пољска",
-                common: "Пољска"
-        },
-        "swe": {
-            official: "Republiken Polen",
-                common: "Polen"
-        },
-        "tur": {
-            official: "Polonya Cumhuriyeti",
-                common: "Polonya"
-        },
-        "urd": {
-            official: "جمہوریہ پولینڈ",
-                common: "پولینڈ"
-        },
-        "zho": {
-            official: "波兰共和国",
-                common: "波兰"
-        }
-    },
-    latlng: [52, 20],
+
+        region: "Europe",
+        subregion: "Central Europe",
+        languages: [
+            "Polish"
+        ],
+
+        latlng: [52, 20],
         landlocked: false,
-            "borders": [
-                "BLR",
-                "CZE",
-                "DEU",
-                "LTU",
-                "RUS",
-                "SVK",
-                "UKR"
-            ],
-                "area": 312679,
-                    demonyms: {
-        eng: {
-            fem: "Polish",
+
+        demonyms: {
+            eng: {
+                fem: "Polish",
                 masc: "Polish"
-        },
-        fra: {
-            fem: "Polonaise",
+            },
+            fra: {
+                fem: "Polonaise",
                 masc: "Polonais"
-        }
-    },
-    flag: "🇵🇱",
+            }
+        },
+        flag: "🇵🇱",
         maps: {
-        googleMaps: "https://goo.gl/maps/gY9Xw4Sf4415P4949",
+            googleMaps: "https://goo.gl/maps/gY9Xw4Sf4415P4949",
             openStreetMaps: "https://www.openstreetmap.org/relation/49715"
-    },
-    population: 37950802,
+        },
+        population: 37950802,
         gini: 30.2,
-        , "fifa": "POL",
-        "car": {
-        "signs": [
-            "PL"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/pl.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/pl.png",
             svg: "https://flagcdn.com/pl.svg",
-                alt: "The flag of Poland is composed of two equal horizontal bands of white and red."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/pl.png",
+            alt: "The flag of Poland is composed of two equal horizontal bands of white and red."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/pl.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/pl.svg"
+        },
+
+        capitalInfo: {
+            latlng: [52.25, 21]
+        },
+
+
+
     },
-
-    capitalInfo: {
-        latlng: [52.25, 21]
-    },
-
-
-
-},
-{
-    name: {
-        common: "United Kingdom",
+    {
+        name: {
+            common: "United Kingdom",
             official: "United Kingdom of Great Britain and Northern Ireland",
-                "nativeName": {
-            eng: {
-                official: "United Kingdom of Great Britain and Northern Ireland",
-                    common: "United Kingdom"
-            }
-        }
-    },
-    "tld": [
-        ".uk"
-    ],
-        "cca2": "GB",
-            "ccn3": "826",
-                "cca3": "GBR",
-                    "cioc": "GBR",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "GBP": {
-            name: "British pound",
-                "symbol": "£"
-        }
-    },
-    "idd": {
-        "root": "+4",
-            "suffixes": [
-                "4"
-            ]
-    },
-    capital: [
-        "London"
-    ],
-        "altSpellings": [
-            "GB",
-            "UK",
-            "Great Britain"
+
+        },
+
+        currencies: "British pound",
+        capital: [
+            "London"
         ],
-            region: "Europe",
-                subregion: "Northern Europe",
-                    languages: [
-                        "English"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "المملكة المتحدة لبريطانيا العظمى وايرلندا الشمالية",
-                common: "المملكة المتحدة"
-        },
-        "bre": {
-            official: "Rouantelezh-Unanet Breizh-Veur ha Norzhiwerzhon",
-                common: "Rouantelezh-Unanet"
-        },
-        "ces": {
-            official: "Spojené království Velké Británie a Severního Irska",
-                common: "Spojené království"
-        },
-        "cym": {
-            official: "United Kingdom of Great Britain and Northern Ireland",
-                common: "United Kingdom"
-        },
-        "deu": {
-            official: "Vereinigtes Königreich Großbritannien und Nordirland",
-                common: "Vereinigtes Königreich"
-        },
-        "est": {
-            official: "Suurbritannia ja Põhja-Iiri Ühendkuningriik",
-                common: "Suurbritannia"
-        },
-        "fin": {
-            official: "Ison-Britannian ja Pohjois-Irlannin yhdistynyt kuningaskunta",
-                common: "Yhdistynyt kuningaskunta"
-        },
-        fra: {
-            official: "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord",
-                common: "Royaume-Uni"
-        },
-        "hrv": {
-            official: "Ujedinjeno Kraljevstvo Velike Britanije i Sjeverne Irske",
-                common: "Ujedinjeno Kraljevstvo"
-        },
-        "hun": {
-            official: "Nagy-Britannia és Észak-Írország Egyesült Királysága",
-                common: "Egyesült Királyság"
-        },
-        "ita": {
-            official: "Regno Unito di Gran Bretagna e Irlanda del Nord",
-                common: "Regno Unito"
-        },
-        "jpn": {
-            official: "グレート·ブリテンおよび北アイルランド連合王国",
-                common: "イギリス"
-        },
-        "kor": {
-            official: "그레이트브리튼 북아일랜드 연합 왕국",
-                common: "영국"
-        },
-        "nld": {
-            official: "Verenigd Koninkrijk van Groot-Brittannië en Noord-Ierland",
-                common: "Verenigd Koninkrijk"
-        },
-        "per": {
-            official: "پادشاهی متحد بریتانیای کبیر و ایرلند شمالی",
-                common: "انگلیس"
-        },
-        "pol": {
-            official: "Zjednoczone Królestwo Wielkiej Brytanii i Irlandii Północnej",
-                common: "Zjednoczone Królestwo"
-        },
-        "por": {
-            official: "Reino Unido da Grã-Bretanha e Irlanda do Norte",
-                common: "Reino Unido"
-        },
-        "rus": {
-            official: "Соединенное Королевство Великобритании и Северной Ирландии",
-                common: "Великобритания"
-        },
-        "slk": {
-            official: "Spojené kráľovstvo Veľkej Británie a SevernéhoÌrska",
-                common: "Veľká Británia (Spojené kráľovstvo)"
-        },
-        "spa": {
-            official: "Reino Unido de Gran Bretaña e Irlanda del Norte",
-                common: "Reino Unido"
-        },
-        "srp": {
-            official: "Уједињено Краљевство Велике Британије и Северне Ирске",
-                common: "Уједињено Краљевство"
-        },
-        "swe": {
-            official: "Förenade konungariket Storbritannien och Nordirland",
-                common: "Storbritannien"
-        },
-        "tur": {
-            official: "Büyük Britanya ve Kuzey İrlanda Birleşik Krallığı",
-                common: "Birleşik Krallık"
-        },
-        "urd": {
-            official: "مملکتِ متحدہ برطانیہ عظمی و شمالی آئرلینڈ",
-                common: "مملکتِ متحدہ"
-        },
-        "zho": {
-            official: "大不列颠及北爱尔兰联合王国",
-                common: "英国"
-        }
-    },
-    latlng: [54, -2],
+
+        region: "Europe",
+        subregion: "Northern Europe",
+        languages: [
+            "English"
+        ],
+
+        latlng: [54, -2],
         landlocked: false,
-            "borders": [
-                "IRL"
-            ],
-                "area": 242900,
-                    demonyms: {
-        eng: {
-            fem: "British",
+
+        demonyms: {
+            eng: {
+                fem: "British",
                 masc: "British"
-        },
-        fra: {
-            fem: "Britannique",
+            },
+            fra: {
+                fem: "Britannique",
                 masc: "Britannique"
-        }
-    },
-    flag: "🇬🇧",
+            }
+        },
+        flag: "🇬🇧",
         maps: {
-        googleMaps: "https://goo.gl/maps/FoDtc3UKMkFsXAjHA",
+            googleMaps: "https://goo.gl/maps/FoDtc3UKMkFsXAjHA",
             openStreetMaps: "https://www.openstreetmap.org/relation/62149"
-    },
-    population: 67215293,
+        },
+        population: 67215293,
         gini: 35.1,
-            "car": {
-        "signs": [
-            "GB"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC-08:00",
-        "UTC-05:00",
-        "UTC-04:00",
-        "UTC-03:00",
-        "UTC-02:00",
-        "UTC",
-        "UTC+01:00",
-        "UTC+02:00",
-        "UTC+06:00"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/gb.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/gb.png",
             svg: "https://flagcdn.com/gb.svg",
-                alt: "The flag of the United Kingdom — the Union Jack — has a blue field. It features the white-edged red cross of Saint George superimposed on the diagonal red cross of Saint Patrick which is superimposed on the diagonal white cross of Saint Andrew."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/gb.png",
+            alt: "The flag of the United Kingdom — the Union Jack — has a blue field. It features the white-edged red cross of Saint George superimposed on the diagonal red cross of Saint Patrick which is superimposed on the diagonal white cross of Saint Andrew."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/gb.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/gb.svg"
+        },
+
+        capitalInfo: {
+            latlng: [51.4, -0.08]
+        },
+
+
+
     },
-
-    capitalInfo: {
-        latlng: [51.5, -0.08]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Finland",
+    {
+        name: {
+            common: "Finland",
             official: "Republic of Finland",
-                "nativeName": {
-            "fin": {
-                official: "Suomen tasavalta",
-                    common: "Suomi"
-            },
-            "swe": {
-                official: "Republiken Finland",
-                    common: "Finland"
-            }
-        }
-    },
-    "tld": [
-        ".fi"
-    ],
-        "cca2": "FI",
-            "ccn3": "246",
-                "cca3": "FIN",
-                    "cioc": "FIN",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: "Euro",
-                                        "idd": {
-        "root": "+3",
-            "suffixes": [
-                "58"
-            ]
-    },
-    capital: [
-        "Helsinki"
-    ],
-        "altSpellings": [
-            "FI",
-            "Suomi",
-            "Republic of Finland",
-            "Suomen tasavalta",
-            "Republiken Finland"
+
+        },
+
+        currencies: "Euro",
+
+        capital: [
+            "Helsinki"
         ],
-            region: "Europe",
-                subregion: "Northern Europe",
-                    languages: [
-                        "fin": "Finnish",
-                        "swe": "Swedish"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية فنلندا",
-                common: "فنلندا"
-        },
-        "bre": {
-            official: "Republik Finland",
-                common: "Finland"
-        },
-        "ces": {
-            official: "Finská republika",
-                common: "Finsko"
-        },
-        "cym": {
-            official: "Republic of Finland",
-                common: "Finland"
-        },
-        "deu": {
-            official: "Republik Finnland",
-                common: "Finnland"
-        },
-        "est": {
-            official: "Soome Vabariik",
-                common: "Soome"
-        },
-        "fin": {
-            official: "Suomen tasavalta",
-                common: "Suomi"
-        },
-        fra: {
-            official: "République de Finlande",
-                common: "Finlande"
-        },
-        "hrv": {
-            official: "Republika Finska",
-                common: "Finska"
-        },
-        "hun": {
-            official: "Finn Köztársaság",
-                common: "Finnország"
-        },
-        "ita": {
-            official: "Repubblica di Finlandia",
-                common: "Finlandia"
-        },
-        "jpn": {
-            official: "フィンランド共和国",
-                common: "フィンランド"
-        },
-        "kor": {
-            official: "핀란드 공화국",
-                common: "핀란드"
-        },
-        "nld": {
-            official: "Republiek Finland",
-                common: "Finland"
-        },
-        "per": {
-            official: "جمهوری فنلاند",
-                common: "فنلاند"
-        },
-        "pol": {
-            official: "Republika Finlandii",
-                common: "Finlandia"
-        },
-        "por": {
-            official: "República da Finlândia",
-                common: "Finlândia"
-        },
-        "rus": {
-            official: "Финляндская Республика",
-                common: "Финляндия"
-        },
-        "slk": {
-            official: "Fínska republika",
-                common: "Fínsko"
-        },
-        "spa": {
-            official: "República de Finlandia",
-                common: "Finlandia"
-        },
-        "srp": {
-            official: "Република Финска",
-                common: "Финска"
-        },
-        "swe": {
-            official: "Republiken Finland",
-                common: "Finland"
-        },
-        "tur": {
-            official: "Finlandiya Cumhuriyeti",
-                common: "Finlandiya"
-        },
-        "urd": {
-            official: "جمہوریہ فن لینڈ",
-                common: "فن لینڈ"
-        },
-        "zho": {
-            official: "芬兰共和国",
-                common: "芬兰"
-        }
-    },
-    latlng: [64, 26],
+
+        region: "Europe",
+        subregion: "Northern Europe",
+        languages: [
+            "Finnish",
+            "Swedish"
+        ],
+
+        latlng: [64, 26],
         landlocked: false,
-            "borders": [
-                "NOR",
-                "SWE",
-                "RUS"
-            ],
-                "area": 338424,
-                    demonyms: {
-        eng: {
-            fem: "Finnish",
+
+        demonyms: {
+            eng: {
+                fem: "Finnish",
                 masc: "Finnish"
-        },
-        fra: {
-            fem: "Finlandaise",
+            },
+            fra: {
+                fem: "Finlandaise",
                 masc: "Finlandais"
-        }
-    },
-    flag: "🇫🇮",
+            }
+        },
+        flag: "🇫🇮",
         maps: {
-        googleMaps: "https://goo.gl/maps/HjgWDCNKRAYHrkMn8",
+            googleMaps: "https://goo.gl/maps/HjgWDCNKRAYHrkMn8",
             openStreetMaps: "openstreetmap.org/relation/54224"
-    },
-    population: 5530719,
+        },
+        population: 5530719,
         gini: 27.3,
-        , "fifa": "FIN",
-        "car": {
-        "signs": [
-            "FIN"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+02:00"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/fi.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/fi.png",
             svg: "https://flagcdn.com/fi.svg",
-                alt: "The flag of Finland has a white field with a large blue cross that extend to the edges of the field. The vertical part of this cross is offset towards the hoist side."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/fi.png",
+            alt: "The flag of Finland has a white field with a large blue cross that extend to the edges of the field. The vertical part of this cross is offset towards the hoist side."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/fi.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/fi.svg"
+        },
+
+        capitalInfo: {
+            latlng: [60.17, 24.93]
+        },
+
+
+
     },
-
-    capitalInfo: {
-        latlng: [60.17, 24.93]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Sweden",
+    {
+        name: {
+            common: "Sweden",
             official: "Kingdom of Sweden",
-                "nativeName": {
-            "swe": {
-                official: "Konungariket Sverige",
-                    common: "Sverige"
-            }
-        }
-    },
-    "tld": [
-        ".se"
-    ],
-        "cca2": "SE",
-            "ccn3": "752",
-                "cca3": "SWE",
-                    "cioc": "SWE",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "SEK": {
-            name: "Swedish krona",
-                "symbol": "kr"
-        }
-    },
-    "idd": {
-        "root": "+4",
-            "suffixes": [
-                "6"
-            ]
-    },
-    capital: [
-        "Stockholm"
-    ],
-        "altSpellings": [
-            "SE",
-            "Kingdom of Sweden",
-            "Konungariket Sverige"
+
+        },
+
+        currencies: "Swedish krona",
+        capital: [
+            "Stockholm"
         ],
-            region: "Europe",
-                subregion: "Northern Europe",
-                    languages: [
-                        "swe": "Swedish"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "مملكة السويد",
-                common: "السويد"
-        },
-        "bre": {
-            official: "Rouantelezh Sveden",
-                common: "Sveden"
-        },
-        "ces": {
-            official: "Švédské království",
-                common: "Švédsko"
-        },
-        "cym": {
-            official: "Kingdom of Sweden",
-                common: "Sweden"
-        },
-        "deu": {
-            official: "Königreich Schweden",
-                common: "Schweden"
-        },
-        "est": {
-            official: "Rootsi Kuningriik",
-                common: "Rootsi"
-        },
-        "fin": {
-            official: "Ruotsin kuningaskunta",
-                common: "Ruotsi"
-        },
-        fra: {
-            official: "Royaume de Suède",
-                common: "Suède"
-        },
-        "hrv": {
-            official: "Kraljevina Švedska",
-                common: "Švedska"
-        },
-        "hun": {
-            official: "Svéd Királyság",
-                common: "Svédország"
-        },
-        "ita": {
-            official: "Regno di Svezia",
-                common: "Svezia"
-        },
-        "jpn": {
-            official: "スウェーデン王国",
-                common: "スウェーデン"
-        },
-        "kor": {
-            official: "스웨덴 왕국",
-                common: "스웨덴"
-        },
-        "nld": {
-            official: "Koninkrijk Zweden",
-                common: "Zweden"
-        },
-        "per": {
-            official: "پادشاهی سوئد",
-                common: "سوئد"
-        },
-        "pol": {
-            official: "Królestwo Szwecji",
-                common: "Szwecja"
-        },
-        "por": {
-            official: "Reino da Suécia",
-                common: "Suécia"
-        },
-        "rus": {
-            official: "Королевство Швеция",
-                common: "Швеция"
-        },
-        "slk": {
-            official: "Švédske kráľovstvo",
-                common: "Švédsko"
-        },
-        "spa": {
-            official: "Reino de Suecia",
-                common: "Suecia"
-        },
-        "srp": {
-            official: "Краљевина Шведска",
-                common: "Шведска"
-        },
-        "swe": {
-            official: "Konungariket Sverige",
-                common: "Sverige"
-        },
-        "tur": {
-            official: "İsveç Krallığı",
-                common: "İsveç"
-        },
-        "urd": {
-            official: "مملکتِ سویڈن",
-                common: "سویڈن"
-        },
-        "zho": {
-            official: "瑞典王国",
-                common: "瑞典"
-        }
-    },
-    latlng: [62, 15],
+
+        region: "Europe",
+        subregion: "Northern Europe",
+        languages: [
+            "Swedish"
+        ],
+
+        latlng: [62, 15],
         landlocked: false,
-            "borders": [
-                "FIN",
-                "NOR"
-            ],
-                "area": 450295,
-                    demonyms: {
-        eng: {
-            fem: "Swedish",
+
+        demonyms: {
+            eng: {
+                fem: "Swedish",
                 masc: "Swedish"
-        },
-        fra: {
-            fem: "Suédoise",
+            },
+            fra: {
+                fem: "Suédoise",
                 masc: "Suédois"
-        }
-    },
-    flag: "🇸🇪",
+            }
+        },
+        flag: "🇸🇪",
         maps: {
-        googleMaps: "https://goo.gl/maps/iqygE491ADVgnBW39",
+            googleMaps: "https://goo.gl/maps/iqygE491ADVgnBW39",
             openStreetMaps: "https://www.openstreetmap.org/relation/52822"
-    },
-    population: 10353442,
+        },
+        population: 10353442,
         gini: 30,
-        , "fifa": "SWE",
-        "car": {
-        "signs": [
-            "S"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/se.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/se.png",
             svg: "https://flagcdn.com/se.svg",
-                alt: "The flag of Sweden has a blue field with a large golden-yellow cross that extend to the edges of the field. The vertical part of this cross is offset towards the hoist side."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/se.png",
+            alt: "The flag of Sweden has a blue field with a large golden-yellow cross that extend to the edges of the field. The vertical part of this cross is offset towards the hoist side."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/se.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/se.svg"
+        },
+
+        capitalInfo: {
+            latlng: [59.33, 18.05]
+        },
+
+
     },
-
-    capitalInfo: {
-        latlng: [59.33, 18.05]
-    },
-
-
-},
-{
-    name: {
-        common: "Vatican City",
+    {
+        name: {
+            common: "Vatican City",
             official: "Vatican City State",
-                "nativeName": {
-            "ita": {
-                official: "Stato della Città del Vaticano",
-                    common: "Vaticano"
-            },
-            "lat": {
-                official: "Status Civitatis Vaticanæ",
-                    common: "Vaticanæ"
-            }
-        }
-    },
-    "tld": [
-        ".va"
-    ],
-        "cca2": "VA",
-            "ccn3": "336",
-                "cca3": "VAT",
-                    "independent": true,
-                        "status": "officially-assigned",
-                            "unMember": false,
-                                currencies: "Euro",
-                                    "idd": {
-        "root": "+3",
-            "suffixes": [
-                "906698",
-                "79"
-            ]
-    },
-    capital: [
-        "Vatican City"
-    ],
-        "altSpellings": [
-            "VA",
-            "Holy See (Vatican City State)",
-            "Vatican City State",
-            "Stato della Città del Vaticano"
+
+        },
+
+        currencies: "Euro",
+
+        capital: [
+            "Vatican City"
         ],
-            region: "Europe",
-                subregion: "Southern Europe",
-                    languages: [
-                        "ita": "Italian",
-                        "lat": "Latin"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "دولة مدينة الفاتيكان",
-                common: "مدينة الفاتيكان"
-        },
-        "bre": {
-            official: "Riez Keoded ar Vatikan",
-                common: "Vatikan"
-        },
-        "ces": {
-            official: "Městský stát Vatikán",
-                common: "Vatikán"
-        },
-        "cym": {
-            official: "Vatican City State",
-                common: "Vatican City"
-        },
-        "deu": {
-            official: "Staat Vatikanstadt",
-                common: "Vatikanstadt"
-        },
-        "est": {
-            official: "Vatikani Linnriik",
-                common: "Vatikan"
-        },
-        "fin": {
-            official: "Vatikaanin kaupunkivaltio",
-                common: "Vatikaani"
-        },
-        fra: {
-            official: "Cité du Vatican",
-                common: "Cité du Vatican"
-        },
-        "hrv": {
-            official: "Vatikan",
-                common: "Vatikan"
-        },
-        "hun": {
-            official: "Vatikán Állam",
-                common: "Vatikán"
-        },
-        "ita": {
-            official: "Città del Vaticano",
-                common: "Città del Vaticano"
-        },
-        "jpn": {
-            official: "バチカン市国の状態",
-                common: "バチカン市国"
-        },
-        "kor": {
-            official: "바티칸 시국",
-                common: "바티칸"
-        },
-        "nld": {
-            official: "Vaticaanstad",
-                common: "Vaticaanstad"
-        },
-        "per": {
-            official: "دولت‌شهر واتیکان",
-                common: "واتیکان"
-        },
-        "pol": {
-            official: "Państwo Watykańskie",
-                common: "Watykan"
-        },
-        "por": {
-            official: "Cidade do Vaticano",
-                common: "Cidade do Vaticano"
-        },
-        "rus": {
-            official: "Город-государство Ватикан",
-                common: "Ватикан"
-        },
-        "slk": {
-            official: "Svätá stolica (Vatikánsky mestský štát",
-                common: "Vatikán"
-        },
-        "spa": {
-            official: "Ciudad del Vaticano",
-                common: "Ciudad del Vaticano"
-        },
-        "srp": {
-            official: "Град Ватикан",
-                common: "Ватикан"
-        },
-        "swe": {
-            official: "Vatikanstaten",
-                common: "Vatikanstaten"
-        },
-        "tur": {
-            official: "Vatikan Şehir Devleti",
-                common: "Vatikan"
-        },
-        "urd": {
-            official: "ویٹیکن سٹی",
-                common: "ویٹیکن سٹی"
-        },
-        "zho": {
-            official: "梵蒂冈城国",
-                common: "梵蒂冈"
-        }
-    },
-    latlng: [41.9, 12.45],
+
+        region: "Europe",
+        subregion: "Southern Europe",
+        languages: [
+            "Italian",
+            "Latin"
+        ],
+
+        latlng: [41.9, 12.45],
         landlocked: true,
-            "borders": [
-                "ITA"
-            ],
-                "area": 0.44,
-                    demonyms: {
-        eng: {
-            fem: "Vatican",
+
+        demonyms: {
+            eng: {
+                fem: "Vatican",
                 masc: "Vatican"
+            },
+            fra: {
+                fem: "Vaticane",
+                masc: "Vatican"
+            }
         },
-        fra: {
-            fem: "Vaticane",
-                masc: "Vatican"
-        }
-    },
-    flag: "🇻🇦",
+        flag: "🇻🇦",
         maps: {
-        googleMaps: "https://goo.gl/maps/DTKvw5Bd1QZaDZmE8",
+            googleMaps: "https://goo.gl/maps/DTKvw5Bd1QZaDZmE8",
             openStreetMaps: "https://www.openstreetmap.org/relation/36989"
-    },
-    population: 451,
+        },
+        population: 451,
         gini: -1,
-            "car": {
-        "signs": [
-            "V"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/va.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/va.png",
             svg: "https://flagcdn.com/va.svg",
-                alt: "The flag of Vatican City is square shaped. It is composed of two equal vertical bands of yellow and white, with national coat of arms centered in the white band. The national coat of arms comprises the Papal Tiara superimposed on two crossed keys."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/va.png",
+            alt: "The flag of Vatican City is square shaped. It is composed of two equal vertical bands of yellow and white, with national coat of arms centered in the white band. The national coat of arms comprises the Papal Tiara superimposed on two crossed keys."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/va.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/va.svg"
-    },
+        },
 
-    capitalInfo: {
-        latlng: [41.9, 12.45]
-    }
-},
-{
-    name: {
-        common: "Russia",
+        capitalInfo: {
+            latlng: [41.9, 12.45]
+        }
+    },
+    {
+        name: {
+            common: "Russia",
             official: "Russian Federation",
-                "nativeName": {
-            "rus": {
-                official: "Российская Федерация",
-                    common: "Россия"
-            }
-        }
-    },
-    "tld": [
-        ".ru",
-        ".su",
-        ".рф"
-    ],
-        "cca2": "RU",
-            "ccn3": "643",
-                "cca3": "RUS",
-                    "cioc": "RUS",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "RUB": {
-            name: "Russian ruble",
-                "symbol": "₽"
-        }
-    },
-    "idd": {
-        "root": "+7",
-            "suffixes": [
-                "3",
-                "4",
-                "5",
-                "8",
-                "9"
-            ]
-    },
-    capital: [
-        "Moscow"
-    ],
-        "altSpellings": [
-            "RU",
-            "Russian Federation",
-            "Российская Федерация"
+
+        },
+
+        currencies: "Russian ruble",
+        capital: [
+            "Moscow"
         ],
-            region: "Europe",
-                subregion: "Eastern Europe",
-                    languages: [
-                        "Russian"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "روسيا الاتحادية",
-                common: "روسيا"
-        },
-        "bre": {
-            official: "Kevread Rusia",
-                common: "Rusia"
-        },
-        "ces": {
-            official: "Ruská federace",
-                common: "Rusko"
-        },
-        "cym": {
-            official: "Russian Federation",
-                common: "Russia"
-        },
-        "deu": {
-            official: "Russische Föderation",
-                common: "Russland"
-        },
-        "est": {
-            official: "Venemaa Föderatsioon",
-                common: "Venemaa"
-        },
-        "fin": {
-            official: "Venäjän federaatio",
-                common: "Venäjä"
-        },
-        fra: {
-            official: "Fédération de Russie",
-                common: "Russie"
-        },
-        "hrv": {
-            official: "Ruska Federacija",
-                common: "Rusija"
-        },
-        "hun": {
-            official: "Oroszországi Föderáció",
-                common: "Oroszország"
-        },
-        "ita": {
-            official: "Federazione russa",
-                common: "Russia"
-        },
-        "jpn": {
-            official: "ロシア連邦",
-                common: "ロシア連邦"
-        },
-        "kor": {
-            official: "러시아 연방",
-                common: "러시아"
-        },
-        "nld": {
-            official: "Russische Federatie",
-                common: "Rusland"
-        },
-        "per": {
-            official: "فدراسیون روسیه",
-                common: "روسیه"
-        },
-        "pol": {
-            official: "Federacja Rosyjska",
-                common: "Rosja"
-        },
-        "por": {
-            official: "Federação Russa",
-                common: "Rússia"
-        },
-        "rus": {
-            official: "Российская Федерация",
-                common: "Россия"
-        },
-        "slk": {
-            official: "Ruská federácia",
-                common: "Rusko"
-        },
-        "spa": {
-            official: "Federación de Rusia",
-                common: "Rusia"
-        },
-        "srp": {
-            official: "Руска Федерација",
-                common: "Русија"
-        },
-        "swe": {
-            official: "Ryska federationen",
-                common: "Ryssland"
-        },
-        "tur": {
-            official: "Rusya Federasyonu",
-                common: "Rusya"
-        },
-        "urd": {
-            official: "روسی وفاق",
-                common: "روس"
-        },
-        "zho": {
-            official: "俄罗斯联邦",
-                common: "俄罗斯"
-        }
-    },
-    latlng: [60, 100],
+
+        region: "Europe",
+        subregion: "Eastern Europe",
+        languages: [
+            "Russian"
+        ],
+
+        latlng: [60, 100],
         landlocked: false,
-            "borders": [
-                "AZE",
-                "BLR",
-                "CHN",
-                "EST",
-                "FIN",
-                "GEO",
-                "KAZ",
-                "PRK",
-                "LVA",
-                "LTU",
-                "MNG",
-                "NOR",
-                "POL",
-                "UKR"
-            ],
-                "area": 17098242,
-                    demonyms: {
-        eng: {
-            fem: "Russian",
+
+        demonyms: {
+            eng: {
+                fem: "Russian",
                 masc: "Russian"
-        },
-        fra: {
-            fem: "Russe",
+            },
+            fra: {
+                fem: "Russe",
                 masc: "Russe"
-        }
-    },
-    flag: "🇷🇺",
+            }
+        },
+        flag: "🇷🇺",
         maps: {
-        googleMaps: "https://goo.gl/maps/4F4PpDhGJgVvLby57",
+            googleMaps: "https://goo.gl/maps/4F4PpDhGJgVvLby57",
             openStreetMaps: "https://www.openstreetmap.org/relation/60189#map=3/65.15/105.29"
-    },
-    population: 144104080,
+        },
+        population: 144104080,
         gini: 37.5,
-        , "fifa": "RUS",
-        "car": {
-        "signs": [
-            "RUS"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+03:00",
-        "UTC+04:00",
-        "UTC+06:00",
-        "UTC+07:00",
-        "UTC+08:00",
-        "UTC+09:00",
-        "UTC+10:00",
-        "UTC+11:00",
-        "UTC+12:00"
-    ],
-        "continents": [
-            "Europe",
-            "Asia"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/ru.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/ru.png",
             svg: "https://flagcdn.com/ru.svg",
-                alt: "The flag of Russia is composed of three equal horizontal bands of white, blue and red."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/ru.png",
+            alt: "The flag of Russia is composed of three equal horizontal bands of white, blue and red."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/ru.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/ru.svg"
+        },
+
+        capitalInfo: {
+            latlng: [55.75, 37.6]
+        },
+
+
+
     },
-
-    capitalInfo: {
-        latlng: [55.75, 37.6]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Austria",
+    {
+        name: {
+            common: "Austria",
             official: "Republic of Austria",
-                "nativeName": {
-            "bar": {
-                official: "Republik Österreich",
-                    common: "Österreich"
-            }
-        }
-    },
-    "tld": [
-        ".at"
-    ],
-        "cca2": "AT",
-            "ccn3": "040",
-                "cca3": "AUT",
-                    "cioc": "AUT",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: "Euro",
-                                        "idd": {
-        "root": "+4",
-            "suffixes": [
-                "3"
-            ]
-    },
-    capital: [
-        "Vienna"
-    ],
-        "altSpellings": [
-            "AT",
-            "Osterreich",
-            "Oesterreich"
+
+        },
+
+        currencies: "Euro",
+
+        capital: [
+            "Vienna"
         ],
-            region: "Europe",
-                subregion: "Central Europe",
-                    languages: [
-                        "de": "German"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية النمسا",
-                common: "النمسا"
-        },
-        "bre": {
-            official: "Republik Aostria",
-                common: "Aostria"
-        },
-        "ces": {
-            official: "Rakouská republika",
-                common: "Rakousko"
-        },
-        "cym": {
-            official: "Gweriniaeth Awstria",
-                common: "Awstria"
-        },
-        "deu": {
-            official: "Republik Österreich",
-                common: "Österreich"
-        },
-        "est": {
-            official: "Austria Vabariik",
-                common: "Austria"
-        },
-        "fin": {
-            official: "Itävallan tasavalta",
-                common: "Itävalta"
-        },
-        fra: {
-            official: "République d'Autriche",
-                common: "Autriche"
-        },
-        "hrv": {
-            official: "Republika Austrija",
-                common: "Austrija"
-        },
-        "hun": {
-            official: "Ausztria",
-                common: "Ausztria"
-        },
-        "ita": {
-            official: "Repubblica d'Austria",
-                common: "Austria"
-        },
-        "jpn": {
-            official: "オーストリア共和国",
-                common: "オーストリア"
-        },
-        "kor": {
-            official: "오스트리아 공화국",
-                common: "오스트리아"
-        },
-        "nld": {
-            official: "Republiek Oostenrijk",
-                common: "Oostenrijk"
-        },
-        "per": {
-            official: "جمهوری اتریش",
-                common: "اتریش"
-        },
-        "pol": {
-            official: "Republika Austrii",
-                common: "Austria"
-        },
-        "por": {
-            official: "República da Áustria",
-                common: "Áustria"
-        },
-        "rus": {
-            official: "Австрийская Республика",
-                common: "Австрия"
-        },
-        "slk": {
-            official: "Rakúska republika",
-                common: "Rakúsko"
-        },
-        "spa": {
-            official: "República de Austria",
-                common: "Austria"
-        },
-        "srp": {
-            official: "Република Аустрија",
-                common: "Аустрија"
-        },
-        "swe": {
-            official: "Republiken Österrike",
-                common: "Österrike"
-        },
-        "tur": {
-            official: "Avusturya Cumhuriyeti",
-                common: "Avusturya"
-        },
-        "urd": {
-            official: "جمہوریہ آسٹریا",
-                common: "آسٹریا"
-        },
-        "zho": {
-            official: "奥地利共和国",
-                common: "奥地利"
-        }
-    },
-    latlng: [47.33333333, 13.33333333],
+
+        region: "Europe",
+        subregion: "Central Europe",
+        languages: [
+            "German"
+        ],
+
+        latlng: [47.33333333, 13.33333333],
         landlocked: true,
-            "borders": [
-                "CZE",
-                "DEU",
-                "HUN",
-                "ITA",
-                "LIE",
-                "SVK",
-                "SVN",
-                "CHE"
-            ],
-                "area": 83871,
-                    demonyms: {
-        eng: {
-            fem: "Austrian",
+
+        demonyms: {
+            eng: {
+                fem: "Austrian",
                 masc: "Austrian"
-        },
-        fra: {
-            fem: "Autrichienne",
+            },
+            fra: {
+                fem: "Autrichienne",
                 masc: "Autrichien"
-        }
-    },
-    flag: "🇦🇹",
+            }
+        },
+        flag: "🇦🇹",
         maps: {
-        googleMaps: "https://goo.gl/maps/pCWpWQhznHyRzQcu9",
+            googleMaps: "https://goo.gl/maps/pCWpWQhznHyRzQcu9",
             openStreetMaps: "https://www.openstreetmap.org/relation/16239"
-    },
-    population: 8917205,
+        },
+        population: 8917205,
         gini: 30.8,
-        , "fifa": "AUT",
-        "car": {
-        "signs": [
-            "A"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/at.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/at.png",
             svg: "https://flagcdn.com/at.svg",
-                alt: "The flag of Austria is composed of three equal horizontal bands of red, white and red."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/at.png",
+            alt: "The flag of Austria is composed of three equal horizontal bands of red, white and red."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/at.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/at.svg"
+        },
+
+        capitalInfo: {
+            latlng: [48.2, 16.37]
+        },
+
+
+
     },
-
-    capitalInfo: {
-        latlng: [48.2, 16.37]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Cyprus",
+    {
+        name: {
+            common: "Cyprus",
             official: "Republic of Cyprus",
-                "nativeName": {
-            "ell": {
-                official: "Δημοκρατία της Κύπρος",
-                    common: "Κύπρος"
-            },
-            "tur": {
-                official: "Kıbrıs Cumhuriyeti",
-                    common: "Kıbrıs"
-            }
-        }
-    },
-    "tld": [
-        ".cy"
-    ],
-        "cca2": "CY",
-            "ccn3": "196",
-                "cca3": "CYP",
-                    "cioc": "CYP",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: "Euro",
-                                        "idd": {
-        "root": "+3",
-            "suffixes": [
-                "57"
-            ]
-    },
-    capital: [
-        "Nicosia"
-    ],
-        "altSpellings": [
-            "CY",
-            "Kýpros",
-            "Kıbrıs",
-            "Republic of Cyprus",
-            "Κυπριακή Δημοκρατία",
-            "Kıbrıs Cumhuriyeti"
+
+        },
+
+        currencies: "Euro",
+
+        capital: [
+            "Nicosia"
         ],
-            region: "Europe",
-                subregion: "Southern Europe",
-                    languages: [
-                        "ell": "Greek",
-                        "tur": "Turkish"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية قبرص",
-                common: "قبرص"
-        },
-        "bre": {
-            official: "Republik Kiprenez",
-                common: "Kiprenez"
-        },
-        "ces": {
-            official: "Kyperská republika",
-                common: "Kypr"
-        },
-        "cym": {
-            official: "Gweriniaeth Cyprus",
-                common: "Cyprus"
-        },
-        "deu": {
-            official: "Republik Zypern",
-                common: "Zypern"
-        },
-        "est": {
-            official: "Küprose Vabariik",
-                common: "Küpros"
-        },
-        "fin": {
-            official: "Kyproksen tasavalta",
-                common: "Kypros"
-        },
-        fra: {
-            official: "République de Chypre",
-                common: "Chypre"
-        },
-        "hrv": {
-            official: "Republika Cipar",
-                common: "Cipar"
-        },
-        "hun": {
-            official: "Ciprusi Köztársaság",
-                common: "Ciprus"
-        },
-        "ita": {
-            official: "Repubblica di Cipro",
-                common: "Cipro"
-        },
-        "jpn": {
-            official: "キプロス共和国",
-                common: "キプロス"
-        },
-        "kor": {
-            official: "키프로스 공화국",
-                common: "키프로스"
-        },
-        "nld": {
-            official: "Republiek Cyprus",
-                common: "Cyprus"
-        },
-        "per": {
-            official: "جمهوری قبرس",
-                common: "قِبرِس"
-        },
-        "pol": {
-            official: "Republika Cypryjska",
-                common: "Cypr"
-        },
-        "por": {
-            official: "República de Chipre",
-                common: "Chipre"
-        },
-        "rus": {
-            official: "Республика Кипр",
-                common: "Кипр"
-        },
-        "slk": {
-            official: "Cyperská republika",
-                common: "Cyprus"
-        },
-        "spa": {
-            official: "República de Chipre",
-                common: "Chipre"
-        },
-        "srp": {
-            official: "Кипарска Република",
-                common: "Кипар"
-        },
-        "swe": {
-            official: "Republiken Cypern",
-                common: "Cypern"
-        },
-        "tur": {
-            official: "Kıbrıs Cumhuriyeti",
-                common: "Kıbrıs"
-        },
-        "urd": {
-            official: "جمہوریہ قبرص",
-                common: "قبرص"
-        },
-        "zho": {
-            official: "塞浦路斯共和国",
-                common: "塞浦路斯"
-        }
-    },
-    latlng: [35, 33],
+
+        region: "Europe",
+        subregion: "Southern Europe",
+        languages: [
+            "Greek",
+            "Turkish"
+        ],
+
+        latlng: [35, 33],
         landlocked: false,
-            "area": 9251,
-                demonyms: {
-        eng: {
-            fem: "Cypriot",
+        demonyms: {
+            eng: {
+                fem: "Cypriot",
                 masc: "Cypriot"
-        },
-        fra: {
-            fem: "Chypriote",
+            },
+            fra: {
+                fem: "Chypriote",
                 masc: "Chypriote"
-        }
-    },
-    flag: "🇨🇾",
+            }
+        },
+        flag: "🇨🇾",
         maps: {
-        googleMaps: "https://goo.gl/maps/77hPBRdLid8yD5Bm7",
+            googleMaps: "https://goo.gl/maps/77hPBRdLid8yD5Bm7",
             openStreetMaps: "https://www.openstreetmap.org/relation/307787"
-    },
-    population: 1207361,
+        },
+        population: 1207361,
         gini: 32.7,
-        , "fifa": "CYP",
-        "car": {
-        "signs": [
-            "CY"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC+02:00"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/cy.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/cy.png",
             svg: "https://flagcdn.com/cy.svg",
-                alt: "The flag of Cyprus has a white field, at the center of which is a copper-colored silhouette of the Island of Cyprus above two green olive branches crossed at the stem."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/cy.png",
+            alt: "The flag of Cyprus has a white field, at the center of which is a copper-colored silhouette of the Island of Cyprus above two green olive branches crossed at the stem."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/cy.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/cy.svg"
+        },
+
+        capitalInfo: {
+            latlng: [35.17, 33.37]
+        },
+
+
+
     },
-
-    capitalInfo: {
-        latlng: [35.17, 33.37]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Portugal",
+    {
+        name: {
+            common: "Portugal",
             official: "Portuguese Republic",
-                "nativeName": {
-            "por": {
-                official: "República português",
-                    common: "Portugal"
-            }
-        }
-    },
-    "tld": [
-        ".pt"
-    ],
-        "cca2": "PT",
-            "ccn3": "620",
-                "cca3": "PRT",
-                    "cioc": "POR",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: "Euro",
-                                        "idd": {
-        "root": "+3",
-            "suffixes": [
-                "51"
-            ]
-    },
-    capital: [
-        "Lisbon"
-    ],
-        "altSpellings": [
-            "PT",
-            "Portuguesa",
-            "Portuguese Republic",
-            "República Portuguesa"
+
+        },
+
+        currencies: "Euro",
+
+        capital: [
+            "Lisbon"
         ],
-            region: "Europe",
-                subregion: "Southern Europe",
-                    languages: [
-                        "por": "Portuguese"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "الجمهورية البرتغالية",
-                common: "البرتغال"
-        },
-        "bre": {
-            official: "Republik Portugalat",
-                common: "Portugal"
-        },
-        "ces": {
-            official: "Portugalská republika",
-                common: "Portugalsko"
-        },
-        "cym": {
-            official: "Portuguese Republic",
-                common: "Portugal"
-        },
-        "deu": {
-            official: "Portugiesische Republik",
-                common: "Portugal"
-        },
-        "est": {
-            official: "Portugali Vabariik",
-                common: "Portugal"
-        },
-        "fin": {
-            official: "Portugalin tasavalta",
-                common: "Portugali"
-        },
-        fra: {
-            official: "République portugaise",
-                common: "Portugal"
-        },
-        "hrv": {
-            official: "Portugalska Republika",
-                common: "Portugal"
-        },
-        "hun": {
-            official: "Portugál Köztársaság",
-                common: "Portugália"
-        },
-        "ita": {
-            official: "Repubblica portoghese",
-                common: "Portogallo"
-        },
-        "jpn": {
-            official: "ポルトガル共和国",
-                common: "ポルトガル"
-        },
-        "kor": {
-            official: "포르투갈 공화국",
-                common: "포르투갈"
-        },
-        "nld": {
-            official: "Portugese Republiek",
-                common: "Portugal"
-        },
-        "per": {
-            official: "جمهوری پرتغال",
-                common: "پرتغال"
-        },
-        "pol": {
-            official: "Republika Portugalska",
-                common: "Portugalia"
-        },
-        "por": {
-            official: "República português",
-                common: "Portugal"
-        },
-        "rus": {
-            official: "Португальская Республика",
-                common: "Португалия"
-        },
-        "slk": {
-            official: "Portugalská republika",
-                common: "Portugalsko"
-        },
-        "spa": {
-            official: "República Portuguesa",
-                common: "Portugal"
-        },
-        "srp": {
-            official: "Португалска Република",
-                common: "Португал"
-        },
-        "swe": {
-            official: "Republiken Portugal",
-                common: "Portugal"
-        },
-        "tur": {
-            official: "Portekiz Cumhuriyeti",
-                common: "Portekiz"
-        },
-        "urd": {
-            official: "جمہوریہ پرتگال",
-                common: "پرتگال"
-        },
-        "zho": {
-            official: "葡萄牙共和国",
-                common: "葡萄牙"
-        }
-    },
-    latlng: [39.5, -8],
+
+        region: "Europe",
+        subregion: "Southern Europe",
+        languages: [
+            "Portuguese"
+        ],
+
+        latlng: [39.4, -8],
         landlocked: false,
-            "borders": [
-                "ESP"
-            ],
-                "area": 92090,
-                    demonyms: {
-        eng: {
-            fem: "Portuguese",
+
+        demonyms: {
+            eng: {
+                fem: "Portuguese",
                 masc: "Portuguese"
-        },
-        fra: {
-            fem: "Portugaise",
+            },
+            fra: {
+                fem: "Portugaise",
                 masc: "Portugais"
-        }
-    },
-    flag: "🇵🇹",
+            }
+        },
+        flag: "🇵🇹",
         maps: {
-        googleMaps: "https://goo.gl/maps/BaTBSyc4GWMmbAKB8",
+            googleMaps: "https://goo.gl/maps/BaTBSyc4GWMmbAKB8",
             openStreetMaps: "https://www.openstreetmap.org/relation/295480"
-    },
-    population: 10305564,
+        },
+        population: 10305564,
         gini: 33.5,
-        , "fifa": "POR",
-        "car": {
-        "signs": [
-            "P"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC-01:00",
-        "UTC"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/pt.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/pt.png",
             svg: "https://flagcdn.com/pt.svg",
-                alt: "The flag of Portugal is composed of two vertical bands of green and red in the ratio of 2:3, with the coat of arms of Portugal centered over the two-color boundary."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/pt.png",
+            alt: "The flag of Portugal is composed of two vertical bands of green and red in the ratio of 2:3, with the coat of arms of Portugal centered over the two-color boundary."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/pt.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/pt.svg"
+        },
+
+        capitalInfo: {
+            latlng: [38.72, -9.13]
+        },
+
+
     },
-
-    capitalInfo: {
-        latlng: [38.72, -9.13]
-    },
-
-
-},
-{
-    name: {
-        common: "Bosnia and Herzegovina",
+    {
+        name: {
+            common: "Bosnia and Herzegovina",
             official: "Bosnia and Herzegovina",
-                "nativeName": {
-            "bos": {
-                official: "Bosna i Hercegovina",
-                    common: "Bosna i Hercegovina"
-            },
-            "hrv": {
-                official: "Bosna i Hercegovina",
-                    common: "Bosna i Hercegovina"
-            },
-            "srp": {
-                official: "Босна и Херцеговина",
-                    common: "Босна и Херцеговина"
-            }
-        }
-    },
-    "tld": [
-        ".ba"
-    ],
-        "cca2": "BA",
-            "ccn3": "070",
-                "cca3": "BIH",
-                    "cioc": "BIH",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "BAM": {
-            name: "Bosnia and Herzegovina convertible mark",
-                "symbol": "KM"
-        }
-    },
-    "idd": {
-        "root": "+3",
-            "suffixes": [
-                "87"
-            ]
-    },
-    capital: [
-        "Sarajevo"
-    ],
-        "altSpellings": [
-            "BA",
-            "Bosnia-Herzegovina",
-            "Босна и Херцеговина"
+
+        },
+
+        currencies: "Bosnia and Herzegovina convertible mark",
+        capital: [
+            "Sarajevo"
         ],
-            region: "Europe",
-                subregion: "Southeast Europe",
-                    languages: [
-                        "bos": "Bosnian",
-                        "hrv": "Croatian",
-                        "srp": "Serbian"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية البوسنة والهرسك",
-                common: "البوسنة والهرسك"
-        },
-        "bre": {
-            official: "Bosnia-ha-Herzegovina",
-                common: "Bosnia-ha-Herzegovina"
-        },
-        "ces": {
-            official: "Bosna a Hercegovina",
-                common: "Bosna a Hercegovina"
-        },
-        "cym": {
-            official: "Bosnia a Hercegovina",
-                common: "Bosnia a Hercegovina"
-        },
-        "deu": {
-            official: "Bosnien und Herzegowina",
-                common: "Bosnien und Herzegowina"
-        },
-        "est": {
-            official: "Bosnia ja Hertsegoviina",
-                common: "Bosnia ja Hertsegoviina"
-        },
-        "fin": {
-            official: "Bosnia ja Hertsegovina",
-                common: "Bosnia ja Hertsegovina"
-        },
-        fra: {
-            official: "Bosnie-et-Herzégovine",
-                common: "Bosnie-Herzégovine"
-        },
-        "hrv": {
-            official: "Bosna i Hercegovina",
-                common: "Bosna i Hercegovina"
-        },
-        "hun": {
-            official: "Bosznia-Hercegovina",
-                common: "Bosznia-Hercegovina"
-        },
-        "ita": {
-            official: "Bosnia-Erzegovina",
-                common: "Bosnia ed Erzegovina"
-        },
-        "jpn": {
-            official: "ボスニア·ヘルツェゴビナ",
-                common: "ボスニア・ヘルツェゴビナ"
-        },
-        "kor": {
-            official: "보스니아 헤르체고비나",
-                common: "보스니아 헤르체고비나"
-        },
-        "nld": {
-            official: "Bosnië-Herzegovina",
-                common: "Bosnië en Herzegovina"
-        },
-        "per": {
-            official: "بوسنی و هرزگوین",
-                common: "بوسنی و هرزگوین"
-        },
-        "pol": {
-            official: "Bośnia i Hercegowina",
-                common: "Bośnia i Hercegowina"
-        },
-        "por": {
-            official: "Bósnia e Herzegovina",
-                common: "Bósnia e Herzegovina"
-        },
-        "rus": {
-            official: "Босния и Герцеговина",
-                common: "Босния и Герцеговина"
-        },
-        "slk": {
-            official: "Republika Bosny a Hercegoviny",
-                common: "Bosna a Hercegovina"
-        },
-        "spa": {
-            official: "Bosnia y Herzegovina",
-                common: "Bosnia y Herzegovina"
-        },
-        "srp": {
-            official: "Босна и Херцеговина",
-                common: "Босна и Херцеговина"
-        },
-        "swe": {
-            official: "Bosnien och Hercegovina",
-                common: "Bosnien och Hercegovina"
-        },
-        "tur": {
-            official: "Bosna ve Hersek",
-                common: "Bosna-Hersek"
-        },
-        "urd": {
-            official: "بوسنیا و ہرزیگووینا",
-                common: "بوسنیا و ہرزیگووینا"
-        },
-        "zho": {
-            official: "波斯尼亚和黑塞哥维那",
-                common: "波斯尼亚和黑塞哥维那"
-        }
-    },
-    latlng: [44, 18],
+
+        region: "Europe",
+        subregion: "Southeast Europe",
+        languages: [
+            "Bosnian",
+            "Croatian",
+            "Serbian"
+        ],
+
+        latlng: [44, 18],
         landlocked: false,
-            "borders": [
-                "HRV",
-                "MNE",
-                "SRB"
-            ],
-                "area": 51209,
-                    demonyms: {
-        eng: {
-            fem: "Bosnian, Herzegovinian",
+
+        demonyms: {
+            eng: {
+                fem: "Bosnian, Herzegovinian",
                 masc: "Bosnian, Herzegovinian"
-        },
-        fra: {
-            fem: "Bosnienne",
+            },
+            fra: {
+                fem: "Bosnienne",
                 masc: "Bosnien"
-        }
-    },
-    flag: "🇧🇦",
+            }
+        },
+        flag: "🇧🇦",
         maps: {
-        googleMaps: "https://www.google.com/maps/place/Bosnia+and+Herzegovina",
+            googleMaps: "https://www.google.com/maps/place/Bosnia+and+Herzegovina",
             openStreetMaps: "https://www.openstreetmap.org/relation/2528142"
-    },
-    population: 3280815,
+        },
+        population: 3280815,
         gini: 33,
-        , "fifa": "BIH",
-        "car": {
-        "signs": [
-            "BIH"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/ba.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/ba.png",
             svg: "https://flagcdn.com/ba.svg",
-                alt: "The flag of Bosnia and Herzegovina has a blue field, at the center of which is a large yellow hoist-side facing right-angled triangle that is based on the top edge and spans the height of the field. Adjacent to the hypotenuse of this triangle are nine adjoining five-pointed white stars with the top and bottom stars cut in half by the edges of the field."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/ba.png",
+            alt: "The flag of Bosnia and Herzegovina has a blue field, at the center of which is a large yellow hoist-side facing right-angled triangle that is based on the top edge and spans the height of the field. Adjacent to the hypotenuse of this triangle are nine adjoining five-pointed white stars with the top and bottom stars cut in half by the edges of the field."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/ba.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/ba.svg"
+        },
+
+        capitalInfo: {
+            latlng: [43.87, 18.42]
+        },
+
+
+
     },
-
-    capitalInfo: {
-        latlng: [43.87, 18.42]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Belgium",
+    {
+        name: {
+            common: "Belgium",
             official: "Kingdom of Belgium",
-                "nativeName": {
-            "deu": {
-                official: "Königreich Belgien",
-                    common: "Belgien"
-            },
-            fra: {
-                official: "Royaume de Belgique",
-                    common: "Belgique"
-            },
-            "nld": {
-                official: "Koninkrijk België",
-                    common: "België"
-            }
-        }
-    },
-    "tld": [
-        ".be"
-    ],
-        "cca2": "BE",
-            "ccn3": "056",
-                "cca3": "BEL",
-                    "cioc": "BEL",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: "Euro",
-                                        "idd": {
-        "root": "+3",
-            "suffixes": [
-                "2"
-            ]
-    },
-    capital: [
-        "Brussels"
-    ],
-        "altSpellings": [
-            "BE",
-            "België",
-            "Belgie",
-            "Belgien",
-            "Belgique",
-            "Kingdom of Belgium",
-            "Koninkrijk België",
-            "Royaume de Belgique",
-            "Königreich Belgien"
+
+        },
+
+        currencies: "Euro",
+
+        capital: [
+            "Brussels"
         ],
-            region: "Europe",
-                subregion: "Western Europe",
-                    languages: [
-                        "deu": "German",
-                        "French",
-                        "nld": "Dutch"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "مملكة بلجيكا",
-                common: "بلجيكا"
-        },
-        "bre": {
-            official: "Rouantelezh Belgia",
-                common: "Belgia"
-        },
-        "ces": {
-            official: "Belgické království",
-                common: "Belgie"
-        },
-        "cym": {
-            official: "Teyrnas Gwlad Belg",
-                common: "Gwlad Belg"
-        },
-        "deu": {
-            official: "Königreich Belgien",
-                common: "Belgien"
-        },
-        "est": {
-            official: "Belgia Kuningriik",
-                common: "Belgia"
-        },
-        "fin": {
-            official: "Belgian kuningaskunta",
-                common: "Belgia"
-        },
-        fra: {
-            official: "Royaume de Belgique",
-                common: "Belgique"
-        },
-        "hrv": {
-            official: "Kraljevina Belgija",
-                common: "Belgija"
-        },
-        "hun": {
-            official: "Belga Királyság",
-                common: "Belgium"
-        },
-        "ita": {
-            official: "Regno del Belgio",
-                common: "Belgio"
-        },
-        "jpn": {
-            official: "ベルギー王国",
-                common: "ベルギー"
-        },
-        "kor": {
-            official: "벨기에 왕국",
-                common: "벨기에"
-        },
-        "nld": {
-            official: "Koninkrijk België",
-                common: "België"
-        },
-        "per": {
-            official: "پادشاهی بلژیک",
-                common: "بلژیک"
-        },
-        "pol": {
-            official: "Królestwo Belgii",
-                common: "Belgia"
-        },
-        "por": {
-            official: "Reino da Bélgica",
-                common: "Bélgica"
-        },
-        "rus": {
-            official: "Королевство Бельгия",
-                common: "Бельгия"
-        },
-        "slk": {
-            official: "Belgické kráľovstvo",
-                common: "Belgicko"
-        },
-        "spa": {
-            official: "Reino de Bélgica",
-                common: "Bélgica"
-        },
-        "srp": {
-            official: "Краљевина Белгија",
-                common: "Белгија"
-        },
-        "swe": {
-            official: "Konungariket Belgien",
-                common: "Belgien"
-        },
-        "tur": {
-            official: "Belçika Krallığı",
-                common: "Belğika"
-        },
-        "urd": {
-            official: "مملکتِ بلجئیم",
-                common: "بلجئیم"
-        },
-        "zho": {
-            official: "比利时王国",
-                common: "比利时"
-        }
-    },
-    latlng: [50.83333333, 4],
+
+        region: "Europe",
+        subregion: "Western Europe",
+        languages: [
+            "German",
+            "French",
+            "Dutch"
+        ],
+
+        latlng: [50.83333333, 4],
         landlocked: false,
-            "borders": [
-                "FRA",
-                "DEU",
-                "LUX",
-                "NLD"
-            ],
-                "area": 30528,
-                    demonyms: {
-        eng: {
-            fem: "Belgian",
+
+        demonyms: {
+            eng: {
+                fem: "Belgian",
                 masc: "Belgian"
-        },
-        fra: {
-            fem: "Belge",
+            },
+            fra: {
+                fem: "Belge",
                 masc: "Belge"
-        }
-    },
-    flag: "🇧🇪",
+            }
+        },
+        flag: "🇧🇪",
         maps: {
-        googleMaps: "https://goo.gl/maps/UQQzat85TCtPRXAL8",
+            googleMaps: "https://goo.gl/maps/UQQzat85TCtPRXAL8",
             openStreetMaps: "https://www.openstreetmap.org/relation/52411"
-    },
-    population: 11555997,
+        },
+        population: 11555997,
         gini: 27.2,
-        , "fifa": "BEL",
-        "car": {
-        "signs": [
-            "B"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/be.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/be.png",
             svg: "https://flagcdn.com/be.svg",
-                alt: "The flag of Belgium is composed of three equal vertical bands of black, yellow and red."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/be.png",
+            alt: "The flag of Belgium is composed of three equal vertical bands of black, yellow and red."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/be.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/be.svg"
+        },
+
+        capitalInfo: {
+            latlng: [50.83, 4.33]
+        },
+
+
+
     },
-
-    capitalInfo: {
-        latlng: [50.83, 4.33]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Spain",
+    {
+        name: {
+            common: "Spain",
             official: "Kingdom of Spain",
-                "nativeName": {
-            "spa": {
-                official: "Reino de España",
-                    common: "España"
-            }
-        }
-    },
-    "tld": [
-        ".es"
-    ],
-        "cca2": "ES",
-            "ccn3": "724",
-                "cca3": "ESP",
-                    "cioc": "ESP",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: "Euro",
-                                        "idd": {
-        "root": "+3",
-            "suffixes": [
-                "4"
-            ]
-    },
-    capital: [
-        "Madrid"
-    ],
-        "altSpellings": [
-            "ES",
-            "Kingdom of Spain",
-            "Reino de España"
+
+        },
+
+        currencies: "Euro",
+
+        capital: [
+            "Madrid"
         ],
-            region: "Europe",
-                subregion: "Southern Europe",
-                    languages: [
-                        "spa": "Spanish",
-                        "Catalan",
-                        "eus": "Basque",
-                        "glc": "Galician"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "مملكة إسبانيا",
-                common: "إسبانيا"
-        },
-        "bre": {
-            official: "Rouantelezh Spagn",
-                common: "Spagn"
-        },
-        "ces": {
-            official: "Španělské království",
-                common: "Španělsko"
-        },
-        "cym": {
-            official: "Kingdom of Spain",
-                common: "Spain"
-        },
-        "deu": {
-            official: "Königreich Spanien",
-                common: "Spanien"
-        },
-        "est": {
-            official: "Hispaania Kuningriik",
-                common: "Hispaania"
-        },
-        "fin": {
-            official: "Espanjan kuningaskunta",
-                common: "Espanja"
-        },
-        fra: {
-            official: "Royaume d'Espagne",
-                common: "Espagne"
-        },
-        "hrv": {
-            official: "Kraljevina Španjolska",
-                common: "Španjolska"
-        },
-        "hun": {
-            official: "Spanyol Királyság",
-                common: "Spanyolország"
-        },
-        "ita": {
-            official: "Regno di Spagna",
-                common: "Spagna"
-        },
-        "jpn": {
-            official: "スペイン王国",
-                common: "スペイン"
-        },
-        "kor": {
-            official: "에스파냐 왕국",
-                common: "스페인"
-        },
-        "nld": {
-            official: "Koninkrijk Spanje",
-                common: "Spanje"
-        },
-        "per": {
-            official: "پادشاهی اسپانیا",
-                common: "اسپانیا"
-        },
-        "pol": {
-            official: "Królestwo Hiszpanii ",
-                common: "Hiszpania"
-        },
-        "por": {
-            official: "Reino de Espanha",
-                common: "Espanha"
-        },
-        "rus": {
-            official: "Королевство Испания",
-                common: "Испания"
-        },
-        "slk": {
-            official: "Španielske kráľovstvo",
-                common: "Španielsko"
-        },
-        "spa": {
-            official: "Reino de España",
-                common: "España"
-        },
-        "srp": {
-            official: "Краљевина Шпанија",
-                common: "Шпанија"
-        },
-        "swe": {
-            official: "Konungariket Spanien",
-                common: "Spanien"
-        },
-        "tur": {
-            official: "İspanya Krallığı",
-                common: "İspanya"
-        },
-        "urd": {
-            official: "مملکتِ ہسپانیہ",
-                common: "ہسپانیہ"
-        },
-        "zho": {
-            official: "西班牙王国",
-                common: "西班牙"
-        }
-    },
-    latlng: [40, -4],
+
+        region: "Europe",
+        subregion: "Southern Europe",
+        languages: [
+            "Spanish",
+            "Catalan",
+            "Basque",
+            "Galician"
+        ],
+
+        latlng: [40, -4],
         landlocked: false,
-            "borders": [
-                "AND",
-                "FRA",
-                "GIB",
-                "PRT",
-                "MAR"
-            ],
-                "area": 505992,
-                    demonyms: {
-        eng: {
-            fem: "Spanish",
+
+        demonyms: {
+            eng: {
+                fem: "Spanish",
                 masc: "Spanish"
-        },
-        fra: {
-            fem: "Espagnole",
+            },
+            fra: {
+                fem: "Espagnole",
                 masc: "Espagnol"
-        }
-    },
-    flag: "🇪🇸",
+            }
+        },
+        flag: "🇪🇸",
         maps: {
-        googleMaps: "https://goo.gl/maps/138JaXW8EZzRVitY9",
+            googleMaps: "https://goo.gl/maps/138JaXW8EZzRVitY9",
             openStreetMaps: "https://www.openstreetmap.org/relation/1311341"
-    },
-    population: 47351567,
+        },
+        population: 47351567,
         gini: 34.7,
-        , "fifa": "ESP",
-        "car": {
-        "signs": [
-            "E"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC",
-        "UTC+01:00"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/es.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/es.png",
             svg: "https://flagcdn.com/es.svg",
-                alt: "The flag of Spain is composed of three horizontal bands of red, yellow and red, with the yellow band twice the height of the red bands. In the yellow band is the national coat of arms offset slightly towards the hoist side of center."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/es.png",
+            alt: "The flag of Spain is composed of three horizontal bands of red, yellow and red, with the yellow band twice the height of the red bands. In the yellow band is the national coat of arms offset slightly towards the hoist side of center."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/es.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/es.svg"
+        },
+
+        capitalInfo: {
+            latlng: [40.4, -3.68]
+        },
+
+
+
     },
-
-    capitalInfo: {
-        latlng: [40.4, -3.68]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Slovenia",
+    {
+        name: {
+            common: "Slovenia",
             official: "Republic of Slovenia",
-                "nativeName": {
-            "slv": {
-                official: "Republika Slovenija",
-                    common: "Slovenija"
-            }
-        }
-    },
-    "tld": [
-        ".si"
-    ],
-        "cca2": "SI",
-            "ccn3": "705",
-                "cca3": "SVN",
-                    "cioc": "SLO",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: "Euro",
-                                        "idd": {
-        "root": "+3",
-            "suffixes": [
-                "86"
-            ]
-    },
-    capital: [
-        "Ljubljana"
-    ],
-        "altSpellings": [
-            "SI",
-            "Republic of Slovenia",
-            "Republika Slovenija"
+
+        },
+
+        currencies: "Euro",
+
+        capital: [
+            "Ljubljana"
         ],
-            region: "Europe",
-                subregion: "Central Europe",
-                    languages: [
-                        "slv": "Slovene"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية سلوفينيا",
-                common: "سلوفينيا"
-        },
-        "bre": {
-            official: "Republik Slovenia",
-                common: "Slovenia"
-        },
-        "ces": {
-            official: "Slovinská republika",
-                common: "Slovinsko"
-        },
-        "cym": {
-            official: "Republic of Slovenia",
-                common: "Slovenia"
-        },
-        "deu": {
-            official: "Republik Slowenien",
-                common: "Slowenien"
-        },
-        "est": {
-            official: "Sloveenia Vabariik",
-                common: "Sloveenia"
-        },
-        "fin": {
-            official: "Slovenian tasavalta",
-                common: "Slovenia"
-        },
-        fra: {
-            official: "République de Slovénie",
-                common: "Slovénie"
-        },
-        "hrv": {
-            official: "Republika Slovenija",
-                common: "Slovenija"
-        },
-        "hun": {
-            official: "Szlovén Köztársaság",
-                common: "Szlovénia"
-        },
-        "ita": {
-            official: "Repubblica di Slovenia",
-                common: "Slovenia"
-        },
-        "jpn": {
-            official: "スロベニア共和国",
-                common: "スロベニア"
-        },
-        "kor": {
-            official: "슬로베니아 공화국",
-                common: "슬로베니아"
-        },
-        "nld": {
-            official: "Republiek Slovenië",
-                common: "Slovenië"
-        },
-        "per": {
-            official: "جمهوری اسلوونی",
-                common: "اسلوونی"
-        },
-        "pol": {
-            official: "Republika Słowenii",
-                common: "Słowenia"
-        },
-        "por": {
-            official: "República da Eslovénia",
-                common: "Eslovénia"
-        },
-        "rus": {
-            official: "Республика Словения",
-                common: "Словения"
-        },
-        "slk": {
-            official: "Slovinská republika",
-                common: "Slovinsko"
-        },
-        "spa": {
-            official: "República de Eslovenia",
-                common: "Eslovenia"
-        },
-        "srp": {
-            official: "Република Словенија",
-                common: "Словенија"
-        },
-        "swe": {
-            official: "Republiken Slovenien",
-                common: "Slovenien"
-        },
-        "tur": {
-            official: "Slovenya Cumhuriyeti",
-                common: "Slovenya"
-        },
-        "urd": {
-            official: "جمہوریہ سلووینیا",
-                common: "سلووینیا"
-        },
-        "zho": {
-            official: "斯洛文尼亚共和国",
-                common: "斯洛文尼亚"
-        }
-    },
-    latlng: [46.11666666, 14.81666666],
+
+        region: "Europe",
+        subregion: "Central Europe",
+        languages: [
+            "Slovene"
+        ],
+
+        latlng: [46.11666666, 14.81666666],
         landlocked: false,
-            "borders": [
-                "AUT",
-                "HRV",
-                "ITA",
-                "HUN"
-            ],
-                "area": 20273,
-                    demonyms: {
-        eng: {
-            fem: "Slovene",
+
+        demonyms: {
+            eng: {
+                fem: "Slovene",
                 masc: "Slovene"
-        },
-        fra: {
-            fem: "Slovène",
+            },
+            fra: {
+                fem: "Slovène",
                 masc: "Slovène"
-        }
-    },
-    flag: "🇸🇮",
+            }
+        },
+        flag: "🇸🇮",
         maps: {
-        googleMaps: "https://goo.gl/maps/7zgFmswcCJh5L5D49",
+            googleMaps: "https://goo.gl/maps/7zgFmswcCJh5L5D49",
             openStreetMaps: "https://www.openstreetmap.org/relation/218657"
-    },
-    population: 2100126,
+        },
+        population: 2100126,
         gini: 24.6,
-        , "fifa": "SVN",
-        "car": {
-        "signs": [
-            "SLO"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/si.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/si.png",
             svg: "https://flagcdn.com/si.svg",
-                alt: "The flag of Slovenia is composed of three equal horizontal bands of white, blue and red. The national coat of arms is situated in the upper hoist side of the field centered on the boundary between the white and blue bands."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/si.png",
+            alt: "The flag of Slovenia is composed of three equal horizontal bands of white, blue and red. The national coat of arms is situated in the upper hoist side of the field centered on the boundary between the white and blue bands."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/si.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/si.svg"
+        },
+
+        capitalInfo: {
+            latlng: [46.05, 14.52]
+        },
+
+
     },
-
-    capitalInfo: {
-        latlng: [46.05, 14.52]
-    },
-
-
-},
-{
-    name: {
-        common: "San Marino",
+    {
+        name: {
+            common: "San Marino",
             official: "Republic of San Marino",
-                "nativeName": {
-            "ita": {
-                official: "Repubblica di San Marino",
-                    common: "San Marino"
-            }
-        }
-    },
-    "tld": [
-        ".sm"
-    ],
-        "cca2": "SM",
-            "ccn3": "674",
-                "cca3": "SMR",
-                    "cioc": "SMR",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: "Euro",
-                                        "idd": {
-        "root": "+3",
-            "suffixes": [
-                "78"
-            ]
-    },
-    capital: [
-        "City of San Marino"
-    ],
-        "altSpellings": [
-            "SM",
-            "Republic of San Marino",
-            "Repubblica di San Marino"
+
+        },
+
+        currencies: "Euro",
+
+        capital: [
+            "City of San Marino"
         ],
-            region: "Europe",
-                subregion: "Southern Europe",
-                    languages: [
-                        "ita": "Italian"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية سان مارينو",
-                common: "سان مارينو"
-        },
-        "bre": {
-            official: "Republik San Marino",
-                common: "San Marino"
-        },
-        "ces": {
-            official: "Republika San Marino",
-                common: "San Marino"
-        },
-        "cym": {
-            official: "Republic of San Marino",
-                common: "San Marino"
-        },
-        "deu": {
-            official: "Republik San Marino",
-                common: "San Marino"
-        },
-        "est": {
-            official: "San Marino Vabariik",
-                common: "San Marino"
-        },
-        "fin": {
-            official: "San Marinon seesteinen tasavalta",
-                common: "San Marino"
-        },
-        fra: {
-            official: "République de Saint-Marin",
-                common: "Saint-Marin"
-        },
-        "hrv": {
-            official: "Većina Serene Republika San Marino",
-                common: "San Marino"
-        },
-        "hun": {
-            official: "San Marino Köztársaság",
-                common: "San Marino"
-        },
-        "ita": {
-            official: "Serenissima Repubblica di San Marino",
-                common: "San Marino"
-        },
-        "jpn": {
-            official: "サンマリノのほとんどセリーヌ共和国",
-                common: "サンマリノ"
-        },
-        "kor": {
-            official: "산마리노 공화국",
-                common: "산마리노"
-        },
-        "nld": {
-            official: "Meest Serene Republiek San Marino",
-                common: "San Marino"
-        },
-        "per": {
-            official: "جمهوری سان مارینو",
-                common: "سان مارینو"
-        },
-        "pol": {
-            official: "Republika San Marino",
-                common: "San Marino"
-        },
-        "por": {
-            official: "Sereníssima República de San Marino",
-                common: "San Marino"
-        },
-        "rus": {
-            official: "Большинство Serene Республика Сан-Марино",
-                common: "Сан-Марино"
-        },
-        "slk": {
-            official: "Sanmarínska republika",
-                common: "San Maríno"
-        },
-        "spa": {
-            official: "Serenísima República de San Marino",
-                common: "San Marino"
-        },
-        "srp": {
-            official: "Најузвишенија Република Сан Марино",
-                common: "Сан Марино"
-        },
-        "swe": {
-            official: "Republiken San Marino",
-                common: "San Marino"
-        },
-        "tur": {
-            official: "San Marino Cumhuriyeti",
-                common: "San Marino"
-        },
-        "urd": {
-            official: "جمہوریہ سان مارینو",
-                common: "سان مارینو"
-        },
-        "zho": {
-            official: "圣马力诺共和国",
-                common: "圣马力诺"
-        }
-    },
-    latlng: [43.76666666, 12.41666666],
+
+        region: "Europe",
+        subregion: "Southern Europe",
+        languages: [
+            "Italian"
+        ],
+
+        latlng: [43.76666666, 12.41666666],
         landlocked: true,
-            "borders": [
-                "ITA"
-            ],
-                "area": 61,
-                    demonyms: {
-        eng: {
-            fem: "Sammarinese",
+
+        demonyms: {
+            eng: {
+                fem: "Sammarinese",
                 masc: "Sammarinese"
-        },
-        fra: {
-            fem: "Saint-Marinaise",
+            },
+            fra: {
+                fem: "Saint-Marinaise",
                 masc: "Saint-Marinais"
-        }
-    },
-    flag: "🇸🇲",
+            }
+        },
+        flag: "🇸🇲",
         maps: {
-        googleMaps: "https://goo.gl/maps/rxCVJjm8dVY93RPY8",
+            googleMaps: "https://goo.gl/maps/rxCVJjm8dVY93RPY8",
             openStreetMaps: "https://www.openstreetmap.org/relation/54624"
-    },
-    population: 33938,
+        },
+        population: 33938,
         gini: -1,
-            "fifa": "SMR",
-                "car": {
-        "signs": [
-            "RSM"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/sm.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/sm.png",
             svg: "https://flagcdn.com/sm.svg",
-                alt: "The flag of San Marino is composed of two equal horizontal bands of white and light blue, with the national coat of arms superimposed in the center."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/sm.png",
+            alt: "The flag of San Marino is composed of two equal horizontal bands of white and light blue, with the national coat of arms superimposed in the center."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/sm.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/sm.svg"
+        },
+
+        capitalInfo: {
+            latlng: [43.94, 12.45]
+        },
+
+
     },
-
-    capitalInfo: {
-        latlng: [43.94, 12.45]
-    },
-
-
-},
-{
-    name: {
-        common: "Ireland",
+    {
+        name: {
+            common: "Ireland",
             official: "Republic of Ireland",
-                "nativeName": {
-            eng: {
-                official: "Republic of Ireland",
-                    common: "Ireland"
-            },
-            "gle": {
-                official: "Poblacht na hÉireann",
-                    common: "Éire"
-            }
-        }
-    },
-    "tld": [
-        ".ie"
-    ],
-        "cca2": "IE",
-            "ccn3": "372",
-                "cca3": "IRL",
-                    "cioc": "IRL",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: "Euro",
-                                        "idd": {
-        "root": "+3",
-            "suffixes": [
-                "53"
-            ]
-    },
-    capital: [
-        "Dublin"
-    ],
-        "altSpellings": [
-            "IE",
-            "Éire",
-            "Republic of Ireland",
-            "Poblacht na hÉireann"
+
+        },
+
+        currencies: "Euro",
+
+        capital: [
+            "Dublin"
         ],
-            region: "Europe",
-                subregion: "Northern Europe",
-                    languages: [
-                        "English",
-                        "gle": "Irish"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية أيرلندا",
-                common: "أيرلندا"
-        },
-        "bre": {
-            official: "Republik Iwerzhon",
-                common: "Iwerzhon"
-        },
-        "ces": {
-            official: "Irsko",
-                common: "Irsko"
-        },
-        "cym": {
-            official: "Republic of Ireland",
-                common: "Ireland"
-        },
-        "deu": {
-            official: "Republik Irland",
-                common: "Irland"
-        },
-        "est": {
-            official: "Iirimaa",
-                common: "Iirimaa"
-        },
-        "fin": {
-            official: "Irlannin tasavalta",
-                common: "Irlanti"
-        },
-        fra: {
-            official: "République d'Irlande",
-                common: "Irlande"
-        },
-        "hrv": {
-            official: "Republika Irska",
-                common: "Irska"
-        },
-        "hun": {
-            official: "Ír Köztársaság",
-                common: "Írország"
-        },
-        "ita": {
-            official: "Repubblica d'Irlanda",
-                common: "Irlanda"
-        },
-        "jpn": {
-            official: "アイルランド共和国",
-                common: "アイルランド"
-        },
-        "kor": {
-            official: "아일랜드 공화국",
-                common: "아일랜드"
-        },
-        "nld": {
-            official: "Republic of Ireland",
-                common: "Ierland"
-        },
-        "per": {
-            official: "ایرلند",
-                common: "ایرلند"
-        },
-        "pol": {
-            official: "Republika Irlandii",
-                common: "Irlandia"
-        },
-        "por": {
-            official: "República da Irlanda",
-                common: "Irlanda"
-        },
-        "rus": {
-            official: "Ирландия",
-                common: "Ирландия"
-        },
-        "slk": {
-            official: "Írska republika",
-                common: "Írsko"
-        },
-        "spa": {
-            official: "República de Irlanda",
-                common: "Irlanda"
-        },
-        "srp": {
-            official: "Република Ирска",
-                common: "Ирска"
-        },
-        "swe": {
-            official: "Irland",
-                common: "Irland"
-        },
-        "tur": {
-            official: "İrlanda Cumhuriyeti",
-                common: "İrlanda"
-        },
-        "urd": {
-            official: "جمہوریہ جزیرہ آئرلینڈ",
-                common: "جزیرہ آئرلینڈ"
-        },
-        "zho": {
-            official: "爱尔兰共和国",
-                common: "爱尔兰"
-        }
-    },
-    latlng: [53, -8],
+
+        region: "Europe",
+        subregion: "Northern Europe",
+        languages: [
+            "English",
+            "Irish"
+        ],
+
+        latlng: [53, -8],
         landlocked: false,
-            "borders": [
-                "GBR"
-            ],
-                "area": 70273,
-                    demonyms: {
-        eng: {
-            fem: "Irish",
+
+        demonyms: {
+            eng: {
+                fem: "Irish",
                 masc: "Irish"
-        },
-        fra: {
-            fem: "Irlandaise",
+            },
+            fra: {
+                fem: "Irlandaise",
                 masc: "Irlandais"
-        }
-    },
-    flag: "🇮🇪",
+            }
+        },
+        flag: "🇮🇪",
         maps: {
-        googleMaps: "https://goo.gl/maps/hxd1BKxgpchStzQC6",
+            googleMaps: "https://goo.gl/maps/hxd1BKxgpchStzQC6",
             openStreetMaps: "https://www.openstreetmap.org/relation/62273"
-    },
-    population: 4994724,
+        },
+        population: 4994724,
         gini: 31.4,
-        , "fifa": "IRL",
-        "car": {
-        "signs": [
-            "IRL"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC"
-    ],
-        "continents": [
-            "Europe"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/ie.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/ie.png",
             svg: "https://flagcdn.com/ie.svg",
-                alt: "The flag of Ireland is composed of three equal vertical bands of green, white and orange."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/ie.png",
+            alt: "The flag of Ireland is composed of three equal vertical bands of green, white and orange."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/ie.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/ie.svg"
-    },
-
-    capitalInfo: {
-        latlng: [53.32, -6.23]
-    }
-},
-
-{
-    name: {
-        common: "Lesotho",
-            official: "Kingdom of Lesotho",
-                "nativeName": {
-            eng: {
-                official: "Kingdom of Lesotho",
-                    common: "Lesotho"
-            },
-            "sot": {
-                official: "Kingdom of Lesotho",
-                    common: "Lesotho"
-            }
-        }
-    },
-    "tld": [
-        ".ls"
-    ],
-        "cca2": "LS",
-            "ccn3": "426",
-                "cca3": "LSO",
-                    "cioc": "LES",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "LSL": {
-            name: "Lesotho loti",
-                "symbol": "L"
         },
-        "ZAR": {
-            name: "South African rand",
-                "symbol": "R"
+
+        capitalInfo: {
+            latlng: [53.32, -6.23]
         }
     },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "66"
-            ]
-    },
-    capital: [
-        "Maseru"
-    ],
-        "altSpellings": [
-            "LS",
-            "Kingdom of Lesotho",
-            "Muso oa Lesotho"
+
+    {
+        name: {
+            common: "Lesotho",
+            official: "Kingdom of Lesotho",
+
+        },
+
+        currencies: "South African rand",
+        capital: [
+            "Maseru"
         ],
-            region: "Africa",
-                subregion: "Southern Africa",
-                    languages: [
-                        "English",
-                        "sot": "Sotho"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "مملكة ليسوتو",
-                common: "ليسوتو"
-        },
-        "bre": {
-            official: "Rouantelezh Lesotho",
-                common: "Lesotho"
-        },
-        "ces": {
-            official: "Lesothské království",
-                common: "Lesotho"
-        },
-        "cym": {
-            official: "Kingdom of Lesotho",
-                common: "Lesotho"
-        },
-        "deu": {
-            official: "Königreich Lesotho",
-                common: "Lesotho"
-        },
-        "est": {
-            official: "Lesotho Kuningriik",
-                common: "Lesotho"
-        },
-        "fin": {
-            official: "Lesothon kuningaskunta",
-                common: "Lesotho"
-        },
-        fra: {
-            official: "Royaume du Lesotho",
-                common: "Lesotho"
-        },
-        "hrv": {
-            official: "Kraljevina Lesoto",
-                common: "Lesoto"
-        },
-        "hun": {
-            official: "Lesothói Királyság",
-                common: "Lesotho"
-        },
-        "ita": {
-            official: "Regno del Lesotho",
-                common: "Lesotho"
-        },
-        "jpn": {
-            official: "レソト王国",
-                common: "レソト"
-        },
-        "kor": {
-            official: "레소토 왕국",
-                common: "레소토"
-        },
-        "nld": {
-            official: "Koninkrijk Lesotho",
-                common: "Lesotho"
-        },
-        "per": {
-            official: "پادشاهی لسوتو",
-                common: "لسوتو"
-        },
-        "pol": {
-            official: "Królestwo Lesotho",
-                common: "Lesotho"
-        },
-        "por": {
-            official: "Reino do Lesoto",
-                common: "Lesoto"
-        },
-        "rus": {
-            official: "Королевство Лесото",
-                common: "Лесото"
-        },
-        "slk": {
-            official: "Lesothské kráľovstvo",
-                common: "Lesotho"
-        },
-        "spa": {
-            official: "Reino de Lesotho",
-                common: "Lesotho"
-        },
-        "srp": {
-            official: "Краљевина Лесото",
-                common: "Лесото"
-        },
-        "swe": {
-            official: "Konungariket Lesotho",
-                common: "Lesotho"
-        },
-        "tur": {
-            official: "Lesotho Krallığı",
-                common: "Lesotho"
-        },
-        "urd": {
-            official: "مملکتِ لیسوتھو",
-                common: "لیسوتھو"
-        },
-        "zho": {
-            official: "莱索托王国",
-                common: "莱索托"
-        }
-    },
-    latlng: [-29.5, 28.5],
+
+        region: "Africa",
+        subregion: "Southern Africa",
+        languages: [
+            "English",
+            "Sotho"
+        ],
+
+        latlng: [-29.4, 28.6],
         landlocked: true,
-            "borders": [
-                "ZAF"
-            ],
-                "area": 30355,
-                    demonyms: {
-        eng: {
-            fem: "Mosotho",
+
+        demonyms: {
+            eng: {
+                fem: "Mosotho",
                 masc: "Mosotho"
-        },
-        fra: {
-            fem: "Lésothienne",
+            },
+            fra: {
+                fem: "Lésothienne",
                 masc: "Lésothien"
-        }
-    },
-    flag: "🇱🇸",
+            }
+        },
+        flag: "🇱🇸",
         maps: {
-        googleMaps: "https://goo.gl/maps/H8gJi5mL4Cmd1SF28",
+            googleMaps: "https://goo.gl/maps/H8gJi5mL4Cmd1SF28",
             openStreetMaps: "https://www.openstreetmap.org/relation/2093234"
-    },
-    population: 2142252,
+        },
+        population: 2142252,
         gini: 44.9,
-        , "fifa": "LES",
-        "car": {
-        "signs": [
-            "LS"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC+02:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/ls.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/ls.png",
             svg: "https://flagcdn.com/ls.svg",
-                alt: "The flag of Lesotho is composed of three horizontal bands of blue, white and green in the ratio of 3:4:3. A black mokorotlo — a Basotho hat — is centered in the white band."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/ls.png",
+            alt: "The flag of Lesotho is composed of three horizontal bands of blue, white and green in the ratio of 3:4:3. A black mokorotlo — a Basotho hat — is centered in the white band."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/ls.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/ls.svg"
+        },
+
+        capitalInfo: {
+            latlng: [-29.32, 27.48]
+        },
+
+
+
     },
-
-    capitalInfo: {
-        latlng: [-29.32, 27.48]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Central African Republic",
+    {
+        name: {
+            common: "Central African Republic",
             official: "Central African Republic",
-                "nativeName": {
-            fra: {
-                official: "République centrafricaine",
-                    common: "République centrafricaine"
-            },
-            "sag": {
-                official: "Ködörösêse tî Bêafrîka",
-                    common: "Bêafrîka"
-            }
-        }
-    },
-    "tld": [
-        ".cf"
-    ],
-        "cca2": "CF",
-            "ccn3": "140",
-                "cca3": "CAF",
-                    "cioc": "CAF",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "XAF": {
-            name: "Central African CFA franc",
-                "symbol": "Fr"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "36"
-            ]
-    },
-    capital: [
-        "Bangui"
-    ],
-        "altSpellings": [
-            "CF",
-            "Central African Republic",
-            "République centrafricaine"
+
+        },
+
+        currencies: "Central African CFA franc",
+
+        capital: [
+            "Bangui"
         ],
-            region: "Africa",
-                subregion: "Middle Africa",
-                    languages: [
-                        "French",
-                        "sag": "Sango"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية أفريقيا الوسطى",
-                common: "جمهورية أفريقيا الوسطى"
-        },
-        "bre": {
-            official: "Republik Kreizafrikan",
-                common: "Republik Kreizafrikan"
-        },
-        "ces": {
-            official: "Středoafrická republika",
-                common: "Středoafrická republika"
-        },
-        "cym": {
-            official: "Gweriniaeth Canolbarth Affrica",
-                common: "Gweriniaeth Canolbarth Affrica"
-        },
-        "deu": {
-            official: "Zentralafrikanische Republik",
-                common: "Zentralafrikanische Republik"
-        },
-        "est": {
-            official: "Kesk-Aafrika Vabariik",
-                common: "Kesk-Aafrika Vabariik"
-        },
-        "fin": {
-            official: "Keski-Afrikan tasavalta",
-                common: "Keski-Afrikan tasavalta"
-        },
-        fra: {
-            official: "République centrafricaine",
-                common: "République centrafricaine"
-        },
-        "hrv": {
-            official: "Centralna Afrička Republika",
-                common: "Srednjoafrička Republika"
-        },
-        "hun": {
-            official: "Közép-afrikai Köztársaság",
-                common: "Közép-afrikai Köztársaság"
-        },
-        "ita": {
-            official: "Repubblica Centrafricana",
-                common: "Repubblica Centrafricana"
-        },
-        "jpn": {
-            official: "中央アフリカ共和国",
-                common: "中央アフリカ共和国"
-        },
-        "kor": {
-            official: "중앙아프리카 공화국",
-                common: "중앙아프리카 공화국"
-        },
-        "nld": {
-            official: "Centraal-Afrikaanse Republiek",
-                common: "Centraal-Afrikaanse Republiek"
-        },
-        "per": {
-            official: "جمهوری آفریقای مرکزی",
-                common: "جمهوری آفریقای مرکزی"
-        },
-        "pol": {
-            official: "Republika Środkowoafrykańska",
-                common: "Republika Środkowoafrykańska"
-        },
-        "por": {
-            official: "República Centro-Africano",
-                common: "República Centro-Africana"
-        },
-        "rus": {
-            official: "Центрально-Африканская Республика",
-                common: "Центральноафриканская Республика"
-        },
-        "slk": {
-            official: "Stredoafrická republika",
-                common: "Stredoafrická republika"
-        },
-        "spa": {
-            official: "República Centroafricana",
-                common: "República Centroafricana"
-        },
-        "srp": {
-            official: "Централноафричка Република",
-                common: "Централноафричка Република"
-        },
-        "swe": {
-            official: "Centralafrikanska republiken",
-                common: "Centralafrikanska republiken"
-        },
-        "tur": {
-            official: "Orta Afrika Cumhuriyeti",
-                common: "Orta Afrika Cumhuriyeti"
-        },
-        "urd": {
-            official: "وسطی افریقی جمہوریہ",
-                common: "وسطی افریقی جمہوریہ"
-        },
-        "zho": {
-            official: "中非共和国",
-                common: "中非共和国"
-        }
-    },
-    latlng: [7, 21],
+
+        region: "Africa",
+        subregion: "Middle Africa",
+        languages: [
+            "French",
+            "Sango"
+        ],
+
+        latlng: [7, 21],
         landlocked: true,
-            "borders": [
-                "CMR",
-                "TCD",
-                "COD",
-                "COG",
-                "SSD",
-                "SDN"
-            ],
-                "area": 622984,
-                    demonyms: {
-        eng: {
-            fem: "Central African",
-                masc: "Central African"
-        },
-        fra: {
-            fem: "Centrafricaine",
-                masc: "Centrafricain"
-        }
-    },
-    flag: "🇨🇫",
-        maps: {
-        googleMaps: "https://goo.gl/maps/51V8dsi2rGYC9n3c9",
-            openStreetMaps: "https://www.openstreetmap.org/relation/192790"
-    },
-    population: 4829764,
-        gini: 56.2,
-        , "fifa": "CTA",
-        "car": {
-        "signs": [
-            "RCA"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/cf.png",
-            svg: "https://flagcdn.com/cf.svg",
-                alt: "The flag of Central African Republic is composed of four equal horizontal bands of blue, white, green and yellow intersected at the center by a vertical red band of equal size as the horizontal bands. A yellow five-pointed star is situated on the hoist side of the blue band."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/cf.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/cf.svg"
-    },
 
-    capitalInfo: {
-        latlng: [4.37, 18.58]
-    }
-},
-{
-    name: {
-        common: "Morocco",
-            official: "Kingdom of Morocco",
-                "nativeName": {
-            "ara": {
-                official: "المملكة المغربية",
-                    common: "المغرب"
-            },
-            "ber": {
-                official: "ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ",
-                    common: "ⵍⵎⴰⵖⵔⵉⴱ"
-            }
-        }
-    },
-    "tld": [
-        ".ma",
-        "المغرب."
-    ],
-        "cca2": "MA",
-            "ccn3": "504",
-                "cca3": "MAR",
-                    "cioc": "MAR",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "MAD": {
-            name: "Moroccan dirham",
-                "symbol": "د.م."
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "12"
-            ]
-    },
-    capital: [
-        "Rabat"
-    ],
-        "altSpellings": [
-            "MA",
-            "Kingdom of Morocco",
-            "Al-Mamlakah al-Maġribiyah"
-        ],
-            region: "Africa",
-                subregion: "Northern Africa",
-                    languages: [
-                        "Arabic",
-                        "ber": "Berber"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "المملكة المغربية",
-                common: "المغرب"
-        },
-        "bre": {
-            official: "Rouantelezh Maroko",
-                common: "Maroko"
-        },
-        "ces": {
-            official: "Marocké království",
-                common: "Maroko"
-        },
-        "cym": {
-            official: "Kingdom of Morocco",
-                common: "Morocco"
-        },
-        "deu": {
-            official: "Königreich Marokko",
-                common: "Marokko"
-        },
-        "est": {
-            official: "Maroko Kuningriik",
-                common: "Maroko"
-        },
-        "fin": {
-            official: "Marokon kuningaskunta",
-                common: "Marokko"
-        },
-        fra: {
-            official: "Royaume du Maroc",
-                common: "Maroc"
-        },
-        "hrv": {
-            official: "Kraljevina Maroko",
-                common: "Maroko"
-        },
-        "hun": {
-            official: "Marokkói Királyság",
-                common: "Marokkó"
-        },
-        "ita": {
-            official: "Regno del Marocco",
-                common: "Marocco"
-        },
-        "jpn": {
-            official: "モロッコ王国",
-                common: "モロッコ"
-        },
-        "kor": {
-            official: "모로코 왕국",
-                common: "모로코"
-        },
-        "nld": {
-            official: "Koninkrijk Marokko",
-                common: "Marokko"
-        },
-        "per": {
-            official: "پادشاهی مراکش",
-                common: "مراکش"
-        },
-        "pol": {
-            official: "Królestwo Marokańskie",
-                common: "Maroko"
-        },
-        "por": {
-            official: "Reino de Marrocos",
-                common: "Marrocos"
-        },
-        "rus": {
-            official: "Королевство Марокко",
-                common: "Марокко"
-        },
-        "slk": {
-            official: "Marocké kniežatstvo",
-                common: "Maroko"
-        },
-        "spa": {
-            official: "Reino de Marruecos",
-                common: "Marruecos"
-        },
-        "srp": {
-            official: "Краљевина Мароко",
-                common: "Мароко"
-        },
-        "swe": {
-            official: "Konungariket Marocko",
-                common: "Marocko"
-        },
-        "tur": {
-            official: "Fas Krallığı",
-                common: "Fas"
-        },
-        "urd": {
-            official: "مملکتِ مراکش",
-                common: "مراکش"
-        },
-        "zho": {
-            official: "摩洛哥王国",
-                common: "摩洛哥"
-        }
-    },
-    latlng: [32, -5],
-        landlocked: false,
-            "borders": [
-                "DZA",
-                "ESH",
-                "ESP"
-            ],
-                "area": 446550,
-                    demonyms: {
-        eng: {
-            fem: "Moroccan",
-                masc: "Moroccan"
-        },
-        fra: {
-            fem: "Marocaine",
-                masc: "Marocain"
-        }
-    },
-    flag: "🇲🇦",
-        maps: {
-        googleMaps: "https://goo.gl/maps/6oMv3dyBZg3iaXQ5A",
-            openStreetMaps: "https://www.openstreetmap.org/relation/3630439"
-    },
-    population: 36910558,
-        gini: 39.5,
-        , "fifa": "MAR",
-        "car": {
-        "signs": [
-            "MA"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC"
-    ],
-        "continents": [
-            "Africa"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/ma.png",
-            svg: "https://flagcdn.com/ma.svg",
-                alt: "The flag of Morocco features a green pentagram — a five-pointed linear star — centered on a red field."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/ma.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/ma.svg"
-    },
-
-    capitalInfo: {
-        latlng: [34.02, -6.82]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Sierra Leone",
-            official: "Republic of Sierra Leone",
-                "nativeName": {
+        demonyms: {
             eng: {
-                official: "Republic of Sierra Leone",
-                    common: "Sierra Leone"
-            }
-        }
-    },
-    "tld": [
-        ".sl"
-    ],
-        "cca2": "SL",
-            "ccn3": "694",
-                "cca3": "SLE",
-                    "cioc": "SLE",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "SLL": {
-            name: "Sierra Leonean leone",
-                "symbol": "Le"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "32"
-            ]
-    },
-    capital: [
-        "Freetown"
-    ],
-        "altSpellings": [
-            "SL",
-            "Republic of Sierra Leone"
-        ],
-            region: "Africa",
-                subregion: "Western Africa",
-                    languages: [
-                        "English"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية سيراليون",
-                common: "سيراليون"
-        },
-        "bre": {
-            official: "Republik Sierra Leone",
-                common: "Sierra Leone"
-        },
-        "ces": {
-            official: "Republika Sierra Leone",
-                common: "Sierra Leone"
-        },
-        "cym": {
-            official: "Republic of Sierra Leone",
-                common: "Sierra Leone"
-        },
-        "deu": {
-            official: "Republik Sierra Leone",
-                common: "Sierra Leone"
-        },
-        "est": {
-            official: "Sierra Leone Vabariik",
-                common: "Sierra Leone"
-        },
-        "fin": {
-            official: "Sierra Leonen tasavalta",
-                common: "Sierra Leone"
-        },
-        fra: {
-            official: "République de Sierra Leone",
-                common: "Sierra Leone"
-        },
-        "hrv": {
-            official: "Republika Sijera Leone",
-                common: "Sijera Leone"
-        },
-        "hun": {
-            official: "Sierra Leone Köztársaság",
-                common: "Sierra Leone"
-        },
-        "ita": {
-            official: "Repubblica della Sierra Leone",
-                common: "Sierra Leone"
-        },
-        "jpn": {
-            official: "シエラレオネ共和国",
-                common: "シエラレオネ"
-        },
-        "kor": {
-            official: "시에라리온 공화국",
-                common: "시에라리온"
-        },
-        "nld": {
-            official: "Republiek Sierra Leone",
-                common: "Sierra Leone"
-        },
-        "per": {
-            official: "جمهوری سیرالئون",
-                common: "سیرالئون"
-        },
-        "pol": {
-            official: "Sierra Leone",
-                common: "Sierra Leone"
-        },
-        "por": {
-            official: "República da Serra Leoa",
-                common: "Serra Leoa"
-        },
-        "rus": {
-            official: "Республика Сьерра-Леоне",
-                common: "Сьерра-Леоне"
-        },
-        "slk": {
-            official: "Sierraleonská republika",
-                common: "Sierra Leone"
-        },
-        "spa": {
-            official: "República de Sierra Leona",
-                common: "Sierra Leone"
-        },
-        "srp": {
-            official: "Република Сијера Леоне",
-                common: "Сијера Леоне"
-        },
-        "swe": {
-            official: "Republiken Sierra Leone",
-                common: "Sierra Leone"
-        },
-        "tur": {
-            official: "Sierra Leone Cumhuriyeti",
-                common: "Sierra Leone"
-        },
-        "urd": {
-            official: "جمہوریہ سیرالیون",
-                common: "سیرالیون"
-        },
-        "zho": {
-            official: "塞拉利昂共和国",
-                common: "塞拉利昂"
-        }
-    },
-    latlng: [8.5, -11.5],
-        landlocked: false,
-            "borders": [
-                "GIN",
-                "LBR"
-            ],
-                "area": 71740,
-                    demonyms: {
-        eng: {
-            fem: "Sierra Leonean",
-                masc: "Sierra Leonean"
-        },
-        fra: {
-            fem: "Sierra-leonaise",
-                masc: "Sierra-leonais"
-        }
-    },
-    flag: "🇸🇱",
-        maps: {
-        googleMaps: "https://goo.gl/maps/jhacar85oq9QaeKB7",
-            openStreetMaps: "https://www.openstreetmap.org/relation/192777"
-    },
-    population: 7976985,
-        gini: 35.7,
-        , "fifa": "SLE",
-        "car": {
-        "signs": [
-            "WAL"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC"
-    ],
-        "continents": [
-            "Africa"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/sl.png",
-            svg: "https://flagcdn.com/sl.svg",
-                alt: "The flag of Sierra Leone is composed of three equal horizontal bands of green, white and blue."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/sl.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/sl.svg"
-    },
-
-    capitalInfo: {
-        latlng: [8.48, -13.23]
-    }
-},
-{
-    name: {
-        common: "Burkina Faso",
-            official: "Burkina Faso",
-                "nativeName": {
+                fem: "Central African",
+                masc: "Central African"
+            },
             fra: {
-                official: "République du Burkina",
-                    common: "Burkina Faso"
+                fem: "Centrafricaine",
+                masc: "Centrafricain"
             }
+        },
+        flag: "🇨🇫",
+        maps: {
+            googleMaps: "https://goo.gl/maps/51V8dsi2rGYC9n3c9",
+            openStreetMaps: "https://www.openstreetmap.org/relation/192790"
+        },
+        population: 4829764,
+        gini: 56.2,
+
+        flags: {
+            png: "https://flagcdn.com/w320/cf.png",
+            svg: "https://flagcdn.com/cf.svg",
+            alt: "The flag of Central African Republic is composed of four equal horizontal bands of blue, white, green and yellow intersected at the center by a vertical red band of equal size as the horizontal bands. A yellow five-pointed star is situated on the hoist side of the blue band."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/cf.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/cf.svg"
+        },
+
+        capitalInfo: {
+            latlng: [4.37, 18.58]
         }
     },
-    "tld": [
-        ".bf"
-    ],
-        "cca2": "BF",
-            "ccn3": "854",
-                "cca3": "BFA",
-                    "cioc": "BUR",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "XOF": {
-            name: "West African CFA franc",
-                "symbol": "Fr"
-        }
+    {
+        name: {
+            common: "Morocco",
+            official: "Kingdom of Morocco",
+
+        },
+
+        currencies: "Moroccan dirham",
+        capital: [
+            "Rabat"
+        ],
+
+        region: "Africa",
+        subregion: "Northern Africa",
+        languages: [
+            "Arabic",
+            "Berber"
+        ],
+
+        latlng: [32, -5],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Moroccan",
+                masc: "Moroccan"
+            },
+            fra: {
+                fem: "Marocaine",
+                masc: "Marocain"
+            }
+        },
+        flag: "🇲🇦",
+        maps: {
+            googleMaps: "https://goo.gl/maps/6oMv3dyBZg3iaXQ5A",
+            openStreetMaps: "https://www.openstreetmap.org/relation/3630439"
+        },
+        population: 36910558,
+        gini: 39.5,
+
+        flags: {
+            png: "https://flagcdn.com/w320/ma.png",
+            svg: "https://flagcdn.com/ma.svg",
+            alt: "The flag of Morocco features a green pentagram — a five-pointed linear star — centered on a red field."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/ma.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/ma.svg"
+        },
+
+        capitalInfo: {
+            latlng: [34.02, -6.82]
+        },
+
+
+
     },
-    "idd": {
-        "root": "+2",
+    {
+        name: {
+            common: "Sierra Leone",
+            official: "Republic of Sierra Leone",
+
+        },
+
+        currencies: "Sierra Leonean leone",
+        capital: [
+            "Freetown"
+        ],
+
+        region: "Africa",
+        subregion: "Western Africa",
+        languages: [
+            "English"
+        ],
+
+        latlng: [8.4, -11.6],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Sierra Leonean",
+                masc: "Sierra Leonean"
+            },
+            fra: {
+                fem: "Sierra-leonaise",
+                masc: "Sierra-leonais"
+            }
+        },
+        flag: "🇸🇱",
+        maps: {
+            googleMaps: "https://goo.gl/maps/jhacar85oq9QaeKB7",
+            openStreetMaps: "https://www.openstreetmap.org/relation/192777"
+        },
+        population: 7976985,
+        gini: 35.7,
+
+        flags: {
+            png: "https://flagcdn.com/w320/sl.png",
+            svg: "https://flagcdn.com/sl.svg",
+            alt: "The flag of Sierra Leone is composed of three equal horizontal bands of green, white and blue."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/sl.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/sl.svg"
+        },
+
+        capitalInfo: {
+            latlng: [8.48, -13.23]
+        }
+    }/*,
+    {
+        name: {
+            common: "Burkina Faso",
+            official: "Burkina Faso",
+
+        },
+
+        currencies: "West African CFA franc",
+        "idd": {
+            "root": "+2",
             "suffixes": [
                 "26"
             ]
-    },
-    capital: [
-        "Ouagadougou"
-    ],
+        },
+        capital: [
+            "Ouagadougou"
+        ],
         "altSpellings": [
             "BF"
         ],
-            region: "Africa",
-                subregion: "Western Africa",
-                    languages: [
-                        "French"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "بوركينا فاسو",
+        region: "Africa",
+        subregion: "Western Africa",
+        languages: [
+            "French"
+        ],
+        "translations": {
+            "ara": {
+                official: "بوركينا فاسو",
                 common: "بوركينا فاسو"
-        },
-        "bre": {
-            official: "Burkina Faso",
+            },
+            "bre": {
+                official: "Burkina Faso",
                 common: "Burkina Faso"
-        },
-        "ces": {
-            official: "Burkina Faso",
+            },
+            "ces": {
+                official: "Burkina Faso",
                 common: "Burkina Faso"
-        },
-        "cym": {
-            official: "Bwrcina Ffaso",
+            },
+            "cym": {
+                official: "Bwrcina Ffaso",
                 common: "Bwrcina Ffaso"
-        },
-        "deu": {
-            official: "Burkina Faso",
+            },
+            "deu": {
+                official: "Burkina Faso",
                 common: "Burkina Faso"
-        },
-        "est": {
-            official: "Burkina Faso",
+            },
+            "est": {
+                official: "Burkina Faso",
                 common: "Burkina Faso"
-        },
-        "fin": {
-            official: "Burkina Faso",
+            },
+            "fin": {
+                official: "Burkina Faso",
                 common: "Burkina Faso"
-        },
-        fra: {
-            official: "République du Burkina",
+            },
+            fra: {
+                official: "République du Burkina",
                 common: "Burkina Faso"
-        },
-        "hrv": {
-            official: "Burkina Faso",
+            },
+            "hrv": {
+                official: "Burkina Faso",
                 common: "Burkina Faso"
-        },
-        "hun": {
-            official: "Burkina Faso",
+            },
+            "hun": {
+                official: "Burkina Faso",
                 common: "Burkina"
-        },
-        "ita": {
-            official: "Burkina Faso",
+            },
+            "ita": {
+                official: "Burkina Faso",
                 common: "Burkina Faso"
-        },
-        "jpn": {
-            official: "ブルキナファソ",
+            },
+            "jpn": {
+                official: "ブルキナファソ",
                 common: "ブルキナファソ"
-        },
-        "kor": {
-            official: "부르키나파소",
+            },
+            "kor": {
+                official: "부르키나파소",
                 common: "부르키나파소"
-        },
-        "nld": {
-            official: "Burkina Faso",
+            },
+            "nld": {
+                official: "Burkina Faso",
                 common: "Burkina Faso"
-        },
-        "per": {
-            official: "بورکینافاسو",
+            },
+            "per": {
+                official: "بورکینافاسو",
                 common: "بورکینافاسو"
-        },
-        "pol": {
-            official: "Burkina Faso",
+            },
+            "pol": {
+                official: "Burkina Faso",
                 common: "Burkina Faso"
-        },
-        "por": {
-            official: "Burkina Faso",
+            },
+            "por": {
+                official: "Burkina Faso",
                 common: "Burkina Faso"
-        },
-        "rus": {
-            official: "Буркина -Фасо",
+            },
+            "rus": {
+                official: "Буркина -Фасо",
                 common: "Буркина-Фасо"
-        },
-        "slk": {
-            official: "Burkina Faso",
+            },
+            "slk": {
+                official: "Burkina Faso",
                 common: "Burkina Faso"
-        },
-        "spa": {
-            official: "Burkina Faso",
+            },
+            "spa": {
+                official: "Burkina Faso",
                 common: "Burkina Faso"
-        },
-        "srp": {
-            official: "Буркина Фасо",
+            },
+            "srp": {
+                official: "Буркина Фасо",
                 common: "Буркина Фасо"
-        },
-        "swe": {
-            official: "Burkina Faso",
+            },
+            "swe": {
+                official: "Burkina Faso",
                 common: "Burkina Faso"
-        },
-        "tur": {
-            official: "Burkina Faso",
+            },
+            "tur": {
+                official: "Burkina Faso",
                 common: "Burkina Faso"
-        },
-        "urd": {
-            official: "برکینا فاسو",
+            },
+            "urd": {
+                official: "برکینا فاسو",
                 common: "برکینا فاسو"
-        },
-        "zho": {
-            official: "布基纳法索",
+            },
+            "zho": {
+                official: "布基纳法索",
                 common: "布基纳法索"
-        }
-    },
-    latlng: [13, -2],
-        landlocked: true,
-            "borders": [
-                "BEN",
-                "CIV",
-                "GHA",
-                "MLI",
-                "NER",
-                "TGO"
-            ],
-                "area": 272967,
-                    demonyms: {
-        eng: {
-            fem: "Burkinabe",
-                masc: "Burkinabe"
+            }
         },
-        fra: {
-            fem: "Burkinabée",
+        latlng: [13, -2],
+        landlocked: true,
+        "borders": [
+            "BEN",
+            "CIV",
+            "GHA",
+            "MLI",
+            "NER",
+            "TGO"
+        ],
+        "area": 272967,
+        demonyms: {
+            eng: {
+                fem: "Burkinabe",
+                masc: "Burkinabe"
+            },
+            fra: {
+                fem: "Burkinabée",
                 masc: "Burkinabé"
-        }
-    },
-    flag: "🇧🇫",
+            }
+        },
+        flag: "🇧🇫",
         maps: {
-        googleMaps: "https://goo.gl/maps/rKRmpcMbFher2ozb7",
+            googleMaps: "https://goo.gl/maps/rKRmpcMbFher2ozb7",
             openStreetMaps: "https://www.openstreetmap.org/relation/192783"
-    },
-    population: 20903278,
+        },
+        population: 20903278,
         gini: 35.3,
         , "fifa": "BFA",
-        "car": {
+    "car": {
         "signs": [
             "BF"
         ],
-            "side": "right"
+        "side": "right"
     },
     "timezones": [
         "UTC"
     ],
-        "continents": [
-            "Africa"
-        ],
-            flags: {
+    "continents": [
+        "Africa"
+    ],
+    flags: {
         png: "https://flagcdn.com/w320/bf.png",
-            svg: "https://flagcdn.com/bf.svg",
-                alt: "The flag of Burkina Faso features two equal horizontal bands of red and green, with a yellow five-pointed star in the center."
+        svg: "https://flagcdn.com/bf.svg",
+        alt: "The flag of Burkina Faso features two equal horizontal bands of red and green, with a yellow five-pointed star in the center."
     },
     coatOfArms: {
         png: "https://mainfacts.com/media/images/coats_of_arms/bf.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/bf.svg"
+        svg: "https://mainfacts.com/media/images/coats_of_arms/bf.svg"
     },
 
     capitalInfo: {
@@ -8955,9 +4489,9 @@ export const countries: Countries = [
             region: "Africa",
                 subregion: "Northern Africa",
                     languages: [
-                        "ber": "Berber",
+                        "Berber",
                         "mey": "Hassaniya",
-                        "spa": "Spanish"
+                        "Spanish"
                     ],
                         "translations": {
         "ara": {
@@ -9061,7 +4595,7 @@ export const countries: Countries = [
                 common: "西撒哈拉"
         }
     },
-    latlng: [24.5, -13],
+    latlng: [24.4, -13],
         landlocked: false,
             "borders": [
                 "DZA",
@@ -9150,7 +4684,7 @@ export const countries: Countries = [
             region: "Africa",
                 subregion: "Middle Africa",
                     languages: [
-                        "por": "Portuguese"
+                        "Portuguese"
                     ],
                         "translations": {
         "ara": {
@@ -9254,7 +4788,7 @@ export const countries: Countries = [
                 common: "安哥拉"
         }
     },
-    latlng: [-12.5, 18.5],
+    latlng: [-12.4, 18.4],
         landlocked: false,
             "borders": [
                 "COG",
@@ -9328,146 +4862,22 @@ export const countries: Countries = [
                         "independent": true,
                             "status": "officially-assigned",
                                 "unMember": true,
-                                    currencies: {
-        "XOF": {
-            name: "West African CFA franc",
-                "symbol": "Fr"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "25"
-            ]
-    },
-    capital: [
-        "Yamoussoukro"
-    ],
-        "altSpellings": [
-            "CI",
-            "Côte d'Ivoire",
-            "Ivory Coast",
-            "Republic of Côte d'Ivoire",
-            "République de Côte d'Ivoire"
-        ],
-            region: "Africa",
-                subregion: "Western Africa",
-                    languages: [
-                        "French"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية ساحل العاج",
-                common: "ساحل العاج"
-        },
-        "bre": {
-            official: "Republik Aod an Olifant",
-                common: "Aod an Olifant"
-        },
-        "ces": {
-            official: "Republika Pobřeží slonoviny",
-                common: "Pobřeží slonoviny"
-        },
-        "cym": {
-            official: "Republic of Côte d'Ivoire",
-                common: "Ivory Coast"
-        },
-        "deu": {
-            official: "Republik Côte d'Ivoire",
-                common: "Elfenbeinküste"
-        },
-        "est": {
-            official: "Côte d’Ivoire’i Vabariik",
-                common: "Elevandiluurannik"
-        },
-        "fin": {
-            official: "Norsunluurannikon tasavalta",
-                common: "Norsunluurannikko"
-        },
-        fra: {
-            official: "République de Côte d' Ivoire",
-                common: "Côte d'Ivoire"
-        },
-        "hrv": {
-            official: "Republika Côte d'Ivoire",
-                common: "Obala Bjelokosti"
-        },
-        "hun": {
-            official: "Elefántcsontparti Köztársaság",
-                common: "Elefántcsontpart"
-        },
-        "ita": {
-            official: "Repubblica della Costa d'Avorio",
-                common: "Costa d'Avorio"
-        },
-        "jpn": {
-            official: "コートジボワール共和国",
-                common: "コートジボワール"
-        },
-        "kor": {
-            official: "코트디부아르 공화국",
-                common: "코트디부아르"
-        },
-        "nld": {
-            official: "Republiek Ivoorkust",
-                common: "Ivoorkust"
-        },
-        "per": {
-            official: "جمهوری ساحل عاج",
-                common: "ساحل عاج"
-        },
-        "pol": {
-            official: "Republika WybrzeŻa Kości Słoniowej",
-                common: "WybrzeŻe Kości Słoniowej"
-        },
-        "por": {
-            official: "República da Côte d'Ivoire",
-                common: "Costa do Marfim"
-        },
-        "rus": {
-            official: "Республика Кот-д'Ивуаре",
-                common: "Кот-д’Ивуар"
-        },
-        "slk": {
-            official: "Republika Pobrežie Slonoviny",
-                common: "Pobržie Slonoviny"
-        },
-        "spa": {
-            official: "República de Côte d'Ivoire",
-                common: "Costa de Marfil"
-        },
-        "srp": {
-            official: "Република Обала Слоноваче",
-                common: "Обала Слоноваче"
-        },
-        "swe": {
-            official: "Republiken Elfenbenskusten",
-                common: "Elfenbenskusten"
-        },
-        "tur": {
-            official: "Fildişi Sahili",
-                common: "Fildişi Sahili"
-        },
-        "urd": {
-            official: "جمہوریہ کوت دیواغ",
-                common: "آئیوری کوسٹ"
-        },
-        "zho": {
-            official: "科特迪瓦共和国",
-                common: "科特迪瓦"
-        }
-    },
-    latlng: [8, -5],
-        landlocked: false,
-            "borders": [
-                "BFA",
-                "GHA",
-                "GIN",
-                "LBR",
-                "MLI"
-            ],
-                "area": 322463,
-                    demonyms: {
+                                    currencies: "West African CFA franc",
+
+                                        capital: [
+                                            "Yamoussoukro"
+                                        ],
+
+                                            region: "Africa",
+                                                subregion: "Western Africa",
+                                                    languages: [
+                                                        "French"
+                                                    ],
+
+                                                        latlng: [8, -5],
+                                                            landlocked: false,
+
+                                                                demonyms: {
         eng: {
             fem: "Ivorian",
                 masc: "Ivorian"
@@ -9484,19 +4894,7 @@ export const countries: Countries = [
     },
     population: 26378275,
         gini: 41.5,
-        , "fifa": "CIV",
-        "car": {
-        "signs": [
-            "CI"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC"
-    ],
-        "continents": [
-            "Africa"
-        ],
+
             flags: {
         png: "https://flagcdn.com/w320/ci.png",
             svg: "https://flagcdn.com/ci.svg",
@@ -9515,158 +4913,24 @@ export const countries: Countries = [
     name: {
         common: "Tunisia",
             official: "Tunisian Republic",
-                "nativeName": {
-            "ara": {
-                official: "الجمهورية التونسية",
-                    common: "تونس"
-            }
-        }
+  
     },
-    "tld": [
-        ".tn"
-    ],
-        "cca2": "TN",
-            "ccn3": "788",
-                "cca3": "TUN",
-                    "cioc": "TUN",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "TND": {
-            name: "Tunisian dinar",
-                "symbol": "د.ت"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "16"
-            ]
-    },
-    capital: [
-        "Tunis"
-    ],
-        "altSpellings": [
-            "TN",
-            "Republic of Tunisia",
-            "al-Jumhūriyyah at-Tūnisiyyah"
+
+    currencies: "Tunisian dinar",
+        capital: [
+            "Tunis"
         ],
+
             region: "Africa",
                 subregion: "Northern Africa",
                     languages: [
                         "Arabic"
                     ],
-                        "translations": {
-        "ara": {
-            official: "الجمهورية التونسية",
-                common: "تونس"
-        },
-        "bre": {
-            official: "Republik Tunizian",
-                common: "Tunizia"
-        },
-        "ces": {
-            official: "Tuniská republika",
-                common: "Tunisko"
-        },
-        "cym": {
-            official: "Tunisian Republic",
-                common: "Tunisia"
-        },
-        "deu": {
-            official: "Tunesische Republik",
-                common: "Tunesien"
-        },
-        "est": {
-            official: "Tuneesia Vabariik",
-                common: "Tuneesia"
-        },
-        "fin": {
-            official: "Tunisian tasavalta",
-                common: "Tunisia"
-        },
-        fra: {
-            official: "République tunisienne",
-                common: "Tunisie"
-        },
-        "hrv": {
-            official: "Tuniski Republika",
-                common: "Tunis"
-        },
-        "hun": {
-            official: "Tunéziai Köztársaság",
-                common: "Tunézia"
-        },
-        "ita": {
-            official: "Repubblica tunisina",
-                common: "Tunisia"
-        },
-        "jpn": {
-            official: "チュニジア共和国",
-                common: "チュニジア"
-        },
-        "kor": {
-            official: "튀니지 공화국",
-                common: "튀니지"
-        },
-        "nld": {
-            official: "Republiek Tunesië",
-                common: "Tunesië"
-        },
-        "per": {
-            official: "جمهوری تونس",
-                common: "تونس"
-        },
-        "pol": {
-            official: "Republika Tunezyjska",
-                common: "Tunezja"
-        },
-        "por": {
-            official: "República da Tunísia",
-                common: "Tunísia"
-        },
-        "rus": {
-            official: "Тунисской Республики",
-                common: "Тунис"
-        },
-        "slk": {
-            official: "Tuniská republika",
-                common: "Tunisko"
-        },
-        "spa": {
-            official: "República de Túnez",
-                common: "Túnez"
-        },
-        "srp": {
-            official: "Тунишанска Република",
-                common: "Тунис"
-        },
-        "swe": {
-            official: "Republiken Tunisien",
-                common: "Tunisien"
-        },
-        "tur": {
-            official: "Tunus Cumhuriyeti",
-                common: "Tunus"
-        },
-        "urd": {
-            official: "جمہوریہ تونس",
-                common: "تونس"
-        },
-        "zho": {
-            official: "突尼斯共和国",
-                common: "突尼斯"
-        }
-    },
-    latlng: [34, 9],
-        landlocked: false,
-            "borders": [
-                "DZA",
-                "LBY"
-            ],
-                "area": 163610,
-                    demonyms: {
+
+                        latlng: [34, 9],
+                            landlocked: false,
+
+                                demonyms: {
         eng: {
             fem: "Tunisian",
                 masc: "Tunisian"
@@ -9683,19 +4947,7 @@ export const countries: Countries = [
     },
     population: 11818618,
         gini: 32.8,
-        , "fifa": "TUN",
-        "car": {
-        "signs": [
-            "TN"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
+
             flags: {
         png: "https://flagcdn.com/w320/tn.png",
             svg: "https://flagcdn.com/tn.svg",
@@ -9717,163 +4969,25 @@ export const countries: Countries = [
     name: {
         common: "Mali",
             official: "Republic of Mali",
-                "nativeName": {
-            fra: {
-                official: "République du Mali",
-                    common: "Mali"
-            }
-        }
+     
     },
-    "tld": [
-        ".ml"
-    ],
-        "cca2": "ML",
-            "ccn3": "466",
-                "cca3": "MLI",
-                    "cioc": "MLI",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "XOF": {
-            name: "West African CFA franc",
-                "symbol": "Fr"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "23"
-            ]
-    },
-    capital: [
-        "Bamako"
-    ],
-        "altSpellings": [
-            "ML",
-            "Republic of Mali",
-            "République du Mali"
+
+    currencies: "West African CFA franc",
+
+        capital: [
+            "Bamako"
         ],
+
             region: "Africa",
                 subregion: "Western Africa",
                     languages: [
                         "French"
                     ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية مالي",
-                common: "مالي"
-        },
-        "bre": {
-            official: "Republik Mali",
-                common: "Mali"
-        },
-        "ces": {
-            official: "Republika Mali",
-                common: "Mali"
-        },
-        "cym": {
-            official: "Republic of Mali",
-                common: "Mali"
-        },
-        "deu": {
-            official: "Republik Mali",
-                common: "Mali"
-        },
-        "est": {
-            official: "Mali Vabariik",
-                common: "Mali"
-        },
-        "fin": {
-            official: "Malin tasavalta",
-                common: "Mali"
-        },
-        fra: {
-            official: "République du Mali",
-                common: "Mali"
-        },
-        "hrv": {
-            official: "Republika Mali",
-                common: "Mali"
-        },
-        "hun": {
-            official: "Mali Köztársaság",
-                common: "Mali"
-        },
-        "ita": {
-            official: "Repubblica del Mali",
-                common: "Mali"
-        },
-        "jpn": {
-            official: "マリ共和国",
-                common: "マリ"
-        },
-        "kor": {
-            official: "말리 공화국",
-                common: "말리"
-        },
-        "nld": {
-            official: "Republiek Mali",
-                common: "Mali"
-        },
-        "per": {
-            official: "جمهوری مالی",
-                common: "مالی"
-        },
-        "pol": {
-            official: "Republika Mali",
-                common: "Mali"
-        },
-        "por": {
-            official: "República do Mali",
-                common: "Mali"
-        },
-        "rus": {
-            official: "Республика Мали",
-                common: "Мали"
-        },
-        "slk": {
-            official: "Malijská republika",
-                common: "Mali"
-        },
-        "spa": {
-            official: "República de Malí",
-                common: "Mali"
-        },
-        "srp": {
-            official: "Република Мали",
-                common: "Мали"
-        },
-        "swe": {
-            official: "Republiken Mali",
-                common: "Mali"
-        },
-        "tur": {
-            official: "Mali Cumhuriyeti",
-                common: "Mali"
-        },
-        "urd": {
-            official: "جمہوریہ مالی",
-                common: "مالی"
-        },
-        "zho": {
-            official: "马里共和国",
-                common: "马里"
-        }
-    },
-    latlng: [17, -4],
-        landlocked: true,
-            "borders": [
-                "DZA",
-                "BFA",
-                "GIN",
-                "CIV",
-                "MRT",
-                "NER",
-                "SEN"
-            ],
-                "area": 1240192,
-                    demonyms: {
+
+                        latlng: [17, -4],
+                            landlocked: true,
+
+                                demonyms: {
         eng: {
             fem: "Malian",
                 masc: "Malian"
@@ -9890,19 +5004,7 @@ export const countries: Countries = [
     },
     population: 20250834,
         gini: 33,
-        , "fifa": "MLI",
-        "car": {
-        "signs": [
-            "RMM"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC"
-    ],
-        "continents": [
-            "Africa"
-        ],
+
             flags: {
         png: "https://flagcdn.com/w320/ml.png",
             svg: "https://flagcdn.com/ml.svg",
@@ -9921,160 +5023,25 @@ export const countries: Countries = [
     name: {
         common: "Benin",
             official: "Republic of Benin",
-                "nativeName": {
-            fra: {
-                official: "République du Bénin",
-                    common: "Bénin"
-            }
-        }
+
     },
-    "tld": [
-        ".bj"
-    ],
-        "cca2": "BJ",
-            "ccn3": "204",
-                "cca3": "BEN",
-                    "cioc": "BEN",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "XOF": {
-            name: "West African CFA franc",
-                "symbol": "Fr"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "29"
-            ]
-    },
-    capital: [
-        "Porto-Novo"
-    ],
-        "altSpellings": [
-            "BJ",
-            "Republic of Benin",
-            "République du Bénin"
+
+    currencies: "West African CFA franc",
+
+        capital: [
+            "Porto-Novo"
         ],
+
             region: "Africa",
                 subregion: "Western Africa",
                     languages: [
                         "French"
                     ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية بنين",
-                common: "بنين"
-        },
-        "bre": {
-            official: "Republik Benin",
-                common: "Benin"
-        },
-        "ces": {
-            official: "Beninská republika",
-                common: "Benin"
-        },
-        "cym": {
-            official: "Gweriniaeth Benin",
-                common: "Benin"
-        },
-        "deu": {
-            official: "Republik Benin",
-                common: "Benin"
-        },
-        "est": {
-            official: "Benini Vabariik",
-                common: "Benin"
-        },
-        "fin": {
-            official: "Beninin tasavalta",
-                common: "Benin"
-        },
-        fra: {
-            official: "République du Bénin",
-                common: "Bénin"
-        },
-        "hrv": {
-            official: "Republika Benin",
-                common: "Benin"
-        },
-        "hun": {
-            official: "Benini Köztársaság",
-                common: "Benin"
-        },
-        "ita": {
-            official: "Repubblica del Benin",
-                common: "Benin"
-        },
-        "jpn": {
-            official: "ベナン共和国",
-                common: "ベナン"
-        },
-        "kor": {
-            official: "베냉 공화국",
-                common: "베냉"
-        },
-        "nld": {
-            official: "Republiek Benin",
-                common: "Benin"
-        },
-        "per": {
-            official: "جمهوری بنین",
-                common: "بنین"
-        },
-        "pol": {
-            official: "Benin",
-                common: "Benin"
-        },
-        "por": {
-            official: "República do Benin",
-                common: "Benin"
-        },
-        "rus": {
-            official: "Республика Бенин",
-                common: "Бенин"
-        },
-        "slk": {
-            official: "Beninská republika",
-                common: "Benin"
-        },
-        "spa": {
-            official: "República de Benin",
-                common: "Benín"
-        },
-        "srp": {
-            official: "Република Бенин",
-                common: "Бенин"
-        },
-        "swe": {
-            official: "Republiken Benin",
-                common: "Benin"
-        },
-        "tur": {
-            official: "Benin Cumhuriyeti",
-                common: "Benin"
-        },
-        "urd": {
-            official: "جمہوریہ بینن",
-                common: "بینن"
-        },
-        "zho": {
-            official: "贝宁共和国",
-                common: "贝宁"
-        }
-    },
-    latlng: [9.5, 2.25],
-        landlocked: false,
-            "borders": [
-                "BFA",
-                "NER",
-                "NGA",
-                "TGO"
-            ],
-                "area": 112622,
-                    demonyms: {
+
+                        latlng: [9.4, 2.25],
+                            landlocked: false,
+
+                                demonyms: {
         eng: {
             fem: "Beninese",
                 masc: "Beninese"
@@ -10091,19 +5058,7 @@ export const countries: Countries = [
     },
     population: 12123198,
         gini: 47.8,
-        , "fifa": "BEN",
-        "car": {
-        "signs": [
-            "DY"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
+
             flags: {
         png: "https://flagcdn.com/w320/bj.png",
             svg: "https://flagcdn.com/bj.svg",
@@ -10122,154 +5077,24 @@ export const countries: Countries = [
     name: {
         common: "Cape Verde",
             official: "Republic of Cabo Verde",
-                "nativeName": {
-            "por": {
-                official: "República de Cabo Verde",
-                    common: "Cabo Verde"
-            }
-        }
+   
     },
-    "tld": [
-        ".cv"
-    ],
-        "cca2": "CV",
-            "ccn3": "132",
-                "cca3": "CPV",
-                    "cioc": "CPV",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "CVE": {
-            name: "Cape Verdean escudo",
-                "symbol": "Esc"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "38"
-            ]
-    },
-    capital: [
-        "Praia"
-    ],
-        "altSpellings": [
-            "CV",
-            "Republic of Cabo Verde",
-            "República de Cabo Verde"
+
+    currencies: "Cape Verdean escudo",
+        capital: [
+            "Praia"
         ],
+
             region: "Africa",
                 subregion: "Western Africa",
                     languages: [
-                        "por": "Portuguese"
+                        "Portuguese"
                     ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية كابو فيردي",
-                common: "كابو فيردي"
-        },
-        "bre": {
-            official: "Republik Kab Glas",
-                common: "Kab Glas"
-        },
-        "ces": {
-            official: "Kapverdská republika",
-                common: "Kapverdy"
-        },
-        "cym": {
-            official: "Gweriniaeth Cabo Verde",
-                common: "Penrhyn Verde"
-        },
-        "deu": {
-            official: "Republik Cabo Verde",
-                common: "Kap Verde"
-        },
-        "est": {
-            official: "Cabo Verde Vabariik",
-                common: "Roheneemesaared"
-        },
-        "fin": {
-            official: "Kap Verden tasavalta",
-                common: "Kap Verde"
-        },
-        fra: {
-            official: "République du Cap-Vert",
-                common: "Îles du Cap-Vert"
-        },
-        "hrv": {
-            official: "Republika Cabo Verde",
-                common: "Zelenortska Republika"
-        },
-        "hun": {
-            official: "Zöld-foki Köztársaság",
-                common: "Zöld-foki Köztársaság"
-        },
-        "ita": {
-            official: "Repubblica di Capo Verde",
-                common: "Capo Verde"
-        },
-        "jpn": {
-            official: "カーボベルデ共和国",
-                common: "カーボベルデ"
-        },
-        "kor": {
-            official: "카보베르데 공화국",
-                common: "카보베르데"
-        },
-        "nld": {
-            official: "Republiek van Cabo Verde",
-                common: "Kaapverdië"
-        },
-        "per": {
-            official: "جمهوری کبو ورد",
-                common: "دماغهٔ سبز"
-        },
-        "pol": {
-            official: "Republika Zielonego Przylądka",
-                common: "Republika Zielonego Przylądka"
-        },
-        "por": {
-            official: "República de Cabo Verde",
-                common: "Cabo Verde"
-        },
-        "rus": {
-            official: "Республика Кабо -Верде",
-                common: "Кабо-Верде"
-        },
-        "slk": {
-            official: "Kapverdská republika",
-                common: "Kapverdy"
-        },
-        "spa": {
-            official: "República de Cabo Verde",
-                common: "Cabo Verde"
-        },
-        "srp": {
-            official: "Зеленортска Република",
-                common: "Зеленортска Острва"
-        },
-        "swe": {
-            official: "Republiken Kap Verde",
-                common: "Kap Verde"
-        },
-        "tur": {
-            official: "Yeşil Burun Cumhuriyeti",
-                common: "Yeşil Burun"
-        },
-        "urd": {
-            official: "جمہوریہ کیپ ورڈی",
-                common: "کیپ ورڈی"
-        },
-        "zho": {
-            official: "佛得角共和国",
-                common: "佛得角"
-        }
-    },
-    latlng: [16.5388, -23.0418],
-        landlocked: false,
-            "area": 4033,
-                demonyms: {
+
+                        latlng: [16.5388, -23.0418],
+                            landlocked: false,
+
+                                demonyms: {
         eng: {
             fem: "Cape Verdian",
                 masc: "Cape Verdian"
@@ -10286,19 +5111,7 @@ export const countries: Countries = [
     },
     population: 555988,
         gini: 42.4,
-        , "fifa": "CPV",
-        "car": {
-        "signs": [
-            "CV"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC-01:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
+
             flags: {
         png: "https://flagcdn.com/w320/cv.png",
             svg: "https://flagcdn.com/cv.svg",
@@ -10320,170 +5133,27 @@ export const countries: Countries = [
     name: {
         common: "Equatorial Guinea",
             official: "Republic of Equatorial Guinea",
-                "nativeName": {
-            fra: {
-                official: "République de la Guinée Équatoriale",
-                    common: "Guinée équatoriale"
-            },
-            "por": {
-                official: "República da Guiné Equatorial",
-                    common: "Guiné Equatorial"
-            },
-            "spa": {
-                official: "República de Guinea Ecuatorial",
-                    common: "Guinea Ecuatorial"
-            }
-        }
+
     },
-    "tld": [
-        ".gq"
-    ],
-        "cca2": "GQ",
-            "ccn3": "226",
-                "cca3": "GNQ",
-                    "cioc": "GEQ",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "XAF": {
-            name: "Central African CFA franc",
-                "symbol": "Fr"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "40"
-            ]
-    },
-    capital: [
-        "Malabo"
-    ],
-        "altSpellings": [
-            "GQ",
-            "Republic of Equatorial Guinea",
-            "República de Guinea Ecuatorial",
-            "République de Guinée équatoriale",
-            "República da Guiné Equatorial"
+
+    currencies: "Central African CFA franc",
+
+        capital: [
+            "Malabo"
         ],
+
             region: "Africa",
                 subregion: "Middle Africa",
                     languages: [
                         "French",
-                        "por": "Portuguese",
-                        "spa": "Spanish"
+                        "Portuguese",
+                        "Spanish"
                     ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية غينيا الاستوائية",
-                common: "غينيا الاستوائية"
-        },
-        "bre": {
-            official: "Republik Ginea ar C'heheder",
-                common: "Ginea ar C'heheder"
-        },
-        "ces": {
-            official: "Republika Rovníková Guinea",
-                common: "Rovníková Guinea"
-        },
-        "cym": {
-            official: "Gweriniaeth Gini Gyhydeddol",
-                common: "Gini Gyhydeddol"
-        },
-        "deu": {
-            official: "Republik Äquatorialguinea",
-                common: "Äquatorialguinea"
-        },
-        "est": {
-            official: "Ekvatoriaal-Guinea Vabariik",
-                common: "Ekvatoriaal-Guinea"
-        },
-        "fin": {
-            official: "Päiväntasaajan Guinean tasavalta",
-                common: "Päiväntasaajan Guinea"
-        },
-        fra: {
-            official: "République de Guinée équatoriale",
-                common: "Guinée équatoriale"
-        },
-        "hrv": {
-            official: "Republika Ekvatorska Gvineja",
-                common: "Ekvatorijalna Gvineja"
-        },
-        "hun": {
-            official: "Egyenlítői-Guinea-i Köztársaság",
-                common: "Egyenlítői-Guinea"
-        },
-        "ita": {
-            official: "Repubblica della Guinea Equatoriale",
-                common: "Guinea Equatoriale"
-        },
-        "jpn": {
-            official: "赤道ギニア共和国",
-                common: "赤道ギニア"
-        },
-        "kor": {
-            official: "적도 기니 공화국",
-                common: "적도 기니"
-        },
-        "nld": {
-            official: "Republiek Equatoriaal-Guinea",
-                common: "Equatoriaal-Guinea"
-        },
-        "per": {
-            official: "جمهوری گینه استوایی",
-                common: "گینه استوایی"
-        },
-        "pol": {
-            official: "Republika Gwinei Równikowej",
-                common: "Gwinea Równikowa"
-        },
-        "por": {
-            official: "República da Guiné Equatorial",
-                common: "Guiné Equatorial"
-        },
-        "rus": {
-            official: "Республика Экваториальная Гвинея",
-                common: "Экваториальная Гвинея"
-        },
-        "slk": {
-            official: "Republika rovníkovej Guiney",
-                common: "Rovníková Guinea"
-        },
-        "spa": {
-            official: "República de Guinea Ecuatorial",
-                common: "Guinea Ecuatorial"
-        },
-        "srp": {
-            official: "Република Екваторијална Гвинеја",
-                common: "Екваторијална Гвинеја"
-        },
-        "swe": {
-            official: "Republiken Ekvatorialguinea",
-                common: "Ekvatorialguinea"
-        },
-        "tur": {
-            official: "Ekvator Ginesi Cumhuriyeti",
-                common: "Ekvator Ginesi"
-        },
-        "urd": {
-            official: "جمہوریہ استوائی گنی",
-                common: "استوائی گنی"
-        },
-        "zho": {
-            official: "赤道几内亚共和国",
-                common: "赤道几内亚"
-        }
-    },
-    latlng: [2, 10],
-        landlocked: false,
-            "borders": [
-                "CMR",
-                "GAB"
-            ],
-                "area": 28051,
-                    demonyms: {
+
+                        latlng: [2, 10],
+                            landlocked: false,
+
+                                demonyms: {
         eng: {
             fem: "Equatorial Guinean",
                 masc: "Equatorial Guinean"
@@ -10500,19 +5170,7 @@ export const countries: Countries = [
     },
     population: 1402985,
         gini: -1,
-            "fifa": "EQG",
-                "car": {
-        "signs": [
-            "GQ"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
+
             flags: {
         png: "https://flagcdn.com/w320/gq.png",
             svg: "https://flagcdn.com/gq.svg",
@@ -10531,166 +5189,25 @@ export const countries: Countries = [
     name: {
         common: "Uganda",
             official: "Republic of Uganda",
-                "nativeName": {
-            eng: {
-                official: "Republic of Uganda",
-                    common: "Uganda"
-            },
-            "swa": {
-                official: "Republic of Uganda",
-                    common: "Uganda"
-            }
-        }
+  
     },
-    "tld": [
-        ".ug"
-    ],
-        "cca2": "UG",
-            "ccn3": "800",
-                "cca3": "UGA",
-                    "cioc": "UGA",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "UGX": {
-            name: "Ugandan shilling",
-                "symbol": "Sh"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "56"
-            ]
-    },
-    capital: [
-        "Kampala"
-    ],
-        "altSpellings": [
-            "UG",
-            "Republic of Uganda",
-            "Jamhuri ya Uganda"
+
+    currencies: "Ugandan shilling",
+        capital: [
+            "Kampala"
         ],
+
             region: "Africa",
                 subregion: "Eastern Africa",
                     languages: [
                         "English",
-                        "swa": "Swahili"
+                        "Swahili"
                     ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية أوغندا",
-                common: "أوغندا"
-        },
-        "bre": {
-            official: "Republik Ouganda",
-                common: "Ouganda"
-        },
-        "ces": {
-            official: "Ugandská republika",
-                common: "Uganda"
-        },
-        "cym": {
-            official: "Republic of Uganda",
-                common: "Uganda"
-        },
-        "deu": {
-            official: "Republik Uganda",
-                common: "Uganda"
-        },
-        "est": {
-            official: "Uganda Vabariik",
-                common: "Uganda"
-        },
-        "fin": {
-            official: "Ugandan tasavalta",
-                common: "Uganda"
-        },
-        fra: {
-            official: "République de l'Ouganda",
-                common: "Ouganda"
-        },
-        "hrv": {
-            official: "Republika Uganda",
-                common: "Uganda"
-        },
-        "hun": {
-            official: "Ugandai Köztársaság",
-                common: "Uganda"
-        },
-        "ita": {
-            official: "Repubblica di Uganda",
-                common: "Uganda"
-        },
-        "jpn": {
-            official: "ウガンダ共和国",
-                common: "ウガンダ"
-        },
-        "kor": {
-            official: "우간다 공화국",
-                common: "우간다"
-        },
-        "nld": {
-            official: "Republiek Uganda",
-                common: "Oeganda"
-        },
-        "per": {
-            official: "جمهوری اوگاندا",
-                common: "اوگاندا"
-        },
-        "pol": {
-            official: "Republika Ugandy",
-                common: "Uganda"
-        },
-        "por": {
-            official: "República do Uganda",
-                common: "Uganda"
-        },
-        "rus": {
-            official: "Республика Уганда",
-                common: "Уганда"
-        },
-        "slk": {
-            official: "Ugandská republika",
-                common: "Uganda"
-        },
-        "spa": {
-            official: "República de Uganda",
-                common: "Uganda"
-        },
-        "srp": {
-            official: "Република Уганда",
-                common: "Уганда"
-        },
-        "swe": {
-            official: "Republiken Uganda",
-                common: "Uganda"
-        },
-        "tur": {
-            official: "Uganda Cumhuriyeti",
-                common: "Uganda"
-        },
-        "urd": {
-            official: "جمہوریہ یوگنڈا",
-                common: "یوگنڈا"
-        },
-        "zho": {
-            official: "乌干达共和国",
-                common: "乌干达"
-        }
-    },
-    latlng: [1, 32],
-        landlocked: true,
-            "borders": [
-                "COD",
-                "KEN",
-                "RWA",
-                "SSD",
-                "TZA"
-            ],
-                "area": 241550,
-                    demonyms: {
+
+                        latlng: [1, 32],
+                            landlocked: true,
+
+                                demonyms: {
         eng: {
             fem: "Ugandan",
                 masc: "Ugandan"
@@ -10707,19 +5224,7 @@ export const countries: Countries = [
     },
     population: 45741000,
         gini: 42.8,
-        , "fifa": "UGA",
-        "car": {
-        "signs": [
-            "EAU"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC+03:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
+
             flags: {
         png: "https://flagcdn.com/w320/ug.png",
             svg: "https://flagcdn.com/ug.svg",
@@ -10738,165 +5243,25 @@ export const countries: Countries = [
     name: {
         common: "Botswana",
             official: "Republic of Botswana",
-                "nativeName": {
-            eng: {
-                official: "Republic of Botswana",
-                    common: "Botswana"
-            },
-            "tsn": {
-                official: "Lefatshe la Botswana",
-                    common: "Botswana"
-            }
-        }
+
     },
-    "tld": [
-        ".bw"
-    ],
-        "cca2": "BW",
-            "ccn3": "072",
-                "cca3": "BWA",
-                    "cioc": "BOT",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "BWP": {
-            name: "Botswana pula",
-                "symbol": "P"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "67"
-            ]
-    },
-    capital: [
-        "Gaborone"
-    ],
-        "altSpellings": [
-            "BW",
-            "Republic of Botswana",
-            "Lefatshe la Botswana"
+
+    currencies: "Botswana pula",
+        capital: [
+            "Gaborone"
         ],
+
             region: "Africa",
                 subregion: "Southern Africa",
                     languages: [
                         "English",
-                        "tsn": "Tswana"
+                        "Tswana"
                     ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية بوتسوانا",
-                common: "بوتسوانا"
-        },
-        "bre": {
-            official: "Republik Botswana",
-                common: "Botswana"
-        },
-        "ces": {
-            official: "Botswanská republika",
-                common: "Botswana"
-        },
-        "cym": {
-            official: "Republic of Botswana",
-                common: "Botswana"
-        },
-        "deu": {
-            official: "Republik Botsuana",
-                common: "Botswana"
-        },
-        "est": {
-            official: "Botswana Vabariik",
-                common: "Botswana"
-        },
-        "fin": {
-            official: "Botswanan tasavalta",
-                common: "Botswana"
-        },
-        fra: {
-            official: "République du Botswana",
-                common: "Botswana"
-        },
-        "hrv": {
-            official: "Republika Bocvana",
-                common: "Bocvana"
-        },
-        "hun": {
-            official: "Botswanai Köztársaság",
-                common: "Botswana"
-        },
-        "ita": {
-            official: "Repubblica del Botswana",
-                common: "Botswana"
-        },
-        "jpn": {
-            official: "ボツワナ共和国",
-                common: "ボツワナ"
-        },
-        "kor": {
-            official: "보츠와나 공화국",
-                common: "보츠와나"
-        },
-        "nld": {
-            official: "Republiek Botswana",
-                common: "Botswana"
-        },
-        "per": {
-            official: "جمهوری بوتسوانا",
-                common: "بوتسوانا"
-        },
-        "pol": {
-            official: "Republika Botswany",
-                common: "Botswana"
-        },
-        "por": {
-            official: "República do Botswana",
-                common: "Botswana"
-        },
-        "rus": {
-            official: "Республика Ботсвана",
-                common: "Ботсвана"
-        },
-        "slk": {
-            official: "Botswanská republika",
-                common: "Botswana"
-        },
-        "spa": {
-            official: "República de Botswana",
-                common: "Botswana"
-        },
-        "srp": {
-            official: "Република Боцвана",
-                common: "Боцвана"
-        },
-        "swe": {
-            official: "Republiken Botswana",
-                common: "Botswana"
-        },
-        "tur": {
-            official: "Botsvana Cumhuriyeti",
-                common: "Botsvana"
-        },
-        "urd": {
-            official: "جمہوریہ بوٹسوانا",
-                common: "بوٹسوانا"
-        },
-        "zho": {
-            official: "博茨瓦纳共和国",
-                common: "博茨瓦纳"
-        }
-    },
-    latlng: [-22, 24],
-        landlocked: true,
-            "borders": [
-                "NAM",
-                "ZAF",
-                "ZMB",
-                "ZWE"
-            ],
-                "area": 582000,
-                    demonyms: {
+
+                        latlng: [-22, 24],
+                            landlocked: true,
+
+                                demonyms: {
         eng: {
             fem: "Motswana",
                 masc: "Motswana"
@@ -10913,19 +5278,7 @@ export const countries: Countries = [
     },
     population: 2351625,
         gini: 53.3,
-        , "fifa": "BOT",
-        "car": {
-        "signs": [
-            "BW"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC+02:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
+
             flags: {
         png: "https://flagcdn.com/w320/bw.png",
             svg: "https://flagcdn.com/bw.svg",
@@ -10944,165 +5297,25 @@ export const countries: Countries = [
     name: {
         common: "Burundi",
             official: "Republic of Burundi",
-                "nativeName": {
-            fra: {
-                official: "République du Burundi",
-                    common: "Burundi"
-            },
-            "run": {
-                official: "Republika y'Uburundi ",
-                    common: "Uburundi"
-            }
-        }
+    
     },
-    "tld": [
-        ".bi"
-    ],
-        "cca2": "BI",
-            "ccn3": "108",
-                "cca3": "BDI",
-                    "cioc": "BDI",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "BIF": {
-            name: "Burundian franc",
-                "symbol": "Fr"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "57"
-            ]
-    },
-    capital: [
-        "Gitega"
-    ],
-        "altSpellings": [
-            "BI",
-            "Republic of Burundi",
-            "Republika y'Uburundi",
-            "République du Burundi"
+
+    currencies: "Burundian franc",
+        capital: [
+            "Gitega"
         ],
+
             region: "Africa",
                 subregion: "Eastern Africa",
                     languages: [
                         "French",
-                        "run": "Kirundi"
+                        "Kirundi"
                     ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية بوروندي",
-                common: "بوروندي"
-        },
-        "bre": {
-            official: "Republik Burundi",
-                common: "Burundi"
-        },
-        "ces": {
-            official: "Burundská republika",
-                common: "Burundi"
-        },
-        "cym": {
-            official: "Gweriniaeth Bwrwndi",
-                common: "Bwrwndi"
-        },
-        "deu": {
-            official: "Republik Burundi",
-                common: "Burundi"
-        },
-        "est": {
-            official: "Burundi Vabariik",
-                common: "Burundi"
-        },
-        "fin": {
-            official: "Burundin tasavalta",
-                common: "Burundi"
-        },
-        fra: {
-            official: "République du Burundi",
-                common: "Burundi"
-        },
-        "hrv": {
-            official: "Burundi",
-                common: "Burundi"
-        },
-        "hun": {
-            official: "Burundi",
-                common: "Burundi"
-        },
-        "ita": {
-            official: "Repubblica del Burundi",
-                common: "Burundi"
-        },
-        "jpn": {
-            official: "ブルンジ共和国",
-                common: "ブルンジ"
-        },
-        "kor": {
-            official: "부룬디",
-                common: "부룬디"
-        },
-        "nld": {
-            official: "Republiek Burundi",
-                common: "Burundi"
-        },
-        "per": {
-            official: "جمهوری بوروندی",
-                common: "بوروندی"
-        },
-        "pol": {
-            official: "Republika Burundi",
-                common: "Burundi"
-        },
-        "por": {
-            official: "República do Burundi",
-                common: "Burundi"
-        },
-        "rus": {
-            official: "Республика Бурунди",
-                common: "Бурунди"
-        },
-        "slk": {
-            official: "Burundská republika",
-                common: "Burundi"
-        },
-        "spa": {
-            official: "República de Burundi",
-                common: "Burundi"
-        },
-        "srp": {
-            official: "Република Бурунди",
-                common: "Бурунди"
-        },
-        "swe": {
-            official: "Republiken Burundi",
-                common: "Burundi"
-        },
-        "tur": {
-            official: "Burundi Cumhuriyeti",
-                common: "Burundi"
-        },
-        "urd": {
-            official: "جمہوریہ برونڈی",
-                common: "برونڈی"
-        },
-        "zho": {
-            official: "布隆迪共和国",
-                common: "布隆迪"
-        }
-    },
-    latlng: [-3.5, 30],
-        landlocked: true,
-            "borders": [
-                "COD",
-                "RWA",
-                "TZA"
-            ],
-                "area": 27834,
-                    demonyms: {
+
+                        latlng: [-3.4, 30],
+                            landlocked: true,
+
+                                demonyms: {
         eng: {
             fem: "Burundian",
                 masc: "Burundian"
@@ -11119,19 +5332,7 @@ export const countries: Countries = [
     },
     population: 11890781,
         gini: 38.6,
-        , "fifa": "BDI",
-        "car": {
-        "signs": [
-            "RU"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+02:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
+
             flags: {
         png: "https://flagcdn.com/w320/bi.png",
             svg: "https://flagcdn.com/bi.svg",
@@ -11150,214 +5351,35 @@ export const countries: Countries = [
     name: {
         common: "South Africa",
             official: "Republic of South Africa",
-                "nativeName": {
-            "afr": {
-                official: "Republiek van Suid-Afrika",
-                    common: "South Africa"
-            },
-            eng: {
-                official: "Republic of South Africa",
-                    common: "South Africa"
-            },
-            "nbl": {
-                official: "IRiphabliki yeSewula Afrika",
-                    common: "Sewula Afrika"
-            },
-            "nso": {
-                official: "Rephaboliki ya Afrika-Borwa ",
-                    common: "Afrika-Borwa"
-            },
-            "sot": {
-                official: "Rephaboliki ya Afrika Borwa",
-                    common: "Afrika Borwa"
-            },
-            "ssw": {
-                official: "IRiphabhulikhi yeNingizimu Afrika",
-                    common: "Ningizimu Afrika"
-            },
-            "tsn": {
-                official: "Rephaboliki ya Aforika Borwa",
-                    common: "Aforika Borwa"
-            },
-            "tso": {
-                official: "Riphabliki ra Afrika Dzonga",
-                    common: "Afrika Dzonga"
-            },
-            "ven": {
-                official: "Riphabuḽiki ya Afurika Tshipembe",
-                    common: "Afurika Tshipembe"
-            },
-            "xho": {
-                official: "IRiphabliki yaseMzantsi Afrika",
-                    common: "Mzantsi Afrika"
-            },
-            "zul": {
-                official: "IRiphabliki yaseNingizimu Afrika",
-                    common: "Ningizimu Afrika"
-            }
-        }
+     
     },
-    "tld": [
-        ".za"
-    ],
-        "cca2": "ZA",
-            "ccn3": "710",
-                "cca3": "ZAF",
-                    "cioc": "RSA",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "ZAR": {
-            name: "South African rand",
-                "symbol": "R"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "7"
-            ]
-    },
+  
+                                    currencies: "South African rand",
     capital: [
         "Pretoria",
         "Bloemfontein",
         "Cape Town"
     ],
-        "altSpellings": [
-            "ZA",
-            "RSA",
-            "Suid-Afrika",
-            "Republic of South Africa"
-        ],
+
             region: "Africa",
                 subregion: "Southern Africa",
                     languages: [
-                        "afr": "Afrikaans",
+                         "Afrikaans",
                         "English",
-                        "nbl": "Southern Ndebele",
-                        "nso": "Northern Sotho",
-                        "sot": "Southern Sotho",
-                        "ssw": "Swazi",
-                        "tsn": "Tswana",
-                        "tso": "Tsonga",
-                        "ven": "Venda",
-                        "xho": "Xhosa",
-                        "zul": "Zulu"
+                         "Southern Ndebele",
+                         "Northern Sotho",
+                         "Southern Sotho",
+                        "Swazi",
+                         "Tswana",
+                         "Tsonga",
+                         "Venda",
+                         "Xhosa",
+                         "Zulu"
                     ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية جنوب أفريقيا",
-                common: "جنوب أفريقيا"
-        },
-        "bre": {
-            official: "Republik Suafrika",
-                common: "Suafrika"
-        },
-        "ces": {
-            official: "Jihoafrická republika",
-                common: "Jihoafrická republika"
-        },
-        "cym": {
-            official: "Republic of South Africa",
-                common: "South Africa"
-        },
-        "deu": {
-            official: "Republik Südafrika",
-                common: "Südafrika"
-        },
-        "est": {
-            official: "Lõuna-Aafrika Vabariik",
-                common: "Lõuna-Aafrika Vabariik"
-        },
-        "fin": {
-            official: "Etelä-Afrikan tasavalta",
-                common: "Etelä-Afrikka"
-        },
-        fra: {
-            official: "République d'Afrique du Sud",
-                common: "Afrique du Sud"
-        },
-        "hrv": {
-            official: "Južnoafrička Republika",
-                common: "Južna Afrika"
-        },
-        "hun": {
-            official: "Dél-afrikai Köztársaság",
-                common: "Dél-afrikai Köztársaság"
-        },
-        "ita": {
-            official: "Repubblica del Sud Africa",
-                common: "Sud Africa"
-        },
-        "jpn": {
-            official: "南アフリカ共和国",
-                common: "南アフリカ"
-        },
-        "kor": {
-            official: "남아프리카 공화국",
-                common: "남아프리카"
-        },
-        "nld": {
-            official: "Republiek Zuid-Afrika",
-                common: "Zuid-Afrika"
-        },
-        "per": {
-            official: "جمهوری آفریقای جنوبی",
-                common: "آفریقای جنوبی"
-        },
-        "pol": {
-            official: "Republika Południowej Afryki",
-                common: "Południowa Afryka"
-        },
-        "por": {
-            official: "República da África do Sul",
-                common: "África do Sul"
-        },
-        "rus": {
-            official: "Южно-Африканская Республика",
-                common: "Южная Африка"
-        },
-        "slk": {
-            official: "Juhoafrická republika",
-                common: "Južná Afrika"
-        },
-        "spa": {
-            official: "República de Sudáfrica",
-                common: "Sudáfrica"
-        },
-        "srp": {
-            official: "Република Јужна Африка",
-                common: "Јужноафричка Република"
-        },
-        "swe": {
-            official: "Republiken Sydafrika",
-                common: "Sydafrika"
-        },
-        "tur": {
-            official: "Güney Afrika Cumhuriyeti",
-                common: "Güney Afrika"
-        },
-        "urd": {
-            official: "جمہوریہ جنوبی افریقا",
-                common: "جنوبی افریقا"
-        },
-        "zho": {
-            official: "南非共和国",
-                common: "南非"
-        }
-    },
+ 
     latlng: [-29, 24],
         landlocked: false,
-            "borders": [
-                "BWA",
-                "LSO",
-                "MOZ",
-                "NAM",
-                "SWZ",
-                "ZWE"
-            ],
-                "area": 1221037,
+   
                     demonyms: {
         eng: {
             fem: "South African",
@@ -11375,19 +5397,7 @@ export const countries: Countries = [
     },
     population: 59308690,
         gini: 63,
-        , "fifa": "RSA",
-        "car": {
-        "signs": [
-            "ZA"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC+02:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
+ 
             flags: {
         png: "https://flagcdn.com/w320/za.png",
             svg: "https://flagcdn.com/za.svg",
@@ -11409,161 +5419,23 @@ export const countries: Countries = [
     name: {
         common: "Libya",
             official: "State of Libya",
-                "nativeName": {
-            "ara": {
-                official: "الدولة ليبيا",
-                    common: "‏ليبيا"
-            }
-        }
+
     },
-    "tld": [
-        ".ly"
-    ],
-        "cca2": "LY",
-            "ccn3": "434",
-                "cca3": "LBY",
-                    "cioc": "LBA",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "LYD": {
-            name: "Libyan dinar",
-                "symbol": "ل.د"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "18"
-            ]
-    },
+   
+                                    currencies:"Libyan dinar", 
     capital: [
         "Tripoli"
     ],
-        "altSpellings": [
-            "LY",
-            "State of Libya",
-            "Dawlat Libya"
-        ],
+
             region: "Africa",
                 subregion: "Northern Africa",
                     languages: [
                         "Arabic"
                     ],
-                        "translations": {
-        "ara": {
-            official: "دولة ليبيا",
-                common: "‏ليبيا"
-        },
-        "bre": {
-            official: "Stad Libia",
-                common: "Libia"
-        },
-        "ces": {
-            official: "Stát Libye",
-                common: "Libye"
-        },
-        "cym": {
-            official: "State of Libya",
-                common: "Libya"
-        },
-        "deu": {
-            official: "Staat Libyen",
-                common: "Libyen"
-        },
-        "est": {
-            official: "Liibüa",
-                common: "Liibüa"
-        },
-        "fin": {
-            official: "Libyan valtio",
-                common: "Libya"
-        },
-        fra: {
-            official: "Grande République arabe libyenne populaire et socialiste",
-                common: "Libye"
-        },
-        "hrv": {
-            official: "Država Libiji",
-                common: "Libija"
-        },
-        "hun": {
-            official: "Líbia Állam",
-                common: "Líbia"
-        },
-        "ita": {
-            official: "Stato della Libia",
-                common: "Libia"
-        },
-        "jpn": {
-            official: "リビアの国家",
-                common: "リビア"
-        },
-        "kor": {
-            official: "리비아",
-                common: "리비아"
-        },
-        "nld": {
-            official: "Staat van Libië",
-                common: "Libië"
-        },
-        "per": {
-            official: "دولت لیبی",
-                common: "لیبی"
-        },
-        "pol": {
-            official: "Państwo Libia",
-                common: "Libia"
-        },
-        "por": {
-            official: "Estado da Líbia",
-                common: "Líbia"
-        },
-        "rus": {
-            official: "Государство Ливии",
-                common: "Ливия"
-        },
-        "slk": {
-            official: "Líbya",
-                common: "Líbya"
-        },
-        "spa": {
-            official: "Estado de Libia",
-                common: "Libia"
-        },
-        "srp": {
-            official: "Држава Либија",
-                common: "Либија"
-        },
-        "swe": {
-            official: "Staten Libyen",
-                common: "Libyen"
-        },
-        "tur": {
-            official: "Libya Devleti",
-                common: "Libya"
-        },
-        "urd": {
-            official: "ریاستِ لیبیا",
-                common: "لیبیا"
-        },
-        "zho": {
-            official: "利比亚国",
-                common: "利比亚"
-        }
-    },
+ 
     latlng: [25, 17],
         landlocked: false,
-            "borders": [
-                "DZA",
-                "TCD",
-                "EGY",
-                "NER",
-                "SDN",
-                "TUN"
-            ],
-                "area": 1759540,
+
                     demonyms: {
         eng: {
             fem: "Libyan",
@@ -11581,19 +5453,7 @@ export const countries: Countries = [
     },
     population: 6871287,
         gini: -1,
-            "fifa": "LBY",
-                "car": {
-        "signs": [
-            "LAR"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
+
             flags: {
         png: "https://flagcdn.com/w320/ly.png",
             svg: "https://flagcdn.com/ly.svg",
@@ -11818,13 +5678,8 @@ export const countries: Countries = [
                         "independent": true,
                             "status": "officially-assigned",
                                 "unMember": true,
-                                    currencies: {
-        "XAF": {
-            name: "Central African CFA franc",
-                "symbol": "Fr"
-        }
-    },
-    "idd": {
+                                    currencies: "Central African CFA franc",
+                                        "idd": {
         "root": "+2",
             "suffixes": [
                 "41"
@@ -12022,13 +5877,8 @@ export const countries: Countries = [
                         "independent": true,
                             "status": "officially-assigned",
                                 "unMember": true,
-                                    currencies: {
-        "XAF": {
-            name: "Central African CFA franc",
-                "symbol": "Fr"
-        }
-    },
-    "idd": {
+                                    currencies: "Central African CFA franc",
+                                        "idd": {
         "root": "+2",
             "suffixes": [
                 "37"
@@ -12202,7 +6052,7 @@ export const countries: Countries = [
     },
 
     capitalInfo: {
-        latlng: [3.85, 11.5]
+        latlng: [3.85, 11.4]
     }
 },
 {
@@ -12405,7 +6255,7 @@ export const countries: Countries = [
     },
 
     capitalInfo: {
-        latlng: [9.5, -13.7]
+        latlng: [9.4, -13.7]
     }
 },
 {
@@ -12759,7 +6609,7 @@ export const countries: Countries = [
                 common: "英属印度洋领地"
         }
     },
-    latlng: [-6, 71.5],
+    latlng: [-6, 71.4],
         landlocked: false,
             "area": 60,
                 demonyms: {
@@ -14205,7 +8055,7 @@ export const countries: Countries = [
                 common: "斯威士兰"
         }
     },
-    latlng: [-26.5, 31.5],
+    latlng: [-26.4, 31.4],
         landlocked: true,
             "borders": [
                 "MOZ",
@@ -14680,13 +8530,8 @@ export const countries: Countries = [
                         "independent": true,
                             "status": "officially-assigned",
                                 "unMember": true,
-                                    currencies: {
-        "XOF": {
-            name: "West African CFA franc",
-                "symbol": "Fr"
-        }
-    },
-    "idd": {
+                                    currencies: "West African CFA franc",
+                                        "idd": {
         "root": "+2",
             "suffixes": [
                 "21"
@@ -14885,13 +8730,8 @@ export const countries: Countries = [
                         "independent": true,
                             "status": "officially-assigned",
                                 "unMember": true,
-                                    currencies: {
-        "XOF": {
-            name: "West African CFA franc",
-                "symbol": "Fr"
-        }
-    },
-    "idd": {
+                                    currencies: "West African CFA franc",
+                                        "idd": {
         "root": "+2",
             "suffixes": [
                 "28"
@@ -15879,7 +9719,7 @@ export const countries: Countries = [
                 common: "利比里亚"
         }
     },
-    latlng: [6.5, -9.5],
+    latlng: [6.4, -9.4],
         landlocked: false,
             "borders": [
                 "GIN",
@@ -16162,13 +10002,8 @@ export const countries: Countries = [
                         "independent": true,
                             "status": "officially-assigned",
                                 "unMember": true,
-                                    currencies: {
-        "XOF": {
-            name: "West African CFA franc",
-                "symbol": "Fr"
-        }
-    },
-    "idd": {
+                                    currencies: "West African CFA franc",
+                                        "idd": {
         "root": "+2",
             "suffixes": [
                 "27"
@@ -16579,13 +10414,8 @@ export const countries: Countries = [
                         "independent": true,
                             "status": "officially-assigned",
                                 "unMember": false,
-                                    currencies: {
-        "XOF": {
-            name: "West African CFA franc",
-                "symbol": "Fr"
-        }
-    },
-    "idd": {
+                                    currencies: "West African CFA franc",
+                                        "idd": {
         "root": "+2",
             "suffixes": [
                 "45"
@@ -16602,7 +10432,7 @@ export const countries: Countries = [
             region: "Africa",
                 subregion: "Western Africa",
                     languages: [
-                        "por": "Portuguese",
+                        "Portuguese",
                         "pov": "Upper Guinea Creole"
                     ],
                         "translations": {
@@ -16984,13 +10814,8 @@ export const countries: Countries = [
                         "independent": true,
                             "status": "officially-assigned",
                                 "unMember": true,
-                                    currencies: {
-        "XAF": {
-            name: "Central African CFA franc",
-                "symbol": "Fr"
-        }
-    },
-    "idd": {
+                                    currencies: "Central African CFA franc",
+                                        "idd": {
         "root": "+2",
             "suffixes": [
                 "35"
@@ -17580,7 +11405,7 @@ export const countries: Countries = [
                 common: "留尼旺岛"
         }
     },
-    latlng: [-21.15, 55.5],
+    latlng: [-21.15, 55.4],
         landlocked: false,
             "area": 2511,
                 demonyms: {
@@ -17672,7 +11497,7 @@ export const countries: Countries = [
             region: "Africa",
                 subregion: "Middle Africa",
                     languages: [
-                        "por": "Portuguese"
+                        "Portuguese"
                     ],
                         "translations": {
         "ara": {
@@ -17975,7 +11800,7 @@ export const countries: Countries = [
                 common: "马拉维"
         }
     },
-    latlng: [-13.5, 34],
+    latlng: [-13.4, 34],
         landlocked: true,
             "borders": [
                 "MOZ",
@@ -18263,13 +12088,8 @@ export const countries: Countries = [
                         "independent": true,
                             "status": "officially-assigned",
                                 "unMember": true,
-                                    currencies: {
-        "XAF": {
-            name: "Central African CFA franc",
-                "symbol": "Fr"
-        }
-    },
-    "idd": {
+                                    currencies: "Central African CFA franc",
+                                        "idd": {
         "root": "+2",
             "suffixes": [
                 "42"
@@ -18602,7 +12422,7 @@ export const countries: Countries = [
                 common: "吉布提"
         }
     },
-    latlng: [11.5, 43],
+    latlng: [11.4, 43],
         landlocked: false,
             "borders": [
                 "ERI",
@@ -18903,7 +12723,7 @@ export const countries: Countries = [
             region: "Africa",
                 subregion: "Eastern Africa",
                     languages: [
-                        "por": "Portuguese"
+                        "Portuguese"
                     ],
                         "translations": {
         "ara": {
@@ -19110,7 +12930,7 @@ export const countries: Countries = [
             region: "Americas",
                 subregion: "South America",
                     languages: [
-                        "spa": "Spanish"
+                        "Spanish"
                     ],
                         "translations": {
         "ara": {
@@ -20105,7 +13925,7 @@ export const countries: Countries = [
                 subregion: "South America",
                     languages: [
                         "grn": "Guaraní",
-                        "spa": "Spanish"
+                        "Spanish"
                     ],
                         "translations": {
         "ara": {
@@ -20880,7 +14700,7 @@ export const countries: Countries = [
             region: "Americas",
                 subregion: "Central America",
                     languages: [
-                        "spa": "Spanish"
+                        "Spanish"
                     ],
                         "translations": {
         "ara": {
@@ -21483,7 +15303,7 @@ export const countries: Countries = [
             region: "Americas",
                 subregion: "Central America",
                     languages: [
-                        "spa": "Spanish"
+                        "Spanish"
                     ],
                         "translations": {
         "ara": {
@@ -21587,7 +15407,7 @@ export const countries: Countries = [
                 common: "洪都拉斯"
         }
     },
-    latlng: [15, -86.5],
+    latlng: [15, -86.4],
         landlocked: false,
             "borders": [
                 "GTM",
@@ -21691,7 +15511,7 @@ export const countries: Countries = [
                 subregion: "Caribbean",
                     languages: [
                         "English",
-                        "spa": "Spanish"
+                        "Spanish"
                     ],
                         "translations": {
         "ara": {
@@ -21795,7 +15615,7 @@ export const countries: Countries = [
                 common: "波多黎各"
         }
     },
-    latlng: [18.25, -66.5],
+    latlng: [18.25, -66.4],
         landlocked: false,
             "area": 8870,
                 demonyms: {
@@ -22684,7 +16504,7 @@ export const countries: Countries = [
                         "aym": "Aymara",
                         "grn": "Guaraní",
                         "que": "Quechua",
-                        "spa": "Spanish"
+                        "Spanish"
                     ],
                         "translations": {
         "ara": {
@@ -22886,7 +16706,7 @@ export const countries: Countries = [
             region: "Americas",
                 subregion: "South America",
                     languages: [
-                        "spa": "Spanish"
+                        "Spanish"
                     ],
                         "translations": {
         "ara": {
@@ -23807,7 +17627,7 @@ export const countries: Countries = [
             region: "Americas",
                 subregion: "North America",
                     languages: [
-                        "spa": "Spanish"
+                        "Spanish"
                     ],
                         "translations": {
         "ara": {
@@ -24402,7 +18222,7 @@ export const countries: Countries = [
             region: "Americas",
                 subregion: "Caribbean",
                     languages: [
-                        "spa": "Spanish"
+                        "Spanish"
                     ],
                         "translations": {
         "ara": {
@@ -24601,7 +18421,7 @@ export const countries: Countries = [
             region: "Americas",
                 subregion: "Central America",
                     languages: [
-                        "spa": "Spanish"
+                        "Spanish"
                     ],
                         "translations": {
         "ara": {
@@ -24705,7 +18525,7 @@ export const countries: Countries = [
                 common: "危地马拉"
         }
     },
-    latlng: [15.5, -90.25],
+    latlng: [15.4, -90.25],
         landlocked: false,
             "borders": [
                 "BLZ",
@@ -24805,7 +18625,7 @@ export const countries: Countries = [
             region: "Americas",
                 subregion: "South America",
                     languages: [
-                        "spa": "Spanish"
+                        "Spanish"
                     ],
                         "translations": {
         "ara": {
@@ -24909,7 +18729,7 @@ export const countries: Countries = [
                 common: "厄瓜多尔"
         }
     },
-    latlng: [-2, -77.5],
+    latlng: [-2, -77.4],
         landlocked: false,
             "borders": [
                 "COL",
@@ -24958,7 +18778,7 @@ export const countries: Countries = [
     },
 
     capitalInfo: {
-        latlng: [-0.22, -78.5]
+        latlng: [-0.22, -78.4]
     },
 
 
@@ -25496,7 +19316,7 @@ export const countries: Countries = [
                 common: "圣巴泰勒米"
         }
     },
-    latlng: [18.5, -63.41666666],
+    latlng: [18.4, -63.41666666],
         landlocked: false,
             "area": 21,
                 demonyms: {
@@ -25790,7 +19610,7 @@ export const countries: Countries = [
                 subregion: "South America",
                     languages: [
                         "grn": "Guaraní",
-                        "spa": "Spanish"
+                        "Spanish"
                     ],
                         "translations": {
         "ara": {
@@ -26183,7 +20003,7 @@ export const countries: Countries = [
             region: "Americas",
                 subregion: "South America",
                     languages: [
-                        "por": "Portuguese"
+                        "Portuguese"
                     ],
                         "translations": {
         "ara": {
@@ -26403,7 +20223,7 @@ export const countries: Countries = [
                     languages: [
                         "bjz": "Belizean Creole",
                         "English",
-                        "spa": "Spanish"
+                        "Spanish"
                     ],
                         "translations": {
         "ara": {
@@ -26603,7 +20423,7 @@ export const countries: Countries = [
             region: "Americas",
                 subregion: "South America",
                     languages: [
-                        "spa": "Spanish"
+                        "Spanish"
                     ],
                         "translations": {
         "ara": {
@@ -26806,7 +20626,7 @@ export const countries: Countries = [
             region: "Americas",
                 subregion: "Central America",
                     languages: [
-                        "spa": "Spanish"
+                        "Spanish"
                     ],
                         "translations": {
         "ara": {
@@ -27017,7 +20837,7 @@ export const countries: Countries = [
                     languages: [
                         "aym": "Aymara",
                         "que": "Quechua",
-                        "spa": "Spanish"
+                        "Spanish"
                     ],
                         "translations": {
         "ara": {
@@ -27919,7 +21739,7 @@ export const countries: Countries = [
                 common: "牙买加"
         }
     },
-    latlng: [18.25, -77.5],
+    latlng: [18.25, -77.4],
         landlocked: false,
             "area": 10991,
                 demonyms: {
@@ -28117,7 +21937,7 @@ export const countries: Countries = [
                 common: "阿鲁巴"
         }
     },
-    latlng: [12.5, -69.96666666],
+    latlng: [12.4, -69.96666666],
         landlocked: false,
             "area": 180,
                 demonyms: {
@@ -28400,7 +22220,7 @@ export const countries: Countries = [
             region: "Americas",
                 subregion: "Caribbean",
                     languages: [
-                        "spa": "Spanish"
+                        "Spanish"
                     ],
                         "translations": {
         "ara": {
@@ -28504,7 +22324,7 @@ export const countries: Countries = [
                 common: "古巴"
         }
     },
-    latlng: [21.5, -80],
+    latlng: [21.4, -80],
         landlocked: false,
             "area": 109884,
                 demonyms: {
@@ -28597,7 +22417,7 @@ export const countries: Countries = [
             region: "Americas",
                 subregion: "South America",
                     languages: [
-                        "spa": "Spanish"
+                        "Spanish"
                     ],
                         "translations": {
         "ara": {
@@ -29397,7 +23217,7 @@ export const countries: Countries = [
             region: "Americas",
                 subregion: "Central America",
                     languages: [
-                        "spa": "Spanish"
+                        "Spanish"
                     ],
                         "translations": {
         "ara": {
@@ -29787,7 +23607,7 @@ export const countries: Countries = [
             region: "Americas",
                 subregion: "Central America",
                     languages: [
-                        "spa": "Spanish"
+                        "Spanish"
                     ],
                         "translations": {
         "ara": {
@@ -30662,7 +24482,7 @@ export const countries: Countries = [
                 common: "韩国"
         }
     },
-    latlng: [37, 127.5],
+    latlng: [37, 127.4],
         landlocked: false,
             "borders": [
                 "PRK"
@@ -30863,7 +24683,7 @@ export const countries: Countries = [
                 common: "تائیوان"
         }
     },
-    latlng: [23.5, 121],
+    latlng: [23.4, 121],
         landlocked: false,
             "area": 36193,
                 demonyms: {
@@ -31893,7 +25713,7 @@ export const countries: Countries = [
                 common: "格鲁吉亚"
         }
     },
-    latlng: [42, 43.5],
+    latlng: [42, 43.4],
         landlocked: false,
             "borders": [
                 "ARM",
@@ -32358,7 +26178,7 @@ export const countries: Countries = [
     },
 
     capitalInfo: {
-        latlng: [40.17, 44.5]
+        latlng: [40.17, 44.4]
     },
 
 
@@ -33174,7 +26994,7 @@ export const countries: Countries = [
     },
 
     capitalInfo: {
-        latlng: [33.87, 35.5]
+        latlng: [33.87, 35.4]
     },
 
 
@@ -33728,7 +27548,7 @@ export const countries: Countries = [
                 common: "卡塔尔"
         }
     },
-    latlng: [25.5, 51.25],
+    latlng: [25.4, 51.25],
         landlocked: false,
             "borders": [
                 "SAU"
@@ -34774,7 +28594,7 @@ export const countries: Countries = [
                 common: "科威特"
         }
     },
-    latlng: [29.5, 45.75],
+    latlng: [29.4, 45.75],
         landlocked: false,
             "borders": [
                 "IRQ",
@@ -35028,7 +28848,7 @@ export const countries: Countries = [
     },
 
     capitalInfo: {
-        latlng: [33.5, 36.3]
+        latlng: [33.4, 36.3]
     }
 },
 {
@@ -36210,7 +30030,7 @@ export const countries: Countries = [
                 common: "不丹"
         }
     },
-    latlng: [27.5, 90.5],
+    latlng: [27.4, 90.4],
         landlocked: true,
             "borders": [
                 "CHN",
@@ -37559,7 +31379,7 @@ export const countries: Countries = [
             region: "Asia",
                 subregion: "South-Eastern Asia",
                     languages: [
-                        "por": "Portuguese",
+                        "Portuguese",
                         "tet": "Tetum"
                     ],
                         "translations": {
@@ -38492,7 +32312,7 @@ export const countries: Countries = [
                 common: "文莱"
         }
     },
-    latlng: [4.5, 114.66666666],
+    latlng: [4.4, 114.66666666],
         landlocked: false,
             "borders": [
                 "MYS"
@@ -38903,7 +32723,7 @@ export const countries: Countries = [
                 common: "阿塞拜疆"
         }
     },
-    latlng: [40.5, 47.5],
+    latlng: [40.4, 47.4],
         landlocked: true,
             "borders": [
                 "ARM",
@@ -39308,7 +33128,7 @@ export const countries: Countries = [
                 common: "马来西亚"
         }
     },
-    latlng: [2.5, 112.5],
+    latlng: [2.4, 112.4],
         landlocked: false,
             "borders": [
                 "BRN",
@@ -40647,7 +34467,7 @@ export const countries: Countries = [
         region: "Asia",
             subregion: "Eastern Asia",
                 languages: [
-                    "por": "Portuguese",
+                    "Portuguese",
                     "zho": "Chinese"
                 ],
                     "translations": {
@@ -40943,7 +34763,7 @@ export const countries: Countries = [
                 common: "新喀里多尼亚"
         }
     },
-    latlng: [-21.5, 165.5],
+    latlng: [-21.4, 165.4],
         landlocked: false,
             "area": 18575,
                 demonyms: {
@@ -43512,7 +37332,7 @@ export const countries: Countries = [
                 common: "圣诞岛"
         }
     },
-    latlng: [-10.5, 105.66666666],
+    latlng: [-10.4, 105.66666666],
         landlocked: false,
             "area": 135,
                 demonyms: {
@@ -43609,7 +37429,7 @@ export const countries: Countries = [
                     languages: [
                         "cha": "Chamorro",
                         "English",
-                        "spa": "Spanish"
+                        "Spanish"
                     ],
                         "translations": {
         "ara": {
@@ -45117,7 +38937,7 @@ export const countries: Countries = [
                 common: "帕劳"
         }
     },
-    latlng: [7.5, 134.5],
+    latlng: [7.4, 134.4],
         landlocked: false,
             "area": 459,
                 demonyms: {
@@ -45160,7 +38980,7 @@ export const countries: Countries = [
     },
 
     capitalInfo: {
-        latlng: [7.5, 134.62]
+        latlng: [7.4, 134.62]
     },
 
 

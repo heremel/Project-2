@@ -65,7 +65,7 @@ import { Weathers } from "../App";
 // 	],
 // };
 
-interface ListProps {
+export interface ListProps {
 	countries: Countries,
 	weathers: Weathers
 }
