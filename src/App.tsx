@@ -17,10 +17,10 @@ export interface Country {
   latlng: [number, number],
   demonyms: { // va servir pour les plats
     eng: {
-      fem: string,
+      fem?: string,
       masc: string,
     },
-    fra: {
+    fra?: {
       fem: string,
       masc: string,
     }
