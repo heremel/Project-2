@@ -1,5 +1,8 @@
 import './App.css'
-import ListOfItems from './components/ListOfItems';
+//import ListOfItems from './components/ListOfItems';
+import MainArea from './components/MainArea';
+import Filters from './components/Filters';
+import NavBar from './components/NavBar';
 import { countries } from './databases/countries';
 import { weathers } from './databases/weather';
 
@@ -83,7 +86,9 @@ function App() {
 
   return (
     <>
-      <ListOfItems countries={countries} weathers={weathers} />
+      <Filters />
+      <MainArea countries={countries} weathers={weathers} />
+      <NavBar />
     </>
   )
 }

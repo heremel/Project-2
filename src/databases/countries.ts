@@ -3256,1262 +3256,331 @@ export const countries: Countries = [
         capitalInfo: {
             latlng: [12.37, -1.52]
         }
-    }/*,
-{
-    name: {
-        common: "Eritrea",
+    },
+    {
+        name: {
+            common: "Eritrea",
             official: "State of Eritrea",
-                "nativeName": {
-            "ara": {
-                official: "دولة إرتريا",
-                    common: "إرتريا‎"
-            },
-            eng: {
-                official: "State of Eritrea",
-                    common: "Eritrea"
-            },
-            "tir": {
-                official: "ሃገረ ኤርትራ",
-                    common: "ኤርትራ"
-            }
-        }
-    },
-    "tld": [
-        ".er"
-    ],
-        "cca2": "ER",
-            "ccn3": "232",
-                "cca3": "ERI",
-                    "cioc": "ERI",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "ERN": {
-            name: "Eritrean nakfa",
-                "symbol": "Nfk"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "91"
-            ]
-    },
-    capital: [
-        "Asmara"
-    ],
-        "altSpellings": [
-            "ER",
-            "State of Eritrea",
-            "ሃገረ ኤርትራ",
-            "Dawlat Iritriyá",
-            "ʾErtrā",
-            "Iritriyā"
+
+        },
+
+        currencies: "Eritrean nakfa",
+        capital: [
+            "Asmara"
         ],
-            region: "Africa",
-                subregion: "Eastern Africa",
-                    languages: [
-                        "Arabic",
-                        "English",
-                        "tir": "Tigrinya"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "دولة إريتريا",
-                common: "إريتريا"
-        },
-        "bre": {
-            official: "Stad Eritrea",
-                common: "Eritrea"
-        },
-        "ces": {
-            official: "Stát Eritrea",
-                common: "Eritrea"
-        },
-        "cym": {
-            official: "Gwladwriaeth Eritrea",
-                common: "Eritrea"
-        },
-        "deu": {
-            official: "Staat Eritrea",
-                common: "Eritrea"
-        },
-        "est": {
-            official: "Eritrea Riik",
-                common: "Eritrea"
-        },
-        "fin": {
-            official: "Eritrean valtio",
-                common: "Eritrea"
-        },
-        fra: {
-            official: "État d'Érythrée",
-                common: "Érythrée"
-        },
-        "hrv": {
-            official: "Država Eritreji",
-                common: "Eritreja"
-        },
-        "hun": {
-            official: "Eritrea",
-                common: "Eritrea"
-        },
-        "ita": {
-            official: "Stato di Eritrea",
-                common: "Eritrea"
-        },
-        "jpn": {
-            official: "エリトリア国",
-                common: "エリトリア"
-        },
-        "kor": {
-            official: "에리트레아국",
-                common: "에리트레아"
-        },
-        "nld": {
-            official: "Staat Eritrea",
-                common: "Eritrea"
-        },
-        "per": {
-            official: "جمهوری اریتره",
-                common: "اریتره"
-        },
-        "pol": {
-            official: "Państwo Erytrea",
-                common: "Erytrea"
-        },
-        "por": {
-            official: "Estado da Eritreia",
-                common: "Eritreia"
-        },
-        "rus": {
-            official: "Государство Эритрея",
-                common: "Эритрея"
-        },
-        "slk": {
-            official: "Eritrejský štát",
-                common: "Eritrea"
-        },
-        "spa": {
-            official: "Estado de Eritrea",
-                common: "Eritrea"
-        },
-        "srp": {
-            official: "Држава Еритреја",
-                common: "Еритреја"
-        },
-        "swe": {
-            official: "Staten Eritrea",
-                common: "Eritrea"
-        },
-        "tur": {
-            official: "Eritre Devleti",
-                common: "Eritre"
-        },
-        "urd": {
-            official: "ریاستِ ارتریا",
-                common: "ارتریا"
-        },
-        "zho": {
-            official: "厄立特里亚",
-                common: "厄立特里亚"
-        }
-    },
-    latlng: [15, 39],
+
+        region: "Africa",
+        subregion: "Eastern Africa",
+        languages: [
+            "Arabic",
+            "English",
+            "Tigrinya"
+        ],
+
+        latlng: [15, 39],
         landlocked: false,
-            "borders": [
-                "DJI",
-                "ETH",
-                "SDN"
-            ],
-                "area": 117600,
-                    demonyms: {
-        eng: {
-            fem: "Eritrean",
+
+        demonyms: {
+            eng: {
+                fem: "Eritrean",
                 masc: "Eritrean"
-        },
-        fra: {
-            fem: "Érythréenne",
+            },
+            fra: {
+                fem: "Érythréenne",
                 masc: "Érythréen"
-        }
-    },
-    flag: "🇪🇷",
+            }
+        },
+        flag: "🇪🇷",
         maps: {
-        googleMaps: "https://goo.gl/maps/HRyqUpnPwwG6jY5j6",
+            googleMaps: "https://goo.gl/maps/HRyqUpnPwwG6jY5j6",
             openStreetMaps: "https://www.openstreetmap.org/relation/296961"
-    },
-    population: 5352000,
+        },
+        population: 5352000,
         gini: -1,
-            "fifa": "ERI",
-                "car": {
-        "signs": [
-            "ER"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+03:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/er.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/er.png",
             svg: "https://flagcdn.com/er.svg",
-                alt: "The flag of Eritrea comprises three triangles — a large red isosceles triangle with its base spanning the hoist end and its apex at the midpoint on the fly end, and a green and blue right-angled triangle above and beneath the red triangle. On the hoist side of the red triangle is a golden vertical olive branch encircled by a golden olive wreath."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/er.png",
+            alt: "The flag of Eritrea comprises three triangles — a large red isosceles triangle with its base spanning the hoist end and its apex at the midpoint on the fly end, and a green and blue right-angled triangle above and beneath the red triangle. On the hoist side of the red triangle is a golden vertical olive branch encircled by a golden olive wreath."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/er.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/er.svg"
-    },
+        },
 
-    capitalInfo: {
-        latlng: [15.33, 38.93]
-    }
-},
-{
-    name: {
-        common: "Tanzania",
+        capitalInfo: {
+            latlng: [15.33, 38.93]
+        }
+    },
+    {
+        name: {
+            common: "Tanzania",
             official: "United Republic of Tanzania",
-                "nativeName": {
-            eng: {
-                official: "United Republic of Tanzania",
-                    common: "Tanzania"
-            },
-            "swa": {
-                official: "Jamhuri ya Muungano wa Tanzania",
-                    common: "Tanzania"
-            }
-        }
-    },
-    "tld": [
-        ".tz"
-    ],
-        "cca2": "TZ",
-            "ccn3": "834",
-                "cca3": "TZA",
-                    "cioc": "TAN",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "TZS": {
-            name: "Tanzanian shilling",
-                "symbol": "Sh"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "55"
-            ]
-    },
-    capital: [
-        "Dodoma"
-    ],
-        "altSpellings": [
-            "TZ",
-            "Tanzania, United Republic of",
-            "United Republic of Tanzania",
-            "Jamhuri ya Muungano wa Tanzania"
+
+        },
+
+        currencies: "Tanzanian shilling",
+        capital: [
+            "Dodoma"
         ],
-            region: "Africa",
-                subregion: "Eastern Africa",
-                    languages: [
-                        "English",
-                        "swa": "Swahili"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية تنزانيا الاتحادية",
-                common: "تنزانيا"
-        },
-        "bre": {
-            official: "Republik Unanet Tanzania",
-                common: "Tanzania"
-        },
-        "ces": {
-            official: "Sjednocená tanzanská republika",
-                common: "Tanzanie"
-        },
-        "cym": {
-            official: "United Republic of Tanzania",
-                common: "Tanzania"
-        },
-        "deu": {
-            official: "Vereinigte Republik Tansania",
-                common: "Tansania"
-        },
-        "est": {
-            official: "Tansaania Ühendvabariik",
-                common: "Tansaania"
-        },
-        "fin": {
-            official: "Tansanian yhdistynyt tasavalta",
-                common: "Tansania"
-        },
-        fra: {
-            official: "République -Unie de Tanzanie",
-                common: "Tanzanie"
-        },
-        "hrv": {
-            official: "Ujedinjena Republika Tanzanija",
-                common: "Tanzanija"
-        },
-        "hun": {
-            official: "Tádzsik Köztársaság",
-                common: "Tádzsikisztán"
-        },
-        "ita": {
-            official: "Repubblica Unita di Tanzania",
-                common: "Tanzania"
-        },
-        "jpn": {
-            official: "タンザニア連合共和国",
-                common: "タンザニア"
-        },
-        "kor": {
-            official: "탄자니아 연합 공화국",
-                common: "탄자니아"
-        },
-        "nld": {
-            official: "Verenigde Republiek Tanzania",
-                common: "Tanzania"
-        },
-        "per": {
-            official: "جمهوری متحد تانزانیا",
-                common: "تانزانیا"
-        },
-        "pol": {
-            official: "Zjednoczona Republika Tanzanii",
-                common: "Tanzania"
-        },
-        "por": {
-            official: "República Unida da Tanzânia",
-                common: "Tanzânia"
-        },
-        "rus": {
-            official: "Объединенная Республика Танзания",
-                common: "Танзания"
-        },
-        "slk": {
-            official: "Tanzánijská zjednotená republika",
-                common: "Tanzánia"
-        },
-        "spa": {
-            official: "República Unida de Tanzania",
-                common: "Tanzania"
-        },
-        "srp": {
-            official: "Уједињена Република Танзанија",
-                common: "Танзанија"
-        },
-        "swe": {
-            official: "Förenade republiken Tanzania",
-                common: "Tanzania"
-        },
-        "tur": {
-            official: "Tanzanya Birleşik Cumhuriyeti",
-                common: "Tanzanya"
-        },
-        "urd": {
-            official: "متحدہ جمہوریہ تنزانیہ",
-                common: "تنزانیہ"
-        },
-        "zho": {
-            official: "坦桑尼亚联合共和国",
-                common: "坦桑尼亚"
-        }
-    },
-    latlng: [-6, 35],
+
+        region: "Africa",
+        subregion: "Eastern Africa",
+        languages: [
+            "English",
+            "Swahili"
+        ],
+
+        latlng: [-6, 35],
         landlocked: false,
-            "borders": [
-                "BDI",
-                "COD",
-                "KEN",
-                "MWI",
-                "MOZ",
-                "RWA",
-                "UGA",
-                "ZMB"
-            ],
-                "area": 945087,
-                    demonyms: {
-        eng: {
-            fem: "Tanzanian",
+
+        demonyms: {
+            eng: {
+                fem: "Tanzanian",
                 masc: "Tanzanian"
-        },
-        fra: {
-            fem: "Tanzanienne",
+            },
+            fra: {
+                fem: "Tanzanienne",
                 masc: "Tanzanien"
-        }
-    },
-    flag: "🇹🇿",
+            }
+        },
+        flag: "🇹🇿",
         maps: {
-        googleMaps: "https://goo.gl/maps/NWYMqZYXte4zGZ2Q8",
+            googleMaps: "https://goo.gl/maps/NWYMqZYXte4zGZ2Q8",
             openStreetMaps: "https://www.openstreetmap.org/relation/195270"
-    },
-    population: 59734213,
+        },
+        population: 59734213,
         gini: 40.5,
-        , "fifa": "TAN",
-        "car": {
-        "signs": [
-            "EAT"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC+03:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/tz.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/tz.png",
             svg: "https://flagcdn.com/tz.svg",
-                alt: "The flag of Tanzania features a yellow-edged black diagonal band that extends from the lower hoist-side corner to the upper fly-side corner of the field. Above and beneath this band are a green and light blue triangle respectively."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/tz.png",
+            alt: "The flag of Tanzania features a yellow-edged black diagonal band that extends from the lower hoist-side corner to the upper fly-side corner of the field. Above and beneath this band are a green and light blue triangle respectively."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/tz.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/tz.svg"
-    },
+        },
 
-    capitalInfo: {
-        latlng: [-6.16, 35.75]
-    }
-},
-{
-    name: {
-        common: "Algeria",
+        capitalInfo: {
+            latlng: [-6.16, 35.75]
+        }
+    },
+    {
+        name: {
+            common: "Algeria",
             official: "People's Democratic Republic of Algeria",
-                "nativeName": {
-            "ara": {
-                official: "الجمهورية الديمقراطية الشعبية الجزائرية",
-                    common: "الجزائر"
-            }
-        }
-    },
-    "tld": [
-        ".dz",
-        "الجزائر."
-    ],
-        "cca2": "DZ",
-            "ccn3": "012",
-                "cca3": "DZA",
-                    "cioc": "ALG",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "DZD": {
-            name: "Algerian dinar",
-                "symbol": "د.ج"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "13"
-            ]
-    },
-    capital: [
-        "Algiers"
-    ],
-        "altSpellings": [
-            "DZ",
-            "Dzayer",
-            "Algérie"
+
+        },
+
+        currencies: "Algerian dinar",
+        capital: [
+            "Algiers"
         ],
-            region: "Africa",
-                subregion: "Northern Africa",
-                    languages: [
-                        "Arabic"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "الجمهورية الديمقراطية الشعبية الجزائرية",
-                common: "الجزائر"
-        },
-        "bre": {
-            official: "Republik Aljerian Demokratel ha Poblel",
-                common: "Aljeria"
-        },
-        "ces": {
-            official: "Alžírská demokratická a lidová republika",
-                common: "Alžírsko"
-        },
-        "cym": {
-            official: "Gweriniaeth Ddemocrataidd Pobl Algeria",
-                common: "Algeria"
-        },
-        "deu": {
-            official: "Demokratische Volksrepublik Algerien",
-                common: "Algerien"
-        },
-        "est": {
-            official: "Alžeeria Demokraatlik Rahvavabariik",
-                common: "Alžeeria"
-        },
-        "fin": {
-            official: "Algerian demokraattinen kansantasavalta",
-                common: "Algeria"
-        },
-        fra: {
-            official: "République démocratique et populaire d'Algérie",
-                common: "Algérie"
-        },
-        "hrv": {
-            official: "Narodna Demokratska Republika Alžir",
-                common: "Alžir"
-        },
-        "hun": {
-            official: "Algériai Népi Demokratikus Köztársaság",
-                common: "Algéria"
-        },
-        "ita": {
-            official: "Repubblica popolare democratica di Algeria",
-                common: "Algeria"
-        },
-        "jpn": {
-            official: "アルジェリア人民民主共和国",
-                common: "アルジェリア"
-        },
-        "kor": {
-            official: "알제리 인민 민주 공화국",
-                common: "알제리"
-        },
-        "nld": {
-            official: "Democratische Volksrepubliek Algerije",
-                common: "Algerije"
-        },
-        "per": {
-            official: "جمهوری دموکراتیک خلق الجزایر",
-                common: "الجزایر"
-        },
-        "pol": {
-            official: "Algierska Republika Ludowo-Demokratyczna",
-                common: "Algieria"
-        },
-        "por": {
-            official: "República Argelina Democrática e Popular",
-                common: "Argélia"
-        },
-        "rus": {
-            official: "Народно-Демократическая Республика Алжир",
-                common: "Алжир"
-        },
-        "slk": {
-            official: "Alžírska demokratická ľudová republika",
-                common: "Alžírsko"
-        },
-        "spa": {
-            official: "República Argelina Democrática y Popular",
-                common: "Argelia"
-        },
-        "srp": {
-            official: "Народна Демократска Република Алжир",
-                common: "Алжир"
-        },
-        "swe": {
-            official: "Demokratiska folkrepubliken Algeriet",
-                common: "Algeriet"
-        },
-        "tur": {
-            official: "Cezayir Demokratik Halk Cumhuriyeti",
-                common: "Cezayir"
-        },
-        "urd": {
-            official: "عوامی جمہوری جمہوریہ الجزائر",
-                common: "الجزائر"
-        },
-        "zho": {
-            official: "阿尔及利亚人民民主共和国",
-                common: "阿尔及利亚"
-        }
-    },
-    latlng: [28, 3],
+
+        region: "Africa",
+        subregion: "Northern Africa",
+        languages: [
+            "Arabic"
+        ],
+
+        latlng: [28, 3],
         landlocked: false,
-            "borders": [
-                "TUN",
-                "LBY",
-                "NER",
-                "ESH",
-                "MRT",
-                "MLI",
-                "MAR"
-            ],
-                "area": 2381741,
-                    demonyms: {
-        eng: {
-            fem: "Algerian",
-                masc: "Algerian"
-        },
-        fra: {
-            fem: "Algérienne",
-                masc: "Algérien"
-        }
-    },
-    flag: "🇩🇿",
-        maps: {
-        googleMaps: "https://goo.gl/maps/RsAyAfyaiNVb8DpW8",
-            openStreetMaps: "https://www.openstreetmap.org/relation/192756"
-    },
-    population: 44700000,
-        gini: 27.6,
-        , "fifa": "ALG",
-        "car": {
-        "signs": [
-            "DZ"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/dz.png",
-            svg: "https://flagcdn.com/dz.svg",
-                alt: "The flag of Algeria features two equal vertical bands of green and white. A five-pointed red star within a fly-side facing red crescent is centered over the two-color boundary."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/dz.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/dz.svg"
-    },
 
-    capitalInfo: {
-        latlng: [36.75, 3.05]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Mauritania",
-            official: "Islamic Republic of Mauritania",
-                "nativeName": {
-            "ara": {
-                official: "الجمهورية الإسلامية الموريتانية",
-                    common: "موريتانيا"
-            }
-        }
-    },
-    "tld": [
-        ".mr"
-    ],
-        "cca2": "MR",
-            "ccn3": "478",
-                "cca3": "MRT",
-                    "cioc": "MTN",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "MRU": {
-            name: "Mauritanian ouguiya",
-                "symbol": "UM"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "22"
-            ]
-    },
-    capital: [
-        "Nouakchott"
-    ],
-        "altSpellings": [
-            "MR",
-            "Islamic Republic of Mauritania",
-            "al-Jumhūriyyah al-ʾIslāmiyyah al-Mūrītāniyyah"
-        ],
-            region: "Africa",
-                subregion: "Western Africa",
-                    languages: [
-                        "Arabic"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "الجمهورية الإسلامية الموريتانية",
-                common: "موريتانيا"
-        },
-        "bre": {
-            official: "Republik islamek Maouritania",
-                common: "Maouritania"
-        },
-        "ces": {
-            official: "Mauritánská islámská republika",
-                common: "Mauritánie"
-        },
-        "cym": {
-            official: "Islamic Republic of Mauritania",
-                common: "Mauritania"
-        },
-        "deu": {
-            official: "Islamische Republik Mauretanien",
-                common: "Mauretanien"
-        },
-        "est": {
-            official: "Mauritaania Islamivabariik",
-                common: "Mauritaania"
-        },
-        "fin": {
-            official: "Mauritanian islamilainen tasavalta",
-                common: "Mauritania"
-        },
-        fra: {
-            official: "République islamique de Mauritanie",
-                common: "Mauritanie"
-        },
-        "hrv": {
-            official: "Islamska Republika Mauritanija",
-                common: "Mauritanija"
-        },
-        "hun": {
-            official: "Mauritániai Iszlám Köztársaság",
-                common: "Mauritánia"
-        },
-        "ita": {
-            official: "Repubblica islamica di Mauritania",
-                common: "Mauritania"
-        },
-        "jpn": {
-            official: "モーリタニア·イスラム共和国",
-                common: "モーリタニア"
-        },
-        "kor": {
-            official: "모리타니 이슬람 공화국",
-                common: "모리타니"
-        },
-        "nld": {
-            official: "Islamitische Republiek Mauritanië",
-                common: "Mauritanië"
-        },
-        "per": {
-            official: "جمهوری اسلامی موریتانی",
-                common: "موریتانی"
-        },
-        "pol": {
-            official: "Islamska Republika Mauretańska",
-                common: "Mauretania"
-        },
-        "por": {
-            official: "República Islâmica da Mauritânia",
-                common: "Mauritânia"
-        },
-        "rus": {
-            official: "Исламская Республика Мавритания",
-                common: "Мавритания"
-        },
-        "slk": {
-            official: "Mauritánska islamská republika",
-                common: "Mauritánia"
-        },
-        "spa": {
-            official: "República Islámica de Mauritania",
-                common: "Mauritania"
-        },
-        "srp": {
-            official: "Исламска Република Мауританија",
-                common: "Мауританија"
-        },
-        "swe": {
-            official: "Islamiska republiken Mauretanien",
-                common: "Mauretanien"
-        },
-        "tur": {
-            official: "Moritanya İslam Cumhuriyeti",
-                common: "Moritanya"
-        },
-        "urd": {
-            official: "اسلامی جمہوریہ موریتانیہ",
-                common: "موریتانیہ"
-        },
-        "zho": {
-            official: "毛里塔尼亚伊斯兰共和国",
-                common: "毛里塔尼亚"
-        }
-    },
-    latlng: [20, -12],
-        landlocked: false,
-            "borders": [
-                "DZA",
-                "MLI",
-                "SEN",
-                "ESH"
-            ],
-                "area": 1030700,
-                    demonyms: {
-        eng: {
-            fem: "Mauritanian",
-                masc: "Mauritanian"
-        },
-        fra: {
-            fem: "Mauritanienne",
-                masc: "Mauritanien"
-        }
-    },
-    flag: "🇲🇷",
-        maps: {
-        googleMaps: "https://goo.gl/maps/im2MmQ5jFjzxWBks5",
-            openStreetMaps: "https://www.openstreetmap.org/relation/192763"
-    },
-    population: 4649660,
-        gini: 32.6,
-        , "fifa": "MTN",
-        "car": {
-        "signs": [
-            "RIM"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC"
-    ],
-        "continents": [
-            "Africa"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/mr.png",
-            svg: "https://flagcdn.com/mr.svg",
-                alt: "The flag of Mauritania has a green field with a thin red horizontal band at the top and bottom of the field. At the center of the field is a five-pointed yellow star above an upward facing yellow crescent."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/mr.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/mr.svg"
-    },
-
-    capitalInfo: {
-        latlng: [18.07, -15.97]
-    }
-},
-{
-    name: {
-        common: "Sudan",
-            official: "Republic of the Sudan",
-                "nativeName": {
-            "ara": {
-                official: "جمهورية السودان",
-                    common: "السودان"
-            },
+        demonyms: {
             eng: {
-                official: "Republic of the Sudan",
-                    common: "Sudan"
+                fem: "Algerian",
+                masc: "Algerian"
+            },
+            fra: {
+                fem: "Algérienne",
+                masc: "Algérien"
             }
-        }
+        },
+        flag: "🇩🇿",
+        maps: {
+            googleMaps: "https://goo.gl/maps/RsAyAfyaiNVb8DpW8",
+            openStreetMaps: "https://www.openstreetmap.org/relation/192756"
+        },
+        population: 44700000,
+        gini: 27.6,
+
+        flags: {
+            png: "https://flagcdn.com/w320/dz.png",
+            svg: "https://flagcdn.com/dz.svg",
+            alt: "The flag of Algeria features two equal vertical bands of green and white. A five-pointed red star within a fly-side facing red crescent is centered over the two-color boundary."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/dz.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/dz.svg"
+        },
+
+        capitalInfo: {
+            latlng: [36.75, 3.05]
+        },
+
+
+
     },
-    "tld": [
-        ".sd"
-    ],
-        "cca2": "SD",
-            "ccn3": "729",
-                "cca3": "SDN",
-                    "cioc": "SUD",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "SDG": {
-            name: "Sudanese pound",
-                "symbol": "ج.س"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "49"
-            ]
-    },
-    capital: [
-        "Khartoum"
-    ],
-        "altSpellings": [
-            "SD",
-            "Republic of the Sudan",
-            "Jumhūrīyat as-Sūdān"
+    {
+        name: {
+            common: "Mauritania",
+            official: "Islamic Republic of Mauritania",
+
+        },
+
+        currencies: "Mauritanian ouguiya",
+        capital: [
+            "Nouakchott"
         ],
-            region: "Africa",
-                subregion: "Northern Africa",
-                    languages: [
-                        "Arabic",
-                        "English"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية السودان",
-                common: "السودان"
+
+        region: "Africa",
+        subregion: "Western Africa",
+        languages: [
+            "Arabic"
+        ],
+
+        latlng: [20, -12],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Mauritanian",
+                masc: "Mauritanian"
+            },
+            fra: {
+                fem: "Mauritanienne",
+                masc: "Mauritanien"
+            }
         },
-        "bre": {
-            official: "Republik Soudan",
-                common: "Soudan"
+        flag: "🇲🇷",
+        maps: {
+            googleMaps: "https://goo.gl/maps/im2MmQ5jFjzxWBks5",
+            openStreetMaps: "https://www.openstreetmap.org/relation/192763"
         },
-        "ces": {
-            official: "Súdánská republika",
-                common: "Súdán"
+        population: 4649660,
+        gini: 32.6,
+
+        flags: {
+            png: "https://flagcdn.com/w320/mr.png",
+            svg: "https://flagcdn.com/mr.svg",
+            alt: "The flag of Mauritania has a green field with a thin red horizontal band at the top and bottom of the field. At the center of the field is a five-pointed yellow star above an upward facing yellow crescent."
         },
-        "cym": {
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/mr.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/mr.svg"
+        },
+
+        capitalInfo: {
+            latlng: [18.07, -15.97]
+        }
+    },
+    {
+        name: {
+            common: "Sudan",
             official: "Republic of the Sudan",
-                common: "Sudan"
+
         },
-        "deu": {
-            official: "Republik Sudan",
-                common: "Sudan"
-        },
-        "est": {
-            official: "Sudaani Vabariik",
-                common: "Sudaan"
-        },
-        "fin": {
-            official: "Sudanin tasavalta",
-                common: "Sudan"
-        },
-        fra: {
-            official: "République du Soudan",
-                common: "Soudan"
-        },
-        "hrv": {
-            official: "Republika Sudan",
-                common: "Sudan"
-        },
-        "hun": {
-            official: "Szudáni Köztársaság",
-                common: "Szudán"
-        },
-        "ita": {
-            official: "Repubblica del Sudan",
-                common: "Sudan"
-        },
-        "jpn": {
-            official: "スーダン共和国",
-                common: "スーダン"
-        },
-        "kor": {
-            official: "수단 공화국",
-                common: "수단"
-        },
-        "nld": {
-            official: "Republiek Soedan",
-                common: "Soedan"
-        },
-        "per": {
-            official: "جمهوری سودان",
-                common: "سودان"
-        },
-        "pol": {
-            official: "Republika Sudanu",
-                common: "Sudan"
-        },
-        "por": {
-            official: "República do Sudão",
-                common: "Sudão"
-        },
-        "rus": {
-            official: "Республика Судан",
-                common: "Судан"
-        },
-        "slk": {
-            official: "Sudánska republika",
-                common: "Sudán"
-        },
-        "spa": {
-            official: "República de Sudán",
-                common: "Sudán"
-        },
-        "srp": {
-            official: "Република Судан",
-                common: "Судан"
-        },
-        "swe": {
-            official: "Republiken Sudan",
-                common: "Sudan"
-        },
-        "tur": {
-            official: "Sudan Cumhuriyeti",
-                common: "Sudan"
-        },
-        "urd": {
-            official: "جمہوریہ سودان",
-                common: "سودان"
-        },
-        "zho": {
-            official: "苏丹共和国",
-                common: "苏丹"
-        }
-    },
-    latlng: [15, 30],
+
+        currencies: "Sudanese pound",
+        capital: [
+            "Khartoum"
+        ],
+
+        region: "Africa",
+        subregion: "Northern Africa",
+        languages: [
+            "Arabic",
+            "English"
+        ],
+
+        latlng: [15, 30],
         landlocked: false,
-            "borders": [
-                "CAF",
-                "TCD",
-                "EGY",
-                "ERI",
-                "ETH",
-                "LBY",
-                "SSD"
-            ],
-                "area": 1886068,
-                    demonyms: {
-        eng: {
-            fem: "Sudanese",
+
+        demonyms: {
+            eng: {
+                fem: "Sudanese",
                 masc: "Sudanese"
-        },
-        fra: {
-            fem: "Soudanaise",
+            },
+            fra: {
+                fem: "Soudanaise",
                 masc: "Soudanais"
-        }
-    },
-    flag: "🇸🇩",
-        maps: {
-        googleMaps: "https://goo.gl/maps/bNW7YUJCaqR8zcXn7",
-            openStreetMaps: "https://www.openstreetmap.org/relation/192789"
-    },
-    population: 43849269,
-        gini: 34.2,
-        , "fifa": "SDN",
-        "car": {
-        "signs": [
-            "SUD"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+03:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/sd.png",
-            svg: "https://flagcdn.com/sd.svg",
-                alt: "The flag of Sudan is composed of three equal horizontal bands of red, white and black, with a green isosceles triangle superimposed on the hoist side. The green triangle spans about two-fifth the width of the field with its base on the hoist end."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/sd.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/sd.svg"
-    },
-
-    capitalInfo: {
-        latlng: [15.6, 32.53]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Western Sahara",
-            official: "Sahrawi Arab Democratic Republic",
-                "nativeName": {
-            "ber": {
-                official: "Sahrawi Arab Democratic Republic",
-                    common: "Western Sahara"
-            },
-            "mey": {
-                official: "الجمهورية العربية الصحراوية الديمقراطية",
-                    common: "الصحراء الغربية"
-            },
-            "spa": {
-                official: "República Árabe Saharaui Democrática",
-                    common: "Sahara Occidental"
             }
-        }
-    },
-    "tld": [
-        ".eh"
-    ],
-        "cca2": "EH",
-            "ccn3": "732",
-                "cca3": "ESH",
-                    "independent": false,
-                        "status": "officially-assigned",
-                            "unMember": false,
-                                currencies: {
-        "DZD": {
-            name: "Algerian dinar",
-                "symbol": "دج"
         },
-        "MAD": {
-            name: "Moroccan dirham",
-                "symbol": "DH"
-        },
-        "MRU": {
-            name: "Mauritanian ouguiya",
-                "symbol": "UM"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "125288",
-                "125289"
-            ]
-    },
-    capital: [
-        "El Aaiún"
-    ],
-        "altSpellings": [
-            "EH",
-            "Taneẓroft Tutrimt"
-        ],
-            region: "Africa",
-                subregion: "Northern Africa",
-                    languages: [
-                        "Berber",
-                        "mey": "Hassaniya",
-                        "Spanish"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "الجمهورية العربية الصحراوية الديمقراطية",
-                common: "الصحراء الغربية"
-        },
-        "bre": {
-            official: "Republik Arab Saharaoui Demokratel",
-                common: "Sahara ar C'hornôg"
-        },
-        "ces": {
-            official: "Západní Sahara",
-                common: "Západní Sahara"
-        },
-        "cym": {
-            official: "Sahrawi Arab Democratic Republic",
-                common: "Western Sahara"
-        },
-        "deu": {
-            official: "Demokratische Arabische Republik Sahara",
-                common: "Westsahara"
-        },
-        "est": {
-            official: "Lääne-Sahara",
-                common: "Lääne-Sahara"
-        },
-        "fin": {
-            official: "Länsi-Sahara",
-                common: "Länsi-Sahara"
-        },
-        fra: {
-            official: "République arabe sahraouie démocratique",
-                common: "Sahara Occidental"
-        },
-        "hrv": {
-            official: "Sahrawi Arab Demokratska Republika",
-                common: "Zapadna Sahara"
-        },
-        "hun": {
-            official: "Nyugat-Szahara",
-                common: "Nyugat-Szahara"
-        },
-        "ita": {
-            official: "Repubblica Araba Saharawi Democratica",
-                common: "Sahara Occidentale"
-        },
-        "jpn": {
-            official: "サハラアラブ民主共和国",
-                common: "西サハラ"
-        },
-        "kor": {
-            official: "사하라 아랍 민주 공화국",
-                common: "서사하라"
-        },
-        "nld": {
-            official: "Sahrawi Arabische Democratische Republiek",
-                common: "Westelijke Sahara"
-        },
-        "per": {
-            official: "صحرای غربی",
-                common: "صحرای غربی"
-        },
-        "pol": {
-            official: "Saharyjska Arabska Republika Demokratyczna",
-                common: "Sahara Zachodnia"
-        },
-        "por": {
-            official: "República Árabe Saharaui Democrática",
-                common: "Saara Ocidental"
-        },
-        "rus": {
-            official: "Sahrawi Арабская Демократическая Республика",
-                common: "Западная Сахара"
-        },
-        "slk": {
-            official: "Západná Sahara",
-                common: "Západná Sahara"
-        },
-        "spa": {
-            official: "República Árabe Saharaui Democrática",
-                common: "Sahara Occidental"
-        },
-        "srp": {
-            official: "Сахарска Арапска Демократска Република",
-                common: "Сахарска Република"
-        },
-        "swe": {
-            official: "Västsahara",
-                common: "Västsahara"
-        },
-        "tur": {
-            official: "Sahra Demokratik Arap Cumhuriyeti",
-                common: "Sahra Demokratik Arap Cumhuriyeti"
-        },
-        "urd": {
-            official: "صحراوی عرب عوامی جمہوریہ",
-                common: "مغربی صحارا"
-        },
-        "zho": {
-            official: "阿拉伯撒哈拉民主共和国",
-                common: "西撒哈拉"
-        }
-    },
-    latlng: [24.4, -13],
-        landlocked: false,
-            "borders": [
-                "DZA",
-                "MRT",
-                "MAR"
-            ],
-                "area": 266000,
-                    demonyms: {
-        eng: {
-            fem: "Sahrawi",
-                masc: "Sahrawi"
-        }
-    },
-    flag: "🇪🇭",
+        flag: "🇸🇩",
         maps: {
-        googleMaps: "https://goo.gl/maps/7nU3mB69vP6zQp7A8",
+            googleMaps: "https://goo.gl/maps/bNW7YUJCaqR8zcXn7",
+            openStreetMaps: "https://www.openstreetmap.org/relation/192789"
+        },
+        population: 43849269,
+        gini: 34.2,
+
+        flags: {
+            png: "https://flagcdn.com/w320/sd.png",
+            svg: "https://flagcdn.com/sd.svg",
+            alt: "The flag of Sudan is composed of three equal horizontal bands of red, white and black, with a green isosceles triangle superimposed on the hoist side. The green triangle spans about two-fifth the width of the field with its base on the hoist end."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/sd.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/sd.svg"
+        },
+
+        capitalInfo: {
+            latlng: [15.6, 32.53]
+        },
+
+
+
+    },
+    {
+        name: {
+            common: "Western Sahara",
+            official: "Sahrawi Arab Democratic Republic",
+
+        },
+
+        currencies: "Moroccan dirham",
+        capital: [
+            "El Aaiún"
+        ],
+
+        region: "Africa",
+        subregion: "Northern Africa",
+        languages: [
+            "Berber",
+            "Hassaniya",
+            "Spanish"
+        ],
+
+        latlng: [24.4, -13],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Sahrawi",
+                masc: "Sahrawi"
+            }
+        },
+        flag: "🇪🇭",
+        maps: {
+            googleMaps: "https://goo.gl/maps/7nU3mB69vP6zQp7A8",
             openStreetMaps: "https://www.openstreetmap.org/relation/5441968"
-    },
-    population: 510713,
+        },
+        population: 510713,
         gini: -1,
-            "car": {
-        "signs": [
-            ""
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+00:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/eh.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/eh.png",
             svg: "https://flagcdn.com/eh.svg"
-    },
-    coatOfArms: {
+        },
+        coatOfArms: {
 
-    },
+        },
 
-    capitalInfo: {
-        latlng: [-13.28, 27.14]
-    }
-},
+        capitalInfo: {
+            latlng: [-13.28, 27.14]
+        }
+    }/*,
 {
     name: {
         common: "Angola",
@@ -6791,7 +5860,7 @@ export const countries: Countries = [
                         "kon": "Kikongo",
                         "lin": "Lingala",
                         "lua": "Tshiluba",
-                        "swa": "Swahili"
+                        "Swahili"
                     ],
                         "translations": {
         "ara": {
@@ -8826,7 +7895,7 @@ export const countries: Countries = [
                 subregion: "Eastern Africa",
                     languages: [
                         "English",
-                        "swa": "Swahili"
+                        "Swahili"
                     ],
                         "translations": {
         "ara": {
