@@ -5,6 +5,7 @@ import Filters from './components/Filters';
 import NavBar from './components/NavBar';
 import { countries } from './databases/countries';
 import { weathers } from './databases/weather';
+import { useState } from 'react';
 
 export interface Country {
   name: {
@@ -80,14 +81,35 @@ export interface Weather {
   }
 }
 
+export interface Filters {
+  region: "none" | "Europe" | "Africa" | "Americas" | "Asia" | "Oceania";
+  subregion: string;
+  languages: string[];
+  meantempmin: number;
+  meantempmax: number;
+  landlockedshown: boolean
+}
+
 export type Weathers = Weather[]
 
 function App() {
+  const defaultFilters: Filters = {
+    region: "none",
+    subregion: "none",
+    languages: ["none"],
+    meantempmin: -99,
+    meantempmax: 99,
+    landlockedshown: true
+  }
+  const [filters, setFilters] = useState(defaultFilters)
+
+  type MainType = "ListOfItems" | "FilterPage" | "About" | "DetailledItem"
+  const [mainContent, setMainContent] = useState<MainType>("About")
 
   return (
     <>
-      <Filters />
-      <MainArea countries={countries} weathers={weathers} />
+      <Filters filters={filters} setFilters={setFilters} />
+      <MainArea countries={countries} weathers={weathers} mainContent={setMainContent} mainContent={mainContent} />
       <NavBar />
     </>
   )
