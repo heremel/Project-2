@@ -3580,2855 +3580,1216 @@ export const countries: Countries = [
         capitalInfo: {
             latlng: [-13.28, 27.14]
         }
-    }/*,
-{
-    name: {
-        common: "Angola",
+    },
+    {
+        name: {
+            common: "Angola",
             official: "Republic of Angola",
-                "nativeName": {
-            "por": {
-                official: "República de Angola",
-                    common: "Angola"
-            }
-        }
-    },
-    "tld": [
-        ".ao"
-    ],
-        "cca2": "AO",
-            "ccn3": "024",
-                "cca3": "AGO",
-                    "cioc": "ANG",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "AOA": {
-            name: "Angolan kwanza",
-                "symbol": "Kz"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "44"
-            ]
-    },
-    capital: [
-        "Luanda"
-    ],
-        "altSpellings": [
-            "AO",
-            "República de Angola",
-            "ʁɛpublika de an'ɡɔla"
+
+        },
+
+        currencies: "Angolan kwanza",
+        capital: [
+            "Luanda"
         ],
-            region: "Africa",
-                subregion: "Middle Africa",
-                    languages: [
-                        "Portuguese"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "أنغولا",
-                common: "جمهورية أنغولا"
-        },
-        "bre": {
-            official: "Republik Angola",
-                common: "Angola"
-        },
-        "ces": {
-            official: "Angolská republika",
-                common: "Angola"
-        },
-        "cym": {
-            official: "Gweriniaeth Angola",
-                common: "Angola"
-        },
-        "deu": {
-            official: "Republik Angola",
-                common: "Angola"
-        },
-        "est": {
-            official: "Angola Vabariik",
-                common: "Angola"
-        },
-        "fin": {
-            official: "Angolan tasavalta",
-                common: "Angola"
-        },
-        fra: {
-            official: "République d'Angola",
-                common: "Angola"
-        },
-        "hrv": {
-            official: "Republika Angola",
-                common: "Angola"
-        },
-        "hun": {
-            official: "Angola",
-                common: "Angola"
-        },
-        "ita": {
-            official: "Repubblica dell'Angola",
-                common: "Angola"
-        },
-        "jpn": {
-            official: "アンゴラ共和国",
-                common: "アンゴラ"
-        },
-        "kor": {
-            official: "앙골라 공화국",
-                common: "앙골라"
-        },
-        "nld": {
-            official: "Republiek Angola",
-                common: "Angola"
-        },
-        "per": {
-            official: "جمهوری آنگولا",
-                common: "آنگولا"
-        },
-        "pol": {
-            official: "Republika Angoli",
-                common: "Angola"
-        },
-        "por": {
-            official: "República de Angola",
-                common: "Angola"
-        },
-        "rus": {
-            official: "Республика Ангола",
-                common: "Ангола"
-        },
-        "slk": {
-            official: "Angolská republika",
-                common: "Angola"
-        },
-        "spa": {
-            official: "República de Angola",
-                common: "Angola"
-        },
-        "srp": {
-            official: "Република Ангола",
-                common: "Ангола"
-        },
-        "swe": {
-            official: "Republiken Angola",
-                common: "Angola"
-        },
-        "tur": {
-            official: "Angola Cumhuriyeti",
-                common: "Angola"
-        },
-        "urd": {
-            official: "جمہوریہ انگولہ",
-                common: "انگولہ"
-        },
-        "zho": {
-            official: "安哥拉共和国",
-                common: "安哥拉"
-        }
-    },
-    latlng: [-12.4, 18.4],
+
+        region: "Africa",
+        subregion: "Middle Africa",
+        languages: [
+            "Portuguese"
+        ],
+
+        latlng: [-12.4, 18.4],
         landlocked: false,
-            "borders": [
-                "COG",
-                "COD",
-                "ZMB",
-                "NAM"
-            ],
-                "area": 1246700,
-                    demonyms: {
-        eng: {
-            fem: "Angolan",
+
+        demonyms: {
+            eng: {
+                fem: "Angolan",
                 masc: "Angolan"
-        },
-        fra: {
-            fem: "Angolaise",
-                masc: "Angolais"
-        }
-    },
-    flag: "🇦🇴",
-        maps: {
-        googleMaps: "https://goo.gl/maps/q42Qbf1BmQL3fuZg9",
-            openStreetMaps: "https://www.openstreetmap.org/relation/195267"
-    },
-    population: 32866268,
-        gini: 51.3,
-        , "fifa": "ANG",
-        "car": {
-        "signs": [
-            "ANG"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/ao.png",
-            svg: "https://flagcdn.com/ao.svg",
-                alt: "The flag of Angola features two equal horizontal bands of red and black, with a yellow emblem at its centre. This emblem consists of a five-pointed star within the hoist-side facing half of a cogwheel that is crossed on its lower end by a machete."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/ao.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/ao.svg"
-    },
-
-    capitalInfo: {
-        latlng: [-8.83, 13.22]
-    }
-},
-{
-    name: {
-        common: "Ivory Coast",
-            official: "Republic of Côte d'Ivoire",
-                "nativeName": {
+            },
             fra: {
-                official: "République de Côte d'Ivoire",
-                    common: "Côte d'Ivoire"
+                fem: "Angolaise",
+                masc: "Angolais"
             }
-        }
-    },
-    "tld": [
-        ".ci"
-    ],
-        "cca2": "CI",
-            "ccn3": "384",
-                "cca3": "CIV",
-                    "cioc": "CIV",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: "West African CFA franc",
-
-                                        capital: [
-                                            "Yamoussoukro"
-                                        ],
-
-                                            region: "Africa",
-                                                subregion: "Western Africa",
-                                                    languages: [
-                                                        "French"
-                                                    ],
-
-                                                        latlng: [8, -5],
-                                                            landlocked: false,
-
-                                                                demonyms: {
-        eng: {
-            fem: "Ivorian",
-                masc: "Ivorian"
         },
-        fra: {
-            fem: "Ivoirienne",
-                masc: "Ivoirien"
+        flag: "🇦🇴",
+        maps: {
+            googleMaps: "https://goo.gl/maps/q42Qbf1BmQL3fuZg9",
+            openStreetMaps: "https://www.openstreetmap.org/relation/195267"
+        },
+        population: 32866268,
+        gini: 51.3,
+
+        flags: {
+            png: "https://flagcdn.com/w320/ao.png",
+            svg: "https://flagcdn.com/ao.svg",
+            alt: "The flag of Angola features two equal horizontal bands of red and black, with a yellow emblem at its centre. This emblem consists of a five-pointed star within the hoist-side facing half of a cogwheel that is crossed on its lower end by a machete."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/ao.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/ao.svg"
+        },
+
+        capitalInfo: {
+            latlng: [-8.83, 13.22]
         }
     },
-    flag: "🇨🇮",
+    {
+        name: {
+            common: "Ivory Coast",
+            official: "Republic of Côte d'Ivoire",
+
+        },
+
+        currencies: "West African CFA franc",
+
+        capital: [
+            "Yamoussoukro"
+        ],
+
+        region: "Africa",
+        subregion: "Western Africa",
+        languages: [
+            "French"
+        ],
+
+        latlng: [8, -5],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Ivorian",
+                masc: "Ivorian"
+            },
+            fra: {
+                fem: "Ivoirienne",
+                masc: "Ivoirien"
+            }
+        },
+        flag: "🇨🇮",
         maps: {
-        googleMaps: "https://goo.gl/maps/wKsmN7f5qAeNtGjP6",
+            googleMaps: "https://goo.gl/maps/wKsmN7f5qAeNtGjP6",
             openStreetMaps: "https://www.openstreetmap.org/relation/192779"
-    },
-    population: 26378275,
+        },
+        population: 26378275,
         gini: 41.5,
 
-            flags: {
-        png: "https://flagcdn.com/w320/ci.png",
+        flags: {
+            png: "https://flagcdn.com/w320/ci.png",
             svg: "https://flagcdn.com/ci.svg",
-                alt: "The flag of Ivory Coast is composed of three equal vertical bands of orange, white and green."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/ci.png",
+            alt: "The flag of Ivory Coast is composed of three equal vertical bands of orange, white and green."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/ci.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/ci.svg"
-    },
+        },
 
-    capitalInfo: {
-        latlng: [6.82, -5.27]
-    }
-},
-{
-    name: {
-        common: "Tunisia",
+        capitalInfo: {
+            latlng: [6.82, -5.27]
+        }
+    },
+    {
+        name: {
+            common: "Tunisia",
             official: "Tunisian Republic",
-  
-    },
 
-    currencies: "Tunisian dinar",
+        },
+
+        currencies: "Tunisian dinar",
         capital: [
             "Tunis"
         ],
 
-            region: "Africa",
-                subregion: "Northern Africa",
-                    languages: [
-                        "Arabic"
-                    ],
+        region: "Africa",
+        subregion: "Northern Africa",
+        languages: [
+            "Arabic"
+        ],
 
-                        latlng: [34, 9],
-                            landlocked: false,
+        latlng: [34, 9],
+        landlocked: false,
 
-                                demonyms: {
-        eng: {
-            fem: "Tunisian",
+        demonyms: {
+            eng: {
+                fem: "Tunisian",
                 masc: "Tunisian"
-        },
-        fra: {
-            fem: "Tunisienne",
+            },
+            fra: {
+                fem: "Tunisienne",
                 masc: "Tunisien"
-        }
-    },
-    flag: "🇹🇳",
+            }
+        },
+        flag: "🇹🇳",
         maps: {
-        googleMaps: "https://goo.gl/maps/KgUmpZdUuNRaougs8",
+            googleMaps: "https://goo.gl/maps/KgUmpZdUuNRaougs8",
             openStreetMaps: "https://www.openstreetmap.org/relation/192757"
-    },
-    population: 11818618,
+        },
+        population: 11818618,
         gini: 32.8,
 
-            flags: {
-        png: "https://flagcdn.com/w320/tn.png",
+        flags: {
+            png: "https://flagcdn.com/w320/tn.png",
             svg: "https://flagcdn.com/tn.svg",
-                alt: "The flag of Tunisia has a red field. A white circle bearing a five-pointed red star within a fly-side facing red crescent is situated at the center of the field."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/tn.png",
+            alt: "The flag of Tunisia has a red field. A white circle bearing a five-pointed red star within a fly-side facing red crescent is situated at the center of the field."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/tn.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/tn.svg"
+        },
+
+        capitalInfo: {
+            latlng: [36.8, 10.18]
+        },
+
+
+
     },
-
-    capitalInfo: {
-        latlng: [36.8, 10.18]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Mali",
+    {
+        name: {
+            common: "Mali",
             official: "Republic of Mali",
-     
-    },
 
-    currencies: "West African CFA franc",
+        },
+
+        currencies: "West African CFA franc",
 
         capital: [
             "Bamako"
         ],
 
-            region: "Africa",
-                subregion: "Western Africa",
-                    languages: [
-                        "French"
-                    ],
+        region: "Africa",
+        subregion: "Western Africa",
+        languages: [
+            "French"
+        ],
 
-                        latlng: [17, -4],
-                            landlocked: true,
+        latlng: [17, -4],
+        landlocked: true,
 
-                                demonyms: {
-        eng: {
-            fem: "Malian",
+        demonyms: {
+            eng: {
+                fem: "Malian",
                 masc: "Malian"
-        },
-        fra: {
-            fem: "Malienne",
+            },
+            fra: {
+                fem: "Malienne",
                 masc: "Malien"
-        }
-    },
-    flag: "🇲🇱",
+            }
+        },
+        flag: "🇲🇱",
         maps: {
-        googleMaps: "https://goo.gl/maps/u9mYJkCB19wyuzh27",
+            googleMaps: "https://goo.gl/maps/u9mYJkCB19wyuzh27",
             openStreetMaps: "https://www.openstreetmap.org/relation/192785"
-    },
-    population: 20250834,
+        },
+        population: 20250834,
         gini: 33,
 
-            flags: {
-        png: "https://flagcdn.com/w320/ml.png",
+        flags: {
+            png: "https://flagcdn.com/w320/ml.png",
             svg: "https://flagcdn.com/ml.svg",
-                alt: "The flag of Mali is composed of three equal vertical bands of green, yellow and red."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/ml.png",
+            alt: "The flag of Mali is composed of three equal vertical bands of green, yellow and red."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/ml.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/ml.svg"
-    },
+        },
 
-    capitalInfo: {
-        latlng: [12.65, -8]
-    }
-},
-{
-    name: {
-        common: "Benin",
+        capitalInfo: {
+            latlng: [12.65, -8]
+        }
+    },
+    {
+        name: {
+            common: "Benin",
             official: "Republic of Benin",
 
-    },
+        },
 
-    currencies: "West African CFA franc",
+        currencies: "West African CFA franc",
 
         capital: [
             "Porto-Novo"
         ],
 
-            region: "Africa",
-                subregion: "Western Africa",
-                    languages: [
-                        "French"
-                    ],
+        region: "Africa",
+        subregion: "Western Africa",
+        languages: [
+            "French"
+        ],
 
-                        latlng: [9.4, 2.25],
-                            landlocked: false,
+        latlng: [9.4, 2.25],
+        landlocked: false,
 
-                                demonyms: {
-        eng: {
-            fem: "Beninese",
+        demonyms: {
+            eng: {
+                fem: "Beninese",
                 masc: "Beninese"
-        },
-        fra: {
-            fem: "Béninoise",
+            },
+            fra: {
+                fem: "Béninoise",
                 masc: "Béninois"
-        }
-    },
-    flag: "🇧🇯",
+            }
+        },
+        flag: "🇧🇯",
         maps: {
-        googleMaps: "https://goo.gl/maps/uMw1BsHEXQYgVFFu6",
+            googleMaps: "https://goo.gl/maps/uMw1BsHEXQYgVFFu6",
             openStreetMaps: "https://www.openstreetmap.org/relation/192784"
-    },
-    population: 12123198,
+        },
+        population: 12123198,
         gini: 47.8,
 
-            flags: {
-        png: "https://flagcdn.com/w320/bj.png",
+        flags: {
+            png: "https://flagcdn.com/w320/bj.png",
             svg: "https://flagcdn.com/bj.svg",
-                alt: "The flag of Benin features a green vertical band on its hoist side that takes up about two-fifth the width of the field and two equal horizontal bands of yellow and red adjoining the vertical band."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/bj.png",
+            alt: "The flag of Benin features a green vertical band on its hoist side that takes up about two-fifth the width of the field and two equal horizontal bands of yellow and red adjoining the vertical band."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/bj.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/bj.svg"
-    },
+        },
 
-    capitalInfo: {
-        latlng: [6.48, 2.62]
-    }
-},
-{
-    name: {
-        common: "Cape Verde",
+        capitalInfo: {
+            latlng: [6.48, 2.62]
+        }
+    },
+    {
+        name: {
+            common: "Cape Verde",
             official: "Republic of Cabo Verde",
-   
-    },
 
-    currencies: "Cape Verdean escudo",
+        },
+
+        currencies: "Cape Verdean escudo",
         capital: [
             "Praia"
         ],
 
-            region: "Africa",
-                subregion: "Western Africa",
-                    languages: [
-                        "Portuguese"
-                    ],
+        region: "Africa",
+        subregion: "Western Africa",
+        languages: [
+            "Portuguese"
+        ],
 
-                        latlng: [16.5388, -23.0418],
-                            landlocked: false,
+        latlng: [16.5388, -23.0418],
+        landlocked: false,
 
-                                demonyms: {
-        eng: {
-            fem: "Cape Verdian",
+        demonyms: {
+            eng: {
+                fem: "Cape Verdian",
                 masc: "Cape Verdian"
-        },
-        fra: {
-            fem: "Cap-verdienne",
+            },
+            fra: {
+                fem: "Cap-verdienne",
                 masc: "Cap-verdien"
-        }
-    },
-    flag: "🇨🇻",
+            }
+        },
+        flag: "🇨🇻",
         maps: {
-        googleMaps: "https://goo.gl/maps/Kc9vy5ChjuiAgMfXA",
+            googleMaps: "https://goo.gl/maps/Kc9vy5ChjuiAgMfXA",
             openStreetMaps: "https://www.openstreetmap.org/relation/535774"
-    },
-    population: 555988,
+        },
+        population: 555988,
         gini: 42.4,
 
-            flags: {
-        png: "https://flagcdn.com/w320/cv.png",
+        flags: {
+            png: "https://flagcdn.com/w320/cv.png",
             svg: "https://flagcdn.com/cv.svg",
-                alt: "The flag of Cape Verde is composed of five horizontal bands of blue, white, red, white and blue in the ratio of 6:1:1:1:3. A ring of ten five-pointed yellow stars is centered at three-eighth of the height from the bottom edge and three-eighth of the width from the hoist end of the field."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/cv.png",
+            alt: "The flag of Cape Verde is composed of five horizontal bands of blue, white, red, white and blue in the ratio of 6:1:1:1:3. A ring of ten five-pointed yellow stars is centered at three-eighth of the height from the bottom edge and three-eighth of the width from the hoist end of the field."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/cv.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/cv.svg"
+        },
+
+        capitalInfo: {
+            latlng: [14.92, -23.52]
+        },
+
+
+
     },
-
-    capitalInfo: {
-        latlng: [14.92, -23.52]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Equatorial Guinea",
+    {
+        name: {
+            common: "Equatorial Guinea",
             official: "Republic of Equatorial Guinea",
 
-    },
+        },
 
-    currencies: "Central African CFA franc",
+        currencies: "Central African CFA franc",
 
         capital: [
             "Malabo"
         ],
 
-            region: "Africa",
-                subregion: "Middle Africa",
-                    languages: [
-                        "French",
-                        "Portuguese",
-                        "Spanish"
-                    ],
+        region: "Africa",
+        subregion: "Middle Africa",
+        languages: [
+            "French",
+            "Portuguese",
+            "Spanish"
+        ],
 
-                        latlng: [2, 10],
-                            landlocked: false,
+        latlng: [2, 10],
+        landlocked: false,
 
-                                demonyms: {
-        eng: {
-            fem: "Equatorial Guinean",
+        demonyms: {
+            eng: {
+                fem: "Equatorial Guinean",
                 masc: "Equatorial Guinean"
-        },
-        fra: {
-            fem: "Équato-guinéenne",
+            },
+            fra: {
+                fem: "Équato-guinéenne",
                 masc: "Équato-guinéen"
-        }
-    },
-    flag: "🇬🇶",
+            }
+        },
+        flag: "🇬🇶",
         maps: {
-        googleMaps: "https://goo.gl/maps/ucWfFd8aW1FbGMva9",
+            googleMaps: "https://goo.gl/maps/ucWfFd8aW1FbGMva9",
             openStreetMaps: "https://www.openstreetmap.org/relation/192791"
-    },
-    population: 1402985,
+        },
+        population: 1402985,
         gini: -1,
 
-            flags: {
-        png: "https://flagcdn.com/w320/gq.png",
+        flags: {
+            png: "https://flagcdn.com/w320/gq.png",
             svg: "https://flagcdn.com/gq.svg",
-                alt: "The flag of Equatorial Guinea is composed of three equal horizontal bands of green, white and red with the national coat of arms centered in the white band and an isosceles triangle superimposed on the hoist side of the field. The triangle is light blue, has its base on the hoist end and spans about one-fifth the width of the field."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/gq.png",
+            alt: "The flag of Equatorial Guinea is composed of three equal horizontal bands of green, white and red with the national coat of arms centered in the white band and an isosceles triangle superimposed on the hoist side of the field. The triangle is light blue, has its base on the hoist end and spans about one-fifth the width of the field."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/gq.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/gq.svg"
-    },
+        },
 
-    capitalInfo: {
-        latlng: [3.75, 8.78]
-    }
-},
-{
-    name: {
-        common: "Uganda",
+        capitalInfo: {
+            latlng: [3.75, 8.78]
+        }
+    },
+    {
+        name: {
+            common: "Uganda",
             official: "Republic of Uganda",
-  
-    },
 
-    currencies: "Ugandan shilling",
+        },
+
+        currencies: "Ugandan shilling",
         capital: [
             "Kampala"
         ],
 
-            region: "Africa",
-                subregion: "Eastern Africa",
-                    languages: [
-                        "English",
-                        "Swahili"
-                    ],
+        region: "Africa",
+        subregion: "Eastern Africa",
+        languages: [
+            "English",
+            "Swahili"
+        ],
 
-                        latlng: [1, 32],
-                            landlocked: true,
+        latlng: [1, 32],
+        landlocked: true,
 
-                                demonyms: {
-        eng: {
-            fem: "Ugandan",
+        demonyms: {
+            eng: {
+                fem: "Ugandan",
                 masc: "Ugandan"
-        },
-        fra: {
-            fem: "Ougandaise",
+            },
+            fra: {
+                fem: "Ougandaise",
                 masc: "Ougandais"
-        }
-    },
-    flag: "🇺🇬",
+            }
+        },
+        flag: "🇺🇬",
         maps: {
-        googleMaps: "https://goo.gl/maps/Y7812hFiGa8LD9N68",
+            googleMaps: "https://goo.gl/maps/Y7812hFiGa8LD9N68",
             openStreetMaps: "https://www.openstreetmap.org/relation/192796"
-    },
-    population: 45741000,
+        },
+        population: 45741000,
         gini: 42.8,
 
-            flags: {
-        png: "https://flagcdn.com/w320/ug.png",
+        flags: {
+            png: "https://flagcdn.com/w320/ug.png",
             svg: "https://flagcdn.com/ug.svg",
-                alt: "The flag of Uganda is composed of six equal horizontal bands of black, yellow, red, black, yellow and red. A white circle bearing a hoist-side facing grey red-crested crane is superimposed in the center of the field."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/ug.png",
+            alt: "The flag of Uganda is composed of six equal horizontal bands of black, yellow, red, black, yellow and red. A white circle bearing a hoist-side facing grey red-crested crane is superimposed in the center of the field."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/ug.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/ug.svg"
-    },
+        },
 
-    capitalInfo: {
-        latlng: [0.32, 32.55]
-    }
-},
-{
-    name: {
-        common: "Botswana",
+        capitalInfo: {
+            latlng: [0.32, 32.55]
+        }
+    },
+    {
+        name: {
+            common: "Botswana",
             official: "Republic of Botswana",
 
-    },
+        },
 
-    currencies: "Botswana pula",
+        currencies: "Botswana pula",
         capital: [
             "Gaborone"
         ],
 
-            region: "Africa",
-                subregion: "Southern Africa",
-                    languages: [
-                        "English",
-                        "Tswana"
-                    ],
+        region: "Africa",
+        subregion: "Southern Africa",
+        languages: [
+            "English",
+            "Tswana"
+        ],
 
-                        latlng: [-22, 24],
-                            landlocked: true,
+        latlng: [-22, 24],
+        landlocked: true,
 
-                                demonyms: {
-        eng: {
-            fem: "Motswana",
+        demonyms: {
+            eng: {
+                fem: "Motswana",
                 masc: "Motswana"
-        },
-        fra: {
-            fem: "Botswanaise",
+            },
+            fra: {
+                fem: "Botswanaise",
                 masc: "Botswanais"
-        }
-    },
-    flag: "🇧🇼",
+            }
+        },
+        flag: "🇧🇼",
         maps: {
-        googleMaps: "https://goo.gl/maps/E364KeLy6N4JwxwQ8",
+            googleMaps: "https://goo.gl/maps/E364KeLy6N4JwxwQ8",
             openStreetMaps: "https://www.openstreetmap.org/relation/1889339"
-    },
-    population: 2351625,
+        },
+        population: 2351625,
         gini: 53.3,
 
-            flags: {
-        png: "https://flagcdn.com/w320/bw.png",
+        flags: {
+            png: "https://flagcdn.com/w320/bw.png",
             svg: "https://flagcdn.com/bw.svg",
-                alt: "The flag of Botswana has a light blue field with a white-edged black horizontal band across its center."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/bw.png",
+            alt: "The flag of Botswana has a light blue field with a white-edged black horizontal band across its center."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/bw.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/bw.svg"
-    },
+        },
 
-    capitalInfo: {
-        latlng: [-24.63, 25.9]
-    }
-},
-{
-    name: {
-        common: "Burundi",
+        capitalInfo: {
+            latlng: [-24.63, 25.9]
+        }
+    },
+    {
+        name: {
+            common: "Burundi",
             official: "Republic of Burundi",
-    
-    },
 
-    currencies: "Burundian franc",
+        },
+
+        currencies: "Burundian franc",
         capital: [
             "Gitega"
         ],
 
-            region: "Africa",
-                subregion: "Eastern Africa",
-                    languages: [
-                        "French",
-                        "Kirundi"
-                    ],
+        region: "Africa",
+        subregion: "Eastern Africa",
+        languages: [
+            "French",
+            "Kirundi"
+        ],
 
-                        latlng: [-3.4, 30],
-                            landlocked: true,
+        latlng: [-3.4, 30],
+        landlocked: true,
 
-                                demonyms: {
-        eng: {
-            fem: "Burundian",
+        demonyms: {
+            eng: {
+                fem: "Burundian",
                 masc: "Burundian"
-        },
-        fra: {
-            fem: "Burundaise",
+            },
+            fra: {
+                fem: "Burundaise",
                 masc: "Burundais"
-        }
-    },
-    flag: "🇧🇮",
+            }
+        },
+        flag: "🇧🇮",
         maps: {
-        googleMaps: "https://goo.gl/maps/RXPWoRrB9tfrJpUG7",
+            googleMaps: "https://goo.gl/maps/RXPWoRrB9tfrJpUG7",
             openStreetMaps: "https://www.openstreetmap.org/relation/195269"
-    },
-    population: 11890781,
+        },
+        population: 11890781,
         gini: 38.6,
 
-            flags: {
-        png: "https://flagcdn.com/w320/bi.png",
+        flags: {
+            png: "https://flagcdn.com/w320/bi.png",
             svg: "https://flagcdn.com/bi.svg",
-                alt: "The flag of Burundi is divided by a white diagonal cross into four alternating triangular areas of red at the top and bottom, and green on the hoist and fly sides. A white circle, with three green-edged red six-pointed stars arranged to form a triangle, is superimposed at the center of the cross."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/bi.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/bi.svg"
-    },
-
-    capitalInfo: {
-        latlng: [-3.43, 29.93]
-    }
-},
-{
-    name: {
-        common: "South Africa",
-            official: "Republic of South Africa",
-     
-    },
-  
-                                    currencies: "South African rand",
-    capital: [
-        "Pretoria",
-        "Bloemfontein",
-        "Cape Town"
-    ],
-
-            region: "Africa",
-                subregion: "Southern Africa",
-                    languages: [
-                         "Afrikaans",
-                        "English",
-                         "Southern Ndebele",
-                         "Northern Sotho",
-                         "Southern Sotho",
-                        "Swazi",
-                         "Tswana",
-                         "Tsonga",
-                         "Venda",
-                         "Xhosa",
-                         "Zulu"
-                    ],
- 
-    latlng: [-29, 24],
-        landlocked: false,
-   
-                    demonyms: {
-        eng: {
-            fem: "South African",
-                masc: "South African"
+            alt: "The flag of Burundi is divided by a white diagonal cross into four alternating triangular areas of red at the top and bottom, and green on the hoist and fly sides. A white circle, with three green-edged red six-pointed stars arranged to form a triangle, is superimposed at the center of the cross."
         },
-        fra: {
-            fem: "Sud-africaine",
-                masc: "Sud-africain"
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/bi.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/bi.svg"
+        },
+
+        capitalInfo: {
+            latlng: [-3.43, 29.93]
         }
     },
-    flag: "🇿🇦",
+    {
+        name: {
+            common: "South Africa",
+            official: "Republic of South Africa",
+
+        },
+
+        currencies: "South African rand",
+        capital: [
+            "Pretoria",
+            "Bloemfontein",
+            "Cape Town"
+        ],
+
+        region: "Africa",
+        subregion: "Southern Africa",
+        languages: [
+            "Afrikaans",
+            "English",
+            "Southern Ndebele",
+            "Northern Sotho",
+            "Southern Sotho",
+            "Swazi",
+            "Tswana",
+            "Tsonga",
+            "Venda",
+            "Xhosa",
+            "Zulu"
+        ],
+
+        latlng: [-29, 24],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "South African",
+                masc: "South African"
+            },
+            fra: {
+                fem: "Sud-africaine",
+                masc: "Sud-africain"
+            }
+        },
+        flag: "🇿🇦",
         maps: {
-        googleMaps: "https://goo.gl/maps/CLCZ1R8Uz1KpYhRv6",
+            googleMaps: "https://goo.gl/maps/CLCZ1R8Uz1KpYhRv6",
             openStreetMaps: "https://www.openstreetmap.org/relation/87565"
-    },
-    population: 59308690,
+        },
+        population: 59308690,
         gini: 63,
- 
-            flags: {
-        png: "https://flagcdn.com/w320/za.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/za.png",
             svg: "https://flagcdn.com/za.svg",
-                alt: "The flag of South Africa is composed of two equal horizontal bands of red and blue, with a yellow-edged black isosceles triangle superimposed on the hoist side of the field. This triangle has its base centered on the hoist end, spans about two-fifth the width and two-third the height of the field, and is enclosed on its sides by the arms of a white-edged green horizontally oriented Y-shaped band which extends along the boundary of the red and blue bands to the fly end of the field."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/za.png",
+            alt: "The flag of South Africa is composed of two equal horizontal bands of red and blue, with a yellow-edged black isosceles triangle superimposed on the hoist side of the field. This triangle has its base centered on the hoist end, spans about two-fifth the width and two-third the height of the field, and is enclosed on its sides by the arms of a white-edged green horizontally oriented Y-shaped band which extends along the boundary of the red and blue bands to the fly end of the field."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/za.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/za.svg"
+        },
+
+        capitalInfo: {
+            latlng: [-25.7, 28.22]
+        },
+
+
+
     },
-
-    capitalInfo: {
-        latlng: [-25.7, 28.22]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Libya",
+    {
+        name: {
+            common: "Libya",
             official: "State of Libya",
 
-    },
-   
-                                    currencies:"Libyan dinar", 
-    capital: [
-        "Tripoli"
-    ],
+        },
 
-            region: "Africa",
-                subregion: "Northern Africa",
-                    languages: [
-                        "Arabic"
-                    ],
- 
-    latlng: [25, 17],
+        currencies: "Libyan dinar",
+        capital: [
+            "Tripoli"
+        ],
+
+        region: "Africa",
+        subregion: "Northern Africa",
+        languages: [
+            "Arabic"
+        ],
+
+        latlng: [25, 17],
         landlocked: false,
 
-                    demonyms: {
-        eng: {
-            fem: "Libyan",
+        demonyms: {
+            eng: {
+                fem: "Libyan",
                 masc: "Libyan"
-        },
-        fra: {
-            fem: "Libyenne",
+            },
+            fra: {
+                fem: "Libyenne",
                 masc: "Libyen"
-        }
-    },
-    flag: "🇱🇾",
+            }
+        },
+        flag: "🇱🇾",
         maps: {
-        googleMaps: "https://goo.gl/maps/eLgGnaQWcJEdYRMy5",
+            googleMaps: "https://goo.gl/maps/eLgGnaQWcJEdYRMy5",
             openStreetMaps: "openstreetmap.org/relation/192758"
-    },
-    population: 6871287,
+        },
+        population: 6871287,
         gini: -1,
 
-            flags: {
-        png: "https://flagcdn.com/w320/ly.png",
+        flags: {
+            png: "https://flagcdn.com/w320/ly.png",
             svg: "https://flagcdn.com/ly.svg",
-                alt: "The flag of Libya is composed of three horizontal bands of red, black and green, with the black band twice the height of the other two bands. At the center of the black band is a fly-side facing white crescent and a five-pointed white star placed just outside the crescent opening."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/ly.png",
+            alt: "The flag of Libya is composed of three horizontal bands of red, black and green, with the black band twice the height of the other two bands. At the center of the black band is a fly-side facing white crescent and a five-pointed white star placed just outside the crescent opening."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/ly.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/ly.svg"
-    },
+        },
 
-    capitalInfo: {
-        latlng: [32.88, 13.17]
-    }
-},
-{
-    name: {
-        common: "Mayotte",
-            official: "Department of Mayotte",
-                "nativeName": {
-            fra: {
-                official: "Département de Mayotte",
-                    common: "Mayotte"
-            }
+        capitalInfo: {
+            latlng: [32.88, 13.17]
         }
     },
-    "tld": [
-        ".yt"
-    ],
-        "cca2": "YT",
-            "ccn3": "175",
-                "cca3": "MYT",
-                    "independent": false,
-                        "status": "officially-assigned",
-                            "unMember": false,
-                                currencies: "Euro",
-                                    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "62"
-            ]
-    },
-    capital: [
-        "Mamoudzou"
-    ],
-        "altSpellings": [
-            "YT",
-            "Department of Mayotte",
-            "Département de Mayotte"
+    {
+        name: {
+            common: "Mayotte",
+            official: "Department of Mayotte",
+
+        },
+
+        currencies: "Euro",
+
+        capital: [
+            "Mamoudzou"
         ],
-            region: "Africa",
-                subregion: "Eastern Africa",
-                    languages: [
-                        "French"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "مايوت",
-                common: "مايوت"
-        },
-        "bre": {
-            official: "Departamant Mayotte",
-                common: "Mayotte"
-        },
-        "ces": {
-            official: "Mayotte",
-                common: "Mayotte"
-        },
-        "cym": {
-            official: "Department of Mayotte",
-                common: "Mayotte"
-        },
-        "deu": {
-            official: "Übersee-Département Mayotte",
-                common: "Mayotte"
-        },
-        "est": {
-            official: "Mayotte",
-                common: "Mayotte"
-        },
-        "fin": {
-            official: "Mayotte",
-                common: "Mayotte"
-        },
-        fra: {
-            official: "Département de Mayotte",
-                common: "Mayotte"
-        },
-        "hrv": {
-            official: "Odjel Mayotte",
-                common: "Mayotte"
-        },
-        "hun": {
-            official: "Mayotte",
-                common: "Mayotte"
-        },
-        "ita": {
-            official: "Dipartimento di Mayotte",
-                common: "Mayotte"
-        },
-        "jpn": {
-            official: "マヨット科",
-                common: "マヨット"
-        },
-        "kor": {
-            official: "마요트",
-                common: "마요트"
-        },
-        "nld": {
-            official: "Afdeling Mayotte",
-                common: "Mayotte"
-        },
-        "per": {
-            official: "مجموعه شهرستانی مایوت",
-                common: "مایوت"
-        },
-        "pol": {
-            official: "Majotta",
-                common: "Majotta"
-        },
-        "por": {
-            official: "Departamento de Mayotte",
-                common: "Mayotte"
-        },
-        "rus": {
-            official: "Департамент Майотта",
-                common: "Майотта"
-        },
-        "slk": {
-            official: "Department Mayotte",
-                common: "Mayotte"
-        },
-        "spa": {
-            official: "Departamento de Mayotte",
-                common: "Mayotte"
-        },
-        "srp": {
-            official: "Мајот",
-                common: "Мајот"
-        },
-        "swe": {
-            official: "Departementsområdet Mayotte",
-                common: "Mayotte"
-        },
-        "tur": {
-            official: "Mayotte",
-                common: "Mayotte"
-        },
-        "urd": {
-            official: "مایوٹ",
-                common: "مایوٹ"
-        },
-        "zho": {
-            official: "马约特",
-                common: "马约特"
-        }
-    },
-    latlng: [-12.83333333, 45.16666666],
+
+        region: "Africa",
+        subregion: "Eastern Africa",
+        languages: [
+            "French"
+        ],
+
+        latlng: [-12.83333333, 45.16666666],
         landlocked: false,
-            "area": 374,
-                demonyms: {
-        eng: {
-            fem: "Mahoran",
+
+        demonyms: {
+            eng: {
+                fem: "Mahoran",
                 masc: "Mahoran"
-        },
-        fra: {
-            fem: "Mahoraise",
+            },
+            fra: {
+                fem: "Mahoraise",
                 masc: "Mahorais"
-        }
-    },
-    flag: "🇾🇹",
+            }
+        },
+        flag: "🇾🇹",
         maps: {
-        googleMaps: "https://goo.gl/maps/1e7MXmfBwQv3TQGF7",
+            googleMaps: "https://goo.gl/maps/1e7MXmfBwQv3TQGF7",
             openStreetMaps: "https://www.openstreetmap.org/relation/1259885"
-    },
-    population: 226915,
+        },
+        population: 226915,
         gini: -1,
-            "car": {
-        "signs": [
-            "F"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+03:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/yt.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/yt.png",
             svg: "https://flagcdn.com/yt.svg"
-    },
-    coatOfArms: {
+        },
+        coatOfArms: {
+
+        },
+
+        capitalInfo: {
+            latlng: [-12.78, 45.22]
+        },
+
+
 
     },
-
-    capitalInfo: {
-        latlng: [-12.78, 45.22]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Gabon",
+    {
+        name: {
+            common: "Gabon",
             official: "Gabonese Republic",
-                "nativeName": {
-            fra: {
-                official: "République gabonaise",
-                    common: "Gabon"
-            }
-        }
-    },
-    "tld": [
-        ".ga"
-    ],
-        "cca2": "GA",
-            "ccn3": "266",
-                "cca3": "GAB",
-                    "cioc": "GAB",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: "Central African CFA franc",
-                                        "idd": {
-        "root": "+2",
-            "suffixes": [
-                "41"
-            ]
-    },
-    capital: [
-        "Libreville"
-    ],
-        "altSpellings": [
-            "GA",
-            "Gabonese Republic",
-            "République Gabonaise"
+
+        },
+
+        currencies: "Central African CFA franc",
+
+        capital: [
+            "Libreville"
         ],
-            region: "Africa",
-                subregion: "Middle Africa",
-                    languages: [
-                        "French"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية الغابون",
-                common: "الغابون"
-        },
-        "bre": {
-            official: "Republik Gabonat",
-                common: "Gabon"
-        },
-        "ces": {
-            official: "Gabonská republika",
-                common: "Gabon"
-        },
-        "cym": {
-            official: "Gabonese Republic",
-                common: "Gabon"
-        },
-        "deu": {
-            official: "Gabunische Republik",
-                common: "Gabun"
-        },
-        "est": {
-            official: "Gaboni Vabariik",
-                common: "Gabon"
-        },
-        "fin": {
-            official: "Gabonin tasavalta",
-                common: "Gabon"
-        },
-        fra: {
-            official: "République gabonaise",
-                common: "Gabon"
-        },
-        "hrv": {
-            official: "Gabon Republika",
-                common: "Gabon"
-        },
-        "hun": {
-            official: "Gaboni Köztársaság",
-                common: "Gabon"
-        },
-        "ita": {
-            official: "Repubblica gabonese",
-                common: "Gabon"
-        },
-        "jpn": {
-            official: "ガボン共和国",
-                common: "ガボン"
-        },
-        "kor": {
-            official: "가봉 공화국",
-                common: "가봉"
-        },
-        "nld": {
-            official: "Republiek Gabon",
-                common: "Gabon"
-        },
-        "per": {
-            official: "جمهوری گابُن",
-                common: "گابن"
-        },
-        "pol": {
-            official: "Republika Gabońska",
-                common: "Gabon"
-        },
-        "por": {
-            official: "República do Gabão",
-                common: "Gabão"
-        },
-        "rus": {
-            official: "Габона Республика",
-                common: "Габон"
-        },
-        "slk": {
-            official: "Gabonská republika",
-                common: "Gabon"
-        },
-        "spa": {
-            official: "República de Gabón",
-                common: "Gabón"
-        },
-        "srp": {
-            official: "Габонска Република",
-                common: "Габон"
-        },
-        "swe": {
-            official: "Republiken Gabon",
-                common: "Gabon"
-        },
-        "tur": {
-            official: "Gabon Cumhuriyeti",
-                common: "Gabon"
-        },
-        "urd": {
-            official: "جمہوریہ گیبون",
-                common: "گیبون"
-        },
-        "zho": {
-            official: "加蓬共和国",
-                common: "加蓬"
-        }
-    },
-    latlng: [-1, 11.75],
+
+        region: "Africa",
+        subregion: "Middle Africa",
+        languages: [
+            "French"
+        ],
+
+        latlng: [-1, 11.75],
         landlocked: false,
-            "borders": [
-                "CMR",
-                "COG",
-                "GNQ"
-            ],
-                "area": 267668,
-                    demonyms: {
-        eng: {
-            fem: "Gabonese",
+
+        demonyms: {
+            eng: {
+                fem: "Gabonese",
                 masc: "Gabonese"
-        },
-        fra: {
-            fem: "Gabonaise",
+            },
+            fra: {
+                fem: "Gabonaise",
                 masc: "Gabonais"
-        }
-    },
-    flag: "🇬🇦",
+            }
+        },
+        flag: "🇬🇦",
         maps: {
-        googleMaps: "https://goo.gl/maps/vyRSkqw1H1fnq4ry6",
+            googleMaps: "https://goo.gl/maps/vyRSkqw1H1fnq4ry6",
             openStreetMaps: "https://www.openstreetmap.org/relation/192793"
-    },
-    population: 2225728,
+        },
+        population: 2225728,
         gini: 38,
-        , "fifa": "GAB",
-        "car": {
-        "signs": [
-            "G"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/ga.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/ga.png",
             svg: "https://flagcdn.com/ga.svg",
-                alt: "The flag of Gabon is composed of three equal horizontal bands of green, yellow and blue."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/ga.png",
+            alt: "The flag of Gabon is composed of three equal horizontal bands of green, yellow and blue."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/ga.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/ga.svg"
-    },
+        },
 
-    capitalInfo: {
-        latlng: [0.38, 9.45]
-    }
-},
-{
-    name: {
-        common: "Cameroon",
+        capitalInfo: {
+            latlng: [0.38, 9.45]
+        }
+    },
+    {
+        name: {
+            common: "Cameroon",
             official: "Republic of Cameroon",
-                "nativeName": {
-            eng: {
-                official: "Republic of Cameroon",
-                    common: "Cameroon"
-            },
-            fra: {
-                official: "République du Cameroun",
-                    common: "Cameroun"
-            }
-        }
-    },
-    "tld": [
-        ".cm"
-    ],
-        "cca2": "CM",
-            "ccn3": "120",
-                "cca3": "CMR",
-                    "cioc": "CMR",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: "Central African CFA franc",
-                                        "idd": {
-        "root": "+2",
-            "suffixes": [
-                "37"
-            ]
-    },
-    capital: [
-        "Yaoundé"
-    ],
-        "altSpellings": [
-            "CM",
-            "Republic of Cameroon",
-            "République du Cameroun"
+
+        },
+
+        currencies: "Central African CFA franc",
+
+        capital: [
+            "Yaoundé"
         ],
-            region: "Africa",
-                subregion: "Middle Africa",
-                    languages: [
-                        "English",
-                        "French"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية الكاميرون",
-                common: "الكاميرون"
-        },
-        "bre": {
-            official: "Republik Kameroun",
-                common: "Kameroun"
-        },
-        "ces": {
-            official: "Kamerunská republika",
-                common: "Kamerun"
-        },
-        "cym": {
-            official: "Gweriniaeth Camerŵn",
-                common: "Camerŵn"
-        },
-        "deu": {
-            official: "Republik Kamerun",
-                common: "Kamerun"
-        },
-        "est": {
-            official: "Kameruni Vabariik",
-                common: "Kamerun"
-        },
-        "fin": {
-            official: "Kamerunin tasavalta",
-                common: "Kamerun"
-        },
-        fra: {
-            official: "République du Cameroun",
-                common: "Cameroun"
-        },
-        "hrv": {
-            official: "Republika Kamerun",
-                common: "Kamerun"
-        },
-        "hun": {
-            official: "Kameruni Köztársaság",
-                common: "Kamerun"
-        },
-        "ita": {
-            official: "Repubblica del Camerun",
-                common: "Camerun"
-        },
-        "jpn": {
-            official: "カメルーン共和国",
-                common: "カメルーン"
-        },
-        "kor": {
-            official: "카메룬 공화국",
-                common: "카메룬"
-        },
-        "nld": {
-            official: "Republiek Kameroen",
-                common: "Kameroen"
-        },
-        "per": {
-            official: "جمهوری کامِرون",
-                common: "کامِرون"
-        },
-        "pol": {
-            official: "Republika Kamerunu",
-                common: "Kamerun"
-        },
-        "por": {
-            official: "República dos Camarões",
-                common: "Camarões"
-        },
-        "rus": {
-            official: "Республика Камерун",
-                common: "Камерун"
-        },
-        "slk": {
-            official: "Kamerunská republika",
-                common: "Kamerun"
-        },
-        "spa": {
-            official: "República de Camerún",
-                common: "Camerún"
-        },
-        "srp": {
-            official: "Република Камерун",
-                common: "Камерун"
-        },
-        "swe": {
-            official: "Republiken Kamerun",
-                common: "Kamerun"
-        },
-        "tur": {
-            official: "Kamerun Cumhuriyeti",
-                common: "Kamerun"
-        },
-        "urd": {
-            official: "جمہوریہ کیمرون",
-                common: "کیمرون"
-        },
-        "zho": {
-            official: "喀麦隆共和国",
-                common: "喀麦隆"
-        }
-    },
-    latlng: [6, 12],
+
+        region: "Africa",
+        subregion: "Middle Africa",
+        languages: [
+            "English",
+            "French"
+        ],
+
+        latlng: [6, 12],
         landlocked: false,
-            "borders": [
-                "CAF",
-                "TCD",
-                "COG",
-                "GNQ",
-                "GAB",
-                "NGA"
-            ],
-                "area": 475442,
-                    demonyms: {
-        eng: {
-            fem: "Cameroonian",
+
+        demonyms: {
+            eng: {
+                fem: "Cameroonian",
                 masc: "Cameroonian"
-        },
-        fra: {
-            fem: "Camerounaise",
+            },
+            fra: {
+                fem: "Camerounaise",
                 masc: "Camerounais"
-        }
-    },
-    flag: "🇨🇲",
+            }
+        },
+        flag: "🇨🇲",
         maps: {
-        googleMaps: "https://goo.gl/maps/JqiipHgFboG3rBJh9",
+            googleMaps: "https://goo.gl/maps/JqiipHgFboG3rBJh9",
             openStreetMaps: "https://www.openstreetmap.org/relation/192830"
-    },
-    population: 26545864,
+        },
+        population: 26545864,
         gini: 46.6,
-        , "fifa": "CMR",
-        "car": {
-        "signs": [
-            "CAM"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/cm.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/cm.png",
             svg: "https://flagcdn.com/cm.svg",
-                alt: "The flag of Cameroon is composed of three equal vertical bands of green, red and yellow, with a yellow five-pointed star in the center."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/cm.png",
+            alt: "The flag of Cameroon is composed of three equal vertical bands of green, red and yellow, with a yellow five-pointed star in the center."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/cm.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/cm.svg"
-    },
+        },
 
-    capitalInfo: {
-        latlng: [3.85, 11.4]
-    }
-},
-{
-    name: {
-        common: "Guinea",
+        capitalInfo: {
+            latlng: [3.85, 11.4]
+        }
+    },
+    {
+        name: {
+            common: "Guinea",
             official: "Republic of Guinea",
-                "nativeName": {
-            fra: {
-                official: "République de Guinée",
-                    common: "Guinée"
-            }
-        }
-    },
-    "tld": [
-        ".gn"
-    ],
-        "cca2": "GN",
-            "ccn3": "324",
-                "cca3": "GIN",
-                    "cioc": "GUI",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "GNF": {
-            name: "Guinean franc",
-                "symbol": "Fr"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "24"
-            ]
-    },
-    capital: [
-        "Conakry"
-    ],
-        "altSpellings": [
-            "GN",
-            "Republic of Guinea",
-            "République de Guinée"
+
+        },
+
+        currencies: "Guinean franc",
+        capital: [
+            "Conakry"
         ],
-            region: "Africa",
-                subregion: "Western Africa",
-                    languages: [
-                        "French"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية غينيا",
-                common: "غينيا"
-        },
-        "bre": {
-            official: "Republik Ginea",
-                common: "Ginea"
-        },
-        "ces": {
-            official: "Guinejská republika",
-                common: "Guinea"
-        },
-        "cym": {
-            official: "Republic of Guinea",
-                common: "Guinea"
-        },
-        "deu": {
-            official: "Republik Guinea",
-                common: "Guinea"
-        },
-        "est": {
-            official: "Guinea Vabariik",
-                common: "Guinea"
-        },
-        "fin": {
-            official: "Guinean tasavalta",
-                common: "Guinea"
-        },
-        fra: {
-            official: "République de Guinée",
-                common: "Guinée"
-        },
-        "hrv": {
-            official: "Republika Gvineja",
-                common: "Gvineja"
-        },
-        "hun": {
-            official: "Guineai Köztársaság",
-                common: "Guinea"
-        },
-        "ita": {
-            official: "Repubblica di Guinea",
-                common: "Guinea"
-        },
-        "jpn": {
-            official: "ギニア共和国",
-                common: "ギニア"
-        },
-        "kor": {
-            official: "기니 공화국",
-                common: "기니"
-        },
-        "nld": {
-            official: "Republiek Guinee",
-                common: "Guinee"
-        },
-        "per": {
-            official: "مملکت مستقل پاپوآ گینه نو",
-                common: "پاپوآ گینه نو"
-        },
-        "pol": {
-            official: "Republika Gwinei",
-                common: "Gwinea"
-        },
-        "por": {
-            official: "República da Guiné",
-                common: "Guiné"
-        },
-        "rus": {
-            official: "Республика Гвинея",
-                common: "Гвинея"
-        },
-        "slk": {
-            official: "Guinejská republika",
-                common: "Guinea"
-        },
-        "spa": {
-            official: "República de Guinea",
-                common: "Guinea"
-        },
-        "srp": {
-            official: "Кооперативна Република Гвајана",
-                common: "Гвајана"
-        },
-        "swe": {
-            official: "Republiken Guinea",
-                common: "Guinea"
-        },
-        "tur": {
-            official: "Gine Cumhuriyeti",
-                common: "Gine"
-        },
-        "urd": {
-            official: "جمہوریہ گنی",
-                common: "گنی"
-        },
-        "zho": {
-            official: "几内亚共和国",
-                common: "几内亚"
-        }
-    },
-    latlng: [11, -10],
+
+        region: "Africa",
+        subregion: "Western Africa",
+        languages: [
+            "French"
+        ],
+
+        latlng: [11, -10],
         landlocked: false,
-            "borders": [
-                "CIV",
-                "GNB",
-                "LBR",
-                "MLI",
-                "SEN",
-                "SLE"
-            ],
-                "area": 245857,
-                    demonyms: {
-        eng: {
-            fem: "Guinean",
+
+        demonyms: {
+            eng: {
+                fem: "Guinean",
                 masc: "Guinean"
-        },
-        fra: {
-            fem: "Guinéenne",
+            },
+            fra: {
+                fem: "Guinéenne",
                 masc: "Guinéen"
-        }
-    },
-    flag: "🇬🇳",
+            }
+        },
+        flag: "🇬🇳",
         maps: {
-        googleMaps: "https://goo.gl/maps/8J5oM5sA4Ayr1ZYGA",
+            googleMaps: "https://goo.gl/maps/8J5oM5sA4Ayr1ZYGA",
             openStreetMaps: "https://www.openstreetmap.org/relation/192778"
-    },
-    population: 13132792,
+        },
+        population: 13132792,
         gini: 33.7,
-        , "fifa": "GUI",
-        "car": {
-        "signs": [
-            "RG"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC"
-    ],
-        "continents": [
-            "Africa"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/gn.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/gn.png",
             svg: "https://flagcdn.com/gn.svg",
-                alt: "The flag of Guinea is composed of three equal vertical bands of red, yellow and green."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/gn.png",
+            alt: "The flag of Guinea is composed of three equal vertical bands of red, yellow and green."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/gn.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/gn.svg"
-    },
+        },
 
-    capitalInfo: {
-        latlng: [9.4, -13.7]
-    }
-},
-{
-    name: {
-        common: "Seychelles",
+        capitalInfo: {
+            latlng: [9.4, -13.7]
+        }
+    },
+    {
+        name: {
+            common: "Seychelles",
             official: "Republic of Seychelles",
-                "nativeName": {
-            "crs": {
-                official: "Repiblik Sesel",
-                    common: "Sesel"
-            },
+
+        },
+
+        currencies: "Seychellois rupee",
+        capital: [
+            "Victoria"
+        ],
+
+        region: "Africa",
+        subregion: "Eastern Africa",
+        languages: [
+            "Seychellois Creole",
+            "English",
+            "French"
+        ],
+
+        latlng: [-4.58333333, 55.66666666],
+        landlocked: false,
+
+        demonyms: {
             eng: {
-                official: "Republic of Seychelles",
-                    common: "Seychelles"
+                fem: "Seychellois",
+                masc: "Seychellois"
             },
             fra: {
-                official: "République des Seychelles",
-                    common: "Seychelles"
+                fem: "Seychelloise",
+                masc: "Seychellois"
             }
-        }
-    },
-    "tld": [
-        ".sc"
-    ],
-        "cca2": "SC",
-            "ccn3": "690",
-                "cca3": "SYC",
-                    "cioc": "SEY",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "SCR": {
-            name: "Seychellois rupee",
-                "symbol": "₨"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "48"
-            ]
-    },
-    capital: [
-        "Victoria"
-    ],
-        "altSpellings": [
-            "SC",
-            "Republic of Seychelles",
-            "Repiblik Sesel",
-            "République des Seychelles"
-        ],
-            region: "Africa",
-                subregion: "Eastern Africa",
-                    languages: [
-                        "crs": "Seychellois Creole",
-                        "English",
-                        "French"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية سيشل",
-                common: "سيشل"
         },
-        "bre": {
-            official: "Republik Sechelez",
-                common: "Sechelez"
-        },
-        "ces": {
-            official: "Seychelská republika",
-                common: "Seychely"
-        },
-        "cym": {
-            official: "Republic of Seychelles",
-                common: "Seychelles"
-        },
-        "deu": {
-            official: "Republik der Seychellen",
-                common: "Seychellen"
-        },
-        "est": {
-            official: "Seišelli Vabariik",
-                common: "Seišellid"
-        },
-        "fin": {
-            official: "Seychellien tasavalta",
-                common: "Seychellit"
-        },
-        fra: {
-            official: "République des Seychelles",
-                common: "Seychelles"
-        },
-        "hrv": {
-            official: "Republika Sejšeli",
-                common: "Sejšeli"
-        },
-        "hun": {
-            official: "Seychelle Köztársaság",
-                common: "Seychelle-szigetek"
-        },
-        "ita": {
-            official: "Repubblica delle Seychelles",
-                common: "Seychelles"
-        },
-        "jpn": {
-            official: "セイシェル共和国",
-                common: "セーシェル"
-        },
-        "kor": {
-            official: "세이셸 공화국",
-                common: "세이셸"
-        },
-        "nld": {
-            official: "Republiek der Seychellen",
-                common: "Seychellen"
-        },
-        "per": {
-            official: "جمهوری سیشل",
-                common: "سیشل"
-        },
-        "pol": {
-            official: "Republika Seszeli",
-                common: "Seszele"
-        },
-        "por": {
-            official: "República das Seychelles",
-                common: "Seicheles"
-        },
-        "rus": {
-            official: "Республика Сейшельские Острова",
-                common: "Сейшельские Острова"
-        },
-        "slk": {
-            official: "Seychelská republika",
-                common: "Seychely"
-        },
-        "spa": {
-            official: "República de las Seychelles",
-                common: "Seychelles"
-        },
-        "srp": {
-            official: "Република Сејшели",
-                common: "Сејшели"
-        },
-        "swe": {
-            official: "Republiken Seychellerna",
-                common: "Seychellerna"
-        },
-        "tur": {
-            official: "Seyşeller Cumhuriyeti",
-                common: "Seyşeller"
-        },
-        "urd": {
-            official: "جمہوریہ سیچیلیس",
-                common: "سیچیلیس"
-        },
-        "zho": {
-            official: "塞舌尔共和国",
-                common: "塞舌尔"
-        }
-    },
-    latlng: [-4.58333333, 55.66666666],
-        landlocked: false,
-            "area": 452,
-                demonyms: {
-        eng: {
-            fem: "Seychellois",
-                masc: "Seychellois"
-        },
-        fra: {
-            fem: "Seychelloise",
-                masc: "Seychellois"
-        }
-    },
-    flag: "🇸🇨",
+        flag: "🇸🇨",
         maps: {
-        googleMaps: "https://goo.gl/maps/aqCcy2TKh5TV5MAX8",
+            googleMaps: "https://goo.gl/maps/aqCcy2TKh5TV5MAX8",
             openStreetMaps: "https://www.openstreetmap.org/relation/536765"
-    },
-    population: 98462,
+        },
+        population: 98462,
         gini: 32.1,
-        , "fifa": "SEY",
-        "car": {
-        "signs": [
-            "SY"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC+04:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/sc.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/sc.png",
             svg: "https://flagcdn.com/sc.svg",
-                alt: "The flag of Seychelles is composed of five broadening oblique bands of blue, yellow, red, white and green, which extend from the hoist side of the bottom edge to the top and fly edges of the field."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/sc.png",
+            alt: "The flag of Seychelles is composed of five broadening oblique bands of blue, yellow, red, white and green, which extend from the hoist side of the bottom edge to the top and fly edges of the field."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/sc.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/sc.svg"
-    },
+        },
 
-    capitalInfo: {
-        latlng: [-4.62, 55.45]
-    }
-},
-{
-    name: {
-        common: "British Indian Ocean Territory",
+        capitalInfo: {
+            latlng: [-4.62, 55.45]
+        }
+    },
+    {
+        name: {
+            common: "British Indian Ocean Territory",
             official: "British Indian Ocean Territory",
-                "nativeName": {
-            eng: {
-                official: "British Indian Ocean Territory",
-                    common: "British Indian Ocean Territory"
-            }
-        }
-    },
-    "tld": [
-        ".io"
-    ],
-        "cca2": "IO",
-            "ccn3": "086",
-                "cca3": "IOT",
-                    "independent": false,
-                        "status": "officially-assigned",
-                            "unMember": false,
-                                currencies: {
-        "USD": {
-            name: "United States dollar",
-                "symbol": "$"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "46"
-            ]
-    },
-    capital: [
-        "Diego Garcia"
-    ],
-        "altSpellings": [
-            "IO"
+
+        },
+
+        currencies: "United States dollar",
+
+        capital: [
+            "Diego Garcia"
         ],
-            region: "Africa",
-                subregion: "Eastern Africa",
-                    languages: [
-                        "English"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "إقليم المحيط الهندي البريطاني",
-                common: "إقليم المحيط الهندي البريطاني"
-        },
-        "bre": {
-            official: "Tiriad breizhveurat Meurvor Indez",
-                common: "Tiriad breizhveurat Meurvor Indez"
-        },
-        "ces": {
-            official: "Britské indickooceánské území",
-                common: "Britské indickooceánské území"
-        },
-        "cym": {
-            official: "Tiriogaeth Brydeinig Cefnfor India",
-                common: "Tiriogaeth Brydeinig Cefnfor India"
-        },
-        "deu": {
-            official: "Britisches Territorium im Indischen Ozean",
-                common: "Britisches Territorium im Indischen Ozean"
-        },
-        "est": {
-            official: "Briti India ookeani ala",
-                common: "Briti India ookeani ala"
-        },
-        "fin": {
-            official: "Brittiläinen Intian valtameren alue",
-                common: "Brittiläinen Intian valtameren alue"
-        },
-        fra: {
-            official: "Territoire britannique de l' océan Indien",
-                common: "Territoire britannique de l'océan Indien"
-        },
-        "hrv": {
-            official: "British Indian Ocean Territory",
-                common: "Britanski Indijskooceanski teritorij"
-        },
-        "hun": {
-            official: "Brit Indiai-óceáni Terület",
-                common: "Brit Indiai-óceáni Terület"
-        },
-        "ita": {
-            official: "Territorio britannico dell'Oceano Indiano",
-                common: "Territorio britannico dell'oceano indiano"
-        },
-        "jpn": {
-            official: "イギリス領インド洋地域",
-                common: "イギリス領インド洋地域"
-        },
-        "kor": {
-            official: "인도 공화국",
-                common: "인도"
-        },
-        "nld": {
-            official: "Brits Indische Oceaan Territorium",
-                common: "Britse Gebieden in de Indische Oceaan"
-        },
-        "per": {
-            official: "قلمرو بریتانیا در اقیانوس هند",
-                common: "قلمرو بریتانیا در اقیانوس هند"
-        },
-        "pol": {
-            official: "Brytyjskie Terytorium Oceanu Indyjskiego",
-                common: "Brytyjskie Terytorium Oceanu Indyjskiego"
-        },
-        "por": {
-            official: "British Indian Ocean Territory",
-                common: "Território Britânico do Oceano Índico"
-        },
-        "rus": {
-            official: "Британская территория Индийского океана",
-                common: "Британская территория в Индийском океане"
-        },
-        "slk": {
-            official: "Britské indickooceánske územie",
-                common: "Britské indickooceánske územie"
-        },
-        "spa": {
-            official: "Territorio Británico del Océano Índico",
-                common: "Territorio Británico del Océano Índico"
-        },
-        "srp": {
-            official: "Британска територија Индијског океана",
-                common: "Британска територија Индијског океана"
-        },
-        "swe": {
-            official: "Brittiska territoriet i Indiska Oceanen",
-                common: "Brittiska territoriet i Indiska Oceanen"
-        },
-        "tur": {
-            official: "Britanya Hint Okyanusu Toprakları",
-                common: "Britanya Hint Okyanusu Toprakları"
-        },
-        "urd": {
-            official: "برطانوی بحرہند خطہ",
-                common: "برطانوی بحرہند خطہ"
-        },
-        "zho": {
-            official: "英属印度洋领地",
-                common: "英属印度洋领地"
-        }
-    },
-    latlng: [-6, 71.4],
+
+        region: "Africa",
+        subregion: "Eastern Africa",
+        languages: [
+            "English"
+        ],
+
+        latlng: [-6, 71.4],
         landlocked: false,
-            "area": 60,
-                demonyms: {
-        eng: {
-            fem: "Indian",
+
+        demonyms: {
+            eng: {
+                fem: "Indian",
                 masc: "Indian"
-        }
-    },
-    flag: "🇮🇴",
+            }
+        },
+        flag: "🇮🇴",
         maps: {
-        googleMaps: "https://goo.gl/maps/bheNucgekVEYozoi6",
+            googleMaps: "https://goo.gl/maps/bheNucgekVEYozoi6",
             openStreetMaps: "https://www.openstreetmap.org/relation/1993867"
-    },
-    population: 3000,
+        },
+        population: 3000,
         gini: -1,
-            "car": {
-        "signs": [
-            "GB"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+06:00"
-    ],
-        "continents": [
-            "Asia"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/io.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/io.png",
             svg: "https://flagcdn.com/io.svg"
-    },
-    coatOfArms: {
+        },
+        coatOfArms: {
 
-    },
+        },
 
-    capitalInfo: {
-        latlng: [-7.3, 72.4]
-    }
-},
-{
-    name: {
-        common: "Madagascar",
+        capitalInfo: {
+            latlng: [-7.3, 72.4]
+        }
+    },
+    {
+        name: {
+            common: "Madagascar",
             official: "Republic of Madagascar",
-                "nativeName": {
-            fra: {
-                official: "République de Madagascar",
-                    common: "Madagascar"
-            },
-            "mlg": {
-                official: "Repoblikan'i Madagasikara",
-                    common: "Madagasikara"
-            }
-        }
-    },
-    "tld": [
-        ".mg"
-    ],
-        "cca2": "MG",
-            "ccn3": "450",
-                "cca3": "MDG",
-                    "cioc": "MAD",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "MGA": {
-            name: "Malagasy ariary",
-                "symbol": "Ar"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "61"
-            ]
-    },
-    capital: [
-        "Antananarivo"
-    ],
-        "altSpellings": [
-            "MG",
-            "Republic of Madagascar",
-            "Repoblikan'i Madagasikara",
-            "République de Madagascar"
+
+        },
+
+        currencies: "Malagasy ariary",
+        capital: [
+            "Antananarivo"
         ],
-            region: "Africa",
-                subregion: "Eastern Africa",
-                    languages: [
-                        "French",
-                        "mlg": "Malagasy"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية مدغشقر",
-                common: "مدغشقر"
-        },
-        "bre": {
-            official: "Republik Madagaskar",
-                common: "Madagaskar"
-        },
-        "ces": {
-            official: "Madagaskarská republika",
-                common: "Madagaskar"
-        },
-        "cym": {
-            official: "Republic of Madagascar",
-                common: "Madagascar"
-        },
-        "deu": {
-            official: "Republik Madagaskar",
-                common: "Madagaskar"
-        },
-        "est": {
-            official: "Madagaskari Vabariik",
-                common: "Madagaskar"
-        },
-        "fin": {
-            official: "Madagaskarin tasavalta",
-                common: "Madagaskar"
-        },
-        fra: {
-            official: "République de Madagascar",
-                common: "Madagascar"
-        },
-        "hrv": {
-            official: "Republika Madagaskar",
-                common: "Madagaskar"
-        },
-        "hun": {
-            official: "Madagaszkári Köztársaság",
-                common: "Madagaszkár"
-        },
-        "ita": {
-            official: "Repubblica del Madagascar",
-                common: "Madagascar"
-        },
-        "jpn": {
-            official: "マダガスカル共和国",
-                common: "マダガスカル"
-        },
-        "kor": {
-            official: "마다가스카르 공화국",
-                common: "마다가스카르"
-        },
-        "nld": {
-            official: "Republiek Madagaskar",
-                common: "Madagaskar"
-        },
-        "per": {
-            official: "جمهوری ماداگاسکار",
-                common: "ماداگاسکار"
-        },
-        "pol": {
-            official: "Republika Madagaskaru",
-                common: "Madagaskar"
-        },
-        "por": {
-            official: "República de Madagáscar",
-                common: "Madagáscar"
-        },
-        "rus": {
-            official: "Республика Мадагаскар",
-                common: "Мадагаскар"
-        },
-        "slk": {
-            official: "Madagaskarská republika",
-                common: "Madagaskar"
-        },
-        "spa": {
-            official: "República de Madagascar",
-                common: "Madagascar"
-        },
-        "srp": {
-            official: "Република Мадагаскар",
-                common: "Мадагаскар"
-        },
-        "swe": {
-            official: "Republiken Madagaskar",
-                common: "Madagaskar"
-        },
-        "tur": {
-            official: "Madagaskar Cumhuriyeti",
-                common: "Madagaskar"
-        },
-        "urd": {
-            official: "جمہوریہ مڈغاسکر",
-                common: "مڈغاسکر"
-        },
-        "zho": {
-            official: "马达加斯加共和国",
-                common: "马达加斯加"
-        }
-    },
-    latlng: [-20, 47],
+
+        region: "Africa",
+        subregion: "Eastern Africa",
+        languages: [
+            "French",
+            "Malagasy"
+        ],
+
+        latlng: [-20, 47],
         landlocked: false,
-            "area": 587041,
-                demonyms: {
-        eng: {
-            fem: "Malagasy",
-                masc: "Malagasy"
-        },
-        fra: {
-            fem: "Malgache",
-                masc: "Malgache"
-        }
-    },
-    flag: "🇲🇬",
-        maps: {
-        googleMaps: "https://goo.gl/maps/AHQh2ABBaFW6Ngj26",
-            openStreetMaps: "https://www.openstreetmap.org/relation/447325"
-    },
-    population: 27691019,
-        gini: 42.6,
-        , "fifa": "MAD",
-        "car": {
-        "signs": [
-            "RM"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+03:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/mg.png",
-            svg: "https://flagcdn.com/mg.svg",
-                alt: "The flag of Madagascar features a white vertical band on the hoist side that takes up about one-third the width of the field, and two equal horizontal bands of red and green adjoining the vertical band."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/mg.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/mg.svg"
-    },
 
-    capitalInfo: {
-        latlng: [-18.92, 47.52]
-    },
-
-
-
-},
-{
-    name: {
-        common: "DR Congo",
-            official: "Democratic Republic of the Congo",
-                "nativeName": {
-            fra: {
-                official: "République démocratique du Congo",
-                    common: "RD Congo"
-            },
-            "kon": {
-                official: "Repubilika ya Kongo Demokratiki",
-                    common: "Repubilika ya Kongo Demokratiki"
-            },
-            "lin": {
-                official: "Republiki ya Kongó Demokratiki",
-                    common: "Republiki ya Kongó Demokratiki"
-            },
-            "lua": {
-                official: "Ditunga dia Kongu wa Mungalaata",
-                    common: "Ditunga dia Kongu wa Mungalaata"
-            },
-            "swa": {
-                official: "Jamhuri ya Kidemokrasia ya Kongo",
-                    common: "Jamhuri ya Kidemokrasia ya Kongo"
-            }
-        }
-    },
-    "tld": [
-        ".cd"
-    ],
-        "cca2": "CD",
-            "ccn3": "180",
-                "cca3": "COD",
-                    "cioc": "COD",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "CDF": {
-            name: "Congolese franc",
-                "symbol": "FC"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "43"
-            ]
-    },
-    capital: [
-        "Kinshasa"
-    ],
-        "altSpellings": [
-            "CD",
-            "DR Congo",
-            "Congo-Kinshasa",
-            "Congo, the Democratic Republic of the",
-            "DRC"
-        ],
-            region: "Africa",
-                subregion: "Middle Africa",
-                    languages: [
-                        "French",
-                        "kon": "Kikongo",
-                        "lin": "Lingala",
-                        "lua": "Tshiluba",
-                        "Swahili"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية الكونغو الديمقراطية",
-                common: "الكونغو"
-        },
-        "bre": {
-            official: "Republik Demokratel Kongo",
-                common: "Kongo-Kinshasa"
-        },
-        "ces": {
-            official: "Demokratická republika Kongo",
-                common: "DR Kongo"
-        },
-        "cym": {
-            official: "Gweriniaeth Ddemocrataidd Congo",
-                common: "Gweriniaeth Ddemocrataidd Congo"
-        },
-        "deu": {
-            official: "Demokratische Republik Kongo",
-                common: "Kongo (Dem. Rep.)"
-        },
-        "est": {
-            official: "Kongo Demokraatlik Vabariik",
-                common: "Kongo DV"
-        },
-        "fin": {
-            official: "Kongon demokraattinen tasavalta",
-                common: "Kongon demokraattinen tasavalta"
-        },
-        fra: {
-            official: "République démocratique du Congo",
-                common: "Congo (Rép. dém.)"
-        },
-        "hrv": {
-            official: "Demokratska Republika Kongo",
-                common: "Kongo, Demokratska Republika"
-        },
-        "hun": {
-            official: "Kongói Demokratikus Köztársaság",
-                common: "Kongói Demokratikus Köztársaság"
-        },
-        "ita": {
-            official: "Repubblica Democratica del Congo",
-                common: "Congo (Rep. Dem.)"
-        },
-        "jpn": {
-            official: "コンゴ民主共和国",
-                common: "コンゴ民主共和国"
-        },
-        "kor": {
-            official: "콩고 민주 공화국",
-                common: "콩고 민주 공화국"
-        },
-        "nld": {
-            official: "Democratische Republiek Congo",
-                common: "Congo (DRC)"
-        },
-        "per": {
-            official: "جمهوری دموکراتیک کنگو",
-                common: "کنگو دموکراتیک"
-        },
-        "pol": {
-            official: "Demokratyczna Republika Konga",
-                common: "Demokratyczna Republika Konga"
-        },
-        "por": {
-            official: "República Democrática do Congo",
-                common: "República Democrática do Congo"
-        },
-        "rus": {
-            official: "Демократическая Республика Конго",
-                common: "Демократическая Республика Конго"
-        },
-        "slk": {
-            official: "Konžská demokratická republika",
-                common: "Kongo"
-        },
-        "spa": {
-            official: "República Democrática del Congo",
-                common: "Congo (Rep. Dem.)"
-        },
-        "srp": {
-            official: "Демократска Република Конго",
-                common: "ДР Конго"
-        },
-        "swe": {
-            official: "Demokratiska republiken Kongo",
-                common: "Kongo-Kinshasa"
-        },
-        "tur": {
-            official: "Kongo Demokratik Cumhuriyeti",
-                common: "Kongo Demokratik Cumhuriyeti"
-        },
-        "urd": {
-            official: "جمہوری جمہوریہ کانگو",
-                common: "کانگو"
-        },
-        "zho": {
-            official: "刚果民主共和国",
-                common: "民主刚果"
-        }
-    },
-    latlng: [0, 25],
-        landlocked: false,
-            "borders": [
-                "AGO",
-                "BDI",
-                "CAF",
-                "COG",
-                "RWA",
-                "SSD",
-                "TZA",
-                "UGA",
-                "ZMB"
-            ],
-                "area": 2344858,
-                    demonyms: {
-        eng: {
-            fem: "Congolese",
-                masc: "Congolese"
-        },
-        fra: {
-            fem: "Congolaise",
-                masc: "Congolais"
-        }
-    },
-    flag: "🇨🇩",
-        maps: {
-        googleMaps: "https://goo.gl/maps/KfhNVn6VqdZXWu8n9",
-            openStreetMaps: "https://www.openstreetmap.org/relation/192795"
-    },
-    population: 108407721,
-        gini: 42.1,
-        , "fifa": "COD",
-        "car": {
-        "signs": [
-            "CGO"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+01:00",
-        "UTC+02:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/cd.png",
-            svg: "https://flagcdn.com/cd.svg",
-                alt: "The flag of the Democratic Republic of the Congo has a sky-blue field with a yellow-edged red diagonal band that extends from the lower hoist-side corner to the upper fly-side corner of the field. A large five-pointed yellow star is situated above the diagonal band on the upper hoist side of the field."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/cd.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/cd.svg"
-    },
-
-    capitalInfo: {
-        latlng: [-4.32, 15.3]
-    }
-},
-{
-    name: {
-        common: "Gambia",
-            official: "Republic of the Gambia",
-                "nativeName": {
+        demonyms: {
             eng: {
-                official: "Republic of the Gambia",
-                    common: "Gambia"
-            }
-        }
-    },
-    "tld": [
-        ".gm"
-    ],
-        "cca2": "GM",
-            "ccn3": "270",
-                "cca3": "GMB",
-                    "cioc": "GAM",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "GMD": {
-            name: "dalasi",
-                "symbol": "D"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "20"
-            ]
-    },
-    capital: [
-        "Banjul"
-    ],
-        "altSpellings": [
-            "GM",
-            "Republic of the Gambia"
-        ],
-            region: "Africa",
-                subregion: "Western Africa",
-                    languages: [
-                        "English"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية غامبيا",
-                common: "غامبيا"
-        },
-        "bre": {
-            official: "Republik islamek ar Gambia",
-                common: "Gambia"
-        },
-        "ces": {
-            official: "Gambijská republika",
-                common: "Gambie"
-        },
-        "cym": {
-            official: "Republic of the Gambia",
-                common: "Gambia"
-        },
-        "deu": {
-            official: "Republik Gambia",
-                common: "Gambia"
-        },
-        "est": {
-            official: "Gambia Vabariik",
-                common: "Gambia"
-        },
-        "fin": {
-            official: "Gambian tasavalta",
-                common: "Gambia"
-        },
-        fra: {
-            official: "République de Gambie",
-                common: "Gambie"
-        },
-        "hrv": {
-            official: "Republika Gambija",
-                common: "Gambija"
-        },
-        "hun": {
-            official: "Gambiai Köztársaság",
-                common: "Gambia"
-        },
-        "ita": {
-            official: "Repubblica del Gambia",
-                common: "Gambia"
-        },
-        "jpn": {
-            official: "ガンビア共和国",
-                common: "ガンビア"
-        },
-        "kor": {
-            official: "감비아 공화국",
-                common: "감비아"
-        },
-        "nld": {
-            official: "Republiek Gambia",
-                common: "Gambia"
-        },
-        "per": {
-            official: "جمهوری گامبیا",
-                common: "گامبیا"
-        },
-        "pol": {
-            official: "Republika Gambii",
-                common: "Gambia"
-        },
-        "por": {
-            official: "República da Gâmbia",
-                common: "Gâmbia"
-        },
-        "rus": {
-            official: "Республика Гамбия",
-                common: "Гамбия"
-        },
-        "slk": {
-            official: "Gambijská republika",
-                common: "Gambia"
-        },
-        "spa": {
-            official: "República de Gambia",
-                common: "Gambia"
-        },
-        "srp": {
-            official: "Република Гамбија",
-                common: "Гамбија"
-        },
-        "swe": {
-            official: "Republiken Gambia",
-                common: "Gambia"
-        },
-        "tur": {
-            official: "Gambiya Cumhuriyeti",
-                common: "Gambiya"
-        },
-        "urd": {
-            official: "جمہوریہ گیمبیا",
-                common: "گیمبیا"
-        },
-        "zho": {
-            official: "冈比亚共和国",
-                common: "冈比亚"
-        }
-    },
-    latlng: [13.46666666, -16.56666666],
-        landlocked: false,
-            "borders": [
-                "SEN"
-            ],
-                "area": 10689,
-                    demonyms: {
-        eng: {
-            fem: "Gambian",
-                masc: "Gambian"
-        },
-        fra: {
-            fem: "Gambienne",
-                masc: "Gambien"
-        }
-    },
-    flag: "🇬🇲",
-        maps: {
-        googleMaps: "https://goo.gl/maps/bbGBCxxtfD2A9Z4m6",
-            openStreetMaps: "https://www.openstreetmap.org/relation/192774"
-    },
-    population: 2416664,
-        gini: 35.9,
-        , "fifa": "GAM",
-        "car": {
-        "signs": [
-            "WAG"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+00:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/gm.png",
-            svg: "https://flagcdn.com/gm.svg",
-                alt: "The flag of Gambia is composed of three equal horizontal bands of red, blue with white top and bottom edges, and green."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/gm.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/gm.svg"
-    },
-
-    capitalInfo: {
-        latlng: [13.45, -16.57]
-    }
-},
-{
-    name: {
-        common: "Somalia",
-            official: "Federal Republic of Somalia",
-                "nativeName": {
-            "ara": {
-                official: "جمهورية الصومال‎‎",
-                    common: "الصومال‎‎"
+                fem: "Malagasy",
+                masc: "Malagasy"
             },
-            "som": {
-                official: "Jamhuuriyadda Federaalka Soomaaliya",
-                    common: "Soomaaliya"
+            fra: {
+                fem: "Malgache",
+                masc: "Malgache"
             }
-        }
-    },
-    "tld": [
-        ".so"
-    ],
-        "cca2": "SO",
-            "ccn3": "706",
-                "cca3": "SOM",
-                    "cioc": "SOM",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "SOS": {
-            name: "Somali shilling",
-                "symbol": "Sh"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "52"
-            ]
-    },
-    capital: [
-        "Mogadishu"
-    ],
-        "altSpellings": [
-            "SO",
-            "aṣ-Ṣūmāl",
-            "Federal Republic of Somalia",
-            "Jamhuuriyadda Federaalka Soomaaliya",
-            "Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya"
-        ],
-            region: "Africa",
-                subregion: "Eastern Africa",
-                    languages: [
-                        "Arabic",
-                        "som": "Somali"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية الصومال الفيدرالية",
-                common: "الصومال"
         },
-        "bre": {
-            official: "Republik Kevreadel Somalia",
-                common: "Somalia"
-        },
-        "ces": {
-            official: "Somálská demokratická republika",
-                common: "Somálsko"
-        },
-        "cym": {
-            official: "Federal Republic of Somalia",
-                common: "Somalia"
-        },
-        "deu": {
-            official: "Bundesrepublik Somalia",
-                common: "Somalia"
-        },
-        "est": {
-            official: "Somaalia Liitvabariik",
-                common: "Somaalia"
-        },
-        "fin": {
-            official: "Somalian liittotasavalta",
-                common: "Somalia"
-        },
-        fra: {
-            official: "République fédérale de Somalie",
-                common: "Somalie"
-        },
-        "hrv": {
-            official: "Savezna Republika Somaliji",
-                common: "Somalija"
-        },
-        "hun": {
-            official: "Szomáli Szövetségi Köztársaság",
-                common: "Szomália"
-        },
-        "ita": {
-            official: "Repubblica federale di Somalia",
-                common: "Somalia"
-        },
-        "jpn": {
-            official: "ソマリア連邦共和国",
-                common: "ソマリア"
-        },
-        "kor": {
-            official: " 소말리아 연방 공화국",
-                common: "소말리아"
-        },
-        "nld": {
-            official: "Federale Republiek Somalië",
-                common: "Somalië"
-        },
-        "per": {
-            official: "جمهوری فدرال سومالی",
-                common: "سومالی"
-        },
-        "pol": {
-            official: "Federalna Republika Somalii",
-                common: "Somalia"
-        },
-        "por": {
-            official: "República Federal da Somália",
-                common: "Somália"
-        },
-        "rus": {
-            official: "Федеративная Республика Сомали",
-                common: "Сомали"
-        },
-        "slk": {
-            official: "Somálska federatívna republika",
-                common: "Somálsko"
-        },
-        "spa": {
-            official: "República Federal de Somalia",
-                common: "Somalia"
-        },
-        "srp": {
-            official: "Савезна Република Сомалија",
-                common: "Сомалија"
-        },
-        "swe": {
-            official: "Förbundsrepubliken Somalia",
-                common: "Somalia"
-        },
-        "tur": {
-            official: "Somali Federal Cumhuriyeti",
-                common: "Somali"
-        },
-        "urd": {
-            official: "وفاقی جمہوریہ صومالیہ",
-                common: "صومالیہ"
-        },
-        "zho": {
-            official: "索马里共和国",
-                common: "索马里"
-        }
-    },
-    latlng: [10, 49],
-        landlocked: false,
-            "borders": [
-                "DJI",
-                "ETH",
-                "KEN"
-            ],
-                "area": 637657,
-                    demonyms: {
-        eng: {
-            fem: "Somali",
-                masc: "Somali"
-        },
-        fra: {
-            fem: "Somalienne",
-                masc: "Somalien"
-        }
-    },
-    flag: "🇸🇴",
+        flag: "🇲🇬",
         maps: {
-        googleMaps: "https://goo.gl/maps/8of8q7D1a8p7R6Fc9",
+            googleMaps: "https://goo.gl/maps/AHQh2ABBaFW6Ngj26",
+            openStreetMaps: "https://www.openstreetmap.org/relation/447325"
+        },
+        population: 27691019,
+        gini: 42.6,
+
+        flags: {
+            png: "https://flagcdn.com/w320/mg.png",
+            svg: "https://flagcdn.com/mg.svg",
+            alt: "The flag of Madagascar features a white vertical band on the hoist side that takes up about one-third the width of the field, and two equal horizontal bands of red and green adjoining the vertical band."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/mg.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/mg.svg"
+        },
+
+        capitalInfo: {
+            latlng: [-18.92, 47.52]
+        },
+
+
+
+    },
+    {
+        name: {
+            common: "DR Congo",
+            official: "Democratic Republic of the Congo",
+
+        },
+
+        currencies: "Congolese franc",
+        capital: [
+            "Kinshasa"
+        ],
+
+        region: "Africa",
+        subregion: "Middle Africa",
+        languages: [
+            "French",
+            "Kikongo",
+            "Lingala",
+            "Tshiluba",
+            "Swahili"
+        ],
+
+        latlng: [0, 25],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Congolese",
+                masc: "Congolese"
+            },
+            fra: {
+                fem: "Congolaise",
+                masc: "Congolais"
+            }
+        },
+        flag: "🇨🇩",
+        maps: {
+            googleMaps: "https://goo.gl/maps/KfhNVn6VqdZXWu8n9",
+            openStreetMaps: "https://www.openstreetmap.org/relation/192795"
+        },
+        population: 108407721,
+        gini: 42.1,
+
+        flags: {
+            png: "https://flagcdn.com/w320/cd.png",
+            svg: "https://flagcdn.com/cd.svg",
+            alt: "The flag of the Democratic Republic of the Congo has a sky-blue field with a yellow-edged red diagonal band that extends from the lower hoist-side corner to the upper fly-side corner of the field. A large five-pointed yellow star is situated above the diagonal band on the upper hoist side of the field."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/cd.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/cd.svg"
+        },
+
+        capitalInfo: {
+            latlng: [-4.32, 15.3]
+        }
+    },
+    {
+        name: {
+            common: "Gambia",
+            official: "Republic of the Gambia",
+
+        },
+
+        currencies: "dalasi",
+        capital: [
+            "Banjul"
+        ],
+
+        region: "Africa",
+        subregion: "Western Africa",
+        languages: [
+            "English"
+        ],
+
+        latlng: [13.46666666, -16.56666666],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Gambian",
+                masc: "Gambian"
+            },
+            fra: {
+                fem: "Gambienne",
+                masc: "Gambien"
+            }
+        },
+        flag: "🇬🇲",
+        maps: {
+            googleMaps: "https://goo.gl/maps/bbGBCxxtfD2A9Z4m6",
+            openStreetMaps: "https://www.openstreetmap.org/relation/192774"
+        },
+        population: 2416664,
+        gini: 35.9,
+
+        flags: {
+            png: "https://flagcdn.com/w320/gm.png",
+            svg: "https://flagcdn.com/gm.svg",
+            alt: "The flag of Gambia is composed of three equal horizontal bands of red, blue with white top and bottom edges, and green."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/gm.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/gm.svg"
+        },
+
+        capitalInfo: {
+            latlng: [13.45, -16.57]
+        }
+    },
+    {
+        name: {
+            common: "Somalia",
+            official: "Federal Republic of Somalia",
+
+        },
+
+        currencies: "Somali shilling",
+        capital: [
+            "Mogadishu"
+        ],
+
+        region: "Africa",
+        subregion: "Eastern Africa",
+        languages: [
+            "Arabic",
+            "Somali"
+        ],
+
+        latlng: [10, 49],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Somali",
+                masc: "Somali"
+            },
+            fra: {
+                fem: "Somalienne",
+                masc: "Somalien"
+            }
+        },
+        flag: "🇸🇴",
+        maps: {
+            googleMaps: "https://goo.gl/maps/8of8q7D1a8p7R6Fc9",
             openStreetMaps: "https://www.openstreetmap.org/relation/192799"
-    },
-    population: 15893219,
+        },
+        population: 15893219,
         gini: 36.8,
-        , "fifa": "SOM",
-        "car": {
-        "signs": [
-            "SO"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+03:00"
-    ],
-        "continents": [
-            "Africa"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/so.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/so.png",
             svg: "https://flagcdn.com/so.svg",
-                alt: "The flag of Somalia features a large five-pointed white star centered on a light blue field."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/so.png",
+            alt: "The flag of Somalia features a large five-pointed white star centered on a light blue field."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/so.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/so.svg"
-    },
+        },
 
-    capitalInfo: {
-        latlng: [2.07, 45.33]
-    },
+        capitalInfo: {
+            latlng: [2.07, 45.33]
+        },
 
 
-},
+    }/*,
 {
     name: {
         common: "Nigeria",
@@ -13046,11 +11407,7 @@ export const countries: Countries = [
                     "independent": false,
                         "status": "officially-assigned",
                             "unMember": false,
-                                currencies: {
-        "USD": {
-            name: "United States dollar",
-                "symbol": "$"
-        }
+                                currencies: "United States dollar",
     },
     "idd": {
         "root": "+1",
@@ -13430,11 +11787,7 @@ export const countries: Countries = [
                     "independent": false,
                         "status": "officially-assigned",
                             "unMember": false,
-                                currencies: {
-        "USD": {
-            name: "United States dollar",
-                "symbol": "$"
-        }
+                                currencies: "United States dollar",
     },
     "idd": {
         "root": "+2",
@@ -14427,11 +12780,7 @@ export const countries: Countries = [
                         "independent": false,
                             "status": "officially-assigned",
                                 "unMember": false,
-                                    currencies: {
-        "USD": {
-            name: "United States dollar",
-                "symbol": "$"
-        }
+                                    currencies: "United States dollar",
     },
     "idd": {
         "root": "+1",
@@ -15208,11 +13557,7 @@ export const countries: Countries = [
                     "independent": false,
                         "status": "officially-assigned",
                             "unMember": false,
-                                currencies: {
-        "USD": {
-            name: "United States dollar",
-                "symbol": "$"
-        }
+                                currencies: "United States dollar",
     },
     "idd": {
         "root": "+5",
@@ -15827,11 +14172,7 @@ export const countries: Countries = [
                         "independent": true,
                             "status": "officially-assigned",
                                 "unMember": true,
-                                    currencies: {
-        "USD": {
-            name: "United States dollar",
-                "symbol": "$"
-        }
+                                    currencies: "United States dollar",
     },
     "idd": {
         "root": "+1",
@@ -17543,11 +15884,7 @@ export const countries: Countries = [
                         "independent": true,
                             "status": "officially-assigned",
                                 "unMember": true,
-                                    currencies: {
-        "USD": {
-            name: "United States dollar",
-                "symbol": "$"
-        }
+                                    currencies: "United States dollar",
     },
     "idd": {
         "root": "+5",
@@ -18731,11 +17068,7 @@ export const countries: Countries = [
                         "independent": false,
                             "status": "officially-assigned",
                                 "unMember": false,
-                                    currencies: {
-        "USD": {
-            name: "United States dollar",
-                "symbol": "$"
-        }
+                                    currencies: "United States dollar",
     },
     "idd": {
         "root": "+1",
@@ -19544,11 +17877,7 @@ export const countries: Countries = [
                         "independent": true,
                             "status": "officially-assigned",
                                 "unMember": true,
-                                    currencies: {
-        "USD": {
-            name: "United States dollar",
-                "symbol": "$"
-        }
+                                    currencies: "United States dollar",
     },
     "idd": {
         "root": "+5",
@@ -22913,11 +21242,7 @@ export const countries: Countries = [
                         "independent": false,
                             "status": "officially-assigned",
                                 "unMember": false,
-                                    currencies: {
-        "USD": {
-            name: "United States dollar",
-                "symbol": "$"
-        }
+                                    currencies: "United States dollar",
     },
     "idd": {
         "root": "+1",
@@ -30293,11 +28618,7 @@ export const countries: Countries = [
                         "independent": true,
                             "status": "officially-assigned",
                                 "unMember": true,
-                                    currencies: {
-        "USD": {
-            name: "United States dollar",
-                "symbol": "$"
-        }
+                                    currencies: "United States dollar",
     },
     "idd": {
         "root": "+6",
@@ -33971,11 +32292,7 @@ export const countries: Countries = [
                         "independent": true,
                             "status": "officially-assigned",
                                 "unMember": true,
-                                    currencies: {
-        "USD": {
-            name: "United States dollar",
-                "symbol": "$"
-        }
+                                    currencies: "United States dollar",
     },
     "idd": {
         "root": "+6",
@@ -36346,11 +34663,7 @@ export const countries: Countries = [
                         "independent": false,
                             "status": "officially-assigned",
                                 "unMember": false,
-                                    currencies: {
-        "USD": {
-            name: "United States dollar",
-                "symbol": "$"
-        }
+                                    currencies: "United States dollar",
     },
     "idd": {
         "root": "+1",
@@ -37750,11 +36063,7 @@ export const countries: Countries = [
                         "independent": true,
                             "status": "officially-assigned",
                                 "unMember": true,
-                                    currencies: {
-        "USD": {
-            name: "United States dollar",
-                "symbol": "$"
-        }
+                                    currencies: "United States dollar",
     },
     "idd": {
         "root": "+6",
@@ -37951,11 +36260,7 @@ export const countries: Countries = [
                         "independent": false,
                             "status": "officially-assigned",
                                 "unMember": false,
-                                    currencies: {
-        "USD": {
-            name: "United States dollar",
-                "symbol": "$"
-        }
+                                    currencies: "United States dollar",
     },
     "idd": {
         "root": "+1",
@@ -38153,11 +36458,7 @@ export const countries: Countries = [
                     "independent": false,
                         "status": "officially-assigned",
                             "unMember": false,
-                                currencies: {
-        "USD": {
-            name: "United States dollar",
-                "symbol": "$"
-        }
+                                currencies: "United States dollar",
     },
     "idd": {
         "root": "+1",
@@ -38754,11 +37055,7 @@ export const countries: Countries = [
                         "independent": true,
                             "status": "officially-assigned",
                                 "unMember": true,
-                                    currencies: {
-        "USD": {
-            name: "United States dollar",
-                "symbol": "$"
-        }
+                                    currencies: "United States dollar",
     },
     "idd": {
         "root": "+6",
