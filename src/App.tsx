@@ -109,7 +109,7 @@ function App() {
   return (
     <>
       <Filters filters={filters} setFilters={setFilters} />
-      <MainArea countries={countries} weathers={weathers} mainContent={setMainContent} mainContent={mainContent} />
+      <MainArea countries={countries} weathers={weathers} mainContent={setMainContent} mainContent={mainContent} filters={filters} />
       <NavBar />
     </>
   )
