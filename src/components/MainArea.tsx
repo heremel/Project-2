@@ -11,21 +11,22 @@ interface MainProps {
     countries: Countries;
     weathers: Weathers;
     filters: Filters;
-    setFilters: React.Dispatch<React.SetStateAction<Filters>>
+    setFilters: React.Dispatch<React.SetStateAction<Filters>>;
+    setMainContent: React.Dispatch<React.SetStateAction<MainType>>;
 }
 
 
 
 
 
-function MainArea({ mainContent, countries, weathers, filters, setFilters }: MainProps) {
+function MainArea({ mainContent, countries, weathers, filters, setFilters, setMainContent }: MainProps) {
 
     switch (mainContent) {
-        case "ListOfItems": return <ListOfItems countries={countries} weathers={weathers} />;
-        case "FilterPage": return <FilterPage filters={filters} setFilters={setFilters} />;
+        case "ListOfItems": return <ListOfItems countries={countries} weathers={weathers} setMainContent={setMainContent} />;
+        case "FilterPage": return <FilterPage filters={filters} setFilters={setFilters} setMainContent={setMainContent} />;
         case "About": return <About />;
-        case "DetailledItem": return <DetailledItem />;
-        case "MyItems": return <ListOfItems countries={countries} weathers={weathers} />;
+        case "DetailledItem": return <DetailledItem setMainContent={setMainContent} />;
+        case "MyItems": return <ListOfItems countries={countries} weathers={weathers} setMainContent={setMainContent} />;
     }
 
 
