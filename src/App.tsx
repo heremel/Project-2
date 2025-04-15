@@ -1,35 +1,96 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+//import ListOfItems from './components/ListOfItems';
+import MainArea from './components/MainArea';
+import Filters from './components/Filters';
+import NavBar from './components/NavBar';
+import { countries } from './databases/countries';
+import { weathers } from './databases/weather';
+
+export interface Country {
+  name: {
+    common: string,
+    official: string,
+  },
+  currencies: string,
+  capital: string[],
+  region: string,
+  subregion: string,
+  languages: string[],
+  landlocked: boolean, // le pays est-il sans accès à la mer
+  latlng: [number, number],
+  demonyms: { // va servir pour les plats
+    eng: {
+      fem?: string,
+      masc: string,
+    },
+    fra?: {
+      fem: string,
+      masc: string,
+    }
+  }
+  flag: string,
+  maps: {
+    googleMaps: string,
+    openStreetMaps: string
+  },
+  population: number,
+  gini: number,
+  flags: {
+    png?: string,
+    svg?: string,
+    alt?: string
+  },
+  coatOfArms: {
+    png?: string,
+    svg?: string
+  },
+  capitalInfo: {
+    latlng: [number, number]
+  },
+}
+
+export type Countries = Country[]
+
+export interface Weather {
+  latitude: number,
+  longitude: number,
+  generationtime_ms: number,
+  utc_offset_seconds: number,
+  timezone: string,
+  timezone_abbreviation: string,
+  elevation: number,
+  location_id: number,
+  daily_units: {
+    time: string,
+    temperature_2m_mean: string,// C°
+    temperature_2m_max: string,
+    temperature_2m_min: string,
+    rain_sum: string, //"mm",
+    snowfall_sum: string, //"cm",
+    precipitation_hours: string,
+  },
+  daily: {
+    time: string[],
+    temperature_2m_mean: number[],
+    temperature_2m_max: number[],
+    temperature_2m_min: number[],
+    rain_sum: number[],
+    snowfall_sum: number[],
+    precipitation_hours: number[],
+  }
+}
+
+export type Weathers = Weather[]
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Filters />
+      <MainArea countries={countries} weathers={weathers} />
+      <NavBar />
     </>
   )
 }
 
-export default App
+export default App;
