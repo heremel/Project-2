@@ -3,28 +3,33 @@ import FilterPage from "./FilterPage";
 import About from "./About";
 import DetailledItem from "./DetailledItem";
 import { useState } from "react";
-import { Countries } from "../App";
+import { Countries, Filters, MainType } from "../App";
 import { Weathers } from "../App";
 
 interface MainProps {
-
+    mainContent: MainType;
+    countries: Countries;
+    weathers: Weathers;
+    filters: Filters;
+    setFilters: React.Dispatch<React.SetStateAction<Filters>>;
+    setMainContent: React.Dispatch<React.SetStateAction<MainType>>;
 }
 
 
 
 
 
-function MainArea({weathers, countries}) {
+function MainArea({ mainContent, countries, weathers, filters, setFilters, setMainContent }: MainProps) {
 
-    return (
-        <>
-            <ListOfItems countries={countries} weathers={weathers} />
-            {/* <FilterPage />
-            <About />
-            <DetailledItem /> */}
+    switch (mainContent) {
+        case "ListOfItems": return <ListOfItems countries={countries} weathers={weathers} setMainContent={setMainContent} filters={filters} />;
+        case "FilterPage": return <FilterPage filters={filters} setFilters={setFilters} setMainContent={setMainContent} />;
+        case "About": return <About />;
+        case "DetailledItem": return <DetailledItem setMainContent={setMainContent} />;
+        case "MyItems": return <ListOfItems countries={countries} weathers={weathers} setMainContent={setMainContent} filters={filters} />;
+    }
 
-        </>
-    )
+
 }
 
 export default MainArea

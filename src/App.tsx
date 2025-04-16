@@ -1,11 +1,12 @@
 import './App.css'
 //import ListOfItems from './components/ListOfItems';
 import MainArea from './components/MainArea';
-import Filters from './components/Filters';
+import FiltersTab from './components/FiltersTab';
 import NavBar from './components/NavBar';
 import { countries } from './databases/countries';
 import { weathers } from './databases/weather';
 import { useState } from 'react';
+
 
 export interface Country {
   name: {
@@ -91,6 +92,7 @@ export interface Filters {
 }
 
 export type Weathers = Weather[]
+export type MainType = "ListOfItems" | "FilterPage" | "About" | "DetailledItem" | "MyItems"
 
 function App() {
   const defaultFilters: Filters = {
@@ -103,15 +105,15 @@ function App() {
   }
   const [filters, setFilters] = useState(defaultFilters)
 
-  type MainType = "ListOfItems" | "FilterPage" | "About" | "DetailledItem"
+
   const [mainContent, setMainContent] = useState<MainType>("About")
 
 
   return (
     <>
-      <Filters filters={filters} setFilters={setFilters} />
-      <MainArea countries={countries} weathers={weathers} setMainContent={setMainContent} mainContent={mainContent} filters={filters} />
-      <NavBar />
+      <FiltersTab filters={filters} setFilters={setFilters} setMainContent={setMainContent} />
+      <MainArea countries={countries} weathers={weathers} setMainContent={setMainContent} mainContent={mainContent} filters={filters} setFilters={setFilters} />
+      <NavBar setMainContent={setMainContent} mainContent={mainContent} />
     </>
   )
 }
