@@ -81,8 +81,10 @@ export interface Weather {
   }
 }
 
+export type Regions = "none" | "Europe" | "Africa" | "Americas" | "Asia" | "Oceania"; 
+
 export interface Filters {
-  region: "none" | "Europe" | "Africa" | "Americas" | "Asia" | "Oceania";
+  region: Regions;
   subregion: string;
   languages: string[];
   meantempmin: number;
@@ -113,7 +115,7 @@ function App() {
 
   return (
     <>
-      <FiltersTab filters={filters} setFilters={setFilters} setMainContent={setMainContent} />
+      <FiltersTab filters={filters} setFilters={setFilters} setMainContent={setMainContent} mainContent={mainContent} />
       <MainArea countries={countries} weathers={weathers} setMainContent={setMainContent} mainContent={mainContent} filters={filters} setFilters={setFilters} />
       <NavBar setMainContent={setMainContent} mainContent={mainContent} />
     </>

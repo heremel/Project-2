@@ -11906,1630 +11906,453 @@ export const countries: Countries = [
         },
 
 
-    }/*,
-{
-    name: {
-        common: "Israel",
+    },
+    {
+        name: {
+            common: "Israel",
             official: "State of Israel",
-                "nativeName": {
-            "ara": {
-                official: "دولة إسرائيل",
-                    common: "إسرائيل"
-            },
-            "heb": {
-                official: "מדינת ישראל",
-                    common: "ישראל"
-            }
-        }
-    },
-    "tld": [
-        ".il"
-    ],
-        "cca2": "IL",
-            "ccn3": "376",
-                "cca3": "ISR",
-                    "cioc": "ISR",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "ILS": {
-            name: "Israeli new shekel",
-                "symbol": "₪"
-        }
-    },
-    "idd": {
-        "root": "+9",
-            "suffixes": [
-                "72"
-            ]
-    },
-    capital: [
-        "Jerusalem"
-    ],
-        "altSpellings": [
-            "IL",
-            "State of Israel",
-            "Medīnat Yisrā'el"
+
+        },
+
+        currencies: "Israeli new shekel",
+        capital: [
+            "Jerusalem"
         ],
-            region: "Asia",
-                subregion: "Western Asia",
-                    languages: [
-                        "Arabic",
-                        "heb": "Hebrew"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "دولة إسرائيل",
-                common: "إسرائيل"
-        },
-        "bre": {
-            official: "Stad Israel",
-                common: "Israel"
-        },
-        "ces": {
-            official: "Stát Izrael",
-                common: "Izrael"
-        },
-        "cym": {
-            official: "State of Israel",
-                common: "Israel"
-        },
-        "deu": {
-            official: "Staat Israel",
-                common: "Israel"
-        },
-        "est": {
-            official: "Iisraeli Riik",
-                common: "Iisrael"
-        },
-        "fin": {
-            official: "Israelin valtio",
-                common: "Israel"
-        },
-        fra: {
-            official: "État d'Israël",
-                common: "Israël"
-        },
-        "hrv": {
-            official: "Država Izrael",
-                common: "Izrael"
-        },
-        "hun": {
-            official: "Izrael",
-                common: "Izrael"
-        },
-        "ita": {
-            official: "Stato di Israele",
-                common: "Israele"
-        },
-        "jpn": {
-            official: "イスラエル国",
-                common: "イスラエル"
-        },
-        "kor": {
-            official: "이스라엘국",
-                common: "이스라엘"
-        },
-        "nld": {
-            official: "Staat Israël",
-                common: "Israël"
-        },
-        "per": {
-            official: "فلسطين اشغالی",
-                common: "فلسطين اشغالی"
-        },
-        "pol": {
-            official: "Państwo Izrael",
-                common: "Izrael"
-        },
-        "por": {
-            official: "Estado de Israel",
-                common: "Israel"
-        },
-        "rus": {
-            official: "Государство Израиль",
-                common: "Израиль"
-        },
-        "slk": {
-            official: "Izraelský štát",
-                common: "Izrael"
-        },
-        "spa": {
-            official: "Estado de Israel",
-                common: "Israel"
-        },
-        "srp": {
-            official: "Држава Израел",
-                common: "Израел"
-        },
-        "swe": {
-            official: "Staten Israel",
-                common: "Israel"
-        },
-        "tur": {
-            official: "İsrail Devleti",
-                common: "İsrail"
-        },
-        "urd": {
-            official: "ریاستِ اسرائیل",
-                common: "اسرائیل"
-        },
-        "zho": {
-            official: "以色列国",
-                common: "以色列"
-        }
-    },
-    latlng: [31.47, 35.13],
-        landlocked: false,
-            "borders": [
-                "EGY",
-                "JOR",
-                "LBN",
-                "PSE",
-                "SYR"
-            ],
-                "area": 20770,
-                    demonyms: {
-        eng: {
-            fem: "Israeli",
-                masc: "Israeli"
-        },
-        fra: {
-            fem: "Israélienne",
-                masc: "Israélien"
-        }
-    },
-    flag: "🇮🇱",
-        maps: {
-        googleMaps: "https://goo.gl/maps/6UY1AH8XeafVwdC97",
-            openStreetMaps: "https://www.openstreetmap.org/relation/1473946"
-    },
-    population: 9216900,
-        gini: 39,
-            , "fifa": "ISR",
-        "car": {
-        "signs": [
-            "IL"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+02:00"
-    ],
-        "continents": [
-            "Asia"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/il.png",
-            svg: "https://flagcdn.com/il.svg",
-                alt: "The flag of Israel has a white field with a blue hexagram — the Magen David — centered between two equal horizontal blue bands situated near the top and bottom edges of the field."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/il.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/il.svg"
-    },
 
-    capitalInfo: {
-        latlng: [31.77, 35.23]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Oman",
-            official: "Sultanate of Oman",
-                "nativeName": {
-            "ara": {
-                official: "سلطنة عمان",
-                    common: "عمان"
-            }
-        }
-    },
-    "tld": [
-        ".om"
-    ],
-        "cca2": "OM",
-            "ccn3": "512",
-                "cca3": "OMN",
-                    "cioc": "OMA",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "OMR": {
-            name: "Omani rial",
-                "symbol": "ر.ع."
-        }
-    },
-    "idd": {
-        "root": "+9",
-            "suffixes": [
-                "68"
-            ]
-    },
-    capital: [
-        "Muscat"
-    ],
-        "altSpellings": [
-            "OM",
-            "Sultanate of Oman",
-            "Salṭanat ʻUmān"
-        ],
-            region: "Asia",
-                subregion: "Western Asia",
-                    languages: [
-                        "Arabic"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "سلطنة عمان",
-                common: "عمان"
-        },
-        "bre": {
-            official: "Sultanelezh Oman",
-                common: "Oman"
-        },
-        "ces": {
-            official: "Sultanát Omán",
-                common: "Omán"
-        },
-        "cym": {
-            official: "Sultanate of Oman",
-                common: "Oman"
-        },
-        "deu": {
-            official: "Sultanat Oman",
-                common: "Oman"
-        },
-        "est": {
-            official: "Omaani Sultaniriik",
-                common: "Omaan"
-        },
-        "fin": {
-            official: "Omanin sulttaanikunta",
-                common: "Oman"
-        },
-        fra: {
-            official: "Sultanat d'Oman",
-                common: "Oman"
-        },
-        "hrv": {
-            official: "Sultanat Oman",
-                common: "Oman"
-        },
-        "hun": {
-            official: "Ománi Szultanátus",
-                common: "Omán"
-        },
-        "ita": {
-            official: "Sultanato dell'Oman",
-                common: "oman"
-        },
-        "jpn": {
-            official: "オマーン·スルタン国",
-                common: "オマーン"
-        },
-        "kor": {
-            official: "오만 술탄국",
-                common: "오만"
-        },
-        "nld": {
-            official: "Sultanaat van Oman",
-                common: "Oman"
-        },
-        "per": {
-            official: "سلطان‌نشین عُمان",
-                common: "عمان"
-        },
-        "pol": {
-            official: "Sułtanat Omanu",
-                common: "Oman"
-        },
-        "por": {
-            official: "Sultanato de Omã",
-                common: "Omã"
-        },
-        "rus": {
-            official: "Султанат Оман",
-                common: "Оман"
-        },
-        "slk": {
-            official: "Ománsky sultanát",
-                common: "Omán"
-        },
-        "spa": {
-            official: "Sultanato de Omán",
-                common: "Omán"
-        },
-        "srp": {
-            official: "Султанат Оман",
-                common: "Оман"
-        },
-        "swe": {
-            official: "Sultanatet Oman",
-                common: "Oman"
-        },
-        "tur": {
-            official: "Umman Sultanlığı",
-                common: "Umman"
-        },
-        "urd": {
-            official: "سلطنت عمان",
-                common: "عمان"
-        },
-        "zho": {
-            official: "阿曼苏丹国",
-                common: "阿曼"
-        }
-    },
-    latlng: [21, 57],
-        landlocked: false,
-            "borders": [
-                "SAU",
-                "ARE",
-                "YEM"
-            ],
-                "area": 309500,
-                    demonyms: {
-        eng: {
-            fem: "Omani",
-                masc: "Omani"
-        },
-        fra: {
-            fem: "Omanaise",
-                masc: "Omanais"
-        }
-    },
-    flag: "🇴🇲",
-        maps: {
-        googleMaps: "https://goo.gl/maps/L2BoXoAwDDwWecnw5",
-            openStreetMaps: "https://www.openstreetmap.org/relation/305138"
-    },
-    population: 5106622,
-        gini: -1,
-            "fifa": "OMA",
-                "car": {
-        "signs": [
-            "OM"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+04:00"
-    ],
-        "continents": [
-            "Asia"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/om.png",
-            svg: "https://flagcdn.com/om.svg",
-                alt: "The flag of Oman features a red vertical band on the hoist side that takes up about one-fourth the width of the field, and three equal horizontal bands of white, red and green adjoining the vertical band. At the top of the vertical band is the white emblem of Oman."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/om.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/om.svg"
-    },
-
-    capitalInfo: {
-        latlng: [23.62, 58.58]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Macau",
-            official: "Macao Special Administrative Region of the People's Republic of China",
-                "nativeName": {
-            "por": {
-                official: "Região Administrativa Especial de Macau da República Popular da China",
-                    common: "Macau"
-            },
-            "zho": {
-                official: "中华人民共和国澳门特别行政区",
-                    common: "澳门"
-            }
-        }
-    },
-    "tld": [
-        ".mo"
-    ],
-        "cca2": "MO",
-            "ccn3": "446",
-                "cca3": "MAC",
-                    "independent": false,
-                        "status": "officially-assigned",
-                            "unMember": false,
-                                currencies: {
-        "MOP": {
-            name: "Macanese pataca",
-                "symbol": "P"
-        }
-    },
-    "idd": {
-        "root": "+8",
-            "suffixes": [
-                "53"
-            ]
-    },
-    "altSpellings": [
-        "MO",
-        "澳门",
-        "Macao",
-        "Macao Special Administrative Region of the People's Republic of China",
-        "中華人民共和國澳門特別行政區",
-        "Região Administrativa Especial de Macau da República Popular da China"
-    ],
         region: "Asia",
-            subregion: "Eastern Asia",
-                languages: [
-                    "Portuguese",
-                    "Chinese"
-                ],
-                    "translations": {
-        "ara": {
-            official: "منطقة ماكاو الإدارية التابعة لجمهورية الصين الشعبية",
-                common: "ماكاو"
-        },
-        "bre": {
-            official: "Rannvro velestradurel arbennik Makao eus Republik pobl Sina",
-                common: "Makao"
-        },
-        "ces": {
-            official: "Zvláštní správní oblast Čínské lidové republiky Macao",
-                common: "Macao"
-        },
-        "cym": {
-            official: "Macao Special Administrative Region of the People's Republic of China",
-                common: "Macau"
-        },
-        "deu": {
-            official: "Sonderverwaltungsregion Macau der Volksrepublik China",
-                common: "Macao"
-        },
-        "est": {
-            official: "Macau erihalduspiirkond",
-                common: "Macau"
-        },
-        "fin": {
-            official: "Macaon Kiinan kansantasavallan erityishallintoalue",
-                common: "Macao"
-        },
-        fra: {
-            official: "Région administrative spéciale de Macao de la République populaire de Chine",
-                common: "Macao"
-        },
-        "hrv": {
-            official: "Makao Posebnog upravnog područjaNarodne Republike Kine",
-                common: "Makao"
-        },
-        "hun": {
-            official: "Makaó",
-                common: "Makaó"
-        },
-        "ita": {
-            official: "Macao Regione amministrativa speciale della Repubblica Popolare Cinese",
-                common: "Macao"
-        },
-        "jpn": {
-            official: "中華人民共和国マカオ特別行政区",
-                common: "マカオ"
-        },
-        "kor": {
-            official: "중화인민공화국 마카오 특별행정구",
-                common: "마카오"
-        },
-        "nld": {
-            official: "Speciale Administratieve Regio Macau van de Volksrepubliek China",
-                common: "Macao"
-        },
-        "per": {
-            official: "ماکائو",
-                common: "ماکائو"
-        },
-        "pol": {
-            official: "Specjalny Region Administracyjny Chińskiej Republiki Ludowej Makau",
-                common: "Makau"
-        },
-        "por": {
-            official: "Macau Região Administrativa Especial da República Popular da China",
-                common: "Macau"
-        },
-        "rus": {
-            official: "Специальный административный район Макао Китайской Народной Республики Китай",
-                common: "Макао"
-        },
-        "slk": {
-            official: "Macao, Špeciàlna administratívna oblasŦ",
-                common: "Macao"
-        },
-        "spa": {
-            official: "Macao, Región Administrativa Especial de la República Popular China",
-                common: "Macao"
-        },
-        "srp": {
-            official: "Макао специјална административна област Народне Републике Кине",
-                common: "Макао"
-        },
-        "swe": {
-            official: "Macao",
-                common: "Macao"
-        },
-        "tur": {
-            official: "Çin Halk Cumhuriyeti Makao Özel İdari Bölgesi",
-                common: "Makao"
-        },
-        "urd": {
-            official: "مکاؤ عوامی جمہوریہ چین کا خصوصی انتظامی علاقہ",
-                common: "مکاؤ"
-        }
-    },
-    latlng: [22.16666666, 113.55],
+        subregion: "Western Asia",
+        languages: [
+            "Arabic",
+            "Hebrew"
+        ],
+
+        latlng: [31.47, 35.13],
         landlocked: false,
-            "borders": [
-                "CHN"
-            ],
-                "area": 30,
-                    demonyms: {
-        eng: {
-            fem: "Macanese",
-                masc: "Macanese"
-        },
-        fra: {
-            fem: "Macanaise",
-                masc: "Macanais"
-        }
-    },
-    flag: "🇲🇴",
-        maps: {
-        googleMaps: "https://goo.gl/maps/whymRdk3dZFfAAs4A",
-            openStreetMaps: "https://www.openstreetmap.org/relation/1867188"
-    },
-    population: 649342,
-        gini: -1,
-            "fifa": "MAC",
-                "car": {
-        "signs": [
-            "MO"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC+08:00"
-    ],
-        "continents": [
-            "Asia"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/mo.png",
-            svg: "https://flagcdn.com/mo.svg"
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/mo.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/mo.svg"
-    },
 
-    capitalInfo: {
-
-    }
-},
-
-{
-    name: {
-        common: "New Caledonia",
-            official: "New Caledonia",
-                "nativeName": {
-            fra: {
-                official: "Nouvelle-Calédonie",
-                    common: "Nouvelle-Calédonie"
-            }
-        }
-    },
-    "tld": [
-        ".nc"
-    ],
-        "cca2": "NC",
-            "ccn3": "540",
-                "cca3": "NCL",
-                    "independent": false,
-                        "status": "officially-assigned",
-                            "unMember": false,
-                                currencies: {
-        "XPF": {
-            name: "CFP franc",
-                "symbol": "₣"
-        }
-    },
-    "idd": {
-        "root": "+6",
-            "suffixes": [
-                "87"
-            ]
-    },
-    capital: [
-        "Nouméa"
-    ],
-        "altSpellings": [
-            "NC"
-        ],
-            region: "Oceania",
-                subregion: "Melanesia",
-                    languages: [
-                        "French"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "كاليدونيا الجديدة",
-                common: "كاليدونيا الجديدة"
-        },
-        "bre": {
-            official: "Kaledonia-Nevez",
-                common: "Kaledonia-Nevez"
-        },
-        "ces": {
-            official: "Nová Kaledonie",
-                common: "Nová Kaledonie"
-        },
-        "cym": {
-            official: "New Caledonia",
-                common: "New Caledonia"
-        },
-        "deu": {
-            official: "Neukaledonien",
-                common: "Neukaledonien"
-        },
-        "est": {
-            official: "Uus-Kaledoonia",
-                common: "Uus-Kaledoonia"
-        },
-        "fin": {
-            official: "Uusi-Kaledonia",
-                common: "Uusi-Kaledonia"
-        },
-        fra: {
-            official: "Nouvelle-Calédonie",
-                common: "Nouvelle-Calédonie"
-        },
-        "hrv": {
-            official: "Nova Kaledonija",
-                common: "Nova Kaledonija"
-        },
-        "hun": {
-            official: "Új-Kaledónia",
-                common: "Új-Kaledónia"
-        },
-        "ita": {
-            official: "Nuova Caledonia",
-                common: "Nuova Caledonia"
-        },
-        "jpn": {
-            official: "ニューカレドニア",
-                common: "ニューカレドニア"
-        },
-        "kor": {
-            official: "누벨칼레도니",
-                common: "누벨칼레도니"
-        },
-        "nld": {
-            official: "nieuw -Caledonië",
-                common: "Nieuw-Caledonië"
-        },
-        "per": {
-            official: "کالدونیای جدید",
-                common: "کالدونیای جدید"
-        },
-        "pol": {
-            official: "Nowa Kaledonia",
-                common: "Nowa Kaledonia"
-        },
-        "por": {
-            official: "New Caledonia",
-                common: "Nova Caledónia"
-        },
-        "rus": {
-            official: "Новая Каледония",
-                common: "Новая Каледония"
-        },
-        "slk": {
-            official: "Nová Kaledónia",
-                common: "Nová Kaledónia"
-        },
-        "spa": {
-            official: "nueva Caledonia",
-                common: "Nueva Caledonia"
-        },
-        "srp": {
-            official: "Нова Каледонија",
-                common: "Нова Каледонија"
-        },
-        "swe": {
-            official: "Nya Kaledonien",
-                common: "Nya Kaledonien"
-        },
-        "tur": {
-            official: "Yeni Kaledonya",
-                common: "Yeni Kaledonya"
-        },
-        "urd": {
-            official: "نیو کیلیڈونیا",
-                common: "نیو کیلیڈونیا"
-        },
-        "zho": {
-            official: "新喀里多尼亚",
-                common: "新喀里多尼亚"
-        }
-    },
-    latlng: [-21.4, 165.4],
-        landlocked: false,
-            "area": 18575,
-                demonyms: {
-        eng: {
-            fem: "New Caledonian",
-                masc: "New Caledonian"
-        },
-        fra: {
-            fem: "Néo-Calédonienne",
-                masc: "Néo-Calédonien"
-        }
-    },
-    flag: "🇳🇨",
-        maps: {
-        googleMaps: "https://goo.gl/maps/cBhtCeMdob4U7FRU9",
-            openStreetMaps: "https://www.openstreetmap.org/relation/3407643"
-    },
-    population: 271960,
-        gini: -1,
-            "fifa": "NCL",
-                "car": {
-        "signs": [
-            "F"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+11:00"
-    ],
-        "continents": [
-            "Oceania"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/nc.png",
-            svg: "https://flagcdn.com/nc.svg"
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/nc.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/nc.svg"
-    },
-
-    capitalInfo: {
-        latlng: [-22.27, 166.45]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Solomon Islands",
-            official: "Solomon Islands",
-                "nativeName": {
+        demonyms: {
             eng: {
-                official: "Solomon Islands",
-                    common: "Solomon Islands"
-            }
-        }
-    },
-    "tld": [
-        ".sb"
-    ],
-        "cca2": "SB",
-            "ccn3": "090",
-                "cca3": "SLB",
-                    "cioc": "SOL",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "SBD": {
-            name: "Solomon Islands dollar",
-                "symbol": "$"
-        }
-    },
-    "idd": {
-        "root": "+6",
-            "suffixes": [
-                "77"
-            ]
-    },
-    capital: [
-        "Honiara"
-    ],
-        "altSpellings": [
-            "SB"
-        ],
-            region: "Oceania",
-                subregion: "Melanesia",
-                    languages: [
-                        "English"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جزر سليمان",
-                common: "جزر سليمان"
-        },
-        "bre": {
-            official: "Inizi Salomon",
-                common: "Inizi Salomon"
-        },
-        "ces": {
-            official: "Šalamounovy ostrovy",
-                common: "Šalamounovy ostrovy"
-        },
-        "cym": {
-            official: "Solomon Islands",
-                common: "Solomon Islands"
-        },
-        "deu": {
-            official: "Salomonen",
-                common: "Salomonen"
-        },
-        "est": {
-            official: "Saalomoni Saared",
-                common: "Saalomoni Saared"
-        },
-        "fin": {
-            official: "Salomonsaaret",
-                common: "Salomonsaaret"
-        },
-        fra: {
-            official: "Îles Salomon",
-                common: "Îles Salomon"
-        },
-        "hrv": {
-            official: "Solomonski Otoci",
-                common: "Solomonski Otoci"
-        },
-        "hun": {
-            official: "Salamon-szigetek",
-                common: "Salamon-szigetek"
-        },
-        "ita": {
-            official: "Isole Salomone",
-                common: "Isole Salomone"
-        },
-        "jpn": {
-            official: "ソロモン諸島",
-                common: "ソロモン諸島"
-        },
-        "kor": {
-            official: "솔로몬 제도",
-                common: "솔로몬 제도"
-        },
-        "nld": {
-            official: "Solomon eilanden",
-                common: "Salomonseilanden"
-        },
-        "per": {
-            official: "جزایر سلیمان",
-                common: "جزایر سلیمان"
-        },
-        "pol": {
-            official: "Wyspy Salomona",
-                common: "Wyspy Salomona"
-        },
-        "por": {
-            official: "Ilhas Salomão",
-                common: "Ilhas Salomão"
-        },
-        "rus": {
-            official: "Соломоновы острова",
-                common: "Соломоновы Острова"
-        },
-        "slk": {
-            official: "Salomonove ostrovy",
-                common: "Salomonove ostrovy"
-        },
-        "spa": {
-            official: "islas Salomón",
-                common: "Islas Salomón"
-        },
-        "srp": {
-            official: "Соломонска Острва",
-                common: "Соломонска Острва"
-        },
-        "swe": {
-            official: "Salomonöarna",
-                common: "Salomonöarna"
-        },
-        "tur": {
-            official: "Solomon Adaları",
-                common: "Solomon Adaları"
-        },
-        "urd": {
-            official: "جزائر سلیمان",
-                common: "جزائر سلیمان"
-        },
-        "zho": {
-            official: "所罗门群岛",
-                common: "所罗门群岛"
-        }
-    },
-    latlng: [-8, 159],
-        landlocked: false,
-            "area": 28896,
-                demonyms: {
-        eng: {
-            fem: "Solomon Islander",
-                masc: "Solomon Islander"
-        },
-        fra: {
-            fem: "Salomonienne",
-                masc: "Salomonien"
-        }
-    },
-    flag: "🇸🇧",
-        maps: {
-        googleMaps: "https://goo.gl/maps/JbPkx86Ywjv8C1n8A",
-            openStreetMaps: "https://www.openstreetmap.org/relation/1857436"
-    },
-    population: 686878,
-        gini: 37.1,
-            , "fifa": "SOL",
-        "car": {
-        "signs": [
-            "SOL"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC+11:00"
-    ],
-        "continents": [
-            "Oceania"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/sb.png",
-            svg: "https://flagcdn.com/sb.svg",
-                alt: "The flag of Solomon Islands features a thin yellow diagonal band that extends from the lower hoist-side corner to the upper fly-side corner of the field. Above and beneath this band are a blue and green triangle respectively. Five white five-pointed stars arranged in an X shape are situated on the hoist side of the upper blue triangle."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/sb.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/sb.svg"
-    },
-
-    capitalInfo: {
-        latlng: [-9.43, 159.95]
-    }
-},
-{
-    name: {
-        common: "Marshall Islands",
-            official: "Republic of the Marshall Islands",
-                "nativeName": {
-            eng: {
-                official: "Republic of the Marshall Islands",
-                    common: "Marshall Islands"
+                fem: "Israeli",
+                masc: "Israeli"
             },
-            "mah": {
-                official: "Republic of the Marshall Islands",
-                    common: "M̧ajeļ"
+            fra: {
+                fem: "Israélienne",
+                masc: "Israélien"
             }
-        }
-    },
-    "tld": [
-        ".mh"
-    ],
-        "cca2": "MH",
-            "ccn3": "584",
-                "cca3": "MHL",
-                    "cioc": "MHL",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: "United States dollar",
-    },
-"idd": {
-    "root": "+6",
-        "suffixes": [
-            "92"
-        ]
-},
-capital: [
-    "Majuro"
-],
-    "altSpellings": [
-        "MH",
-        "Republic of the Marshall Islands",
-        "Aolepān Aorōkin M̧ajeļ"
-    ],
-        region: "Oceania",
-            subregion: "Micronesia",
-                languages: [
-                    "English",
-                    "mah": "Marshallese"
-                ],
-                    "translations": {
-    "ara": {
-        official: "جمهورية جزر مارشال",
-            common: "جزر مارشال"
-    },
-    "bre": {
-        official: "Republik Inizi Marshall",
-            common: "Inizi Marshall"
-    },
-    "ces": {
-        official: "Republika Marshallovy ostrovy",
-            common: "Marshallovy ostrovy"
-    },
-    "cym": {
-        official: "Republic of the Marshall Islands",
-            common: "Marshall Islands"
-    },
-    "deu": {
-        official: "Republik Marshallinseln",
-            common: "Marshallinseln"
-    },
-    "est": {
-        official: "Marshalli Saarte Vabariik",
-            common: "Marshalli Saared"
-    },
-    "fin": {
-        official: "Marshallinsaarten tasavalta",
-            common: "Marshallinsaaret"
-    },
-    fra: {
-        official: "République des Îles Marshall",
-            common: "Îles Marshall"
-    },
-    "hrv": {
-        official: "Republika Maršalovi Otoci",
-            common: "Maršalovi Otoci"
-    },
-    "hun": {
-        official: "Marshall-szigetek",
-            common: "Marshall-szigetek"
-    },
-    "ita": {
-        official: "Repubblica delle Isole Marshall",
-            common: "Isole Marshall"
-    },
-    "jpn": {
-        official: "マーシャル諸島共和国",
-            common: "マーシャル諸島"
-    },
-    "kor": {
-        official: "마셜 제도 공화국",
-            common: "마셜 제도"
-    },
-    "nld": {
-        official: "Republiek van de Marshall-eilanden",
-            common: "Marshalleilanden"
-    },
-    "per": {
-        official: "جمهوری جزایر مارشال",
-            common: "جزایر مارشال"
-    },
-    "pol": {
-        official: "Republika Wysp Marshalla",
-            common: "Wyspy Marshalla"
-    },
-    "por": {
-        official: "República das Ilhas Marshall",
-            common: "Ilhas Marshall"
-    },
-    "rus": {
-        official: "Республика Маршалловы острова",
-            common: "Маршалловы Острова"
-    },
-    "slk": {
-        official: "Republika Marshallových ostrovov",
-            common: "Marshallove ostrovy"
-    },
-    "spa": {
-        official: "República de las Islas Marshall",
-            common: "Islas Marshall"
-    },
-    "srp": {
-        official: "Република Маршалска Острва",
-            common: "Маршалска Острва"
-    },
-    "swe": {
-        official: "Republiken Marshallöarna",
-            common: "Marshallöarna"
-    },
-    "tur": {
-        official: "Marshall Adaları Cumhuriyeti",
-            common: "Marshall Adaları"
-    },
-    "urd": {
-        official: "جمہوریہ جزائر مارشل",
-            common: "جزائر مارشل"
-    },
-    "zho": {
-        official: "马绍尔群岛共和国",
-            common: "马绍尔群岛"
-    }
-},
-latlng: [9, 168],
-    landlocked: false,
-        "area": 181,
-            demonyms: {
-    eng: {
-        fem: "Marshallese",
-            masc: "Marshallese"
-    },
-    fra: {
-        fem: "Marshallaise",
-            masc: "Marshallais"
-    }
-},
-flag: "🇲🇭",
-    maps: {
-    googleMaps: "https://goo.gl/maps/A4xLi1XvcX88gi3W8",
-        openStreetMaps: "https://www.openstreetmap.org/relation/571771"
-},
-population: 59194,
-    gini: -1,
-        "car": {
-    "signs": [
-        "MH"
-    ],
-        "side": "right"
-},
-"timezones": [
-    "UTC+12:00"
-],
-    "continents": [
-        "Oceania"
-    ],
+        },
+        flag: "🇮🇱",
+        maps: {
+            googleMaps: "https://goo.gl/maps/6UY1AH8XeafVwdC97",
+            openStreetMaps: "https://www.openstreetmap.org/relation/1473946"
+        },
+        population: 9216900,
+        gini: 39,
+
         flags: {
-    png: "https://flagcdn.com/w320/mh.png",
-        svg: "https://flagcdn.com/mh.svg",
-            alt: "The flag of Marshall Islands has a blue field with two broadening adjacent diagonal bands of orange and white that extend from the lower hoist-side corner to the upper fly-side corner of the field. A large white star with twenty-four rays — four large rays at the cardinal points and twenty smaller rays — is situated in the upper hoist-side corner above the diagonal bands."
-},
-coatOfArms: {
-    png: "https://mainfacts.com/media/images/coats_of_arms/mh.png",
-        svg: "https://mainfacts.com/media/images/coats_of_arms/mh.svg"
-},
+            png: "https://flagcdn.com/w320/il.png",
+            svg: "https://flagcdn.com/il.svg",
+            alt: "The flag of Israel has a white field with a blue hexagram — the Magen David — centered between two equal horizontal blue bands situated near the top and bottom edges of the field."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/il.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/il.svg"
+        },
 
-capitalInfo: {
-    latlng: [7.1, 171.38]
-}
-},
-{
-    name: {
-        common: "Vanuatu",
-            official: "Republic of Vanuatu",
-                "nativeName": {
-            "bis": {
-                official: "Ripablik blong Vanuatu",
-                    common: "Vanuatu"
-            },
+        capitalInfo: {
+            latlng: [31.77, 35.23]
+        },
+
+
+
+    },
+    {
+        name: {
+            common: "Oman",
+            official: "Sultanate of Oman",
+
+        },
+
+        currencies: "Omani rial",
+        capital: [
+            "Muscat"
+        ],
+
+        region: "Asia",
+        subregion: "Western Asia",
+        languages: [
+            "Arabic"
+        ],
+
+        latlng: [21, 57],
+        landlocked: false,
+
+        demonyms: {
             eng: {
-                official: "Republic of Vanuatu",
-                    common: "Vanuatu"
+                fem: "Omani",
+                masc: "Omani"
             },
             fra: {
-                official: "République de Vanuatu",
-                    common: "Vanuatu"
+                fem: "Omanaise",
+                masc: "Omanais"
             }
-        }
-    },
-    "tld": [
-        ".vu"
-    ],
-        "cca2": "VU",
-            "ccn3": "548",
-                "cca3": "VUT",
-                    "cioc": "VAN",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "VUV": {
-            name: "Vanuatu vatu",
-                "symbol": "Vt"
-        }
-    },
-    "idd": {
-        "root": "+6",
-            "suffixes": [
-                "78"
-            ]
-    },
-    capital: [
-        "Port Vila"
-    ],
-        "altSpellings": [
-            "VU",
-            "Republic of Vanuatu",
-            "Ripablik blong Vanuatu",
-            "République de Vanuatu"
-        ],
-            region: "Oceania",
-                subregion: "Melanesia",
-                    languages: [
-                        "bis": "Bislama",
-                        "English",
-                        "French"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية فانواتو",
-                common: "فانواتو"
         },
-        "bre": {
-            official: "Republik Vanuatu",
-                common: "Vanuatu"
-        },
-        "ces": {
-            official: "Republika Vanuatu",
-                common: "Vanuatu"
-        },
-        "cym": {
-            official: "Republic of Vanuatu",
-                common: "Vanuatu"
-        },
-        "deu": {
-            official: "Vanuatu",
-                common: "Vanuatu"
-        },
-        "est": {
-            official: "Vanuatu Vabariik",
-                common: "Vanuatu"
-        },
-        "fin": {
-            official: "Vanuatun tasavalta",
-                common: "Vanuatu"
-        },
-        fra: {
-            official: "République de Vanuatu",
-                common: "Vanuatu"
-        },
-        "hrv": {
-            official: "Republika Vanuatu",
-                common: "Vanuatu"
-        },
-        "hun": {
-            official: "Vanuatui Köztársaság",
-                common: "Vanuatu"
-        },
-        "ita": {
-            official: "Repubblica di Vanuatu",
-                common: "Vanuatu"
-        },
-        "jpn": {
-            official: "バヌアツ共和国",
-                common: "バヌアツ"
-        },
-        "kor": {
-            official: "바누아투 공화국",
-                common: "바누아투"
-        },
-        "nld": {
-            official: "Republiek Vanuatu",
-                common: "Vanuatu"
-        },
-        "per": {
-            official: "جمهوری وانواتو",
-                common: "وانواتو"
-        },
-        "pol": {
-            official: "Republika Vanuatu",
-                common: "Vanuatu"
-        },
-        "por": {
-            official: "República de Vanuatu",
-                common: "Vanuatu"
-        },
-        "rus": {
-            official: "Республика Вануату",
-                common: "Вануату"
-        },
-        "slk": {
-            official: "Vanuatská republika",
-                common: "Vanuatu"
-        },
-        "spa": {
-            official: "República de Vanuatu",
-                common: "Vanuatu"
-        },
-        "srp": {
-            official: "Република Вануату",
-                common: "Вануату"
-        },
-        "swe": {
-            official: "Republiken Vanuatu",
-                common: "Vanuatu"
-        },
-        "tur": {
-            official: "Vanuatu Cumhuriyeti",
-                common: "Vanuatu"
-        },
-        "urd": {
-            official: "جمہوریہ وانواتو",
-                common: "وانواتو"
-        },
-        "zho": {
-            official: "瓦努阿图共和国",
-                common: "瓦努阿图"
-        }
-    },
-    latlng: [-16, 167],
-        landlocked: false,
-            "area": 12189,
-                demonyms: {
-        eng: {
-            fem: "Ni-Vanuatu",
-                masc: "Ni-Vanuatu"
-        },
-        fra: {
-            fem: "Vanuatuane",
-                masc: "Vanuatuan"
-        }
-    },
-    flag: "🇻🇺",
+        flag: "🇴🇲",
         maps: {
-        googleMaps: "https://goo.gl/maps/hwAjehcT7VfvP5zJ8",
-            openStreetMaps: "https://www.openstreetmap.org/relation/2177246"
-    },
-    population: 307150,
-        gini: 37.6,
-            , "fifa": "VAN",
-        "car": {
-        "signs": [
-            "VU"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+11:00"
-    ],
-        "continents": [
-            "Oceania"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/vu.png",
-            svg: "https://flagcdn.com/vu.svg",
-                alt: "The flag of Vanuatu is composed of two equal horizontal bands of red and green, with a black isosceles triangle superimposed on the hoist side of the field. This triangle has its base on the hoist end, spans about two-fifth the width of the field and is enclosed on its sides by the arms of a thin black-edged yellow horizontally oriented Y-shaped band which extends along the boundary of the red and green bands to the fly end of the field. A yellow boar's tusk encircling two yellow crossed namele leaves is centered in the triangle."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/vu.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/vu.svg"
-    },
-
-    capitalInfo: {
-        latlng: [-17.73, 168.32]
-    }
-},
-{
-    name: {
-        common: "Niue",
-            official: "Niue",
-                "nativeName": {
-            eng: {
-                official: "Niue",
-                    common: "Niue"
-            },
-            "niu": {
-                official: "Niuē",
-                    common: "Niuē"
-            }
-        }
-    },
-    "tld": [
-        ".nu"
-    ],
-        "cca2": "NU",
-            "ccn3": "570",
-                "cca3": "NIU",
-                    "independent": false,
-                        "status": "officially-assigned",
-                            "unMember": false,
-                                currencies: {
-        "NZD": {
-            name: "New Zealand dollar",
-                "symbol": "$"
-        }
-    },
-    "idd": {
-        "root": "+6",
-            "suffixes": [
-                "83"
-            ]
-    },
-    capital: [
-        "Alofi"
-    ],
-        "altSpellings": [
-            "NU"
-        ],
-            region: "Oceania",
-                subregion: "Polynesia",
-                    languages: [
-                        "English",
-                        "niu": "Niuean"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "نييوي",
-                common: "نييوي"
+            googleMaps: "https://goo.gl/maps/L2BoXoAwDDwWecnw5",
+            openStreetMaps: "https://www.openstreetmap.org/relation/305138"
         },
-        "bre": {
-            official: "Niue",
-                common: "Niue"
-        },
-        "ces": {
-            official: "Niue",
-                common: "Niue"
-        },
-        "cym": {
-            official: "Niue",
-                common: "Niue"
-        },
-        "deu": {
-            official: "Niue",
-                common: "Niue"
-        },
-        "est": {
-            official: "Niue",
-                common: "Niue"
-        },
-        "fin": {
-            official: "Niue",
-                common: "Niue"
-        },
-        fra: {
-            official: "Niue",
-                common: "Niue"
-        },
-        "hrv": {
-            official: "Niue",
-                common: "Niue"
-        },
-        "hun": {
-            official: "Niue",
-                common: "Niue"
-        },
-        "ita": {
-            official: "Niue",
-                common: "Niue"
-        },
-        "jpn": {
-            official: "ニウエ",
-                common: "ニウエ"
-        },
-        "kor": {
-            official: "니우에",
-                common: "니우에"
-        },
-        "nld": {
-            official: "Niue",
-                common: "Niue"
-        },
-        "per": {
-            official: "نیووی",
-                common: "نیووی"
-        },
-        "pol": {
-            official: "Niue",
-                common: "Niue"
-        },
-        "por": {
-            official: "Niue",
-                common: "Niue"
-        },
-        "rus": {
-            official: "Ниуэ",
-                common: "Ниуэ"
-        },
-        "slk": {
-            official: "Niue",
-                common: "Niue"
-        },
-        "spa": {
-            official: "Niue",
-                common: "Niue"
-        },
-        "srp": {
-            official: "Нијуе",
-                common: "Нијуе"
-        },
-        "swe": {
-            official: "Niue",
-                common: "Niue"
-        },
-        "tur": {
-            official: "Niue",
-                common: "Niue"
-        },
-        "urd": {
-            official: "نیووے",
-                common: "نیووے"
-        },
-        "zho": {
-            official: "纽埃",
-                common: "纽埃"
-        }
-    },
-    latlng: [-19.03333333, -169.86666666],
-        landlocked: false,
-            "area": 260,
-                demonyms: {
-        eng: {
-            fem: "Niuean",
-                masc: "Niuean"
-        },
-        fra: {
-            fem: "Niuéenne",
-                masc: "Niuéen"
-        }
-    },
-    flag: "🇳🇺",
-        maps: {
-        googleMaps: "https://goo.gl/maps/xFgdzs3E55Rk1y8P9",
-            openStreetMaps: "https://www.openstreetmap.org/relation/1558556"
-    },
-    population: 1470,
+        population: 5106622,
         gini: -1,
-            "car": {
-        "signs": [
-            "NZ"
-        ],
-            "side": "left"
+
+        flags: {
+            png: "https://flagcdn.com/w320/om.png",
+            svg: "https://flagcdn.com/om.svg",
+            alt: "The flag of Oman features a red vertical band on the hoist side that takes up about one-fourth the width of the field, and three equal horizontal bands of white, red and green adjoining the vertical band. At the top of the vertical band is the white emblem of Oman."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/om.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/om.svg"
+        },
+
+        capitalInfo: {
+            latlng: [23.62, 58.58]
+        },
+
+
+
     },
-    "timezones": [
-        "UTC-11:00"
-    ],
-        "continents": [
-            "Oceania"
+    {
+        name: {
+            common: "Macau",
+            official: "Macao Special Administrative Region of the People's Republic of China",
+
+        },
+
+        currencies: "Macanese pataca",
+        capital: [
+            "Macau"
         ],
-            flags: {
-        png: "https://flagcdn.com/w320/nu.png",
+
+        region: "Asia",
+        subregion: "Eastern Asia",
+        languages: [
+            "Portuguese",
+            "Chinese"
+        ],
+
+        latlng: [22.16666666, 113.55],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Macanese",
+                masc: "Macanese"
+            },
+            fra: {
+                fem: "Macanaise",
+                masc: "Macanais"
+            }
+        },
+        flag: "🇲🇴",
+        maps: {
+            googleMaps: "https://goo.gl/maps/whymRdk3dZFfAAs4A",
+            openStreetMaps: "https://www.openstreetmap.org/relation/1867188"
+        },
+        population: 649342,
+        gini: -1,
+
+        flags: {
+            png: "https://flagcdn.com/w320/mo.png",
+            svg: "https://flagcdn.com/mo.svg"
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/mo.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/mo.svg"
+        },
+
+        capitalInfo: {
+            latlng: [22.16666666, 113.55]
+        }
+    },
+
+    {
+        name: {
+            common: "New Caledonia",
+            official: "New Caledonia",
+
+        },
+
+        currencies: "CFP franc",
+        capital: [
+            "Nouméa"
+        ],
+
+        region: "Oceania",
+        subregion: "Melanesia",
+        languages: [
+            "French"
+        ],
+
+        latlng: [-21.4, 165.4],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "New Caledonian",
+                masc: "New Caledonian"
+            },
+            fra: {
+                fem: "Néo-Calédonienne",
+                masc: "Néo-Calédonien"
+            }
+        },
+        flag: "🇳🇨",
+        maps: {
+            googleMaps: "https://goo.gl/maps/cBhtCeMdob4U7FRU9",
+            openStreetMaps: "https://www.openstreetmap.org/relation/3407643"
+        },
+        population: 271960,
+        gini: -1,
+
+        flags: {
+            png: "https://flagcdn.com/w320/nc.png",
+            svg: "https://flagcdn.com/nc.svg"
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/nc.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/nc.svg"
+        },
+
+        capitalInfo: {
+            latlng: [-22.27, 166.45]
+        },
+
+
+
+    },
+    {
+        name: {
+            common: "Solomon Islands",
+            official: "Solomon Islands",
+
+        },
+
+        currencies: "Solomon Islands dollar",
+        capital: [
+            "Honiara"
+        ],
+
+        region: "Oceania",
+        subregion: "Melanesia",
+        languages: [
+            "English"
+        ],
+
+        latlng: [-8, 159],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Solomon Islander",
+                masc: "Solomon Islander"
+            },
+            fra: {
+                fem: "Salomonienne",
+                masc: "Salomonien"
+            }
+        },
+        flag: "🇸🇧",
+        maps: {
+            googleMaps: "https://goo.gl/maps/JbPkx86Ywjv8C1n8A",
+            openStreetMaps: "https://www.openstreetmap.org/relation/1857436"
+        },
+        population: 686878,
+        gini: 37.1,
+
+        flags: {
+            png: "https://flagcdn.com/w320/sb.png",
+            svg: "https://flagcdn.com/sb.svg",
+            alt: "The flag of Solomon Islands features a thin yellow diagonal band that extends from the lower hoist-side corner to the upper fly-side corner of the field. Above and beneath this band are a blue and green triangle respectively. Five white five-pointed stars arranged in an X shape are situated on the hoist side of the upper blue triangle."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/sb.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/sb.svg"
+        },
+
+        capitalInfo: {
+            latlng: [-9.43, 159.95]
+        }
+    },
+    {
+        name: {
+            common: "Marshall Islands",
+            official: "Republic of the Marshall Islands",
+
+        },
+
+        currencies: "United States dollar",
+
+
+        capital: [
+            "Majuro"
+        ],
+
+        region: "Oceania",
+        subregion: "Micronesia",
+        languages: [
+            "English",
+            "Marshallese"
+        ],
+
+        latlng: [9, 168],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Marshallese",
+                masc: "Marshallese"
+            },
+            fra: {
+                fem: "Marshallaise",
+                masc: "Marshallais"
+            }
+        },
+        flag: "🇲🇭",
+        maps: {
+            googleMaps: "https://goo.gl/maps/A4xLi1XvcX88gi3W8",
+            openStreetMaps: "https://www.openstreetmap.org/relation/571771"
+        },
+        population: 59194,
+        gini: -1,
+
+        flags: {
+            png: "https://flagcdn.com/w320/mh.png",
+            svg: "https://flagcdn.com/mh.svg",
+            alt: "The flag of Marshall Islands has a blue field with two broadening adjacent diagonal bands of orange and white that extend from the lower hoist-side corner to the upper fly-side corner of the field. A large white star with twenty-four rays — four large rays at the cardinal points and twenty smaller rays — is situated in the upper hoist-side corner above the diagonal bands."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/mh.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/mh.svg"
+        },
+
+        capitalInfo: {
+            latlng: [7.1, 171.38]
+        }
+    },
+    {
+        name: {
+            common: "Vanuatu",
+            official: "Republic of Vanuatu",
+
+        },
+
+        currencies: "Vanuatu vatu",
+        capital: [
+            "Port Vila"
+        ],
+
+        region: "Oceania",
+        subregion: "Melanesia",
+        languages: [
+            "Bislama",
+            "English",
+            "French"
+        ],
+
+        latlng: [-16, 167],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Ni-Vanuatu",
+                masc: "Ni-Vanuatu"
+            },
+            fra: {
+                fem: "Vanuatuane",
+                masc: "Vanuatuan"
+            }
+        },
+        flag: "🇻🇺",
+        maps: {
+            googleMaps: "https://goo.gl/maps/hwAjehcT7VfvP5zJ8",
+            openStreetMaps: "https://www.openstreetmap.org/relation/2177246"
+        },
+        population: 307150,
+        gini: 37.6,
+
+        flags: {
+            png: "https://flagcdn.com/w320/vu.png",
+            svg: "https://flagcdn.com/vu.svg",
+            alt: "The flag of Vanuatu is composed of two equal horizontal bands of red and green, with a black isosceles triangle superimposed on the hoist side of the field. This triangle has its base on the hoist end, spans about two-fifth the width of the field and is enclosed on its sides by the arms of a thin black-edged yellow horizontally oriented Y-shaped band which extends along the boundary of the red and green bands to the fly end of the field. A yellow boar's tusk encircling two yellow crossed namele leaves is centered in the triangle."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/vu.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/vu.svg"
+        },
+
+        capitalInfo: {
+            latlng: [-17.73, 168.32]
+        }
+    },
+    {
+        name: {
+            common: "Niue",
+            official: "Niue",
+
+        },
+
+        currencies: "New Zealand dollar",
+        capital: [
+            "Alofi"
+        ],
+
+        region: "Oceania",
+        subregion: "Polynesia",
+        languages: [
+            "English",
+            "Niuean"
+        ],
+
+        latlng: [-19.03333333, -169.86666666],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Niuean",
+                masc: "Niuean"
+            },
+            fra: {
+                fem: "Niuéenne",
+                masc: "Niuéen"
+            }
+        },
+        flag: "🇳🇺",
+        maps: {
+            googleMaps: "https://goo.gl/maps/xFgdzs3E55Rk1y8P9",
+            openStreetMaps: "https://www.openstreetmap.org/relation/1558556"
+        },
+        population: 1470,
+        gini: -1,
+
+        flags: {
+            png: "https://flagcdn.com/w320/nu.png",
             svg: "https://flagcdn.com/nu.svg"
-    },
-    coatOfArms: {
+        },
+        coatOfArms: {
 
-    },
+        },
 
-    capitalInfo: {
-        latlng: [-19.02, -169.92]
-    }
-},
+        capitalInfo: {
+            latlng: [-19.02, -169.92]
+        }
+    }/*,
 {
     name: {
         common: "Nauru",
             official: "Republic of Nauru",
-                "nativeName": {
-            eng: {
-                official: "Republic of Nauru",
-                    common: "Nauru"
-            },
-            "nau": {
-                official: "Republic of Nauru",
-                    common: "Nauru"
-            }
-        }
+
     },
-    "tld": [
-        ".nr"
-    ],
-        "cca2": "NR",
-            "ccn3": "520",
-                "cca3": "NRU",
-                    "cioc": "NRU",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "AUD": {
-            name: "Australian dollar",
-                "symbol": "$"
-        }
+ 
+                                    currencies:"Australian dollar",
     },
     "idd": {
         "root": "+6",
@@ -13721,11 +12544,7 @@ capitalInfo: {
                     "independent": false,
                         "status": "officially-assigned",
                             "unMember": false,
-                                currencies: {
-        "AUD": {
-            name: "Australian dollar",
-                "symbol": "$"
-        }
+                                currencies:"Australian dollar",
     },
     "idd": {
         "root": "+6",
@@ -14508,11 +13327,7 @@ capitalInfo: {
                         "independent": true,
                             "status": "officially-assigned",
                                 "unMember": true,
-                                    currencies: {
-        "AUD": {
-            name: "Australian dollar",
-                "symbol": "$"
-        }
+                                    currencies:"Australian dollar",
     },
     "idd": {
         "root": "+6",
@@ -14715,11 +13530,7 @@ capitalInfo: {
                         "independent": true,
                             "status": "officially-assigned",
                                 "unMember": true,
-                                    currencies: {
-        "AUD": {
-            name: "Australian dollar",
-                "symbol": "$"
-        },
+                                    currencies:"Australian dollar",,
         "TVD": {
             name: "Tuvaluan dollar",
                 "symbol": "$"
@@ -15102,11 +13913,7 @@ capitalInfo: {
                     "independent": false,
                         "status": "officially-assigned",
                             "unMember": false,
-                                currencies: {
-        "AUD": {
-            name: "Australian dollar",
-                "symbol": "$"
-        }
+                                currencies:"Australian dollar",
     },
     "idd": {
         "root": "+6",
@@ -16087,11 +14894,7 @@ capitalInfo: {
                         "independent": true,
                             "status": "officially-assigned",
                                 "unMember": true,
-                                    currencies: {
-        "AUD": {
-            name: "Australian dollar",
-                "symbol": "$"
-        },
+                                    currencies:"Australian dollar",,
         "KID": {
             name: "Kiribati dollar",
                 "symbol": "$"
@@ -17289,11 +16092,7 @@ capitalInfo: {
                     "independent": false,
                         "status": "officially-assigned",
                             "unMember": false,
-                                currencies: {
-        "AUD": {
-            name: "Australian dollar",
-                "symbol": "$"
-        }
+                                currencies:"Australian dollar",
     },
     "idd": {
         "root": "+6",

@@ -1,4 +1,4 @@
-import { Filters } from "../App"
+import { Filters, Regions } from "../App"
 import FilterLandLocked from "./FilterLandlocked"
 import FilterLanguages from "./FilterLanguages"
 import FilterRegion from "./FilterRegion"

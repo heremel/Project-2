@@ -1,4 +1,4 @@
-import { Filters } from "../App"
+import { Filters, Regions } from "../App"
 import { FilterPageProps } from "./FilterPage"
 
 
