@@ -8592,1756 +8592,493 @@ export const countries: Countries = [
         capitalInfo: {
             latlng: [17.99702, -76.79358]
         }
-    }/*,
-{
-    name: {
-        common: "Aruba",
-            official: "Aruba",
-  
     },
+    {
+        name: {
+            common: "Aruba",
+            official: "Aruba",
 
-                                    currencies:"Aruban florin", {
-        "AWG": {
-            name: 
-                "symbol": "ƒ"
-        }
-    },
-    "idd": {
-        "root": "+2",
-            "suffixes": [
-                "97"
-            ]
-    },
-    capital: [
-        "Oranjestad"
-    ],
-        "altSpellings": [
-            "AW"
+        },
+
+        currencies: "Aruban florin",
+        capital: [
+            "Oranjestad"
         ],
-            region: "Americas",
-                subregion: "Caribbean",
-                    languages: [
-                        "Dutch",
-                        "Papiamento"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "أروبا",
-                common: "أروبا"
-        },
-        "bre": {
-            official: "Aruba",
-                common: "Aruba"
-        },
-        "ces": {
-            official: "Aruba",
-                common: "Aruba"
-        },
-        "cym": {
-            official: "Aruba",
-                common: "Aruba"
-        },
-        "deu": {
-            official: "Aruba",
-                common: "Aruba"
-        },
-        "est": {
-            official: "Aruba",
-                common: "Aruba"
-        },
-        "fin": {
-            official: "Aruba",
-                common: "Aruba"
-        },
-        fra: {
-            official: "Aruba",
-                common: "Aruba"
-        },
-        "hrv": {
-            official: "Aruba",
-                common: "Aruba"
-        },
-        "hun": {
-            official: "Aruba",
-                common: "Aruba"
-        },
-        "ita": {
-            official: "Aruba",
-                common: "Aruba"
-        },
-        "jpn": {
-            official: "アルバ",
-                common: "アルバ"
-        },
-        "kor": {
-            official: "아루바",
-                common: "아루바"
-        },
-        "nld": {
-            official: "Aruba",
-                common: "Aruba"
-        },
-        "per": {
-            official: "آروبا",
-                common: "آروبا"
-        },
-        "pol": {
-            official: "Aruba",
-                common: "Aruba"
-        },
-        "por": {
-            official: "Aruba",
-                common: "Aruba"
-        },
-        "rus": {
-            official: "Аруба",
-                common: "Аруба"
-        },
-        "slk": {
-            official: "Aruba",
-                common: "Aruba"
-        },
-        "spa": {
-            official: "Aruba",
-                common: "Aruba"
-        },
-        "srp": {
-            official: "Аруба",
-                common: "Аруба"
-        },
-        "swe": {
-            official: "Aruba",
-                common: "Aruba"
-        },
-        "tur": {
-            official: "Aruba",
-                common: "Aruba"
-        },
-        "urd": {
-            official: "اروبا",
-                common: "اروبا"
-        },
-        "zho": {
-            official: "阿鲁巴",
-                common: "阿鲁巴"
-        }
-    },
-    latlng: [12.4, -69.96666666],
+
+        region: "Americas",
+        subregion: "Caribbean",
+        languages: [
+            "Dutch",
+            "Papiamento"
+        ],
+
+        latlng: [12.4, -69.96666666],
         landlocked: false,
-            "area": 180,
-                demonyms: {
-        eng: {
-            fem: "Aruban",
+
+        demonyms: {
+            eng: {
+                fem: "Aruban",
                 masc: "Aruban"
-        },
-        fra: {
-            fem: "Arubaise",
-                masc: "Arubais"
-        }
-    },
-    flag: "🇦🇼",
-        maps: {
-        googleMaps: "https://goo.gl/maps/8hopbQqifHAgyZyg8",
-            openStreetMaps: "https://www.openstreetmap.org/relation/1231749"
-    },
-    population: 106766,
-        gini: -1,
-            "fifa": "ARU",
-                "car": {
-        "side": "right"
-    },
-    "timezones": [
-        "UTC-04:00"
-    ],
-        "continents": [
-            "North America"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/aw.png",
-            svg: "https://flagcdn.com/aw.svg"
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/aw.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/aw.svg"
-    },
-
-    capitalInfo: {
-        latlng: [12.52, -70.03]
-    }
-},
-{
-    name: {
-        common: "Cayman Islands",
-            official: "Cayman Islands",
-                "nativeName": {
-            eng: {
-                official: "Cayman Islands",
-                    common: "Cayman Islands"
-            }
-        }
-    },
-    "tld": [
-        ".ky"
-    ],
-        "cca2": "KY",
-            "ccn3": "136",
-                "cca3": "CYM",
-                    "cioc": "CAY",
-                        "independent": false,
-                            "status": "officially-assigned",
-                                "unMember": false,
-                                    currencies: {
-        "KYD": {
-            name: "Cayman Islands dollar",
-                "symbol": "$"
-        }
-    },
-    "idd": {
-        "root": "+1",
-            "suffixes": [
-                "345"
-            ]
-    },
-    capital: [
-        "George Town"
-    ],
-        "altSpellings": [
-            "KY"
-        ],
-            region: "Americas",
-                subregion: "Caribbean",
-                    languages: [
-                        "English"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جزر كايمان",
-                common: "جزر كايمان"
-        },
-        "bre": {
-            official: "Inizi Cayman",
-                common: "Inizi Cayman"
-        },
-        "ces": {
-            official: "Kajmanské ostrovy",
-                common: "Kajmanské ostrovy"
-        },
-        "cym": {
-            official: "Ynysoedd Cayman",
-                common: "Ynysoedd Cayman"
-        },
-        "deu": {
-            official: "Cayman-Inseln",
-                common: "Kaimaninseln"
-        },
-        "est": {
-            official: "Kaimanisaared",
-                common: "Kaimanisaared"
-        },
-        "fin": {
-            official: "Caymansaaret",
-                common: "Caymansaaret"
-        },
-        fra: {
-            official: "Îles Caïmans",
-                common: "Îles Caïmans"
-        },
-        "hrv": {
-            official: "Kajmanski otoci",
-                common: "Kajmanski otoci"
-        },
-        "hun": {
-            official: "Kajmán-szigetek",
-                common: "Kajmán-szigetek"
-        },
-        "ita": {
-            official: "Isole Cayman",
-                common: "Isole Cayman"
-        },
-        "jpn": {
-            official: "ケイマン諸島",
-                common: "ケイマン諸島"
-        },
-        "kor": {
-            official: "케이맨 제도",
-                common: "케이맨 제도"
-        },
-        "nld": {
-            official: "Caymaneilanden",
-                common: "Caymaneilanden"
-        },
-        "per": {
-            official: "جزایر کیمن",
-                common: "جزایر کیمن"
-        },
-        "pol": {
-            official: "Kajmany",
-                common: "Kajmany"
-        },
-        "por": {
-            official: "Ilhas Cayman",
-                common: "Ilhas Caimão"
-        },
-        "rus": {
-            official: "Каймановы острова",
-                common: "Каймановы острова"
-        },
-        "slk": {
-            official: "Kajmanie ostrovy",
-                common: "Kajmanie ostrovy"
-        },
-        "spa": {
-            official: "Islas Caimán",
-                common: "Islas Caimán"
-        },
-        "srp": {
-            official: "Кајманска Острва",
-                common: "Кајманска Острва"
-        },
-        "swe": {
-            official: "Caymanöarna",
-                common: "Caymanöarna"
-        },
-        "tur": {
-            official: "Cayman Adaları",
-                common: "Cayman Adaları"
-        },
-        "urd": {
-            official: "جزائر کیمین",
-                common: "جزائر کیمین"
-        },
-        "zho": {
-            official: "开曼群岛",
-                common: "开曼群岛"
-        }
-    },
-    latlng: [19.3133, -81.2546],
-        landlocked: false,
-            "area": 264,
-                demonyms: {
-        eng: {
-            fem: "Caymanian",
-                masc: "Caymanian"
-        },
-        fra: {
-            fem: "Caïmanienne",
-                masc: "Caïmanien"
-        }
-    },
-    flag: "🇰🇾",
-        maps: {
-        googleMaps: "https://goo.gl/maps/P3ZVXX3LH63t91hL8",
-            openStreetMaps: "https://www.openstreetmap.org/relation/7269765"
-    },
-    population: 65720,
-        gini: -1,
-            "fifa": "CAY",
-                "car": {
-        "signs": [
-            "GB"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC-05:00"
-    ],
-        "continents": [
-            "North America"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/ky.png",
-            svg: "https://flagcdn.com/ky.svg"
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/ky.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/ky.svg"
-    },
-
-    capitalInfo: {
-        latlng: [19.3, -81.38]
-    }
-},
-{
-    name: {
-        common: "Cuba",
-            official: "Republic of Cuba",
-                "nativeName": {
-            "spa": {
-                official: "República de Cuba",
-                    common: "Cuba"
-            }
-        }
-    },
-    "tld": [
-        ".cu"
-    ],
-        "cca2": "CU",
-            "ccn3": "192",
-                "cca3": "CUB",
-                    "cioc": "CUB",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "CUC": {
-            name: "Cuban convertible peso",
-                "symbol": "$"
-        },
-        "CUP": {
-            name: "Cuban peso",
-                "symbol": "$"
-        }
-    },
-    "idd": {
-        "root": "+5",
-            "suffixes": [
-                "3"
-            ]
-    },
-    capital: [
-        "Havana"
-    ],
-        "altSpellings": [
-            "CU",
-            "Republic of Cuba",
-            "República de Cuba"
-        ],
-            region: "Americas",
-                subregion: "Caribbean",
-                    languages: [
-                        "Spanish"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية كوبا",
-                common: "كوبا"
-        },
-        "bre": {
-            official: "Republik Kuba",
-                common: "Kuba"
-        },
-        "ces": {
-            official: "Kubánská republika",
-                common: "Kuba"
-        },
-        "cym": {
-            official: "Gweriniaeth Ciwba",
-                common: "Ciwba"
-        },
-        "deu": {
-            official: "Republik Kuba",
-                common: "Kuba"
-        },
-        "est": {
-            official: "Kuuba Vabariik",
-                common: "Kuuba"
-        },
-        "fin": {
-            official: "Kuuban tasavalta",
-                common: "Kuuba"
-        },
-        fra: {
-            official: "République de Cuba",
-                common: "Cuba"
-        },
-        "hrv": {
-            official: "Republika Kuba",
-                common: "Kuba"
-        },
-        "hun": {
-            official: "Kubai Köztársaság",
-                common: "Kuba"
-        },
-        "ita": {
-            official: "Repubblica di Cuba",
-                common: "Cuba"
-        },
-        "jpn": {
-            official: "キューバ共和国",
-                common: "キューバ"
-        },
-        "kor": {
-            official: "쿠바 공화국",
-                common: "쿠바"
-        },
-        "nld": {
-            official: "Republiek Cuba",
-                common: "Cuba"
-        },
-        "per": {
-            official: "جمهوری کوبا",
-                common: "کوبا"
-        },
-        "pol": {
-            official: "Republika Kuby",
-                common: "Kuba"
-        },
-        "por": {
-            official: "República de Cuba",
-                common: "Cuba"
-        },
-        "rus": {
-            official: "Республика Куба",
-                common: "Куба"
-        },
-        "slk": {
-            official: "Kubánska republika",
-                common: "Kuba"
-        },
-        "spa": {
-            official: "República de Cuba",
-                common: "Cuba"
-        },
-        "srp": {
-            official: "Република Куба",
-                common: "Куба"
-        },
-        "swe": {
-            official: "Republiken Kuba",
-                common: "Kuba"
-        },
-        "tur": {
-            official: "Küba Cumhuriyeti",
-                common: "Küba"
-        },
-        "urd": {
-            official: "جمہوریہ کیوبا",
-                common: "کیوبا"
-        },
-        "zho": {
-            official: "古巴共和国",
-                common: "古巴"
-        }
-    },
-    latlng: [21.4, -80],
-        landlocked: false,
-            "area": 109884,
-                demonyms: {
-        eng: {
-            fem: "Cuban",
-                masc: "Cuban"
-        },
-        fra: {
-            fem: "Cubaine",
-                masc: "Cubain"
-        }
-    },
-    flag: "🇨🇺",
-        maps: {
-        googleMaps: "https://goo.gl/maps/1dDw1QfZspfMUTm99",
-            openStreetMaps: "https://www.openstreetmap.org/relation/307833"
-    },
-    population: 11326616,
-        gini: -1,
-            "fifa": "CUB",
-                "car": {
-        "signs": [
-            "C"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC-05:00"
-    ],
-        "continents": [
-            "North America"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/cu.png",
-            svg: "https://flagcdn.com/cu.svg",
-                alt: "The flag of Cuba is composed of five equal horizontal bands of blue alternating with white and a red equilateral triangle superimposed on the hoist side of the field. The triangle has its base on the hoist end, spans about two-fifth the width of the field and bears a white five-pointed star at its center."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/cu.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/cu.svg"
-    },
-
-    capitalInfo: {
-        latlng: [23.12, -82.35]
-    },
-
-
-},
-{
-    name: {
-        common: "Uruguay",
-            official: "Oriental Republic of Uruguay",
-                "nativeName": {
-            "spa": {
-                official: "República Oriental del Uruguay",
-                    common: "Uruguay"
-            }
-        }
-    },
-    "tld": [
-        ".uy"
-    ],
-        "cca2": "UY",
-            "ccn3": "858",
-                "cca3": "URY",
-                    "cioc": "URU",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "UYU": {
-            name: "Uruguayan peso",
-                "symbol": "$"
-        }
-    },
-    "idd": {
-        "root": "+5",
-            "suffixes": [
-                "98"
-            ]
-    },
-    capital: [
-        "Montevideo"
-    ],
-        "altSpellings": [
-            "UY",
-            "Oriental Republic of Uruguay",
-            "República Oriental del Uruguay"
-        ],
-            region: "Americas",
-                subregion: "South America",
-                    languages: [
-                        "Spanish"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية الأوروغواي الشرقية",
-                common: "الأوروغواي"
-        },
-        "bre": {
-            official: "Republik Reter Uruguay",
-                common: "Uruguay"
-        },
-        "ces": {
-            official: "Uruguayská východní republika",
-                common: "Uruguay"
-        },
-        "cym": {
-            official: "Oriental Republic of Uruguay",
-                common: "Uruguay"
-        },
-        "deu": {
-            official: "Republik Östlich des Uruguay",
-                common: "Uruguay"
-        },
-        "est": {
-            official: "Uruguay Idavabariik",
-                common: "Uruguay"
-        },
-        "fin": {
-            official: "Uruguayn itäinen tasavalta",
-                common: "Uruguay"
-        },
-        fra: {
-            official: "République orientale de l'Uruguay",
-                common: "Uruguay"
-        },
-        "hrv": {
-            official: "Orijentalna Republika Urugvaj",
-                common: "Urugvaj"
-        },
-        "hun": {
-            official: "Uruguayi Keleti Köztársaság",
-                common: "Uruguay"
-        },
-        "ita": {
-            official: "Repubblica Orientale dell'Uruguay",
-                common: "Uruguay"
-        },
-        "jpn": {
-            official: "ウルグアイ東方共和国",
-                common: "ウルグアイ"
-        },
-        "kor": {
-            official: "우루과이 동방 공화국",
-                common: "우루과이"
-        },
-        "nld": {
-            official: "Oosterse Republiek Uruguay",
-                common: "Uruguay"
-        },
-        "per": {
-            official: "جمهوری اروگوئه",
-                common: "اروگوئه"
-        },
-        "pol": {
-            official: "Wschodnia Republika Urugwaju",
-                common: "Urugwaj"
-        },
-        "por": {
-            official: "República Oriental do Uruguai",
-                common: "Uruguai"
-        },
-        "rus": {
-            official: "Восточной Республики Уругвай",
-                common: "Уругвай"
-        },
-        "slk": {
-            official: "Uruguajská východná republika",
-                common: "Uruguaj"
-        },
-        "spa": {
-            official: "República Oriental del Uruguay",
-                common: "Uruguay"
-        },
-        "srp": {
-            official: "Источна Република Уругвај",
-                common: "Уругвај"
-        },
-        "swe": {
-            official: "Republiken Uruguay",
-                common: "Uruguay"
-        },
-        "tur": {
-            official: "Uruguay Doğu Cumhuriyeti",
-                common: "Uruguay"
-        },
-        "urd": {
-            official: "جمہوریہ شرقیہ یوراگوئے",
-                common: "یوراگوئے"
-        },
-        "zho": {
-            official: "乌拉圭东岸共和国",
-                common: "乌拉圭"
-        }
-    },
-    latlng: [-33, -56],
-        landlocked: false,
-            "borders": [
-                "ARG",
-                "BRA"
-            ],
-                "area": 181034,
-                    demonyms: {
-        eng: {
-            fem: "Uruguayan",
-                masc: "Uruguayan"
-        },
-        fra: {
-            fem: "Uruguayenne",
-                masc: "Uruguayen"
-        }
-    },
-    flag: "🇺🇾",
-        maps: {
-        googleMaps: "https://goo.gl/maps/tiQ9Baekb1jQtDSD9",
-            openStreetMaps: "https://www.openstreetmap.org/relation/287072"
-    },
-    population: 3473727,
-        gini: 39.7,
-            , "fifa": "URU",
-        "car": {
-        "signs": [
-            "ROU"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC-03:00"
-    ],
-        "continents": [
-            "South America"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/uy.png",
-            svg: "https://flagcdn.com/uy.svg",
-                alt: "The flag of Uruguay is composed of nine equal horizontal bands of white alternating with blue, with a white square superimposed in the canton. In the white square is a yellow sun bearing a human face — the Sun of May — from which sixteen rays extend. The sun's rays alternate between triangular and wavy."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/uy.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/uy.svg"
-    },
-
-    capitalInfo: {
-        latlng: [-34.85, -56.17]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Saint Martin",
-            official: "Saint Martin",
-                "nativeName": {
-            fra: {
-                official: "Saint-Martin",
-                    common: "Saint-Martin"
-            }
-        }
-    },
-    "tld": [
-        ".fr",
-        ".gp"
-    ],
-        "cca2": "MF",
-            "ccn3": "663",
-                "cca3": "MAF",
-                    "independent": false,
-                        "status": "officially-assigned",
-                            "unMember": false,
-                                currencies: "Euro",
-                                    "idd": {
-        "root": "+5",
-            "suffixes": [
-                "90"
-            ]
-    },
-    capital: [
-        "Marigot"
-    ],
-        "altSpellings": [
-            "MF",
-            "Collectivity of Saint Martin",
-            "Collectivité de Saint-Martin",
-            "Saint Martin (French part)"
-        ],
-            region: "Americas",
-                subregion: "Caribbean",
-                    languages: [
-                        "French"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "سانت مارتن",
-                common: "سانت مارتن"
-        },
-        "bre": {
-            official: "Saint-Martin",
-                common: "Saint-Martin"
-        },
-        "ces": {
-            official: "Svatý Martin",
-                common: "Svatý Martin (Francie)"
-        },
-        "cym": {
-            official: "Saint Martin",
-                common: "Saint Martin"
-        },
-        "deu": {
-            official: "Saint-Martin",
-                common: "Saint-Martin"
-        },
-        "est": {
-            official: "Saint-Martini ühendus",
-                common: "Saint-Martin"
-        },
-        "fin": {
-            official: "Saint-Martin",
-                common: "Saint-Martin"
-        },
-        fra: {
-            official: "Saint-Martin",
-                common: "Saint-Martin"
-        },
-        "hrv": {
-            official: "Saint Martin",
-                common: "Sveti Martin"
-        },
-        "hun": {
-            official: "Saint-Martin Közösség",
-                common: "Saint-Martin"
-        },
-        "ita": {
-            official: "saint Martin",
-                common: "Saint Martin"
-        },
-        "jpn": {
-            official: "サンマルタン島",
-                common: "サン・マルタン（フランス領）"
-        },
-        "kor": {
-            official: "생마르탱",
-                common: "생마르탱"
-        },
-        "nld": {
-            official: "Saint Martin",
-                common: "Saint-Martin"
-        },
-        "per": {
-            official: "سن مارتن",
-                common: "سن مارتن"
-        },
-        "pol": {
-            official: "Wspólnota Saint-Martin",
-                common: "Saint-Martin"
-        },
-        "por": {
-            official: "saint Martin",
-                common: "São Martinho"
-        },
-        "rus": {
-            official: "Сен-Мартен",
-                common: "Сен-Мартен"
-        },
-        "slk": {
-            official: "Saint-Martin",
-                common: "Saint-Martin"
-        },
-        "spa": {
-            official: "Saint Martin",
-                common: "Saint Martin"
-        },
-        "srp": {
-            official: "Свети Мартин",
-                common: "Свети Мартин"
-        },
-        "swe": {
-            official: "Förvaltningsområdet Saint-Martin",
-                common: "Saint-Martin"
-        },
-        "tur": {
-            official: "Saint Martin",
-                common: "Saint Martin"
-        },
-        "urd": {
-            official: "سینٹ مارٹن",
-                common: "سینٹ مارٹن"
-        },
-        "zho": {
-            official: "圣马丁",
-                common: "圣马丁"
-        }
-    },
-    latlng: [18.0708, 63.0501],
-        landlocked: false,
-            "borders": [
-                "SXM"
-            ],
-                "area": 53,
-                    demonyms: {
-        eng: {
-            fem: "Saint Martin Islander",
-                masc: "Saint Martin Islander"
-        },
-        fra: {
-            fem: "Saint-Martinoise",
-                masc: "Saint-Martinois"
-        }
-    },
-    flag: "🇲🇫",
-        maps: {
-        googleMaps: "https://goo.gl/maps/P9ho9QuJ9EAR28JEA",
-            openStreetMaps: "https://www.openstreetmap.org/relation/63064"
-    },
-    population: 38659,
-        gini: -1,
-            "car": {
-        "signs": [
-            "F"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC-04:00"
-    ],
-        "continents": [
-            "North America"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/mf.png",
-            svg: "https://flagcdn.com/mf.svg"
-    },
-    coatOfArms: {
-
-    },
-
-    capitalInfo: {
-        latlng: [18.07, -63.08]
-    },
-
-
-},
-{
-    name: {
-        common: "Antigua and Barbuda",
-            official: "Antigua and Barbuda",
-                "nativeName": {
-            eng: {
-                official: "Antigua and Barbuda",
-                    common: "Antigua and Barbuda"
-            }
-        }
-    },
-    "tld": [
-        ".ag"
-    ],
-        "cca2": "AG",
-            "ccn3": "028",
-                "cca3": "ATG",
-                    "cioc": "ANT",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                     currencies: "Eastern Caribbean dollar",
-    "idd": {
-        "root": "+1",
-            "suffixes": [
-                "268"
-            ]
-    },
-    capital: [
-        "Saint John's"
-    ],
-        "altSpellings": [
-            "AG"
-        ],
-            region: "Americas",
-                subregion: "Caribbean",
-                    languages: [
-                        "English"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "أنتيغوا وباربودا",
-                common: "أنتيغوا وباربودا"
-        },
-        "bre": {
-            official: "Antigua ha Barbuda",
-                common: "Antigua ha Barbuda"
-        },
-        "ces": {
-            official: "Antigua a Barbuda",
-                common: "Antigua a Barbuda"
-        },
-        "cym": {
-            official: "Antigwa a Barbiwda",
-                common: "Antigwa a Barbiwda"
-        },
-        "deu": {
-            official: "Antigua und Barbuda",
-                common: "Antigua und Barbuda"
-        },
-        "est": {
-            official: "Antigua ja Barbuda",
-                common: "Antigua ja Barbuda"
-        },
-        "fin": {
-            official: "Antigua ja Barbuda",
-                common: "Antigua ja Barbuda"
-        },
-        fra: {
-            official: "Antigua-et-Barbuda",
-                common: "Antigua-et-Barbuda"
-        },
-        "hrv": {
-            official: "Antigva i Barbuda",
-                common: "Antigva i Barbuda"
-        },
-        "hun": {
-            official: "Antigua és Barbuda",
-                common: "Antigua és Barbuda"
-        },
-        "ita": {
-            official: "Antigua e Barbuda",
-                common: "Antigua e Barbuda"
-        },
-        "jpn": {
-            official: "アンチグアバーブーダ",
-                common: "アンティグア・バーブーダ"
-        },
-        "kor": {
-            official: "앤티가 바부다",
-                common: "앤티가 바부다"
-        },
-        "nld": {
-            official: "Antigua en Barbuda",
-                common: "Antigua en Barbuda"
-        },
-        "per": {
-            official: "آنتیگوا و باربودا",
-                common: "آنتیگوا و باربودا"
-        },
-        "pol": {
-            official: "Antigua i Barbuda",
-                common: "Antigua i Barbuda"
-        },
-        "por": {
-            official: "Antigua e Barbuda",
-                common: "Antígua e Barbuda"
-        },
-        "rus": {
-            official: "Антигуа и Барбуда",
-                common: "Антигуа и Барбуда"
-        },
-        "slk": {
-            official: "Antigua a Barbuda",
-                common: "Antigua a Barbuda"
-        },
-        "spa": {
-            official: "Antigua y Barbuda",
-                common: "Antigua y Barbuda"
-        },
-        "srp": {
-            official: "Антигва и Барбуда",
-                common: "Антигва и Барбуда"
-        },
-        "swe": {
-            official: "Antigua och Barbuda",
-                common: "Antigua och Barbuda"
-        },
-        "tur": {
-            official: "Antigua ve Barbuda",
-                common: "Antigua ve Barbuda"
-        },
-        "urd": {
-            official: "اینٹیگوا و باربوڈا",
-                common: "اینٹیگوا و باربوڈا"
-        },
-        "zho": {
-            official: "安提瓜和巴布达",
-                common: "安提瓜和巴布达"
-        }
-    },
-    latlng: [17.05, -61.8],
-        landlocked: false,
-            "area": 442,
-                demonyms: {
-        eng: {
-            fem: "Antiguan, Barbudan",
-                masc: "Antiguan, Barbudan"
-        },
-        fra: {
-            fem: "Antiguaise et barbudienne",
-                masc: "Antiguaise et barbudien"
-        }
-    },
-    flag: "🇦🇬",
-        maps: {
-        googleMaps: "https://goo.gl/maps/fnye4wGJ1RzC9jpX9",
-            openStreetMaps: "https://www.openstreetmap.org/relation/536900"
-    },
-    population: 97928,
-        gini: -1,
-            "fifa": "ATG",
-                "car": {
-        "signs": [
-            "AG"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC-04:00"
-    ],
-        "continents": [
-            "North America"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/ag.png",
-            svg: "https://flagcdn.com/ag.svg",
-                alt: "The flag of Antigua and Barbuda has a red field with an inverted isosceles triangle based on the top edge and spanning the height of the field. This triangle has three horizontal bands of black, light blue and white, with the light blue band half the height of the two other bands. The top half of a golden-yellow sun is situated in the lower two-third of the black band to depict a rising sun."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/ag.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/ag.svg"
-    },
-
-    capitalInfo: {
-        latlng: [17.12, -61.85]
-    }
-},
-{
-    name: {
-        common: "Canada",
-            official: "Canada",
-                "nativeName": {
-            eng: {
-                official: "Canada",
-                    common: "Canada"
             },
             fra: {
-                official: "Canada",
-                    common: "Canada"
+                fem: "Arubaise",
+                masc: "Arubais"
             }
-        }
-    },
-    "tld": [
-        ".ca"
-    ],
-        "cca2": "CA",
-            "ccn3": "124",
-                "cca3": "CAN",
-                    "cioc": "CAN",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "CAD": {
-            name: "Canadian dollar",
-                "symbol": "$"
-        }
-    },
-    "idd": {
-        "root": "+1",
-            "suffixes": [
-                ""
-            ]
-    },
-    capital: [
-        "Ottawa"
-    ],
-        "altSpellings": [
-            "CA"
-        ],
-            region: "Americas",
-                subregion: "North America",
-                    languages: [
-                        "English",
-                        "French"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "كندا",
-                common: "كندا"
         },
-        "bre": {
-            official: "Kanada",
-                common: "Kanada"
-        },
-        "ces": {
-            official: "Kanada",
-                common: "Kanada"
-        },
-        "cym": {
-            official: "Canada",
-                common: "Canada"
-        },
-        "deu": {
-            official: "Kanada",
-                common: "Kanada"
-        },
-        "est": {
-            official: "Kanada",
-                common: "Kanada"
-        },
-        "fin": {
-            official: "Kanada",
-                common: "Kanada"
-        },
-        fra: {
-            official: "Canada",
-                common: "Canada"
-        },
-        "hrv": {
-            official: "Kanada",
-                common: "Kanada"
-        },
-        "hun": {
-            official: "Kanada",
-                common: "Kanada"
-        },
-        "ita": {
-            official: "Canada",
-                common: "Canada"
-        },
-        "jpn": {
-            official: "カナダ",
-                common: "カナダ"
-        },
-        "kor": {
-            official: "캐나다",
-                common: "캐나다"
-        },
-        "nld": {
-            official: "Canada",
-                common: "Canada"
-        },
-        "per": {
-            official: "کانادا",
-                common: "کانادا"
-        },
-        "pol": {
-            official: "Kanada",
-                common: "Kanada"
-        },
-        "por": {
-            official: "Canadá",
-                common: "Canadá"
-        },
-        "rus": {
-            official: "Канада",
-                common: "Канада"
-        },
-        "slk": {
-            official: "Kanada",
-                common: "Kanada"
-        },
-        "spa": {
-            official: "Canadá",
-                common: "Canadá"
-        },
-        "srp": {
-            official: "Канада",
-                common: "Канада"
-        },
-        "swe": {
-            official: "Kanada",
-                common: "Kanada"
-        },
-        "tur": {
-            official: "Kanada",
-                common: "Kanada"
-        },
-        "urd": {
-            official: "کینیڈا",
-                common: "کینیڈا"
-        },
-        "zho": {
-            official: "加拿大",
-                common: "加拿大"
-        }
-    },
-    latlng: [60, -95],
-        landlocked: false,
-            "borders": [
-                "USA"
-            ],
-                "area": 9984670,
-                    demonyms: {
-        eng: {
-            fem: "Canadian",
-                masc: "Canadian"
-        },
-        fra: {
-            fem: "Canadienne",
-                masc: "Canadien"
-        }
-    },
-    flag: "🇨🇦",
+        flag: "🇦🇼",
         maps: {
-        googleMaps: "https://goo.gl/maps/jmEVLugreeqiZXxbA",
-            openStreetMaps: "https://www.openstreetmap.org/relation/1428125"
-    },
-    population: 38005238,
-        gini: 33.3,
-            , "fifa": "CAN",
-        "car": {
-        "signs": [
-            "CDN"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC-08:00",
-        "UTC-07:00",
-        "UTC-06:00",
-        "UTC-05:00",
-        "UTC-04:00",
-        "UTC-03:30"
-    ],
-        "continents": [
-            "North America"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/ca.png",
-            svg: "https://flagcdn.com/ca.svg",
-                alt: "The flag of Canada is composed of a red vertical band on the hoist and fly sides and a central white square that is twice the width of the vertical bands. A large eleven-pointed red maple leaf is centered in the white square."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/ca.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/ca.svg"
-    },
-
-    capitalInfo: {
-        latlng: [45.42, -75.7]
-    },
-
-
-},
-{
-    name: {
-        common: "Panama",
-            official: "Republic of Panama",
-                "nativeName": {
-            "spa": {
-                official: "República de Panamá",
-                    common: "Panamá"
-            }
-        }
-    },
-    "tld": [
-        ".pa"
-    ],
-        "cca2": "PA",
-            "ccn3": "591",
-                "cca3": "PAN",
-                    "cioc": "PAN",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "PAB": {
-            name: "Panamanian balboa",
-                "symbol": "B/."
+            googleMaps: "https://goo.gl/maps/8hopbQqifHAgyZyg8",
+            openStreetMaps: "https://www.openstreetmap.org/relation/1231749"
         },
-        "USD": {
-            name: "United States dollar",
-                "symbol": "$"
-        }
-    },
-    "idd": {
-        "root": "+5",
-            "suffixes": [
-                "07"
-            ]
-    },
-    capital: [
-        "Panama City"
-    ],
-        "altSpellings": [
-            "PA",
-            "Republic of Panama",
-            "República de Panamá"
-        ],
-            region: "Americas",
-                subregion: "Central America",
-                    languages: [
-                        "Spanish"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية بنما",
-                common: "بنما"
-        },
-        "bre": {
-            official: "Republik Panama",
-                common: "Panama"
-        },
-        "ces": {
-            official: "Panamská republika",
-                common: "Panama"
-        },
-        "cym": {
-            official: "Republic of Panama",
-                common: "Panama"
-        },
-        "deu": {
-            official: "Republik Panama",
-                common: "Panama"
-        },
-        "est": {
-            official: "Panama Vabariik",
-                common: "Panama"
-        },
-        "fin": {
-            official: "Panaman tasavalta",
-                common: "Panama"
-        },
-        fra: {
-            official: "République du Panama",
-                common: "Panama"
-        },
-        "hrv": {
-            official: "Republika Panama",
-                common: "Panama"
-        },
-        "hun": {
-            official: "Panamai Köztársaság",
-                common: "Panama"
-        },
-        "ita": {
-            official: "Repubblica di Panama",
-                common: "Panama"
-        },
-        "jpn": {
-            official: "パナマ共和国",
-                common: "パナマ"
-        },
-        "kor": {
-            official: "파나마 공화국",
-                common: "파나마"
-        },
-        "nld": {
-            official: "Republiek Panama",
-                common: "Panama"
-        },
-        "per": {
-            official: "جمهوری پاناما",
-                common: "پاناما"
-        },
-        "pol": {
-            official: "Republika Panamy",
-                common: "Panama"
-        },
-        "por": {
-            official: "República do Panamá",
-                common: "Panamá"
-        },
-        "rus": {
-            official: "Республика Панама",
-                common: "Панама"
-        },
-        "slk": {
-            official: "Panamská republika",
-                common: "Panama"
-        },
-        "spa": {
-            official: "República de Panamá",
-                common: "Panamá"
-        },
-        "srp": {
-            official: "Република Панама",
-                common: "Панама"
-        },
-        "swe": {
-            official: "Republiken Panama",
-                common: "Panama"
-        },
-        "tur": {
-            official: "Panama Cumhuriyeti",
-                common: "Panama"
-        },
-        "urd": {
-            official: "جمہوریہ پاناما",
-                common: "پاناما"
-        },
-        "zho": {
-            official: "巴拿马共和国",
-                common: "巴拿马"
-        }
-    },
-    latlng: [9, -80],
-        landlocked: false,
-            "borders": [
-                "COL",
-                "CRI"
-            ],
-                "area": 75417,
-                    demonyms: {
-        eng: {
-            fem: "Panamanian",
-                masc: "Panamanian"
-        },
-        fra: {
-            fem: "Panaméenne",
-                masc: "Panaméen"
-        }
-    },
-    flag: "🇵🇦",
-        maps: {
-        googleMaps: "https://goo.gl/maps/sEN7sKqeawa5oPNLA",
-            openStreetMaps: "https://www.openstreetmap.org/relation/287668"
-    },
-    population: 4314768,
-        gini: 49.8,
-            , "fifa": "PAN",
-        "car": {
-        "signs": [
-            "PA"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC-05:00"
-    ],
-        "continents": [
-            "North America"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/pa.png",
-            svg: "https://flagcdn.com/pa.svg",
-                alt: "The flag of Panama is composed of four equal rectangular areas — a white rectangular area with a blue five-pointed star at its center, a red rectangular area, a white rectangular area with a red five-pointed star at its center, and a blue rectangular area — in the upper hoist side, upper fly side, lower fly side and lower hoist side respectively."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/pa.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/pa.svg"
-    },
-
-    capitalInfo: {
-        latlng: [8.97, -79.53]
-    }
-},
-{
-    name: {
-        common: "Montserrat",
-            official: "Montserrat",
-                "nativeName": {
-            eng: {
-                official: "Montserrat",
-                    common: "Montserrat"
-            }
-        }
-    },
-    "tld": [
-        ".ms"
-    ],
-        "cca2": "MS",
-            "ccn3": "500",
-                "cca3": "MSR",
-                    "independent": false,
-                        "status": "officially-assigned",
-                            "unMember": false,
-                                 currencies: "Eastern Caribbean dollar",
-    "idd": {
-        "root": "+1",
-            "suffixes": [
-                "664"
-            ]
-    },
-    capital: [
-        "Plymouth"
-    ],
-        "altSpellings": [
-            "MS"
-        ],
-            region: "Americas",
-                subregion: "Caribbean",
-                    languages: [
-                        "English"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "مونتسرات",
-                common: "مونتسرات"
-        },
-        "bre": {
-            official: "Montserrat",
-                common: "Montserrat"
-        },
-        "ces": {
-            official: "Montserrat",
-                common: "Montserrat"
-        },
-        "cym": {
-            official: "Montserrat",
-                common: "Montserrat"
-        },
-        "deu": {
-            official: "Montserrat",
-                common: "Montserrat"
-        },
-        "est": {
-            official: "Montserrat",
-                common: "Montserrat"
-        },
-        "fin": {
-            official: "Montserrat",
-                common: "Montserrat"
-        },
-        fra: {
-            official: "Montserrat",
-                common: "Montserrat"
-        },
-        "hrv": {
-            official: "Montserrat",
-                common: "Montserrat"
-        },
-        "hun": {
-            official: "Montserrat",
-                common: "Montserrat"
-        },
-        "ita": {
-            official: "Montserrat",
-                common: "Montserrat"
-        },
-        "jpn": {
-            official: "モントセラト",
-                common: "モントセラト"
-        },
-        "kor": {
-            official: "몬트세랫",
-                common: "몬트세랫"
-        },
-        "nld": {
-            official: "Montserrat",
-                common: "Montserrat"
-        },
-        "per": {
-            official: "مونتسرات",
-                common: "مونتسرات"
-        },
-        "pol": {
-            official: "Montserrat",
-                common: "Montserrat"
-        },
-        "por": {
-            official: "Montserrat",
-                common: "Montserrat"
-        },
-        "rus": {
-            official: "Монтсеррат",
-                common: "Монтсеррат"
-        },
-        "slk": {
-            official: "Montserrat",
-                common: "Montserrat"
-        },
-        "spa": {
-            official: "Montserrat",
-                common: "Montserrat"
-        },
-        "srp": {
-            official: "Монтсерат",
-                common: "Монтсерат"
-        },
-        "swe": {
-            official: "Montserrat",
-                common: "Montserrat"
-        },
-        "tur": {
-            official: "Montserrat",
-                common: "Montserrat"
-        },
-        "urd": {
-            official: "مانٹسریٹ",
-                common: "مانٹسریٹ"
-        },
-        "zho": {
-            official: "蒙特塞拉特",
-                common: "蒙特塞拉特"
-        }
-    },
-    latlng: [16.75, -62.2],
-        landlocked: false,
-            "area": 102,
-                demonyms: {
-        eng: {
-            fem: "Montserratian",
-                masc: "Montserratian"
-        },
-        fra: {
-            fem: "Montserratienne",
-                masc: "Montserratien"
-        }
-    },
-    flag: "🇲🇸",
-        maps: {
-        googleMaps: "https://goo.gl/maps/CSbe7UmxPmiwQB7GA",
-            openStreetMaps: "https://www.openstreetmap.org/relation/537257"
-    },
-    population: 4922,
+        population: 106766,
         gini: -1,
-            "fifa": "MSR",
-                "car": {
-        "signs": [
-            "GB"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC-04:00"
-    ],
-        "continents": [
-            "North America"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/ms.png",
-            svg: "https://flagcdn.com/ms.svg"
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/ms.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/ms.svg"
-    },
 
-    capitalInfo: {
-        latlng: [16.7, -62.22]
-    }
-},
+        flags: {
+            png: "https://flagcdn.com/w320/aw.png",
+            svg: "https://flagcdn.com/aw.svg"
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/aw.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/aw.svg"
+        },
+
+        capitalInfo: {
+            latlng: [12.52, -70.03]
+        }
+    },
+    {
+        name: {
+            common: "Cayman Islands",
+            official: "Cayman Islands",
+
+        },
+
+        currencies: "Cayman Islands dollar",
+        capital: [
+            "George Town"
+        ],
+
+        region: "Americas",
+        subregion: "Caribbean",
+        languages: [
+            "English"
+        ],
+
+        latlng: [19.3133, -81.2546],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Caymanian",
+                masc: "Caymanian"
+            },
+            fra: {
+                fem: "Caïmanienne",
+                masc: "Caïmanien"
+            }
+        },
+        flag: "🇰🇾",
+        maps: {
+            googleMaps: "https://goo.gl/maps/P3ZVXX3LH63t91hL8",
+            openStreetMaps: "https://www.openstreetmap.org/relation/7269765"
+        },
+        population: 65720,
+        gini: -1,
+
+        flags: {
+            png: "https://flagcdn.com/w320/ky.png",
+            svg: "https://flagcdn.com/ky.svg"
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/ky.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/ky.svg"
+        },
+
+        capitalInfo: {
+            latlng: [19.3, -81.38]
+        }
+    },
+    {
+        name: {
+            common: "Cuba",
+            official: "Republic of Cuba",
+
+        },
+
+        currencies: "Cuban convertible peso",
+        capital: [
+            "Havana"
+        ],
+
+        region: "Americas",
+        subregion: "Caribbean",
+        languages: [
+            "Spanish"
+        ],
+
+        latlng: [21.4, -80],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Cuban",
+                masc: "Cuban"
+            },
+            fra: {
+                fem: "Cubaine",
+                masc: "Cubain"
+            }
+        },
+        flag: "🇨🇺",
+        maps: {
+            googleMaps: "https://goo.gl/maps/1dDw1QfZspfMUTm99",
+            openStreetMaps: "https://www.openstreetmap.org/relation/307833"
+        },
+        population: 11326616,
+        gini: -1,
+
+        flags: {
+            png: "https://flagcdn.com/w320/cu.png",
+            svg: "https://flagcdn.com/cu.svg",
+            alt: "The flag of Cuba is composed of five equal horizontal bands of blue alternating with white and a red equilateral triangle superimposed on the hoist side of the field. The triangle has its base on the hoist end, spans about two-fifth the width of the field and bears a white five-pointed star at its center."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/cu.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/cu.svg"
+        },
+
+        capitalInfo: {
+            latlng: [23.12, -82.35]
+        },
+
+
+    },
+    {
+        name: {
+            common: "Uruguay",
+            official: "Oriental Republic of Uruguay",
+
+        },
+
+        currencies: "Uruguayan peso",
+        capital: [
+            "Montevideo"
+        ],
+
+        region: "Americas",
+        subregion: "South America",
+        languages: [
+            "Spanish"
+        ],
+
+        latlng: [-33, -56],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Uruguayan",
+                masc: "Uruguayan"
+            },
+            fra: {
+                fem: "Uruguayenne",
+                masc: "Uruguayen"
+            }
+        },
+        flag: "🇺🇾",
+        maps: {
+            googleMaps: "https://goo.gl/maps/tiQ9Baekb1jQtDSD9",
+            openStreetMaps: "https://www.openstreetmap.org/relation/287072"
+        },
+        population: 3473727,
+        gini: 39.7,
+
+        flags: {
+            png: "https://flagcdn.com/w320/uy.png",
+            svg: "https://flagcdn.com/uy.svg",
+            alt: "The flag of Uruguay is composed of nine equal horizontal bands of white alternating with blue, with a white square superimposed in the canton. In the white square is a yellow sun bearing a human face — the Sun of May — from which sixteen rays extend. The sun's rays alternate between triangular and wavy."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/uy.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/uy.svg"
+        },
+
+        capitalInfo: {
+            latlng: [-34.85, -56.17]
+        },
+
+
+
+    },
+    {
+        name: {
+            common: "Saint Martin",
+            official: "Saint Martin",
+
+        },
+
+        currencies: "Euro",
+
+        capital: [
+            "Marigot"
+        ],
+
+        region: "Americas",
+        subregion: "Caribbean",
+        languages: [
+            "French"
+        ],
+
+        latlng: [18.0708, 63.0501],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Saint Martin Islander",
+                masc: "Saint Martin Islander"
+            },
+            fra: {
+                fem: "Saint-Martinoise",
+                masc: "Saint-Martinois"
+            }
+        },
+        flag: "🇲🇫",
+        maps: {
+            googleMaps: "https://goo.gl/maps/P9ho9QuJ9EAR28JEA",
+            openStreetMaps: "https://www.openstreetmap.org/relation/63064"
+        },
+        population: 38659,
+        gini: -1,
+
+        flags: {
+            png: "https://flagcdn.com/w320/mf.png",
+            svg: "https://flagcdn.com/mf.svg"
+        },
+        coatOfArms: {
+
+        },
+
+        capitalInfo: {
+            latlng: [18.07, -63.08]
+        },
+
+
+    },
+    {
+        name: {
+            common: "Antigua and Barbuda",
+            official: "Antigua and Barbuda",
+
+        },
+
+        currencies: "Eastern Caribbean dollar",
+
+        capital: [
+            "Saint John's"
+        ],
+
+        region: "Americas",
+        subregion: "Caribbean",
+        languages: [
+            "English"
+        ],
+
+        latlng: [17.05, -61.8],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Antiguan, Barbudan",
+                masc: "Antiguan, Barbudan"
+            },
+            fra: {
+                fem: "Antiguaise et barbudienne",
+                masc: "Antiguaise et barbudien"
+            }
+        },
+        flag: "🇦🇬",
+        maps: {
+            googleMaps: "https://goo.gl/maps/fnye4wGJ1RzC9jpX9",
+            openStreetMaps: "https://www.openstreetmap.org/relation/536900"
+        },
+        population: 97928,
+        gini: -1,
+
+        flags: {
+            png: "https://flagcdn.com/w320/ag.png",
+            svg: "https://flagcdn.com/ag.svg",
+            alt: "The flag of Antigua and Barbuda has a red field with an inverted isosceles triangle based on the top edge and spanning the height of the field. This triangle has three horizontal bands of black, light blue and white, with the light blue band half the height of the two other bands. The top half of a golden-yellow sun is situated in the lower two-third of the black band to depict a rising sun."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/ag.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/ag.svg"
+        },
+
+        capitalInfo: {
+            latlng: [17.12, -61.85]
+        }
+    },
+    {
+        name: {
+            common: "Canada",
+            official: "Canada",
+
+        },
+
+        currencies: "Canadian dollar",
+        capital: [
+            "Ottawa"
+        ],
+
+        region: "Americas",
+        subregion: "North America",
+        languages: [
+            "English",
+            "French"
+        ],
+
+        latlng: [60, -95],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Canadian",
+                masc: "Canadian"
+            },
+            fra: {
+                fem: "Canadienne",
+                masc: "Canadien"
+            }
+        },
+        flag: "🇨🇦",
+        maps: {
+            googleMaps: "https://goo.gl/maps/jmEVLugreeqiZXxbA",
+            openStreetMaps: "https://www.openstreetmap.org/relation/1428125"
+        },
+        population: 38005238,
+        gini: 33.3,
+
+        flags: {
+            png: "https://flagcdn.com/w320/ca.png",
+            svg: "https://flagcdn.com/ca.svg",
+            alt: "The flag of Canada is composed of a red vertical band on the hoist and fly sides and a central white square that is twice the width of the vertical bands. A large eleven-pointed red maple leaf is centered in the white square."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/ca.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/ca.svg"
+        },
+
+        capitalInfo: {
+            latlng: [45.42, -75.7]
+        },
+
+
+    },
+    {
+        name: {
+            common: "Panama",
+            official: "Republic of Panama",
+
+        },
+
+        currencies: "Panamanian balboa",
+        capital: [
+            "Panama City"
+        ],
+
+        region: "Americas",
+        subregion: "Central America",
+        languages: [
+            "Spanish"
+        ],
+
+        latlng: [9, -80],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Panamanian",
+                masc: "Panamanian"
+            },
+            fra: {
+                fem: "Panaméenne",
+                masc: "Panaméen"
+            }
+        },
+        flag: "🇵🇦",
+        maps: {
+            googleMaps: "https://goo.gl/maps/sEN7sKqeawa5oPNLA",
+            openStreetMaps: "https://www.openstreetmap.org/relation/287668"
+        },
+        population: 4314768,
+        gini: 49.8,
+
+        flags: {
+            png: "https://flagcdn.com/w320/pa.png",
+            svg: "https://flagcdn.com/pa.svg",
+            alt: "The flag of Panama is composed of four equal rectangular areas — a white rectangular area with a blue five-pointed star at its center, a red rectangular area, a white rectangular area with a red five-pointed star at its center, and a blue rectangular area — in the upper hoist side, upper fly side, lower fly side and lower hoist side respectively."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/pa.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/pa.svg"
+        },
+
+        capitalInfo: {
+            latlng: [8.97, -79.53]
+        }
+    },
+    {
+        name: {
+            common: "Montserrat",
+            official: "Montserrat",
+
+        },
+
+        currencies: "Eastern Caribbean dollar",
+
+        capital: [
+            "Plymouth"
+        ],
+
+        region: "Americas",
+        subregion: "Caribbean",
+        languages: [
+            "English"
+        ],
+
+        latlng: [16.75, -62.2],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Montserratian",
+                masc: "Montserratian"
+            },
+            fra: {
+                fem: "Montserratienne",
+                masc: "Montserratien"
+            }
+        },
+        flag: "🇲🇸",
+        maps: {
+            googleMaps: "https://goo.gl/maps/CSbe7UmxPmiwQB7GA",
+            openStreetMaps: "https://www.openstreetmap.org/relation/537257"
+        },
+        population: 4922,
+        gini: -1,
+
+        flags: {
+            png: "https://flagcdn.com/w320/ms.png",
+            svg: "https://flagcdn.com/ms.svg"
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/ms.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/ms.svg"
+        },
+
+        capitalInfo: {
+            latlng: [16.7, -62.22]
+        }
+    }/*,
 {
     name: {
         common: "Nicaragua",
