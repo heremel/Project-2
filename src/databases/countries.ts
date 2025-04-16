@@ -588,7 +588,7 @@ export const countries: Countries = [
             "Slovak"
         ],
 
-        latlng: [48.66666666, 19.4],
+        latlng: [48.66666666, 19.6],
         landlocked: true,
 
         demonyms: {
@@ -3599,7 +3599,7 @@ export const countries: Countries = [
             "Portuguese"
         ],
 
-        latlng: [-12.4, 18.4],
+        latlng: [-12.4, 18.55],
         landlocked: false,
 
         demonyms: {
@@ -3817,7 +3817,7 @@ export const countries: Countries = [
             "French"
         ],
 
-        latlng: [9.4, 2.25],
+        latlng: [9.55, 2.25],
         landlocked: false,
 
         demonyms: {
@@ -4538,7 +4538,7 @@ export const countries: Countries = [
             "English"
         ],
 
-        latlng: [-6, 71.4],
+        latlng: [-6, 71.55],
         landlocked: false,
 
         demonyms: {
@@ -4918,7 +4918,7 @@ export const countries: Countries = [
             "Swazi"
         ],
 
-        latlng: [-26.4, 31.4],
+        latlng: [-26.4, 31.52],
         landlocked: true,
 
         demonyms: {
@@ -5367,7 +5367,7 @@ export const countries: Countries = [
             "English"
         ],
 
-        latlng: [6.4, -9.4],
+        latlng: [6.51, -9.51],
         landlocked: false,
 
         demonyms: {
@@ -5825,7 +5825,7 @@ export const countries: Countries = [
             "French"
         ],
 
-        latlng: [-21.15, 55.4],
+        latlng: [-21.15, 55.52],
         landlocked: false,
 
         demonyms: {
@@ -5933,7 +5933,7 @@ export const countries: Countries = [
             "Chewa"
         ],
 
-        latlng: [-13.4, 34],
+        latlng: [-13.53, 34],
         landlocked: true,
 
         demonyms: {
@@ -7681,7 +7681,7 @@ export const countries: Countries = [
             "Spanish"
         ],
 
-        latlng: [15.4, -90.25],
+        latlng: [15.51, -90.34],
         landlocked: false,
 
         demonyms: {
@@ -9308,7 +9308,7 @@ export const countries: Countries = [
             "Korean"
         ],
 
-        latlng: [37, 127.4],
+        latlng: [37, 127.52],
         landlocked: false,
 
         demonyms: {
@@ -9363,7 +9363,7 @@ export const countries: Countries = [
             "Chinese"
         ],
 
-        latlng: [23.4, 121],
+        latlng: [23.51, 121],
         landlocked: false,
 
         demonyms: {
@@ -10815,7 +10815,7 @@ export const countries: Countries = [
             "Dzongkha"
         ],
 
-        latlng: [27.4, 90.4],
+        latlng: [27.52, 90.4],
         landlocked: true,
 
         demonyms: {
@@ -11424,7 +11424,7 @@ export const countries: Countries = [
             "Malay"
         ],
 
-        latlng: [4.4, 114.66666666],
+        latlng: [4.54, 114.66666666],
         landlocked: false,
 
         demonyms: {
@@ -11536,7 +11536,7 @@ export const countries: Countries = [
             "Azerbaijani"
         ],
 
-        latlng: [40.4, 47.4],
+        latlng: [40.53, 47.54],
         landlocked: true,
 
         demonyms: {
@@ -11645,7 +11645,7 @@ export const countries: Countries = [
             "Malay"
         ],
 
-        latlng: [2.4, 112.4],
+        latlng: [2.49, 112.55],
         landlocked: false,
 
         demonyms: {
@@ -12788,7 +12788,7 @@ export const countries: Countries = [
             "English"
         ],
 
-        latlng: [-10.4, 105.66666666],
+        latlng: [-10.51, 105.66666666],
         landlocked: false,
 
         demonyms: {
@@ -13219,7 +13219,7 @@ export const countries: Countries = [
             "Palauan"
         ],
 
-        latlng: [7.4, 134.4],
+        latlng: [7.48, 134.54],
         landlocked: false,
 
         demonyms: {
