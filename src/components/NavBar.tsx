@@ -1,3 +1,4 @@
+//warning, il s'agit d'une navbar basique, juste pour pouvoir tester !!!
 import { MainType } from "../App";
 
 

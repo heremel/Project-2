@@ -2,7 +2,6 @@ import ListOfItems from "./ListOfItems"
 import FilterPage from "./FilterPage";
 import About from "./About";
 import DetailledItem from "./DetailledItem";
-import { useState } from "react";
 import { Countries, Filters, MainType } from "../App";
 import { Weathers } from "../App";
 
@@ -15,12 +14,9 @@ interface MainProps {
     setMainContent: React.Dispatch<React.SetStateAction<MainType>>;
 }
 
-
-
-
-
 function MainArea({ mainContent, countries, weathers, filters, setFilters, setMainContent }: MainProps) {
-
+    //En fonction de mainContent, le contenu de la page est différent (cf. [mainContent, setMainContent]=useState  dans App.tsx)
+    //ATTENTION, il reste à gérer "pas de filtres" et/ou "pas de nav" là où c'est nécessaire
     switch (mainContent) {
         case "ListOfItems": return <ListOfItems countries={countries} weathers={weathers} setMainContent={setMainContent} filters={filters} />;
         case "FilterPage": return <FilterPage filters={filters} setFilters={setFilters} setMainContent={setMainContent} />;

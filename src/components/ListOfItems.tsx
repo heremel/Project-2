@@ -1,6 +1,5 @@
 import styles from "./../assets/styles/ListOfItems.module.css";
 import Item from "./Item";
-import PopUp from "./PopUp";
 import { useState } from "react";
 import { Countries, Filters } from "../App";
 import { Weathers } from "../App";
@@ -10,7 +9,6 @@ export interface ListProps {
 	weathers: Weathers
 	filters: Filters
 }
-
 
 function ListOfItems({ countries, weathers, filters }: ListProps) {
 	const [selectedCountry, setSelectedCountry] = useState(null);
@@ -29,10 +27,14 @@ function ListOfItems({ countries, weathers, filters }: ListProps) {
 		let filtered3
 		let filtered4
 		let filtered5
+
+		//étape pour appliquer le filtre 1
 		if (!filters.landlockedshown) { filtered1 = array.filter((country) => country.landlocked === false) }
 		else { filtered1 = array }
 
-		return filtered1
+		//étapes pour appliquer les filtres 1 à 5 (manquantes)
+
+		return filtered1 //à terme, doit retourner filtered5
 	}
 
 

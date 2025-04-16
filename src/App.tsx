@@ -1,5 +1,4 @@
 import './App.css'
-//import ListOfItems from './components/ListOfItems';
 import MainArea from './components/MainArea';
 import FiltersTab from './components/FiltersTab';
 import NavBar from './components/NavBar';
@@ -7,7 +6,7 @@ import { countries } from './databases/countries';
 import { weathers } from './databases/weather';
 import { useState } from 'react';
 
-
+//INTERFACES ET TYPES
 export interface Country {
   name: {
     common: string,
@@ -94,7 +93,11 @@ export interface Filters {
 export type Weathers = Weather[]
 export type MainType = "ListOfItems" | "FilterPage" | "About" | "DetailledItem" | "MyItems"
 
+
+//FUNCTION APP
 function App() {
+
+  //Gère les filtres en cours
   const defaultFilters: Filters = {
     region: "none",
     subregion: "none",
@@ -105,7 +108,7 @@ function App() {
   }
   const [filters, setFilters] = useState(defaultFilters)
 
-
+  //Gère quel contenu afficher dans la page (main area)
   const [mainContent, setMainContent] = useState<MainType>("About")
 
   return (
