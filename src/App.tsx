@@ -1,10 +1,12 @@
 import './App.css'
+import './css/about.css'
 //import ListOfItems from './components/ListOfItems';
 import MainArea from './components/MainArea';
 import Filters from './components/Filters';
 import NavBar from './components/NavBar';
 import { countries } from './databases/countries';
 import { weathers } from './databases/weather';
+import { useState } from 'react';
 
 export interface Country {
   name: {
@@ -83,7 +85,7 @@ export interface Weather {
 export type Weathers = Weather[]
 
 function App() {
-
+ 
   return (
     <>
       <Filters />

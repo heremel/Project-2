@@ -6,25 +6,26 @@ import { useState } from "react";
 import { Countries } from "../App";
 import { Weathers } from "../App";
 
+
 interface MainProps {
 
 }
 
-
-
-
-
-function MainArea() {
-
+function MainArea({currentPage,countries, weathers}: MainProps) {
+    // const [currentPage, setCurrentPage] = useState('home'); // 'home', 'about', 'filters', 'detailledItem'
+    // const [countries, setCountries] = useState<Countries>([]);
+    // const [weathers, setWeathers] = useState<Weathers>([]);
     return (
         <>
-            {/* <ListOfItems countries={countries} weathers={weathers} /> 
-            <FilterPage />  */}
-            <About />
-            {/* <DetailledItem /> */}
+            {currentPage === 'list' && <ListOfItems countries={countries} weathers={weathers} /> }
+            {currentPage === 'filter' && <FilterPage /> }
+            {currentPage === 'about' && <About />}
+            {currentPage === 'details' && /* <DetailledItem /> */}
 
         </>
     )
 }
 
 export default MainArea
+
+

@@ -4,8 +4,11 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #374F59;
+  background-color: #9db3c1;
+  --primary-color: #374F59;
+  --secondary-color: #9db3c1;
+  --thirdary-color: #d7dee1;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -22,7 +25,8 @@
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  place-items: left;
+  background-color: var(--secondary-color) ;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -34,12 +38,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #374F59;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #d7dee1;
 }
 button:focus,
 button:focus-visible {
