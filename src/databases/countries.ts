@@ -12344,4327 +12344,1193 @@ export const countries: Countries = [
         capitalInfo: {
             latlng: [-19.02, -169.92]
         }
-    }/*,
-{
-    name: {
-        common: "Nauru",
+    },
+    {
+        name: {
+            common: "Nauru",
             official: "Republic of Nauru",
 
-    },
- 
-                                    currencies:"Australian dollar",
-    },
-    "idd": {
-        "root": "+6",
-            "suffixes": [
-                "74"
-            ]
-    },
-    capital: [
-        "Yaren"
-    ],
-        "altSpellings": [
-            "NR",
-            "Naoero",
-            "Pleasant Island",
-            "Republic of Nauru",
-            "Ripublik Naoero"
+        },
+
+        currencies: "Australian dollar",
+
+        capital: [
+            "Yaren"
         ],
-            region: "Oceania",
-                subregion: "Micronesia",
-                    languages: [
-                        "English",
-                        "nau": "Nauru"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية ناورو",
-                common: "ناورو"
-        },
-        "bre": {
-            official: "Republik Nauru",
-                common: "Nauru"
-        },
-        "ces": {
-            official: "Republika Nauru",
-                common: "Nauru"
-        },
-        "cym": {
-            official: "Republic of Nauru",
-                common: "Nauru"
-        },
-        "deu": {
-            official: "Republik Nauru",
-                common: "Nauru"
-        },
-        "est": {
-            official: "Nauru Vabariik",
-                common: "Nauru"
-        },
-        "fin": {
-            official: "Naurun tasavalta",
-                common: "Nauru"
-        },
-        fra: {
-            official: "République de Nauru",
-                common: "Nauru"
-        },
-        "hrv": {
-            official: "Republika Nauru",
-                common: "Nauru"
-        },
-        "hun": {
-            official: "Naurui Köztársaság",
-                common: "Nauru"
-        },
-        "ita": {
-            official: "Repubblica di Nauru",
-                common: "Nauru"
-        },
-        "jpn": {
-            official: "ナウル共和国",
-                common: "ナウル"
-        },
-        "kor": {
-            official: "나우루 공화국",
-                common: "나우루"
-        },
-        "nld": {
-            official: "Republiek Nauru",
-                common: "Nauru"
-        },
-        "per": {
-            official: "جمهوری نائورو",
-                common: "نائورو"
-        },
-        "pol": {
-            official: "Republika Nauru",
-                common: "Nauru"
-        },
-        "por": {
-            official: "República de Nauru",
-                common: "Nauru"
-        },
-        "rus": {
-            official: "Республика Науру",
-                common: "Науру"
-        },
-        "slk": {
-            official: "Naurská republika",
-                common: "Nauru"
-        },
-        "spa": {
-            official: "República de Nauru",
-                common: "Nauru"
-        },
-        "srp": {
-            official: "Република Науру",
-                common: "Науру"
-        },
-        "swe": {
-            official: "Republiken Nauru",
-                common: "Nauru"
-        },
-        "tur": {
-            official: "Nauru Cumhuriyeti",
-                common: "Nauru"
-        },
-        "urd": {
-            official: "جمہوریہ ناورو",
-                common: "ناورو"
-        },
-        "zho": {
-            official: "瑙鲁共和国",
-                common: "瑙鲁"
-        }
-    },
-    latlng: [-0.53333333, 166.91666666],
+
+        region: "Oceania",
+        subregion: "Micronesia",
+        languages: [
+            "English",
+            "Nauru"
+        ],
+
+        latlng: [-0.53333333, 166.91666666],
         landlocked: false,
-            "area": 21,
-                demonyms: {
-        eng: {
-            fem: "Nauruan",
+
+        demonyms: {
+            eng: {
+                fem: "Nauruan",
                 masc: "Nauruan"
+            },
+            fra: {
+                fem: "Nauruane",
+                masc: "Nauruan"
+            }
         },
-        fra: {
-            fem: "Nauruane",
-                masc: "Nauruan"
-        }
-    },
-    flag: "🇳🇷",
+        flag: "🇳🇷",
         maps: {
-        googleMaps: "https://goo.gl/maps/kyAGw6XEJgjSMsTK7",
+            googleMaps: "https://goo.gl/maps/kyAGw6XEJgjSMsTK7",
             openStreetMaps: "https://www.openstreetmap.org/relation/571804"
-    },
-    population: 10834,
+        },
+        population: 10834,
         gini: 34.8,
-            "car": {
-        "signs": [
-            "NAU"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC+12:00"
-    ],
-        "continents": [
-            "Oceania"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/nr.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/nr.png",
             svg: "https://flagcdn.com/nr.svg",
-                alt: "The flag of Nauru has a dark blue field with a thin yellow horizontal band across the center and a large white twelve-pointed star beneath the horizontal band on the hoist side of the field."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/nr.png",
+            alt: "The flag of Nauru has a dark blue field with a thin yellow horizontal band across the center and a large white twelve-pointed star beneath the horizontal band on the hoist side of the field."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/nr.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/nr.svg"
-    },
+        },
 
-    capitalInfo: {
-        latlng: [-0.55, 166.92]
-    }
-},
-{
-    name: {
-        common: "Cocos (Keeling) Islands",
+        capitalInfo: {
+            latlng: [-0.55, 166.92]
+        }
+    },
+    {
+        name: {
+            common: "Cocos (Keeling) Islands",
             official: "Territory of the Cocos (Keeling) Islands",
-                "nativeName": {
-            eng: {
-                official: "Territory of the Cocos (Keeling) Islands",
-                    common: "Cocos (Keeling) Islands"
-            }
-        }
-    },
-    "tld": [
-        ".cc"
-    ],
-        "cca2": "CC",
-            "ccn3": "166",
-                "cca3": "CCK",
-                    "independent": false,
-                        "status": "officially-assigned",
-                            "unMember": false,
-                                currencies:"Australian dollar",
-    },
-    "idd": {
-        "root": "+6",
-            "suffixes": [
-                "1"
-            ]
-    },
-    capital: [
-        "West Island"
-    ],
-        "altSpellings": [
-            "CC",
-            "Keeling Islands",
-            "Cocos Islands"
+
+        },
+
+        currencies: "Australian dollar",
+
+        capital: [
+            "West Island"
         ],
-            region: "Oceania",
-                subregion: "Australia and New Zealand",
-                    languages: [
-                        "English"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "إقليم جزر كوكوس",
-                common: "جزر كوكوس"
-        },
-        "bre": {
-            official: "Tiriad Inizi Cocos (Keeling)",
-                common: "Inizi Cocos (Keeling)"
-        },
-        "ces": {
-            official: "Kokosové ostrovy",
-                common: "Kokosové ostrovy"
-        },
-        "cym": {
-            official: "Tiriogaeth yr Ynysoedd Cocos (Keeling)",
-                common: "Ynysoedd Cocos"
-        },
-        "deu": {
-            official: "Gebiet der Kokos- (Keeling-) Inseln",
-                common: "Kokosinseln"
-        },
-        "est": {
-            official: "Kookossaarte ala",
-                common: "Kookossaared"
-        },
-        "fin": {
-            official: "Kookossaaret",
-                common: "Kookossaaret"
-        },
-        fra: {
-            official: "Territoire des îles Cocos (Keeling)",
-                common: "Îles Cocos"
-        },
-        "hrv": {
-            official: "Teritoriju Kokosovi (Keeling) Islands",
-                common: "Kokosovi Otoci"
-        },
-        "hun": {
-            official: "Kókusz-szigetek",
-                common: "Kókusz-szigetek"
-        },
-        "ita": {
-            official: "Territorio della (Keeling) Isole Cocos",
-                common: "Isole Cocos e Keeling"
-        },
-        "jpn": {
-            official: "ココス諸島の領土",
-                common: "ココス（キーリング）諸島"
-        },
-        "kor": {
-            official: "코코스 제도",
-                common: "코코스 제도"
-        },
-        "nld": {
-            official: "Grondgebied van de Eilanden Cocos (Keeling )",
-                common: "Cocoseilanden"
-        },
-        "per": {
-            official: "جزایر کوکوس",
-                common: "جزایر کوکوس"
-        },
-        "pol": {
-            official: "Wyspy Kokosowe",
-                common: "Wyspy Kokosowe"
-        },
-        "por": {
-            official: "Território dos Cocos (Keeling)",
-                common: "Ilhas Cocos (Keeling)"
-        },
-        "rus": {
-            official: "Территория Кокосовые (Килинг) острова",
-                common: "Кокосовые острова"
-        },
-        "slk": {
-            official: "Kokosové ostrovy",
-                common: "Kokosové ostrovy"
-        },
-        "spa": {
-            official: "Territorio de los (Keeling) Islas Cocos",
-                common: "Islas Cocos o Islas Keeling"
-        },
-        "srp": {
-            official: "Кокосова (Килинг) Острва",
-                common: "Кокосова Острва"
-        },
-        "swe": {
-            official: "Kokosöarna",
-                common: "Kokosöarna"
-        },
-        "tur": {
-            official: "Cocos (Keeling) Adaları",
-                common: "Cocos (Keeling) Adaları"
-        },
-        "urd": {
-            official: "جزائر (کیلنگ) کوکوس",
-                common: "جزائر کوکوس"
-        },
-        "zho": {
-            official: "科科斯",
-                common: "科科斯"
-        }
-    },
-    latlng: [12.1642, 96.871],
+
+        region: "Oceania",
+        subregion: "Australia and New Zealand",
+        languages: [
+            "English"
+        ],
+
+        latlng: [12.1642, 96.871],
         landlocked: false,
-            "area": 14,
-                demonyms: {
-        eng: {
-            fem: "Cocos Islander",
+
+        demonyms: {
+            eng: {
+                fem: "Cocos Islander",
                 masc: "Cocos Islander"
-        }
-    },
-    flag: "🇨🇨",
+            }
+        },
+        flag: "🇨🇨",
         maps: {
-        googleMaps: "https://goo.gl/maps/3eCdKVpVfMcZyKcK6",
+            googleMaps: "https://goo.gl/maps/3eCdKVpVfMcZyKcK6",
             openStreetMaps: "https://www.openstreetmap.org/relation/82636"
-    },
-    population: 544,
+        },
+        population: 544,
         gini: -1,
-            "car": {
-        "signs": [
-            "AUS"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC+06:30"
-    ],
-        "continents": [
-            "Asia"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/cc.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/cc.png",
             svg: "https://flagcdn.com/cc.svg"
-    },
-    coatOfArms: {
+        },
+        coatOfArms: {
 
-    },
+        },
 
-    capitalInfo: {
-        latlng: [-12.17, 96.83]
-    }
-},
-{
-    name: {
-        common: "Fiji",
+        capitalInfo: {
+            latlng: [-12.17, 96.83]
+        }
+    },
+    {
+        name: {
+            common: "Fiji",
             official: "Republic of Fiji",
-                "nativeName": {
-            eng: {
-                official: "Republic of Fiji",
-                    common: "Fiji"
-            },
-            "fij": {
-                official: "Matanitu Tugalala o Viti",
-                    common: "Viti"
-            },
-            "hif": {
-                official: "रिपब्लिक ऑफ फीजी",
-                    common: "फिजी"
-            }
-        }
-    },
-    "tld": [
-        ".fj"
-    ],
-        "cca2": "FJ",
-            "ccn3": "242",
-                "cca3": "FJI",
-                    "cioc": "FIJ",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "FJD": {
-            name: "Fijian dollar",
-                "symbol": "$"
-        }
-    },
-    "idd": {
-        "root": "+6",
-            "suffixes": [
-                "79"
-            ]
-    },
-    capital: [
-        "Suva"
-    ],
-        "altSpellings": [
-            "FJ",
-            "Viti",
-            "Republic of Fiji",
-            "Matanitu ko Viti",
-            "Fijī Gaṇarājya"
+
+        },
+
+        currencies: "Fijian dollar",
+        capital: [
+            "Suva"
         ],
-            region: "Oceania",
-                subregion: "Melanesia",
-                    languages: [
-                        "English",
-                        "fij": "Fijian",
-                        "hif": "Fiji Hindi"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية جزر فيجي",
-                common: "فيجي"
-        },
-        "bre": {
-            official: "Republik Fidji",
-                common: "Fidji"
-        },
-        "ces": {
-            official: "Republika Fidžijských ostrovů",
-                common: "Fidži"
-        },
-        "cym": {
-            official: "Republic of Fiji",
-                common: "Fiji"
-        },
-        "deu": {
-            official: "Republik Fidschi",
-                common: "Fidschi"
-        },
-        "est": {
-            official: "Fidži Vabariik",
-                common: "Fidži"
-        },
-        "fin": {
-            official: "Fidžin tasavalta",
-                common: "Fidži"
-        },
-        fra: {
-            official: "République des Fidji",
-                common: "Fidji"
-        },
-        "hrv": {
-            official: "Republika Fidži",
-                common: "Fiđi"
-        },
-        "hun": {
-            official: "Fidzsi-szigeteki Köztársaság",
-                common: "Fidzsi-szigetek"
-        },
-        "ita": {
-            official: "Repubblica di Figi",
-                common: "Figi"
-        },
-        "jpn": {
-            official: "フィジー共和国",
-                common: "フィジー"
-        },
-        "kor": {
-            official: "피지 공화국",
-                common: "피지"
-        },
-        "nld": {
-            official: "Republiek Fiji",
-                common: "Fiji"
-        },
-        "per": {
-            official: "جمهوری جزایر فیجی",
-                common: "فیجی"
-        },
-        "pol": {
-            official: "Republika Fidżi",
-                common: "Fidżi"
-        },
-        "por": {
-            official: "República de Fiji",
-                common: "Fiji"
-        },
-        "rus": {
-            official: "Республика Фиджи",
-                common: "Фиджи"
-        },
-        "slk": {
-            official: "Fiǆijská republika",
-                common: "Fiǆi"
-        },
-        "spa": {
-            official: "República de Fiji",
-                common: "Fiyi"
-        },
-        "srp": {
-            official: "Република Фиџи",
-                common: "Фиџи"
-        },
-        "swe": {
-            official: "Republiken Fiji",
-                common: "Fiji"
-        },
-        "tur": {
-            official: "Fiji Cumhuriyeti",
-                common: "Fiji"
-        },
-        "urd": {
-            official: "جمہوریہ فجی",
-                common: "فجی"
-        },
-        "zho": {
-            official: "斐济共和国",
-                common: "斐济"
-        }
-    },
-    latlng: [17.7134, 178.065],
+
+        region: "Oceania",
+        subregion: "Melanesia",
+        languages: [
+            "English",
+            "Fijian",
+            "Fiji Hindi"
+        ],
+
+        latlng: [17.7134, 178.065],
         landlocked: false,
-            "area": 18272,
-                demonyms: {
-        eng: {
-            fem: "Fijian",
+
+        demonyms: {
+            eng: {
+                fem: "Fijian",
                 masc: "Fijian"
-        },
-        fra: {
-            fem: "Fidjienne",
+            },
+            fra: {
+                fem: "Fidjienne",
                 masc: "Fidjien"
-        }
-    },
-    flag: "🇫🇯",
+            }
+        },
+        flag: "🇫🇯",
         maps: {
-        googleMaps: "https://goo.gl/maps/r9fhDqoLZdg1zmE99",
+            googleMaps: "https://goo.gl/maps/r9fhDqoLZdg1zmE99",
             openStreetMaps: "https://www.openstreetmap.org/relation/571747"
-    },
-    population: 896444,
+        },
+        population: 896444,
         gini: 36.7,
-            , "fifa": "FIJ",
-        "car": {
-        "signs": [
-            "FJI"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC+12:00"
-    ],
-        "continents": [
-            "Oceania"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/fj.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/fj.png",
             svg: "https://flagcdn.com/fj.svg",
-                alt: "The flag of Fiji has a light blue field. It features the flag of the United Kingdom — the Union Jack — in the canton and the shield of the national coat of arms centered in the fly half."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/fj.png",
+            alt: "The flag of Fiji has a light blue field. It features the flag of the United Kingdom — the Union Jack — in the canton and the shield of the national coat of arms centered in the fly half."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/fj.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/fj.svg"
-    },
+        },
 
-    capitalInfo: {
-        latlng: [-18.13, 178.42]
-    }
-},
-{
-    name: {
-        common: "Wallis and Futuna",
+        capitalInfo: {
+            latlng: [-18.13, 178.42]
+        }
+    },
+    {
+        name: {
+            common: "Wallis and Futuna",
             official: "Territory of the Wallis and Futuna Islands",
-                "nativeName": {
-            fra: {
-                official: "Territoire des îles Wallis et Futuna",
-                    common: "Wallis et Futuna"
-            }
-        }
-    },
-    "tld": [
-        ".wf"
-    ],
-        "cca2": "WF",
-            "ccn3": "876",
-                "cca3": "WLF",
-                    "independent": false,
-                        "status": "officially-assigned",
-                            "unMember": false,
-                                currencies: {
-        "XPF": {
-            name: "CFP franc",
-                "symbol": "₣"
-        }
-    },
-    "idd": {
-        "root": "+6",
-            "suffixes": [
-                "81"
-            ]
-    },
-    capital: [
-        "Mata-Utu"
-    ],
-        "altSpellings": [
-            "WF",
-            "Territory of the Wallis and Futuna Islands",
-            "Territoire des îles Wallis et Futuna"
+
+        },
+
+        currencies: "CFP franc",
+        capital: [
+            "Mata-Utu"
         ],
-            region: "Oceania",
-                subregion: "Polynesia",
-                    languages: [
-                        "French"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "إقليم جزر واليس وفوتونا",
-                common: "واليس وفوتونا"
-        },
-        "bre": {
-            official: "Tiriad Inizi Wallis ha Futuna",
-                common: "Wallis ha Futuna"
-        },
-        "ces": {
-            official: "Teritorium ostrovů Wallis a Futuna",
-                common: "Wallis a Futuna"
-        },
-        "cym": {
-            official: "Territory of the Wallis and Futuna Islands",
-                common: "Wallis and Futuna"
-        },
-        "deu": {
-            official: "Gebiet der Wallis und Futuna",
-                common: "Wallis und Futuna"
-        },
-        "est": {
-            official: "Wallise ja Futuna ala",
-                common: "Wallis ja Futuna"
-        },
-        "fin": {
-            official: "Wallisin ja Futunan yhteisö",
-                common: "Wallis ja Futuna"
-        },
-        fra: {
-            official: "Territoire des îles Wallis et Futuna",
-                common: "Wallis-et-Futuna"
-        },
-        "hrv": {
-            official: "Teritoriju Wallis i Futuna",
-                common: "Wallis i Fortuna"
-        },
-        "hun": {
-            official: "Wallis és Futuna",
-                common: "Wallis és Futuna"
-        },
-        "ita": {
-            official: "Territorio delle Isole Wallis e Futuna",
-                common: "Wallis e Futuna"
-        },
-        "jpn": {
-            official: "ウォリス·フツナ諸島の領土",
-                common: "ウォリス・フツナ"
-        },
-        "kor": {
-            official: "왈리스 퓌튀나",
-                common: "왈리스 퓌튀나"
-        },
-        "nld": {
-            official: "Grondgebied van de Wallis en Futuna",
-                common: "Wallis en Futuna"
-        },
-        "per": {
-            official: "جزایر والیس و فوتونا",
-                common: "والیس و فوتونا"
-        },
-        "pol": {
-            official: "Terytorium Wysp Wallis i Futuna",
-                common: "Wallis i Futuna"
-        },
-        "por": {
-            official: "Território das Ilhas Wallis e Futuna",
-                common: "Wallis e Futuna"
-        },
-        "rus": {
-            official: "Территория Уоллис и Футуна острова",
-                common: "Уоллис и Футуна"
-        },
-        "slk": {
-            official: "Teritórium ostrovov Wallis a Futuna",
-                common: "Wallis a Futuna"
-        },
-        "spa": {
-            official: "Territorio de las Islas Wallis y Futuna",
-                common: "Wallis y Futuna"
-        },
-        "srp": {
-            official: "Територија државе Валис и Футуна",
-                common: "Валис и Футуна"
-        },
-        "swe": {
-            official: "Territoriet Wallis- och Futunaöarna",
-                common: "Wallis- och Futunaöarna"
-        },
-        "tur": {
-            official: "Wallis ve Futuna Adaları Bölgesi",
-                common: "Wallis ve Futuna Adaları Bölgesi"
-        },
-        "urd": {
-            official: "سر زمینِ والس و فتونہ جزائر",
-                common: "والس و فتونہ"
-        },
-        "zho": {
-            official: "瓦利斯和富图纳群岛",
-                common: "瓦利斯和富图纳群岛"
-        }
-    },
-    latlng: [-13.3, -176.2],
+
+        region: "Oceania",
+        subregion: "Polynesia",
+        languages: [
+            "French"
+        ],
+
+        latlng: [-13.3, -176.2],
         landlocked: false,
-            "area": 142,
-                demonyms: {
-        eng: {
-            fem: "Wallis and Futuna Islander",
+
+        demonyms: {
+            eng: {
+                fem: "Wallis and Futuna Islander",
                 masc: "Wallis and Futuna Islander"
-        }
-    },
-    flag: "🇼🇫",
+            }
+        },
+        flag: "🇼🇫",
         maps: {
-        googleMaps: "https://goo.gl/maps/CzVqK74QYtbHv65r5",
+            googleMaps: "https://goo.gl/maps/CzVqK74QYtbHv65r5",
             openStreetMaps: "https://www.openstreetmap.org/relation/3412448"
-    },
-    population: 11750,
+        },
+        population: 11750,
         gini: -1,
-            "car": {
-        "signs": [
-            "F"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC+12:00"
-    ],
-        "continents": [
-            "Oceania"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/wf.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/wf.png",
             svg: "https://flagcdn.com/wf.svg"
-    },
-    coatOfArms: {
-
-    },
-
-    capitalInfo: {
-        latlng: [-13.95, -171.93]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Cook Islands",
-            official: "Cook Islands",
-                "nativeName": {
-            eng: {
-                official: "Cook Islands",
-                    common: "Cook Islands"
-            },
-            "rar": {
-                official: "Kūki 'Āirani",
-                    common: "Kūki 'Āirani"
-            }
-        }
-    },
-    "tld": [
-        ".ck"
-    ],
-        "cca2": "CK",
-            "ccn3": "184",
-                "cca3": "COK",
-                    "cioc": "COK",
-                        "independent": false,
-                            "status": "officially-assigned",
-                                "unMember": false,
-                                    currencies: {
-        "CKD": {
-            name: "Cook Islands dollar",
-                "symbol": "$"
         },
-        "NZD": {
-            name: "New Zealand dollar",
-                "symbol": "$"
-        }
+        coatOfArms: {
+
+        },
+
+        capitalInfo: {
+            latlng: [-13.95, -171.93]
+        },
+
+
+
     },
-    "idd": {
-        "root": "+6",
-            "suffixes": [
-                "82"
-            ]
-    },
-    capital: [
-        "Avarua"
-    ],
-        "altSpellings": [
-            "CK",
-            "Kūki 'Āirani"
+    {
+        name: {
+            common: "Cook Islands",
+            official: "Cook Islands",
+
+        },
+
+        currencies: "Cook Islands dollar",
+        capital: [
+            "Avarua"
         ],
-            region: "Oceania",
-                subregion: "Polynesia",
-                    languages: [
-                        "English",
-                        "rar": "Cook Islands Māori"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جزر كوك",
-                common: "جزر كوك"
-        },
-        "bre": {
-            official: "Inizi Cook",
-                common: "Inizi Cook"
-        },
-        "ces": {
-            official: "Cookovy ostrovy",
-                common: "Cookovy ostrovy"
-        },
-        "cym": {
-            official: "Ynysoedd Cook",
-                common: "Ynysoedd Cook"
-        },
-        "deu": {
-            official: "Cookinseln",
-                common: "Cookinseln"
-        },
-        "est": {
-            official: "Cooki saared",
-                common: "Cooki saared"
-        },
-        "fin": {
-            official: "Cookinsaaret",
-                common: "Cookinsaaret"
-        },
-        fra: {
-            official: "Îles Cook",
-                common: "Îles Cook"
-        },
-        "hrv": {
-            official: "Cook Islands",
-                common: "Cookovo Otočje"
-        },
-        "hun": {
-            official: "Cook-szigetek",
-                common: "Cook-szigetek"
-        },
-        "ita": {
-            official: "Isole Cook",
-                common: "Isole Cook"
-        },
-        "jpn": {
-            official: "クック諸島",
-                common: "クック諸島"
-        },
-        "kor": {
-            official: "쿡 제도",
-                common: "쿡 제도"
-        },
-        "nld": {
-            official: "Cook eilanden",
-                common: "Cookeilanden"
-        },
-        "per": {
-            official: "جزایر کوک",
-                common: "جزایر کوک"
-        },
-        "pol": {
-            official: "Wyspy Cooka",
-                common: "Wyspy Cooka"
-        },
-        "por": {
-            official: "Ilhas Cook",
-                common: "Ilhas Cook"
-        },
-        "rus": {
-            official: "острова Кука",
-                common: "Острова Кука"
-        },
-        "slk": {
-            official: "Cookove ostrovy",
-                common: "Cookove ostrovy"
-        },
-        "spa": {
-            official: "Islas Cook",
-                common: "Islas Cook"
-        },
-        "srp": {
-            official: "Кукова Острва",
-                common: "Кукова Острва"
-        },
-        "swe": {
-            official: "Cooköarna",
-                common: "Cooköarna"
-        },
-        "tur": {
-            official: "Cook Adaları",
-                common: "Cook Adaları"
-        },
-        "urd": {
-            official: "جزائر کک",
-                common: "جزائر کک"
-        },
-        "zho": {
-            official: "库克群岛",
-                common: "库克群岛"
-        }
-    },
-    latlng: [-21.23333333, -159.76666666],
+
+        region: "Oceania",
+        subregion: "Polynesia",
+        languages: [
+            "English",
+            "Cook Islands Māori"
+        ],
+
+        latlng: [-21.23333333, -159.76666666],
         landlocked: false,
-            "area": 236,
-                demonyms: {
-        eng: {
-            fem: "Cook Islander",
+
+        demonyms: {
+            eng: {
+                fem: "Cook Islander",
                 masc: "Cook Islander"
-        },
-        fra: {
-            fem: "Cookienne",
-                masc: "Cookien"
-        }
-    },
-    flag: "🇨🇰",
-        maps: {
-        googleMaps: "https://goo.gl/maps/nrGZrvWRGB4WHgDC9",
-            openStreetMaps: "https://www.openstreetmap.org/relation/2184233"
-    },
-    population: 18100,
-        gini: -1,
-            "fifa": "COK",
-                "car": {
-        "signs": [
-            "NZ"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC-10:00"
-    ],
-        "continents": [
-            "Oceania"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/ck.png",
-            svg: "https://flagcdn.com/ck.svg"
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/ck.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/ck.svg"
-    },
-
-    capitalInfo: {
-        latlng: [-21.2, -159.77]
-    }
-},
-{
-    name: {
-        common: "Australia",
-            official: "Commonwealth of Australia",
-                "nativeName": {
-            eng: {
-                official: "Commonwealth of Australia",
-                    common: "Australia"
-            }
-        }
-    },
-    "tld": [
-        ".au"
-    ],
-        "cca2": "AU",
-            "ccn3": "036",
-                "cca3": "AUS",
-                    "cioc": "AUS",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies:"Australian dollar",
-    },
-    "idd": {
-        "root": "+6",
-            "suffixes": [
-                "1"
-            ]
-    },
-    capital: [
-        "Canberra"
-    ],
-        "altSpellings": [
-            "AU"
-        ],
-            region: "Oceania",
-                subregion: "Australia and New Zealand",
-                    languages: [
-                        "English"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "كومونولث أستراليا",
-                common: "أستراليا"
-        },
-        "bre": {
-            official: "Kenglad Aostralia",
-                common: "Aostralia"
-        },
-        "ces": {
-            official: "Australské společenství",
-                common: "Austrálie"
-        },
-        "cym": {
-            official: "Cymanwlad Awstralia",
-                common: "Awstralia"
-        },
-        "deu": {
-            official: "Commonwealth Australien",
-                common: "Australien"
-        },
-        "est": {
-            official: "Austraalia Ühendus",
-                common: "Austraalia"
-        },
-        "fin": {
-            official: "Australian liittovaltio",
-                common: "Australia"
-        },
-        fra: {
-            official: "Australie",
-                common: "Australie"
-        },
-        "hrv": {
-            official: "Commonwealth of Australia",
-                common: "Australija"
-        },
-        "hun": {
-            official: "Ausztrál Államszövetség",
-                common: "Ausztrália"
-        },
-        "ita": {
-            official: "Commonwealth dell'Australia",
-                common: "Australia"
-        },
-        "jpn": {
-            official: "オーストラリア連邦",
-                common: "オーストラリア"
-        },
-        "kor": {
-            official: "오스트레일리아 연방",
-                common: "호주"
-        },
-        "nld": {
-            official: "Gemenebest van Australië",
-                common: "Australië"
-        },
-        "per": {
-            official: "قلمرو همسود استرالیا",
-                common: "استرالیا"
-        },
-        "pol": {
-            official: "Związek Australijski",
-                common: "Australia"
-        },
-        "por": {
-            official: "Comunidade da Austrália",
-                common: "Austrália"
-        },
-        "rus": {
-            official: "Содружество Австралии",
-                common: "Австралия"
-        },
-        "slk": {
-            official: "Austrálsky zväz",
-                common: "Austrália"
-        },
-        "spa": {
-            official: "Mancomunidad de Australia",
-                common: "Australia"
-        },
-        "srp": {
-            official: "Комонвелт Аустралија",
-                common: "Аустралија"
-        },
-        "swe": {
-            official: "Australiska statsförbundet",
-                common: "Australien"
-        },
-        "tur": {
-            official: "Avustralya Federal Devleti",
-                common: "Avustralya"
-        },
-        "urd": {
-            official: "دولتِ مشترکہ آسٹریلیا",
-                common: "آسٹریلیا"
-        },
-        "zho": {
-            official: "澳大利亚联邦",
-                common: "澳大利亚"
-        }
-    },
-    latlng: [-27, 133],
-        landlocked: false,
-            "area": 7692024,
-                demonyms: {
-        eng: {
-            fem: "Australian",
-                masc: "Australian"
-        },
-        fra: {
-            fem: "Australienne",
-                masc: "Australien"
-        }
-    },
-    flag: "🇦🇺",
-        maps: {
-        googleMaps: "https://goo.gl/maps/DcjaDa7UbhnZTndH6",
-            openStreetMaps: "https://www.openstreetmap.org/relation/80500"
-    },
-    population: 25687041,
-        gini: 34.4,
-            , "fifa": "AUS",
-        "car": {
-        "signs": [
-            "AUS"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC+05:00",
-        "UTC+06:30",
-        "UTC+07:00",
-        "UTC+08:00",
-        "UTC+09:30",
-        "UTC+10:00",
-        "UTC+10:30",
-        "UTC+11:30"
-    ],
-        "continents": [
-            "Oceania"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/au.png",
-            svg: "https://flagcdn.com/au.svg",
-                alt: "The flag of Australia has a dark blue field. It features the flag of the United Kingdom — the Union Jack — in the canton, beneath which is a large white seven-pointed star. A representation of the Southern Cross constellation, made up of one small five-pointed and four larger seven-pointed white stars, is situated on the fly side of the field."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/au.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/au.svg"
-    },
-
-    capitalInfo: {
-        latlng: [-35.27, 149.13]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Tuvalu",
-            official: "Tuvalu",
-                "nativeName": {
-            eng: {
-                official: "Tuvalu",
-                    common: "Tuvalu"
             },
-            "tvl": {
-                official: "Tuvalu",
-                    common: "Tuvalu"
-            }
-        }
-    },
-    "tld": [
-        ".tv"
-    ],
-        "cca2": "TV",
-            "ccn3": "798",
-                "cca3": "TUV",
-                    "cioc": "TUV",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies:"Australian dollar",,
-        "TVD": {
-            name: "Tuvaluan dollar",
-                "symbol": "$"
-        }
-    },
-    "idd": {
-        "root": "+6",
-            "suffixes": [
-                "88"
-            ]
-    },
-    capital: [
-        "Funafuti"
-    ],
-        "altSpellings": [
-            "TV"
-        ],
-            region: "Oceania",
-                subregion: "Polynesia",
-                    languages: [
-                        "English",
-                        "tvl": "Tuvaluan"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "توفالو",
-                common: "توفالو"
-        },
-        "bre": {
-            official: "Tuvalu",
-                common: "Tuvalu"
-        },
-        "ces": {
-            official: "Tuvalu",
-                common: "Tuvalu"
-        },
-        "cym": {
-            official: "Tuvalu",
-                common: "Tuvalu"
-        },
-        "deu": {
-            official: "Tuvalu",
-                common: "Tuvalu"
-        },
-        "est": {
-            official: "Tuvalu",
-                common: "Tuvalu"
-        },
-        "fin": {
-            official: "Tuvalu",
-                common: "Tuvalu"
-        },
-        fra: {
-            official: "Tuvalu",
-                common: "Tuvalu"
-        },
-        "hrv": {
-            official: "Tuvalu",
-                common: "Tuvalu"
-        },
-        "hun": {
-            official: "Tuvalu",
-                common: "Tuvalu"
-        },
-        "ita": {
-            official: "Tuvalu",
-                common: "Tuvalu"
-        },
-        "jpn": {
-            official: "ツバル",
-                common: "ツバル"
-        },
-        "kor": {
-            official: "투발루",
-                common: "투발루"
-        },
-        "nld": {
-            official: "Tuvalu",
-                common: "Tuvalu"
-        },
-        "per": {
-            official: "تووالو",
-                common: "تووالو"
-        },
-        "pol": {
-            official: "Tuvalu",
-                common: "Tuvalu"
-        },
-        "por": {
-            official: "Tuvalu",
-                common: "Tuvalu"
-        },
-        "rus": {
-            official: "Тувалу",
-                common: "Тувалу"
-        },
-        "slk": {
-            official: "Tuvalu",
-                common: "Tuvalu"
-        },
-        "spa": {
-            official: "Tuvalu",
-                common: "Tuvalu"
-        },
-        "srp": {
-            official: "Тувалу",
-                common: "Тувалу"
-        },
-        "swe": {
-            official: "Tuvalu",
-                common: "Tuvalu"
-        },
-        "tur": {
-            official: "Tuvalu",
-                common: "Tuvalu"
-        },
-        "urd": {
-            official: "تووالو",
-                common: "تووالو"
-        },
-        "zho": {
-            official: "图瓦卢",
-                common: "图瓦卢"
-        }
-    },
-    latlng: [-8, 178],
-        landlocked: false,
-            "area": 26,
-                demonyms: {
-        eng: {
-            fem: "Tuvaluan",
-                masc: "Tuvaluan"
-        },
-        fra: {
-            fem: "Tuvaluane",
-                masc: "Tuvaluan"
-        }
-    },
-    flag: "🇹🇻",
-        maps: {
-        googleMaps: "https://goo.gl/maps/LbuUxtkgm1dfN1Pn6",
-            openStreetMaps: "https://www.openstreetmap.org/relation/2177266"
-    },
-    population: 11792,
-        gini: 39.1,
-            "car": {
-        "signs": [
-            "TUV"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC+12:00"
-    ],
-        "continents": [
-            "Oceania"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/tv.png",
-            svg: "https://flagcdn.com/tv.svg",
-                alt: "The flag of Tuvalu has a light blue field with the flag of the United Kingdom — the Union Jack — in the canton. A representation of the country's nine Islands using nine five-pointed yellow stars is situated in the fly half of the field."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/tv.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/tv.svg"
-    },
-
-    capitalInfo: {
-        latlng: [-8.52, 179.22]
-    }
-},
-{
-    name: {
-        common: "Pitcairn Islands",
-            official: "Pitcairn Group of Islands",
-                "nativeName": {
-            eng: {
-                official: "Pitcairn Group of Islands",
-                    common: "Pitcairn Islands"
-            }
-        }
-    },
-    "tld": [
-        ".pn"
-    ],
-        "cca2": "PN",
-            "ccn3": "612",
-                "cca3": "PCN",
-                    "independent": false,
-                        "status": "officially-assigned",
-                            "unMember": false,
-                                currencies: {
-        "NZD": {
-            name: "New Zealand dollar",
-                "symbol": "$"
-        }
-    },
-    "idd": {
-        "root": "+6",
-            "suffixes": [
-                "4"
-            ]
-    },
-    capital: [
-        "Adamstown"
-    ],
-        "altSpellings": [
-            "PN",
-            "Pitcairn",
-            "Pitcairn Henderson Ducie and Oeno Islands"
-        ],
-            region: "Oceania",
-                subregion: "Polynesia",
-                    languages: [
-                        "English"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جزر بيتكيرن",
-                common: "جزر بيتكيرن"
-        },
-        "bre": {
-            official: "Inizi Pitcairn, Henderson, Ducie hag Oeno",
-                common: "Inizi Pitcairn"
-        },
-        "ces": {
-            official: "Pitcairnovy ostrovy",
-                common: "Pitcairnovy ostrovy"
-        },
-        "cym": {
-            official: "Pitcairn Group of Islands",
-                common: "Pitcairn Islands"
-        },
-        "deu": {
-            official: "Pitcairninseln",
-                common: "Pitcairninseln"
-        },
-        "est": {
-            official: "Pitcairni, Hendersoni, Ducie ja Oeno saar",
-                common: "Pitcairn"
-        },
-        "fin": {
-            official: "Pitcairn",
-                common: "Pitcairn"
-        },
-        fra: {
-            official: "Groupe d'îles Pitcairn",
-                common: "Îles Pitcairn"
-        },
-        "hrv": {
-            official: "Pitcairn skupine otoka",
-                common: "Pitcairnovo otočje"
-        },
-        "hun": {
-            official: "Pitcairn-szigetek",
-                common: "Pitcairn-szigetek"
-        },
-        "ita": {
-            official: "Pitcairn gruppo di isole",
-                common: "Isole Pitcairn"
-        },
-        "jpn": {
-            official: "島のピトケアングループ",
-                common: "ピトケアン"
-        },
-        "kor": {
-            official: "핏케언 제도",
-                common: "핏케언 제도"
-        },
-        "nld": {
-            official: "Pitcairn groep eilanden",
-                common: "Pitcairneilanden"
-        },
-        "per": {
-            official: "جزایر پیت‌کرن",
-                common: "جزایر پیت‌کرن"
-        },
-        "pol": {
-            official: "Wyspy Pitcairn, Henderson, Ducie i Oeno",
-                common: "Pitcairn"
-        },
-        "por": {
-            official: "Pitcairn grupo de ilhas",
-                common: "Ilhas Pitcairn"
-        },
-        "rus": {
-            official: "Питкэрн группа островов",
-                common: "Острова Питкэрн"
-        },
-        "slk": {
-            official: "Pitcairnove ostrovy",
-                common: "Pitcairnove ostrovy"
-        },
-        "spa": {
-            official: "Grupo de Islas Pitcairn",
-                common: "Islas Pitcairn"
-        },
-        "srp": {
-            official: "Острва Питкерн, Хендерсон, Дуци и Оин",
-                common: "Острва Питкерн"
-        },
-        "swe": {
-            official: "Pitcairnöarna",
-                common: "Pitcairnöarna"
-        },
-        "tur": {
-            official: "Pitcairn, Henderson, Ducie ve Oeno Adaları",
-                common: "Pitcairn Adaları"
-        },
-        "urd": {
-            official: "پٹکیرن جزائر",
-                common: "جزائر پٹکیرن"
-        },
-        "zho": {
-            official: "皮特凯恩群岛",
-                common: "皮特凯恩群岛"
-        }
-    },
-    latlng: [-25.06666666, -130.1],
-        landlocked: false,
-            "area": 47,
-                demonyms: {
-        eng: {
-            fem: "Pitcairn Islander",
-                masc: "Pitcairn Islander"
-        },
-        fra: {
-            fem: "Pitcairnaise",
-                masc: "Pitcairnais"
-        }
-    },
-    flag: "🇵🇳",
-        maps: {
-        googleMaps: "https://goo.gl/maps/XGJMnMAigXjXcxSa7",
-            openStreetMaps: "https://www.openstreetmap.org/relation/2185375"
-    },
-    population: 56,
-        gini: -1,
-            "car": {
-        "signs": [
-            "GB"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC-08:00"
-    ],
-        "continents": [
-            "Oceania"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/pn.png",
-            svg: "https://flagcdn.com/pn.svg"
-    },
-    coatOfArms: {
-
-    },
-
-    capitalInfo: {
-        latlng: [-25.07, -130.08]
-    }
-},
-{
-    name: {
-        common: "Christmas Island",
-            official: "Territory of Christmas Island",
-                "nativeName": {
-            eng: {
-                official: "Territory of Christmas Island",
-                    common: "Christmas Island"
-            }
-        }
-    },
-    "tld": [
-        ".cx"
-    ],
-        "cca2": "CX",
-            "ccn3": "162",
-                "cca3": "CXR",
-                    "independent": false,
-                        "status": "officially-assigned",
-                            "unMember": false,
-                                currencies:"Australian dollar",
-    },
-    "idd": {
-        "root": "+6",
-            "suffixes": [
-                "1"
-            ]
-    },
-    capital: [
-        "Flying Fish Cove"
-    ],
-        "altSpellings": [
-            "CX",
-            "Territory of Christmas Island"
-        ],
-            region: "Oceania",
-                subregion: "Australia and New Zealand",
-                    languages: [
-                        "English"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جزيرة كريسماس",
-                common: "جزيرة كريسماس"
-        },
-        "bre": {
-            official: "Tiriad Enez Christmas",
-                common: "Enez Christmas"
-        },
-        "ces": {
-            official: "Teritorium Vánočního ostrova",
-                common: "Vánoční ostrov"
-        },
-        "cym": {
-            official: "Tiriogaeth yr Ynys y Nadolig",
-                common: "Ynys y Nadolig"
-        },
-        "deu": {
-            official: "Gebiet der Weihnachtsinsel",
-                common: "Weihnachtsinsel"
-        },
-        "est": {
-            official: "Jõulusaare ala",
-                common: "Jõulusaar"
-        },
-        "fin": {
-            official: "Joulusaaren alue",
-                common: "Joulusaari"
-        },
-        fra: {
-            official: "Territoire de l'île Christmas",
-                common: "Île Christmas"
-        },
-        "hrv": {
-            official: "Teritorij Božićni otok",
-                common: "Božićni otok"
-        },
-        "hun": {
-            official: "Karácsony-sziget",
-                common: "Karácsony-sziget"
-        },
-        "ita": {
-            official: "Territorio di Christmas Island",
-                common: "Isola di Natale"
-        },
-        "jpn": {
-            official: "クリスマス島の領土",
-                common: "クリスマス島"
-        },
-        "kor": {
-            official: "크리스마스 섬",
-                common: "크리스마스 섬"
-        },
-        "nld": {
-            official: "Grondgebied van Christmas Island",
-                common: "Christmaseiland"
-        },
-        "per": {
-            official: "جزیرهٔ کریسمس",
-                common: "جزیرهٔ کریسمس"
-        },
-        "pol": {
-            official: "Wyspa Bożego Narodzenia",
-                common: "Wyspa Bożego Narodzenia"
-        },
-        "por": {
-            official: "Território da Ilha Christmas",
-                common: "Ilha do Natal"
-        },
-        "rus": {
-            official: "Территория острова Рождества",
-                common: "Остров Рождества"
-        },
-        "slk": {
-            official: "Teritórium Vianočného ostrova",
-                common: "Vianočnú ostrov"
-        },
-        "spa": {
-            official: "Territorio de la Isla de Navidad",
-                common: "Isla de Navidad"
-        },
-        "srp": {
-            official: "Божићно Острво",
-                common: "Божићно Острво"
-        },
-        "swe": {
-            official: "Julön",
-                common: "Julön"
-        },
-        "tur": {
-            official: "Christmas Adası",
-                common: "Christmas Adası"
-        },
-        "urd": {
-            official: "ریاستِ جزیرہ کرسمس",
-                common: "جزیرہ کرسمس"
-        },
-        "zho": {
-            official: "圣诞岛",
-                common: "圣诞岛"
-        }
-    },
-    latlng: [-10.4, 105.66666666],
-        landlocked: false,
-            "area": 135,
-                demonyms: {
-        eng: {
-            fem: "Christmas Islander",
-                masc: "Christmas Islander"
-        }
-    },
-    flag: "🇨🇽",
-        maps: {
-        googleMaps: "https://goo.gl/maps/ZC17hHsQZpShN5wk9",
-            openStreetMaps: "https://www.openstreetmap.org/relation/6365444"
-    },
-    population: 2072,
-        gini: -1,
-            "car": {
-        "signs": [
-            "AUS"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC+07:00"
-    ],
-        "continents": [
-            "Asia"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/cx.png",
-            svg: "https://flagcdn.com/cx.svg"
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/cx.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/cx.svg"
-    },
-
-    capitalInfo: {
-        latlng: [-10.42, 105.68]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Guam",
-            official: "Guam",
-                "nativeName": {
-            "cha": {
-                official: "Guåhån",
-                    common: "Guåhån"
-            },
-            eng: {
-                official: "Guam",
-                    common: "Guam"
-            },
-            "spa": {
-                official: "Guam",
-                    common: "Guam"
-            }
-        }
-    },
-    "tld": [
-        ".gu"
-    ],
-        "cca2": "GU",
-            "ccn3": "316",
-                "cca3": "GUM",
-                    "cioc": "GUM",
-                        "independent": false,
-                            "status": "officially-assigned",
-                                "unMember": false,
-                                    currencies: "United States dollar",
-    },
-"idd": {
-    "root": "+1",
-        "suffixes": [
-            "671"
-        ]
-},
-capital: [
-    "Hagåtña"
-],
-    "altSpellings": [
-        "GU",
-        "Guåhån"
-    ],
-        region: "Oceania",
-            subregion: "Micronesia",
-                languages: [
-                    "cha": "Chamorro",
-                    "English",
-                    "Spanish"
-                ],
-                    "translations": {
-    "ara": {
-        official: "غوام",
-            common: "غوام"
-    },
-    "bre": {
-        official: "Guam",
-            common: "Guam"
-    },
-    "ces": {
-        official: "Guam",
-            common: "Guam"
-    },
-    "cym": {
-        official: "Guam",
-            common: "Guam"
-    },
-    "deu": {
-        official: "Guam",
-            common: "Guam"
-    },
-    "est": {
-        official: "Guami ala",
-            common: "Guam"
-    },
-    "fin": {
-        official: "Guam",
-            common: "Guam"
-    },
-    fra: {
-        official: "Guam",
-            common: "Guam"
-    },
-    "hrv": {
-        official: "Guam",
-            common: "Guam"
-    },
-    "hun": {
-        official: "Guam",
-            common: "Guam"
-    },
-    "ita": {
-        official: "Guam",
-            common: "Guam"
-    },
-    "jpn": {
-        official: "グアム",
-            common: "グアム"
-    },
-    "kor": {
-        official: "괌",
-            common: "괌"
-    },
-    "nld": {
-        official: "Guam",
-            common: "Guam"
-    },
-    "per": {
-        official: "گوآم",
-            common: "گوآم"
-    },
-    "pol": {
-        official: "Terytorium Guamu",
-            common: "Guam"
-    },
-    "por": {
-        official: "Guam",
-            common: "Guam"
-    },
-    "rus": {
-        official: "Гуам",
-            common: "Гуам"
-    },
-    "slk": {
-        official: "Guam",
-            common: "Guam"
-    },
-    "spa": {
-        official: "Guam",
-            common: "Guam"
-    },
-    "srp": {
-        official: "Гуам",
-            common: "Гуам"
-    },
-    "swe": {
-        official: "Guam",
-            common: "Guam"
-    },
-    "tur": {
-        official: "Guam Toprağı",
-            common: "Guam"
-    },
-    "urd": {
-        official: "گوام",
-            common: "گوام"
-    },
-    "zho": {
-        official: "关岛",
-            common: "关岛"
-    }
-},
-latlng: [13.46666666, 144.78333333],
-    landlocked: false,
-        "area": 549,
-            demonyms: {
-    eng: {
-        fem: "Guamanian",
-            masc: "Guamanian"
-    }
-},
-flag: "🇬🇺",
-    maps: {
-    googleMaps: "https://goo.gl/maps/Xfnq2i279b18cH3C9",
-        openStreetMaps: "https://www.openstreetmap.org/relation/306001"
-},
-population: 168783,
-    gini: -1,
-        "fifa": "GUM",
-            "car": {
-    "signs": [
-        "USA"
-    ],
-        "side": "right"
-},
-"timezones": [
-    "UTC+10:00"
-],
-    "continents": [
-        "Oceania"
-    ],
-        flags: {
-    png: "https://flagcdn.com/w320/gu.png",
-        svg: "https://flagcdn.com/gu.svg"
-},
-coatOfArms: {
-    png: "https://mainfacts.com/media/images/coats_of_arms/gu.png",
-        svg: "https://mainfacts.com/media/images/coats_of_arms/gu.svg"
-},
-
-capitalInfo: {
-    latlng: [13.48, 144.75]
-},
-
-
-},
-{
-    name: {
-        common: "Tonga",
-            official: "Kingdom of Tonga",
-                "nativeName": {
-            eng: {
-                official: "Kingdom of Tonga",
-                    common: "Tonga"
-            },
-            "ton": {
-                official: "Kingdom of Tonga",
-                    common: "Tonga"
-            }
-        }
-    },
-    "tld": [
-        ".to"
-    ],
-        "cca2": "TO",
-            "ccn3": "776",
-                "cca3": "TON",
-                    "cioc": "TGA",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "TOP": {
-            name: "Tongan paʻanga",
-                "symbol": "T$"
-        }
-    },
-    "idd": {
-        "root": "+6",
-            "suffixes": [
-                "76"
-            ]
-    },
-    capital: [
-        "Nuku'alofa"
-    ],
-        "altSpellings": [
-            "TO"
-        ],
-            region: "Oceania",
-                subregion: "Polynesia",
-                    languages: [
-                        "English",
-                        "ton": "Tongan"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "مملكة تونغا",
-                common: "تونغا"
-        },
-        "bre": {
-            official: "Rouantelezh Tonga",
-                common: "Tonga"
-        },
-        "ces": {
-            official: "Království Tonga",
-                common: "Tonga"
-        },
-        "cym": {
-            official: "Kingdom of Tonga",
-                common: "Tonga"
-        },
-        "deu": {
-            official: "Königreich Tonga",
-                common: "Tonga"
-        },
-        "est": {
-            official: "Tonga Kuningriik",
-                common: "Tonga"
-        },
-        "fin": {
-            official: "Tongan kuningaskunta",
-                common: "Tonga"
-        },
-        fra: {
-            official: "Royaume des Tonga",
-                common: "Tonga"
-        },
-        "hrv": {
-            official: "Kraljevina Tonga",
-                common: "Tonga"
-        },
-        "hun": {
-            official: "Tongai Királyság",
-                common: "Tonga"
-        },
-        "ita": {
-            official: "Regno di Tonga",
-                common: "Tonga"
-        },
-        "jpn": {
-            official: "トンガ王国",
-                common: "トンガ"
-        },
-        "kor": {
-            official: "통가 왕국",
-                common: "통가"
-        },
-        "nld": {
-            official: "Koninkrijk Tonga",
-                common: "Tonga"
-        },
-        "per": {
-            official: "پادشاهی تونگا",
-                common: "تونگا"
-        },
-        "pol": {
-            official: "Królestwo Tonga",
-                common: "Tonga"
-        },
-        "por": {
-            official: "Reino de Tonga",
-                common: "Tonga"
-        },
-        "rus": {
-            official: "Королевство Тонга",
-                common: "Тонга"
-        },
-        "slk": {
-            official: "Tongské kráľovstvo",
-                common: "Tonga"
-        },
-        "spa": {
-            official: "Reino de Tonga",
-                common: "Tonga"
-        },
-        "srp": {
-            official: "Краљевина Тонга",
-                common: "Тонга"
-        },
-        "swe": {
-            official: "Konungariket Tonga",
-                common: "Tonga"
-        },
-        "tur": {
-            official: "Tonga Krallığı",
-                common: "Tonga"
-        },
-        "urd": {
-            official: "مملکتِ ٹونگا",
-                common: "ٹونگا"
-        },
-        "zho": {
-            official: "汤加王国",
-                common: "汤加"
-        }
-    },
-    latlng: [-20, -175],
-        landlocked: false,
-            "area": 747,
-                demonyms: {
-        eng: {
-            fem: "Tongan",
-                masc: "Tongan"
-        },
-        fra: {
-            fem: "Tonguienne",
-                masc: "Tonguien"
-        }
-    },
-    flag: "🇹🇴",
-        maps: {
-        googleMaps: "https://goo.gl/maps/p5YALBY2QdEzswRo7",
-            openStreetMaps: "https://www.openstreetmap.org/relation/2186665"
-    },
-    population: 105697,
-        gini: 37.6,
-            , "fifa": "TGA",
-        "car": {
-        "signs": [
-            "TO"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC+13:00"
-    ],
-        "continents": [
-            "Oceania"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/to.png",
-            svg: "https://flagcdn.com/to.svg",
-                alt: "The flag of Tonga has a red field. A white rectangle bearing a red Greek cross is superimposed in the canton."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/to.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/to.svg"
-    },
-
-    capitalInfo: {
-        latlng: [-21.13, -175.2]
-    }
-},
-{
-    name: {
-        common: "Tokelau",
-            official: "Tokelau",
-                "nativeName": {
-            eng: {
-                official: "Tokelau",
-                    common: "Tokelau"
-            },
-            "smo": {
-                official: "Tokelau",
-                    common: "Tokelau"
-            },
-            "tkl": {
-                official: "Tokelau",
-                    common: "Tokelau"
-            }
-        }
-    },
-    "tld": [
-        ".tk"
-    ],
-        "cca2": "TK",
-            "ccn3": "772",
-                "cca3": "TKL",
-                    "independent": false,
-                        "status": "officially-assigned",
-                            "unMember": false,
-                                currencies: {
-        "NZD": {
-            name: "New Zealand dollar",
-                "symbol": "$"
-        }
-    },
-    "idd": {
-        "root": "+6",
-            "suffixes": [
-                "90"
-            ]
-    },
-    capital: [
-        "Fakaofo"
-    ],
-        "altSpellings": [
-            "TK"
-        ],
-            region: "Oceania",
-                subregion: "Polynesia",
-                    languages: [
-                        "English",
-                        "smo": "Samoan",
-                        "tkl": "Tokelauan"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "توكيلاو",
-                common: "توكيلاو"
-        },
-        "bre": {
-            official: "Tokelau",
-                common: "Tokelau"
-        },
-        "ces": {
-            official: "Tokelau",
-                common: "Tokelau"
-        },
-        "cym": {
-            official: "Tokelau",
-                common: "Tokelau"
-        },
-        "deu": {
-            official: "Tokelau",
-                common: "Tokelau"
-        },
-        "est": {
-            official: "Tokelau",
-                common: "Tokelau"
-        },
-        "fin": {
-            official: "Tokelau",
-                common: "Tokelau"
-        },
-        fra: {
-            official: "Îles Tokelau",
-                common: "Tokelau"
-        },
-        "hrv": {
-            official: "Tokelau",
-                common: "Tokelau"
-        },
-        "hun": {
-            official: "Tokelau-szigetek",
-                common: "Tokelau-szigetek"
-        },
-        "ita": {
-            official: "Tokelau",
-                common: "Isole Tokelau"
-        },
-        "jpn": {
-            official: "トケラウ諸島",
-                common: "トケラウ"
-        },
-        "kor": {
-            official: "토켈라우",
-                common: "토켈라우"
-        },
-        "nld": {
-            official: "Tokelau",
-                common: "Tokelau"
-        },
-        "per": {
-            official: "توکلائو",
-                common: "توکلائو"
-        },
-        "pol": {
-            official: "Tokelau",
-                common: "Tokelau"
-        },
-        "por": {
-            official: "Tokelau",
-                common: "Tokelau"
-        },
-        "rus": {
-            official: "Токелау",
-                common: "Токелау"
-        },
-        "slk": {
-            official: "Tokelauské ostrovy",
-                common: "Tokelau"
-        },
-        "spa": {
-            official: "Tokelau",
-                common: "Islas Tokelau"
-        },
-        "srp": {
-            official: "Токелау",
-                common: "Токелау"
-        },
-        "swe": {
-            official: "Tokelauöarna",
-                common: "Tokelauöarna"
-        },
-        "tur": {
-            official: "Tokelau",
-                common: "Tokelau"
-        },
-        "urd": {
-            official: "ٹوکیلاؤ",
-                common: "ٹوکیلاؤ"
-        },
-        "zho": {
-            official: "托克劳",
-                common: "托克劳"
-        }
-    },
-    latlng: [-9, -172],
-        landlocked: false,
-            "area": 12,
-                demonyms: {
-        eng: {
-            fem: "Tokelauan",
-                masc: "Tokelauan"
-        }
-    },
-    flag: "🇹🇰",
-        maps: {
-        googleMaps: "https://goo.gl/maps/Ap5qN8qien6pT9UN6",
-            openStreetMaps: "https://www.openstreetmap.org/relation/2186600"
-    },
-    population: 1411,
-        gini: -1,
-            "car": {
-        "signs": [
-            ""
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC+13:00"
-    ],
-        "continents": [
-            "Oceania"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/tk.png",
-            svg: "https://flagcdn.com/tk.svg"
-    },
-    coatOfArms: {
-
-    },
-
-    capitalInfo: {
-        latlng: [-9.38, -171.22]
-    }
-},
-{
-    name: {
-        common: "Samoa",
-            official: "Independent State of Samoa",
-                "nativeName": {
-            eng: {
-                official: "Independent State of Samoa",
-                    common: "Samoa"
-            },
-            "smo": {
-                official: "Malo Saʻoloto Tutoʻatasi o Sāmoa",
-                    common: "Sāmoa"
-            }
-        }
-    },
-    "tld": [
-        ".ws"
-    ],
-        "cca2": "WS",
-            "ccn3": "882",
-                "cca3": "WSM",
-                    "cioc": "SAM",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "WST": {
-            name: "Samoan tālā",
-                "symbol": "T"
-        }
-    },
-    "idd": {
-        "root": "+6",
-            "suffixes": [
-                "85"
-            ]
-    },
-    capital: [
-        "Apia"
-    ],
-        "altSpellings": [
-            "WS",
-            "Independent State of Samoa",
-            "Malo Saʻoloto Tutoʻatasi o Sāmoa"
-        ],
-            region: "Oceania",
-                subregion: "Polynesia",
-                    languages: [
-                        "English",
-                        "smo": "Samoan"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "دولة ساموا المستقلة",
-                common: "ساموا"
-        },
-        "bre": {
-            official: "Stad Dizalc'h Samoa",
-                common: "Samoa"
-        },
-        "ces": {
-            official: "Nezávislý stát Samoa",
-                common: "Samoa"
-        },
-        "cym": {
-            official: "Independent State of Samoa",
-                common: "Samoa"
-        },
-        "deu": {
-            official: "Unabhängige Staat Samoa",
-                common: "Samoa"
-        },
-        "est": {
-            official: "Samoa Iseseisvusriik",
-                common: "Samoa"
-        },
-        "fin": {
-            official: "Samoan itsenäinen valtio",
-                common: "Samoa"
-        },
-        fra: {
-            official: "Samoa",
-                common: "Samoa"
-        },
-        "hrv": {
-            official: "Nezavisna Država Samoa",
-                common: "Samoa"
-        },
-        "hun": {
-            official: "Szamoai Független Állam",
-                common: "Szamoa"
-        },
-        "ita": {
-            official: "Stato indipendente di Samoa",
-                common: "Samoa"
-        },
-        "jpn": {
-            official: "サモア独立国",
-                common: "サモア"
-        },
-        "kor": {
-            official: "사모아 독립국",
-                common: "사모아"
-        },
-        "nld": {
-            official: "Onafhankelijke Staat Samoa",
-                common: "Samoa"
-        },
-        "per": {
-            official: "ایالت مستقل ساموآ",
-                common: "ساموآ"
-        },
-        "pol": {
-            official: "Niezależne Państwo Samoa",
-                common: "Samoa"
-        },
-        "por": {
-            official: "Estado Independente de Samoa",
-                common: "Samoa"
-        },
-        "rus": {
-            official: "Независимое Государство Самоа",
-                common: "Самоа"
-        },
-        "slk": {
-            official: "Nezávislý štátSamoa",
-                common: "Samoa"
-        },
-        "spa": {
-            official: "Estado Independiente de Samoa",
-                common: "Samoa"
-        },
-        "srp": {
-            official: "Независна Држава Самоа",
-                common: "Самоа"
-        },
-        "swe": {
-            official: "Självständiga staten Samoa",
-                common: "Samoa"
-        },
-        "tur": {
-            official: "Bağımsız Samoa Devleti",
-                common: "Bağımsız Samoa Devleti"
-        },
-        "urd": {
-            official: "آزاد سلطنتِ ساموا",
-                common: "سامووا"
-        },
-        "zho": {
-            official: "萨摩亚独立国",
-                common: "萨摩亚"
-        }
-    },
-    latlng: [-13.58333333, -172.33333333],
-        landlocked: false,
-            "area": 2842,
-                demonyms: {
-        eng: {
-            fem: "Samoan",
-                masc: "Samoan"
-        },
-        fra: {
-            fem: "Samoane",
-                masc: "Samoan"
-        }
-    },
-    flag: "🇼🇸",
-        maps: {
-        googleMaps: "https://goo.gl/maps/CFC9fEFP9cfkYUBF9",
-            openStreetMaps: "https://www.openstreetmap.org/relation/1872673"
-    },
-    population: 198410,
-        gini: 38.7,
-            , "fifa": "SAM",
-        "car": {
-        "signs": [
-            "WS"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC+13:00"
-    ],
-        "continents": [
-            "Oceania"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/ws.png",
-            svg: "https://flagcdn.com/ws.svg",
-                alt: "The flag of Samoa has a red field. A blue rectangle, bearing a representation of the Southern Cross made up of five large and one smaller five-pointed white stars, is superimposed in the canton."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/ws.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/ws.svg"
-    },
-
-    capitalInfo: {
-        latlng: [-13.82, -171.77]
-    }
-},
-{
-    name: {
-        common: "Kiribati",
-            official: "Independent and Sovereign Republic of Kiribati",
-                "nativeName": {
-            eng: {
-                official: "Independent and Sovereign Republic of Kiribati",
-                    common: "Kiribati"
-            },
-            "gil": {
-                official: "Ribaberiki Kiribati",
-                    common: "Kiribati"
-            }
-        }
-    },
-    "tld": [
-        ".ki"
-    ],
-        "cca2": "KI",
-            "ccn3": "296",
-                "cca3": "KIR",
-                    "cioc": "KIR",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies:"Australian dollar",,
-        "KID": {
-            name: "Kiribati dollar",
-                "symbol": "$"
-        }
-    },
-    "idd": {
-        "root": "+6",
-            "suffixes": [
-                "86"
-            ]
-    },
-    capital: [
-        "South Tarawa"
-    ],
-        "altSpellings": [
-            "KI",
-            "Republic of Kiribati",
-            "Ribaberiki Kiribati"
-        ],
-            region: "Oceania",
-                subregion: "Micronesia",
-                    languages: [
-                        "English",
-                        "gil": "Gilbertese"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "جمهورية كيريباتي",
-                common: "كيريباتي"
-        },
-        "bre": {
-            official: "Republik Kiribati",
-                common: "Kiribati"
-        },
-        "ces": {
-            official: "Republika Kiribati",
-                common: "Kiribati"
-        },
-        "cym": {
-            official: "Independent and Sovereign Republic of Kiribati",
-                common: "Kiribati"
-        },
-        "deu": {
-            official: "Republik Kiribati",
-                common: "Kiribati"
-        },
-        "est": {
-            official: "Kiribati Vabariik",
-                common: "Kiribati"
-        },
-        "fin": {
-            official: "Kiribatin tasavalta",
-                common: "Kiribati"
-        },
-        fra: {
-            official: "République de Kiribati",
-                common: "Kiribati"
-        },
-        "hrv": {
-            official: "Samostalne i suverene Republike Kiribati",
-                common: "Kiribati"
-        },
-        "hun": {
-            official: "Kiribati Köztársaság",
-                common: "Kiribati"
-        },
-        "ita": {
-            official: "Repubblica indipendente e sovrano di Kiribati",
-                common: "Kiribati"
-        },
-        "jpn": {
-            official: "キリバスの独立と主権共和国",
-                common: "キリバス"
-        },
-        "kor": {
-            official: "키리바시 공화국",
-                common: "키리바시"
-        },
-        "nld": {
-            official: "Onafhankelijke en soevereine republiek Kiribati",
-                common: "Kiribati"
-        },
-        "per": {
-            official: "جمهوری کیریباتی",
-                common: "کیریباتی"
-        },
-        "pol": {
-            official: "Republika Kiribati",
-                common: "Kiribati"
-        },
-        "por": {
-            official: "Independente e soberano República de Kiribati",
-                common: "Kiribati"
-        },
-        "rus": {
-            official: "Независимой и суверенной Республики Кирибати",
-                common: "Кирибати"
-        },
-        "slk": {
-            official: "Kiribatská republika",
-                common: "Kiribati"
-        },
-        "spa": {
-            official: "República Independiente y Soberano de Kiribati",
-                common: "Kiribati"
-        },
-        "srp": {
-            official: "Независна и Суверена Република Кирибати",
-                common: "Кирибати"
-        },
-        "swe": {
-            official: "Republiken Kiribati",
-                common: "Kiribati"
-        },
-        "tur": {
-            official: "Kiribati Cumhuriyeti",
-                common: "Kiribati"
-        },
-        "urd": {
-            official: "سلطنت آزاد جمہوریہ کیریباتی",
-                common: "کیریباتی"
-        },
-        "zho": {
-            official: "基里巴斯共和国",
-                common: "基里巴斯"
-        }
-    },
-    latlng: [1.41666666, 173],
-        landlocked: false,
-            "area": 811,
-                demonyms: {
-        eng: {
-            fem: "I-Kiribati",
-                masc: "I-Kiribati"
-        },
-        fra: {
-            fem: "Kiribatienne",
-                masc: "Kiribatien"
-        }
-    },
-    flag: "🇰🇮",
-        maps: {
-        googleMaps: "https://goo.gl/maps/NBfYvrndW4skAimw9",
-            openStreetMaps: "https://www.openstreetmap.org/relation/571178"
-    },
-    population: 119446,
-        gini: 37,
-            "car": {
-        "signs": [
-            "KIR"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC+12:00",
-        "UTC+13:00",
-        "UTC+14:00"
-    ],
-        "continents": [
-            "Oceania"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/ki.png",
-            svg: "https://flagcdn.com/ki.svg",
-                alt: "The flag of Kiribati is divided into two halves. While the upper half has a red field, at the center of which is a yellow frigate bird flying over the top half of a rising yellow sun with seventeen visible rays, the lower half is composed of six horizontal wavy bands of white alternating with blue to depict the ocean."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/ki.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/ki.svg"
-    },
-
-    capitalInfo: {
-        latlng: [1.33, 172.98]
-    }
-},
-{
-    name: {
-        common: "French Polynesia",
-            official: "French Polynesia",
-                "nativeName": {
             fra: {
-                official: "Polynésie française",
-                    common: "Polynésie française"
+                fem: "Cookienne",
+                masc: "Cookien"
             }
+        },
+        flag: "🇨🇰",
+        maps: {
+            googleMaps: "https://goo.gl/maps/nrGZrvWRGB4WHgDC9",
+            openStreetMaps: "https://www.openstreetmap.org/relation/2184233"
+        },
+        population: 18100,
+        gini: -1,
+
+        flags: {
+            png: "https://flagcdn.com/w320/ck.png",
+            svg: "https://flagcdn.com/ck.svg"
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/ck.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/ck.svg"
+        },
+
+        capitalInfo: {
+            latlng: [-21.2, -159.77]
         }
     },
-    "tld": [
-        ".pf"
-    ],
-        "cca2": "PF",
-            "ccn3": "258",
-                "cca3": "PYF",
-                    "independent": false,
-                        "status": "officially-assigned",
-                            "unMember": false,
-                                currencies: {
-        "XPF": {
-            name: "CFP franc",
-                "symbol": "₣"
-        }
-    },
-    "idd": {
-        "root": "+6",
-            "suffixes": [
-                "89"
-            ]
-    },
-    capital: [
-        "Papeetē"
-    ],
-        "altSpellings": [
-            "PF",
-            "Polynésie française",
-            "French Polynesia",
-            "Pōrīnetia Farāni"
+    {
+        name: {
+            common: "Australia",
+            official: "Commonwealth of Australia",
+
+        },
+
+        currencies: "Australian dollar",
+
+        capital: [
+            "Canberra"
         ],
-            region: "Oceania",
-                subregion: "Polynesia",
-                    languages: [
-                        "French"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "بولينزيا الفرنسية",
-                common: "بولينزيا الفرنسية"
+
+        region: "Oceania",
+        subregion: "Australia and New Zealand",
+        languages: [
+            "English"
+        ],
+
+        latlng: [-27, 133],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Australian",
+                masc: "Australian"
+            },
+            fra: {
+                fem: "Australienne",
+                masc: "Australien"
+            }
         },
-        "bre": {
-            official: "Polinezia C'hall",
-                common: "Polinezia C'hall"
+        flag: "🇦🇺",
+        maps: {
+            googleMaps: "https://goo.gl/maps/DcjaDa7UbhnZTndH6",
+            openStreetMaps: "https://www.openstreetmap.org/relation/80500"
         },
-        "ces": {
-            official: "Francouzská Polynésie",
-                common: "Francouzská Polynésie"
+        population: 25687041,
+        gini: 34.4,
+
+        flags: {
+            png: "https://flagcdn.com/w320/au.png",
+            svg: "https://flagcdn.com/au.svg",
+            alt: "The flag of Australia has a dark blue field. It features the flag of the United Kingdom — the Union Jack — in the canton, beneath which is a large white seven-pointed star. A representation of the Southern Cross constellation, made up of one small five-pointed and four larger seven-pointed white stars, is situated on the fly side of the field."
         },
-        "cym": {
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/au.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/au.svg"
+        },
+
+        capitalInfo: {
+            latlng: [-35.27, 149.13]
+        },
+
+
+
+    },
+    {
+        name: {
+            common: "Tuvalu",
+            official: "Tuvalu",
+
+        },
+
+        currencies: "Tuvaluan dollar",
+
+        capital: [
+            "Funafuti"
+        ],
+
+        region: "Oceania",
+        subregion: "Polynesia",
+        languages: [
+            "English",
+            "Tuvaluan"
+        ],
+
+        latlng: [-8, 178],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Tuvaluan",
+                masc: "Tuvaluan"
+            },
+            fra: {
+                fem: "Tuvaluane",
+                masc: "Tuvaluan"
+            }
+        },
+        flag: "🇹🇻",
+        maps: {
+            googleMaps: "https://goo.gl/maps/LbuUxtkgm1dfN1Pn6",
+            openStreetMaps: "https://www.openstreetmap.org/relation/2177266"
+        },
+        population: 11792,
+        gini: 39.1,
+
+        flags: {
+            png: "https://flagcdn.com/w320/tv.png",
+            svg: "https://flagcdn.com/tv.svg",
+            alt: "The flag of Tuvalu has a light blue field with the flag of the United Kingdom — the Union Jack — in the canton. A representation of the country's nine Islands using nine five-pointed yellow stars is situated in the fly half of the field."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/tv.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/tv.svg"
+        },
+
+        capitalInfo: {
+            latlng: [-8.52, 179.22]
+        }
+    },
+    {
+        name: {
+            common: "Pitcairn Islands",
+            official: "Pitcairn Group of Islands",
+
+        },
+
+        currencies: "New Zealand dollar",
+        capital: [
+            "Adamstown"
+        ],
+
+        region: "Oceania",
+        subregion: "Polynesia",
+        languages: [
+            "English"
+        ],
+
+        latlng: [-25.06666666, -130.1],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Pitcairn Islander",
+                masc: "Pitcairn Islander"
+            },
+            fra: {
+                fem: "Pitcairnaise",
+                masc: "Pitcairnais"
+            }
+        },
+        flag: "🇵🇳",
+        maps: {
+            googleMaps: "https://goo.gl/maps/XGJMnMAigXjXcxSa7",
+            openStreetMaps: "https://www.openstreetmap.org/relation/2185375"
+        },
+        population: 56,
+        gini: -1,
+
+        flags: {
+            png: "https://flagcdn.com/w320/pn.png",
+            svg: "https://flagcdn.com/pn.svg"
+        },
+        coatOfArms: {
+
+        },
+
+        capitalInfo: {
+            latlng: [-25.07, -130.08]
+        }
+    },
+    {
+        name: {
+            common: "Christmas Island",
+            official: "Territory of Christmas Island",
+
+        },
+
+        currencies: "Australian dollar",
+
+        capital: [
+            "Flying Fish Cove"
+        ],
+
+        region: "Oceania",
+        subregion: "Australia and New Zealand",
+        languages: [
+            "English"
+        ],
+
+        latlng: [-10.4, 105.66666666],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Christmas Islander",
+                masc: "Christmas Islander"
+            }
+        },
+        flag: "🇨🇽",
+        maps: {
+            googleMaps: "https://goo.gl/maps/ZC17hHsQZpShN5wk9",
+            openStreetMaps: "https://www.openstreetmap.org/relation/6365444"
+        },
+        population: 2072,
+        gini: -1,
+
+        flags: {
+            png: "https://flagcdn.com/w320/cx.png",
+            svg: "https://flagcdn.com/cx.svg"
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/cx.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/cx.svg"
+        },
+
+        capitalInfo: {
+            latlng: [-10.42, 105.68]
+        },
+
+
+
+    },
+    {
+        name: {
+            common: "Guam",
+            official: "Guam",
+
+        },
+
+        currencies: "United States dollar",
+
+        capital: [
+            "Hagåtña"
+        ],
+
+        region: "Oceania",
+        subregion: "Micronesia",
+        languages: [
+            "Chamorro",
+            "English",
+            "Spanish"
+        ],
+
+        latlng: [13.46666666, 144.78333333],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Guamanian",
+                masc: "Guamanian"
+            }
+        },
+        flag: "🇬🇺",
+        maps: {
+            googleMaps: "https://goo.gl/maps/Xfnq2i279b18cH3C9",
+            openStreetMaps: "https://www.openstreetmap.org/relation/306001"
+        },
+        population: 168783,
+        gini: -1,
+
+        flags: {
+            png: "https://flagcdn.com/w320/gu.png",
+            svg: "https://flagcdn.com/gu.svg"
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/gu.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/gu.svg"
+        },
+
+        capitalInfo: {
+            latlng: [13.48, 144.75]
+        },
+
+
+    },
+    {
+        name: {
+            common: "Tonga",
+            official: "Kingdom of Tonga",
+
+        },
+
+        currencies: "Tongan paʻanga",
+        capital: [
+            "Nuku'alofa"
+        ],
+
+        region: "Oceania",
+        subregion: "Polynesia",
+        languages: [
+            "English",
+            "Tongan"
+        ],
+
+        latlng: [-20, -175],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Tongan",
+                masc: "Tongan"
+            },
+            fra: {
+                fem: "Tonguienne",
+                masc: "Tonguien"
+            }
+        },
+        flag: "🇹🇴",
+        maps: {
+            googleMaps: "https://goo.gl/maps/p5YALBY2QdEzswRo7",
+            openStreetMaps: "https://www.openstreetmap.org/relation/2186665"
+        },
+        population: 105697,
+        gini: 37.6,
+
+        flags: {
+            png: "https://flagcdn.com/w320/to.png",
+            svg: "https://flagcdn.com/to.svg",
+            alt: "The flag of Tonga has a red field. A white rectangle bearing a red Greek cross is superimposed in the canton."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/to.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/to.svg"
+        },
+
+        capitalInfo: {
+            latlng: [-21.13, -175.2]
+        }
+    },
+    {
+        name: {
+            common: "Tokelau",
+            official: "Tokelau",
+
+        },
+
+        currencies: "New Zealand dollar",
+        capital: [
+            "Fakaofo"
+        ],
+
+        region: "Oceania",
+        subregion: "Polynesia",
+        languages: [
+            "English",
+            "Samoan",
+            "Tokelauan"
+        ],
+
+        latlng: [-9, -172],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Tokelauan",
+                masc: "Tokelauan"
+            }
+        },
+        flag: "🇹🇰",
+        maps: {
+            googleMaps: "https://goo.gl/maps/Ap5qN8qien6pT9UN6",
+            openStreetMaps: "https://www.openstreetmap.org/relation/2186600"
+        },
+        population: 1411,
+        gini: -1,
+
+        flags: {
+            png: "https://flagcdn.com/w320/tk.png",
+            svg: "https://flagcdn.com/tk.svg"
+        },
+        coatOfArms: {
+
+        },
+
+        capitalInfo: {
+            latlng: [-9.38, -171.22]
+        }
+    },
+    {
+        name: {
+            common: "Samoa",
+            official: "Independent State of Samoa",
+
+        },
+
+        currencies: "Samoan tālā",
+        capital: [
+            "Apia"
+        ],
+
+        region: "Oceania",
+        subregion: "Polynesia",
+        languages: [
+            "English",
+            "Samoan"
+        ],
+
+        latlng: [-13.58333333, -172.33333333],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Samoan",
+                masc: "Samoan"
+            },
+            fra: {
+                fem: "Samoane",
+                masc: "Samoan"
+            }
+        },
+        flag: "🇼🇸",
+        maps: {
+            googleMaps: "https://goo.gl/maps/CFC9fEFP9cfkYUBF9",
+            openStreetMaps: "https://www.openstreetmap.org/relation/1872673"
+        },
+        population: 198410,
+        gini: 38.7,
+
+        flags: {
+            png: "https://flagcdn.com/w320/ws.png",
+            svg: "https://flagcdn.com/ws.svg",
+            alt: "The flag of Samoa has a red field. A blue rectangle, bearing a representation of the Southern Cross made up of five large and one smaller five-pointed white stars, is superimposed in the canton."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/ws.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/ws.svg"
+        },
+
+        capitalInfo: {
+            latlng: [-13.82, -171.77]
+        }
+    },
+    {
+        name: {
+            common: "Kiribati",
+            official: "Independent and Sovereign Republic of Kiribati",
+
+        },
+
+        currencies: "Kiribati dollar",
+
+        capital: [
+            "South Tarawa"
+        ],
+
+        region: "Oceania",
+        subregion: "Micronesia",
+        languages: [
+            "English",
+            "Gilbertese"
+        ],
+
+        latlng: [1.41666666, 173],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "I-Kiribati",
+                masc: "I-Kiribati"
+            },
+            fra: {
+                fem: "Kiribatienne",
+                masc: "Kiribatien"
+            }
+        },
+        flag: "🇰🇮",
+        maps: {
+            googleMaps: "https://goo.gl/maps/NBfYvrndW4skAimw9",
+            openStreetMaps: "https://www.openstreetmap.org/relation/571178"
+        },
+        population: 119446,
+        gini: 37,
+
+        flags: {
+            png: "https://flagcdn.com/w320/ki.png",
+            svg: "https://flagcdn.com/ki.svg",
+            alt: "The flag of Kiribati is divided into two halves. While the upper half has a red field, at the center of which is a yellow frigate bird flying over the top half of a rising yellow sun with seventeen visible rays, the lower half is composed of six horizontal wavy bands of white alternating with blue to depict the ocean."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/ki.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/ki.svg"
+        },
+
+        capitalInfo: {
+            latlng: [1.33, 172.98]
+        }
+    },
+    {
+        name: {
+            common: "French Polynesia",
             official: "French Polynesia",
-                common: "French Polynesia"
+
         },
-        "deu": {
-            official: "Französisch-Polynesien",
-                common: "Französisch-Polynesien"
-        },
-        "est": {
-            official: "Prantsuse Polüneesia",
-                common: "Prantsuse Polüneesia"
-        },
-        "fin": {
-            official: "Ranskan Polynesia",
-                common: "Ranskan Polynesia"
-        },
-        fra: {
-            official: "Polynésie française",
-                common: "Polynésie française"
-        },
-        "hrv": {
-            official: "Francuska Polinezija",
-                common: "Francuska Polinezija"
-        },
-        "hun": {
-            official: "Francia Polinézia",
-                common: "Francia Polinézia"
-        },
-        "ita": {
-            official: "Polinesia Francese",
-                common: "Polinesia Francese"
-        },
-        "jpn": {
-            official: "フランス領ポリネシア",
-                common: "フランス領ポリネシア"
-        },
-        "kor": {
-            official: "프랑스령 폴리네시아",
-                common: "프랑스령 폴리네시아"
-        },
-        "nld": {
-            official: "Frans-Polynesië",
-                common: "Frans-Polynesië"
-        },
-        "per": {
-            official: "پُلی‌نِزی فرانسه",
-                common: "پُلی‌نِزی فرانسه"
-        },
-        "pol": {
-            official: "Polinezja Francuska",
-                common: "Polinezja Francuska"
-        },
-        "por": {
-            official: "Polinésia Francesa",
-                common: "Polinésia Francesa"
-        },
-        "rus": {
-            official: "Французская Полинезия",
-                common: "Французская Полинезия"
-        },
-        "slk": {
-            official: "Francúzska Polynézia",
-                common: "Francúzska Polynézia"
-        },
-        "spa": {
-            official: "Polinesia francés",
-                common: "Polinesia Francesa"
-        },
-        "srp": {
-            official: "Француска Полинезија",
-                common: "Француска Полинезија"
-        },
-        "swe": {
-            official: "Franska Polynesien",
-                common: "Franska Polynesien"
-        },
-        "tur": {
-            official: "Fransız Polinezyası",
-                common: "Fransız Polinezyası"
-        },
-        "urd": {
-            official: "فرانسیسی پولینیشیا",
-                common: "فرانسیسی پولینیشیا"
-        },
-        "zho": {
-            official: "法属波利尼西亚",
-                common: "法属波利尼西亚"
-        }
-    },
-    latlng: [17.6797, 149.4068],
+
+        currencies: "CFP franc",
+        capital: [
+            "Papeetē"
+        ],
+
+        region: "Oceania",
+        subregion: "Polynesia",
+        languages: [
+            "French"
+        ],
+
+        latlng: [17.6797, 149.4068],
         landlocked: false,
-            "area": 4167,
-                demonyms: {
-        eng: {
-            fem: "French Polynesian",
+
+        demonyms: {
+            eng: {
+                fem: "French Polynesian",
                 masc: "French Polynesian"
-        },
-        fra: {
-            fem: "Polynésienne",
+            },
+            fra: {
+                fem: "Polynésienne",
                 masc: "Polynésien"
-        }
-    },
-    flag: "🇵🇫",
+            }
+        },
+        flag: "🇵🇫",
         maps: {
-        googleMaps: "https://goo.gl/maps/xgg6BQTRyeQg4e1m6",
+            googleMaps: "https://goo.gl/maps/xgg6BQTRyeQg4e1m6",
             openStreetMaps: "https://www.openstreetmap.org/relation/3412620"
-    },
-    population: 280904,
+        },
+        population: 280904,
         gini: -1,
-            "car": {
-        "signs": [
-            "F"
-        ],
-            "side": "right"
-    },
-    "timezones": [
-        "UTC-10:00",
-        "UTC-09:30",
-        "UTC-09:00"
-    ],
-        "continents": [
-            "Oceania"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/pf.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/pf.png",
             svg: "https://flagcdn.com/pf.svg"
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/pf.png",
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/pf.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/pf.svg"
+        },
+
+        capitalInfo: {
+            latlng: [-17.53, -149.56]
+        },
+
+
+
     },
-
-    capitalInfo: {
-        latlng: [-17.53, -149.56]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Papua New Guinea",
+    {
+        name: {
+            common: "Papua New Guinea",
             official: "Independent State of Papua New Guinea",
-                "nativeName": {
-            eng: {
-                official: "Independent State of Papua New Guinea",
-                    common: "Papua New Guinea"
-            },
-            "hmo": {
-                official: "Independen Stet bilong Papua Niugini",
-                    common: "Papua Niu Gini"
-            },
-            "tpi": {
-                official: "Independen Stet bilong Papua Niugini",
-                    common: "Papua Niugini"
-            }
-        }
-    },
-    "tld": [
-        ".pg"
-    ],
-        "cca2": "PG",
-            "ccn3": "598",
-                "cca3": "png",
-                    "cioc": "png",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "PGK": {
-            name: "Papua New Guinean kina",
-                "symbol": "K"
-        }
-    },
-    "idd": {
-        "root": "+6",
-            "suffixes": [
-                "75"
-            ]
-    },
-    capital: [
-        "Port Moresby"
-    ],
-        "altSpellings": [
-            "PG",
-            "Independent State of Papua New Guinea",
-            "Independen Stet bilong Papua Niugini"
+
+        },
+
+        currencies: "Papua New Guinean kina",
+        capital: [
+            "Port Moresby"
         ],
-            region: "Oceania",
-                subregion: "Melanesia",
-                    languages: [
-                        "English",
-                        "hmo": "Hiri Motu",
-                        "tpi": "Tok Pisin"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "دولة بابوا غينيا الجديدة",
-                common: "بابوا غينيا الجديدة"
-        },
-        "bre": {
-            official: "Stad dizalc'h Papoua-Ginea Nevez",
-                common: "Papoua-Ginea Nevez"
-        },
-        "ces": {
-            official: "Nezávislý stát Papua Nová Guinea",
-                common: "Papua-Nová Guinea"
-        },
-        "cym": {
-            official: "Independent State of Papua New Guinea",
-                common: "Papua New Guinea"
-        },
-        "deu": {
-            official: "Unabhängiger Staat Papua-Neuguinea",
-                common: "Papua-Neuguinea"
-        },
-        "est": {
-            official: "Paapua Uus-Guinea Iseseisvusriik",
-                common: "Paapua Uus-Guinea"
-        },
-        "fin": {
-            official: "Papua-Uuden-Guinean Itsenäinen valtio",
-                common: "Papua-Uusi-Guinea"
-        },
-        fra: {
-            official: "État indépendant de Papouasie-Nouvelle-Guinée",
-                common: "Papouasie-Nouvelle-Guinée"
-        },
-        "hrv": {
-            official: "Nezavisna Država Papui Novoj Gvineji",
-                common: "Papua Nova Gvineja"
-        },
-        "hun": {
-            official: "Pápua Új-Guinea Független Állam",
-                common: "Pápua Új-Guinea"
-        },
-        "ita": {
-            official: "Stato indipendente di Papua Nuova Guinea",
-                common: "Papua Nuova Guinea"
-        },
-        "jpn": {
-            official: "パプアニューギニア独立国",
-                common: "パプアニューギニア"
-        },
-        "kor": {
-            official: "파푸아뉴기니 독립국",
-                common: "파푸아뉴기니"
-        },
-        "nld": {
-            official: "Onafhankelijke Staat Papoea -Nieuw-Guinea",
-                common: "Papoea-Nieuw-Guinea"
-        },
-        "per": {
-            official: "مملکت مستقل پاپوآ گینهٔ نو",
-                common: "پاپوآ گینه نو"
-        },
-        "pol": {
-            official: "Niezależne Państwo Papui-Nowej Gwinei",
-                common: "Papua-Nowa Gwinea"
-        },
-        "por": {
-            official: "Estado Independente da Papua Nova Guiné",
-                common: "Papua Nova Guiné"
-        },
-        "rus": {
-            official: "Независимое Государство Папуа-Новой Гвинеи",
-                common: "Папуа — Новая Гвинея"
-        },
-        "slk": {
-            official: "Nezávislý štát Papua-Nová Guinea",
-                common: "Papua-Nová Guinea"
-        },
-        "spa": {
-            official: "Estado Independiente de Papúa Nueva Guinea",
-                common: "Papúa Nueva Guinea"
-        },
-        "srp": {
-            official: "Независна Држава Папуа Нова Гвинеја",
-                common: "Папуа Нова Гвинеја"
-        },
-        "swe": {
-            official: "Den oberoende staten Papua Nya Guinea",
-                common: "Papua Nya Guinea"
-        },
-        "tur": {
-            official: "Papua Yeni Gine Bağımsız Devleti",
-                common: "Papua Yeni Gine"
-        },
-        "urd": {
-            official: "آزاد ریاستِ پاپوا نیو گنی",
-                common: "پاپوا نیو گنی"
-        },
-        "zho": {
-            official: "巴布亚新几内亚",
-                common: "巴布亚新几内亚"
-        }
-    },
-    latlng: [-6, 147],
+
+        region: "Oceania",
+        subregion: "Melanesia",
+        languages: [
+            "English",
+            "Hiri Motu",
+            "Tok Pisin"
+        ],
+
+        latlng: [-6, 147],
         landlocked: false,
-            "borders": [
-                "IDN"
-            ],
-                "area": 462840,
-                    demonyms: {
-        eng: {
-            fem: "Papua New Guinean",
+
+        demonyms: {
+            eng: {
+                fem: "Papua New Guinean",
                 masc: "Papua New Guinean"
-        },
-        fra: {
-            fem: "Papouasienne",
+            },
+            fra: {
+                fem: "Papouasienne",
                 masc: "Papouasien"
-        }
-    },
-    flag: "🇵🇬",
+            }
+        },
+        flag: "🇵🇬",
         maps: {
-        googleMaps: "https://goo.gl/maps/ChGmzZBjZ3vnBwR2A",
+            googleMaps: "https://goo.gl/maps/ChGmzZBjZ3vnBwR2A",
             openStreetMaps: "https://goo.gl/maps/ChGmzZBjZ3vnBwR2A"
-    },
-    population: 8947027,
+        },
+        population: 8947027,
         gini: 41.9,
-            , "fifa": "png",
-        "car": {
-        "signs": [
-            "png"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC+10:00"
-    ],
-        "continents": [
-            "Oceania"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/pg.png",
+
+        flags: {
+            png: "https://flagcdn.com/w320/pg.png",
             svg: "https://flagcdn.com/pg.svg",
-                alt: "The flag of Papua New Guinea is divided diagonally, from the upper hoist-side corner to the lower fly-side corner, into a lower black and an upper red triangle. On the hoist side of the lower black triangle is a representation of the Southern Cross constellation made up of one small and four larger five-pointed white stars. A golden Raggiana bird-of-paradise is situated on the fly side of the upper red triangle."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/pg.png",
+            alt: "The flag of Papua New Guinea is divided diagonally, from the upper hoist-side corner to the lower fly-side corner, into a lower black and an upper red triangle. On the hoist side of the lower black triangle is a representation of the Southern Cross constellation made up of one small and four larger five-pointed white stars. A golden Raggiana bird-of-paradise is situated on the fly side of the upper red triangle."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/pg.png",
             svg: "https://mainfacts.com/media/images/coats_of_arms/pg.svg"
+        },
+
+        capitalInfo: {
+            latlng: [-9.45, 147.18]
+        },
+
+
+
     },
-
-    capitalInfo: {
-        latlng: [-9.45, 147.18]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Palau",
+    {
+        name: {
+            common: "Palau",
             official: "Republic of Palau",
-                "nativeName": {
-            eng: {
-                official: "Republic of Palau",
-                    common: "Palau"
-            },
-            "pau": {
-                official: "Beluu er a Belau",
-                    common: "Belau"
-            }
-        }
-    },
-    "tld": [
-        ".pw"
-    ],
-        "cca2": "PW",
-            "ccn3": "585",
-                "cca3": "PLW",
-                    "cioc": "PLW",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: "United States dollar",
-    },
-"idd": {
-    "root": "+6",
-        "suffixes": [
-            "80"
-        ]
-},
-capital: [
-    "Ngerulmud"
-],
-    "altSpellings": [
-        "PW",
-        "Republic of Palau",
-        "Beluu er a Belau"
-    ],
+
+        },
+
+        currencies: "United States dollar",
+
+        capital: [
+            "Ngerulmud"
+        ],
+
         region: "Oceania",
-            subregion: "Micronesia",
-                languages: [
-                    "English",
-                    "pau": "Palauan"
-                ],
-                    "translations": {
-    "ara": {
-        official: "جمهورية بالاو",
-            common: "بالاو"
-    },
-    "bre": {
-        official: "Republik Palau",
-            common: "Palau"
-    },
-    "ces": {
-        official: "Republika Palau",
-            common: "Palau"
-    },
-    "cym": {
-        official: "Republic of Palau",
-            common: "Palau"
-    },
-    "deu": {
-        official: "Republik Palau",
-            common: "Palau"
-    },
-    "est": {
-        official: "Belau Vabariik",
-            common: "Belau"
-    },
-    "fin": {
-        official: "Palaun tasavalta",
-            common: "Palau"
-    },
-    fra: {
-        official: "République des Palaos (Palau)",
-            common: "Palaos (Palau)"
-    },
-    "hrv": {
-        official: "Republika Palau",
-            common: "Palau"
-    },
-    "hun": {
-        official: "Palaui Köztársaság",
-            common: "Palau"
-    },
-    "ita": {
-        official: "Repubblica di Palau",
-            common: "Palau"
-    },
-    "jpn": {
-        official: "パラオ共和国",
-            common: "パラオ"
-    },
-    "kor": {
-        official: "팔라우 공화국",
-            common: "팔라우"
-    },
-    "nld": {
-        official: "Republiek van Palau",
-            common: "Palau"
-    },
-    "per": {
-        official: "جمهوری پالائو",
-            common: "پالائو"
-    },
-    "pol": {
-        official: "Republika Palau",
-            common: "Palau"
-    },
-    "por": {
-        official: "República de Palau",
-            common: "Palau"
-    },
-    "rus": {
-        official: "Республика Палау",
-            common: "Палау"
-    },
-    "slk": {
-        official: "Palauská republika",
-            common: "Palau"
-    },
-    "spa": {
-        official: "República de Palau",
-            common: "Palau"
-    },
-    "srp": {
-        official: "Република Палау",
-            common: "Палау"
-    },
-    "swe": {
-        official: "Republiken Palau",
-            common: "Palau"
-    },
-    "tur": {
-        official: "Palau Cumhuriyeti",
-            common: "Palau"
-    },
-    "urd": {
-        official: "جمہوریہ پلاؤ",
-            common: "پلاؤ"
-    },
-    "zho": {
-        official: "帕劳共和国",
-            common: "帕劳"
-    }
-},
-latlng: [7.4, 134.4],
-    landlocked: false,
-        "area": 459,
-            demonyms: {
-    eng: {
-        fem: "Palauan",
-            masc: "Palauan"
-    },
-    fra: {
-        fem: "Paluane",
-            masc: "Paluan"
-    }
-},
-flag: "🇵🇼",
-    maps: {
-    googleMaps: "https://goo.gl/maps/MVasQBbUkQP7qQDR9",
-        openStreetMaps: "https://www.openstreetmap.org/relation/571805"
-},
-population: 18092,
-    gini: -1,
-        "car": {
-    "signs": [
-        "PAL"
-    ],
-        "side": "right"
-},
-"timezones": [
-    "UTC+09:00"
-],
-    "continents": [
-        "Oceania"
-    ],
+        subregion: "Micronesia",
+        languages: [
+            "English",
+            "Palauan"
+        ],
+
+        latlng: [7.4, 134.4],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Palauan",
+                masc: "Palauan"
+            },
+            fra: {
+                fem: "Paluane",
+                masc: "Paluan"
+            }
+        },
+        flag: "🇵🇼",
+        maps: {
+            googleMaps: "https://goo.gl/maps/MVasQBbUkQP7qQDR9",
+            openStreetMaps: "https://www.openstreetmap.org/relation/571805"
+        },
+        population: 18092,
+        gini: -1,
+
         flags: {
-    png: "https://flagcdn.com/w320/pw.png",
-        svg: "https://flagcdn.com/pw.svg",
+            png: "https://flagcdn.com/w320/pw.png",
+            svg: "https://flagcdn.com/pw.svg",
             alt: "The flag of Palau has a light blue field with a large golden-yellow circle that is offset slightly towards the hoist side of center."
-},
-coatOfArms: {
-    png: "https://mainfacts.com/media/images/coats_of_arms/pw.png",
-        svg: "https://mainfacts.com/media/images/coats_of_arms/pw.svg"
-},
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/pw.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/pw.svg"
+        },
 
-capitalInfo: {
-    latlng: [7.4, 134.62]
-},
+        capitalInfo: {
+            latlng: [7.4, 134.62]
+        },
 
 
-},
-{
-    name: {
-        common: "American Samoa",
+    },
+    {
+        name: {
+            common: "American Samoa",
             official: "American Samoa",
-                "nativeName": {
+
+        },
+
+        currencies: "United States dollar",
+
+        capital: [
+            "Pago Pago"
+        ],
+
+        region: "Oceania",
+        subregion: "Polynesia",
+        languages: [
+            "English",
+            "Samoan"
+        ],
+
+        latlng: [-14.33333333, -170],
+        landlocked: false,
+
+        demonyms: {
             eng: {
-                official: "American Samoa",
-                    common: "American Samoa"
+                fem: "American Samoan",
+                masc: "American Samoan"
             },
-            "smo": {
-                official: "Sāmoa Amelika",
-                    common: "Sāmoa Amelika"
+            fra: {
+                fem: "Samoane",
+                masc: "Samoan"
             }
+        },
+        flag: "🇦🇸",
+        maps: {
+            googleMaps: "https://goo.gl/maps/Re9ePMjwP1sFCBFA6",
+            openStreetMaps: "https://www.openstreetmap.org/relation/2177187"
+        },
+        population: 55197,
+        gini: -1,
+
+        flags: {
+            png: "https://flagcdn.com/w320/as.png",
+            svg: "https://flagcdn.com/as.svg"
+        },
+        coatOfArms: {
+
+        },
+
+        capitalInfo: {
+            latlng: [-14.27, -170.7]
         }
     },
-    "tld": [
-        ".as"
-    ],
-        "cca2": "AS",
-            "ccn3": "016",
-                "cca3": "ASM",
-                    "cioc": "ASA",
-                        "independent": false,
-                            "status": "officially-assigned",
-                                "unMember": false,
-                                    currencies: "United States dollar",
-    },
-"idd": {
-    "root": "+1",
-        "suffixes": [
-            "684"
-        ]
-},
-capital: [
-    "Pago Pago"
-],
-    "altSpellings": [
-        "AS",
-        "Amerika Sāmoa",
-        "Amelika Sāmoa",
-        "Sāmoa Amelika"
-    ],
-        region: "Oceania",
-            subregion: "Polynesia",
-                languages: [
-                    "English",
-                    "smo": "Samoan"
-                ],
-                    "translations": {
-    "ara": {
-        official: "ساموا الأمريكية",
-            common: "ساموا الأمريكية"
-    },
-    "bre": {
-        official: "Samoa Amerikan",
-            common: "Samoa Amerikan"
-    },
-    "ces": {
-        official: "Americká Samoa",
-            common: "Americká Samoa"
-    },
-    "cym": {
-        official: "American Samoa",
-            common: "American Samoa"
-    },
-    "deu": {
-        official: "Amerikanisch-Samoa",
-            common: "Amerikanisch-Samoa"
-    },
-    "est": {
-        official: "Ameerika Samoa",
-            common: "Ameerika Samoa"
-    },
-    "fin": {
-        official: "Amerikan Samoa",
-            common: "Amerikan Samoa"
-    },
-    fra: {
-        official: "Samoa américaines",
-            common: "Samoa américaines"
-    },
-    "hrv": {
-        official: "američka Samoa",
-            common: "Američka Samoa"
-    },
-    "hun": {
-        official: "Szamoa",
-            common: "Szamoa"
-    },
-    "ita": {
-        official: "Samoa americane",
-            common: "Samoa Americane"
-    },
-    "jpn": {
-        official: "米サモア",
-            common: "アメリカ領サモア"
-    },
-    "kor": {
-        official: "아메리칸사모아",
-            common: "아메리칸사모아"
-    },
-    "nld": {
-        official: "Amerikaans Samoa",
-            common: "Amerikaans Samoa"
-    },
-    "per": {
-        official: "ساموآی آمریکا",
-            common: "ساموآی آمریکا"
-    },
-    "pol": {
-        official: "Samoa Amerykańskie",
-            common: "Samoa Amerykańskie"
-    },
-    "por": {
-        official: "Samoa americana",
-            common: "Samoa Americana"
-    },
-    "rus": {
-        official: "американское Самоа",
-            common: "Американское Самоа"
-    },
-    "slk": {
-        official: "Americká Samoa",
-            common: "Americká Samoa"
-    },
-    "spa": {
-        official: "Samoa Americana",
-            common: "Samoa Americana"
-    },
-    "srp": {
-        official: "Америчка Самоа",
-            common: "Америчка Самоа"
-    },
-    "swe": {
-        official: "Amerikanska Samoa",
-            common: "Amerikanska Samoa"
-    },
-    "tur": {
-        official: "Amerikan Samoası",
-            common: "Amerikan Samoası"
-    },
-    "urd": {
-        official: "امریکی سمووا",
-            common: "امریکی سمووا"
-    },
-    "zho": {
-        official: "美属萨摩亚",
-            common: "美属萨摩亚"
-    }
-},
-latlng: [-14.33333333, -170],
-    landlocked: false,
-        "area": 199,
-            demonyms: {
-    eng: {
-        fem: "American Samoan",
-            masc: "American Samoan"
-    },
-    fra: {
-        fem: "Samoane",
-            masc: "Samoan"
-    }
-},
-flag: "🇦🇸",
-    maps: {
-    googleMaps: "https://goo.gl/maps/Re9ePMjwP1sFCBFA6",
-        openStreetMaps: "https://www.openstreetmap.org/relation/2177187"
-},
-population: 55197,
-    gini: -1,
-        "fifa": "ASA",
-            "car": {
-    "signs": [
-        "USA"
-    ],
-        "side": "right"
-},
-"timezones": [
-    "UTC-11:00"
-],
-    "continents": [
-        "Oceania"
-    ],
-        flags: {
-    png: "https://flagcdn.com/w320/as.png",
-        svg: "https://flagcdn.com/as.svg"
-},
-coatOfArms: {
-
-},
-
-capitalInfo: {
-    latlng: [-14.27, -170.7]
-}
-},
-{
-    name: {
-        common: "Northern Mariana Islands",
+    {
+        name: {
+            common: "Northern Mariana Islands",
             official: "Commonwealth of the Northern Mariana Islands",
-                "nativeName": {
-            "cal": {
-                official: "Commonwealth of the Northern Mariana Islands",
-                    common: "Northern Mariana Islands"
-            },
-            "cha": {
-                official: "Sankattan Siha Na Islas Mariånas",
-                    common: "Na Islas Mariånas"
-            },
-            eng: {
-                official: "Commonwealth of the Northern Mariana Islands",
-                    common: "Northern Mariana Islands"
-            }
-        }
-    },
-    "tld": [
-        ".mp"
-    ],
-        "cca2": "MP",
-            "ccn3": "580",
-                "cca3": "MNP",
-                    "independent": false,
-                        "status": "officially-assigned",
-                            "unMember": false,
-                                currencies: "United States dollar",
-    },
-"idd": {
-    "root": "+1",
-        "suffixes": [
-            "670"
-        ]
-},
-capital: [
-    "Saipan"
-],
-    "altSpellings": [
-        "MP",
-        "Commonwealth of the Northern Mariana Islands",
-        "Sankattan Siha Na Islas Mariånas"
-    ],
-        region: "Oceania",
-            subregion: "Micronesia",
-                languages: [
-                    "cal": "Carolinian",
-                    "cha": "Chamorro",
-                    "English"
-                ],
-                    "translations": {
-    "ara": {
-        official: "كومونولث جزر ماريانا الشمالية",
-            common: "جزر ماريانا الشمالية"
-    },
-    "bre": {
-        official: "Kenglad Inizi Mariana an Norzh",
-            common: "Inizi Mariana an Norzh"
-    },
-    "ces": {
-        official: "Společenství Severních Marian",
-            common: "Severní Mariany"
-    },
-    "cym": {
-        official: "Commonwealth of the Northern Mariana Islands",
-            common: "Northern Mariana Islands"
-    },
-    "deu": {
-        official: "Commonwealth der Nördlichen Marianen",
-            common: "Nördliche Marianen"
-    },
-    "est": {
-        official: "Põhja-Mariaani Ühendus",
-            common: "Põhja-Mariaanid"
-    },
-    "fin": {
-        official: "Pohjois-Mariaanit",
-            common: "Pohjois-Mariaanit"
-    },
-    fra: {
-        official: "Commonwealth des îles Mariannes du Nord",
-            common: "Îles Mariannes du Nord"
-    },
-    "hrv": {
-        official: "Zajednica je Sjeverni Marijanski otoci",
-            common: "Sjevernomarijanski otoci"
-    },
-    "hun": {
-        official: "Északi-Mariana-szigetek",
-            common: "Északi-Mariana-szigetek"
-    },
-    "ita": {
-        official: "Commonwealth delle Isole Marianne Settentrionali",
-            common: "Isole Marianne Settentrionali"
-    },
-    "jpn": {
-        official: "北マリアナ諸島",
-            common: "北マリアナ諸島"
-    },
-    "kor": {
-        official: "북마리아나 제도",
-            common: "북마리아나 제도"
-    },
-    "nld": {
-        official: "Commonwealth van de Noordelijke Marianen",
-            common: "Noordelijke Marianeneilanden"
-    },
-    "per": {
-        official: "جزایر ماریانای شمالی",
-            common: "جزایر ماریانای شمالی"
-    },
-    "pol": {
-        official: "Wspólnota Marianów Północnych",
-            common: "Mariany Północne"
-    },
-    "por": {
-        official: "Comunidade das Ilhas Marianas do Norte",
-            common: "Marianas Setentrionais"
-    },
-    "rus": {
-        official: "Содружество Северных Марианских островов",
-            common: "Северные Марианские острова"
-    },
-    "slk": {
-        official: "Spoločenstvo ostrovov Severné Mariány",
-            common: "Severné Mariány"
-    },
-    "spa": {
-        official: "Mancomunidad de las Islas Marianas del Norte",
-            common: "Islas Marianas del Norte"
-    },
-    "srp": {
-        official: "Комонвелт Северна Маријанска Острва",
-            common: "Северна Маријанска Острва"
-    },
-    "swe": {
-        official: "Nordmarianerna",
-            common: "Nordmarianerna"
-    },
-    "tur": {
-        official: "Kuzey Mariana Adaları Milletler Topluluğu",
-            common: "Kuzey Mariana Adaları"
-    },
-    "urd": {
-        official: "دولتِ مشترکہ جزائر شمالی ماریانا",
-            common: "جزائر شمالی ماریانا"
-    },
-    "zho": {
-        official: "北马里亚纳群岛",
-            common: "北马里亚纳群岛"
-    }
-},
-latlng: [15.2, 145.75],
-    landlocked: false,
-        "area": 464,
-            demonyms: {
-    eng: {
-        fem: "American",
-            masc: "American"
-    },
-    fra: {
-        fem: "Américaine",
-            masc: "Américan"
-    }
-},
-flag: "🇲🇵",
-    maps: {
-    googleMaps: "https://goo.gl/maps/cpZ67knoRAcfu1417",
-        openStreetMaps: "https://www.openstreetmap.org/relation/306004"
-},
-population: 57557,
-    gini: -1,
-        "car": {
-    "signs": [
-        "USA"
-    ],
-        "side": "right"
-},
-"timezones": [
-    "UTC+10:00"
-],
-    "continents": [
-        "Oceania"
-    ],
-        flags: {
-    png: "https://flagcdn.com/w320/mp.png",
-        svg: "https://flagcdn.com/mp.svg"
-},
-coatOfArms: {
 
-},
+        },
 
-capitalInfo: {
-    latlng: [15.2, 145.75]
-}
-},
-{
-    name: {
-        common: "Norfolk Island",
-            official: "Territory of Norfolk Island",
-                "nativeName": {
-            eng: {
-                official: "Territory of Norfolk Island",
-                    common: "Norfolk Island"
-            },
-            "pih": {
-                official: "Teratri of Norf'k Ailen",
-                    common: "Norf'k Ailen"
-            }
-        }
-    },
-    "tld": [
-        ".nf"
-    ],
-        "cca2": "NF",
-            "ccn3": "574",
-                "cca3": "NFK",
-                    "independent": false,
-                        "status": "officially-assigned",
-                            "unMember": false,
-                                currencies:"Australian dollar",
-    },
-    "idd": {
-        "root": "+6",
-            "suffixes": [
-                "72"
-            ]
-    },
-    capital: [
-        "Kingston"
-    ],
-        "altSpellings": [
-            "NF",
-            "Territory of Norfolk Island",
-            "Teratri of Norf'k Ailen"
+        currencies: "United States dollar",
+
+        capital: [
+            "Saipan"
         ],
-            region: "Oceania",
-                subregion: "Australia and New Zealand",
-                    languages: [
-                        "English",
-                        "pih": "Norfuk"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "إقليم جزيرة نورفولك",
-                common: "جزيرة نورفولك"
+
+        region: "Oceania",
+        subregion: "Micronesia",
+        languages: [
+            "Carolinian",
+            "Chamorro",
+            "English"
+        ],
+
+        latlng: [15.2, 145.75],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "American",
+                masc: "American"
+            },
+            fra: {
+                fem: "Américaine",
+                masc: "Américan"
+            }
         },
-        "bre": {
-            official: "Tiriad Enez Norfolk",
-                common: "Enez Norfolk"
+        flag: "🇲🇵",
+        maps: {
+            googleMaps: "https://goo.gl/maps/cpZ67knoRAcfu1417",
+            openStreetMaps: "https://www.openstreetmap.org/relation/306004"
         },
-        "ces": {
-            official: "Teritorium ostrova Norfolk",
-                common: "Norfolk"
+        population: 57557,
+        gini: -1,
+
+        flags: {
+            png: "https://flagcdn.com/w320/mp.png",
+            svg: "https://flagcdn.com/mp.svg"
         },
-        "cym": {
-            official: "Territory of Norfolk Island",
-                common: "Norfolk Island"
+        coatOfArms: {
+
         },
-        "deu": {
-            official: "Gebiet der Norfolkinsel",
-                common: "Norfolkinsel"
-        },
-        "est": {
-            official: "Norfolki saare ala",
-                common: "Norfolk"
-        },
-        "fin": {
-            official: "Norfolkinsaaren territorio",
-                common: "Norfolkinsaari"
-        },
-        fra: {
-            official: "Territoire de l'île Norfolk",
-                common: "Île Norfolk"
-        },
-        "hrv": {
-            official: "Teritorij Norfolk Island",
-                common: "Otok Norfolk"
-        },
-        "hun": {
-            official: "Norfolk-sziget",
-                common: "Norfolk-sziget"
-        },
-        "ita": {
-            official: "Territorio di Norfolk Island",
-                common: "Isola Norfolk"
-        },
-        "jpn": {
-            official: "ノーフォーク島の領土",
-                common: "ノーフォーク島"
-        },
-        "kor": {
-            official: "노퍽 섬",
-                common: "노퍽 섬"
-        },
-        "nld": {
-            official: "Grondgebied van Norfolk Island",
-                common: "Norfolkeiland"
-        },
-        "per": {
-            official: "قلمرو جزایر نورفک",
-                common: "جزیره نورفک"
-        },
-        "pol": {
-            official: "Terytorium Wyspy Norfolk",
-                common: "Wyspa Norfolk"
-        },
-        "por": {
-            official: "Território da Ilha Norfolk",
-                common: "Ilha Norfolk"
-        },
-        "rus": {
-            official: "Территория острова Норфолк",
-                common: "Норфолк"
-        },
-        "slk": {
-            official: "Teritórium ostrova Norfolk",
-                common: "Norfolk"
-        },
-        "spa": {
-            official: "Territorio de la Isla Norfolk",
-                common: "Isla de Norfolk"
-        },
-        "srp": {
-            official: "Територија Острва Норфок",
-                common: "Норфок"
-        },
-        "swe": {
-            official: "Norfolkön",
-                common: "Norfolkön"
-        },
-        "tur": {
-            official: "Norfolk Adası",
-                common: "Norfolk Adası"
-        },
-        "urd": {
-            official: "جزیرہ نورفک خطہ",
-                common: "جزیرہ نورفک"
-        },
-        "zho": {
-            official: "诺福克岛",
-                common: "诺福克岛"
+
+        capitalInfo: {
+            latlng: [15.2, 145.75]
         }
     },
-    latlng: [-29.03333333, 167.95],
+    {
+        name: {
+            common: "Norfolk Island",
+            official: "Territory of Norfolk Island",
+
+        },
+
+        currencies: "Australian dollar",
+
+        capital: [
+            "Kingston"
+        ],
+
+        region: "Oceania",
+        subregion: "Australia and New Zealand",
+        languages: [
+            "English",
+            "Norfuk"
+        ],
+
+        latlng: [-29.03333333, 167.95],
         landlocked: false,
-            "area": 36,
-                demonyms: {
-        eng: {
-            fem: "Norfolk Islander",
+
+        demonyms: {
+            eng: {
+                fem: "Norfolk Islander",
                 masc: "Norfolk Islander"
-        },
-        fra: {
-            fem: "Norfolkaise",
+            },
+            fra: {
+                fem: "Norfolkaise",
                 masc: "Norfolkais"
-        }
-    },
-    flag: "🇳🇫",
+            }
+        },
+        flag: "🇳🇫",
         maps: {
-        googleMaps: "https://goo.gl/maps/pbvtm6XYd1iZbjky5",
+            googleMaps: "https://goo.gl/maps/pbvtm6XYd1iZbjky5",
             openStreetMaps: "https://www.openstreetmap.org/relation/2574988"
-    },
-    population: 2302,
+        },
+        population: 2302,
         gini: -1,
-            "car": {
-        "signs": [
-            "AUS"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC+11:30"
-    ],
-        "continents": [
-            "Oceania"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/nf.png",
-            svg: "https://flagcdn.com/nf.svg"
-    },
-    coatOfArms: {
 
-    },
-
-    capitalInfo: {
-        latlng: [-29.05, 167.97]
-    }
-},
-{
-    name: {
-        common: "New Zealand",
-            official: "New Zealand",
-                "nativeName": {
-            eng: {
-                official: "New Zealand",
-                    common: "New Zealand"
-            },
-            "mri": {
-                official: "Aotearoa",
-                    common: "Aotearoa"
-            },
-            "nzs": {
-                official: "New Zealand",
-                    common: "New Zealand"
-            }
-        }
-    },
-    "tld": [
-        ".nz"
-    ],
-        "cca2": "NZ",
-            "ccn3": "554",
-                "cca3": "NZL",
-                    "cioc": "NZL",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: {
-        "NZD": {
-            name: "New Zealand dollar",
-                "symbol": "$"
-        }
-    },
-    "idd": {
-        "root": "+6",
-            "suffixes": [
-                "4"
-            ]
-    },
-    capital: [
-        "Wellington"
-    ],
-        "altSpellings": [
-            "NZ",
-            "Aotearoa"
-        ],
-            region: "Oceania",
-                subregion: "Australia and New Zealand",
-                    languages: [
-                        "English",
-                        "mri": "Māori",
-                        "nzs": "New Zealand Sign Language"
-                    ],
-                        "translations": {
-        "ara": {
-            official: "نيوزيلندا",
-                common: "نيوزيلندا"
-        },
-        "bre": {
-            official: "Zeland-Nevez",
-                common: "Zeland-Nevez"
-        },
-        "ces": {
-            official: "Nový Zéland",
-                common: "Nový Zéland"
-        },
-        "cym": {
-            official: "New Zealand",
-                common: "New Zealand"
-        },
-        "deu": {
-            official: "Neuseeland",
-                common: "Neuseeland"
-        },
-        "est": {
-            official: "Uus-Meremaa",
-                common: "Uus-Meremaa"
-        },
-        "fin": {
-            official: "Uusi-Seelanti",
-                common: "Uusi-Seelanti"
-        },
-        fra: {
-            official: "Nouvelle-Zélande",
-                common: "Nouvelle-Zélande"
-        },
-        "hrv": {
-            official: "Novi Zeland",
-                common: "Novi Zeland"
-        },
-        "hun": {
-            official: "Új-Zéland",
-                common: "Új-Zéland"
-        },
-        "ita": {
-            official: "Nuova Zelanda",
-                common: "Nuova Zelanda"
-        },
-        "jpn": {
-            official: "ニュージーランド",
-                common: "ニュージーランド"
-        },
-        "kor": {
-            official: "뉴질랜드",
-                common: "뉴질랜드"
-        },
-        "nld": {
-            official: "Nieuw Zeeland",
-                common: "Nieuw-Zeeland"
-        },
-        "per": {
-            official: "نیوزیلند",
-                common: "نیوزیلند"
-        },
-        "pol": {
-            official: "Nowa Zelandia",
-                common: "Nowa Zelandia"
-        },
-        "por": {
-            official: "nova Zelândia",
-                common: "Nova Zelândia"
-        },
-        "rus": {
-            official: "Новая Зеландия",
-                common: "Новая Зеландия"
-        },
-        "slk": {
-            official: "Nový Zéland",
-                common: "Nový Zéland"
-        },
-        "spa": {
-            official: "nueva Zelanda",
-                common: "Nueva Zelanda"
-        },
-        "srp": {
-            official: "Нови Зеланд",
-                common: "Нови Зеланд"
-        },
-        "swe": {
-            official: "Nya Zeeland",
-                common: "Nya Zeeland"
-        },
-        "tur": {
-            official: "Yeni Zelanda",
-                common: "Yeni Zelanda"
-        },
-        "urd": {
-            official: "نیوزی لینڈ",
-                common: "نیوزی لینڈ"
-        },
-        "zho": {
-            official: "新西兰",
-                common: "新西兰"
-        }
-    },
-    latlng: [-41, 174],
-        landlocked: false,
-            "area": 270467,
-                demonyms: {
-        eng: {
-            fem: "New Zealander",
-                masc: "New Zealander"
-        },
-        fra: {
-            fem: "Neo-Zélandaise",
-                masc: "Neo-Zélandais"
-        }
-    },
-    flag: "🇳🇿",
-        maps: {
-        googleMaps: "https://goo.gl/maps/xXiDQo65dwdpw9iu8",
-            openStreetMaps: "https://www.openstreetmap.org/relation/556706#map=5/-46.710/172.046"
-    },
-    population: 5084300,
-        gini: -1,
-            "fifa": "NZL",
-                "car": {
-        "signs": [
-            "NZ"
-        ],
-            "side": "left"
-    },
-    "timezones": [
-        "UTC-11:00",
-        "UTC-10:00",
-        "UTC+12:00",
-        "UTC+12:45",
-        "UTC+13:00"
-    ],
-        "continents": [
-            "Oceania"
-        ],
-            flags: {
-        png: "https://flagcdn.com/w320/nz.png",
-            svg: "https://flagcdn.com/nz.svg",
-                alt: "The flag of New Zealand has a dark blue field with the flag of the United Kingdom — the Union Jack — in the canton and a representation of the Southern Cross constellation, made up of four five-pointed white-edged red stars, on the fly side of the field."
-    },
-    coatOfArms: {
-        png: "https://mainfacts.com/media/images/coats_of_arms/nz.png",
-            svg: "https://mainfacts.com/media/images/coats_of_arms/nz.svg"
-    },
-
-    capitalInfo: {
-        latlng: [-41.3, 174.78]
-    },
-
-
-
-},
-{
-    name: {
-        common: "Micronesia",
-            official: "Federated States of Micronesia",
-                "nativeName": {
-            eng: {
-                official: "Federated States of Micronesia",
-                    common: "Micronesia"
-            }
-        }
-    },
-    "tld": [
-        ".fm"
-    ],
-        "cca2": "FM",
-            "ccn3": "583",
-                "cca3": "FSM",
-                    "cioc": "FSM",
-                        "independent": true,
-                            "status": "officially-assigned",
-                                "unMember": true,
-                                    currencies: "United States dollar",
-    },
-"idd": {
-    "root": "+6",
-        "suffixes": [
-            "91"
-        ]
-},
-capital: [
-    "Palikir"
-],
-    "altSpellings": [
-        "FM",
-        "Federated States of Micronesia",
-        "Micronesia, Federated States of"
-    ],
-        region: "Oceania",
-            subregion: "Micronesia",
-                languages: [
-                    "English"
-                ],
-                    "translations": {
-    "ara": {
-        official: "ولايات ميكرونيسيا المتحدة",
-            common: "ميكرونيسيا"
-    },
-    "bre": {
-        official: "Stadoù Kevreet Mikronezia",
-            common: "Mikronezia"
-    },
-    "ces": {
-        official: "Federativní státy Mikronésie",
-            common: "Mikronésie"
-    },
-    "cym": {
-        official: "Federated States of Micronesia",
-            common: "Micronesia"
-    },
-    "deu": {
-        official: "Föderierte Staaten von Mikronesien",
-            common: "Mikronesien"
-    },
-    "est": {
-        official: "Mikroneesia Liiduriigid",
-            common: "Mikroneesia"
-    },
-    "fin": {
-        official: "Mikronesian liittovaltio",
-            common: "Mikronesia"
-    },
-    fra: {
-        official: "États fédérés de Micronésie",
-            common: "Micronésie"
-    },
-    "hrv": {
-        official: "Savezne Države Mikronezije",
-            common: "Mikronezija"
-    },
-    "hun": {
-        official: "Mikronéziai Szövetségi Államok",
-            common: "Mikronéziai Szövetségi Államok"
-    },
-    "ita": {
-        official: "Stati federati di Micronesia",
-            common: "Micronesia"
-    },
-    "jpn": {
-        official: "ミクロネシア連邦",
-            common: "ミクロネシア連邦"
-    },
-    "kor": {
-        official: "미크로네시아 연방",
-            common: "미크로네시아"
-    },
-    "nld": {
-        official: "Federale Staten van Micronesia",
-            common: "Micronesië"
-    },
-    "per": {
-        official: "ایالات فدرال میکرونزی",
-            common: "میکرونزی"
-    },
-    "pol": {
-        official: "Sfederowane Stany Mikronezji",
-            common: "Mikronezja"
-    },
-    "por": {
-        official: "Estados Federados da Micronésia",
-            common: "Micronésia"
-    },
-    "rus": {
-        official: "Федеративные Штаты Микронезии",
-            common: "Федеративные Штаты Микронезии"
-    },
-    "slk": {
-        official: "Mikronézske federatívne štáty",
-            common: "Mikronézia"
-    },
-    "spa": {
-        official: "Estados Federados de Micronesia",
-            common: "Micronesia"
-    },
-    "srp": {
-        official: "Савез Држава Микронезије",
-            common: "Микронезија"
-    },
-    "swe": {
-        official: "Mikronesiska federationen",
-            common: "Mikronesiska federationen"
-    },
-    "tur": {
-        official: "Mikronezya Federal Devletleri",
-            common: "Mikronezya"
-    },
-    "urd": {
-        official: "ریاستہائے وفاقیہ مائکرونیشیا",
-            common: "مائکرونیشیا"
-    },
-    "zho": {
-        official: "密克罗尼西亚联邦",
-            common: "密克罗尼西亚"
-    }
-},
-latlng: [6.91666666, 158.25],
-    landlocked: false,
-        "area": 702,
-            demonyms: {
-    eng: {
-        fem: "Micronesian",
-            masc: "Micronesian"
-    },
-    fra: {
-        fem: "Micronésienne",
-            masc: "Micronésien"
-    }
-},
-flag: "🇫🇲",
-    maps: {
-    googleMaps: "https://goo.gl/maps/LLcnofC5LxZsJXTo8",
-        openStreetMaps: "https://www.openstreetmap.org/relation/571802"
-},
-population: 115021,
-    gini: 40.1,
-        "car": {
-    "signs": [
-        "FSM"
-    ],
-        "side": "right"
-},
-"timezones": [
-    "UTC+10:00",
-    "UTC+11:00"
-],
-    "continents": [
-        "Oceania"
-    ],
         flags: {
-    png: "https://flagcdn.com/w320/fm.png",
-        svg: "https://flagcdn.com/fm.svg",
+            png: "https://flagcdn.com/w320/nf.png",
+            svg: "https://flagcdn.com/nf.svg"
+        },
+        coatOfArms: {
+
+        },
+
+        capitalInfo: {
+            latlng: [-29.05, 167.97]
+        }
+    },
+    {
+        name: {
+            common: "New Zealand",
+            official: "New Zealand",
+
+        },
+
+        currencies: "New Zealand dollar",
+        capital: [
+            "Wellington"
+        ],
+
+        region: "Oceania",
+        subregion: "Australia and New Zealand",
+        languages: [
+            "English",
+            "Māori",
+            "New Zealand Sign Language"
+        ],
+
+        latlng: [-41, 174],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "New Zealander",
+                masc: "New Zealander"
+            },
+            fra: {
+                fem: "Neo-Zélandaise",
+                masc: "Neo-Zélandais"
+            }
+        },
+        flag: "🇳🇿",
+        maps: {
+            googleMaps: "https://goo.gl/maps/xXiDQo65dwdpw9iu8",
+            openStreetMaps: "https://www.openstreetmap.org/relation/556706#map=5/-46.710/172.046"
+        },
+        population: 5084300,
+        gini: -1,
+
+        flags: {
+            png: "https://flagcdn.com/w320/nz.png",
+            svg: "https://flagcdn.com/nz.svg",
+            alt: "The flag of New Zealand has a dark blue field with the flag of the United Kingdom — the Union Jack — in the canton and a representation of the Southern Cross constellation, made up of four five-pointed white-edged red stars, on the fly side of the field."
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/nz.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/nz.svg"
+        },
+
+        capitalInfo: {
+            latlng: [-41.3, 174.78]
+        },
+
+
+
+    },
+    {
+        name: {
+            common: "Micronesia",
+            official: "Federated States of Micronesia",
+
+        },
+
+        currencies: "United States dollar",
+
+        capital: [
+            "Palikir"
+        ],
+
+        region: "Oceania",
+        subregion: "Micronesia",
+        languages: [
+            "English"
+        ],
+
+        latlng: [6.91666666, 158.25],
+        landlocked: false,
+
+        demonyms: {
+            eng: {
+                fem: "Micronesian",
+                masc: "Micronesian"
+            },
+            fra: {
+                fem: "Micronésienne",
+                masc: "Micronésien"
+            }
+        },
+        flag: "🇫🇲",
+        maps: {
+            googleMaps: "https://goo.gl/maps/LLcnofC5LxZsJXTo8",
+            openStreetMaps: "https://www.openstreetmap.org/relation/571802"
+        },
+        population: 115021,
+        gini: 40.1,
+
+        flags: {
+            png: "https://flagcdn.com/w320/fm.png",
+            svg: "https://flagcdn.com/fm.svg",
             alt: "The flag of Micronesia has a light blue field, at the center of which are four five-pointed white stars arranged in the shape of a diamond."
-},
-coatOfArms: {
-    png: "https://mainfacts.com/media/images/coats_of_arms/fm.png",
-        svg: "https://mainfacts.com/media/images/coats_of_arms/fm.svg"
-},
+        },
+        coatOfArms: {
+            png: "https://mainfacts.com/media/images/coats_of_arms/fm.png",
+            svg: "https://mainfacts.com/media/images/coats_of_arms/fm.svg"
+        },
 
-capitalInfo: {
-    latlng: [6.92, 158.15]
-},
+        capitalInfo: {
+            latlng: [6.92, 158.15]
+        },
 
 
 
-}*/
+    }
 
 
 
