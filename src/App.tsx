@@ -106,10 +106,11 @@ function App() {
   type MainType = "ListOfItems" | "FilterPage" | "About" | "DetailledItem"
   const [mainContent, setMainContent] = useState<MainType>("About")
 
+
   return (
     <>
       <Filters filters={filters} setFilters={setFilters} />
-      <MainArea countries={countries} weathers={weathers} mainContent={setMainContent} mainContent={mainContent} filters={filters} />
+      <MainArea countries={countries} weathers={weathers} setMainContent={setMainContent} mainContent={mainContent} filters={filters} />
       <NavBar />
     </>
   )

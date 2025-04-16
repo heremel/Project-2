@@ -8,7 +8,7 @@ interface Meal {
 	strMealThumb: string;
 }
 
-type Meals = Meal[]
+type Meals = Meal[];
 
 interface WeatherResult {
 	countryLat: number;
@@ -21,8 +21,6 @@ interface WeatherResult {
 	//meals: Meals;
 }
 
-
-
 async function getMoreWeatherData(currentCountry: Country, weathers: Weathers) {
 	// je crée un objet à remplir avec toutes mes données UTILES + c'est les valeurs de base de cet objet que je renvoie si j'ai un problème
 	const weatherResults = {
@@ -34,7 +32,7 @@ async function getMoreWeatherData(currentCountry: Country, weathers: Weathers) {
 		currentTemperature: 0,
 		elevation: 0,
 		//meals: [{ strMeal: "", strMealThumb: "" }]
-	}
+	};
 
 	// function mealPush(array: Meals) {
 	// 	if (!!array[0]) { weatherResults.meals.push(array[0]) };
@@ -42,36 +40,45 @@ async function getMoreWeatherData(currentCountry: Country, weathers: Weathers) {
 	// 	if (!!array[2]) { weatherResults.meals.push(array[2]) };
 	// }
 	// variable intermédiaire pour le fetch
-	let currentWeatherLong = null
-	let currentWeatherLat = null
-	let urlWeather = null
-	let urlFood = null
+	let currentWeatherLong = null;
+	let currentWeatherLat = null;
+	let urlWeather = null;
+	let urlFood = null;
 
-	const currentWeather = weathers.find((weather) => ((Math.round(weather.latitude) == Math.round(weatherResults.countryLat)) && (Math.round(weather.longitude) == Math.round(weatherResults.countryLong))));
-	if (!currentWeather) { return weatherResults }
+	const currentWeather = weathers.find(
+		(weather) =>
+			Math.round(weather.latitude) == Math.round(weatherResults.countryLat) &&
+			Math.round(weather.longitude) == Math.round(weatherResults.countryLong),
+	);
+	if (!currentWeather) {
+		return weatherResults;
+	}
 	currentWeatherLong = Math.round(currentWeather.longitude);
 	currentWeatherLat = Math.round(currentWeather.latitude);
 	const sum = currentWeather.daily.temperature_2m_mean.reduce((a, b) => a + b);
-	weatherResults.meanTemp = Math.floor((sum / currentWeather.daily.temperature_2m_mean.length) * 100) / 100;
-	weatherResults.minTemp = Math.min(...currentWeather.daily.temperature_2m_min)
-	weatherResults.maxTemp = Math.max(...currentWeather.daily.temperature_2m_max)
-	weatherResults.elevation = currentWeather.elevation
-	urlFood = `https://www.themealdb.com/api/json/v1/1/filter.php?a=${currentCountry.demonyms.eng.masc}`
-	urlWeather = `https://api.open-meteo.com/v1/forecast?latitude=${currentWeatherLat}&longitude=${currentWeatherLong}&current=temperature_2m`
+	weatherResults.meanTemp =
+		Math.floor((sum / currentWeather.daily.temperature_2m_mean.length) * 100) /
+		100;
+	weatherResults.minTemp = Math.min(...currentWeather.daily.temperature_2m_min);
+	weatherResults.maxTemp = Math.max(...currentWeather.daily.temperature_2m_max);
+	weatherResults.elevation = currentWeather.elevation;
+	urlFood = `https://www.themealdb.com/api/json/v1/1/filter.php?a=${currentCountry.demonyms.eng.masc}`;
+	urlWeather = `https://api.open-meteo.com/v1/forecast?latitude=${currentWeatherLat}&longitude=${currentWeatherLong}&current=temperature_2m`;
 	await fetch(urlWeather)
-		.then(response => response.json())
-		.then(data => weatherResults.currentTemperature = data.current.temperature_2m)// seule "temperature actuelle" est fetchée, les autres sont en BDD
-		.catch(err => console.error(err));
+		.then((response) => response.json())
+		.then(
+			(data) =>
+				(weatherResults.currentTemperature = data.current.temperature_2m),
+		) // seule "temperature actuelle" est fetchée, les autres sont en BDD
+		.catch((err) => console.error(err));
 
-
-
-	return weatherResults
+	return weatherResults;
 }
 
 interface ItemProps {
 	currentCountry: Country;
-	weathers: Weathers
-	handleClickPopup: any
+	weathers: Weathers;
+	handleClickPopup: any;
 }
 
 function Item({ currentCountry, handleClickPopup, weathers }: ItemProps) {
@@ -85,10 +92,9 @@ function Item({ currentCountry, handleClickPopup, weathers }: ItemProps) {
 		currentTemperature: 0,
 		elevation: 0,
 		// meals: [{ strMeal: "", strMealThumb: "" }]
-	}
+	};
 
 	// const [foodError, setFoodError] = useState(false)
-
 
 	// await fetch(urlFood)
 	// 	.then(response => response.json())
@@ -98,27 +104,28 @@ function Item({ currentCountry, handleClickPopup, weathers }: ItemProps) {
 	// 		setFoodError(true);
 	// 	});
 
-	const [weather, setWeather] = useState<WeatherResult>(weatherInitial)
-	useEffect(() => {// à la création de l'item, tous les éléments sont mis (ils ne seront jamais mis à jour)
+	const [weather, setWeather] = useState<WeatherResult>(weatherInitial);
+	// biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
+	useEffect(() => {
+		// à la création de l'item, tous les éléments sont mis (ils ne seront jamais mis à jour)
 		async function getWeatherData() {
-			setWeather(await getMoreWeatherData(currentCountry, weathers))
-
+			setWeather(await getMoreWeatherData(currentCountry, weathers));
 		}
-		getWeatherData()
-	}, [])
+		getWeatherData();
+	}, []);
 
 	return (
 		<div
 			className={styles.img}
 
-		// PAS D'IMAGE POUR L'INSTANT, j'ai du commenter ce style
-		// style={{
-		// 	backgroundImage: `url(${currentCountry.image})`,
-		// }}
+			// PAS D'IMAGE POUR L'INSTANT, j'ai du commenter ce style
+			// style={{
+			// 	backgroundImage: `url(${currentCountry.image})`,
+			// }}
 		>
 			<div className={styles.textOverlay}>
 				<button type="button" onClick={() => handleClickPopup(currentCountry)}>
-					More Info
+					See more info
 				</button>
 				<h2>{currentCountry.name.common}</h2>
 				<p>Average Temperature : {weather.meanTemp} °C</p>

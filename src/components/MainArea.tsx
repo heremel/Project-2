@@ -14,14 +14,14 @@ interface MainProps {
 
 
 
-function MainArea() {
+function MainArea({weathers, countries}) {
 
     return (
         <>
             <ListOfItems countries={countries} weathers={weathers} />
-            <FilterPage />
+            {/* <FilterPage />
             <About />
-            <DetailledItem />
+            <DetailledItem /> */}
 
         </>
     )
