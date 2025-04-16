@@ -4,14 +4,15 @@ import PopUp from "./PopUp";
 import { useState } from "react";
 import { Countries, Filters } from "../App";
 import { Weathers } from "../App";
-import More_Info from "./test";
+import More_Info from "./Test";
+import NavBar from "./NavBar";
+import FiltersTab from "./FiltersTab";
 
 export interface ListProps {
-	countries: Countries,
-	weathers: Weathers
-	filters: Filters
+	countries: Countries;
+	weathers: Weathers;
+	filters: Filters;
 }
-
 
 function ListOfItems({ countries, weathers, filters }: ListProps) {
 	const [selectedCountry, setSelectedCountry] = useState(null);
@@ -25,20 +26,23 @@ function ListOfItems({ countries, weathers, filters }: ListProps) {
 	};
 
 	function filterArray(array: Countries) {
-		let filtered1
-		let filtered2
-		let filtered3
-		let filtered4
-		let filtered5
-		if (!filters.landlockedshown) { filtered1 = array.filter((country) => country.landlocked === false) }
-		else { filtered1 = array }
+		let filtered1;
+		let filtered2;
+		let filtered3;
+		let filtered4;
+		let filtered5;
+		if (!filters.landlockedshown) {
+			filtered1 = array.filter((country) => country.landlocked === false);
+		} else {
+			filtered1 = array;
+		}
 
-		return filtered1
+		return filtered1;
 	}
-
 
 	return (
 		<>
+			<FiltersTab/>
 			<div className={styles.container}>
 				{filterArray(countries).map((country, index) => (
 					<Item
@@ -52,6 +56,7 @@ function ListOfItems({ countries, weathers, filters }: ListProps) {
 					//composant,
 				))}
 			</div>
+			<NavBar/>
 		</>
 	);
 }

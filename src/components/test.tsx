@@ -1,33 +1,28 @@
-import styles from "./../assets/styles/PopUp.module.css";
+// import styles from "./../assets/styles/PopUp.module.css";
 
-type MoreInfoType = {
-	culturalFacts: string;
-	touristSpots: string[];
-	famousFood: string;
-};
+// type MoreInfoType = {
+// 	culturalFacts: string;
+// 	touristSpots: string[];
+// 	famousFood: string;
+// };
 
-type Country = {
-	name: string;
-	temperature: number;
-	currency: string;
-	image: string;
-	moreInfo: MoreInfoType;
-};
+// type Country = {
+// 	name: string;
+// 	temperature: number;
+// 	currency: string;
+// 	image: string;
+// 	moreInfo: MoreInfoType;
+// };
 
-type MoreInfoProps = {
-	country: Country;
-	closePopup: () => void;
-};
+// type MoreInfoProps = {
+// 	country: Country;
+// 	closePopup: () => void;
+// };
 
-function More_Info({ country, closePopup }: MoreInfoProps) {
-	const { moreInfo } = country;
-	console.log("Test", moreInfo);
+function Test(){
 	return (
-		<h1>Meow</h1>
-		// <button type="button" onClick={closePopup}>
-		// 	Fermer
-		// </button>
-	);
+		<h1>Hello from TEST</h1>
+	)
 }
 
-export default More_Info;
+export default Test;
