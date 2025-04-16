@@ -6,6 +6,7 @@ import FilterSubregion from "./FilterSubregion"
 import FilterTemperature from "./FilterTemperature"
 import { useContext } from 'react';
 import CountriesContext from "../contexts/CountriesContext";
+import style from "./componentsstyles/FilterPage.module.css"
 
 
 
@@ -24,7 +25,7 @@ import CountriesContext from "../contexts/CountriesContext";
 function FilterPage() {
 
 
-    return <>
+    return <div className={style.filterPageContainer}>
         <FilterLandLocked />
         <FilterRegion />
         {/*<FilterSubregion filters={filters} setFilters={setFilters} />
@@ -32,7 +33,7 @@ function FilterPage() {
         <FilterTemperature filters={filters} setFilters={setFilters} /> */}
 
 
-    </>
+    </div>
 }
 
 export default FilterPage

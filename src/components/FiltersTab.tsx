@@ -31,17 +31,20 @@ function FiltersTab() {
     }
 
     return (
-        <div className={style.filterTabContainer}>
-            <div>
-                <button onClick={handleOnClickMore}>{isOpen ? "Less Filters" : "More Filters"}</button>
-            </div>
-            <div className={style.currentFilters}>
-                {!filters.landlockedshown && (<button onClick={() => handleOnClickFilters("landlockedshown")}>Has a seashore</button>)}
-                {filters.region !== "none" && (<button onClick={() => handleOnClickFilters("region")}>{filters.region}</button>)}
-            </div>
-            {isOpen&&(<FilterPage/>)}
+        <>
+            <div className={style.filterTabContainer}>
+                <div>
+                    <button onClick={handleOnClickMore}>{isOpen ? "Less Filters" : "More Filters"}</button>
+                </div>
+                <div className={style.currentFilters}>
+                    {!filters.landlockedshown && (<button onClick={() => handleOnClickFilters("landlockedshown")}>Has a seashore</button>)}
+                    {filters.region !== "none" && (<button onClick={() => handleOnClickFilters("region")}>{filters.region}</button>)}
+                </div>
 
-        </div>)
+
+            </div>
+            {isOpen && (<FilterPage />)}
+        </>)
 }
 
 export default FiltersTab
