@@ -1,10 +1,8 @@
 import styles from "./../assets/styles/ListOfItems.module.css";
 import Item from "./Item";
 import PopUp from "./PopUp";
-// import { countries } from "../databases/countries";
-// import { weathers } from "../databases/weather";
 import { useState } from "react";
-import { Countries } from "../App";
+import { Countries, Filters } from "../App";
 import { Weathers } from "../App";
 
 // export const fakeObject = {
@@ -68,10 +66,11 @@ import { Weathers } from "../App";
 export interface ListProps {
 	countries: Countries,
 	weathers: Weathers
+	filters: Filters
 }
 
 
-function ListOfItems({ countries, weathers }: ListProps) {
+function ListOfItems({ countries, weathers, filters }: ListProps) {
 	const [selectedCountry, setSelectedCountry] = useState(null);
 
 	const windowpopup = (country) => {
@@ -81,10 +80,24 @@ function ListOfItems({ countries, weathers }: ListProps) {
 	const windowclosepopup = () => {
 		setSelectedCountry(null);
 	};
+
+	function filterArray(array: Countries) {
+		let filtered1
+		let filtered2
+		let filtered3
+		let filtered4
+		let filtered5
+		if (!filters.landlockedshown) { filtered1 = array.filter((country) => country.landlocked === false) }
+		else { filtered1 = array }
+
+		return filtered1
+	}
+
+
 	return (
 		<>
 			<div className={styles.container}>
-				{countries.map((country, index) => (
+				{filterArray(countries).map((country, index) => (
 					<Item
 						currentCountry={country}
 						weathers={weathers}
@@ -95,9 +108,7 @@ function ListOfItems({ countries, weathers }: ListProps) {
 					//composant,
 				))}
 			</div>
-			{selectedCountry !== null && (
-				<PopUp country={selectedCountry} closePopup={windowclosepopup} />
-			)}
+
 		</>
 	);
 }

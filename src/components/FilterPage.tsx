@@ -23,10 +23,10 @@ function FilterPage({ filters, setFilters }: FilterPageProps) {
 
     return <>
         <FilterLandLocked filters={filters} setFilters={setFilters} />
-        <FilterRegion filters={filters} setFilters={setFilters} />
+        {/* <FilterRegion filters={filters} setFilters={setFilters} />
         <FilterSubregion filters={filters} setFilters={setFilters} />
         <FilterLanguages filters={filters} setFilters={setFilters} />
-        <FilterTemperature filters={filters} setFilters={setFilters} />
+        <FilterTemperature filters={filters} setFilters={setFilters} /> */}
 
 
     </>

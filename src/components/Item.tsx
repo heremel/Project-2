@@ -58,10 +58,10 @@ async function getMoreWeatherData(currentCountry: Country, weathers: Weathers) {
 	weatherResults.elevation = currentWeather.elevation
 	urlFood = `https://www.themealdb.com/api/json/v1/1/filter.php?a=${currentCountry.demonyms.eng.masc}`
 	urlWeather = `https://api.open-meteo.com/v1/forecast?latitude=${currentWeatherLat}&longitude=${currentWeatherLong}&current=temperature_2m`
-	await fetch(urlWeather)
-		.then(response => response.json())
-		.then(data => weatherResults.currentTemperature = data.current.temperature_2m)// seule "temperature actuelle" est fetchée, les autres sont en BDD
-		.catch(err => console.error(err));
+	// await fetch(urlWeather)
+	// 	.then(response => response.json())
+	// 	.then(data => weatherResults.currentTemperature = data.current.temperature_2m)// seule "temperature actuelle" est fetchée, les autres sont en BDD
+	// 	.catch(err => console.error(err));
 
 
 
@@ -122,14 +122,15 @@ function Item({ currentCountry, handleClickPopup, weathers }: ItemProps) {
 				</button>
 				<h2>{currentCountry.name.common}</h2>
 				<p>Average Temperature : {weather.meanTemp} °C</p>
-				<p>Minimum Temperature : {weather.minTemp} °C</p>
+				{/* <p>Minimum Temperature : {weather.minTemp} °C</p>
 				<p>Maximum Temperature : {weather.maxTemp} °C</p>
-				<p>Current Temperature : {weather.currentTemperature} °C</p>
+				<p>Current Temperature : {weather.currentTemperature} °C</p> */}
 				<p>Currency : {currentCountry.currencies}</p>
-				<p>Capital city : {currentCountry.capital}</p>
+				<p>Landlocked : {currentCountry.landlocked ? "true" : "false"}</p>
+				{/* <p>Capital city : {currentCountry.capital}</p> */}
 				<p>Subregion : {currentCountry.subregion}</p>
 				<p>Languages : {currentCountry.languages.join(", ")}</p>
-				<p>Elevation : {weather.elevation}</p>
+				{/* <p>Elevation : {weather.elevation}</p> */}
 				{/* <p>Food Item Test :{foodError ? "No Meal" : weather.meals[1].strMeal}</p> */}
 				{/* <p>WeatherLong : {currentWeatherLong}</p> //debug items
 				<p>WeatherLat : {currentWeatherLat}</p>
