@@ -3,11 +3,14 @@ import Item from "./Item";
 import { useState } from "react";
 import { Countries, Filters } from "../App";
 import { Weathers } from "../App";
+import More_Info from "./Test";
+import NavBar from "./NavBar";
+import FiltersTab from "./FiltersTab";
 
 export interface ListProps {
-	countries: Countries,
-	weathers: Weathers
-	filters: Filters
+	countries: Countries;
+	weathers: Weathers;
+	filters: Filters;
 }
 
 function ListOfItems({ countries, weathers, filters }: ListProps) {
@@ -37,14 +40,15 @@ function ListOfItems({ countries, weathers, filters }: ListProps) {
 		return filtered1 //à terme, doit retourner filtered5
 	}
 
-
 	return (
 		<>
+			<FiltersTab/>
 			<div className={styles.container}>
 				{filterArray(countries).map((country, index) => (
 					<Item
 						currentCountry={country}
 						weathers={weathers}
+						// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 						key={index}
 						handleClickPopup={windowpopup}
 					/> // currentCountry = props dont va avoir besoin le composant item pour fonctionner
@@ -52,7 +56,7 @@ function ListOfItems({ countries, weathers, filters }: ListProps) {
 					//composant,
 				))}
 			</div>
-
+			<NavBar/>
 		</>
 	);
 }

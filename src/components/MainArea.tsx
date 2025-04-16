@@ -1,7 +1,8 @@
 import ListOfItems from "./ListOfItems"
 import FilterPage from "./FilterPage";
 import About from "./About";
-import DetailledItem from "./DetailledItem";
+import DetailledItem from "./DetailedItem";
+import { useState } from "react";
 import { Countries, Filters, MainType } from "../App";
 import { Weathers } from "../App";
 
@@ -25,7 +26,6 @@ function MainArea({ mainContent, countries, weathers, filters, setFilters, setMa
         case "MyItems": return <ListOfItems countries={countries} weathers={weathers} setMainContent={setMainContent} filters={filters} />;
     }
 
-
 }
 
-export default MainArea
+export default MainArea;

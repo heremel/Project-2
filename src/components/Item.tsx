@@ -8,7 +8,7 @@ interface Meal {
 	strMealThumb: string;
 }
 
-type Meals = Meal[]
+type Meals = Meal[];
 
 interface WeatherResult {
 	countryLat: number;
@@ -45,8 +45,14 @@ async function getMoreWeatherData(currentCountry: Country, weathers: Weathers) {
 	let currentWeatherLat = null
 	//let urlWeather = null
 
-	const currentWeather = weathers.find((weather) => ((Math.round(weather.latitude) == Math.round(weatherResults.countryLat)) && (Math.round(weather.longitude) == Math.round(weatherResults.countryLong))));
-	if (!currentWeather) { return weatherResults }
+	const currentWeather = weathers.find(
+		(weather) =>
+			Math.round(weather.latitude) == Math.round(weatherResults.countryLat) &&
+			Math.round(weather.longitude) == Math.round(weatherResults.countryLong),
+	);
+	if (!currentWeather) {
+		return weatherResults;
+	}
 	currentWeatherLong = Math.round(currentWeather.longitude);
 	currentWeatherLat = Math.round(currentWeather.latitude);
 	const sum = currentWeather.daily.temperature_2m_mean.reduce((a, b) => a + b);
@@ -83,21 +89,21 @@ function Item({ currentCountry, handleClickPopup, weathers }: ItemProps) {
 		async function getWeatherData() {
 			setWeather(await getMoreWeatherData(currentCountry, weathers))
 		}
-		getWeatherData()
-	}, [])
+		getWeatherData();
+	}, []);
 
 	return (
 		<div
 			className={styles.img}
 
-		// PAS D'IMAGE POUR L'INSTANT, j'ai du commenter ce style
-		// style={{
-		// 	backgroundImage: `url(${currentCountry.image})`,
-		// }}
+			// PAS D'IMAGE POUR L'INSTANT, j'ai du commenter ce style
+			// style={{
+			// 	backgroundImage: `url(${currentCountry.image})`,
+			// }}
 		>
 			<div className={styles.textOverlay}>
 				<button type="button" onClick={() => handleClickPopup(currentCountry)}>
-					More Info
+					See more info
 				</button>
 				<h2>{currentCountry.name.common}</h2>
 				<p>Average Temperature : {weather.meanTemp} °C</p>
