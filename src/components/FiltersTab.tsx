@@ -1,25 +1,24 @@
+import { useState } from "react";
 import { Filters, Regions, MainType } from "../App"
-import style from "./FiltersTab.module.css"
+import style from "./componentsstyles/FiltersTab.module.css"
+import { useContext } from 'react';
+import CountriesContext from "../contexts/CountriesContext";
+import FilterPage from "./FilterPage";
 
-interface FiltersProps {
-    filters: Filters;
-    setFilters: React.Dispatch<React.SetStateAction<Filters>>;
-    setMainContent: React.Dispatch<React.SetStateAction<MainType>>;
-    mainContent: MainType
-}
+// interface FiltersProps {
+//     filters: Filters;
+//     setFilters: React.Dispatch<React.SetStateAction<Filters>>;
+// }
 
 
+function FiltersTab() {
+    const { filters } = useContext(CountriesContext);
+    const { setFilters } = useContext(CountriesContext);
 
-let lastContent: MainType = "ListOfItems"
+    const [isOpen, setIsOpen] = useState(false)
 
-function FiltersTab({ filters, setFilters, setMainContent, mainContent }: FiltersProps) {
     function handleOnClickMore() {
-
-        if (mainContent !== "FilterPage") {
-            lastContent = mainContent
-            setMainContent("FilterPage")
-        }
-        else { setMainContent(lastContent) }
+        setIsOpen(!isOpen)
     }
 
     function handleOnClickFilters(property: string) {
@@ -34,12 +33,13 @@ function FiltersTab({ filters, setFilters, setMainContent, mainContent }: Filter
     return (
         <div className={style.filterTabContainer}>
             <div>
-                <button onClick={handleOnClickMore}>{mainContent === "FilterPage" ? "Less Filters" : "More Filters"}</button>
+                <button onClick={handleOnClickMore}>{isOpen ? "Less Filters" : "More Filters"}</button>
             </div>
             <div className={style.currentFilters}>
                 {!filters.landlockedshown && (<button onClick={() => handleOnClickFilters("landlockedshown")}>Has a seashore</button>)}
                 {filters.region !== "none" && (<button onClick={() => handleOnClickFilters("region")}>{filters.region}</button>)}
             </div>
+            {isOpen&&(<FilterPage/>)}
 
         </div>)
 }

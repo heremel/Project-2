@@ -4,27 +4,30 @@ import FilterLanguages from "./FilterLanguages"
 import FilterRegion from "./FilterRegion"
 import FilterSubregion from "./FilterSubregion"
 import FilterTemperature from "./FilterTemperature"
+import { useContext } from 'react';
+import CountriesContext from "../contexts/CountriesContext";
 
 
 
 
 
 
-export interface FilterPageProps {
-    filters: Filters
-    setFilters: React.Dispatch<React.SetStateAction<Filters>>
-}
+// export interface FilterPageProps {
+//     filters: Filters
+//     setFilters: React.Dispatch<React.SetStateAction<Filters>>
+// }
 
 
 
 
 
-function FilterPage({ filters, setFilters }: FilterPageProps) {
+function FilterPage() {
+
 
     return <>
-        <FilterLandLocked filters={filters} setFilters={setFilters} />
-        {/* <FilterRegion filters={filters} setFilters={setFilters} />
-        <FilterSubregion filters={filters} setFilters={setFilters} />
+        <FilterLandLocked />
+        <FilterRegion />
+        {/*<FilterSubregion filters={filters} setFilters={setFilters} />
         <FilterLanguages filters={filters} setFilters={setFilters} />
         <FilterTemperature filters={filters} setFilters={setFilters} /> */}
 
