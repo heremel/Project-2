@@ -42,7 +42,6 @@ function ListOfItems() {
 					//composant,
 				))}
 			</div>
-			<NavBar />
 		</>
 	);
 }
