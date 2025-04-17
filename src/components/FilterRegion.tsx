@@ -1,5 +1,5 @@
 import { Regions, useCountries } from "../contexts/CountriesContext";
-import style from "./componentsstyles/FilterRegion.module.css"
+import style from ".././assets/styles/FilterRegion.module.css"
 
 function FilterRegion() {
     const { filters, setFilters } = useCountries();
