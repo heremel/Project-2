@@ -1,6 +1,6 @@
 import styles from "./../assets/styles/ListOfItems.module.css";
 import Item from "./Item";
-import { Countries } from "../contexts/CountriesContext";
+import { Countries } from "../interfaces/allInterfaces";
 import NavBar from "./NavBar";
 import FiltersTab from "./FiltersTab";
 import { useCountries } from "../contexts/CountriesContext";

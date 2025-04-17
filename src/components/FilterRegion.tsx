@@ -1,4 +1,5 @@
-import { Regions, useCountries } from "../contexts/CountriesContext";
+import { useCountries } from "../contexts/CountriesContext";
+import { Regions  } from "../interfaces/allInterfaces";
 import style from ".././assets/styles/FilterRegion.module.css"
 
 function FilterRegion() {

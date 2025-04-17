@@ -1,24 +1,7 @@
 import { useEffect, useState } from "react";
 import styles from "../assets/styles/ListOfItems.module.css";
-import { Country, Weathers } from "../contexts/CountriesContext";
+import { Country, Weathers, WeatherResult } from "../interfaces/allInterfaces";
 
-
-interface Meal {
-	strMeal: string;
-	strMealThumb: string;
-}
-
-type Meals = Meal[];
-
-interface WeatherResult {
-	countryLat: number;
-	countryLong: number;
-	meanTemp: number;
-	minTemp: number;
-	maxTemp: number;
-	currentTemperature: number;
-	elevation: number;
-}
 
 interface ItemProps {
 	currentCountry: Country;
@@ -71,7 +54,7 @@ async function getMoreWeatherData(currentCountry: Country, weathers: Weathers) {
 	return weatherResults
 }
 
-function Item({ currentCountry, handleClickPopup, weathers }: ItemProps) {
+function Item({ currentCountry, weathers }: ItemProps) {
 	// cet objet est un duplicata de weatherResults, c'est pas très propre, mais je cleanerai plus tard
 	const weatherInitial = {
 		countryLat: Math.round(currentCountry.latlng[0]),
@@ -94,16 +77,8 @@ function Item({ currentCountry, handleClickPopup, weathers }: ItemProps) {
 	return (
 		<div
 			className={styles.img}
-
-		// PAS D'IMAGE POUR L'INSTANT, j'ai du commenter ce style
-		// style={{
-		// 	backgroundImage: `url(${currentCountry.image})`,
-		// }}
 		>
 			<div className={styles.textOverlay}>
-				<button type="button" onClick={() => handleClickPopup(currentCountry)}>
-					See more info
-				</button>
 				<h2>{currentCountry.name.common}</h2>
 				<p>Average Temperature : {weather.meanTemp} °C</p>
 				{/* <p>Minimum Temperature : {weather.minTemp} °C</p>
