@@ -1,4 +1,5 @@
 import { useCountries } from "../contexts/CountriesContext";
+import style from ".././assets/styles/FilterLanguages.module.css"
 
 function FilterLanguages() {
     const { filters, setFilters } = useCountries();
@@ -15,9 +16,9 @@ function FilterLanguages() {
 
     }
 
-    const langArray: string[] = ["English", "French", "Spanish", "Portuguese", "Italian", "German", "Dutch", "Chinese"]
+    const langArray: string[] = ["English", "French", "Spanish", "Portuguese", "Italian", "German", "Dutch", "Arabic", "Chinese"]
 
-    return (<div>
+    return (<div className={style.filterLangContainer}>
         {langArray.map((language) => (
             <div key={language}>
                 <input type="checkbox" id={language} name={language} checked={filters.languages.includes(language)} onChange={() => handleChangeLang(language)} />

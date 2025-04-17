@@ -21,9 +21,20 @@ function ListOfItems() {
 		if (filters.region !== "none") { filtered2 = filtered1.filter((country) => country.region === filters.region) }
 		else { filtered2 = filtered1 }
 
+		if (filters.languages.length > 0) {
+			filtered3 = filtered2.filter((country) => {
+				let isIncluded = false
+				for (let i = 0; i < filters.languages.length; i++) {
+					if (country.languages.includes(filters.languages[i])) { isIncluded = true }
+				}
+				return isIncluded
+			})
+		}
+		else { filtered3 = filtered2 }
+
 		//étapes pour appliquer les filtres 1 à 5 (manquantes)
 
-		return filtered2 //à terme, doit retourner filtered5
+		return filtered3 //à terme, doit retourner filtered5
 	}
 
 	return (
