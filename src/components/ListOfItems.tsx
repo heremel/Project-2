@@ -37,7 +37,6 @@ function ListOfItems() {
 						weathers={weathers}
 						// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 						key={index}
-						handleClickPopup={windowpopup}
 					/> // currentCountry = props dont va avoir besoin le composant item pour fonctionner
 					//valeur fournis c'est country entre les accolades, c'est une valeur dynamique et country cest la valeur qu'attends mon
 					//composant,
