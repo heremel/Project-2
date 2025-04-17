@@ -1,4 +1,4 @@
-import { Countries } from "../App";
+import { Countries } from "../contexts/CountriesContext";
 
 export const countries: Countries = [
 

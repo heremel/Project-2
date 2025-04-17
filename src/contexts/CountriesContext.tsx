@@ -93,18 +93,18 @@ export interface Filters {
 }
 interface MyContextProps { children: ReactNode; }
 
-interface CountryContextType{
-    filters:Filters;
+interface CountryContextType {
+    filters: Filters;
     countries: Countries;
     weathers: Weathers;
     setFilters: React.Dispatch<React.SetStateAction<Filters>>
 }
 
-const CountriesContext = createContext<CountryContextType|null>(null);
+const CountriesContext = createContext<CountryContextType | null>(null);
 
 export function CountriesProvider({
     children,
-}:MyContextProps) {
+}: MyContextProps) {
 
     const defaultFilters: Filters = {
         region: "none",
