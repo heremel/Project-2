@@ -23,7 +23,7 @@ export function CountriesProvider({
     const defaultFilters: Filters = {
         region: "none",
         subregion: "none",
-        languages: ["none"],
+        languages: [],
         meantempmin: -99,
         meantempmax: 99,
         landlockedshown: true

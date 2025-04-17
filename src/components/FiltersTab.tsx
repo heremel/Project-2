@@ -12,13 +12,15 @@ function FiltersTab() {
         setIsOpen(!isOpen)
     }
 
-    function handleOnClickFilters(property: string) {
+    function handleOnClickFilters(property: string, value?: string) {
         if (property === "landlockedshown") {
             setFilters((prev) => ({ ...prev, landlockedshown: !prev.landlockedshown }))
         }
         if (property === "region") {
             setFilters((prev) => ({ ...prev, region: "none" }))
         }
+        if (property === "language")
+            setFilters((prev) => ({ ...prev, languages: prev.languages.filter((language) => language !== value) }))
     }
 
     return (
@@ -30,6 +32,7 @@ function FiltersTab() {
                 <div className={style.currentFilters}>
                     {!filters.landlockedshown && (<button onClick={() => handleOnClickFilters("landlockedshown")}>Has a seashore</button>)}
                     {filters.region !== "none" && (<button onClick={() => handleOnClickFilters("region")}>{filters.region}</button>)}
+                    {filters.languages.length > 0 && (filters.languages.map((language, index) => (<button key={index} onClick={() => handleOnClickFilters("language", language)}>{language}</button>)))}
                 </div>
             </div>
             {isOpen && (<FilterPage />)}
