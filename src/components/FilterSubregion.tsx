@@ -1,12 +1,9 @@
-import { Filters, Regions } from "../App"
-import { FilterPageProps } from "./FilterPage"
+import {useCountries} from "../contexts/CountriesContext";
 
-
-
-
-
-
-function FilterSubregion({ filters, setFilters }: FilterPageProps) {
+function FilterSubregion() {
+    const { filters } = useCountries();
+    const { setFilters } = useCountries();
+    
     const handleChangeLLS = () => {
 
         setFilters((prev) => ({ ...prev, landlockedshown: !prev.landlockedshown }))

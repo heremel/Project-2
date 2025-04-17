@@ -1,5 +1,4 @@
 import { Link } from "react-router";
-import { MainType } from "../App";
 
 // interface NavBarProps {
 //     setMainContent: React.Dispatch<React.SetStateAction<MainType>>;

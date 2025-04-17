@@ -1,12 +1,9 @@
 import styles from "./../assets/styles/ListOfItems.module.css";
 import Item from "./Item";
 import { useState } from "react";
-import { Countries, Filters } from "../App";
-import { Weathers } from "../App";
-import More_Info from "./Test";
+import { Countries, Filters } from "../contexts/CountriesContext";
 import NavBar from "./NavBar";
 import FiltersTab from "./FiltersTab";
-import { useContext } from 'react';
 import {useCountries} from "../contexts/CountriesContext";
 
 // export interface ListProps {

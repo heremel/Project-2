@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import styles from "../assets/styles/ListOfItems.module.css";
-import { ListProps } from "./ListOfItems";
-import { Country, Weathers } from "../App";
+import { Country, Weathers } from "../contexts/CountriesContext";
+
 
 interface Meal {
 	strMeal: string;

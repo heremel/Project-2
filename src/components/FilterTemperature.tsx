@@ -1,12 +1,10 @@
-import { Filters, Regions } from "../App"
-import { FilterPageProps } from "./FilterPage"
+import { useCountries } from "../contexts/CountriesContext";
 
 
+function FilterTemperature() {
+    const { filters } = useCountries();
+    const { setFilters } = useCountries();
 
-
-
-
-function FilterTemperature({ filters, setFilters }: FilterPageProps) {
     const handleChangeLLS = () => {
 
         setFilters((prev) => ({ ...prev, landlockedshown: !prev.landlockedshown }))

@@ -1,15 +1,7 @@
 import { useState } from "react";
-import { Filters, Regions, MainType } from "../App"
 import style from "./componentsstyles/FiltersTab.module.css"
-import { useContext } from 'react';
-import {useCountries} from "../contexts/CountriesContext";
+import { useCountries } from "../contexts/CountriesContext";
 import FilterPage from "./FilterPage";
-
-// interface FiltersProps {
-//     filters: Filters;
-//     setFilters: React.Dispatch<React.SetStateAction<Filters>>;
-// }
-
 
 function FiltersTab() {
     const { filters } = useCountries();
@@ -40,8 +32,6 @@ function FiltersTab() {
                     {!filters.landlockedshown && (<button onClick={() => handleOnClickFilters("landlockedshown")}>Has a seashore</button>)}
                     {filters.region !== "none" && (<button onClick={() => handleOnClickFilters("region")}>{filters.region}</button>)}
                 </div>
-
-
             </div>
             {isOpen && (<FilterPage />)}
         </>)

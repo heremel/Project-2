@@ -1,10 +1,4 @@
-import { Filters, Regions } from "../App"
-import { FilterPageProps } from "./FilterPage"
 import {useCountries} from "../contexts/CountriesContext";
-
-
-
-
 
 function FilterLanguages() {
       const { filters } = useCountries();

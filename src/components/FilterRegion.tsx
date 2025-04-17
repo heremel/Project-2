@@ -1,24 +1,14 @@
-import { Filters, Regions } from "../App"
-import { FilterPageProps } from "./FilterPage"
-import { useContext } from 'react';
-import {useCountries} from "../contexts/CountriesContext";
+import { Regions, useCountries } from "../contexts/CountriesContext";
 import style from "./componentsstyles/FilterRegion.module.css"
-
-
-
-
-
 
 function FilterRegion() {
     const { filters } = useCountries();
     const { setFilters } = useCountries();
 
-
     function handleChangeRegion(string: Regions) {
-
         setFilters((prev) => ({ ...prev, region: string }))
-
     }
+
     return <div className={style.regionContainer}>
         <input type="radio" id="none" name="none" checked={filters.region === "none"} onChange={() => handleChangeRegion("none")} />
         <label htmlFor="none"> none </label>
