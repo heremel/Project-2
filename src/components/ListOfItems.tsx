@@ -1,22 +1,11 @@
 import styles from "./../assets/styles/ListOfItems.module.css";
 import Item from "./Item";
-import { useState } from "react";
-import { Countries, Filters } from "../contexts/CountriesContext";
-import NavBar from "./NavBar";
+import { Countries } from "../interfaces/allInterfaces";
 import FiltersTab from "./FiltersTab";
-import {useCountries} from "../contexts/CountriesContext";
-
-// export interface ListProps {
-// 	countries: Countries;
-// 	weathers: Weathers;
-// 	filters: Filters;
-// }
+import { useCountries } from "../contexts/CountriesContext";
 
 function ListOfItems() {
-	const { countries } = useCountries();
-	const { weathers } = useCountries();
-	const { filters } = useCountries();
-
+	const { countries, weathers, filters } = useCountries();
 
 	function filterArray(array: Countries) {
 		let filtered1
@@ -47,13 +36,11 @@ function ListOfItems() {
 						weathers={weathers}
 						// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 						key={index}
-						// handleClickPopup={windowpopup}
 					/> // currentCountry = props dont va avoir besoin le composant item pour fonctionner
 					//valeur fournis c'est country entre les accolades, c'est une valeur dynamique et country cest la valeur qu'attends mon
 					//composant,
 				))}
 			</div>
-			<NavBar />
 		</>
 	);
 }

@@ -1,10 +1,8 @@
 import FilterLandLocked from "./FilterLandlocked"
-import FilterLanguages from "./FilterLanguages"
 import FilterRegion from "./FilterRegion"
-import FilterSubregion from "./FilterSubregion"
-import FilterTemperature from "./FilterTemperature"
 
-import style from "./componentsstyles/FilterPage.module.css"
+
+import style from ".././assets/styles/FilterPage.module.css"
 
 function FilterPage() {
 

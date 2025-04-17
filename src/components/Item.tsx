@@ -1,24 +1,7 @@
 import { useEffect, useState } from "react";
 import styles from "../assets/styles/ListOfItems.module.css";
-import { Country, Weathers } from "../contexts/CountriesContext";
+import { Country, Weathers, WeatherResult } from "../interfaces/allInterfaces";
 
-
-interface Meal {
-	strMeal: string;
-	strMealThumb: string;
-}
-
-type Meals = Meal[];
-
-interface WeatherResult {
-	countryLat: number;
-	countryLong: number;
-	meanTemp: number;
-	minTemp: number;
-	maxTemp: number;
-	currentTemperature: number;
-	elevation: number;
-}
 
 interface ItemProps {
 	currentCountry: Country;
@@ -81,7 +64,7 @@ function Item({ currentCountry, weathers }: ItemProps) {
 		meanTemp: 0,
 		minTemp: 0,
 		maxTemp: 0,
-		currentTemperature: 0,
+		//currentTemperature: 0,
 		elevation: 0,
 	}
 
@@ -96,16 +79,8 @@ function Item({ currentCountry, weathers }: ItemProps) {
 	return (
 		<div
 			className={styles.img}
-
-		// PAS D'IMAGE POUR L'INSTANT, j'ai du commenter ce style
-		// style={{
-		// 	backgroundImage: `url(${currentCountry.image})`,
-		// }}
 		>
 			<div className={styles.textOverlay}>
-				{/* <button type="button" onClick={() => handleClickPopup(currentCountry)}>
-					See more info
-				</button> */}
 				<h2>{currentCountry.name.common}</h2>
 				<p>Average Temperature : {weather.meanTemp} °C</p>
 				{/* <p>Minimum Temperature : {weather.minTemp} °C</p>

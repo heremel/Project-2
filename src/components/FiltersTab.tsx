@@ -1,11 +1,10 @@
 import { useState } from "react";
-import style from "./componentsstyles/FiltersTab.module.css"
+import style from ".././assets/styles/FiltersTab.module.css"
 import { useCountries } from "../contexts/CountriesContext";
 import FilterPage from "./FilterPage";
 
 function FiltersTab() {
-    const { filters } = useCountries();
-    const { setFilters } = useCountries();
+    const { filters, setFilters } = useCountries();
 
     const [isOpen, setIsOpen] = useState(false)
 

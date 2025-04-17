@@ -1,8 +1,7 @@
 import { useCountries } from "../contexts/CountriesContext";
 
 function FilterLanguages() {
-    const { filters } = useCountries();
-    const { setFilters } = useCountries();
+const { filters, setFilters } = useCountries();
 
     const handleChangeLang = (lang: string) => {
         if (filters.languages.includes(lang)) {
