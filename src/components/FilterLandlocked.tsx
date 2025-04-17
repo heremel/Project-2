@@ -1,7 +1,6 @@
-import { Filters, Regions } from "../App"
-import { FilterPageProps } from "./FilterPage"
+import { Filters, Regions } from "../contexts/CountriesContext"
 import { useContext } from 'react';
-import CountriesContext from "../contexts/CountriesContext";
+import {useCountries} from "../contexts/CountriesContext";
 
 
 
@@ -9,8 +8,8 @@ import CountriesContext from "../contexts/CountriesContext";
 
 
 function FilterLandLocked() {
-    const { filters } = useContext(CountriesContext);
-    const { setFilters } = useContext(CountriesContext);
+    const { filters } = useCountries();
+    const { setFilters } = useCountries();
 
     const handleChangeLLS = () => {
 

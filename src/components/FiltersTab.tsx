@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Filters, Regions, MainType } from "../App"
 import style from "./componentsstyles/FiltersTab.module.css"
 import { useContext } from 'react';
-import CountriesContext from "../contexts/CountriesContext";
+import {useCountries} from "../contexts/CountriesContext";
 import FilterPage from "./FilterPage";
 
 // interface FiltersProps {
@@ -12,8 +12,8 @@ import FilterPage from "./FilterPage";
 
 
 function FiltersTab() {
-    const { filters } = useContext(CountriesContext);
-    const { setFilters } = useContext(CountriesContext);
+    const { filters } = useCountries();
+    const { setFilters } = useCountries();
 
     const [isOpen, setIsOpen] = useState(false)
 

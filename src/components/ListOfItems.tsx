@@ -7,7 +7,7 @@ import More_Info from "./Test";
 import NavBar from "./NavBar";
 import FiltersTab from "./FiltersTab";
 import { useContext } from 'react';
-import CountriesContext from "../contexts/CountriesContext";
+import {useCountries} from "../contexts/CountriesContext";
 
 // export interface ListProps {
 // 	countries: Countries;
@@ -16,9 +16,9 @@ import CountriesContext from "../contexts/CountriesContext";
 // }
 
 function ListOfItems() {
-	const { countries } = useContext(CountriesContext);
-	const { weathers } = useContext(CountriesContext);
-	const { filters } = useContext(CountriesContext);
+	const { countries } = useCountries();
+	const { weathers } = useCountries();
+	const { filters } = useCountries();
 
 
 	const [selectedCountry, setSelectedCountry] = useState(null);

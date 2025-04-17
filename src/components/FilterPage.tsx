@@ -5,7 +5,7 @@ import FilterRegion from "./FilterRegion"
 import FilterSubregion from "./FilterSubregion"
 import FilterTemperature from "./FilterTemperature"
 import { useContext } from 'react';
-import CountriesContext from "../contexts/CountriesContext";
+import {useCountries} from "../contexts/CountriesContext";
 import style from "./componentsstyles/FilterPage.module.css"
 
 

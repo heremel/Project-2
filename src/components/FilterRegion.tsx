@@ -1,7 +1,7 @@
 import { Filters, Regions } from "../App"
 import { FilterPageProps } from "./FilterPage"
 import { useContext } from 'react';
-import CountriesContext from "../contexts/CountriesContext";
+import {useCountries} from "../contexts/CountriesContext";
 import style from "./componentsstyles/FilterRegion.module.css"
 
 
@@ -10,8 +10,8 @@ import style from "./componentsstyles/FilterRegion.module.css"
 
 
 function FilterRegion() {
-    const { filters } = useContext(CountriesContext);
-    const { setFilters } = useContext(CountriesContext);
+    const { filters } = useCountries();
+    const { setFilters } = useCountries();
 
 
     function handleChangeRegion(string: Regions) {
