@@ -23,7 +23,6 @@ interface WeatherResult {
 interface ItemProps {
 	currentCountry: Country;
 	weathers: Weathers
-	handleClickPopup: any
 }
 
 //le principal but de cette fonction est de "matcher" un pays et un weather en se basant sur la latitude
@@ -96,10 +95,10 @@ function Item({ currentCountry, handleClickPopup, weathers }: ItemProps) {
 		<div
 			className={styles.img}
 
-			// PAS D'IMAGE POUR L'INSTANT, j'ai du commenter ce style
-			// style={{
-			// 	backgroundImage: `url(${currentCountry.image})`,
-			// }}
+		// PAS D'IMAGE POUR L'INSTANT, j'ai du commenter ce style
+		// style={{
+		// 	backgroundImage: `url(${currentCountry.image})`,
+		// }}
 		>
 			<div className={styles.textOverlay}>
 				<button type="button" onClick={() => handleClickPopup(currentCountry)}>

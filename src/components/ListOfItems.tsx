@@ -1,30 +1,12 @@
 import styles from "./../assets/styles/ListOfItems.module.css";
 import Item from "./Item";
-import { useState } from "react";
-import { Countries, Filters } from "../contexts/CountriesContext";
+import { Countries } from "../contexts/CountriesContext";
 import NavBar from "./NavBar";
 import FiltersTab from "./FiltersTab";
 import { useCountries } from "../contexts/CountriesContext";
 
-// export interface ListProps {
-// 	countries: Countries;
-// 	weathers: Weathers;
-// 	filters: Filters;
-// }
-
 function ListOfItems() {
 	const { countries, weathers, filters } = useCountries();
-
-
-	const [selectedCountry, setSelectedCountry] = useState(null);
-
-	const windowpopup = (country) => {
-		console.log(country); // crée un type country
-		setSelectedCountry(country);
-	};
-	const windowclosepopup = () => {
-		setSelectedCountry(null);
-	};
 
 	function filterArray(array: Countries) {
 		let filtered1
