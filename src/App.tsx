@@ -1,5 +1,5 @@
 import './App.css'
-import './css/about.css'
+import './assets/styles/About.css'
 //import ListOfItems from './components/ListOfItems';
 import MainArea from './components/MainArea';
 import Filters from './components/Filters';
@@ -85,14 +85,13 @@ export interface Weather {
 export type Weathers = Weather[]
 
 function App() {
- 
   return (
-    <>
-      <Filters />
+    <>    
+      <Filters/>
       <MainArea countries={countries} weathers={weathers} />
       <NavBar />
     </>
   )
-}
+};
 
 export default App;

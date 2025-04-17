@@ -1,6 +1,7 @@
-import Filters from "./Filters"
+// import Filters from "./Filters"
 
-const teamCard = [{name : "Mélissa", picture: "src/assets/pictures/melissa.jpg", description: "Passionate about development, I contribute to innovative projects."},
+
+const teamCard = [{name : "Melissa", picture: "src/assets/pictures/melissa.jpg", description: "Passionate about development, I contribute to innovative projects."},
     {name : "Laurent", picture: "src/assets/pictures/laurent.JPG", description: "Experienced game designer specializing in free-to-play and mobile games"},
     {name : "Daphnée", picture: "src/assets/pictures/daphnee.jpg", description: "I love creating engaging content that resonates with audiences."},
 ]
