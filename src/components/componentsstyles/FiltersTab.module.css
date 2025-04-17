@@ -2,14 +2,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* height: 25vh; */
-
     background-color: aqua;
     border-radius: 5%;
     padding: 1rem;
     margin: 0;
 }
 
-/* .currentFilters {
-    height: 65%
-} */
