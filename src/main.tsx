@@ -10,6 +10,7 @@ import { countries } from "./databases/countries.ts";
 import { weathers } from "./databases/weather.ts";
 import ListOfItems from "./components/ListOfItems.tsx";
 import About from "./components/About.tsx";
+import DetailedItem from "./components/DetailedItem.tsx";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "/search",
         element: <ListOfItems countries={countries} weathers={weathers}/>,
+      },
+      {
+        path: "/details/:countryName",
+        element: <DetailedItem />,
       },
     ],
   },

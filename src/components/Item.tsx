@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import styles from "../assets/styles/ListOfItems.module.css";
 import { ListProps } from "./ListOfItems";
 import { Country, Weathers } from "../App";
+import DetailedItem from "./DetailedItem";
+import { Link } from "react-router";
 
 interface Meal {
 	strMeal: string;
@@ -76,7 +78,7 @@ interface ItemProps {
 	handleClickPopup: any;
 }
 
-function Item({ currentCountry, handleClickPopup, weathers }: ItemProps) {
+function Item({ currentCountry, weathers }: ItemProps) {
 	// cet objet est un duplicata de weatherResults, c'est pas très propre, mais je cleanerai plus tard
 	const weatherInitial = {
 		countryLat: Math.round(currentCountry.latlng[0]),
@@ -119,9 +121,18 @@ function Item({ currentCountry, handleClickPopup, weathers }: ItemProps) {
 			// }}
 		>
 			<div className={styles.textOverlay}>
-				<button type="button" onClick={() => handleClickPopup(currentCountry)}>
-					See more info
-				</button>
+				{/*Faut crée un link, sur country name ou sur latitude/longitude, 
+				il faut aussi crée une fonction onclick, qui utilise selected country et setSelectedCountry(qui n'existe pas encore)
+				pour setter selectedCountry à currentCountry << à faire dans ITEMS
+				Dans detailed items, on récuperera selectedCountry
+				La  fonction onlclick devra aussi utiliser selectedWeather et SetSelectedWeather (qui n'existe pas non plus encore) pour setter
+				selctedWeather à weather.
+				*/}
+				<Link to={`/details/${currentCountry}`}>
+					<button type="button">
+						See more info
+					</button>
+				</Link>
 				<h2>{currentCountry.name.common}</h2>
 				<p>Average Temperature : {weather.meanTemp} °C</p>
 				{/* <p>Minimum Temperature : {weather.minTemp} °C</p>

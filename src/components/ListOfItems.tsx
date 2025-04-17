@@ -17,13 +17,6 @@ export interface ListProps {
 function ListOfItems({ countries, weathers, filters }: ListProps) {
 	const [selectedCountry, setSelectedCountry] = useState(null);
 
-	const windowpopup = (country) => {
-		console.log(country); // crée un type country
-		setSelectedCountry(country);
-	};
-	const windowclosepopup = () => {
-		setSelectedCountry(null);
-	};
 
 	function filterArray(array: Countries) {
 		let filtered1;
@@ -42,7 +35,7 @@ function ListOfItems({ countries, weathers, filters }: ListProps) {
 
 	return (
 		<>
-			<FiltersTab/>
+			{/* <FiltersTab/> */}
 			<div className={styles.container}>
 				{filterArray(countries).map((country, index) => (
 					<Item
@@ -57,6 +50,7 @@ function ListOfItems({ countries, weathers, filters }: ListProps) {
 				))}
 			</div>
 			<NavBar/>
+			<h1>Hello from listofitems</h1>
 		</>
 	);
 }
