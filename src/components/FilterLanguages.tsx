@@ -18,7 +18,9 @@ function FilterLanguages() {
 
     const langArray: string[] = ["English", "French", "Spanish", "Portuguese", "Italian", "German", "Dutch", "Arabic", "Chinese"]
 
-    return (<div className={style.filterLangContainer}>
+    return (<fieldset>
+        <legend>Languages</legend>
+    <div className={style.filterLangContainer}>
         {langArray.map((language) => (
             <div key={language}>
                 <input type="checkbox" id={language} name={language} checked={filters.languages.includes(language)} onChange={() => handleChangeLang(language)} />
@@ -33,7 +35,8 @@ function FilterLanguages() {
         <input type="checkbox" id="French" name="French" checked={!filters.languages.includes("French")} onChange={() => handleChangeLang("French")} />
         <label htmlFor="French">French</label> */}
 
-    </div>)
+    </div>
+    </fieldset>)
 }
 
 export default FilterLanguages

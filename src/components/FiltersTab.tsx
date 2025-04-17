@@ -19,6 +19,9 @@ function FiltersTab() {
         if (property === "region") {
             setFilters((prev) => ({ ...prev, region: "none" }))
         }
+        if (property === "subregion") {
+            setFilters((prev) => ({ ...prev, subregion: "none" }))
+        }
         if (property === "language")
             setFilters((prev) => ({ ...prev, languages: prev.languages.filter((language) => language !== value) }))
     }
@@ -32,6 +35,7 @@ function FiltersTab() {
                 <div className={style.currentFilters}>
                     {!filters.landlockedshown && (<button onClick={() => handleOnClickFilters("landlockedshown")}>Has a seashore</button>)}
                     {filters.region !== "none" && (<button onClick={() => handleOnClickFilters("region")}>{filters.region}</button>)}
+                    {filters.subregion !== "none" && (<button onClick={() => handleOnClickFilters("subregion")}>{filters.subregion}</button>)}
                     {filters.languages.length > 0 && (filters.languages.map((language, index) => (<button key={index} onClick={() => handleOnClickFilters("language", language)}>{language}</button>)))}
                 </div>
             </div>
