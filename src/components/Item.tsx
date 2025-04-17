@@ -23,12 +23,13 @@ interface WeatherResult {
 interface ItemProps {
 	currentCountry: Country;
 	weathers: Weathers
-	handleClickPopup: any
 }
 
 //le principal but de cette fonction est de "matcher" un pays et un weather en se basant sur la latitude
 // cet fonction NE DOIT PAS etre async à la fin, car les fetches doivent être faits dans detailled item
+
 async function getMoreWeatherData(currentCountry: Country, weathers: Weathers) {
+
 	// je crée un objet à remplir avec toutes mes données UTILES + c'est les valeurs de base de cet objet que je renvoie si j'ai un problème
 	const weatherResults = {
 		countryLat: Math.round(currentCountry.latlng[0]),
@@ -36,7 +37,7 @@ async function getMoreWeatherData(currentCountry: Country, weathers: Weathers) {
 		meanTemp: 0,
 		minTemp: 0,
 		maxTemp: 0,
-		currentTemperature: 0,
+		//currentTemperature: 0,
 		elevation: 0,
 	}
 
@@ -72,7 +73,7 @@ async function getMoreWeatherData(currentCountry: Country, weathers: Weathers) {
 	return weatherResults
 }
 
-function Item({ currentCountry, handleClickPopup, weathers }: ItemProps) {
+function Item({ currentCountry, weathers }: ItemProps) {
 	// cet objet est un duplicata de weatherResults, c'est pas très propre, mais je cleanerai plus tard
 	const weatherInitial = {
 		countryLat: Math.round(currentCountry.latlng[0]),
@@ -96,15 +97,15 @@ function Item({ currentCountry, handleClickPopup, weathers }: ItemProps) {
 		<div
 			className={styles.img}
 
-			// PAS D'IMAGE POUR L'INSTANT, j'ai du commenter ce style
-			// style={{
-			// 	backgroundImage: `url(${currentCountry.image})`,
-			// }}
+		// PAS D'IMAGE POUR L'INSTANT, j'ai du commenter ce style
+		// style={{
+		// 	backgroundImage: `url(${currentCountry.image})`,
+		// }}
 		>
 			<div className={styles.textOverlay}>
-				<button type="button" onClick={() => handleClickPopup(currentCountry)}>
+				{/* <button type="button" onClick={() => handleClickPopup(currentCountry)}>
 					See more info
-				</button>
+				</button> */}
 				<h2>{currentCountry.name.common}</h2>
 				<p>Average Temperature : {weather.meanTemp} °C</p>
 				{/* <p>Minimum Temperature : {weather.minTemp} °C</p>

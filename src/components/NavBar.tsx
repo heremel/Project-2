@@ -9,7 +9,7 @@ function NavBar() {
 	return (
 		<>
 			<nav>
-				<Link to="/about">About</Link>
+				<Link to="/">About</Link>
 				<Link to="/search">Research</Link>
 			</nav>
 		</>

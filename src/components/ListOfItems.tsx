@@ -18,16 +18,6 @@ function ListOfItems() {
 	const { filters } = useCountries();
 
 
-	const [selectedCountry, setSelectedCountry] = useState(null);
-
-	const windowpopup = (country) => {
-		console.log(country); // crée un type country
-		setSelectedCountry(country);
-	};
-	const windowclosepopup = () => {
-		setSelectedCountry(null);
-	};
-
 	function filterArray(array: Countries) {
 		let filtered1
 		let filtered2
@@ -57,7 +47,7 @@ function ListOfItems() {
 						weathers={weathers}
 						// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 						key={index}
-						handleClickPopup={windowpopup}
+						// handleClickPopup={windowpopup}
 					/> // currentCountry = props dont va avoir besoin le composant item pour fonctionner
 					//valeur fournis c'est country entre les accolades, c'est une valeur dynamique et country cest la valeur qu'attends mon
 					//composant,
