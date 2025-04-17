@@ -24,6 +24,9 @@ function FiltersTab() {
         }
         if (property === "language")
             setFilters((prev) => ({ ...prev, languages: prev.languages.filter((language) => language !== value) }))
+        if (property === "meanTemperature") {
+            setFilters((prev) => ({ ...prev, meantempmin: -99, meantempmax: 99 }))
+        }
     }
 
     return (
@@ -37,6 +40,7 @@ function FiltersTab() {
                     {filters.region !== "none" && (<button onClick={() => handleOnClickFilters("region")}>{filters.region}</button>)}
                     {filters.subregion !== "none" && (<button onClick={() => handleOnClickFilters("subregion")}>{filters.subregion}</button>)}
                     {filters.languages.length > 0 && (filters.languages.map((language, index) => (<button key={index} onClick={() => handleOnClickFilters("language", language)}>{language}</button>)))}
+                    {/*cannot be used currently because temperature is not in countries {(filters.meantempmax !== 99 || filters.meantempmin !== -99) && (<button onClick={() => handleOnClickFilters("meanTemperature")}>{filters.meantempmin}C° to {filters.meantempmax}C°</button>)} */}
                 </div>
             </div>
             {isOpen && (<FilterPage />)}

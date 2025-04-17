@@ -32,9 +32,10 @@ function ListOfItems() {
 		}
 		else { filtered3 = filtered2 }
 
-		//étapes pour appliquer les filtres 1 à 5 (manquantes)
+		if (filters.subregion !== "none") { filtered4 = filtered3.filter((country) => country.subregion === filters.subregion) }
+		else { filtered4 = filtered3 }
 
-		return filtered3 //à terme, doit retourner filtered5
+		return filtered4 //à terme, doit retourner filtered5
 	}
 
 	return (
