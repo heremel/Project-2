@@ -4,8 +4,7 @@ import { useCountries } from "../contexts/CountriesContext";
 import FilterPage from "./FilterPage";
 
 function FiltersTab() {
-    const { filters } = useCountries();
-    const { setFilters } = useCountries();
+    const { filters, setFilters  } = useCountries();
 
     const [isOpen, setIsOpen] = useState(false)
 

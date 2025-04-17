@@ -2,8 +2,7 @@ import { useCountries } from "../contexts/CountriesContext";
 
 
 function FilterTemperature() {
-    const { filters } = useCountries();
-    const { setFilters } = useCountries();
+    const { filters, setFilters  } = useCountries();
 
     const handleChangeLLS = () => {
 

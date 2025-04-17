@@ -1,9 +1,8 @@
 import {useCountries} from "../contexts/CountriesContext";
 
 function FilterSubregion() {
-    const { filters } = useCountries();
-    const { setFilters } = useCountries();
-    
+    const { filters, setFilters  } = useCountries();
+
     const handleChangeLLS = () => {
 
         setFilters((prev) => ({ ...prev, landlockedshown: !prev.landlockedshown }))

@@ -2,8 +2,7 @@ import { Regions, useCountries } from "../contexts/CountriesContext";
 import style from "./componentsstyles/FilterRegion.module.css"
 
 function FilterRegion() {
-    const { filters } = useCountries();
-    const { setFilters } = useCountries();
+    const { filters, setFilters  } = useCountries();
 
     function handleChangeRegion(string: Regions) {
         setFilters((prev) => ({ ...prev, region: string }))
