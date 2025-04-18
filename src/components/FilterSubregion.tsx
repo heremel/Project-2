@@ -12,8 +12,8 @@ function FilterSubregion() {
 
     const subregionArray: SubInRegion[] = [
         { region: "Africa", subregions: ["Northern Africa", "Eastern Africa", "Middle Africa", "Southern Africa", "Western Africa"] },
-        { region: "Americas", subregions: ["Caribbean", "Central America", "South America", "Northern America"] },
-        { region: "Asia", subregions: ["Central Asia", "Eastern Asia", "South-eastern Asia", "Southern Asia", "Western Asia"] },
+        { region: "Americas", subregions: ["Caribbean", "Central America", "South America", "North America"] },
+        { region: "Asia", subregions: ["Central Asia", "Eastern Asia", "South-Eastern Asia", "Southern Asia", "Western Asia"] },
         { region: "Europe", subregions: ["Eastern Europe", "Northern Europe", "Southern Europe", "Western Europe"] },
         { region: "Oceania", subregions: ["Australia and New Zealand", "Melanesia", "Micronesia", "Polynesia"] }
     ]

@@ -14,7 +14,7 @@ function FilterPage() {
         <FilterRegion />
         <FilterSubregion />
         <FilterLanguages />
-        <FilterTemperature  />
+        {/* <FilterTemperature  /> */}
     </div>
 }
 
