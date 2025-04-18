@@ -7,9 +7,10 @@
 .container {
 	display: flex;
 	/* flex-wrap: wrap; */
-	/* gap: 2px; */
+	gap: 2px;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 }
 
 /* doit être dans item, pas dans list
