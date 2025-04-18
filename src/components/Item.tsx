@@ -10,7 +10,9 @@ interface ItemProps {
 
 //le principal but de cette fonction est de "matcher" un pays et un weather en se basant sur la latitude
 // cet fonction NE DOIT PAS etre async à la fin, car les fetches doivent être faits dans detailled item
+
 async function getMoreWeatherData(currentCountry: Country, weathers: Weathers) {
+
 	// je crée un objet à remplir avec toutes mes données UTILES + c'est les valeurs de base de cet objet que je renvoie si j'ai un problème
 	const weatherResults = {
 		countryLat: Math.round(currentCountry.latlng[0]),
@@ -18,7 +20,7 @@ async function getMoreWeatherData(currentCountry: Country, weathers: Weathers) {
 		meanTemp: 0,
 		minTemp: 0,
 		maxTemp: 0,
-		currentTemperature: 0,
+		//currentTemperature: 0,
 		elevation: 0,
 	}
 
@@ -62,7 +64,7 @@ function Item({ currentCountry, weathers }: ItemProps) {
 		meanTemp: 0,
 		minTemp: 0,
 		maxTemp: 0,
-		currentTemperature: 0,
+		//currentTemperature: 0,
 		elevation: 0,
 	}
 

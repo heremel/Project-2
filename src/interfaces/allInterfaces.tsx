@@ -88,18 +88,25 @@ export interface Filters {
 }
 
 export interface Meal {
-	strMeal: string;
-	strMealThumb: string;
+    strMeal: string;
+    strMealThumb: string;
 }
 
 export type Meals = Meal[];
 
 export interface WeatherResult {
-	countryLat: number;
-	countryLong: number;
-	meanTemp: number;
-	minTemp: number;
-	maxTemp: number;
-	currentTemperature: number;
-	elevation: number;
+    countryLat: number;
+    countryLong: number;
+    meanTemp: number;
+    minTemp: number;
+    maxTemp: number;
+    currentTemperature?: number;
+    elevation: number;
 }
+
+export interface SubInRegion {
+    region: Regions;
+    subregions: Subregion[];
+}
+
+export type Subregion = "Northern Africa"|"Eastern Africa"|"Middle Africa"|"Southern Africa"|"Western Africa"|"Caribbean"|"Central America"|"South America"|"North America"|"Central Asia"|"Eastern Asia"|"South-Eastern Asia"|"Southern Asia"|"Western Asia"|"Eastern Europe"|"Northern Europe"|"Southern Europe"|"Western Europe"|"Australia and New Zealand"|"Melanesia"|"Micronesia"|"Polynesia"
