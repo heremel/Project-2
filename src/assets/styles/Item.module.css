@@ -6,7 +6,7 @@
 	border-radius: 10px;
 	margin-top: 20px;
 	flex-wrap: wrap;
-	height: 200px;
+	height: auto;
 	width: 300px;
 	justify-content: center;
 }
