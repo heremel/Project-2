@@ -5,13 +5,15 @@
 	color: #374f59;
 	border-radius: 10px;
 	margin-top: 20px;
-	width: 100%;
 	flex-wrap: wrap;
+	height: 200px;
+	width: 300px;
+	justify-content: center;
 }
 
 .subdiv {
 	display: flex;
 	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: center;
+	gap: 10px;
 }
