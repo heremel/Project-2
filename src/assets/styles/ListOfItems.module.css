@@ -1,4 +1,4 @@
-*{
+* {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -9,13 +9,4 @@
 	flex-wrap: wrap;
 	gap: 20px;
 	flex-direction: column;
-  }
-
-.img{
-	background-size: cover;
-	background-position: center;
-	height: 300px;
-	width: 300px;
-	display: flex;
-	justify-content: center;
 }

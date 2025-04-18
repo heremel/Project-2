@@ -1,0 +1,17 @@
+.img {
+	display: flex;
+	flex-direction: column;
+	background-color: #374f594d;
+	color: #374f59;
+	border-radius: 10px;
+	margin-top: 20px;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.subdiv {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
