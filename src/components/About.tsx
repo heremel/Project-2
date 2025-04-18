@@ -1,4 +1,5 @@
-// import Filters from "./Filters"
+import style from ".././assets/styles/About.module.css"
+
 const teamCard = [{name : "Melissa", picture: "src/assets/pictures/melissa.jpg", description: "Passionate about development, I contribute to innovative projects."},
     {name : "Laurent", picture: "src/assets/pictures/laurent.JPG", description: "Experienced game designer specializing in free-to-play and mobile games"},
     {name : "Daphnée", picture: "src/assets/pictures/daphnee.jpg", description: "I love creating engaging content that resonates with audiences."},
@@ -12,31 +13,31 @@ function About()  {
 
     return (
         <>
-        <section className="contenairlogo">
-            <img className="logo" src="src/assets/pictures/logo.png" alt="Logo DiPiRi" />
+        <section className={style.contenairlogo}>
+            <img className={style.logo} src="src/assets/pictures/logo.png" alt="Logo DiPiRi" />
         </section>
-        <section className="contenair_H1">
+        <section className={style.contenair_H1}>
             {h1Section.map((section, index) => (
-                <div key={index} className="H1">
+                <div key={index} className={style.H1}>
                     <h1>{section.title}</h1>
                     <p>{section.description}</p>
                 </div>
             ))}
         </section>
-        <section className="contenairParagraphs"> 
+        <section className={style.contenairParagraphs}> 
           {h2Section.map((section, index) => (
-                <div key={index} className="paragraphs">
+                <div key={index} className={style.paragraphs}>
                     <h2>{section.title}</h2>
                     <p>{section.description}</p>
                 </div>
             ))}
         </section>
 
-        <section className="contenairTeamCards">
+        <section className={style.contenairTeamCards}>
             {teamCard.map((person, index) => (
-                <div key={index} className="teamCard">
-                    <img className="teamCardpicture" src={person.picture} alt={person.name} />
-                    <div className ="teamCardText">
+                <div key={index} className={style.teamCard}>
+                    <img className={style.teamCardpicture} src={person.picture} alt={person.name} />
+                    <div className ={style.teamCardText}>
                     <h3>{person.name}</h3>
                     <p>{person.description}</p>
                     </div>
