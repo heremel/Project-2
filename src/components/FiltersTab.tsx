@@ -12,13 +12,21 @@ function FiltersTab() {
         setIsOpen(!isOpen)
     }
 
-    function handleOnClickFilters(property: string) {
+    function handleOnClickFilters(property: string, value?: string) {
         if (property === "landlockedshown") {
             setFilters((prev) => ({ ...prev, landlockedshown: !prev.landlockedshown }))
         }
         if (property === "region") {
             setFilters((prev) => ({ ...prev, region: "none" }))
         }
+        if (property === "subregion") {
+            setFilters((prev) => ({ ...prev, subregion: "none" }))
+        }
+        if (property === "language")
+            setFilters((prev) => ({ ...prev, languages: prev.languages.filter((language) => language !== value) }))
+        // if (property === "meanTemperature") {
+        //     setFilters((prev) => ({ ...prev, meantempmin: -99, meantempmax: 99 }))
+        // }
     }
 
     return (
@@ -30,6 +38,9 @@ function FiltersTab() {
                 <div className={style.currentFilters}>
                     {!filters.landlockedshown && (<button onClick={() => handleOnClickFilters("landlockedshown")}>Has a seashore</button>)}
                     {filters.region !== "none" && (<button onClick={() => handleOnClickFilters("region")}>{filters.region}</button>)}
+                    {filters.subregion !== "none" && (<button onClick={() => handleOnClickFilters("subregion")}>{filters.subregion}</button>)}
+                    {filters.languages.length > 0 && (filters.languages.map((language, index) => (<button key={index} onClick={() => handleOnClickFilters("language", language)}>{language}</button>)))}
+                    {/* {(filters.meantempmax !== 99 || filters.meantempmin !== -99) && (<button onClick={() => handleOnClickFilters("meanTemperature")}>{filters.meantempmin}C° to {filters.meantempmax}C°</button>)} */}
                 </div>
             </div>
             {isOpen && (<FilterPage />)}

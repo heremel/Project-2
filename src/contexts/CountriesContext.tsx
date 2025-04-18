@@ -7,23 +7,23 @@ import { Filters, Countries, Weathers  } from "../interfaces/allInterfaces";
 
 interface MyContextProps { children: ReactNode; }
 
-interface CountryContextType{
-    filters:Filters;
+interface CountryContextType {
+    filters: Filters;
     countries: Countries;
     weathers: Weathers;
     setFilters: React.Dispatch<React.SetStateAction<Filters>>
 }
 
-const CountriesContext = createContext<CountryContextType|null>(null);
+const CountriesContext = createContext<CountryContextType | null>(null);
 
 export function CountriesProvider({
     children,
-}:MyContextProps) {
+}: MyContextProps) {
 
     const defaultFilters: Filters = {
         region: "none",
         subregion: "none",
-        languages: ["none"],
+        languages: [],
         meantempmin: -99,
         meantempmax: 99,
         landlockedshown: true

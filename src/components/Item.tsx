@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import styles from "../assets/styles/ListOfItems.module.css";
+import styles from "../assets/styles/Item.module.css";
 import { Country, Weathers, WeatherResult } from "../interfaces/allInterfaces";
 
 
@@ -10,7 +10,9 @@ interface ItemProps {
 
 //le principal but de cette fonction est de "matcher" un pays et un weather en se basant sur la latitude
 // cet fonction NE DOIT PAS etre async à la fin, car les fetches doivent être faits dans detailled item
+
 async function getMoreWeatherData(currentCountry: Country, weathers: Weathers) {
+
 	// je crée un objet à remplir avec toutes mes données UTILES + c'est les valeurs de base de cet objet que je renvoie si j'ai un problème
 	const weatherResults = {
 		countryLat: Math.round(currentCountry.latlng[0]),
@@ -18,7 +20,7 @@ async function getMoreWeatherData(currentCountry: Country, weathers: Weathers) {
 		meanTemp: 0,
 		minTemp: 0,
 		maxTemp: 0,
-		currentTemperature: 0,
+		//currentTemperature: 0,
 		elevation: 0,
 	}
 
@@ -62,7 +64,7 @@ function Item({ currentCountry, weathers }: ItemProps) {
 		meanTemp: 0,
 		minTemp: 0,
 		maxTemp: 0,
-		currentTemperature: 0,
+		//currentTemperature: 0,
 		elevation: 0,
 	}
 
@@ -80,22 +82,24 @@ function Item({ currentCountry, weathers }: ItemProps) {
 		>
 			<div className={styles.textOverlay}>
 				<h2>{currentCountry.name.common}</h2>
-				<p>Average Temperature : {weather.meanTemp} °C</p>
-				{/* <p>Minimum Temperature : {weather.minTemp} °C</p>
-				<p>Maximum Temperature : {weather.maxTemp} °C</p>
-				<p>Current Temperature : {weather.currentTemperature} °C</p> */}
-				<p>Currency : {currentCountry.currencies}</p>
-				<p>Landlocked : {currentCountry.landlocked ? "true" : "false"}</p>
-				{/* <p>Capital city : {currentCountry.capital}</p> */}
-				<p>Subregion : {currentCountry.subregion}</p>
-				<p>Languages : {currentCountry.languages.join(", ")}</p>
-				{/* <p>Elevation : {weather.elevation}</p> */}
-				{/* <p>Food Item Test :{foodError ? "No Meal" : weather.meals[1].strMeal}</p> */}
-				{/* <p>WeatherLong : {currentWeatherLong}</p> //debug items
-				<p>WeatherLat : {currentWeatherLat}</p>
-				<p>CountryLong : {countryLong}</p>
-				<p>CountryLat : {countryLat}</p>
-				<p>ID : {currentWeather.location_id}</p> */}
+				<div className={styles.subdiv}>
+					<p>Average Temperature : {weather.meanTemp} °C</p>
+					{/* <p>Minimum Temperature : {weather.minTemp} °C</p>
+					<p>Maximum Temperature : {weather.maxTemp} °C</p>
+					<p>Current Temperature : {weather.currentTemperature} °C</p> */}
+					<p>Currency : {currentCountry.currencies}</p>
+					<p>Landlocked : {currentCountry.landlocked ? "true" : "false"}</p>
+					{/* <p>Capital city : {currentCountry.capital}</p> */}
+					<p>Subregion : {currentCountry.subregion}</p>
+					<p>Languages : {currentCountry.languages.join(", ")}</p>
+					{/* <p>Elevation : {weather.elevation}</p> */}
+					{/* <p>Food Item Test :{foodError ? "No Meal" : weather.meals[1].strMeal}</p> */}
+					{/* <p>WeatherLong : {currentWeatherLong}</p> //debug items
+					<p>WeatherLat : {currentWeatherLat}</p>
+					<p>CountryLong : {countryLong}</p>
+					<p>CountryLat : {countryLat}</p>
+					<p>ID : {currentWeather.location_id}</p> */}
+				</div>
 			</div>
 		</div>
 	);

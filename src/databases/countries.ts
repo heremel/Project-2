@@ -1,4 +1,5 @@
-import { Countries } from "../App";
+import { Countries } from "../interfaces/allInterfaces";
+
 
 export const countries: Countries = [
 

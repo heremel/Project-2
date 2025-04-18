@@ -1,0 +1,19 @@
+.img {
+	display: flex;
+	flex-direction: column;
+	background-color: #374f594d;
+	color: #374f59;
+	border-radius: 10px;
+	margin-top: 20px;
+	flex-wrap: wrap;
+	height: 200px;
+	width: 300px;
+	justify-content: center;
+}
+
+.subdiv {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+}
