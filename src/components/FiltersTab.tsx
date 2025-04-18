@@ -33,7 +33,7 @@ function FiltersTab() {
         <>
             <div className={style.filterTabContainer}>
                 <div>
-                    <button onClick={handleOnClickMore}>{isOpen ? "Less Filters" : "More Filters"}</button>
+                    <button className={style.moreFilters} onClick={handleOnClickMore}>{isOpen ? "Less Filters" : "More Filters"}</button>
                 </div>
                 <div className={style.currentFilters}>
                     {!filters.landlockedshown && (<button onClick={() => handleOnClickFilters("landlockedshown")}>Has a seashore</button>)}
