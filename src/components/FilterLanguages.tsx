@@ -22,7 +22,7 @@ function FilterLanguages() {
         <legend>Languages</legend>
     <div className={style.filterLangContainer}>
         {langArray.map((language) => (
-            <div key={language}>
+            <div key={language} className={style.filterLang}>
                 <input type="checkbox" id={language} name={language} checked={filters.languages.includes(language)} onChange={() => handleChangeLang(language)} />
                 <label htmlFor={language}>{language}</label>
             </div>

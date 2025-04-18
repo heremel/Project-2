@@ -1,6 +1,7 @@
 .filterPageContainer {
-    background-color: blanchedalmond;
-    border-radius: 5%;
+    background-color: var(--thirdary-color);
+    border-radius: 15px;
     padding: 1rem;
     margin: 0;
+    border: solid var(--secondary-color)
 }
