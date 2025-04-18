@@ -1,32 +1,38 @@
-import type { Filters, MainType } from "../App"
+import { useState } from "react";
+import style from ".././assets/styles/FiltersTab.module.css"
+import { useCountries } from "../contexts/CountriesContext";
+import FilterPage from "./FilterPage";
 
+function FiltersTab() {
+    const { filters, setFilters } = useCountries();
 
-interface FiltersProps {
-    filters: Filters;
-    setFilters: React.Dispatch<React.SetStateAction<Filters>>;
-    setMainContent: React.Dispatch<React.SetStateAction<MainType>>;
-}
+    const [isOpen, setIsOpen] = useState(false)
 
-
-
-
-
-function FiltersTab({ filters, setFilters, setMainContent }: FiltersProps) {
     function handleOnClickMore() {
-        setMainContent("FilterPage")
+        setIsOpen(!isOpen)
     }
 
     function handleOnClickFilters(property: string) {
         if (property === "landlockedshown") {
             setFilters((prev) => ({ ...prev, landlockedshown: !prev.landlockedshown }))
         }
+        if (property === "region") {
+            setFilters((prev) => ({ ...prev, region: "none" }))
+        }
     }
 
     return (
         <>
-            {!filters.landlockedshown && (<button type="button" onClick={() => handleOnClickFilters("landlockedshown")}>Has a seashore</button>)}
-
-            <button type="button" onClick={handleOnClickMore}>More Filters</button>
+            <div className={style.filterTabContainer}>
+                <div>
+                    <button onClick={handleOnClickMore}>{isOpen ? "Less Filters" : "More Filters"}</button>
+                </div>
+                <div className={style.currentFilters}>
+                    {!filters.landlockedshown && (<button onClick={() => handleOnClickFilters("landlockedshown")}>Has a seashore</button>)}
+                    {filters.region !== "none" && (<button onClick={() => handleOnClickFilters("region")}>{filters.region}</button>)}
+                </div>
+            </div>
+            {isOpen && (<FilterPage />)}
         </>)
 }
 

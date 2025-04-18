@@ -1,13 +1,7 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.tsx";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, Link, RouterProvider } from "react-router";
-import MainArea from "./components/MainArea.tsx";
-import Test from "./components/Test.tsx";
-import { countries } from "./databases/countries.ts";
-import { weathers } from "./databases/weather.ts";
+import { createBrowserRouter, RouterProvider } from "react-router";
 import ListOfItems from "./components/ListOfItems.tsx";
 import About from "./components/About.tsx";
 import DetailedItem from "./components/DetailedItem.tsx";
@@ -22,7 +16,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/search",
-        element: <ListOfItems countries={countries} weathers={weathers}/>,
+        element: <ListOfItems />,
       },
       {
         path: "/details/:countryName",
@@ -35,5 +29,5 @@ const router = createBrowserRouter([
 const rootElement = document.getElementById("root");
 
 if (rootElement != null) {
-	ReactDOM.createRoot(rootElement).render(<RouterProvider router={router} />);
+  ReactDOM.createRoot(rootElement).render(<RouterProvider router={router} />);
 }

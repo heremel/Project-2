@@ -1,6 +1,3 @@
-import { useState } from "react";
-import { useParams } from "react-router";
-
 export interface DetailedProps {
 	country: CountryItem;
 } //étape deux
