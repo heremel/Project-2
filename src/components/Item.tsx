@@ -79,7 +79,7 @@ function Item({ currentCountry, weathers }: ItemProps) {
 
 	return (
 		<div className={styles.img}>
-			<h2>{currentCountry.name.common}</h2>
+			<h2 className={styles.h2item}>{currentCountry.name.common}</h2>
 			<div className={styles.subdiv}>
 				<p>Average Temperature : {weather.meanTemp} °C</p>
 				{/* <p>Minimum Temperature : {weather.minTemp} °C</p>

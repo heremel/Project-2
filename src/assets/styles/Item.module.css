@@ -1,8 +1,8 @@
 .img {
 	display: flex;
 	flex-direction: column;
-	background-color: #374f594d;
-	color: #374f59;
+	background-color: var(--primary-color);
+	color: var(--thirdary-color);
 	border-radius: 10px;
 	margin-top: 20px;
 	flex-wrap: wrap;
@@ -16,4 +16,8 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: 5px;
+}
+
+.h2item {
+	color: var(--thirdary-color);
 }
