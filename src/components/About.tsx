@@ -8,7 +8,7 @@ const h2Section = [{title : "Our mission", description : "Our mission is to revo
     {title : "Our team", description : "We are a passionate team of developers, designers, and travel enthusiasts who have come together to create a unique travel experience."},
 ]
 
-function About() {
+function About()  {
 
     return (
         <>
