@@ -14,7 +14,7 @@ function FilterPage() {
         <FilterRegion />
         <FilterSubregion />
         <FilterLanguages />
-        {/* <FilterTemperature  /> cannot be used currently because not in countries*/}
+        <FilterTemperature  />
     </div>
 }
 
