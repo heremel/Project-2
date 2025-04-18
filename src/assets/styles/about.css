@@ -25,23 +25,18 @@ h1{
 h2{
     font-size: 1.5rem;
     font-weight: 600px;
-    align-items: baseline;
     margin-bottom: 0.2rem;
     color: var(--primary-color);
 }
 h3{
-    font-size: 1.2rem;
-    font-weight: 600px;
-    padding: 0.5rem;
-    color: var(--primary-color);
-}
-.teamCardText h3{
     justify-content: left;
     font-size: 1.2rem;
     font-weight: 600px;
     padding: 0.5rem;
     color: var(--primary-color);
 }
+
+
 p{
     font-size: 1rem;
     font-weight: 400px;
@@ -51,7 +46,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     text-align: left;
     padding: 2rem, 1rem, 1rem, 1rem;
 }
@@ -67,8 +62,21 @@ div{
     padding: 1rem;
 }
 
+.contenairParagraphs{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
 .paragraphs{
     width: 100%;
+    align-items: left;
+    justify-content: left;
 }
 
 .teamCard{
@@ -89,6 +97,15 @@ div{
     font-weight: 600px;
     padding: 0.5rem;
     color: var(--secondary-color);
+}
+.contenair_H1{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 .teamCardText{
     display: flex;

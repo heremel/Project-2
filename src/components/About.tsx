@@ -1,6 +1,4 @@
 // import Filters from "./Filters"
-
-
 const teamCard = [{name : "Melissa", picture: "src/assets/pictures/melissa.jpg", description: "Passionate about development, I contribute to innovative projects."},
     {name : "Laurent", picture: "src/assets/pictures/laurent.JPG", description: "Experienced game designer specializing in free-to-play and mobile games"},
     {name : "Daphnée", picture: "src/assets/pictures/daphnee.jpg", description: "I love creating engaging content that resonates with audiences."},
@@ -14,6 +12,9 @@ function About() {
 
     return (
         <>
+        <section className="contenairlogo">
+            <img className="logo" src="src/assets/pictures/logo.png" alt="Logo DiPiRi" />
+        </section>
         <section className="contenair_H1">
             {h1Section.map((section, index) => (
                 <div key={index} className="H1">
@@ -22,7 +23,7 @@ function About() {
                 </div>
             ))}
         </section>
-        <section className="contenairparagraphs"> 
+        <section className="contenairParagraphs"> 
           {h2Section.map((section, index) => (
                 <div key={index} className="paragraphs">
                     <h2>{section.title}</h2>

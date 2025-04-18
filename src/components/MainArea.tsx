@@ -13,7 +13,6 @@ interface MainProps {
 
 function MainArea() { 
      const [currentPage, setCurrentPage] = useState('about'); // 'about', 'filters', 'detailledItem'
-    
     return (
         <>
     
