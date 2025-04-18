@@ -1,20 +1,18 @@
+import FilterLandLocked from "./FilterLandlocked"
+import FilterRegion from "./FilterRegion"
 
 
-interface FilterPageProps {
-
-}
-
-
-
-
+import style from ".././assets/styles/FilterPage.module.css"
 
 function FilterPage() {
 
-    return (
-
-        <p>Kikou</p>
-
-    )
+    return <div className={style.filterPageContainer}>
+        <FilterLandLocked />
+        <FilterRegion />
+        {/*<FilterSubregion />
+        <FilterLanguages  />
+        <FilterTemperature  /> */}
+    </div>
 }
 
 export default FilterPage

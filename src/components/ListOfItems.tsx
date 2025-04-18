@@ -1,103 +1,47 @@
 import styles from "./../assets/styles/ListOfItems.module.css";
 import Item from "./Item";
-import PopUp from "./PopUp";
-// import { countries } from "../databases/countries";
-// import { weathers } from "../databases/weather";
-import { useState } from "react";
-import { Countries } from "../App";
-import { Weathers } from "../App";
+import { Countries } from "../interfaces/allInterfaces";
+import NavBar from "./NavBar";
+import FiltersTab from "./FiltersTab";
+import { useCountries } from "../contexts/CountriesContext";
 
-// export const fakeObject = {
-// 	countries: [
-// 		{
-// 			name: "France",
-// 			temperature: 12,
-// 			currency: "Euro",
-// 			image:
-// 				"https://img.freepik.com/photos-gratuite/capture-verticale-magnifique-tour-eiffel-capturee-paris-france_181624-45445.jpg",
-// 			popupInfo: {
-// 				culturalFacts: "J'en ai pas",
-// 				touristSpots: [
-// 					"The Eiffel Tower",
-// 					"The Louvre",
-// 					"The Mont Saint-Michel",
-// 				],
-// 				famousFood: "Baguette, Croissant",
-// 			},
-// 		},
-// 		{
-// 			name: "Canada",
-// 			temperature: -5,
-// 			currency: "Dollar Canadien",
-// 			image:
-// 				"https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-// 			popupInfo: {
-// 				culturalFacts: "Il fait froid",
-// 				touristSpots: ["Le Château Frontenac", "Le Banff National Park"],
-// 				famousFood: "Poutine",
-// 			},
-// 		},
-// 		{
-// 			name: "Bulgarie",
-// 			temperature: 32,
-// 			currency: "Bulgarian lev",
-// 			image:
-// 				"https://cdn.pixabay.com/photo/2019/03/07/21/59/sofia-4041209_1280.jpg",
-// 			popupInfo: {
-// 				culturalFacts: "La Bulgarie est connue pour sa musique folklorique!",
-// 				touristSpots: ["Le Rila Monastery", "Sofia", "Plovdiv"],
-// 				famousFood: "Banista",
-// 			},
-// 		},
-// 		{
-// 			name: "Japon",
-// 			temperature: 16,
-// 			currency: "Yen",
-// 			image:
-// 				"https://img.freepik.com/free-photo/beautiful-aerial-shot-modern-city-architecture-with-illuminated-tower-side_181624-1714.jpg?semt=ais_hybrid&w=740",
-// 			popupInfo: {
-// 				culturalFacts:
-// 					"Le Japon est réputé pour sa technologie avancée et sa culture traditionnelle.",
-// 				touristSpots: ["Mont Fuji", "Temple Senso-ji", "Château d'Osaka"],
-// 				famousFood: "Sushi, Ramen",
-// 			},
-// 		},
-// 	],
-// };
+function ListOfItems() {
+	const { countries, weathers, filters } = useCountries();
 
-export interface ListProps {
-	countries: Countries,
-	weathers: Weathers
-}
+	function filterArray(array: Countries) {
+		let filtered1
+		let filtered2
+		let filtered3
+		let filtered4
+		let filtered5
 
+		//étape pour appliquer le filtre 1
+		if (!filters.landlockedshown) { filtered1 = array.filter((country) => country.landlocked === false) }
+		else { filtered1 = array }
 
-function ListOfItems({ countries, weathers }: ListProps) {
-	const [selectedCountry, setSelectedCountry] = useState(null);
+		if (filters.region !== "none") { filtered2 = filtered1.filter((country) => country.region === filters.region) }
+		else { filtered2 = filtered1 }
 
-	const windowpopup = (country) => {
-		console.log(country); // crée un type country
-		setSelectedCountry(country);
-	};
-	const windowclosepopup = () => {
-		setSelectedCountry(null);
-	};
+		//étapes pour appliquer les filtres 1 à 5 (manquantes)
+
+		return filtered2 //à terme, doit retourner filtered5
+	}
+
 	return (
 		<>
+			<FiltersTab />
 			<div className={styles.container}>
-				{countries.map((country, index) => (
+				{filterArray(countries).map((country, index) => (
 					<Item
 						currentCountry={country}
 						weathers={weathers}
+						// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 						key={index}
-						handleClickPopup={windowpopup}
 					/> // currentCountry = props dont va avoir besoin le composant item pour fonctionner
 					//valeur fournis c'est country entre les accolades, c'est une valeur dynamique et country cest la valeur qu'attends mon
 					//composant,
 				))}
 			</div>
-			{selectedCountry !== null && (
-				<PopUp country={selectedCountry} closePopup={windowclosepopup} />
-			)}
 		</>
 	);
 }
