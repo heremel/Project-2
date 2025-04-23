@@ -7,18 +7,15 @@ interface ItemProps {
 	weathers: Weathers;
 }
 
-//le principal but de cette fonction est de "matcher" un pays et un weather en se basant sur la latitude
+//le principal but de cette fonction est de "matcher" un pays et un weather en se basant sur l'id'
 // cet fonction NE DOIT PAS etre async à la fin, car les fetches doivent être faits dans detailled item
 
-async function getMoreWeatherData(currentCountry: Country, weathers: Weathers) {
+function getMoreWeatherData(currentCountry: Country, weathers: Weathers) {
 	// je crée un objet à remplir avec toutes mes données UTILES + c'est les valeurs de base de cet objet que je renvoie si j'ai un problème
 	const weatherResults = {
-		countryLat: Math.round(currentCountry.latlng[0]),
-		countryLong: Math.round(currentCountry.latlng[1]),
 		meanTemp: 0,
 		minTemp: 0,
 		maxTemp: 0,
-		//currentTemperature: 0,
 		elevation: 0,
 	};
 
@@ -29,14 +26,13 @@ async function getMoreWeatherData(currentCountry: Country, weathers: Weathers) {
 
 	const currentWeather = weathers.find(
 		(weather) =>
-			Math.round(weather.latitude) == Math.round(weatherResults.countryLat) &&
-			Math.round(weather.longitude) == Math.round(weatherResults.countryLong),
+			weather.location_id===currentCountry.location_id,
 	);
 	if (!currentWeather) {
 		return weatherResults;
 	}
-	currentWeatherLong = Math.round(currentWeather.longitude);
-	currentWeatherLat = Math.round(currentWeather.latitude);
+	currentWeatherLong = currentWeather.longitude;
+	currentWeatherLat = currentWeather.latitude;
 	const sum = currentWeather.daily.temperature_2m_mean.reduce((a, b) => a + b);
 	weatherResults.meanTemp =
 		Math.floor((sum / currentWeather.daily.temperature_2m_mean.length) * 100) /
@@ -59,12 +55,9 @@ async function getMoreWeatherData(currentCountry: Country, weathers: Weathers) {
 function Item({ currentCountry, weathers }: ItemProps) {
 	// cet objet est un duplicata de weatherResults, c'est pas très propre, mais je cleanerai plus tard
 	const weatherInitial = {
-		countryLat: Math.round(currentCountry.latlng[0]),
-		countryLong: Math.round(currentCountry.latlng[1]),
 		meanTemp: 0,
 		minTemp: 0,
 		maxTemp: 0,
-		//currentTemperature: 0,
 		elevation: 0,
 	};
 
@@ -72,10 +65,10 @@ function Item({ currentCountry, weathers }: ItemProps) {
 	useEffect(() => {
 		// à la création de l'item, tous les éléments sont mis (ils ne seront jamais mis à jour)
 		async function getWeatherData() {
-			setWeather(await getMoreWeatherData(currentCountry, weathers));
+			setWeather(getMoreWeatherData(currentCountry, weathers));
 		}
 		getWeatherData();
-	}, []);
+	},);
 
 	return (
 		<div className={styles.img}>

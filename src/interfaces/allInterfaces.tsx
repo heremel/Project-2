@@ -1,5 +1,6 @@
 //INTERFACES ET TYPES
 export interface Country {
+    location_id: number;
     name: {
         common: string;
         official: string;
@@ -95,8 +96,6 @@ export interface Meal {
 export type Meals = Meal[];
 
 export interface WeatherResult {
-    countryLat: number;
-    countryLong: number;
     meanTemp: number;
     minTemp: number;
     maxTemp: number;
