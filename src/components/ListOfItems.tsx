@@ -1,13 +1,17 @@
 import styles from "./../assets/styles/ListOfItems.module.css";
 import Item from "./Item";
-import { Countries } from "../interfaces/allInterfaces";
+import { WeathersCountries } from "../interfaces/allInterfaces";
 import FiltersTab from "./FiltersTab";
 import { useCountries } from "../contexts/CountriesContext";
 
 function ListOfItems() {
 	const { countries, weathers, filters } = useCountries();
 
-	function filterArray(array: Countries) {
+	//buggué: les index foirent à chaque filtre
+	const weatherInCountries = countries.map((country, index) => ({ ...country, ...weathers[index] }))
+	console.log(weatherInCountries[0])
+
+	function filterArray(array: WeathersCountries) {
 		let filtered1
 		let filtered2
 		let filtered3
@@ -35,24 +39,12 @@ function ListOfItems() {
 		if (filters.subregion !== "none") { filtered4 = filtered3.filter((country) => country.subregion === filters.subregion) }
 		else { filtered4 = filtered3 }
 
-		// let filteredWeather = weathers.filter((weather) => {
-		// 	const sum = weather.daily.temperature_2m_mean.reduce((a, b) => a + b);
-		// 	const meanTemp = Math.floor((sum / weather.daily.temperature_2m_mean.length) * 100) / 100;
+		// filtered5 = filtered4.filter((country) => {
+		// 	const sum = country.daily.temperature_2m_mean.reduce((a, b) => a + b);
+		// 	const meanTemp = Math.floor((sum / country.daily.temperature_2m_mean.length) * 100) / 100;
 		// 	return ((meanTemp <= filters.meantempmax) && (meanTemp >= filters.meantempmin))
 		// })
-		// console.log("filtered weathers")
-		// console.log(filteredWeather)
-		// console.log(filteredWeather[0])
-		// let longlat = filteredWeather.map((weather) => [Math.round(weather.latitude), Math.round(weather.longitude)])
-		// console.log("longlat")
-		// console.log(longlat)
-		// console.log(longlat[0])
-
-		// filtered5 = filtered4.filter((country) => (longlat.includes([Math.round(country.latlng[0]), Math.round(country.latlng[1])])))
-		// console.log([Math.round(filtered4[0].latlng[0]), Math.round(filtered4[0].latlng[1])])
-		// console.log("filtered5")
-		// console.log(filtered5)
-		// console.log(filtered5[0])
+		
 		return filtered4 //à terme, doit retourner filtered5
 	}
 
@@ -60,10 +52,10 @@ function ListOfItems() {
 		<>
 			<FiltersTab />
 			<div className={styles.container}>
-				{filterArray(countries).map((country, index) => (
+				{filterArray(weatherInCountries).map((country, index) => (
 					<Item
 						currentCountry={country}
-						weathers={weathers}
+
 						// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 						key={index}
 					/> // currentCountry = props dont va avoir besoin le composant item pour fonctionner
