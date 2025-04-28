@@ -1,22 +1,8 @@
 import { useParams } from "react-router-dom";
 import { countries } from "../databases/countries";
-
-export interface DetailedProps {
-	country: CountryItem;
-} //étape deux
-
-export interface CountryItem {
-	name: string;
-	currencies: string;
-	capital: string;
-	region: string;
-	subregion: string;
-	languages: string[];
-	landlocked: boolean;
-} //étape une
+import { weathers } from "../databases/weather";
 
 function DetailedItem() {
-	//je dois récup ma current country
 	const { location_id } = useParams<{ location_id: string }>();
 	const country = countries.find(
 		(currentLocatedCountry) =>
@@ -29,15 +15,34 @@ function DetailedItem() {
 		return <p>Country not found!</p>;
 	}
 
+	const weather = weathers.find(
+		(currentWeather) => currentWeather.location_id === Number(location_id),
+	);
+
+	if (!weather) {
+		return <p>Data not found!</p>;
+	}
+
+	const hasSnowfall = weather.daily.snowfall_sum.some(
+		(snow: number) => snow > 0,
+	); //trouve si y'a de la snow
+
 	return (
 		<>
 			<p>Name : {country.name.common}</p>
-			<p>Currency : {country.currencies}</p>
+			{/* <p>Currency : {country.currencies}</p> */}
 			<p>Capital : {country.capital}</p>
 			<p>Region : {country.region}</p>
 			<p>Subregion : {country.subregion}</p>
 			<p>Languages : {country.languages.join(", ")}</p>
 			<p>Landlocked : {country.landlocked ? "Yes" : "No"}</p>
+			<p>Snowfall : {hasSnowfall ? "Yes" : "No"}</p>
+			<p>
+				Google Maps Link :{" "}
+				<a target="_blank" href={country.maps.googleMaps} rel="noreferrer">
+					View
+				</a>
+			</p>
 		</>
 	);
 }

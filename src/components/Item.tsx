@@ -44,9 +44,6 @@ function Item({ currentCountry, weathers }: ItemProps) {
 				{/* <p>Elevation : {currentCountry.elevation}</p> */}
 				{/* <p>ID : {currentWeather.location_id}</p> */}
 				<Link to={`/details/${currentCountry.location_id}`}>More Info</Link>
-
-				{/* // <Link to="le début du lien / entre accolade location id qui dépend de la ou je suis currentCountry.location_id">DetailedItem</Link> */}
-
 			</div>
 		</div>
 	);
