@@ -39,13 +39,14 @@ function ListOfItems() {
 		if (filters.subregion !== "none") { filtered4 = filtered3.filter((country) => country.subregion === filters.subregion) }
 		else { filtered4 = filtered3 }
 
-		// filtered5 = filtered4.filter((country) => {
-		// 	const sum = country.daily.temperature_2m_mean.reduce((a, b) => a + b);
-		// 	const meanTemp = Math.floor((sum / country.daily.temperature_2m_mean.length) * 100) / 100;
-		// 	return ((meanTemp <= filters.meantempmax) && (meanTemp >= filters.meantempmin))
-		// })
-		
-		return filtered4 //à terme, doit retourner filtered5
+		let filteredWeather = weathers.filter((weather) => {
+			const sum = weather.daily.temperature_2m_mean.reduce((a, b) => a + b);
+			const meanTemp = Math.floor((sum / weather.daily.temperature_2m_mean.length) * 100) / 100;
+			return ((meanTemp <= filters.meantempmax) && (meanTemp >= filters.meantempmin))
+		})
+		let weatherIDs = filteredWeather.map((weather) => weather.location_id)
+		filtered5 = filtered4.filter((country) => (weatherIDs.includes(country.location_id)))
+		return filtered5
 	}
 
 	return (
@@ -56,8 +57,7 @@ function ListOfItems() {
 				{filterArray(weatherInCountries).map((country, index) => (
 					<Item
 						currentCountry={country}
-
-						// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
+						weathers={weathers}
 						key={index}
 					/> // currentCountry = props dont va avoir besoin le composant item pour fonctionner
 					//valeur fournis c'est country entre les accolades, c'est une valeur dynamique et country cest la valeur qu'attends mon
