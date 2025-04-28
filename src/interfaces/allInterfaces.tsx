@@ -47,6 +47,7 @@ export interface Country {
 export type Countries = Country[];
 
 export interface Weather {
+	rain_sum: any;
     latitude: number;
     longitude: number;
     generationtime_ms: number;

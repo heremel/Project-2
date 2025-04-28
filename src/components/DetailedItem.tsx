@@ -1,6 +1,8 @@
 import { useParams } from "react-router-dom";
 import { countries } from "../databases/countries";
 import { weathers } from "../databases/weather";
+import { useState } from "react";
+import { Weather } from "../interfaces/allInterfaces";
 
 function DetailedItem() {
 	const { location_id } = useParams<{ location_id: string }>();
@@ -27,18 +29,53 @@ function DetailedItem() {
 		(snow: number) => snow > 0,
 	); //trouve si y'a de la snow
 
+	const sum = weather.daily.temperature_2m_mean.reduce((a, b) => a + b, 0);
+	const weatherMeanTemp =
+		Math.round((sum / weather.daily.temperature_2m_mean.length) * 100) / 100;
+	const weatherMinTemp = Math.min(...weather.daily.temperature_2m_min);
+	const weatherMaxTemp = Math.max(...weather.daily.temperature_2m_max);
+
+	const urlWeather = `https://api.open-meteo.com/v1/forecast?latitude=${weather.latitude}&longitude=${weather.longitude}&current=temperature_2m`;
+	const [currentWeather, setCurrentWeather] = useState(0);
+
+	fetch(urlWeather)
+		.then((response) => response.json())
+		.then((data) => setCurrentWeather(data.current.temperature_2m))
+		.catch((err) => console.error(err));
+
+	const totalOfRainyDays = weather.daily.rain_sum;
+	console.log(totalOfRainyDays);
+	const newTotalOfRainyDays = totalOfRainyDays.filter(
+		(day: number) => day > 2.4,
+	);
+
+	const sumOfRainyDays = weather.daily.rain_sum.reduce((a, b) => a + b, 0);
+	const averageRainyDays =
+		Math.round((sumOfRainyDays / weather.daily.rain_sum.length) * 100) / 100;
+
 	return (
 		<>
-			<p>Name : {country.name.common}</p>
-			{/* <p>Currency : {country.currencies}</p> */}
-			<p>Capital : {country.capital}</p>
-			<p>Region : {country.region}</p>
-			<p>Subregion : {country.subregion}</p>
-			<p>Languages : {country.languages.join(", ")}</p>
-			<p>Landlocked : {country.landlocked ? "Yes" : "No"}</p>
-			<p>Snowfall : {hasSnowfall ? "Yes" : "No"}</p>
+			<p>Name: {country.name.common}</p>
+			<p>Capital: {country.capital}</p>
+			<p>Region: {country.region}</p>
+			<p>Subregion: {country.subregion}</p>
+			<p>Languages: {country.languages.join(", ")}</p>
+			<p>Weather: {currentWeather}°C</p>
+			<p>Min Temp: {weatherMinTemp}°C</p>
+			<p>Max Temp: {weatherMaxTemp}°C</p>
+			<p>Average Temp: {weatherMeanTemp}°C</p>
+			<p>Landlocked: {country.landlocked ? "Yes" : "No"}</p>
+			<p>Snowfall: {hasSnowfall ? "Yes" : "No"}</p>
+			<p>Rainy Days: {newTotalOfRainyDays.length}</p>
+			{/* Pour la pluie selon les critères de l'OMM on a:
+				Précipitation nulle: < 0.1mm/h
+				(donc 2.4mm/j)
+				https://library.wmo.int/viewer/54922/download?file=1203_fr.pdf&type=pdf&navigator=1
+				Page 14, 15
+			*/}
+			<p>Average Rain Per Day: {averageRainyDays}</p>
 			<p>
-				Google Maps Link :{" "}
+				Google Maps Link:{" "}
 				<a target="_blank" href={country.maps.googleMaps} rel="noreferrer">
 					View
 				</a>
@@ -48,23 +85,3 @@ function DetailedItem() {
 }
 
 export default DetailedItem;
-
-//<Link to="le début du lien / entre accolade location id qui dépend de la ou je suis currentCountry.location_id">DetailedItem</Link>
-
-//recup la fin de l'url ça te donnera le nom du currentcountry
-
-//urlFood = `https://www.themealdb.com/api/json/v1/1/filter.php?a=${currentCountry.demonyms.eng.masc}`
-
-//c'est le bon code, mais à déplacer dans detailled item:
-// urlWeather = `https://api.open-meteo.com/v1/forecast?latitude=${currentCountry.latitude}&longitude=${currentCountry.longitude}&current=temperature_2m`
-// await fetch(urlWeather)
-// 	.then(response => response.json())
-// 	.then(data => weatherResults.currentTemperature = data.current.temperature_2m)// seule "temperature actuelle" est fetchée, les autres sont en BDD
-// 	.catch(err => console.error(err));
-
-// 	const sum = currentCountry.daily.temperature_2m_mean.reduce((a, b) => a + b);
-// 	weatherResults.meanTemp =
-// 		Math.floor((sum / currentCountry.daily.temperature_2m_mean.length) * 100) /
-// 		100;
-// 	weatherResults.minTemp = Math.min(...currentCountry.daily.temperature_2m_min);
-// 	weatherResults.maxTemp = Math.max(...currentCountry.daily.temperature_2m_max);
