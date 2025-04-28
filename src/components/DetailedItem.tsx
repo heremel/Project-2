@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { countries } from "../databases/countries";
 import { weathers } from "../databases/weather";
@@ -27,6 +28,30 @@ function DetailedItem() {
 		(snow: number) => snow > 0,
 	); //trouve si y'a de la snow
 
+	const urlFood = `https://www.themealdb.com/api/json/v1/1/filter.php?a=${country.demonyms.eng.masc}`
+
+	const defaultFood = {
+		strMeal: "",
+		strMealThumb: "",
+		idMeal: ""
+	}
+
+	const [food, setFood] = useState(defaultFood)
+
+	console.log("mealName:" + food.strMeal)
+
+	console.log("mealImage:" + food.strMealThumb)
+
+	useEffect(() => {
+		fetch(urlFood)
+			.then(response => response.json())
+			.then(data => (setFood(data.meals[0])))
+			.catch(err => console.error(err));
+
+		console.log("mealName:" + food.strMeal)
+		console.log("mealImage:" + food.strMealThumb)
+	}, [])
+
 	return (
 		<>
 			<p>Name : {country.name.common}</p>
@@ -43,6 +68,12 @@ function DetailedItem() {
 					View
 				</a>
 			</p>
+			{!food.strMeal ? (<div>
+				<p>Typical food: Not found </p>
+			</div>) : (<div>
+				<p>Typical food: {food.strMeal} </p>
+				<img src={food.strMealThumb} />
+			</div>)}
 		</>
 	);
 }
