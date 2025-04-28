@@ -40,20 +40,9 @@ function ListOfItems() {
 			const meanTemp = Math.floor((sum / weather.daily.temperature_2m_mean.length) * 100) / 100;
 			return ((meanTemp <= filters.meantempmax) && (meanTemp >= filters.meantempmin))
 		})
-		console.log("filtered weathers")
-		console.log(filteredWeather)
-		console.log(filteredWeather[0])
 		let weatherIDs = filteredWeather.map((weather) => weather.location_id)
-		console.log("longlat")
-		console.log(weatherIDs)
-		console.log(weatherIDs[0])
-
 		filtered5 = filtered4.filter((country) => (weatherIDs.includes(country.location_id)))
-		// console.log([Math.round(filtered4[0].latlng[0]), Math.round(filtered4[0].latlng[1])])
-		console.log("filtered5")
-		console.log(filtered5)
-		console.log(filtered5[0])
-		return filtered5 //à terme, doit retourner filtered5
+		return filtered5
 	}
 
 	return (
@@ -65,7 +54,6 @@ function ListOfItems() {
 					<Item
 						currentCountry={country}
 						weathers={weathers}
-						// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 						key={index}
 					/> // currentCountry = props dont va avoir besoin le composant item pour fonctionner
 					//valeur fournis c'est country entre les accolades, c'est une valeur dynamique et country cest la valeur qu'attends mon
