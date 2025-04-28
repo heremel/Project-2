@@ -13,6 +13,7 @@ function ListOfItems() {
 		let filtered3 = null
 		let filtered4 = null
 		let filtered5 = null
+		let filtered6 = null
 
 		//étape pour appliquer le filtre 1
 		if (!filters.landlockedshown) { filtered1 = array.filter((country) => country.landlocked === false) }
@@ -42,7 +43,15 @@ function ListOfItems() {
 		})
 		let weatherIDs = filteredWeather.map((weather) => weather.location_id)
 		filtered5 = filtered4.filter((country) => (weatherIDs.includes(country.location_id)))
-		return filtered5
+
+		if (filters.search !== "") {
+			console.log(filters.search)
+
+			filtered6 = filtered5.filter((country) => { return ((country.name.common.toLowerCase().includes(filters.search.toLowerCase())) || (country.name.official.toLowerCase().includes(filters.search.toLowerCase()))) })
+		}
+		else { { filtered6 = filtered5 } }
+
+		return filtered6
 	}
 
 	return (
