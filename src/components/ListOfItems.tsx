@@ -48,7 +48,9 @@ function ListOfItems() {
 	return (
 		<>
 			<FiltersTab />
-			<p>Results:{filteredArray.length}</p>
+			<h2>Prepare your trip</h2>
+			<p>Find the next destination to add to your Dreams, Plans, or Remembrances </p>
+			<p>Current possibilities:{filteredArray.length}</p>
 			<div className={styles.container}>
 				{filteredArray.map((country) => (
 					<Item
