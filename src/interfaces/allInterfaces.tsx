@@ -77,6 +77,9 @@ export interface Weather {
 
 export type Weathers = Weather[];
 
+export type WeatherCountry = Country & Weather
+export type WeathersCountries = WeatherCountry[]
+
 export type Regions = "none" | "Europe" | "Africa" | "Americas" | "Asia" | "Oceania";
 
 export interface Filters {
@@ -99,8 +102,6 @@ export interface WeatherResult {
     meanTemp: number;
     minTemp: number;
     maxTemp: number;
-    currentTemperature?: number;
-    elevation: number;
 }
 
 export interface SubInRegion {
@@ -108,4 +109,4 @@ export interface SubInRegion {
     subregions: Subregion[];
 }
 
-export type Subregion = "Northern Africa"|"Eastern Africa"|"Middle Africa"|"Southern Africa"|"Western Africa"|"Caribbean"|"Central America"|"South America"|"North America"|"Central Asia"|"Eastern Asia"|"South-Eastern Asia"|"Southern Asia"|"Western Asia"|"Eastern Europe"|"Northern Europe"|"Southern Europe"|"Western Europe"|"Australia and New Zealand"|"Melanesia"|"Micronesia"|"Polynesia"
+export type Subregion = "Northern Africa" | "Eastern Africa" | "Middle Africa" | "Southern Africa" | "Western Africa" | "Caribbean" | "Central America" | "South America" | "North America" | "Central Asia" | "Eastern Asia" | "South-Eastern Asia" | "Southern Asia" | "Western Asia" | "Eastern Europe" | "Northern Europe" | "Southern Europe" | "Western Europe" | "Australia and New Zealand" | "Melanesia" | "Micronesia" | "Polynesia"
