@@ -11,12 +11,9 @@ function ListOfItems() {
 	useEffect(() => {
 		setFilteredArray(countries)
 
-
 		if (!filters.landlockedshown) { setFilteredArray((prev) => prev.filter((country) => country.landlocked === false)) }
 
-
 		if (filters.region !== "none") { setFilteredArray((prev) => prev.filter((country) => country.region === filters.region)) }
-
 
 		if (filters.languages.length > 0) {
 			setFilteredArray((prev) => prev.filter((country) => {
@@ -42,7 +39,6 @@ function ListOfItems() {
 
 		if (filters.search !== "") {
 			console.log(filters.search)
-
 			setFilteredArray((prev) => prev.filter((country) => { return ((country.name.common.toLowerCase().includes(filters.search.toLowerCase())) || (country.name.official.toLowerCase().includes(filters.search.toLowerCase()))) }))
 		}
 
