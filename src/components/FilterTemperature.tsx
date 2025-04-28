@@ -4,16 +4,23 @@ import { useCountries } from "../contexts/CountriesContext";
 function FilterTemperature() {
     const { filters, setFilters  } = useCountries();
 
-    const handleChangeLLS = () => {
+    function handleChangeMin(number: number) {
+            setFilters((prev) => ({ ...prev, meantempmin: number }))
+        }
 
-        setFilters((prev) => ({ ...prev, landlockedshown: !prev.landlockedshown }))
+        function handleChangeMax(number: number) {
+            setFilters((prev) => ({ ...prev, meantempmax: number }))
+        }
 
-    }
-    return <>
-        <input type="checkbox" id="landlocked" name="landlocked" checked={!filters.landlockedshown} onChange={handleChangeLLS} />
-        <label htmlFor="landlocked">Has a seashore</label>
 
-    </>
+
+    return (<fieldset>
+        <legend>Mean temperature in C°</legend>
+        <label htmlFor="min">between</label>
+        <input type="number" id="min" name="min" min="-99" max={filters.meantempmax} value={filters.meantempmin} onChange={(event)=>(handleChangeMin(parseInt(event.target.value)))} />
+        <label htmlFor="max">and</label>
+        <input type="number" id="max" name="max" min={filters.meantempmin} max="99" value={filters.meantempmax} onChange={(event)=>(handleChangeMax(parseInt(event.target.value)))} />        
+    </fieldset>)
 }
 
 export default FilterTemperature

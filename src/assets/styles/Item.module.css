@@ -1,0 +1,23 @@
+.img {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--primary-color);
+	color: var(--thirdary-color);
+	border-radius: 10px;
+	margin-top: 20px;
+	flex-wrap: wrap;
+	height: auto;
+	width: 300px;
+	justify-content: center;
+}
+
+.subdiv {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 5px;
+}
+
+.h2item {
+	color: var(--thirdary-color);
+}

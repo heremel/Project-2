@@ -1,0 +1,138 @@
+.contenairParagraphs{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.paragraphs{
+    width: 100%;
+    align-items: left;
+    justify-content: left;
+}
+
+.teamCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width: 100%;
+    border-radius: 8px;
+    border: 3px;
+    color: #d7dee1;
+    background-color: var(--primary-color);
+}
+.teamCard h3{
+    justify-content: left;
+    font-size: 1.2rem;
+    font-weight: 600px;
+    padding: 0.5rem;
+    color: var(--secondary-color);
+}
+.contenair_H1{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.teamCardText{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    border-radius: 8px;;
+    color: #d7dee1;
+}
+.teamCardpicture {
+    width: 70%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 650px) {
+  body {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  section{
+    padding: 1rem;
+  }
+  div{
+    padding: 0.5rem;
+  }
+  .teamCard{
+    padding: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width: 100%;
+    border-radius: 8px;
+    border: 3px;
+    color: #d7dee1;
+    background-color: var(--primary-color);
+  }
+  .teamCard h3{
+    width: 100%;
+    justify-content: left;
+    font-size: 1.2rem;
+    font-weight: 600px;
+    padding: 0.5rem;
+    color: var(--secondary-color);
+}
+}
+
+@media screen and (min-width: 651px) and (max-width: 2000px) {
+  body {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  section{
+    padding: 1rem;
+  }
+  div{
+    padding: 0.5rem;
+  }
+  .teamCard{
+    padding: 0.5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width: 100%;
+    border-radius: 8px;
+    border: 3px;
+    color: #d7dee1;
+    background-color: var(--primary-color);
+  }
+  
+  .teamCardText p{
+    justify-content: left;
+    font-size: 1rem;
+    font-weight: 400px;
+    padding: 0.5rem;
+  }
+  .teamCard h3{
+    justify-content: left;
+    font-size: 1.2rem;
+    font-weight: 600px;
+    padding: 0.5rem;
+    color: var(--secondary-color);
+}
+}

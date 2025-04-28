@@ -9,9 +9,11 @@ function FilterRegion() {
         setFilters((prev) => ({ ...prev, region: string }))
     }
 
-    const regionArray: Regions[] = ["none", "Europe", "Africa", "Americas", "Asia", "Oceania"]
+    const regionArray: Regions[] = ["none", "Africa", "Americas", "Asia", "Europe",  "Oceania"]
 
-    return (<div className={style.regionContainer}>
+    return (<fieldset>
+        <legend>Subregions</legend>
+    <div className={style.regionContainer}>
         {regionArray.map((region) => (
             <div key={region}>
                 <input type="radio" id={region} name={region} checked={filters.region === region} onChange={() => handleChangeRegion(region)} />
@@ -20,7 +22,8 @@ function FilterRegion() {
         ))}
 
 
-    </div>)
+    </div>
+    </fieldset>)
 }
 
 export default FilterRegion
