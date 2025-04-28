@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import ListOfItems from "./components/ListOfItems.tsx";
 import About from "./components/About.tsx";
 import DetailedItem from "./components/DetailedItem.tsx";
+import { countries } from "./databases/countries.ts";
 
 const router = createBrowserRouter([
   {
@@ -19,8 +20,8 @@ const router = createBrowserRouter([
         element: <ListOfItems />,
       },
       {
-        path: "/details/:countryName",
-        element: <DetailedItem />,
+        path: "/details/:location_id",
+        element: <DetailedItem/>,
       },
     ],
   },

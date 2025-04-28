@@ -1,3 +1,6 @@
+import { useParams } from "react-router-dom";
+import { countries } from "../databases/countries";
+
 export interface DetailedProps {
 	country: CountryItem;
 } //étape deux
@@ -12,17 +15,23 @@ export interface CountryItem {
 	landlocked: boolean;
 } //étape une
 
-function DetailedItem({ country }: DetailedProps) {
+function DetailedItem() {
 	//je dois récup ma current country
-	const { countryName } = useParams<{ countryName: string }>();
+	const { location_id } = useParams<{ location_id: string }>();
+	const country = countries.find(
+		(currentLocatedCountry) =>
+			currentLocatedCountry.location_id === Number(location_id),
+	);
+	//cree une nouvelle const qui s'appelle country, qui est un find de location_id dans countries
+	//une constant qui sappelle country et une qui sappelle weather (même location_id)
 
-	if (!country || country.name !== countryName) {
+	if (!country || country.location_id !== Number(location_id)) {
 		return <p>Country not found!</p>;
 	}
 
 	return (
 		<>
-			<p>Name : {country.name}</p>
+			<p>Name : {country.name.common}</p>
 			<p>Currency : {country.currencies}</p>
 			<p>Capital : {country.capital}</p>
 			<p>Region : {country.region}</p>
@@ -34,5 +43,23 @@ function DetailedItem({ country }: DetailedProps) {
 }
 
 export default DetailedItem;
-//cree un setter qui sappelle set current country
-//je
+
+//<Link to="le début du lien / entre accolade location id qui dépend de la ou je suis currentCountry.location_id">DetailedItem</Link>
+
+//recup la fin de l'url ça te donnera le nom du currentcountry
+
+//urlFood = `https://www.themealdb.com/api/json/v1/1/filter.php?a=${currentCountry.demonyms.eng.masc}`
+
+//c'est le bon code, mais à déplacer dans detailled item:
+// urlWeather = `https://api.open-meteo.com/v1/forecast?latitude=${currentCountry.latitude}&longitude=${currentCountry.longitude}&current=temperature_2m`
+// await fetch(urlWeather)
+// 	.then(response => response.json())
+// 	.then(data => weatherResults.currentTemperature = data.current.temperature_2m)// seule "temperature actuelle" est fetchée, les autres sont en BDD
+// 	.catch(err => console.error(err));
+
+// 	const sum = currentCountry.daily.temperature_2m_mean.reduce((a, b) => a + b);
+// 	weatherResults.meanTemp =
+// 		Math.floor((sum / currentCountry.daily.temperature_2m_mean.length) * 100) /
+// 		100;
+// 	weatherResults.minTemp = Math.min(...currentCountry.daily.temperature_2m_min);
+// 	weatherResults.maxTemp = Math.max(...currentCountry.daily.temperature_2m_max);
