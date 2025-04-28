@@ -8,8 +8,6 @@ function FiltersTab() {
 
     const [isOpen, setIsOpen] = useState(false)
 
-    const [search, setSearch] = useState("")
-
     function handleOnClickMore() {
         setIsOpen(!isOpen)
     }
@@ -31,13 +29,17 @@ function FiltersTab() {
         }
     }
 
+    function handleOnChangeSearch(eventTargetValue: string) {
+        setFilters((prev) => ({ ...prev, search: eventTargetValue }))
+    }
+
     return (
         <>
             <div className={style.filterTabContainer}>
                 <div>
                     <form onSubmit={event => event.preventDefault()}>
                         <label htmlFor="search">Search:</label>
-                        <input type="text" id="search" name="search" value={search} onChange={(event) => { setSearch(event.target.value) }} />
+                        <input type="text" id="search" name="search" value={filters.search} onChange={(event) => { handleOnChangeSearch(event.target.value) }} />
                     </form>
                     <button className={style.moreFilters} onClick={handleOnClickMore}>{isOpen ? "Less Filters" : "More Filters"}</button>
                 </div>
