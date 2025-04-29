@@ -2,6 +2,12 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { countries } from "../databases/countries";
 import { weathers } from "../databases/weather";
+<<<<<<< HEAD
+=======
+import { useState } from "react";
+import { Country } from "../interfaces/allInterfaces";
+import { useCountries } from "../contexts/CountriesContext";
+>>>>>>> origin/US23-New_Page
 
 function DetailedItem() {
 	const { location_id } = useParams<{ location_id: string }>();
@@ -30,10 +36,10 @@ function DetailedItem() {
 
 	const sum = weather.daily.temperature_2m_mean.reduce((a, b) => a + b, 0);
 	const weatherMeanTemp =
-		Math.round((sum / weather.daily.temperature_2m_mean.length) * 100) / 100;
+	Math.round((sum / weather.daily.temperature_2m_mean.length) * 100) / 100;
 	const weatherMinTemp = Math.min(...weather.daily.temperature_2m_min);
 	const weatherMaxTemp = Math.max(...weather.daily.temperature_2m_max);
-
+	
 	const urlWeather = `https://api.open-meteo.com/v1/forecast?latitude=${weather.latitude}&longitude=${weather.longitude}&current=temperature_2m`;
 	const [currentWeather, setCurrentWeather] = useState(0);
 
@@ -47,7 +53,31 @@ function DetailedItem() {
 
 	const sumOfRainyDays = weather.daily.rain_sum.reduce((a, b) => a + b, 0);
 	const averageRainPerDay =
-		Math.round((sumOfRainyDays / weather.daily.rain_sum.length) * 100) / 100;
+	Math.round((sumOfRainyDays / weather.daily.rain_sum.length) * 100) / 100;
+
+	const {	favoriteList, setFavoriteList } = useCountries() //permet de récuperer dans le context.
+
+	const handleChangeMemories = (location_id: number) => {
+		if (favoriteList.memories.includes(location_id))//si ya ma country
+		{ 
+			setFavoriteList((prev) => ({...prev, memories: prev.memories.filter((favorite) => favorite !== location_id)}))
+		}
+		else
+		{
+			setFavoriteList((prev) => ({...prev, memories: [...prev.memories, location_id]}))
+		}
+	}
+
+	const handleChangeDreams = (location_id: number) => {
+		if (favoriteList.dreams.includes(location_id))//si ya ma country
+		{ 
+			setFavoriteList((prev) => ({...prev, dreams: prev.dreams.filter((favorite) => favorite !== location_id)}))
+		}
+		else
+		{
+			setFavoriteList((prev) => ({...prev, dreams: [...prev.dreams, location_id]}))
+		}
+	}
 
 	//pour trouver la food
 	const urlFood = `https://www.themealdb.com/api/json/v1/1/filter.php?a=${country.demonyms.eng.masc}`
@@ -69,6 +99,10 @@ function DetailedItem() {
 
 	return (
 		<>
+			<input type="checkbox" name="memories"checked={favoriteList.memories.includes(country.location_id)} onChange={() => handleChangeMemories(country.location_id)} />
+			<label htmlFor="memories">Add to your memories</label>
+			<input type="checkbox" name="dreams"checked={favoriteList.dreams.includes(country.location_id)} onChange={() => handleChangeDreams(country.location_id)} />
+			<label htmlFor="dreams">Add to your dreams</label>
 			<p>Name: {country.name.common}</p>
 			<p>Capital: {country.capital}</p>
 			<p>Region: {country.region}</p>

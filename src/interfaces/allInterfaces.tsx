@@ -117,4 +117,14 @@ export interface SubInRegion {
     subregions: Subregion[];
 }
 
+
 export type Subregion = "Northern Africa" | "Eastern Africa" | "Middle Africa" | "Southern Africa" | "Western Africa" | "Caribbean" | "Central America" | "South America" | "North America" | "Central Asia" | "Eastern Asia" | "South-Eastern Asia" | "Southern Asia" | "Western Asia" | "Eastern Europe" | "Northern Europe" | "Southern Europe" | "Western Europe" | "Australia and New Zealand" | "Melanesia" | "Micronesia" | "Polynesia"
+
+
+export type LocationId = number;
+
+export interface FavoriteListInterface {
+    memories: LocationId[],
+    dreams: LocationId[]
+}
+
