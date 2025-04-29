@@ -57,9 +57,7 @@ function ListOfItems() {
 						currentCountry={country}
 						weathers={weathers}
 						key={country.location_id}
-					/> // currentCountry = props dont va avoir besoin le composant item pour fonctionner
-					//valeur fournis c'est country entre les accolades, c'est une valeur dynamique et country cest la valeur qu'attends mon
-					//composant,
+					/>
 				))}
 			</div>
 		</>

@@ -4,6 +4,8 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router";
 import ListOfItems from "./components/ListOfItems.tsx";
 import About from "./components/About.tsx";
+import DetailedItem from "./components/DetailedItem.tsx";
+import { countries } from "./databases/countries.ts";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: "/search",
         element: <ListOfItems />,
+      },
+      {
+        path: "/details/:location_id",
+        element: <DetailedItem/>,
       },
     ],
   },

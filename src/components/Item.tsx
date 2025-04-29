@@ -1,10 +1,11 @@
 // import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import styles from "../assets/styles/Item.module.css";
 import { Country, Weathers, /*WeatherResult*/ } from "../interfaces/allInterfaces";
 
 interface ItemProps {
 	currentCountry: Country;
-	weathers: Weathers;
+	weathers: Weathers
 }
 
 function Item({ currentCountry, weathers }: ItemProps) {
@@ -13,7 +14,6 @@ function Item({ currentCountry, weathers }: ItemProps) {
 		meanTemp: 0,
 		minTemp: 0,
 		maxTemp: 0,
-		elevation: 0,
 	};
 
 	const currentWeather = weathers.find(
@@ -31,7 +31,6 @@ function Item({ currentCountry, weathers }: ItemProps) {
 		100;
 	weatherResults.minTemp = Math.min(...currentWeather.daily.temperature_2m_min);
 	weatherResults.maxTemp = Math.max(...currentWeather.daily.temperature_2m_max);
-	weatherResults.elevation = currentWeather.elevation;
 
 	return (
 		<div className={styles.img}>
@@ -42,7 +41,7 @@ function Item({ currentCountry, weathers }: ItemProps) {
 				<p>Landlocked : {currentCountry.landlocked ? "true" : "false"}</p>
 				<p>Subregion : {currentCountry.subregion}</p>
 				<p>Languages : {currentCountry.languages.join(", ")}</p>
-
+				<Link to={`/details/${currentCountry.location_id}`}>More Info</Link>
 			</div>
 		</div>
 	);

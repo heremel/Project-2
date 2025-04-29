@@ -77,7 +77,16 @@ export interface Weather {
 
 export type Weathers = Weather[];
 
-export type Regions = "none" | "Europe" | "Africa" | "Americas" | "Asia" | "Oceania";
+export type WeatherCountry = Country & Weather;
+export type WeathersCountries = WeatherCountry[];
+
+export type Regions =
+    | "none"
+    | "Europe"
+    | "Africa"
+    | "Americas"
+    | "Asia"
+    | "Oceania";
 
 export interface Filters {
     region: Regions;
@@ -100,8 +109,6 @@ export interface WeatherResult {
     meanTemp: number;
     minTemp: number;
     maxTemp: number;
-    currentTemperature?: number;
-    elevation: number;
 }
 
 export interface SubInRegion {
