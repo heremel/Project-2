@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root{
 	--primary-color: #9db3c1; /* background color */
 	--secondary-color: #374F59; /* text color */
@@ -8,10 +9,16 @@
 .img {
 	display: flex;
 	flex-direction: column;
+=======
+.item {
+	/* display: flex;
+	flex-direction: column; */
+>>>>>>> d8f008dac466f1f8dd73c9abc9336bec940d6c3a
 	background-color: var(--quaternary-color);
 	color: var(--secondary-color);
 	border-radius: 10px;
 	margin: 10px;
+<<<<<<< HEAD
 	flex-wrap: wrap;
 	height: 450px;
 	width: 300px;
@@ -22,16 +29,38 @@
 	width: 150px;
 	height: 100px;
 	border-top :10px;
+=======
+	/* flex-wrap: wrap; */
+	height: auto;
+	width: 70%;
+	justify-content: center;
+}
+
+img {
+	width: 50%;
+	aspect-ratio: 3/2;
+	object-fit: cover;
+
+}
+
+.itemContent {
+	display: flex;
+	flex-direction: row;
+>>>>>>> d8f008dac466f1f8dd73c9abc9336bec940d6c3a
 }
 
 .subdiv {
 	display: flex;
 	flex-direction: column;
+<<<<<<< HEAD
 	align-items: center;
+=======
+>>>>>>> d8f008dac466f1f8dd73c9abc9336bec940d6c3a
 	justify-content: center;
 	gap: 5px;
 }
 
+<<<<<<< HEAD
 .subdiv p{
 	width: 100%;
     text-align: left;
@@ -63,4 +92,8 @@
 	background-color: var(--thirdary-color);
 	color: var(--secondary-color);
 	transition: 2,5s;
+=======
+.h2item {
+	color: var(--thirdary-color);
+>>>>>>> d8f008dac466f1f8dd73c9abc9336bec940d6c3a
 }

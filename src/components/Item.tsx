@@ -33,17 +33,20 @@ function Item({ currentCountry, weathers }: ItemProps) {
 	weatherResults.maxTemp = Math.max(...currentWeather.daily.temperature_2m_max);
 
 	return (
-		<div className={styles.img}>
+		<div className={styles.item}>
 			<h2 className={styles.h2item}>{currentCountry.name.common}</h2>
-			<div className={styles.subdiv}>
-				{/* <img src={currentCountry.flags.png} /> */}
-				<img src={!currentCountry.image ? currentCountry.flags.png : currentCountry.image  } />
-				<p>Average Temperature : {weatherResults.meanTemp} °C</p>
-				<p>Currency : {currentCountry.currencies}</p>
-				<p>Landlocked : {currentCountry.landlocked ? "true" : "false"}</p>
-				<p>Subregion : {currentCountry.subregion}</p>
-				<p>Languages : {currentCountry.languages.join(", ")}</p>
-				<Link to={`/details/${currentCountry.location_id}`}>More Info</Link>
+			<div className={styles.itemContent}>
+				<img src={!currentCountry.image ? currentCountry.flags.png : currentCountry.image} />
+				<div className={styles.subdiv}>
+					{/* <img src={currentCountry.flags.png} /> */}
+
+					<p>Average Temperature : {weatherResults.meanTemp} °C</p>
+					<p>Currency : {currentCountry.currencies}</p>
+					<p>Landlocked : {currentCountry.landlocked ? "true" : "false"}</p>
+					<p>Subregion : {currentCountry.subregion}</p>
+					<p>Languages : {currentCountry.languages.join(", ")}</p>
+					<Link to={`/details/${currentCountry.location_id}`}>More Info</Link>
+				</div>
 			</div>
 		</div>
 	);
