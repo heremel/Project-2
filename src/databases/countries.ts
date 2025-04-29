@@ -4,6 +4,7 @@ import { Countries } from "../interfaces/allInterfaces";
 export const countries: Countries = [
 
     {
+        location_id: 0,
         name: {
             common: "Norway",
             official: "Kingdom of Norway",
@@ -60,6 +61,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 1,
         name: {
             common: "Greece",
             official: "Hellenic Republic",
@@ -117,6 +119,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 2,
         name: {
             common: "Åland Islands",
             official: "Åland Islands",
@@ -170,6 +173,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 3,
         name: {
             common: "Switzerland",
             official: "Swiss Confederation",
@@ -230,6 +234,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 4,
         name: {
             common: "Croatia",
             official: "Republic of Croatia",
@@ -286,6 +291,8 @@ export const countries: Countries = [
 
     },
     {
+
+        location_id: 5,
         name: {
             common: "Iceland",
             official: "Iceland",
@@ -342,6 +349,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 6,
         name: {
             common: "Luxembourg",
             official: "Grand Duchy of Luxembourg",
@@ -401,6 +409,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 7,
         name: {
             common: "Hungary",
             official: "Hungary",
@@ -457,6 +466,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 8,
         name: {
             common: "Netherlands",
             official: "Kingdom of the Netherlands",
@@ -514,6 +524,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 9,
         name: {
             common: "Lithuania",
             official: "Republic of Lithuania",
@@ -571,6 +582,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 10,
         name: {
             common: "Slovakia",
             official: "Slovak Republic",
@@ -628,6 +640,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 11,
         name: {
             common: "Liechtenstein",
             official: "Principality of Liechtenstein",
@@ -684,6 +697,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 12,
         name: {
             common: "Moldova",
             official: "Republic of Moldova",
@@ -740,6 +754,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 13,
         name: {
             common: "Italy",
             official: "Italian Republic",
@@ -797,6 +812,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 14,
         name: {
             common: "Jersey",
             official: "Bailiwick of Jersey",
@@ -854,6 +870,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 15,
         name: {
             common: "Monaco",
             official: "Principality of Monaco",
@@ -911,6 +928,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 16,
         name: {
             common: "Belarus",
             official: "Republic of Belarus",
@@ -968,6 +986,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 17,
         name: {
             common: "Latvia",
             official: "Republic of Latvia",
@@ -1025,6 +1044,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 18,
         name: {
             common: "Andorra",
             official: "Principality of Andorra",
@@ -1082,6 +1102,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 19,
         name: {
             common: "France",
             official: "French Republic",
@@ -1139,6 +1160,8 @@ export const countries: Countries = [
 
     },
     {
+
+        location_id: 20,
         name: {
             common: "Gibraltar",
             official: "Gibraltar",
@@ -1191,6 +1214,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 21,
         name: {
             common: "Denmark",
             official: "Kingdom of Denmark",
@@ -1247,6 +1271,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 22,
         name: {
             common: "North Macedonia",
             official: "Republic of North Macedonia",
@@ -1303,6 +1328,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 23,
         name: {
             common: "Malta",
             official: "Republic of Malta",
@@ -1361,6 +1387,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 24,
         name: {
             common: "Czechia",
             official: "Czech Republic",
@@ -1418,6 +1445,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 25,
         name: {
             common: "Guernsey",
             official: "Bailiwick of Guernsey",
@@ -1475,6 +1503,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 26,
         name: {
             common: "Kosovo",
             official: "Republic of Kosovo",
@@ -1529,6 +1558,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 27,
         name: {
             common: "Svalbard and Jan Mayen",
             official: "Svalbard og Jan Mayen",
@@ -1575,6 +1605,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 28,
         name: {
             common: "Montenegro",
             official: "Montenegro",
@@ -1632,6 +1663,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 29,
         name: {
             common: "Faroe Islands",
             official: "Faroe Islands",
@@ -1689,6 +1721,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 30,
         name: {
             common: "Albania",
             official: "Republic of Albania",
@@ -1742,6 +1775,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 31,
         name: {
             common: "Serbia",
             official: "Republic of Serbia",
@@ -1798,6 +1832,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 32,
         name: {
             common: "Ukraine",
             official: "Ukraine",
@@ -1854,6 +1889,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 33,
         name: {
             common: "Isle of Man",
             official: "Isle of Man",
@@ -1906,6 +1942,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 34,
         name: {
             common: "Estonia",
             official: "Republic of Estonia",
@@ -1963,6 +2000,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 35,
         name: {
             common: "Romania",
             official: "Romania",
@@ -2019,6 +2057,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 36,
         name: {
             common: "Bulgaria",
             official: "Republic of Bulgaria",
@@ -2075,6 +2114,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 37,
         name: {
             common: "Germany",
             official: "Federal Republic of Germany",
@@ -2132,6 +2172,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 38,
         name: {
             common: "Poland",
             official: "Republic of Poland",
@@ -2188,6 +2229,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 39,
         name: {
             common: "United Kingdom",
             official: "United Kingdom of Great Britain and Northern Ireland",
@@ -2244,6 +2286,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 40,
         name: {
             common: "Finland",
             official: "Republic of Finland",
@@ -2302,6 +2345,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 41,
         name: {
             common: "Sweden",
             official: "Kingdom of Sweden",
@@ -2357,6 +2401,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 42,
         name: {
             common: "Vatican City",
             official: "Vatican City State",
@@ -2412,6 +2457,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 43,
         name: {
             common: "Russia",
             official: "Russian Federation",
@@ -2468,6 +2514,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 44,
         name: {
             common: "Austria",
             official: "Republic of Austria",
@@ -2525,6 +2572,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 45,
         name: {
             common: "Cyprus",
             official: "Republic of Cyprus",
@@ -2582,6 +2630,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 46,
         name: {
             common: "Portugal",
             official: "Portuguese Republic",
@@ -2638,6 +2687,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 47,
         name: {
             common: "Bosnia and Herzegovina",
             official: "Bosnia and Herzegovina",
@@ -2696,6 +2746,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 48,
         name: {
             common: "Belgium",
             official: "Kingdom of Belgium",
@@ -2755,6 +2806,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 49,
         name: {
             common: "Spain",
             official: "Kingdom of Spain",
@@ -2815,6 +2867,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 50,
         name: {
             common: "Slovenia",
             official: "Republic of Slovenia",
@@ -2871,6 +2924,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 51,
         name: {
             common: "San Marino",
             official: "Republic of San Marino",
@@ -2927,6 +2981,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 52,
         name: {
             common: "Ireland",
             official: "Republic of Ireland",
@@ -2983,6 +3038,7 @@ export const countries: Countries = [
     },
 
     {
+        location_id: 53,
         name: {
             common: "Lesotho",
             official: "Kingdom of Lesotho",
@@ -3040,6 +3096,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 54,
         name: {
             common: "Central African Republic",
             official: "Central African Republic",
@@ -3095,6 +3152,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 55,
         name: {
             common: "Morocco",
             official: "Kingdom of Morocco",
@@ -3152,6 +3210,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 56,
         name: {
             common: "Sierra Leone",
             official: "Republic of Sierra Leone",
@@ -3205,6 +3264,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 57,
         name: {
             common: "Burkina Faso",
             official: "Burkina Faso",
@@ -3259,6 +3319,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 58,
         name: {
             common: "Eritrea",
             official: "State of Eritrea",
@@ -3314,6 +3375,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 59,
         name: {
             common: "Tanzania",
             official: "United Republic of Tanzania",
@@ -3368,6 +3430,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 60,
         name: {
             common: "Algeria",
             official: "People's Democratic Republic of Algeria",
@@ -3424,6 +3487,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 61,
         name: {
             common: "Mauritania",
             official: "Islamic Republic of Mauritania",
@@ -3477,6 +3541,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 62,
         name: {
             common: "Sudan",
             official: "Republic of the Sudan",
@@ -3534,6 +3599,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 63,
         name: {
             common: "Western Sahara",
             official: "Sahrawi Arab Democratic Republic",
@@ -3583,6 +3649,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 64,
         name: {
             common: "Angola",
             official: "Republic of Angola",
@@ -3636,6 +3703,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 65,
         name: {
             common: "Ivory Coast",
             official: "Republic of Côte d'Ivoire",
@@ -3690,6 +3758,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 66,
         name: {
             common: "Tunisia",
             official: "Tunisian Republic",
@@ -3746,6 +3815,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 67,
         name: {
             common: "Mali",
             official: "Republic of Mali",
@@ -3800,6 +3870,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 68,
         name: {
             common: "Benin",
             official: "Republic of Benin",
@@ -3854,6 +3925,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 69,
         name: {
             common: "Cape Verde",
             official: "Republic of Cabo Verde",
@@ -3910,6 +3982,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 70,
         name: {
             common: "Equatorial Guinea",
             official: "Republic of Equatorial Guinea",
@@ -3966,6 +4039,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 71,
         name: {
             common: "Uganda",
             official: "Republic of Uganda",
@@ -4020,6 +4094,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 72,
         name: {
             common: "Botswana",
             official: "Republic of Botswana",
@@ -4074,6 +4149,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 73,
         name: {
             common: "Burundi",
             official: "Republic of Burundi",
@@ -4128,6 +4204,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 74,
         name: {
             common: "South Africa",
             official: "Republic of South Africa",
@@ -4196,6 +4273,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 75,
         name: {
             common: "Libya",
             official: "State of Libya",
@@ -4249,6 +4327,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 76,
         name: {
             common: "Mayotte",
             official: "Department of Mayotte",
@@ -4304,6 +4383,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 77,
         name: {
             common: "Gabon",
             official: "Gabonese Republic",
@@ -4358,6 +4438,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 78,
         name: {
             common: "Cameroon",
             official: "Republic of Cameroon",
@@ -4413,6 +4494,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 79,
         name: {
             common: "Guinea",
             official: "Republic of Guinea",
@@ -4466,6 +4548,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 80,
         name: {
             common: "Seychelles",
             official: "Republic of Seychelles",
@@ -4521,6 +4604,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 81,
         name: {
             common: "British Indian Ocean Territory",
             official: "British Indian Ocean Territory",
@@ -4569,6 +4653,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 82,
         name: {
             common: "Madagascar",
             official: "Republic of Madagascar",
@@ -4626,6 +4711,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 83,
         name: {
             common: "DR Congo",
             official: "Democratic Republic of the Congo",
@@ -4683,6 +4769,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 84,
         name: {
             common: "Gambia",
             official: "Republic of the Gambia",
@@ -4736,6 +4823,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 85,
         name: {
             common: "Somalia",
             official: "Federal Republic of Somalia",
@@ -4792,6 +4880,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 86,
         name: {
             common: "Nigeria",
             official: "Federal Republic of Nigeria",
@@ -4848,6 +4937,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 87,
         name: {
             common: "South Sudan",
             official: "Republic of South Sudan",
@@ -4901,6 +4991,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 88,
         name: {
             common: "Eswatini",
             official: "Kingdom of Eswatini",
@@ -4956,6 +5047,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 89,
         name: {
             common: "Egypt",
             official: "Arab Republic of Egypt",
@@ -5012,6 +5104,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 90,
         name: {
             common: "Saint Helena, Ascension and Tristan da Cunha",
             official: "Saint Helena, Ascension and Tristan da Cunha",
@@ -5066,6 +5159,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 91,
         name: {
             common: "Senegal",
             official: "Republic of Senegal",
@@ -5123,6 +5217,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 92,
         name: {
             common: "Togo",
             official: "Togolese Republic",
@@ -5177,6 +5272,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 93,
         name: {
             common: "Kenya",
             official: "Republic of Kenya",
@@ -5234,6 +5330,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 94,
         name: {
             common: "Rwanda",
             official: "Republic of Rwanda",
@@ -5289,6 +5386,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 95,
         name: {
             common: "Namibia",
             official: "Republic of Namibia",
@@ -5351,6 +5449,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 96,
         name: {
             common: "Liberia",
             official: "Republic of Liberia",
@@ -5407,6 +5506,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 97,
         name: {
             common: "Zambia",
             official: "Republic of Zambia",
@@ -5463,6 +5563,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 98,
         name: {
             common: "Niger",
             official: "Republic of Niger",
@@ -5520,6 +5621,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 99,
         name: {
             common: "Comoros",
             official: "Union of the Comoros",
@@ -5575,6 +5677,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 100,
         name: {
             common: "Guinea-Bissau",
             official: "Republic of Guinea-Bissau",
@@ -5633,6 +5736,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 101,
         name: {
             common: "Ghana",
             official: "Republic of Ghana",
@@ -5686,6 +5790,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 102,
         name: {
             common: "Chad",
             official: "Republic of Chad",
@@ -5741,6 +5846,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 103,
         name: {
             common: "Zimbabwe",
             official: "Republic of Zimbabwe",
@@ -5808,6 +5914,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 104,
         name: {
             common: "Réunion",
             official: "Réunion Island",
@@ -5863,6 +5970,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 105,
         name: {
             common: "São Tomé and Príncipe",
             official: "Democratic Republic of São Tomé and Príncipe",
@@ -5916,6 +6024,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 106,
         name: {
             common: "Malawi",
             official: "Republic of Malawi",
@@ -5970,6 +6079,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 107,
         name: {
             common: "Ethiopia",
             official: "Federal Democratic Republic of Ethiopia",
@@ -6026,6 +6136,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 108,
         name: {
             common: "Republic of the Congo",
             official: "Republic of the Congo",
@@ -6081,6 +6192,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 109,
         name: {
             common: "Djibouti",
             official: "Republic of Djibouti",
@@ -6135,6 +6247,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 110,
         name: {
             common: "Mauritius",
             official: "Republic of Mauritius",
@@ -6190,6 +6303,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 111,
         name: {
             common: "Mozambique",
             official: "Republic of Mozambique",
@@ -6247,6 +6361,7 @@ export const countries: Countries = [
     },
 
     {
+        location_id: 112,
         name: {
             common: "Colombia",
             official: "Republic of Colombia",
@@ -6300,6 +6415,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 113,
         name: {
             common: "Curaçao",
             official: "Country of Curaçao",
@@ -6355,6 +6471,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 114,
         name: {
             common: "French Guiana",
             official: "Guiana",
@@ -6411,6 +6528,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 115,
         name: {
             common: "Grenada",
             official: "Grenada",
@@ -6464,6 +6582,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 116,
         name: {
             common: "Sint Maarten",
             official: "Sint Maarten",
@@ -6518,6 +6637,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 117,
         name: {
             common: "Argentina",
             official: "Argentine Republic",
@@ -6574,6 +6694,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 118,
         name: {
             common: "Turks and Caicos Islands",
             official: "Turks and Caicos Islands",
@@ -6624,6 +6745,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 119,
         name: {
             common: "Dominica",
             official: "Commonwealth of Dominica",
@@ -6678,6 +6800,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 120,
         name: {
             common: "United States Minor Outlying Islands",
             official: "United States Minor Outlying Islands",
@@ -6727,6 +6850,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 121,
         name: {
             common: "Costa Rica",
             official: "Republic of Costa Rica",
@@ -6783,6 +6907,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 122,
         name: {
             common: "Haiti",
             official: "Republic of Haiti",
@@ -6839,6 +6964,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 123,
         name: {
             common: "Barbados",
             official: "Barbados",
@@ -6894,6 +7020,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 124,
         name: {
             common: "Honduras",
             official: "Republic of Honduras",
@@ -6949,6 +7076,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 125,
         name: {
             common: "Puerto Rico",
             official: "Commonwealth of Puerto Rico",
@@ -7005,6 +7133,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 126,
         name: {
             common: "Falkland Islands",
             official: "Falkland Islands",
@@ -7057,6 +7186,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 127,
         name: {
             common: "Saint Kitts and Nevis",
             official: "Federation of Saint Christopher and Nevis",
@@ -7111,6 +7241,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 128,
         name: {
             common: "Saint Lucia",
             official: "Saint Lucia",
@@ -7165,6 +7296,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 129,
         name: {
             common: "Caribbean Netherlands",
             official: "Bonaire, Sint Eustatius and Saba",
@@ -7220,6 +7352,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 130,
         name: {
             common: "Bolivia",
             official: "Plurinational State of Bolivia",
@@ -7276,6 +7409,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 131,
         name: {
             common: "Chile",
             official: "Republic of Chile",
@@ -7331,6 +7465,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 132,
         name: {
             common: "United States",
             official: "United States of America",
@@ -7389,6 +7524,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 133,
         name: {
             common: "Guadeloupe",
             official: "Guadeloupe",
@@ -7445,6 +7581,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 134,
         name: {
             common: "Mexico",
             official: "United Mexican States",
@@ -7501,6 +7638,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 135,
         name: {
             common: "Saint Vincent and the Grenadines",
             official: "Saint Vincent and the Grenadines",
@@ -7555,6 +7693,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 136,
         name: {
             common: "Bermuda",
             official: "Bermuda",
@@ -7609,6 +7748,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 137,
         name: {
             common: "Dominican Republic",
             official: "Dominican Republic",
@@ -7665,6 +7805,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 138,
         name: {
             common: "Guatemala",
             official: "Republic of Guatemala",
@@ -7721,6 +7862,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 139,
         name: {
             common: "Ecuador",
             official: "Republic of Ecuador",
@@ -7777,6 +7919,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 140,
         name: {
             common: "Martinique",
             official: "Martinique",
@@ -7833,6 +7976,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 141,
         name: {
             common: "Suriname",
             official: "Republic of Suriname",
@@ -7886,6 +8030,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 142,
         name: {
             common: "Saint Barthélemy",
             official: "Collectivity of Saint Barthélemy",
@@ -7940,6 +8085,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 143,
         name: {
             common: "Bahamas",
             official: "Commonwealth of the Bahamas",
@@ -7993,6 +8139,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 144,
         name: {
             common: "Paraguay",
             official: "Republic of Paraguay",
@@ -8050,6 +8197,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 145,
         name: {
             common: "British Virgin Islands",
             official: "Virgin Islands",
@@ -8099,6 +8247,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 146,
         name: {
             common: "Brazil",
             official: "Federative Republic of Brazil",
@@ -8154,6 +8303,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 147,
         name: {
             common: "Belize",
             official: "Belize",
@@ -8209,6 +8359,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 148,
         name: {
             common: "Venezuela",
             official: "Bolivarian Republic of Venezuela",
@@ -8265,6 +8416,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 149,
         name: {
             common: "El Salvador",
             official: "Republic of El Salvador",
@@ -8321,6 +8473,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 150,
         name: {
             common: "Peru",
             official: "Republic of Peru",
@@ -8379,6 +8532,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 151,
         name: {
             common: "Trinidad and Tobago",
             official: "Republic of Trinidad and Tobago",
@@ -8432,6 +8586,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 152,
         name: {
             common: "Greenland",
             official: "Greenland",
@@ -8487,6 +8642,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 153,
         name: {
             common: "Guyana",
             official: "Co-operative Republic of Guyana",
@@ -8540,6 +8696,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 154,
         name: {
             common: "Jamaica",
             official: "Jamaica",
@@ -8595,6 +8752,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 155,
         name: {
             common: "Aruba",
             official: "Aruba",
@@ -8648,6 +8806,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 156,
         name: {
             common: "Cayman Islands",
             official: "Cayman Islands",
@@ -8700,6 +8859,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 157,
         name: {
             common: "Cuba",
             official: "Republic of Cuba",
@@ -8755,6 +8915,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 158,
         name: {
             common: "Uruguay",
             official: "Oriental Republic of Uruguay",
@@ -8811,6 +8972,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 159,
         name: {
             common: "Saint Martin",
             official: "Saint Martin",
@@ -8865,6 +9027,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 160,
         name: {
             common: "Antigua and Barbuda",
             official: "Antigua and Barbuda",
@@ -8919,6 +9082,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 161,
         name: {
             common: "Canada",
             official: "Canada",
@@ -8975,6 +9139,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 162,
         name: {
             common: "Panama",
             official: "Republic of Panama",
@@ -9028,6 +9193,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 163,
         name: {
             common: "Montserrat",
             official: "Montserrat",
@@ -9081,6 +9247,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 164,
         name: {
             common: "Nicaragua",
             official: "Republic of Nicaragua",
@@ -9136,6 +9303,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 165,
         name: {
             common: "Saint Pierre and Miquelon",
             official: "Saint Pierre and Miquelon",
@@ -9190,6 +9358,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 166,
         name: {
             common: "United States Virgin Islands",
             official: "Virgin Islands of the United States",
@@ -9238,6 +9407,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 167,
         name: {
             common: "Anguilla",
             official: "Anguilla",
@@ -9292,6 +9462,7 @@ export const countries: Countries = [
     },
 
     {
+        location_id: 168,
         name: {
             common: "South Korea",
             official: "Republic of Korea",
@@ -9347,6 +9518,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 169,
         name: {
             common: "Taiwan",
             official: "Republic of China (Taiwan)",
@@ -9402,6 +9574,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 170,
         name: {
             common: "Jordan",
             official: "Hashemite Kingdom of Jordan",
@@ -9458,6 +9631,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 171,
         name: {
             common: "Nepal",
             official: "Federal Democratic Republic of Nepal",
@@ -9514,6 +9688,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 172,
         name: {
             common: "Thailand",
             official: "Kingdom of Thailand",
@@ -9570,6 +9745,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 173,
         name: {
             common: "Kazakhstan",
             official: "Republic of Kazakhstan",
@@ -9627,6 +9803,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 174,
         name: {
             common: "Georgia",
             official: "Georgia",
@@ -9683,6 +9860,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 175,
         name: {
             common: "Pakistan",
             official: "Islamic Republic of Pakistan",
@@ -9740,6 +9918,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 176,
         name: {
             common: "Armenia",
             official: "Republic of Armenia",
@@ -9796,6 +9975,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 177,
         name: {
             common: "Indonesia",
             official: "Republic of Indonesia",
@@ -9852,6 +10032,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 178,
         name: {
             common: "Japan",
             official: "Japan",
@@ -9908,6 +10089,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 179,
         name: {
             common: "Laos",
             official: "Lao People's Democratic Republic",
@@ -9964,6 +10146,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 180,
         name: {
             common: "Lebanon",
             official: "Lebanese Republic",
@@ -10020,6 +10203,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 181,
         name: {
             common: "Philippines",
             official: "Republic of the Philippines",
@@ -10077,6 +10261,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 182,
         name: {
             common: "Bahrain",
             official: "Kingdom of Bahrain",
@@ -10132,6 +10317,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 183,
         name: {
             common: "Qatar",
             official: "State of Qatar",
@@ -10185,6 +10371,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 184,
         name: {
             common: "Tajikistan",
             official: "Republic of Tajikistan",
@@ -10242,6 +10429,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 185,
         name: {
             common: "China",
             official: "People's Republic of China",
@@ -10298,6 +10486,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 186,
         name: {
             common: "Yemen",
             official: "Republic of Yemen",
@@ -10351,6 +10540,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 187,
         name: {
             common: "India",
             official: "Republic of India",
@@ -10409,6 +10599,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 188,
         name: {
             common: "Kuwait",
             official: "State of Kuwait",
@@ -10465,6 +10656,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 189,
         name: {
             common: "Syria",
             official: "Syrian Arab Republic",
@@ -10518,6 +10710,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 190,
         name: {
             common: "Maldives",
             official: "Republic of the Maldives",
@@ -10574,6 +10767,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 191,
         name: {
             common: "Uzbekistan",
             official: "Republic of Uzbekistan",
@@ -10631,6 +10825,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 192,
         name: {
             common: "Iran",
             official: "Islamic Republic of Iran",
@@ -10686,6 +10881,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 193,
         name: {
             common: "Myanmar",
             official: "Republic of the Union of Myanmar",
@@ -10742,6 +10938,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 194,
         name: {
             common: "Sri Lanka",
             official: "Democratic Socialist Republic of Sri Lanka",
@@ -10799,6 +10996,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 195,
         name: {
             common: "Bhutan",
             official: "Kingdom of Bhutan",
@@ -10852,6 +11050,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 196,
         name: {
             common: "Palestine",
             official: "State of Palestine",
@@ -10905,6 +11104,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 197,
         name: {
             common: "Bangladesh",
             official: "People's Republic of Bangladesh",
@@ -10961,6 +11161,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 198,
         name: {
             common: "Singapore",
             official: "Republic of Singapore",
@@ -11020,6 +11221,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 199,
         name: {
             common: "Turkey",
             official: "Republic of Turkey",
@@ -11076,6 +11278,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 200,
         name: {
             common: "United Arab Emirates",
             official: "United Arab Emirates",
@@ -11129,6 +11332,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 201,
         name: {
             common: "Afghanistan",
             official: "Islamic Republic of Afghanistan",
@@ -11184,6 +11388,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 202,
         name: {
             common: "Timor-Leste",
             official: "Democratic Republic of Timor-Leste",
@@ -11238,6 +11443,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 203,
         name: {
             common: "Vietnam",
             official: "Socialist Republic of Vietnam",
@@ -11294,6 +11500,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 204,
         name: {
             common: "Cambodia",
             official: "Kingdom of Cambodia",
@@ -11350,6 +11557,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 205,
         name: {
             common: "Iraq",
             official: "Republic of Iraq",
@@ -11408,6 +11616,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 206,
         name: {
             common: "Brunei",
             official: "Nation of Brunei, Abode of Peace",
@@ -11463,6 +11672,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 207,
         name: {
             common: "Kyrgyzstan",
             official: "Kyrgyz Republic",
@@ -11520,6 +11730,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 208,
         name: {
             common: "Azerbaijan",
             official: "Republic of Azerbaijan",
@@ -11575,6 +11786,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 209,
         name: {
             common: "Hong Kong",
             official: "Hong Kong Special Administrative Region of the People's Republic of China",
@@ -11628,6 +11840,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 210,
         name: {
             common: "Malaysia",
             official: "Malaysia",
@@ -11685,6 +11898,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 211,
         name: {
             common: "Mongolia",
             official: "Mongolia",
@@ -11741,6 +11955,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 212,
         name: {
             common: "Saudi Arabia",
             official: "Kingdom of Saudi Arabia",
@@ -11797,6 +12012,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 213,
         name: {
             common: "Turkmenistan",
             official: "Turkmenistan",
@@ -11854,6 +12070,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 214,
         name: {
             common: "North Korea",
             official: "Democratic People's Republic of Korea",
@@ -11909,6 +12126,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 215,
         name: {
             common: "Israel",
             official: "State of Israel",
@@ -11966,6 +12184,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 216,
         name: {
             common: "Oman",
             official: "Sultanate of Oman",
@@ -12022,6 +12241,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 217,
         name: {
             common: "Macau",
             official: "Macao Special Administrative Region of the People's Republic of China",
@@ -12076,6 +12296,7 @@ export const countries: Countries = [
     },
 
     {
+        location_id: 218,
         name: {
             common: "New Caledonia",
             official: "New Caledonia",
@@ -12131,6 +12352,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 219,
         name: {
             common: "Solomon Islands",
             official: "Solomon Islands",
@@ -12184,6 +12406,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 220,
         name: {
             common: "Marshall Islands",
             official: "Republic of the Marshall Islands",
@@ -12240,6 +12463,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 221,
         name: {
             common: "Vanuatu",
             official: "Republic of Vanuatu",
@@ -12295,6 +12519,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 222,
         name: {
             common: "Niue",
             official: "Niue",
@@ -12347,6 +12572,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 223,
         name: {
             common: "Nauru",
             official: "Republic of Nauru",
@@ -12402,6 +12628,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 224,
         name: {
             common: "Cocos (Keeling) Islands",
             official: "Territory of the Cocos (Keeling) Islands",
@@ -12450,6 +12677,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 225,
         name: {
             common: "Fiji",
             official: "Republic of Fiji",
@@ -12505,6 +12733,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 226,
         name: {
             common: "Wallis and Futuna",
             official: "Territory of the Wallis and Futuna Islands",
@@ -12555,6 +12784,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 227,
         name: {
             common: "Cook Islands",
             official: "Cook Islands",
@@ -12608,6 +12838,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 228,
         name: {
             common: "Australia",
             official: "Commonwealth of Australia",
@@ -12665,6 +12896,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 229,
         name: {
             common: "Tuvalu",
             official: "Tuvalu",
@@ -12720,6 +12952,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 230,
         name: {
             common: "Pitcairn Islands",
             official: "Pitcairn Group of Islands",
@@ -12771,6 +13004,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 231,
         name: {
             common: "Christmas Island",
             official: "Territory of Christmas Island",
@@ -12823,6 +13057,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 232,
         name: {
             common: "Guam",
             official: "Guam",
@@ -12876,6 +13111,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 233,
         name: {
             common: "Tonga",
             official: "Kingdom of Tonga",
@@ -12930,6 +13166,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 234,
         name: {
             common: "Tokelau",
             official: "Tokelau",
@@ -12979,6 +13216,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 235,
         name: {
             common: "Samoa",
             official: "Independent State of Samoa",
@@ -13033,6 +13271,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 236,
         name: {
             common: "Kiribati",
             official: "Independent and Sovereign Republic of Kiribati",
@@ -13088,6 +13327,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 237,
         name: {
             common: "French Polynesia",
             official: "French Polynesia",
@@ -13143,6 +13383,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 238,
         name: {
             common: "Papua New Guinea",
             official: "Independent State of Papua New Guinea",
@@ -13201,6 +13442,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 239,
         name: {
             common: "Palau",
             official: "Republic of Palau",
@@ -13258,6 +13500,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 240,
         name: {
             common: "American Samoa",
             official: "American Samoa",
@@ -13311,6 +13554,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 241,
         name: {
             common: "Northern Mariana Islands",
             official: "Commonwealth of the Northern Mariana Islands",
@@ -13365,6 +13609,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 242,
         name: {
             common: "Norfolk Island",
             official: "Territory of Norfolk Island",
@@ -13418,6 +13663,7 @@ export const countries: Countries = [
         }
     },
     {
+        location_id: 243,
         name: {
             common: "New Zealand",
             official: "New Zealand",
@@ -13476,6 +13722,7 @@ export const countries: Countries = [
 
     },
     {
+        location_id: 244,
         name: {
             common: "Micronesia",
             official: "Federated States of Micronesia",

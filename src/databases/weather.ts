@@ -1,4 +1,4 @@
-import { Weathers } from "../App"
+import { Weathers } from "../interfaces/allInterfaces";
 
 export const weathers: Weathers =
     [

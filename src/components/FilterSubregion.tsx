@@ -6,7 +6,6 @@ function FilterSubregion() {
     const { filters, setFilters } = useCountries();
 
     function handleChangeSubregion(string: string) {
-        console.log(string)
         setFilters((prev) => ({ ...prev, subregion: string }))
     }
 
@@ -20,28 +19,15 @@ function FilterSubregion() {
 
     return (<fieldset>
         <legend>Subregions</legend>
-    <div className={style.subregionContainer}>
-        {/* J'ai pas réussi, à cause de onChange/onClick/onSelect et le fait que subregion est une valeur locale (je ne peux pas la récup dans le select)
-        <label htmlFor="subregions">Areas:</label>
-        <select id="subregions" name="subregions" defaultValue={filters.region !== "none" ? filters.subregion : "none"}>
-            <option value="none">None (choose a continent first)</option>
-            {filters.region !== "none" && (subregionArray.find((regionObject: SubInRegion) => (regionObject.region === filters.region))?.subregions.map((subregion) => (
-                <option key={subregion} value={subregion} onSelect={() => handleChangeSubregion(subregion)}>
-                    {subregion}
-                </option>
-            )))}
-        </select> */}
-         {filters.region !== "none" ? (subregionArray.find((regionObject: SubInRegion) => (regionObject.region === filters.region))?.subregions.map((subregion) => (
+        <div className={style.subregionContainer}>
+            {filters.region !== "none" ? (subregionArray.find((regionObject: SubInRegion) => (regionObject.region === filters.region))?.subregions.map((subregion) => (
                 <div key={subregion}>
-                <input type="radio" id={subregion} name={subregion} checked={filters.subregion === subregion} onChange={() => handleChangeSubregion(subregion)} />
-                <label htmlFor={subregion}> {subregion} </label>
-            </div>
-                // <option key={subregion} value={subregion} onSelect={() => handleChangeSubregion(subregion)}>
-                //     {subregion}
-                // </option>
-            ))):<p>Select a continent first</p>}
+                    <input type="radio" id={subregion} name={subregion} checked={filters.subregion === subregion} onChange={() => handleChangeSubregion(subregion)} />
+                    <label htmlFor={subregion}> {subregion} </label>
+                </div>
+            ))) : <p>Select a continent first</p>}
 
-    </div>
+        </div>
     </fieldset>)
 }
 
