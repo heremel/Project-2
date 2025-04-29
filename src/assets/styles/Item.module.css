@@ -1,19 +1,31 @@
-.img {
-	display: flex;
-	flex-direction: column;
+.item {
+	/* display: flex;
+	flex-direction: column; */
 	background-color: var(--quaternary-color);
 	color: var(--secondary-color);
 	border-radius: 10px;
 	margin: 10px;
-	flex-wrap: wrap;
-	height: 400px;
-	width: 300px;
+	/* flex-wrap: wrap; */
+	height: auto;
+	width: 70%;
 	justify-content: center;
+}
+
+img {
+	width: 50%;
+	aspect-ratio: 3/2;
+	object-fit: cover;
+
+}
+
+.itemContent {
+	display: flex;
+	flex-direction: row;
 }
 
 .subdiv {
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
 	justify-content: center;
 	gap: 5px;
 }
