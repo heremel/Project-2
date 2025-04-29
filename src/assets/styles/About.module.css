@@ -3,10 +3,6 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: #374F59;
-  background-color: #9db3c1;
-
   --primary-color: #9db3c1; /* background color */
   --secondary-color: #374F59; /* text color */
   --thirdary-color: #d7dee1; /* text color 2 */
@@ -36,6 +32,7 @@ h2{
 font-size: 1.5rem;
 font-weight: 600px;
 margin-bottom: 0.2rem;
+justify-content: left;
 color: var(--secondary-color);
 }
 h3{
@@ -49,7 +46,9 @@ p{
   font-size: 1rem;
   font-weight: 400px;
   padding: 0.5rem;
-  }
+  color: var(--secondary-color);
+}
+
   section{
     display: flex;
     flex-direction: column;
@@ -69,23 +68,21 @@ p{
     text-align: left;
     margin-bottom: 1rem;
     padding: 1rem;
-    background-color: var(--primary-color);}
+    background-color: var(--primary-color);
+  }
 
 .contenairParagraphs{
     display: flex;
     width: 100%;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     text-align: left;
     margin-bottom: 1rem;
-    padding: 1rem;
-}
-
+  }
 .paragraphs{
     width: 100%;
     align-items: center;
-    justify-content: center,
+    justify-content: left,
   }
 
 .teamCard{
@@ -95,6 +92,7 @@ p{
     justify-content: center;
     text-align: left;
     width: 100%;
+    height: auto;
     border-radius: 8px;
     border: 3px;
     color:  var(--secondary-color) ;
@@ -143,11 +141,6 @@ p{
     flex-direction: column;
     align-items: center;
   }
-  H1 {
-    font-size: 2rem;
-    font-weight: 600px;
-    margin-bottom: 1rem;
-  }
   img{
     width: 50%;
     height: auto;
@@ -162,13 +155,6 @@ p{
     align-items: left;
     justify-content: left;
     text-align: left;
-  }
-  section{
-    padding: 1rem;
-  }
-
-  div{
-    padding: 0.5rem;
   }
   .contenair h1{
     display: flex;
@@ -208,7 +194,6 @@ p{
     width: 100%;
     border-radius: 8px;
     border: 3px;
-    color: #d7dee1;
   }
   .teamCard h3{
     width: 100%;
@@ -239,9 +224,6 @@ p{
     justify-content: center;
     margin-bottom: 1rem;
     padding: 1rem;
-  }
-  div{
-    padding: 0.5rem;
   }
   img{
     width: 50%;
