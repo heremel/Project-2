@@ -11051,6 +11051,7 @@ export const countries: Countries = [
     },
     {
         location_id: 196,
+        image: "https://images.pexels.com/photos/1008019/pexels-photo-1008019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Palestine",
             official: "State of Palestine",
@@ -11105,6 +11106,7 @@ export const countries: Countries = [
     },
     {
         location_id: 197,
+        image: "https://images.unsplash.com/photo-1716388781968-e807f87fe910?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Bangladesh",
             official: "People's Republic of Bangladesh",
@@ -11162,6 +11164,7 @@ export const countries: Countries = [
     },
     {
         location_id: 198,
+        image: "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?q=80&w=1952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Singapore",
             official: "Republic of Singapore",
@@ -11222,6 +11225,7 @@ export const countries: Countries = [
     },
     {
         location_id: 199,
+        image: "https://images.unsplash.com/photo-1589561454226-796a8aa89b05?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Turkey",
             official: "Republic of Turkey",
@@ -11279,6 +11283,7 @@ export const countries: Countries = [
     },
     {
         location_id: 200,
+        image: "https://images.unsplash.com/photo-1546412414-8035e1776c9a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "United Arab Emirates",
             official: "United Arab Emirates",
@@ -11333,6 +11338,7 @@ export const countries: Countries = [
     },
     {
         location_id: 201,
+        image: "https://images.unsplash.com/photo-1637750832829-7cc7e0605c15?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Afghanistan",
             official: "Islamic Republic of Afghanistan",
@@ -11389,6 +11395,7 @@ export const countries: Countries = [
     },
     {
         location_id: 202,
+        image: "https://images.unsplash.com/photo-1707445305630-5962c1e9e1e9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Timor-Leste",
             official: "Democratic Republic of Timor-Leste",
@@ -11444,6 +11451,7 @@ export const countries: Countries = [
     },
     {
         location_id: 203,
+        image: "https://images.unsplash.com/photo-1503539680555-732099a55a56?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Vietnam",
             official: "Socialist Republic of Vietnam",
@@ -11501,6 +11509,7 @@ export const countries: Countries = [
     },
     {
         location_id: 204,
+        image: "https://images.unsplash.com/photo-1599283787923-51b965a58b05?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Cambodia",
             official: "Kingdom of Cambodia",
@@ -11558,6 +11567,7 @@ export const countries: Countries = [
     },
     {
         location_id: 205,
+        image: "https://images.unsplash.com/photo-1718680951424-d3d9b21aa4bc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Iraq",
             official: "Republic of Iraq",
@@ -11617,6 +11627,7 @@ export const countries: Countries = [
     },
     {
         location_id: 206,
+        image: "https://images.unsplash.com/photo-1659418499116-a4580f895679?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Brunei",
             official: "Nation of Brunei, Abode of Peace",
@@ -11673,6 +11684,7 @@ export const countries: Countries = [
     },
     {
         location_id: 207,
+        image: "https://images.unsplash.com/photo-1629340038197-191832a53546?q=80&w=2094&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Kyrgyzstan",
             official: "Kyrgyz Republic",
@@ -11731,6 +11743,7 @@ export const countries: Countries = [
     },
     {
         location_id: 208,
+        image: "https://images.unsplash.com/photo-1596306499398-8d88944a5ec4?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Azerbaijan",
             official: "Republic of Azerbaijan",
@@ -11787,6 +11800,7 @@ export const countries: Countries = [
     },
     {
         location_id: 209,
+        image: "https://images.unsplash.com/photo-1536599018102-9f803c140fc1?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Hong Kong",
             official: "Hong Kong Special Administrative Region of the People's Republic of China",
@@ -11841,6 +11855,7 @@ export const countries: Countries = [
     },
     {
         location_id: 210,
+        image: "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Malaysia",
             official: "Malaysia",
@@ -11899,6 +11914,7 @@ export const countries: Countries = [
     },
     {
         location_id: 211,
+        image: "https://images.unsplash.com/photo-1529002553897-6f5fdc76fa83?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Mongolia",
             official: "Mongolia",
@@ -11956,6 +11972,7 @@ export const countries: Countries = [
     },
     {
         location_id: 212,
+        image: "https://images.unsplash.com/photo-1551041777-575d3855ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Saudi Arabia",
             official: "Kingdom of Saudi Arabia",
@@ -12013,6 +12030,7 @@ export const countries: Countries = [
     },
     {
         location_id: 213,
+        image: "https://images.unsplash.com/photo-1710225686183-018c79529669?q=80&w=1924&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Turkmenistan",
             official: "Turkmenistan",
@@ -12071,6 +12089,7 @@ export const countries: Countries = [
     },
     {
         location_id: 214,
+        image: "https://images.unsplash.com/photo-1604359896927-0610b7a3a2be?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "North Korea",
             official: "Democratic People's Republic of Korea",
@@ -12127,6 +12146,7 @@ export const countries: Countries = [
     },
     {
         location_id: 215,
+        image: "https://images.unsplash.com/photo-1614517453351-6c1522fc7a56?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Israel",
             official: "State of Israel",
@@ -12185,6 +12205,7 @@ export const countries: Countries = [
     },
     {
         location_id: 216,
+        image: "https://images.unsplash.com/photo-1621680696874-edd80ce57b72?q=80&w=1982&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Oman",
             official: "Sultanate of Oman",
@@ -12242,6 +12263,7 @@ export const countries: Countries = [
     },
     {
         location_id: 217,
+        image: "https://images.pexels.com/photos/509685/pexels-photo-509685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Macau",
             official: "Macao Special Administrative Region of the People's Republic of China",
@@ -12297,6 +12319,7 @@ export const countries: Countries = [
 
     {
         location_id: 218,
+        image: "https://images.unsplash.com/photo-1575469680795-19f3d6c61bfb?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "New Caledonia",
             official: "New Caledonia",
@@ -12353,6 +12376,7 @@ export const countries: Countries = [
     },
     {
         location_id: 219,
+        image: "https://images.pexels.com/photos/29643273/pexels-photo-29643273/free-photo-of-serene-beach-in-gizo-solomon-islands.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Solomon Islands",
             official: "Solomon Islands",
@@ -12407,6 +12431,7 @@ export const countries: Countries = [
     },
     {
         location_id: 220,
+        image: "https://images.pexels.com/photos/18885701/pexels-photo-18885701/free-photo-of-aerial-view-of-arrak-campus-on-majuro-atoll-marshall-islands.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Marshall Islands",
             official: "Republic of the Marshall Islands",
@@ -12464,6 +12489,7 @@ export const countries: Countries = [
     },
     {
         location_id: 221,
+        image: "https://www.pexels.com/photo/birds-eye-view-of-an-island-in-vanuatu-12921445/",
         name: {
             common: "Vanuatu",
             official: "Republic of Vanuatu",
@@ -12573,6 +12599,7 @@ export const countries: Countries = [
     },
     {
         location_id: 223,
+        image: "https://images.unsplash.com/photo-1553947315-42cee3c8c771?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Nauru",
             official: "Republic of Nauru",
@@ -12678,6 +12705,7 @@ export const countries: Countries = [
     },
     {
         location_id: 225,
+        image: "https://images.unsplash.com/photo-1530736822234-c8562cb0a710?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Fiji",
             official: "Republic of Fiji",
@@ -12785,6 +12813,7 @@ export const countries: Countries = [
     },
     {
         location_id: 227,
+        image: "https://images.unsplash.com/photo-1619900423218-2e548d732dda?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Cook Islands",
             official: "Cook Islands",
@@ -12839,6 +12868,7 @@ export const countries: Countries = [
     },
     {
         location_id: 228,
+        image: "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Australia",
             official: "Commonwealth of Australia",
@@ -12897,6 +12927,7 @@ export const countries: Countries = [
     },
     {
         location_id: 229,
+        image: "https://images.unsplash.com/photo-1733714090606-5783cfa670ce?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Tuvalu",
             official: "Tuvalu",
@@ -13005,6 +13036,7 @@ export const countries: Countries = [
     },
     {
         location_id: 231,
+        image: "https://images.unsplash.com/photo-1516420114325-97684b59e4da?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Christmas Island",
             official: "Territory of Christmas Island",
@@ -13058,6 +13090,7 @@ export const countries: Countries = [
     },
     {
         location_id: 232,
+        image: "https://images.unsplash.com/photo-1544531846-873b4e5cdc1a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Guam",
             official: "Guam",
@@ -13112,6 +13145,7 @@ export const countries: Countries = [
     },
     {
         location_id: 233,
+        image: "https://images.unsplash.com/photo-1549889577-cda81b471223?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Tonga",
             official: "Kingdom of Tonga",
