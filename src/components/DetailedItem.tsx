@@ -2,12 +2,8 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { countries } from "../databases/countries";
 import { weathers } from "../databases/weather";
-<<<<<<< HEAD
-=======
-import { useState } from "react";
 import { Country } from "../interfaces/allInterfaces";
 import { useCountries } from "../contexts/CountriesContext";
->>>>>>> origin/US23-New_Page
 
 function DetailedItem() {
 	const { location_id } = useParams<{ location_id: string }>();

@@ -3,10 +3,11 @@ import { Regions  } from "../interfaces/allInterfaces";
 import style from ".././assets/styles/FilterRegion.module.css"
 
 function FilterRegion() {
-    const { filters, setFilters } = useCountries();
+    const { filters, setFilters, favoriteList, setFavoriteList, currentList } = useCountries();
 
     function handleChangeRegion(string: Regions) {
-        setFilters((prev) => ({ ...prev, region: string }))
+        if (currentList==="search") {setFilters((prev) => ({ ...prev, region: string }))}
+        if (currentList==="favorite") { setFavoriteList((prev) => ({ ...prev, region: string }))}
     }
 
     const regionArray: Regions[] = ["none", "Africa", "Americas", "Asia", "Europe",  "Oceania"]
@@ -16,7 +17,7 @@ function FilterRegion() {
     <div className={style.regionContainer}>
         {regionArray.map((region) => (
             <div key={region}>
-                <input type="radio" id={region} name={region} checked={filters.region === region} onChange={() => handleChangeRegion(region)} />
+                <input type="radio" id={region} name={region} checked={currentList==="search"?(filters.region === region):(favoriteList.region === region)} onChange={() => handleChangeRegion(region)} />
                 <label htmlFor={region}> {region} </label>
             </div>
         ))}
