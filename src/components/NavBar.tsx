@@ -4,12 +4,10 @@ import style from "../assets/styles/NavBar.module.css";
 
 function NavBar() {
 	return (
-		<>
 			<nav className={style.navbar}>
-				<a href="/"><img src="../assets/pictogram/picto_home.svg" alt="home" /></a>
-				<a href="/search"><img src="../assets/pictogram/picto_loupe.svg" alt="search" /></a>
+				<Link to="/"><img src="/src/assets/pictogram/picto_home.svg" alt="home" /></Link> 
+				<Link to="/search"><img src="/src/assets/pictogram/picto_loup.svg" alt="search" /></Link> 
 			</nav>
-		</>
 	);
 }
 
