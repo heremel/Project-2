@@ -1,6 +1,7 @@
 //INTERFACES ET TYPES
 export interface Country {
     location_id: number;
+    image?: string;
     name: {
         common: string;
         official: string;

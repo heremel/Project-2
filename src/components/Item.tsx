@@ -1,7 +1,7 @@
 // import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "../assets/styles/Item.module.css";
-import { Country, Weathers, /*WeatherResult*/ } from "../interfaces/allInterfaces";
+import { Country, Weathers } from "../interfaces/allInterfaces";
 
 interface ItemProps {
 	currentCountry: Country;
