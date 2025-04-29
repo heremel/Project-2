@@ -6,9 +6,11 @@
   color-scheme: light dark;
   color: #374F59;
   background-color: #9db3c1;
-  --primary-color: #374F59;
-  --secondary-color: #9db3c1;
-  --thirdary-color: #d7dee1;
+
+  --primary-color: #9db3c1; /* background color */
+  --secondary-color: #374F59; /* text color */
+  --thirdary-color: #d7dee1; /* text color 2 */
+  --quaternary-color: #374f594d; /* background color of cards */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -21,27 +23,27 @@ body {
   margin-bottom: 1rem;
   align-items: center;
   justify-content: center;
-  background-color: var(--secondary-color) ;
+  background-color: var(--primary-color) ;
 }
 h1{
   font-size: 2rem;
   font-weight: 600px;
   margin-bottom: 1rem;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 } 
 
 h2{
 font-size: 1.5rem;
 font-weight: 600px;
 margin-bottom: 0.2rem;
-color: var(--primary-color);
+color: var(--secondary-color);
 }
 h3{
 justify-content: left;
 font-size: 1.2rem;
 font-weight: 600px;
 padding: 0.5rem;
-color: var(--primary-color);
+color: var(--secondary-color);
 }
 p{
   font-size: 1rem;
@@ -95,8 +97,8 @@ p{
     width: 100%;
     border-radius: 8px;
     border: 3px;
-    color: #d7dee1;
-    background-color: var(--primary-color);
+    color:  var(--secondary-color) ;
+    background-color: var(--quaternary-color);
 }
 .teamCard h3{
     justify-content: left;
@@ -123,7 +125,7 @@ p{
     justify-content: left;
     text-align: left;
     border-radius: 8px;;
-    color: #d7dee1;
+    color: var(--thirdary-color);
 }
 .teamCardpicture {
     width: 70%;
@@ -145,7 +147,6 @@ p{
     font-size: 2rem;
     font-weight: 600px;
     margin-bottom: 1rem;
-    color: var(--primary-color);
   }
   img{
     width: 50%;
@@ -164,7 +165,6 @@ p{
   }
   section{
     padding: 1rem;
-    align-items: center;
   }
 
   div{
@@ -209,7 +209,6 @@ p{
     border-radius: 8px;
     border: 3px;
     color: #d7dee1;
-    background-color: var(--primary-color);
   }
   .teamCard h3{
     width: 100%;
@@ -217,7 +216,6 @@ p{
     font-size: 1.2rem;
     font-weight: 600px;
     padding: 0.5rem;
-    color: var(--secondary-color);
   }
 }
 @media screen and (min-width: 651px) and (max-width: 3000px) {
@@ -261,8 +259,6 @@ p{
     border-radius: 8px;
     border: 3px;
     gap: 1rem;
-    color: #d7dee1;
-    background-color: var(--primary-color);
   }
   .contenairTeamCards{
     display: flex;
@@ -295,6 +291,5 @@ p{
     font-size: 1.2rem;
     font-weight: 600px;
     padding: 0.5rem 1rem 0.5rem 1rem;
-    color: var(--secondary-color);
   }
 }

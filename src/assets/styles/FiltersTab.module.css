@@ -6,7 +6,7 @@
     background-color: var(--thirdary-color);
     border-radius: 15px;
     padding: 1rem;
-    margin: 0;
+    margin-bottom: .5rem;
 }
 
 .moreFilters{
@@ -20,6 +20,7 @@ button{
     margin:0.4rem;
     color: var(--secondary-color);
     background-color: var(--primary-color);
+    cursor: pointer;
     font-size: 0.7rem;
     border-radius: 8px;
 	border: 1px solid transparent;
@@ -37,5 +38,8 @@ button{
 
 fieldset{
     margin-top: 1rem;
+    color: var(--secondary-color);
+
 }
+
 
