@@ -36,6 +36,8 @@ function Item({ currentCountry, weathers }: ItemProps) {
 		<div className={styles.img}>
 			<h2 className={styles.h2item}>{currentCountry.name.common}</h2>
 			<div className={styles.subdiv}>
+				{/* <img src={currentCountry.flags.png} /> */}
+				<img src={!currentCountry.image ? currentCountry.flags.png : currentCountry.image  } />
 				<p>Average Temperature : {weatherResults.meanTemp} °C</p>
 				<p>Currency : {currentCountry.currencies}</p>
 				<p>Landlocked : {currentCountry.landlocked ? "true" : "false"}</p>
