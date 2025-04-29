@@ -43,14 +43,11 @@ function DetailedItem() {
 		.then((data) => setCurrentWeather(data.current.temperature_2m))
 		.catch((err) => console.error(err));
 
-	const totalOfRainyDays = weather.daily.rain_sum;
-	console.log(totalOfRainyDays);
-	const newTotalOfRainyDays = totalOfRainyDays.filter(
-		(day: number) => day > 2.4,
-	);
+	const rainArray = weather.daily.rain_sum;
+	const rainyDays = rainArray.filter((day: number) => day > 1);
 
 	const sumOfRainyDays = weather.daily.rain_sum.reduce((a, b) => a + b, 0);
-	const averageRainyDays =
+	const averageRainPerDay =
 		Math.round((sumOfRainyDays / weather.daily.rain_sum.length) * 100) / 100;
 
 	return (
@@ -66,14 +63,12 @@ function DetailedItem() {
 			<p>Average Temp: {weatherMeanTemp}°C</p>
 			<p>Landlocked: {country.landlocked ? "Yes" : "No"}</p>
 			<p>Snowfall: {hasSnowfall ? "Yes" : "No"}</p>
-			<p>Rainy Days: {newTotalOfRainyDays.length}</p>
-			{/* Pour la pluie selon les critères de l'OMM on a:
-				Précipitation nulle: < 0.1mm/h
-				(donc 2.4mm/j)
+			<p>Rainy Days: {rainyDays.length}</p>
+			{/* 
 				https://library.wmo.int/viewer/54922/download?file=1203_fr.pdf&type=pdf&navigator=1
 				Page 14, 15
 			*/}
-			<p>Average Rain Per Day: {averageRainyDays}</p>
+			<p>Average Rain Per Day: {averageRainPerDay}mm</p>
 			<p>
 				Google Maps Link:{" "}
 				<a target="_blank" href={country.maps.googleMaps} rel="noreferrer">
