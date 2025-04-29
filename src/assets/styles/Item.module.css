@@ -17,3 +17,7 @@
 	justify-content: center;
 	gap: 5px;
 }
+
+.h2item {
+	color: var(--thirdary-color);
+}
