@@ -13217,6 +13217,7 @@ export const countries: Countries = [
     },
     {
         location_id: 235,
+        image: "https://www.pexels.com/fr-fr/photo/mer-plage-vacances-sable-17131058/",
         name: {
             common: "Samoa",
             official: "Independent State of Samoa",
@@ -13272,6 +13273,7 @@ export const countries: Countries = [
     },
     {
         location_id: 236,
+        image: "https://images.pexels.com/photos/8828452/pexels-photo-8828452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Kiribati",
             official: "Independent and Sovereign Republic of Kiribati",
@@ -13328,6 +13330,7 @@ export const countries: Countries = [
     },
     {
         location_id: 237,
+        image: "https://freerangestock.com/sample/5782/bora-bora-tahiti.jpg",
         name: {
             common: "French Polynesia",
             official: "French Polynesia",
@@ -13384,6 +13387,7 @@ export const countries: Countries = [
     },
     {
         location_id: 238,
+        image: "https://images.unsplash.com/photo-1615608178738-37d47d27c13d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Papua New Guinea",
             official: "Independent State of Papua New Guinea",
@@ -13443,6 +13447,7 @@ export const countries: Countries = [
     },
     {
         location_id: 239,
+        image: "https://images.unsplash.com/photo-1690649416378-1335211d5864?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Palau",
             official: "Republic of Palau",
@@ -13501,6 +13506,7 @@ export const countries: Countries = [
     },
     {
         location_id: 240,
+        image: "https://images.pexels.com/photos/3423147/pexels-photo-3423147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "American Samoa",
             official: "American Samoa",
@@ -13555,6 +13561,7 @@ export const countries: Countries = [
     },
     {
         location_id: 241,
+        image: "https://images.pexels.com/photos/2494132/pexels-photo-2494132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Northern Mariana Islands",
             official: "Commonwealth of the Northern Mariana Islands",
@@ -13664,6 +13671,7 @@ export const countries: Countries = [
     },
     {
         location_id: 243,
+        image: "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "New Zealand",
             official: "New Zealand",
@@ -13723,6 +13731,7 @@ export const countries: Countries = [
     },
     {
         location_id: 244,
+        image: "https://images.unsplash.com/photo-1553602932-f93f674a9aaa?q=80&w=2142&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Micronesia",
             official: "Federated States of Micronesia",

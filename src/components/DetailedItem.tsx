@@ -1,8 +1,7 @@
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { countries } from "../databases/countries";
 import { weathers } from "../databases/weather";
-import { useState } from "react";
-import { Weather } from "../interfaces/allInterfaces";
 
 function DetailedItem() {
 	const { location_id } = useParams<{ location_id: string }>();
@@ -50,6 +49,24 @@ function DetailedItem() {
 	const averageRainPerDay =
 		Math.round((sumOfRainyDays / weather.daily.rain_sum.length) * 100) / 100;
 
+	//pour trouver la food
+	const urlFood = `https://www.themealdb.com/api/json/v1/1/filter.php?a=${country.demonyms.eng.masc}`
+
+	const defaultFood = {
+		strMeal: "",
+		strMealThumb: "",
+		idMeal: ""
+	}
+
+	const [food, setFood] = useState(defaultFood)
+
+	useEffect(() => {
+		fetch(urlFood)
+			.then(response => response.json())
+			.then(data => (setFood(data.meals[0])))
+			.catch(err => console.error(err));
+	}, [])
+
 	return (
 		<>
 			<p>Name: {country.name.common}</p>
@@ -57,7 +74,7 @@ function DetailedItem() {
 			<p>Region: {country.region}</p>
 			<p>Subregion: {country.subregion}</p>
 			<p>Languages: {country.languages.join(", ")}</p>
-			<p>Weather: {currentWeather}°C</p>
+			<p>Current Temp: {currentWeather}°C</p>
 			<p>Min Temp: {weatherMinTemp}°C</p>
 			<p>Max Temp: {weatherMaxTemp}°C</p>
 			<p>Average Temp: {weatherMeanTemp}°C</p>
@@ -75,6 +92,12 @@ function DetailedItem() {
 					View
 				</a>
 			</p>
+			{!food.strMeal ? (<div>
+				<p>Typical food: Not found </p>
+			</div>) : (<div>
+				<p>Typical food: {food.strMeal} </p>
+				<img src={food.strMealThumb} />
+			</div>)}
 		</>
 	);
 }

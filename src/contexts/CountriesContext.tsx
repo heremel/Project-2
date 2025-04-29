@@ -1,7 +1,7 @@
 import { createContext, ReactNode, useContext, useState } from "react";
 import { countries } from ".././databases/countries";
 import { weathers } from ".././databases/weather";
-import { Filters, Countries, Weathers  } from "../interfaces/allInterfaces";
+import { Filters, Countries, Weathers } from "../interfaces/allInterfaces";
 
 
 
@@ -26,7 +26,8 @@ export function CountriesProvider({
         languages: [],
         meantempmin: -99,
         meantempmax: 99,
-        landlockedshown: true
+        landlockedshown: true,
+        search: ""
     }
     const [filters, setFilters] = useState(defaultFilters)
 
