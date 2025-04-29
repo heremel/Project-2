@@ -1,7 +1,7 @@
 import { createContext, ReactNode, useContext, useState } from "react";
 import { countries } from ".././databases/countries";
 import { weathers } from ".././databases/weather";
-import { Filters, Countries, Weathers  } from "../interfaces/allInterfaces";
+import { Filters, Countries, Weathers, FavoriteListInterface  } from "../interfaces/allInterfaces";
 
 
 
@@ -12,6 +12,8 @@ interface CountryContextType {
     countries: Countries;
     weathers: Weathers;
     setFilters: React.Dispatch<React.SetStateAction<Filters>>
+    favoriteList: FavoriteListInterface
+    setFavoriteList: React.Dispatch<React.SetStateAction<FavoriteListInterface>>
 }
 
 const CountriesContext = createContext<CountryContextType | null>(null);
@@ -30,10 +32,16 @@ export function CountriesProvider({
     }
     const [filters, setFilters] = useState(defaultFilters)
 
-
+    const favoriteListDefault: FavoriteListInterface = 
+    {
+        memories: [],
+        dreams: []
+    }
+    
+    const [favoriteList, setFavoriteList] = useState<FavoriteListInterface>(favoriteListDefault) //par défaut j'ai des listes vides que je vais remplir qui vont s'appeler comme ça
 
     return (
-        <CountriesContext.Provider value={{ filters: filters, countries: countries, weathers: weathers, setFilters: setFilters }}>
+        <CountriesContext.Provider value={{ filters: filters, countries: countries, weathers: weathers, setFilters: setFilters, favoriteList: favoriteList, setFavoriteList: setFavoriteList }}>
             {children}
         </CountriesContext.Provider>
 

@@ -138,3 +138,10 @@ export type Subregion =
 	| "Melanesia"
 	| "Micronesia"
 	| "Polynesia";
+
+export type LocationId = number;
+	
+export interface FavoriteListInterface{
+    memories: LocationId[],
+    dreams: LocationId[]
+}
