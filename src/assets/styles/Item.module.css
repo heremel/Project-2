@@ -5,20 +5,31 @@
 	--quaternary-color: #374f594d; /* background color of cards */
 }
 
-.img {
-	display: flex;
-	flex-direction: column;
-	background-color: var(--quaternary-color);
-	color: var(--secondary-color);
-	border-radius: 10px;
-	margin: 10px;
-	flex-wrap: wrap;
-	height: 450px;
+.item{
+	gap: 5px;
 	width: 300px;
-	justify-content: center;
+	height: 450px;
+	margin: 20px;
+	padding:0 0 30px 0;
+	border-radius: 10px;
+	background-color: var(--quaternary-color);
+}
+.itemContent img{
+	width: 140px;
+	height: 100px;
+	border-radius: 10px;
 }
 
+.itemContent{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 10px;
+	justify-content: center;
+}
 .subdiv img{
+	display: flex;
+	justify-content: left;
 	width: 150px;
 	height: 100px;
 	border-top :10px;
@@ -42,15 +53,16 @@
 .h2item {
 	display: flex;
 	justify-content: center;
+	padding-top: 5px;
 	color: var(--thirdary-color);
 
-}
+} 
 
 .subdiv a{
 	display: flex;
 	justify-content: center;
 	text-decoration: none;
-	width: 250px;
+	width: 200px;
 	height: auto;
 	color: var(--primary-color);
 	border-radius: 10px;
@@ -63,4 +75,33 @@
 	background-color: var(--thirdary-color);
 	color: var(--secondary-color);
 	transition: 2,5s;
+}
+
+@media screen and (min-width: 841px) and (max-width: 3000px) {
+	.item{
+		gap: 5px;
+		width: 50%;
+		height: 100%;
+		margin: 20px;
+		padding:0 0 30px 0;
+		border-radius: 10px;
+		background-color: var(--quaternary-color);
+	}
+	
+	.itemContent img{
+		margin: 0 30px 0 30px;
+	}
+
+	.h2item {
+		display: flex;
+		justify-content: center;
+		padding-top: 5px;
+		margin-left: 30px;
+		color: var(--thirdary-color);
+	
+	} 
+	.itemContent{
+		display: flex;
+		flex-direction: row;
+	}
 }
