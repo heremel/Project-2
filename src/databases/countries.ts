@@ -5,6 +5,7 @@ export const countries: Countries = [
 
     {
         location_id: 0,
+        image: "https://scandification.com/wp-content/uploads/2020/12/What-Is-The-Capital-Of-Norway-1-scaled.jpg",
         name: {
             common: "Norway",
             official: "Kingdom of Norway",
@@ -62,6 +63,7 @@ export const countries: Countries = [
     },
     {
         location_id: 1,
+        image: "https://images.pexels.com/photos/951539/pexels-photo-951539.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Greece",
             official: "Hellenic Republic",
@@ -120,6 +122,7 @@ export const countries: Countries = [
     },
     {
         location_id: 2,
+        image: "https://images.pexels.com/photos/12568150/pexels-photo-12568150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Åland Islands",
             official: "Åland Islands",
@@ -174,6 +177,7 @@ export const countries: Countries = [
     },
     {
         location_id: 3,
+        image: "https://images.pexels.com/photos/922978/pexels-photo-922978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Switzerland",
             official: "Swiss Confederation",
@@ -235,6 +239,7 @@ export const countries: Countries = [
     },
     {
         location_id: 4,
+        image: "https://images.pexels.com/photos/2040626/pexels-photo-2040626.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Croatia",
             official: "Republic of Croatia",
@@ -293,6 +298,7 @@ export const countries: Countries = [
     {
 
         location_id: 5,
+        image: "https://images.pexels.com/photos/831056/pexels-photo-831056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Iceland",
             official: "Iceland",
@@ -350,6 +356,7 @@ export const countries: Countries = [
     },
     {
         location_id: 6,
+        image: "https://images.pexels.com/photos/678066/pexels-photo-678066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Luxembourg",
             official: "Grand Duchy of Luxembourg",
@@ -410,6 +417,7 @@ export const countries: Countries = [
     },
     {
         location_id: 7,
+        image: "https://images.pexels.com/photos/2350351/pexels-photo-2350351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Hungary",
             official: "Hungary",
@@ -467,6 +475,7 @@ export const countries: Countries = [
     },
     {
         location_id: 8,
+        image: "https://images.pexels.com/photos/2031706/pexels-photo-2031706.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Netherlands",
             official: "Kingdom of the Netherlands",
@@ -525,6 +534,7 @@ export const countries: Countries = [
     },
     {
         location_id: 9,
+        image: "https://images.pexels.com/photos/31512298/pexels-photo-31512298/free-photo-of-l-esthetique-de-l-ennui.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Lithuania",
             official: "Republic of Lithuania",
@@ -583,6 +593,7 @@ export const countries: Countries = [
     },
     {
         location_id: 10,
+        image: "https://images.pexels.com/photos/91222/pexels-photo-91222.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Slovakia",
             official: "Slovak Republic",
@@ -641,6 +652,7 @@ export const countries: Countries = [
     },
     {
         location_id: 11,
+        image: "https://images.pexels.com/photos/17273366/pexels-photo-17273366/free-photo-of-paysage-montagnes-foret-vallee.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Liechtenstein",
             official: "Principality of Liechtenstein",
@@ -698,6 +710,7 @@ export const countries: Countries = [
     },
     {
         location_id: 12,
+        image: "https://images.pexels.com/photos/205078/pexels-photo-205078.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Moldova",
             official: "Republic of Moldova",
@@ -755,6 +768,7 @@ export const countries: Countries = [
     },
     {
         location_id: 13,
+        image: "https://images.pexels.com/photos/208701/pexels-photo-208701.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Italy",
             official: "Italian Republic",
@@ -813,6 +827,7 @@ export const countries: Countries = [
     },
     {
         location_id: 14,
+        image: "https://images.pexels.com/photos/29975346/pexels-photo-29975346/free-photo-of-dramatic-jersey-coastline-with-cliffs-and-sea.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Jersey",
             official: "Bailiwick of Jersey",
@@ -871,6 +886,7 @@ export const countries: Countries = [
     },
     {
         location_id: 15,
+        image: "https://images.pexels.com/photos/3958980/pexels-photo-3958980.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Monaco",
             official: "Principality of Monaco",
@@ -929,6 +945,7 @@ export const countries: Countries = [
     },
     {
         location_id: 16,
+        image: "https://images.pexels.com/photos/6526181/pexels-photo-6526181.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Belarus",
             official: "Republic of Belarus",
@@ -987,6 +1004,7 @@ export const countries: Countries = [
     },
     {
         location_id: 17,
+        image: "https://images.pexels.com/photos/681405/pexels-photo-681405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Latvia",
             official: "Republic of Latvia",
@@ -1045,6 +1063,7 @@ export const countries: Countries = [
     },
     {
         location_id: 18,
+        image: "https://images.pexels.com/photos/3722489/pexels-photo-3722489.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Andorra",
             official: "Principality of Andorra",
@@ -1103,6 +1122,7 @@ export const countries: Countries = [
     },
     {
         location_id: 19,
+        image: "https://images.pexels.com/photos/532826/pexels-photo-532826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "France",
             official: "French Republic",
@@ -1162,6 +1182,7 @@ export const countries: Countries = [
     {
 
         location_id: 20,
+        image: "https://images.pexels.com/photos/12073658/pexels-photo-12073658.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Gibraltar",
             official: "Gibraltar",
@@ -1215,6 +1236,7 @@ export const countries: Countries = [
     },
     {
         location_id: 21,
+        image: "https://images.pexels.com/photos/416024/pexels-photo-416024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Denmark",
             official: "Kingdom of Denmark",
@@ -1272,6 +1294,7 @@ export const countries: Countries = [
     },
     {
         location_id: 22,
+        image: "https://images.pexels.com/photos/30538658/pexels-photo-30538658/free-photo-of-montagnes-enneigees-a-radostusha-macedoine-du-nord.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "North Macedonia",
             official: "Republic of North Macedonia",
@@ -1329,6 +1352,7 @@ export const countries: Countries = [
     },
     {
         location_id: 23,
+        image: "https://images.pexels.com/photos/1591250/pexels-photo-1591250.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Malta",
             official: "Republic of Malta",
@@ -1388,6 +1412,7 @@ export const countries: Countries = [
     },
     {
         location_id: 24,
+        image: "https://images.pexels.com/photos/31482396/pexels-photo-31482396.jpeg",
         name: {
             common: "Czechia",
             official: "Czech Republic",
@@ -1446,6 +1471,7 @@ export const countries: Countries = [
     },
     {
         location_id: 25,
+        image: "https://images.pexels.com/photos/870752/pexels-photo-870752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Guernsey",
             official: "Bailiwick of Guernsey",
@@ -1504,6 +1530,7 @@ export const countries: Countries = [
     },
     {
         location_id: 26,
+        image: "https://images.pexels.com/photos/918263/pexels-photo-918263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Kosovo",
             official: "Republic of Kosovo",
@@ -1559,6 +1586,7 @@ export const countries: Countries = [
     },
     {
         location_id: 27,
+        image: "https://images.pexels.com/photos/5317265/pexels-photo-5317265.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Svalbard and Jan Mayen",
             official: "Svalbard og Jan Mayen",
@@ -1606,6 +1634,7 @@ export const countries: Countries = [
     },
     {
         location_id: 28,
+        image: "https://images.pexels.com/photos/2932540/pexels-photo-2932540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Montenegro",
             official: "Montenegro",
@@ -1664,6 +1693,7 @@ export const countries: Countries = [
     },
     {
         location_id: 29,
+        image: "https://images.pexels.com/photos/29194128/pexels-photo-29194128/free-photo-of-les-superbes-falaises-des-iles-feroe-au-coucher-du-soleil.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Faroe Islands",
             official: "Faroe Islands",
@@ -1722,6 +1752,7 @@ export const countries: Countries = [
     },
     {
         location_id: 30,
+        image: "https://images.pexels.com/photos/131920/pexels-photo-131920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Albania",
             official: "Republic of Albania",
@@ -1776,6 +1807,7 @@ export const countries: Countries = [
     },
     {
         location_id: 31,
+        image: "https://images.pexels.com/photos/31502557/pexels-photo-31502557/free-photo-of-scene-de-rue-animee-a-belgrade-serbie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Serbia",
             official: "Republic of Serbia",
@@ -1833,6 +1865,7 @@ export const countries: Countries = [
     },
     {
         location_id: 32,
+        image: "https://images.pexels.com/photos/2787267/pexels-photo-2787267.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Ukraine",
             official: "Ukraine",
@@ -1890,6 +1923,7 @@ export const countries: Countries = [
     },
     {
         location_id: 33,
+        image: "https://images.pexels.com/photos/431652/pexels-photo-431652.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Isle of Man",
             official: "Isle of Man",
@@ -1943,6 +1977,7 @@ export const countries: Countries = [
     },
     {
         location_id: 34,
+        image: "https://images.pexels.com/photos/1803860/pexels-photo-1803860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Estonia",
             official: "Republic of Estonia",
@@ -2001,6 +2036,7 @@ export const countries: Countries = [
     },
     {
         location_id: 35,
+        image: "https://images.pexels.com/photos/808910/pexels-photo-808910.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Romania",
             official: "Romania",
@@ -2058,6 +2094,7 @@ export const countries: Countries = [
     },
     {
         location_id: 36,
+        image: "https://images.pexels.com/photos/163912/pexels-photo-163912.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Bulgaria",
             official: "Republic of Bulgaria",
@@ -2115,6 +2152,7 @@ export const countries: Countries = [
     },
     {
         location_id: 37,
+        image: "https://images.pexels.com/photos/547494/pexels-photo-547494.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Germany",
             official: "Federal Republic of Germany",
@@ -2173,6 +2211,7 @@ export const countries: Countries = [
     },
     {
         location_id: 38,
+        image: "https://images.pexels.com/photos/46273/pexels-photo-46273.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Poland",
             official: "Republic of Poland",
@@ -2230,6 +2269,7 @@ export const countries: Countries = [
     },
     {
         location_id: 39,
+        image: "https://images.pexels.com/photos/672532/pexels-photo-672532.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "United Kingdom",
             official: "United Kingdom of Great Britain and Northern Ireland",
@@ -2287,6 +2327,7 @@ export const countries: Countries = [
     },
     {
         location_id: 40,
+        image: "https://images.pexels.com/photos/3109271/pexels-photo-3109271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Finland",
             official: "Republic of Finland",
@@ -2346,6 +2387,7 @@ export const countries: Countries = [
     },
     {
         location_id: 41,
+        image: "https://images.pexels.com/photos/1198507/pexels-photo-1198507.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Sweden",
             official: "Kingdom of Sweden",
@@ -2402,6 +2444,7 @@ export const countries: Countries = [
     },
     {
         location_id: 42,
+        image: "https://images.pexels.com/photos/3892129/pexels-photo-3892129.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Vatican City",
             official: "Vatican City State",
@@ -2458,6 +2501,7 @@ export const countries: Countries = [
     },
     {
         location_id: 43,
+        image: "https://images.pexels.com/photos/415980/pexels-photo-415980.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Russia",
             official: "Russian Federation",
@@ -2515,6 +2559,7 @@ export const countries: Countries = [
     },
     {
         location_id: 44,
+        image: "https://images.pexels.com/photos/356807/pexels-photo-356807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Austria",
             official: "Republic of Austria",
@@ -2573,6 +2618,7 @@ export const countries: Countries = [
     },
     {
         location_id: 45,
+        image: "https://images.pexels.com/photos/1693945/pexels-photo-1693945.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Cyprus",
             official: "Republic of Cyprus",
@@ -2631,6 +2677,7 @@ export const countries: Countries = [
     },
     {
         location_id: 46,
+        image: "https://images.pexels.com/photos/2549156/pexels-photo-2549156.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Portugal",
             official: "Portuguese Republic",
@@ -2688,6 +2735,7 @@ export const countries: Countries = [
     },
     {
         location_id: 47,
+        image: "https://images.unsplash.com/photo-1526997237335-45a11b46ecb3?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Bosnia and Herzegovina",
             official: "Bosnia and Herzegovina",
@@ -2747,6 +2795,7 @@ export const countries: Countries = [
     },
     {
         location_id: 48,
+        image: "https://images.pexels.com/photos/2587789/pexels-photo-2587789.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Belgium",
             official: "Kingdom of Belgium",
@@ -2807,6 +2856,7 @@ export const countries: Countries = [
     },
     {
         location_id: 49,
+        image: "https://images.pexels.com/photos/1388030/pexels-photo-1388030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Spain",
             official: "Kingdom of Spain",
@@ -2868,6 +2918,7 @@ export const countries: Countries = [
     },
     {
         location_id: 50,
+        image: "https://images.pexels.com/photos/552770/pexels-photo-552770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Slovenia",
             official: "Republic of Slovenia",
@@ -2982,6 +3033,7 @@ export const countries: Countries = [
     },
     {
         location_id: 52,
+        image: "https://images.pexels.com/photos/1650882/pexels-photo-1650882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Ireland",
             official: "Republic of Ireland",
@@ -3039,6 +3091,7 @@ export const countries: Countries = [
 
     {
         location_id: 53,
+        image: "https://images.pexels.com/photos/23331286/pexels-photo-23331286/free-photo-of-paysage-montagnes-afrique-fond-d-ecran.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Lesotho",
             official: "Kingdom of Lesotho",
@@ -3153,6 +3206,7 @@ export const countries: Countries = [
     },
     {
         location_id: 55,
+        image: "https://images.pexels.com/photos/943510/pexels-photo-943510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Morocco",
             official: "Kingdom of Morocco",
@@ -3211,6 +3265,7 @@ export const countries: Countries = [
     },
     {
         location_id: 56,
+        image: "https://images.pexels.com/photos/3030306/pexels-photo-3030306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Sierra Leone",
             official: "Republic of Sierra Leone",
@@ -3265,6 +3320,7 @@ export const countries: Countries = [
     },
     {
         location_id: 57,
+        image: "https://images.pexels.com/photos/29860296/pexels-photo-29860296/free-photo-of-jeune-fille-marchant-dans-un-champ-au-burkina-faso.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Burkina Faso",
             official: "Burkina Faso",
@@ -3320,6 +3376,7 @@ export const countries: Countries = [
     },
     {
         location_id: 58,
+        image: "https://images.pexels.com/photos/12917693/pexels-photo-12917693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Eritrea",
             official: "State of Eritrea",
@@ -3376,6 +3433,7 @@ export const countries: Countries = [
     },
     {
         location_id: 59,
+        image: "https://images.pexels.com/photos/2949825/pexels-photo-2949825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Tanzania",
             official: "United Republic of Tanzania",
@@ -3431,6 +3489,7 @@ export const countries: Countries = [
     },
     {
         location_id: 60,
+        image: "https://images.pexels.com/photos/14714759/pexels-photo-14714759.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Algeria",
             official: "People's Democratic Republic of Algeria",
@@ -3488,6 +3547,7 @@ export const countries: Countries = [
     },
     {
         location_id: 61,
+        image: "https://images.pexels.com/photos/28270458/pexels-photo-28270458/free-photo-of-aube-paysage-soleil-couchant-coucher-de-soleil.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Mauritania",
             official: "Islamic Republic of Mauritania",
@@ -3542,6 +3602,7 @@ export const countries: Countries = [
     },
     {
         location_id: 62,
+        image: "https://images.pexels.com/photos/980265/pexels-photo-980265.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Sudan",
             official: "Republic of the Sudan",
@@ -3600,6 +3661,7 @@ export const countries: Countries = [
     },
     {
         location_id: 63,
+        image: "https://images.unsplash.com/photo-1543318464-e85748cf047f?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Western Sahara",
             official: "Sahrawi Arab Democratic Republic",
@@ -3650,6 +3712,7 @@ export const countries: Countries = [
     },
     {
         location_id: 64,
+        image: "https://images.unsplash.com/photo-1543161949-1f9193812ce8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Angola",
             official: "Republic of Angola",
@@ -3704,6 +3767,7 @@ export const countries: Countries = [
     },
     {
         location_id: 65,
+        image: "https://images.pexels.com/photos/6322445/pexels-photo-6322445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Ivory Coast",
             official: "Republic of Côte d'Ivoire",
@@ -3759,6 +3823,7 @@ export const countries: Countries = [
     },
     {
         location_id: 66,
+        image: "https://images.pexels.com/photos/30246996/pexels-photo-30246996/free-photo-of-ancien-village-berbere-de-tataouine-tunisie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Tunisia",
             official: "Tunisian Republic",
@@ -3816,6 +3881,7 @@ export const countries: Countries = [
     },
     {
         location_id: 67,
+        image: "https://images.pexels.com/photos/17676147/pexels-photo-17676147/free-photo-of-bateaux-riviere-fleuve-environnement.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Mali",
             official: "Republic of Mali",
@@ -3871,6 +3937,7 @@ export const countries: Countries = [
     },
     {
         location_id: 68,
+        image: "https://images.unsplash.com/photo-1655682603240-03df03520988?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Benin",
             official: "Republic of Benin",
@@ -3926,6 +3993,7 @@ export const countries: Countries = [
     },
     {
         location_id: 69,
+        image: "https://images.unsplash.com/photo-1617173883936-9f118045ad7a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Cape Verde",
             official: "Republic of Cabo Verde",
@@ -12489,7 +12557,7 @@ export const countries: Countries = [
     },
     {
         location_id: 221,
-        image: "https://www.pexels.com/photo/birds-eye-view-of-an-island-in-vanuatu-12921445/",
+        image: "https://images.pexels.com/photos/12921445/pexels-photo-12921445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Vanuatu",
             official: "Republic of Vanuatu",
@@ -13251,7 +13319,7 @@ export const countries: Countries = [
     },
     {
         location_id: 235,
-        image: "https://www.pexels.com/fr-fr/photo/mer-plage-vacances-sable-17131058/",
+        image: "https://images.pexels.com/photos/17131058/pexels-photo-17131058/free-photo-of-mer-plage-vacances-sable.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Samoa",
             official: "Independent State of Samoa",

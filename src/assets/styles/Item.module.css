@@ -1,27 +1,31 @@
-:root{
-	--primary-color: #9db3c1; /* background color */
-	--secondary-color: #374F59; /* text color */
-	--thirdary-color: #d7dee1; /* text color 2 */
-	--quaternary-color: #374f594d; /* background color of cards */
+:root {
+	--primary-color: #9db3c1;
+	/* background color */
+	--secondary-color: #374F59;
+	/* text color */
+	--thirdary-color: #d7dee1;
+	/* text color 2 */
+	--quaternary-color: #374f594d;
+	/* background color of cards */
 }
 
-.item{
+.item {
 	gap: 5px;
 	width: 300px;
 	height: 450px;
 	margin: 20px;
-	padding:0 0 30px 0;
+	padding: 0 0 30px 0;
 	border-radius: 10px;
 	background-color: var(--quaternary-color);
 }
-.itemContent img{
+
+.itemContent img {
 	width: 140px;
 	height: 100px;
 	border-radius: 10px;
-<<<<<<< HEAD
-	margin: 10px;
+	/* margin: 10px;
 	/* flex-wrap: wrap; */
-	height: auto;
+	/*height: auto;
 	width: 80%;
 	justify-content: center;
 }
@@ -30,25 +34,24 @@ img {
 	width: 50%;
 	aspect-ratio: 3/2;
 	object-fit: cover;
-	display: block;
+	display: block; */
 
-=======
 }
 
-.itemContent{
+.itemContent {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding-top: 10px;
 	justify-content: center;
->>>>>>> 5b98264ac9937ac8c0b0fc39667e89b139d028d9
 }
-.subdiv img{
+
+.subdiv img {
 	display: flex;
 	justify-content: left;
 	width: 150px;
 	height: 100px;
-	border-top :10px;
+	border-top: 10px;
 }
 
 .subdiv {
@@ -59,11 +62,11 @@ img {
 	gap: 5px;
 }
 
-.subdiv p{
+.subdiv p {
 	width: 100%;
-    text-align: left;
-    color: var(--thirdary-color);
-    padding-left: 30px;
+	text-align: left;
+	color: var(--thirdary-color);
+	padding-left: 30px;
 }
 
 .h2item {
@@ -71,8 +74,7 @@ img {
 	justify-content: center;
 	padding-top: 5px;
 	color: var(--thirdary-color);
-<<<<<<< HEAD
-}
+	/* }
 
 @media screen and (max-width: 800px) {
 
@@ -84,13 +86,12 @@ img {
 
 	img {
 		margin: 0 auto 1rem
-	}
+	} */
 
-=======
 
-} 
+}
 
-.subdiv a{
+.subdiv a {
 	display: flex;
 	justify-content: center;
 	text-decoration: none;
@@ -103,24 +104,24 @@ img {
 	cursor: pointer;
 }
 
-.subdiv a:hover{
+.subdiv a:hover {
 	background-color: var(--thirdary-color);
 	color: var(--secondary-color);
-	transition: 2,5s;
+	transition: 2, 5s;
 }
 
 @media screen and (min-width: 841px) and (max-width: 3000px) {
-	.item{
+	.item {
 		gap: 5px;
 		width: 50%;
 		height: 100%;
 		margin: 20px;
-		padding:0 0 30px 0;
+		padding: 0 0 30px 0;
 		border-radius: 10px;
 		background-color: var(--quaternary-color);
 	}
-	
-	.itemContent img{
+
+	.itemContent img {
 		margin: 0 30px 0 30px;
 	}
 
@@ -130,11 +131,11 @@ img {
 		padding-top: 5px;
 		margin-left: 30px;
 		color: var(--thirdary-color);
-	
-	} 
-	.itemContent{
+
+	}
+
+	.itemContent {
 		display: flex;
 		flex-direction: row;
 	}
->>>>>>> 5b98264ac9937ac8c0b0fc39667e89b139d028d9
 }
