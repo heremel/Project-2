@@ -46,7 +46,7 @@ function ListOfItems() {
 
 
 	return (
-		<>
+		<div className={styles.mainDiv}>
 			<FiltersTab />
 			<h2>Prepare your trip</h2>
 			<p>Find the next destination to add to your Dreams, Plans, or Remembrances </p>
@@ -60,7 +60,7 @@ function ListOfItems() {
 					/>
 				))}
 			</div>
-		</>
+		</div>
 	);
 }
 

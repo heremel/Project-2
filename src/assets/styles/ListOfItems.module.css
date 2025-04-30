@@ -6,10 +6,16 @@
 
 .container {
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
 	gap: 2px;
 	justify-content: center;
 	align-items: center;
+}
+
+.mainDiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 /* doit être dans item, pas dans list
