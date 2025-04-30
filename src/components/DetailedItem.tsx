@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { countries } from "../databases/countries";
 import { weathers } from "../databases/weather";
 import { useCountries } from "../contexts/CountriesContext";
-import "../assets/styles/DetailedItem.module.css";
+import styles from "../assets/styles/DetailedItem.module.css";
 
 function DetailedItem() {
 	const { location_id } = useParams<{ location_id: string }>();
@@ -103,23 +103,25 @@ function DetailedItem() {
 
 	return (
 		<>
-			<input
-				type="checkbox"
-				name="memories"
-				checked={favoriteList.memories.includes(country.location_id)}
-				onChange={() => handleChangeMemories(country.location_id)}
-			/>
-			<label htmlFor="memories">Add to your memories</label>
-			<input
-				type="checkbox"
-				name="dreams"
-				checked={favoriteList.dreams.includes(country.location_id)}
-				onChange={() => handleChangeDreams(country.location_id)}
-			/>
-			<label htmlFor="dreams">Add to your dreams</label>
+			<div>
+				<input
+					type="checkbox"
+					name="memories"
+					checked={favoriteList.memories.includes(country.location_id)}
+					onChange={() => handleChangeMemories(country.location_id)}
+				/>
+				<label htmlFor="memories">Add to your memories</label>
+				<input
+					type="checkbox"
+					name="dreams"
+					checked={favoriteList.dreams.includes(country.location_id)}
+					onChange={() => handleChangeDreams(country.location_id)}
+				/>
+				<label htmlFor="dreams">Add to your dreams</label>
+			</div>
 			<p>Name: {country.name.common}</p>
-			<div className="allParts">
-				<div className="firstPart">
+			<div className={styles.allParts}>
+				<div className={styles.firstPart}>
 					<p>Capital: {country.capital}</p>
 					<p>Region: {country.region}</p>
 					<p>Subregion: {country.subregion}</p>
@@ -128,7 +130,7 @@ function DetailedItem() {
 					<p>Min Temp: {weatherMinTemp}°C</p>
 					<p>Max Temp: {weatherMaxTemp}°C</p>
 				</div>
-				<div className="secondPart">
+				<div className={styles.secondPart}>
 					<p>Average Temp: {weatherMeanTemp}°C</p>
 					<p>Landlocked: {country.landlocked ? "Yes" : "No"}</p>
 					<p>Snowfall: {hasSnowfall ? "Yes" : "No"}</p>
@@ -144,17 +146,17 @@ function DetailedItem() {
 							View
 						</a>
 					</p>
-					{!food.strMeal ? (
-						<div>
-							<p>Typical food: Not found </p>
-						</div>
-					) : (
-						<div>
-							<p>Typical food: {food.strMeal} </p>
-							<img src={food.strMealThumb} />
-						</div>
-					)}
 				</div>
+				{!food.strMeal ? (
+					<div>
+						<p>Typical food: Not found </p>
+					</div>
+				) : (
+					<div>
+						<p>Typical food: {food.strMeal} </p>
+						<img src={food.strMealThumb} />
+					</div>
+				)}
 			</div>
 		</>
 	);
