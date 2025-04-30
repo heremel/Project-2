@@ -28,7 +28,8 @@ export function CountriesProvider({
         languages: [],
         meantempmin: -99,
         meantempmax: 99,
-        landlockedshown: true
+        landlockedshown: true,
+        search: ""
     }
     const [filters, setFilters] = useState(defaultFilters)
 

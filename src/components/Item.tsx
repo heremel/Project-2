@@ -1,10 +1,11 @@
 // import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "../assets/styles/Item.module.css";
-import { Country, Weathers, /*WeatherResult*/ } from "../interfaces/allInterfaces";
+import { Country, Weathers } from "../interfaces/allInterfaces";
 
 interface ItemProps {
-	currentCountry: WeatherCountry;
+	currentCountry: Country;
+	weathers: Weathers
 }
 
 function Item({ currentCountry, weathers }: ItemProps) {
@@ -26,11 +27,10 @@ function Item({ currentCountry, weathers }: ItemProps) {
 
 	const sum = currentWeather.daily.temperature_2m_mean.reduce((a, b) => a + b);
 	weatherResults.meanTemp =
-		Math.floor((sum / currentCountry.daily.temperature_2m_mean.length) * 100) /
+		Math.floor((sum / currentWeather.daily.temperature_2m_mean.length) * 100) /
 		100;
 	weatherResults.minTemp = Math.min(...currentWeather.daily.temperature_2m_min);
 	weatherResults.maxTemp = Math.max(...currentWeather.daily.temperature_2m_max);
-	weatherResults.elevation = currentWeather.elevation;
 
 	return (
 		<div className={styles.img}>
@@ -41,8 +41,6 @@ function Item({ currentCountry, weathers }: ItemProps) {
 				<p>Landlocked : {currentCountry.landlocked ? "true" : "false"}</p>
 				<p>Subregion : {currentCountry.subregion}</p>
 				<p>Languages : {currentCountry.languages.join(", ")}</p>
-				{/* <p>Elevation : {currentCountry.elevation}</p> */}
-				{/* <p>ID : {currentWeather.location_id}</p> */}
 				<Link to={`/details/${currentCountry.location_id}`}>More Info</Link>
 			</div>
 		</div>

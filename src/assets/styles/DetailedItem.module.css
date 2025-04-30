@@ -4,3 +4,12 @@
 body {
 	display: flex;
 }
+
+.firstPart {
+	display: flex;
+	flex-direction: row;
+}
+
+.secondPart {
+	display: flex;
+}
