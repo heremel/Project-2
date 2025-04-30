@@ -6,9 +6,8 @@
 
 .container {
 	display: flex;
-	/* flex-wrap: wrap; */
+	flex-wrap: wrap;
 	gap: 2px;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }

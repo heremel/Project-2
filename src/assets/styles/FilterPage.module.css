@@ -1,7 +1,28 @@
 .filterPageContainer {
     background-color: var(--thirdary-color);
+    color: var(--secondary-color);
     border-radius: 15px;
     padding: 1rem;
     margin: 0;
-    border: solid var(--secondary-color)
+    /*border: solid var(--secondary-color) */
+}
+fieldset{
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+}
+@media screen and (min-width: 651px) and (max-width: 3000px) {
+body {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.subregionContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1rem;}
+
 }
