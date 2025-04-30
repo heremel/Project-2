@@ -1,12 +1,12 @@
 .img {
 	display: flex;
 	flex-direction: column;
-	background-color: var(--primary-color);
-	color: var(--thirdary-color);
+	background-color: var(--quaternary-color);
+	color: var(--secondary-color);
 	border-radius: 10px;
-	margin-top: 20px;
+	margin: 10px;
 	flex-wrap: wrap;
-	height: auto;
+	height: 400px;
 	width: 300px;
 	justify-content: center;
 }
