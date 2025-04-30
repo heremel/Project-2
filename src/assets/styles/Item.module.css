@@ -1,9 +1,24 @@
-.item {
-	/* display: flex;
-	flex-direction: column; */
-	background-color: var(--quaternary-color);
-	color: var(--secondary-color);
+:root{
+	--primary-color: #9db3c1; /* background color */
+	--secondary-color: #374F59; /* text color */
+	--thirdary-color: #d7dee1; /* text color 2 */
+	--quaternary-color: #374f594d; /* background color of cards */
+}
+
+.item{
+	gap: 5px;
+	width: 300px;
+	height: 450px;
+	margin: 20px;
+	padding:0 0 30px 0;
 	border-radius: 10px;
+	background-color: var(--quaternary-color);
+}
+.itemContent img{
+	width: 140px;
+	height: 100px;
+	border-radius: 10px;
+<<<<<<< HEAD
 	margin: 10px;
 	/* flex-wrap: wrap; */
 	height: auto;
@@ -17,22 +32,46 @@ img {
 	object-fit: cover;
 	display: block;
 
+=======
 }
 
-.itemContent {
+.itemContent{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 10px;
+	justify-content: center;
+>>>>>>> 5b98264ac9937ac8c0b0fc39667e89b139d028d9
+}
+.subdiv img{
+	display: flex;
+	justify-content: left;
+	width: 150px;
+	height: 100px;
+	border-top :10px;
 }
 
 .subdiv {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	justify-content: center;
 	gap: 5px;
 }
 
+.subdiv p{
+	width: 100%;
+    text-align: left;
+    color: var(--thirdary-color);
+    padding-left: 30px;
+}
+
 .h2item {
+	display: flex;
+	justify-content: center;
+	padding-top: 5px;
 	color: var(--thirdary-color);
+<<<<<<< HEAD
 }
 
 @media screen and (max-width: 800px) {
@@ -47,4 +86,55 @@ img {
 		margin: 0 auto 1rem
 	}
 
+=======
+
+} 
+
+.subdiv a{
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	width: 200px;
+	height: auto;
+	color: var(--primary-color);
+	border-radius: 10px;
+	background-color: var(--secondary-color);
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.subdiv a:hover{
+	background-color: var(--thirdary-color);
+	color: var(--secondary-color);
+	transition: 2,5s;
+}
+
+@media screen and (min-width: 841px) and (max-width: 3000px) {
+	.item{
+		gap: 5px;
+		width: 50%;
+		height: 100%;
+		margin: 20px;
+		padding:0 0 30px 0;
+		border-radius: 10px;
+		background-color: var(--quaternary-color);
+	}
+	
+	.itemContent img{
+		margin: 0 30px 0 30px;
+	}
+
+	.h2item {
+		display: flex;
+		justify-content: center;
+		padding-top: 5px;
+		margin-left: 30px;
+		color: var(--thirdary-color);
+	
+	} 
+	.itemContent{
+		display: flex;
+		flex-direction: row;
+	}
+>>>>>>> 5b98264ac9937ac8c0b0fc39667e89b139d028d9
 }
