@@ -1,0 +1,6 @@
+/* --primary-color: #374f59;
+	--secondary-color: #9db3c1;
+	--thirdary-color: #d7dee1; */
+body {
+	display: flex;
+}

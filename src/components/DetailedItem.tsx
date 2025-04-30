@@ -4,6 +4,7 @@ import { weathers } from "../databases/weather";
 import { useState } from "react";
 import { Country } from "../interfaces/allInterfaces";
 import { useCountries } from "../contexts/CountriesContext";
+import "../assets/styles/DetailedItem.module.css";
 
 function DetailedItem() {
 	const { location_id } = useParams<{ location_id: string }>();
