@@ -118,6 +118,7 @@ function DetailedItem() {
 			/>
 			<label htmlFor="dreams">Add to your dreams</label>
 			<p>Name: {country.name.common}</p>
+			<div className="allParts">
 			<div className="firstPart">
 				<p>Capital: {country.capital}</p>
 				<p>Region: {country.region}</p>
@@ -153,6 +154,7 @@ function DetailedItem() {
 					<img src={food.strMealThumb} />
 				</div>
 			)}
+			</div>
 			</div>
 		</>
 	);

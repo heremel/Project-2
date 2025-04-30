@@ -7,9 +7,14 @@ body {
 
 .firstPart {
 	display: flex;
-	flex-direction: row;
+	width: 45%;
 }
 
 .secondPart {
+	display: flex;
+	width: 45%;
+}
+
+.allParts {
 	display: flex;
 }
