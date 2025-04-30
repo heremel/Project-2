@@ -1,42 +1,35 @@
 import { useCountries } from "../contexts/CountriesContext";
-import style from ".././assets/styles/FilterLanguages.module.css"
+import style from ".././assets/styles/FilterFavorite.module.css"
+import { MoD } from "../interfaces/allInterfaces";
 
 function FilterFavorite() {
-    const { filters, setFilters } = useCountries();
+    const { favoriteList, setFavoriteList } = useCountries();
 
-    const handleChangeLang = (lang: string) => {
-        if (filters.languages.includes(lang)) {
-            // setFilters((prev) => ({ ...prev, languages: prev.languages.filter(() => !prev.languages.includes(lang)) }))
-            setFilters((prev) => ({ ...prev, languages: prev.languages.filter((language) => language !== lang) }))
+    const handleChangeFav = (option: MoD) => {
+        if (favoriteList.memoriesOrDreams === option) {
 
+            setFavoriteList((prev) => ({ ...prev, memoriesOrDreams: "both" }))
         }
-        else {
-            setFilters((prev) => ({ ...prev, languages: [...prev.languages, lang] }))
+        if (favoriteList.memoriesOrDreams !== option) {
+            setFavoriteList((prev) => ({ ...prev, memoriesOrDreams: option }))
         }
+
+
 
     }
 
-    const langArray: string[] = ["English", "French", "Spanish", "Portuguese", "Italian", "German", "Dutch", "Arabic", "Chinese"]
 
-    return (<fieldset>
-        <legend>Languages</legend>
-    <div className={style.filterLangContainer}>
-        {langArray.map((language) => (
-            <div key={language} className={style.filterLang}>
-                <input type="checkbox" id={language} name={language} checked={filters.languages.includes(language)} onChange={() => handleChangeLang(language)} />
-                <label htmlFor={language}>{language}</label>
-            </div>
-        ))}
+    return (<>
+        <div className={style.inLine}>
+        <input type="checkbox" id="dreams" name="dreams" checked={favoriteList.memoriesOrDreams === "dreams"} onChange={() => handleChangeFav("dreams")} />
+        <label htmlFor="dreams">Dreams only</label>
+        </div>
+        <div className={style.inLine}>
+        <input type="checkbox" id="memories" name="memories" checked={favoriteList.memoriesOrDreams === "memories"} onChange={() => handleChangeFav("memories")} />
+        <label htmlFor="memories">Remembrances only</label>
+        </div>
 
-
-        {/* <input type="checkbox" id="English" name="English" checked={!filters.languages.includes("English")} onChange={() => handleChangeLang("English")} />
-        <label htmlFor="English">English</label>
-
-        <input type="checkbox" id="French" name="French" checked={!filters.languages.includes("French")} onChange={() => handleChangeLang("French")} />
-        <label htmlFor="French">French</label> */}
-
-    </div>
-    </fieldset>)
+    </>)
 }
 
 export default FilterFavorite

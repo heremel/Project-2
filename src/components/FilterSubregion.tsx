@@ -22,7 +22,7 @@ function FilterSubregion() {
         <legend>Subregions</legend>
         <div className={style.subregionContainer}>
             {filters.region !== "none" ? (subregionArray.find((regionObject: SubInRegion) => (regionObject.region === filters.region))?.subregions.map((subregion) => (
-                <div key={subregion}>
+                <div className={style.inLine} key={subregion}>
                     <input type="radio" id={subregion} name={subregion} checked={currentList==="search"?(filters.subregion === subregion):(favoriteList.subregion === subregion)} onChange={() => handleChangeSubregion(subregion)} />
                     <label htmlFor={subregion}> {subregion} </label>
                 </div>

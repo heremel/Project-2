@@ -14,12 +14,15 @@ function FilterPage() {
     const { currentList } = useCountries();
 
     return <div className={style.filterPageContainer}>
+        <div className={style.checkBoxes}>
+        {currentList === "favorite" && <FilterFavorite />}
         <FilterLandLocked />
+        </div>
         <FilterRegion />
         <FilterSubregion />
         <FilterLanguages />
         <FilterTemperature />
-        {/* {currentList==="favorite"&&<FilterFavorite  />} */}
+        
     </div>
 }
 

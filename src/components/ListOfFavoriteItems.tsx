@@ -6,11 +6,17 @@ import { useEffect, useState } from "react";
 
 function ListOfFavoriteItems() {
 	const { countries, weathers, favoriteList } = useCountries();
-	const favoriteArray = [...favoriteList.dreams, ...favoriteList.memories]
+	let favoriteArray:Number[] = []
 	const [filteredArray, setFilteredArray] = useState(countries)
 
 	useEffect(() => {
 		setFilteredArray(countries)
+
+		switch (favoriteList.memoriesOrDreams){
+			case "both": favoriteArray = [...favoriteList.dreams, ...favoriteList.memories]; break;
+			case "memories": favoriteArray = [ ...favoriteList.memories]; break;
+			case "dreams": favoriteArray = [...favoriteList.dreams]; break;
+		}
 
 		setFilteredArray((prev) => prev.filter((country) => favoriteArray.includes(country.location_id)))
 

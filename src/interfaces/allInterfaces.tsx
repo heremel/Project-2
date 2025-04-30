@@ -123,9 +123,12 @@ export type Subregion = "none" | "Northern Africa" | "Eastern Africa" | "Middle 
 
 export type LocationId = number;
 
+export type MoD =  "both"|"memories"|"dreams"
+
 export interface FavoriteListInterface {
     memories: LocationId[];
     dreams: LocationId[];
+    memoriesOrDreams: MoD;
     region: Regions;
     subregion: Subregion;
     languages: string[];

@@ -14,5 +14,14 @@ label{
 }
 
 .filterLang{
-    padding:0
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    margin : 0.25rem auto
+}
+
+.inLine{
+    display: flex;
+    flex-direction: row;
+    margin-right: 1rem
 }

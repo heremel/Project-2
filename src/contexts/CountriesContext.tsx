@@ -39,6 +39,7 @@ export function CountriesProvider({
     {
         memories: [],
         dreams: [],
+        memoriesOrDreams: "both",
         region: "none",
         subregion: "none",
         languages: [],

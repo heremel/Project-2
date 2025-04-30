@@ -1,4 +1,5 @@
 import { useCountries } from "../contexts/CountriesContext";
+import style from ".././assets/styles/FilterTemperature.module.css"
 
 
 function FilterTemperature() {
@@ -16,7 +17,7 @@ function FilterTemperature() {
 
 
 
-    return (<fieldset>
+    return (<fieldset className={style.inLine}>
         <legend>Mean temperature in C°</legend>
         <label htmlFor="min">between</label>
         <input type="number" id="min" name="min" min="-99" max={currentList==="search"?(filters.meantempmax):(favoriteList.meantempmax)} value={currentList==="search"?(filters.meantempmin):(favoriteList.meantempmin)} onChange={(event)=>(handleChangeMin(parseInt(event.target.value)))} />
