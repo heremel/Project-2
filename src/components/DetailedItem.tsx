@@ -119,6 +119,7 @@ function DetailedItem() {
 				/>
 				<label htmlFor="dreams">Add to your dreams</label>
 			</div>
+			<img alt={country.name.common} src={!country.image ? country.flags.png : country.image} />
 			<p>Name: {country.name.common}</p>
 			<div className={styles.allParts}>
 				<div className={styles.firstPart}>
