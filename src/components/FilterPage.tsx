@@ -11,15 +11,15 @@ import FilterFavorite from "./FilterFavorite"
 
 function FilterPage() {
 
-const { currentList } = useCountries();
+    const { currentList } = useCountries();
 
     return <div className={style.filterPageContainer}>
         <FilterLandLocked />
         <FilterRegion />
         <FilterSubregion />
         <FilterLanguages />
-        <FilterTemperature  />
-        {currentList==="favorite"&&<FilterFavorite  />}
+        <FilterTemperature />
+        {/* {currentList==="favorite"&&<FilterFavorite  />} */}
     </div>
 }
 
