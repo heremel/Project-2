@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .filterPageContainer {
     background-color: var(--thirdary-color);
     color: var(--secondary-color);
