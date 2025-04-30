@@ -50,7 +50,7 @@ export function CountriesProvider({
 
     const [favoriteList, setFavoriteList] = useState<FavoriteListInterface>(favoriteListDefault) //par défaut j'ai des listes vides que je vais remplir qui vont s'appeler comme ça
 
- const [currentList, setCurrentList] = useState<ItemList>("none")
+    const [currentList, setCurrentList] = useState<ItemList>("none")
 
     return (
         <CountriesContext.Provider value={{ currentList, setCurrentList, filters: filters, countries: countries, weathers: weathers, setFilters: setFilters, favoriteList: favoriteList, setFavoriteList: setFavoriteList }}>
