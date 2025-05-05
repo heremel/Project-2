@@ -4108,6 +4108,7 @@ export const countries: Countries = [
     },
     {
         location_id: 71,
+        image: "https://images.unsplash.com/photo-1557849582-5875ac6dee83?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Uganda",
             official: "Republic of Uganda",
@@ -4163,6 +4164,7 @@ export const countries: Countries = [
     },
     {
         location_id: 72,
+        image: "https://images.unsplash.com/photo-1591005383946-16532ba69aee?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Botswana",
             official: "Republic of Botswana",
@@ -4218,6 +4220,7 @@ export const countries: Countries = [
     },
     {
         location_id: 73,
+        image: "https://images.unsplash.com/photo-1672787076496-ccb18a869605?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Burundi",
             official: "Republic of Burundi",
@@ -4273,6 +4276,7 @@ export const countries: Countries = [
     },
     {
         location_id: 74,
+        image: "https://images.unsplash.com/photo-1576485375217-d6a95e34d043?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "South Africa",
             official: "Republic of South Africa",
@@ -4342,6 +4346,7 @@ export const countries: Countries = [
     },
     {
         location_id: 75,
+        image: "https://images.unsplash.com/photo-1639862819821-5350da089c43?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Libya",
             official: "State of Libya",
@@ -4452,6 +4457,7 @@ export const countries: Countries = [
     },
     {
         location_id: 77,
+        image: "https://images.unsplash.com/photo-1594612619605-68845c412219?q=80&w=1773&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Gabon",
             official: "Gabonese Republic",
@@ -4507,6 +4513,7 @@ export const countries: Countries = [
     },
     {
         location_id: 78,
+        image: "https://images.unsplash.com/photo-1637244018403-785e7fa8707a?q=80&w=1843&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Cameroon",
             official: "Republic of Cameroon",
@@ -4563,6 +4570,7 @@ export const countries: Countries = [
     },
     {
         location_id: 79,
+        image: "https://images.unsplash.com/photo-1621862681383-11bfff7588e7?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Guinea",
             official: "Republic of Guinea",
@@ -4617,6 +4625,7 @@ export const countries: Countries = [
     },
     {
         location_id: 80,
+        image: "https://images.unsplash.com/photo-1624964651025-5bf433458ca8?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Seychelles",
             official: "Republic of Seychelles",
@@ -4722,6 +4731,7 @@ export const countries: Countries = [
     },
     {
         location_id: 82,
+        image: "https://images.unsplash.com/photo-1563656353898-febc9270a0f6?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Madagascar",
             official: "Republic of Madagascar",
@@ -4780,6 +4790,7 @@ export const countries: Countries = [
     },
     {
         location_id: 83,
+        image: "https://images.pexels.com/photos/30219277/pexels-photo-30219277/free-photo-of-vue-aerienne-de-la-ville-de-bukavu-en-republique-democratique-du-congo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "DR Congo",
             official: "Democratic Republic of the Congo",
@@ -4838,6 +4849,7 @@ export const countries: Countries = [
     },
     {
         location_id: 84,
+        image: "https://images.unsplash.com/photo-1550517783-799cb706c757?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Gambia",
             official: "Republic of the Gambia",
@@ -4892,6 +4904,7 @@ export const countries: Countries = [
     },
     {
         location_id: 85,
+        image: "https://images.unsplash.com/photo-1730714222751-eb1bbdea6f83?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Somalia",
             official: "Federal Republic of Somalia",
@@ -4949,6 +4962,7 @@ export const countries: Countries = [
     },
     {
         location_id: 86,
+        image: "https://images.unsplash.com/photo-1618828665347-d870c38c95c7?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Nigeria",
             official: "Federal Republic of Nigeria",
@@ -5060,6 +5074,7 @@ export const countries: Countries = [
     },
     {
         location_id: 88,
+        image: "https://images.unsplash.com/photo-1655207882298-bd11bb69ee43?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Eswatini",
             official: "Kingdom of Eswatini",
@@ -5116,6 +5131,7 @@ export const countries: Countries = [
     },
     {
         location_id: 89,
+        image: "https://images.unsplash.com/photo-1572252009286-268acec5ca0a?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Egypt",
             official: "Arab Republic of Egypt",
@@ -5228,6 +5244,7 @@ export const countries: Countries = [
     },
     {
         location_id: 91,
+        image: "https://images.unsplash.com/photo-1664887248353-48fad226dbe6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Senegal",
             official: "Republic of Senegal",
@@ -5341,6 +5358,7 @@ export const countries: Countries = [
     },
     {
         location_id: 93,
+        image: "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Kenya",
             official: "Republic of Kenya",
@@ -5399,6 +5417,7 @@ export const countries: Countries = [
     },
     {
         location_id: 94,
+        image: "https://images.unsplash.com/photo-1668875438994-4388304392ef?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Rwanda",
             official: "Republic of Rwanda",
@@ -5455,6 +5474,7 @@ export const countries: Countries = [
     },
     {
         location_id: 95,
+        image: "https://images.unsplash.com/photo-1563985336376-568060942b80?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Namibia",
             official: "Republic of Namibia",
@@ -5518,6 +5538,7 @@ export const countries: Countries = [
     },
     {
         location_id: 96,
+        image: "https://images.unsplash.com/photo-1690510490931-94b21a10e79c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Liberia",
             official: "Republic of Liberia",
@@ -5575,6 +5596,7 @@ export const countries: Countries = [
     },
     {
         location_id: 97,
+        image: "https://images.unsplash.com/photo-1533631278779-d722ded4c7df?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Zambia",
             official: "Republic of Zambia",
@@ -5632,6 +5654,7 @@ export const countries: Countries = [
     },
     {
         location_id: 98,
+        image: "https://images.pexels.com/photos/31187473/pexels-photo-31187473/free-photo-of-vue-aerienne-de-la-mosquee-de-la-capitale-du-nigeria.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Niger",
             official: "Republic of Niger",
@@ -5690,6 +5713,7 @@ export const countries: Countries = [
     },
     {
         location_id: 99,
+        image: "https://images.pexels.com/photos/1854713/pexels-photo-1854713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Comoros",
             official: "Union of the Comoros",
@@ -5805,6 +5829,7 @@ export const countries: Countries = [
     },
     {
         location_id: 101,
+        image: "https://images.unsplash.com/photo-1589104602532-9cee07f8f62c?q=80&w=1928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Ghana",
             official: "Republic of Ghana",
@@ -5859,6 +5884,7 @@ export const countries: Countries = [
     },
     {
         location_id: 102,
+        image: "https://images.pexels.com/photos/10943277/pexels-photo-10943277.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Chad",
             official: "Republic of Chad",
@@ -5915,6 +5941,7 @@ export const countries: Countries = [
     },
     {
         location_id: 103,
+        image: "https://images.unsplash.com/photo-1575285272212-d52e915d01c7?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Zimbabwe",
             official: "Republic of Zimbabwe",
@@ -5983,6 +6010,7 @@ export const countries: Countries = [
     },
     {
         location_id: 104,
+        image: "https://images.unsplash.com/photo-1665422276005-18116a1e6225?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Réunion",
             official: "Réunion Island",
@@ -6039,6 +6067,7 @@ export const countries: Countries = [
     },
     {
         location_id: 105,
+        image: "https://images.unsplash.com/photo-1521837095228-0acd6c1cf09a?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "São Tomé and Príncipe",
             official: "Democratic Republic of São Tomé and Príncipe",
@@ -6093,6 +6122,7 @@ export const countries: Countries = [
     },
     {
         location_id: 106,
+        image: "https://images.unsplash.com/photo-1612286710224-dd9eb9d8349a?q=80&w=1767&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Malawi",
             official: "Republic of Malawi",
@@ -6148,6 +6178,7 @@ export const countries: Countries = [
     },
     {
         location_id: 107,
+        image: "https://images.unsplash.com/photo-1668939581252-470c103ac7da?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Ethiopia",
             official: "Federal Democratic Republic of Ethiopia",
@@ -6316,6 +6347,7 @@ export const countries: Countries = [
     },
     {
         location_id: 110,
+        image: "https://images.unsplash.com/photo-1513415277900-a62401e19be4?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Mauritius",
             official: "Republic of Mauritius",
@@ -6372,6 +6404,7 @@ export const countries: Countries = [
     },
     {
         location_id: 111,
+        image: "https://images.unsplash.com/photo-1565104165703-0777aab1b278?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Mozambique",
             official: "Republic of Mozambique",
@@ -6430,6 +6463,7 @@ export const countries: Countries = [
 
     {
         location_id: 112,
+        image: "https://images.unsplash.com/photo-1534943441045-1009d7cb0bb9?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Colombia",
             official: "Republic of Colombia",
@@ -6484,6 +6518,7 @@ export const countries: Countries = [
     },
     {
         location_id: 113,
+        image: "https://images.unsplash.com/photo-1724598674807-6acb225b98f2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Curaçao",
             official: "Country of Curaçao",
@@ -6540,6 +6575,7 @@ export const countries: Countries = [
     },
     {
         location_id: 114,
+        image: "https://images.unsplash.com/photo-1669632477422-25054b68cbaa?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "French Guiana",
             official: "Guiana",
@@ -6597,6 +6633,7 @@ export const countries: Countries = [
     },
     {
         location_id: 115,
+        image: "https://images.unsplash.com/photo-1616464654572-43996d6b0133?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Grenada",
             official: "Grenada",
@@ -6651,6 +6688,7 @@ export const countries: Countries = [
     },
     {
         location_id: 116,
+        image: "https://images.unsplash.com/photo-1680317423379-c2d47607b8e6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Sint Maarten",
             official: "Sint Maarten",
@@ -6706,6 +6744,7 @@ export const countries: Countries = [
     },
     {
         location_id: 117,
+        image: "https://images.unsplash.com/photo-1556918936-3e73b945d24f?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Argentina",
             official: "Argentine Republic",
@@ -6763,6 +6802,7 @@ export const countries: Countries = [
     },
     {
         location_id: 118,
+        image: "https://images.unsplash.com/photo-1514130667032-770bbfe7b7b2?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Turks and Caicos Islands",
             official: "Turks and Caicos Islands",
@@ -6814,6 +6854,7 @@ export const countries: Countries = [
     },
     {
         location_id: 119,
+        image: "https://images.unsplash.com/photo-1649703196751-9019ead6b2f4?q=80&w=1921&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Dominica",
             official: "Commonwealth of Dominica",
@@ -6919,6 +6960,7 @@ export const countries: Countries = [
     },
     {
         location_id: 121,
+        image: "https://images.unsplash.com/photo-1562559094-0739564bbc71?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Costa Rica",
             official: "Republic of Costa Rica",
@@ -6976,6 +7018,7 @@ export const countries: Countries = [
     },
     {
         location_id: 122,
+        image: "https://images.unsplash.com/photo-1602027333786-373a1b858831?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Haiti",
             official: "Republic of Haiti",
@@ -7033,6 +7076,7 @@ export const countries: Countries = [
     },
     {
         location_id: 123,
+        image: "https://images.unsplash.com/photo-1626023523650-f9fe5e85cacc?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Barbados",
             official: "Barbados",
@@ -7089,6 +7133,7 @@ export const countries: Countries = [
     },
     {
         location_id: 124,
+        image: "https://images.unsplash.com/photo-1637353831495-80b454520a24?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Honduras",
             official: "Republic of Honduras",
@@ -7145,6 +7190,7 @@ export const countries: Countries = [
     },
     {
         location_id: 125,
+        image: "https://images.unsplash.com/photo-1579687196544-08ae57ab5c11?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Puerto Rico",
             official: "Commonwealth of Puerto Rico",
@@ -7202,6 +7248,7 @@ export const countries: Countries = [
     },
     {
         location_id: 126,
+        image: "https://images.unsplash.com/photo-1673369965024-979e1d26b779?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Falkland Islands",
             official: "Falkland Islands",
@@ -7255,6 +7302,7 @@ export const countries: Countries = [
     },
     {
         location_id: 127,
+        image: "https://images.unsplash.com/photo-1590083948630-a760024aee3a?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Saint Kitts and Nevis",
             official: "Federation of Saint Christopher and Nevis",
@@ -7310,6 +7358,7 @@ export const countries: Countries = [
     },
     {
         location_id: 128,
+        image: "https://images.unsplash.com/photo-1617280325974-f9c5721a4862?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Saint Lucia",
             official: "Saint Lucia",
@@ -7421,6 +7470,7 @@ export const countries: Countries = [
     },
     {
         location_id: 130,
+        image: "https://images.unsplash.com/photo-1533083602500-2f97a3930261?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Bolivia",
             official: "Plurinational State of Bolivia",
@@ -7478,6 +7528,7 @@ export const countries: Countries = [
     },
     {
         location_id: 131,
+        image: "https://images.unsplash.com/photo-1478827387698-1527781a4887?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Chile",
             official: "Republic of Chile",
@@ -7534,6 +7585,7 @@ export const countries: Countries = [
     },
     {
         location_id: 132,
+        image: "https://images.unsplash.com/photo-1508172732766-a5f6a44a000e?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "United States",
             official: "United States of America",
@@ -7593,6 +7645,7 @@ export const countries: Countries = [
     },
     {
         location_id: 133,
+        image: "https://images.unsplash.com/photo-1614706580214-1f5412a118a2?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Guadeloupe",
             official: "Guadeloupe",
@@ -7650,6 +7703,7 @@ export const countries: Countries = [
     },
     {
         location_id: 134,
+        image: "https://images.unsplash.com/photo-1610220260088-07fafc859f87?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Mexico",
             official: "United Mexican States",
@@ -7707,6 +7761,7 @@ export const countries: Countries = [
     },
     {
         location_id: 135,
+        image: "https://images.unsplash.com/photo-1579167149678-76415f24b197?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Saint Vincent and the Grenadines",
             official: "Saint Vincent and the Grenadines",
@@ -7762,6 +7817,7 @@ export const countries: Countries = [
     },
     {
         location_id: 136,
+        image: "https://images.unsplash.com/photo-1587414464734-7f9eb21db895?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Bermuda",
             official: "Bermuda",
@@ -7817,6 +7873,7 @@ export const countries: Countries = [
     },
     {
         location_id: 137,
+        image: "https://images.unsplash.com/photo-1529420705456-5c7e04dd043d?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Dominican Republic",
             official: "Dominican Republic",
@@ -7874,6 +7931,7 @@ export const countries: Countries = [
     },
     {
         location_id: 138,
+        image: "https://images.unsplash.com/photo-1508035460735-91088c495500?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Guatemala",
             official: "Republic of Guatemala",
@@ -7931,6 +7989,7 @@ export const countries: Countries = [
     },
     {
         location_id: 139,
+        image: "https://images.unsplash.com/photo-1566352081904-cfa7024f5d6a?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Ecuador",
             official: "Republic of Ecuador",
@@ -7988,6 +8047,7 @@ export const countries: Countries = [
     },
     {
         location_id: 140,
+        image: "https://images.unsplash.com/photo-1589574250935-54b1290ece20?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Martinique",
             official: "Martinique",
@@ -8154,6 +8214,7 @@ export const countries: Countries = [
     },
     {
         location_id: 143,
+        image: "https://images.unsplash.com/photo-1548574505-5e239809ee19?q=80&w=1864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Bahamas",
             official: "Commonwealth of the Bahamas",
@@ -8208,6 +8269,7 @@ export const countries: Countries = [
     },
     {
         location_id: 144,
+        image: "https://images.unsplash.com/photo-1621868415874-3e73628891f8?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Paraguay",
             official: "Republic of Paraguay",
@@ -8266,6 +8328,7 @@ export const countries: Countries = [
     },
     {
         location_id: 145,
+        image: "https://images.unsplash.com/photo-1561928932-248c3263a62a?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "British Virgin Islands",
             official: "Virgin Islands",
@@ -8316,6 +8379,7 @@ export const countries: Countries = [
     },
     {
         location_id: 146,
+        image: "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Brazil",
             official: "Federative Republic of Brazil",
@@ -8372,6 +8436,7 @@ export const countries: Countries = [
     },
     {
         location_id: 147,
+        image: "https://images.unsplash.com/photo-1585543805890-6051f7829f98?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Belize",
             official: "Belize",
@@ -8428,6 +8493,7 @@ export const countries: Countries = [
     },
     {
         location_id: 148,
+        image: "https://images.unsplash.com/photo-1538964173425-93884d739596?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Venezuela",
             official: "Bolivarian Republic of Venezuela",
@@ -8485,6 +8551,7 @@ export const countries: Countries = [
     },
     {
         location_id: 149,
+        image: "https://images.unsplash.com/photo-1675229165215-339f564d86d3?q=80&w=1938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "El Salvador",
             official: "Republic of El Salvador",
@@ -8542,6 +8609,7 @@ export const countries: Countries = [
     },
     {
         location_id: 150,
+        image: "https://images.unsplash.com/photo-1526697675318-89790adec369?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Peru",
             official: "Republic of Peru",
@@ -8601,6 +8669,7 @@ export const countries: Countries = [
     },
     {
         location_id: 151,
+        image: "https://images.unsplash.com/photo-1594005039392-53c38b667641?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Trinidad and Tobago",
             official: "Republic of Trinidad and Tobago",
@@ -8655,6 +8724,7 @@ export const countries: Countries = [
     },
     {
         location_id: 152,
+        image: "https://images.unsplash.com/photo-1537267013710-d7b37fa331b3?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Greenland",
             official: "Greenland",
@@ -8711,6 +8781,7 @@ export const countries: Countries = [
     },
     {
         location_id: 153,
+        image: "https://images.unsplash.com/photo-1595794038905-0b713525dead?q=80&w=1767&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Guyana",
             official: "Co-operative Republic of Guyana",
@@ -8765,6 +8836,7 @@ export const countries: Countries = [
     },
     {
         location_id: 154,
+        image: "https://images.unsplash.com/photo-1557129604-0e50f1300fab?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Jamaica",
             official: "Jamaica",
@@ -8821,6 +8893,7 @@ export const countries: Countries = [
     },
     {
         location_id: 155,
+        image: "https://images.unsplash.com/photo-1625487328546-4b9fc4eeab1d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Aruba",
             official: "Aruba",
@@ -8875,6 +8948,7 @@ export const countries: Countries = [
     },
     {
         location_id: 156,
+        image: "https://images.unsplash.com/photo-1622561700644-babb49d52279?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Cayman Islands",
             official: "Cayman Islands",
@@ -8928,6 +9002,7 @@ export const countries: Countries = [
     },
     {
         location_id: 157,
+        image: "https://images.unsplash.com/photo-1570299437488-d430e1e677c7?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Cuba",
             official: "Republic of Cuba",
@@ -8984,6 +9059,7 @@ export const countries: Countries = [
     },
     {
         location_id: 158,
+        image: "https://images.unsplash.com/photo-1590683696407-f75a80b4a61d?q=80&w=1773&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Uruguay",
             official: "Oriental Republic of Uruguay",
@@ -9041,6 +9117,7 @@ export const countries: Countries = [
     },
     {
         location_id: 159,
+        image: "https://images.unsplash.com/photo-1677252368287-7796ef96f387?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Saint Martin",
             official: "Saint Martin",
@@ -9096,6 +9173,7 @@ export const countries: Countries = [
     },
     {
         location_id: 160,
+        image: "https://images.unsplash.com/photo-1579144955436-706cc4f0e70a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Antigua and Barbuda",
             official: "Antigua and Barbuda",
@@ -9151,6 +9229,7 @@ export const countries: Countries = [
     },
     {
         location_id: 161,
+        image: "https://images.unsplash.com/photo-1588733103629-b77afe0425ce?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Canada",
             official: "Canada",
@@ -9208,6 +9287,7 @@ export const countries: Countries = [
     },
     {
         location_id: 162,
+        image: "https://images.unsplash.com/photo-1517154868524-c6b5fbd62a1c?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Panama",
             official: "Republic of Panama",
@@ -9262,6 +9342,7 @@ export const countries: Countries = [
     },
     {
         location_id: 163,
+        image: "https://images.unsplash.com/photo-1596203164608-3b34693e05d5?q=80&w=1858&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Montserrat",
             official: "Montserrat",
@@ -9316,6 +9397,7 @@ export const countries: Countries = [
     },
     {
         location_id: 164,
+        image: "https://images.unsplash.com/photo-1590856028965-5683c4b48ad0?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Nicaragua",
             official: "Republic of Nicaragua",
@@ -9427,6 +9509,7 @@ export const countries: Countries = [
     },
     {
         location_id: 166,
+        image: "https://images.unsplash.com/photo-1616348671754-50a65e397dcd?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "United States Virgin Islands",
             official: "Virgin Islands of the United States",
@@ -9476,6 +9559,7 @@ export const countries: Countries = [
     },
     {
         location_id: 167,
+        image: "https://images.unsplash.com/photo-1651697196279-2a59b3688916?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Anguilla",
             official: "Anguilla",
@@ -9531,6 +9615,7 @@ export const countries: Countries = [
 
     {
         location_id: 168,
+        image: "https://images.unsplash.com/photo-1525762867061-21c9fb70b15a?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "South Korea",
             official: "Republic of Korea",
@@ -9587,6 +9672,7 @@ export const countries: Countries = [
     },
     {
         location_id: 169,
+        image: "https://images.unsplash.com/photo-1508248467877-aec1b08de376?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Taiwan",
             official: "Republic of China (Taiwan)",
@@ -9643,6 +9729,7 @@ export const countries: Countries = [
     },
     {
         location_id: 170,
+        image: "https://images.unsplash.com/photo-1548786811-dd6e453ccca7?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Jordan",
             official: "Hashemite Kingdom of Jordan",
@@ -9700,6 +9787,7 @@ export const countries: Countries = [
     },
     {
         location_id: 171,
+        image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Nepal",
             official: "Federal Democratic Republic of Nepal",
@@ -9757,6 +9845,7 @@ export const countries: Countries = [
     },
     {
         location_id: 172,
+        image: "https://images.unsplash.com/photo-1534008897995-27a23e859048?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Thailand",
             official: "Kingdom of Thailand",
@@ -9814,6 +9903,7 @@ export const countries: Countries = [
     },
     {
         location_id: 173,
+        image: "https://images.unsplash.com/photo-1677475191981-653bcfcc3cd2?q=80&w=1793&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Kazakhstan",
             official: "Republic of Kazakhstan",
@@ -9872,6 +9962,7 @@ export const countries: Countries = [
     },
     {
         location_id: 174,
+        image: "https://images.unsplash.com/photo-1505294399615-2479253a4990?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Georgia",
             official: "Georgia",
@@ -9929,6 +10020,7 @@ export const countries: Countries = [
     },
     {
         location_id: 175,
+        image: "https://images.unsplash.com/photo-1600434890250-44df6e4c0d05?q=80&w=1951&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Pakistan",
             official: "Islamic Republic of Pakistan",
@@ -9987,6 +10079,7 @@ export const countries: Countries = [
     },
     {
         location_id: 176,
+        image: "https://images.unsplash.com/photo-1583610261946-5d88e555be93?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Armenia",
             official: "Republic of Armenia",
@@ -10044,6 +10137,7 @@ export const countries: Countries = [
     },
     {
         location_id: 177,
+        image: "https://images.unsplash.com/photo-1476158085676-e67f57ed9ed7?q=80&w=1772&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Indonesia",
             official: "Republic of Indonesia",
@@ -10101,6 +10195,7 @@ export const countries: Countries = [
     },
     {
         location_id: 178,
+        image: "https://images.unsplash.com/photo-1542051841857-5f90071e7989?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Japan",
             official: "Japan",
@@ -10158,6 +10253,7 @@ export const countries: Countries = [
     },
     {
         location_id: 179,
+        image: "https://images.unsplash.com/photo-1626982024771-282582a4ecac?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Laos",
             official: "Lao People's Democratic Republic",
@@ -10215,6 +10311,7 @@ export const countries: Countries = [
     },
     {
         location_id: 180,
+        image: "https://images.unsplash.com/photo-1571249246946-f0fc69085ef5?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Lebanon",
             official: "Lebanese Republic",
@@ -10272,6 +10369,7 @@ export const countries: Countries = [
     },
     {
         location_id: 181,
+        image: "https://images.unsplash.com/photo-1710104429997-2daf49c9db11?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Philippines",
             official: "Republic of the Philippines",
@@ -10330,6 +10428,7 @@ export const countries: Countries = [
     },
     {
         location_id: 182,
+        image: "https://images.unsplash.com/photo-1519677214308-f7f2f8b71acf?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Bahrain",
             official: "Kingdom of Bahrain",
@@ -10386,6 +10485,7 @@ export const countries: Countries = [
     },
     {
         location_id: 183,
+        image: "https://images.unsplash.com/photo-1562823083-3f86817ec7a2?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Qatar",
             official: "State of Qatar",
@@ -10440,6 +10540,7 @@ export const countries: Countries = [
     },
     {
         location_id: 184,
+        image: "https://images.unsplash.com/photo-1590999563469-effba37954b2?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Tajikistan",
             official: "Republic of Tajikistan",
@@ -10498,6 +10599,7 @@ export const countries: Countries = [
     },
     {
         location_id: 185,
+        image: "https://images.unsplash.com/photo-1508804052814-cd3ba865a116?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "China",
             official: "People's Republic of China",
@@ -10555,6 +10657,7 @@ export const countries: Countries = [
     },
     {
         location_id: 186,
+        image: "https://images.unsplash.com/photo-1667278680846-8ee48da296a5?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Yemen",
             official: "Republic of Yemen",
@@ -10609,6 +10712,7 @@ export const countries: Countries = [
     },
     {
         location_id: 187,
+        image: "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "India",
             official: "Republic of India",
@@ -10668,6 +10772,7 @@ export const countries: Countries = [
     },
     {
         location_id: 188,
+        image: "https://images.unsplash.com/photo-1650563401244-12028cd7ee4e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Kuwait",
             official: "State of Kuwait",
@@ -10725,6 +10830,7 @@ export const countries: Countries = [
     },
     {
         location_id: 189,
+        image: "https://images.unsplash.com/photo-1619167964051-6ccdeba09551?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Syria",
             official: "Syrian Arab Republic",
@@ -10779,6 +10885,7 @@ export const countries: Countries = [
     },
     {
         location_id: 190,
+        image: "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Maldives",
             official: "Republic of the Maldives",
@@ -10836,6 +10943,7 @@ export const countries: Countries = [
     },
     {
         location_id: 191,
+        image: "https://images.unsplash.com/photo-1671054522980-206498bf4ed6?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Uzbekistan",
             official: "Republic of Uzbekistan",
@@ -10894,6 +11002,7 @@ export const countries: Countries = [
     },
     {
         location_id: 192,
+        image: "https://images.unsplash.com/photo-1554795896-b6d5b2eb3923?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Iran",
             official: "Islamic Republic of Iran",
@@ -10950,6 +11059,7 @@ export const countries: Countries = [
     },
     {
         location_id: 193,
+        image: "https://images.unsplash.com/photo-1551007429-33abd0aaa406?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Myanmar",
             official: "Republic of the Union of Myanmar",
@@ -11007,6 +11117,7 @@ export const countries: Countries = [
     },
     {
         location_id: 194,
+        image: "https://images.unsplash.com/photo-1580794749460-76f97b7180d8?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Sri Lanka",
             official: "Democratic Socialist Republic of Sri Lanka",
@@ -11065,6 +11176,7 @@ export const countries: Countries = [
     },
     {
         location_id: 195,
+        image: "https://images.unsplash.com/photo-1578556881786-851d4b79cb73?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Bhutan",
             official: "Kingdom of Bhutan",
