@@ -107,6 +107,7 @@ function DetailedItem() {
 	return (
 		<>
 			<div>
+			<Link className={styles.linkTo} to={initialPage}>Go back</Link>
 				<input
 					type="checkbox"
 					name="memories"
@@ -151,6 +152,7 @@ function DetailedItem() {
 							View
 						</a>
 					</p>
+					<p className={styles.pFlag}>Flag : <img className={styles.flagImg} src={country.flags.png} alt={`Flag of ${country.name.common}`} /></p>
 				</div>
 				{!food.strMeal ? (
 					<div>
@@ -163,7 +165,6 @@ function DetailedItem() {
 					</div>
 				)}
 			</div>
-			<Link to={initialPage}>Go back</Link>
 		</>
 	);
 }

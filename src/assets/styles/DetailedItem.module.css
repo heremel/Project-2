@@ -26,8 +26,6 @@ body {
 
 label {
 	color: #374f59;
-	display: flex;
-	justify-content: space-around;
 }
 
 img {
@@ -38,7 +36,7 @@ img {
 }
 
 .flagImg {
-	width: 85px;
+	width: 55px;
 	height: auto;
 }
 
@@ -46,4 +44,18 @@ img {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.pFlag {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	justify-content: center;
+}
+
+.linkTo {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 20px;
 }
