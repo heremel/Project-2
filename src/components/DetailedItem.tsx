@@ -4,6 +4,8 @@ import { countries } from "../databases/countries";
 import { weathers } from "../databases/weather";
 import { useCountries } from "../contexts/CountriesContext";
 import styles from "../assets/styles/DetailedItem.module.css";
+import { Link } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router";
 
 function DetailedItem() {
 	const { location_id } = useParams<{ location_id: string }>();
@@ -11,8 +13,22 @@ function DetailedItem() {
 		(currentLocatedCountry) =>
 			currentLocatedCountry.location_id === Number(location_id),
 	);
-	//cree une nouvelle const qui s'appelle country, qui est un find de location_id dans countries
-	//une constant qui sappelle country et une qui sappelle weather (même location_id)
+	const location = useLocation();
+	const navigate = useNavigate();
+
+	const defaultFood = {
+		strMeal: "",
+		strMealThumb: "",
+		idMeal: "",
+	};
+
+	const [food, setFood] = useState(defaultFood);
+
+	const urlFood = `https://www.themealdb.com/api/json/v1/1/filter.php?a=${country.demonyms.eng.masc}`;
+
+	const { favoriteList, setFavoriteList } = useCountries();
+	
+	const initialPage = location.state?.from || "/";
 
 	if (!country || country.location_id !== Number(location_id)) {
 		return <p>Country not found!</p>;
@@ -51,8 +67,6 @@ function DetailedItem() {
 	const averageRainPerDay =
 		Math.round((sumOfRainyDays / weather.daily.rain_sum.length) * 100) / 100;
 
-	const { favoriteList, setFavoriteList } = useCountries(); //permet de récuperer dans le context.
-
 	const handleChangeMemories = (location_id: number) => {
 		if (favoriteList.memories.includes(location_id)) {
 			//si ya ma country
@@ -83,17 +97,6 @@ function DetailedItem() {
 		}
 	};
 
-	//pour trouver la food
-	const urlFood = `https://www.themealdb.com/api/json/v1/1/filter.php?a=${country.demonyms.eng.masc}`;
-
-	const defaultFood = {
-		strMeal: "",
-		strMealThumb: "",
-		idMeal: "",
-	};
-
-	const [food, setFood] = useState(defaultFood);
-
 	useEffect(() => {
 		fetch(urlFood)
 			.then((response) => response.json())
@@ -119,7 +122,10 @@ function DetailedItem() {
 				/>
 				<label htmlFor="dreams">Add to your dreams</label>
 			</div>
-			<img alt={country.name.common} src={!country.image ? country.flags.png : country.image} />
+			<img
+				alt={country.name.common}
+				src={!country.image ? country.flags.png : country.image}
+			/>
 			<p>Name: {country.name.common}</p>
 			<div className={styles.allParts}>
 				<div className={styles.firstPart}>
@@ -155,10 +161,11 @@ function DetailedItem() {
 				) : (
 					<div>
 						<p>Typical food: {food.strMeal} </p>
-						<img src={food.strMealThumb} />
+						<img alt="Typical food" src={food.strMealThumb} />
 					</div>
 				)}
 			</div>
+			<Link to={initialPage}>Go back</Link>
 		</>
 	);
 }

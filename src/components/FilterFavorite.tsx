@@ -1,6 +1,6 @@
 import { useCountries } from "../contexts/CountriesContext";
 import style from ".././assets/styles/FilterFavorite.module.css"
-import { MoD } from "../interfaces/allInterfaces";
+import type { MoD } from "../interfaces/allInterfaces";
 
 function FilterFavorite() {
     const { favoriteList, setFavoriteList } = useCountries();
@@ -13,11 +13,7 @@ function FilterFavorite() {
         if (favoriteList.memoriesOrDreams !== option) {
             setFavoriteList((prev) => ({ ...prev, memoriesOrDreams: option }))
         }
-
-
-
     }
-
 
     return (<>
         <div className={style.inLine}>

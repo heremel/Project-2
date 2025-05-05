@@ -1,5 +1,5 @@
 import { useCountries } from "../contexts/CountriesContext";
-import { Regions  } from "../interfaces/allInterfaces";
+import type { Regions  } from "../interfaces/allInterfaces";
 import style from ".././assets/styles/FilterRegion.module.css"
 
 function FilterRegion() {
