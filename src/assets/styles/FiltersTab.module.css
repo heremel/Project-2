@@ -45,3 +45,15 @@ fieldset {
     color: var(--secondary-color);
 
 }
+
+@media screen and (max-width: 420px) {
+    fieldset {
+        margin-top: 0.5rem;   
+    }
+    button {
+        padding: 0.3rem;
+        margin: 0.2rem;
+        font-size: 0.6rem;
+    }
+
+} 
