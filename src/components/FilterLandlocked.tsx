@@ -11,7 +11,7 @@ function FilterLandLocked() {
 
     return <div className={style.inLine}>
         <input type="checkbox" id="landlocked" name="landlocked" checked={currentList==="search"?(!filters.landlockedshown):(!favoriteList.landlockedshown)} onChange={handleChangeLLS} />
-        <label htmlFor="landlocked">Has a seashore</label>
+        <label htmlFor="landlocked">Has a seashore<img src="/src/assets/pictogram/picto_wave.svg" alt="seashor symbol" className={style.miniPicto}/></label>
     </div>
 }
 
