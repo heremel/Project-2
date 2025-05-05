@@ -36,7 +36,7 @@ function DetailedItem() {
 	const weatherMinTemp = Math.min(...weather.daily.temperature_2m_min);
 	const weatherMaxTemp = Math.max(...weather.daily.temperature_2m_max);
 
-	const urlWeather = `https://api.open-meteo.com/v1/forecast?latitude=${weather.latitude}&longitude=${weather.longitude}&current=temperature_2m`;
+	const urlWeather = `https://api.open-meteo.com/v1/forecast?latitude=${country.capitalInfo.latlng[0]}&longitude=${country.capitalInfo.latlng[1]}&current=temperature_2m`;
 	const [currentWeather, setCurrentWeather] = useState(0);
 
 	fetch(urlWeather)
@@ -123,11 +123,9 @@ function DetailedItem() {
 			<p>Name: {country.name.common}</p>
 			<div className={styles.allParts}>
 				<div className={styles.firstPart}>
-					<p>Capital: {country.capital}</p>
-					<p>Region: {country.region}</p>
-					<p>Subregion: {country.subregion}</p>
+					<p>Subregion: {country.subregion}, {country.region} </p>
 					<p>Languages: {country.languages.join(", ")}</p>
-					<p>Current Temp: {currentWeather}°C</p>
+					<p>Current Temperature in {country.capital} (Capital): {currentWeather}°C</p>
 					<p>Min Temp: {weatherMinTemp}°C</p>
 					<p>Max Temp: {weatherMaxTemp}°C</p>
 				</div>
