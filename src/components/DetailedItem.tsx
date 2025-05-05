@@ -27,7 +27,7 @@ function DetailedItem() {
 	const urlFood = `https://www.themealdb.com/api/json/v1/1/filter.php?a=${country.demonyms.eng.masc}`;
 
 	const { favoriteList, setFavoriteList } = useCountries();
-	
+
 	const initialPage = location.state?.from || "/";
 
 	if (!country || country.location_id !== Number(location_id)) {
