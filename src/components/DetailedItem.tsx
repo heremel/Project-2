@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { countries } from "../databases/countries";
 import { weathers } from "../databases/weather";
-import { Country } from "../interfaces/allInterfaces";
 import { useCountries } from "../contexts/CountriesContext";
 
 function DetailedItem() {
@@ -99,6 +98,7 @@ function DetailedItem() {
 			<label htmlFor="memories">Add to your memories</label>
 			<input type="checkbox" name="dreams"checked={favoriteList.dreams.includes(country.location_id)} onChange={() => handleChangeDreams(country.location_id)} />
 			<label htmlFor="dreams">Add to your dreams</label>
+			<img src={!country.image ? country.flags.png : country.image} />
 			<p>Name: {country.name.common}</p>
 			<p>Capital: {country.capital}</p>
 			<p>Region: {country.region}</p>
