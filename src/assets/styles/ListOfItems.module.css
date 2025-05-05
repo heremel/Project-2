@@ -17,13 +17,3 @@
 	flex-direction: column;
 	justify-content: center;
 }
-
-/* doit être dans item, pas dans list
-.img{
-	background-size: cover;
-	background-position: center;
-	height: 300px;
-	width: 300px;
-	display: flex;
-	justify-content: center;
-} */
