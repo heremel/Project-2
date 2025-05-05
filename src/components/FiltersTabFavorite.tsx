@@ -27,6 +27,9 @@ function FiltersTabFavorite() {
         if (property === "meanTemperature") {
             setFavoriteList((prev) => ({ ...prev, meantempmin: -99, meantempmax: 99 }))
         }
+        if (property === "memoriesOrDreams") {
+            setFavoriteList((prev) => ({ ...prev, memoriesOrDreams:"both" }))
+        }
     }
 
     function handleOnChangeSearch(eventTargetValue: string) {
@@ -51,6 +54,8 @@ function FiltersTabFavorite() {
                     {favoriteList.subregion !== "none" && (<button onClick={() => handleOnClickFilters("subregion")}>{favoriteList.subregion}</button>)}
                     {favoriteList.languages.length > 0 && (favoriteList.languages.map((language, index) => (<button key={index} onClick={() => handleOnClickFilters("language", language)}>{language}</button>)))}
                     {(favoriteList.meantempmax !== 99 || favoriteList.meantempmin !== -99) && (<button onClick={() => handleOnClickFilters("meanTemperature")}>{favoriteList.meantempmin}C° to {favoriteList.meantempmax}C°</button>)}
+                    {favoriteList.memoriesOrDreams === "memories" && (<button onClick={() => handleOnClickFilters("memoriesOrDreams")}>Remembrances only</button>)}
+                    {favoriteList.memoriesOrDreams === "dreams" && (<button onClick={() => handleOnClickFilters("memoriesOrDreams")}>Dreams only</button>)}
                 </div>
             </div>
             {isOpen && (<FilterPage/>)}

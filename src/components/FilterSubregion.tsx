@@ -21,12 +21,20 @@ function FilterSubregion() {
     return (<fieldset>
         <legend>Subregions</legend>
         <div className={style.subregionContainer}>
-            {filters.region !== "none" ? (subregionArray.find((regionObject: SubInRegion) => (regionObject.region === filters.region))?.subregions.map((subregion) => (
+            {currentList==="search"?
+            (filters.region !== "none" ? (subregionArray.find((regionObject: SubInRegion) => (regionObject.region === filters.region))?.subregions.map((subregion) => (
                 <div className={style.inLine} key={subregion}>
-                    <input type="radio" id={subregion} name={subregion} checked={currentList==="search"?(filters.subregion === subregion):(favoriteList.subregion === subregion)} onChange={() => handleChangeSubregion(subregion)} />
+                    <input type="radio" id={subregion} name={subregion} checked={filters.subregion === subregion} onChange={() => handleChangeSubregion(subregion)} />
                     <label htmlFor={subregion}> {subregion} </label>
                 </div>
-            ))) : <p>Select a continent first</p>}
+            ))) : <p>Select a continent first</p>):
+            (favoriteList.region !== "none" ? (subregionArray.find((regionObject: SubInRegion) => (regionObject.region === favoriteList.region))?.subregions.map((subregion) => (
+                <div className={style.inLine} key={subregion}>
+                    <input type="radio" id={subregion} name={subregion} checked={favoriteList.subregion === subregion} onChange={() => handleChangeSubregion(subregion)} />
+                    <label htmlFor={subregion}> {subregion} </label>
+                </div>
+            ))) : <p>Select a continent first</p>)
+            }
 
         </div>
     </fieldset>)
