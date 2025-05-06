@@ -5,7 +5,8 @@ import { weathers } from "../databases/weather";
 import { useCountries } from "../contexts/CountriesContext";
 import styles from "../assets/styles/DetailedItem.module.css";
 import { Link } from "react-router-dom";
-import { useLocation, useNavigate } from "react-router";
+import { useLocation } from "react-router";
+import crossImage from "../assets/pictogram/picto_cross.svg";
 
 function DetailedItem() {
 	const { location_id } = useParams<{ location_id: string }>();
@@ -14,7 +15,6 @@ function DetailedItem() {
 			currentLocatedCountry.location_id === Number(location_id),
 	);
 	const location = useLocation();
-	const navigate = useNavigate();
 
 	const defaultFood = {
 		strMeal: "",
@@ -106,7 +106,7 @@ function DetailedItem() {
 
 	return (
 		<>
-			<Link className={styles.linkTo} to={initialPage}>Go back</Link>
+			<Link className={styles.linkTo} to={initialPage}><img className={styles.crossImg} alt="Cross Pictogram" src={crossImage}/></Link>
 			<div className={styles.checkBoxes}>
 			<div className={styles.inLine}>
 				<input
@@ -116,7 +116,7 @@ function DetailedItem() {
 					onChange={() => handleChangeMemories(country.location_id)}
 				/>
 				<label htmlFor="memories">Add to your memories</label>
-				<img src="/src/assets/pictogram/picto_approved.svg" className={styles.miniPicto} />
+				<img alt="Approved Pictogram" src="/src/assets/pictogram/picto_approved.svg" className={styles.miniPicto} />
 				</div>
 				<div className={styles.inLine}>
 				<input
@@ -126,7 +126,7 @@ function DetailedItem() {
 					onChange={() => handleChangeDreams(country.location_id)}
 				/>
 				<label htmlFor="dreams">Add to your dreams</label>
-				<img src="/src/assets/pictogram/picto_reflexionBubble.svg" className={styles.miniPicto} />
+				<img alt="Reflexion Bubble Pictogram" src="/src/assets/pictogram/picto_reflexionBubble.svg" className={styles.miniPicto} />
 				</div>
 			</div>
 			<img
@@ -138,13 +138,13 @@ function DetailedItem() {
 				<div className={styles.firstPart}>
 					<p>Subregion: {country.subregion}, {country.region} </p>
 					<p>Languages: {country.languages.join(", ")}</p>
-					<p className={styles.miniP}>Current <img src="/src/assets/pictogram/picto_neutralThermometer.svg" className={styles.miniPicto} /> in {country.capital} (Capital): {currentWeather}°C</p>
-					<p className={styles.miniP}><img src="/src/assets/pictogram/picto_coldThermometer.svg" className={styles.miniPicto} />: {weatherMinTemp}°C</p>
-					<p className={styles.miniP}><img src="/src/assets/pictogram/picto_hotThermometer.svg" className={styles.miniPicto} />: {weatherMaxTemp}°C</p>
-					<p className={styles.miniP}>Average<img src="/src/assets/pictogram/picto_neutralThermometer.svg" className={styles.miniPicto} />: {weatherMeanTemp}°C</p>
+					<p className={styles.miniP}>Current <img alt="Neutral Thermometer Pictogram" src="/src/assets/pictogram/picto_neutralThermometer.svg" className={styles.miniPicto} /> in {country.capital} (Capital): {currentWeather}°C</p>
+					<p className={styles.miniP}><img alt="Cold Thermometer Pictogram" src="/src/assets/pictogram/picto_coldThermometer.svg" className={styles.miniPicto} />: {weatherMinTemp}°C</p>
+					<p className={styles.miniP}><img alt="Hot Thermometer Pictogram" src="/src/assets/pictogram/picto_hotThermometer.svg" className={styles.miniPicto} />: {weatherMaxTemp}°C</p>
+					<p className={styles.miniP}>Average<img alt="Neutral Thermometer Pictogram" src="/src/assets/pictogram/picto_neutralThermometer.svg" className={styles.miniPicto} />: {weatherMeanTemp}°C</p>
 				</div>
 				<div className={styles.secondPart}>
-					<p className={styles.miniP}>Has a seashore<img src="/src/assets/pictogram/picto_wave.svg" className={styles.miniPicto} />: {country.landlocked ? "No" : "Yes"}</p>
+					<p className={styles.miniP}>Has a seashore<img alt="Wave Pictogram" src="/src/assets/pictogram/picto_wave.svg" className={styles.miniPicto} />: {country.landlocked ? "No" : "Yes"}</p>
 					<p>Snowfall: {hasSnowfall ? "Yes" : "No"}</p>
 					<p>Rainy Days: {rainyDays.length}</p>
 					{/* 

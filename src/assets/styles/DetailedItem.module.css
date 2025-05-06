@@ -86,3 +86,8 @@ img {
 	justify-content: flex-end;
 	margin-top: 20px;
 }
+
+.crossImg{
+	width: 50px;
+	height: auto;
+}
