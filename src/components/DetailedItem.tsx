@@ -135,9 +135,9 @@ function DetailedItem() {
 					<p>Current Temperature in {country.capital} (Capital): {currentWeather}°C</p>
 					<p>Min Temp: {weatherMinTemp}°C</p>
 					<p>Max Temp: {weatherMaxTemp}°C</p>
+					<p>Average Temp: {weatherMeanTemp}°C</p>
 				</div>
 				<div className={styles.secondPart}>
-					<p>Average Temp: {weatherMeanTemp}°C</p>
 					<p>Landlocked: {country.landlocked ? "Yes" : "No"}</p>
 					<p>Snowfall: {hasSnowfall ? "Yes" : "No"}</p>
 					<p>Rainy Days: {rainyDays.length}</p>
