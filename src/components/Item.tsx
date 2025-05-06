@@ -34,16 +34,17 @@ function Item({ currentCountry, weathers }: ItemProps) {
 
 	return (
 		<div className={styles.item}>
-			<h2 className={styles.h2item}>{currentCountry.name.common}</h2>
+			<h2 className={styles.h2item}>{currentCountry.name.common}{!currentCountry.landlocked &&<img src="/src/assets/pictogram/picto_wave.svg" className={styles.miniPictoLL} />}</h2>
 			<div className={styles.itemContent}>
 				<img className={styles.itemContentImg} src={!currentCountry.image ? currentCountry.flags.png : currentCountry.image} />
 				<div className={styles.subdiv}>
-					<p className={styles.miniP}><img src="/src/assets/pictogram/picto_neutralThermometer.svg" className={styles.miniPicto}/> : {weatherResults.meanTemp} °C</p>
-					<p className={styles.miniP}><img src="/src/assets/pictogram/picto_mainCurrency.svg" className={styles.miniPicto}/> : {currentCountry.currencies}</p>
 					
+					<p className={styles.miniP}><img src="/src/assets/pictogram/picto_neutralThermometer.svg" className={styles.miniPicto} /> : {weatherResults.meanTemp} °C</p>
+					<p className={styles.miniP}><img src="/src/assets/pictogram/picto_mainCurrency.svg" className={styles.miniPicto} /> : {currentCountry.currencies}</p>
+
 					<p className={styles.miniP}>Subregion : {currentCountry.subregion}</p>
 					<p className={styles.miniP}>Languages : {currentCountry.languages.join(", ")}</p>
-					{currentCountry.landlocked ? <p></p> : <p className={styles.miniP}><img src="/src/assets/pictogram/picto_wave.svg" className={styles.miniPicto}/></p>}
+
 					<Link to={`/details/${currentCountry.location_id}`}>More Info</Link>
 				</div>
 			</div>
