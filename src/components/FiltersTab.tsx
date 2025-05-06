@@ -42,14 +42,14 @@ function FiltersTab() {
                         <label htmlFor="search">Search (official & common names):  </label>
                         <input type="text" id="search" name="search" value={filters.search} onChange={(event) => { handleOnChangeSearch(event.target.value) }} />
                     </form>
-                    <button className={style.moreFilters} onClick={handleOnClickMore}>{isOpen ? "Less Filters" : "More Filters"}</button>
+                    <button type="button" className={style.moreFilters} onClick={handleOnClickMore}>{isOpen ? "Less Filters" : "More Filters"}</button>
                 </div>
                 <div className={style.currentFilters}>
-                    {!filters.landlockedshown && (<button onClick={() => handleOnClickFilters("landlockedshown")}>Has a seashore</button>)}
-                    {filters.region !== "none" && (<button onClick={() => handleOnClickFilters("region")}>{filters.region}</button>)}
-                    {filters.subregion !== "none" && (<button onClick={() => handleOnClickFilters("subregion")}>{filters.subregion}</button>)}
-                    {filters.languages.length > 0 && (filters.languages.map((language, index) => (<button key={index} onClick={() => handleOnClickFilters("language", language)}>{language}</button>)))}
-                    {(filters.meantempmax !== 99 || filters.meantempmin !== -99) && (<button onClick={() => handleOnClickFilters("meanTemperature")}>{filters.meantempmin}C° to {filters.meantempmax}C°</button>)}
+                    {!filters.landlockedshown && (<button type="button" onClick={() => handleOnClickFilters("landlockedshown")}>Has a seashore</button>)}
+                    {filters.region !== "none" && (<button type="button" onClick={() => handleOnClickFilters("region")}>{filters.region}</button>)}
+                    {filters.subregion !== "none" && (<button type="button" onClick={() => handleOnClickFilters("subregion")}>{filters.subregion}</button>)}
+                    {filters.languages.length > 0 && (filters.languages.map((language, index) => (<button type="button" key={index} onClick={() => handleOnClickFilters("language", language)}>{language}</button>)))}
+                    {(filters.meantempmax !== 99 || filters.meantempmin !== -99) && (<button type="button" onClick={() => handleOnClickFilters("meanTemperature")}>{filters.meantempmin}C° to {filters.meantempmax}C°</button>)}
                 </div>
             </div>
             {isOpen && (<FilterPage />)}

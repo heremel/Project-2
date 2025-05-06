@@ -4,6 +4,8 @@ import { countries } from "../databases/countries";
 import { weathers } from "../databases/weather";
 import { useCountries } from "../contexts/CountriesContext";
 import styles from "../assets/styles/DetailedItem.module.css";
+import { Link } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router";
 
 function DetailedItem() {
 	const { location_id } = useParams<{ location_id: string }>();
@@ -11,8 +13,22 @@ function DetailedItem() {
 		(currentLocatedCountry) =>
 			currentLocatedCountry.location_id === Number(location_id),
 	);
-	//cree une nouvelle const qui s'appelle country, qui est un find de location_id dans countries
-	//une constant qui sappelle country et une qui sappelle weather (même location_id)
+	const location = useLocation();
+	const navigate = useNavigate();
+
+	const defaultFood = {
+		strMeal: "",
+		strMealThumb: "",
+		idMeal: "",
+	};
+
+	const [food, setFood] = useState(defaultFood);
+
+	const urlFood = `https://www.themealdb.com/api/json/v1/1/filter.php?a=${country.demonyms.eng.masc}`;
+
+	const { favoriteList, setFavoriteList } = useCountries();
+
+	const initialPage = location.state?.from || "/";
 
 	if (!country || country.location_id !== Number(location_id)) {
 		return <p>Country not found!</p>;
@@ -51,8 +67,6 @@ function DetailedItem() {
 	const averageRainPerDay =
 		Math.round((sumOfRainyDays / weather.daily.rain_sum.length) * 100) / 100;
 
-	const { favoriteList, setFavoriteList } = useCountries(); //permet de récuperer dans le context.
-
 	const handleChangeMemories = (location_id: number) => {
 		if (favoriteList.memories.includes(location_id)) {
 			//si ya ma country
@@ -83,17 +97,6 @@ function DetailedItem() {
 		}
 	};
 
-	//pour trouver la food
-	const urlFood = `https://www.themealdb.com/api/json/v1/1/filter.php?a=${country.demonyms.eng.masc}`;
-
-	const defaultFood = {
-		strMeal: "",
-		strMealThumb: "",
-		idMeal: "",
-	};
-
-	const [food, setFood] = useState(defaultFood);
-
 	useEffect(() => {
 		fetch(urlFood)
 			.then((response) => response.json())
@@ -104,6 +107,7 @@ function DetailedItem() {
 	return (
 		<>
 			<div>
+			<Link className={styles.linkTo} to={initialPage}>Go back</Link>
 				<input
 					type="checkbox"
 					name="memories"
@@ -119,7 +123,10 @@ function DetailedItem() {
 				/>
 				<label htmlFor="dreams">Add to your dreams</label>
 			</div>
-			<img alt={country.name.common} src={!country.image ? country.flags.png : country.image} />
+			<img
+				alt={country.name.common}
+				src={!country.image ? country.flags.png : country.image}
+			/>
 			<p>Name: {country.name.common}</p>
 			<div className={styles.allParts}>
 				<div className={styles.firstPart}>
@@ -128,9 +135,9 @@ function DetailedItem() {
 					<p>Current Temperature in {country.capital} (Capital): {currentWeather}°C</p>
 					<p>Min Temp: {weatherMinTemp}°C</p>
 					<p>Max Temp: {weatherMaxTemp}°C</p>
+					<p>Average Temp: {weatherMeanTemp}°C</p>
 				</div>
 				<div className={styles.secondPart}>
-					<p>Average Temp: {weatherMeanTemp}°C</p>
 					<p>Landlocked: {country.landlocked ? "Yes" : "No"}</p>
 					<p>Snowfall: {hasSnowfall ? "Yes" : "No"}</p>
 					<p>Rainy Days: {rainyDays.length}</p>
@@ -145,6 +152,7 @@ function DetailedItem() {
 							View
 						</a>
 					</p>
+					<p className={styles.pFlag}>Flag : <img className={styles.flagImg} src={country.flags.png} alt={`Flag of ${country.name.common}`} /></p>
 				</div>
 				{!food.strMeal ? (
 					<div>
@@ -153,7 +161,7 @@ function DetailedItem() {
 				) : (
 					<div>
 						<p>Typical food: {food.strMeal} </p>
-						<img src={food.strMealThumb} />
+						<img alt="Typical food" src={food.strMealThumb} />
 					</div>
 				)}
 			</div>
