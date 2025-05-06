@@ -106,8 +106,9 @@ function DetailedItem() {
 
 	return (
 		<>
-			<div>
 			<Link className={styles.linkTo} to={initialPage}>Go back</Link>
+			<div className={styles.checkBoxes}>
+			<div className={styles.inLine}>
 				<input
 					type="checkbox"
 					name="memories"
@@ -115,6 +116,9 @@ function DetailedItem() {
 					onChange={() => handleChangeMemories(country.location_id)}
 				/>
 				<label htmlFor="memories">Add to your memories</label>
+				<img src="/src/assets/pictogram/picto_approved.svg" className={styles.miniPicto} />
+				</div>
+				<div className={styles.inLine}>
 				<input
 					type="checkbox"
 					name="dreams"
@@ -122,23 +126,25 @@ function DetailedItem() {
 					onChange={() => handleChangeDreams(country.location_id)}
 				/>
 				<label htmlFor="dreams">Add to your dreams</label>
+				<img src="/src/assets/pictogram/picto_reflexionBubble.svg" className={styles.miniPicto} />
+				</div>
 			</div>
 			<img
 				alt={country.name.common}
 				src={!country.image ? country.flags.png : country.image}
 			/>
-			<p>Name: {country.name.common}</p>
+			<h2>{country.name.common}</h2>
 			<div className={styles.allParts}>
 				<div className={styles.firstPart}>
 					<p>Subregion: {country.subregion}, {country.region} </p>
 					<p>Languages: {country.languages.join(", ")}</p>
-					<p>Current Temperature in {country.capital} (Capital): {currentWeather}°C</p>
-					<p>Min Temp: {weatherMinTemp}°C</p>
-					<p>Max Temp: {weatherMaxTemp}°C</p>
-					<p>Average Temp: {weatherMeanTemp}°C</p>
+					<p className={styles.miniP}>Current <img src="/src/assets/pictogram/picto_neutralThermometer.svg" className={styles.miniPicto} /> in {country.capital} (Capital): {currentWeather}°C</p>
+					<p className={styles.miniP}><img src="/src/assets/pictogram/picto_coldThermometer.svg" className={styles.miniPicto} />: {weatherMinTemp}°C</p>
+					<p className={styles.miniP}><img src="/src/assets/pictogram/picto_hotThermometer.svg" className={styles.miniPicto} />: {weatherMaxTemp}°C</p>
+					<p className={styles.miniP}>Average<img src="/src/assets/pictogram/picto_neutralThermometer.svg" className={styles.miniPicto} />: {weatherMeanTemp}°C</p>
 				</div>
 				<div className={styles.secondPart}>
-					<p>Landlocked: {country.landlocked ? "Yes" : "No"}</p>
+					<p className={styles.miniP}>Has a seashore<img src="/src/assets/pictogram/picto_wave.svg" className={styles.miniPicto} />: {country.landlocked ? "No" : "Yes"}</p>
 					<p>Snowfall: {hasSnowfall ? "Yes" : "No"}</p>
 					<p>Rainy Days: {rainyDays.length}</p>
 					{/* 

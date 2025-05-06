@@ -6,7 +6,21 @@
 .inLine{
     display: flex;
     flex-direction: row;
-    margin-right: 1rem
+    margin-right: 1rem;
+}
+
+/* .miniPicto{
+    height: 2rem;
+    width: 2rem;
+    margin:0;
+    display: block;
+    filter: invert(1);
+} */
+
+label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 @media screen and (max-width: 420px) {

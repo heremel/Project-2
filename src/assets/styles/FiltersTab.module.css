@@ -32,6 +32,13 @@ button {
     font-family: inherit;
 }
 
+.searchForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .currentFilters {
     display: flex;
     flex-wrap: wrap;

@@ -38,7 +38,7 @@ function FiltersTab() {
         <>
             <div className={style.filterTabContainer}>
                 <div>
-                    <form onSubmit={event => event.preventDefault()}>
+                    <form className={style.searchForm} onSubmit={event => event.preventDefault()}>
                         <label htmlFor="search">Search (official & common names):  </label>
                         <input type="text" id="search" name="search" value={filters.search} onChange={(event) => { handleOnChangeSearch(event.target.value) }} />
                     </form>
