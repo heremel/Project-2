@@ -40,8 +40,8 @@ body {
 	display: inline;
 	margin: 0;
 	padding: 0;
-	width: 2.5rem;
-	height: 2.5rem;
+	width: 1.5rem;
+	height: 1.5rem;
 }
 
 p {
@@ -61,7 +61,7 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: start;
-	padding: 0 8px;
+	padding: 8px;
 }
 
 .inLine {
