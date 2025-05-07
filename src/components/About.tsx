@@ -1,7 +1,7 @@
 import style from ".././assets/styles/About.module.css"
 
 const teamCard = [{name : "Melissa", picture: "src/assets/pictures/melissa.jpg", description: "Passionate about development, I contribute to innovative projects."},
-    {name : "Laurent", picture: "src/assets/pictures/laurent.JPG", description: "Experienced game designer specializing in free-to-play and mobile games"},
+    {name : "Laurent", picture: "src/assets/pictures/laurent.JPG", description: "Experienced game designer specializing in free-to-play and mobile games."},
     {name : "Daphnée", picture: "src/assets/pictures/daphnee.jpg", description: "I love creating engaging content that resonates with audiences."},
 ]
 const h1Section = [{title : "DiPiRi : Our story", description : "Pack your bags, we'll take care of the sun! Our web application reinvents travel planning by suggesting destinations based on the weather you like. No more rainy vacations when you're dreaming of sunshine! Discover our vision in the “Our mission” section, and meet the people behind the project in the “Our team” section. Ready to travel differently? 🌍✨"}]
