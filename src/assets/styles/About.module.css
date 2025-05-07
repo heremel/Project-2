@@ -54,8 +54,17 @@ p{
   font-weight: 400px;
   padding: 0.5rem;
   color: var(--secondary-color);
+  text-align: left;
+}
+.miniparagraph{
+  text-align: left;
 }
 
+.teamCardpictureContainer{
+  height: auto;
+  width: 100%;
+  align-items: center;
+}
   section{
     display: flex;
     flex-direction: column;
@@ -208,6 +217,7 @@ p{
   .contenairlogo section{
     display: flex;
     width: 100%;
+    height: auto;
     flex-direction: column;
     align-items: center;
     justify-content: center;
