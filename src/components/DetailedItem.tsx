@@ -135,6 +135,7 @@ function DetailedItem() {
 			/>
 			<h2>{country.name.common}</h2>
 			<div className={styles.allParts}>
+				<div className={styles.twoParts}>
 				<div className={styles.firstPart}>
 					<p>Subregion: {country.subregion}, {country.region} </p>
 					<p>Languages: {country.languages.join(", ")}</p>
@@ -153,21 +154,22 @@ function DetailedItem() {
 			*/}
 					<p>Average Rain Per Day: {averageRainPerDay}mm</p>
 					<p>
-						Google Maps Link:{" "}
+					<img src="/src/assets/pictogram/picto_googleLocalisation.svg" className={styles.miniPicto} />:{" "}
 						<a target="_blank" href={country.maps.googleMaps} rel="noreferrer">
 							View
 						</a>
 					</p>
 					<p className={styles.pFlag}>Flag : <img className={styles.flagImg} src={country.flags.png} alt={`Flag of ${country.name.common}`} /></p>
 				</div>
+				</div>
 				{!food.strMeal ? (
-					<div>
-						<p>Typical food: Not found </p>
+					<div className={styles.thirdPart}>
+						<p className={styles.typical}>Typical food: Not found </p>
 					</div>
 				) : (
-					<div>
-						<p>Typical food: {food.strMeal} </p>
-						<img alt="Typical food" src={food.strMealThumb} />
+					<div className={styles.thirdPart}>
+						<p className={styles.typical}>Typical food: {food.strMeal} </p>
+						<img className={styles.typicalImg} alt={food.strMeal} src={food.strMealThumb} />
 					</div>
 				)}
 			</div>
