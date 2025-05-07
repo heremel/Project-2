@@ -132,6 +132,7 @@ function DetailedItem() {
 			<img
 				alt={country.name.common}
 				src={!country.image ? country.flags.png : country.image}
+				className={styles.imgCountry}
 			/>
 			<h2>{country.name.common}</h2>
 			<div className={styles.allParts}>
@@ -145,7 +146,7 @@ function DetailedItem() {
 					<p className={styles.miniP}>Average<img alt="Neutral Thermometer Pictogram" src="/src/assets/pictogram/picto_neutralThermometer.svg" className={styles.miniPicto} />: {weatherMeanTemp}°C</p>
 				</div>
 				<div className={styles.secondPart}>
-					<p className={styles.miniP}>Has a seashore<img alt="Wave Pictogram" src="/src/assets/pictogram/picto_wave.svg" className={styles.miniPicto} />: {country.landlocked ? "No" : "Yes"}</p>
+					<p className={styles.miniP}>Has a seashore<img alt="Wave Pictogram" src="/src/assets/pictogram/picto_wave.svg" className={styles.miniPictoLL} />: {country.landlocked ? "No" : "Yes"}</p>
 					<p>Snowfall: {hasSnowfall ? "Yes" : "No"}</p>
 					<p>Rainy Days: {rainyDays.length}</p>
 					{/* 

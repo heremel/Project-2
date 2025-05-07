@@ -40,6 +40,15 @@ body {
 	padding: 0;
 	width: 1.5rem;
 	height: 1.5rem;
+	border-radius: 0 ;
+}
+.miniPictoLL{
+	display: inline;
+	margin: 0 0.2rem 0 0.2rem;
+	padding: 0;
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 0 ;
 }
 
 p {
@@ -82,9 +91,10 @@ label {
 	color: #374f59;
 }
 
-img {
-	width: 140px;
-	height: 100px;
+.imgCountry {
+	width: 250px;
+	height: 180px;
+	object-fit: cover;
 	border-radius: 10px;
 	margin-top: 20px;
 }
