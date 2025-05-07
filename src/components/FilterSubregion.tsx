@@ -1,12 +1,13 @@
 import { useCountries } from "../contexts/CountriesContext";
-import { SubInRegion } from "../interfaces/allInterfaces";
+import { SubInRegion, Subregion } from "../interfaces/allInterfaces";
 import style from ".././assets/styles/FilterSubregion.module.css"
 
 function FilterSubregion() {
-    const { filters, setFilters } = useCountries();
+    const { filters, setFilters, favoriteList, setFavoriteList, currentList } = useCountries();
 
-    function handleChangeSubregion(string: string) {
-        setFilters((prev) => ({ ...prev, subregion: string }))
+    function handleChangeSubregion(string: Subregion) {
+        if (currentList==="search") { setFilters((prev) => ({ ...prev, subregion: string }))}
+        if (currentList==="favorite") { setFavoriteList((prev)=> ({ ...prev, subregion: string }))}
     }
 
     const subregionArray: SubInRegion[] = [
@@ -20,12 +21,20 @@ function FilterSubregion() {
     return (<fieldset>
         <legend>Subregions</legend>
         <div className={style.subregionContainer}>
-            {filters.region !== "none" ? (subregionArray.find((regionObject: SubInRegion) => (regionObject.region === filters.region))?.subregions.map((subregion) => (
-                <div key={subregion}>
+            {currentList==="search"?
+            (filters.region !== "none" ? (subregionArray.find((regionObject: SubInRegion) => (regionObject.region === filters.region))?.subregions.map((subregion) => (
+                <div className={style.inLine} key={subregion}>
                     <input type="radio" id={subregion} name={subregion} checked={filters.subregion === subregion} onChange={() => handleChangeSubregion(subregion)} />
                     <label htmlFor={subregion}> {subregion} </label>
                 </div>
-            ))) : <p>Select a continent first</p>}
+            ))) : <p>Select a continent first</p>):
+            (favoriteList.region !== "none" ? (subregionArray.find((regionObject: SubInRegion) => (regionObject.region === favoriteList.region))?.subregions.map((subregion) => (
+                <div className={style.inLine} key={subregion}>
+                    <input type="radio" id={subregion} name={subregion} checked={favoriteList.subregion === subregion} onChange={() => handleChangeSubregion(subregion)} />
+                    <label htmlFor={subregion}> {subregion} </label>
+                </div>
+            ))) : <p>Select a continent first</p>)
+            }
 
         </div>
     </fieldset>)

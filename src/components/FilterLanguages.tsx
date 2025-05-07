@@ -2,9 +2,10 @@ import { useCountries } from "../contexts/CountriesContext";
 import style from ".././assets/styles/FilterLanguages.module.css"
 
 function FilterLanguages() {
-    const { filters, setFilters } = useCountries();
+    const { filters, setFilters, favoriteList, setFavoriteList, currentList } = useCountries();
 
     const handleChangeLang = (lang: string) => {
+        if (currentList==="search") {
         if (filters.languages.includes(lang)) {
             // setFilters((prev) => ({ ...prev, languages: prev.languages.filter(() => !prev.languages.includes(lang)) }))
             setFilters((prev) => ({ ...prev, languages: prev.languages.filter((language) => language !== lang) }))
@@ -13,6 +14,17 @@ function FilterLanguages() {
         else {
             setFilters((prev) => ({ ...prev, languages: [...prev.languages, lang] }))
         }
+    }
+    if (currentList==="favorite") {
+        if (favoriteList.languages.includes(lang)) {
+            // setFilters((prev) => ({ ...prev, languages: prev.languages.filter(() => !prev.languages.includes(lang)) }))
+            setFavoriteList((prev) => ({ ...prev, languages: prev.languages.filter((language) => language !== lang) }))
+
+        }
+        else {
+            setFavoriteList((prev) => ({ ...prev, languages: [...prev.languages, lang] }))
+        }
+    }
 
     }
 
@@ -23,7 +35,7 @@ function FilterLanguages() {
     <div className={style.filterLangContainer}>
         {langArray.map((language) => (
             <div key={language} className={style.filterLang}>
-                <input type="checkbox" id={language} name={language} checked={filters.languages.includes(language)} onChange={() => handleChangeLang(language)} />
+                <input type="checkbox" id={language} name={language} checked={currentList==="search"?(filters.languages.includes(language)):(favoriteList.languages.includes(language))} onChange={() => handleChangeLang(language)} />
                 <label htmlFor={language}>{language}</label>
             </div>
         ))}

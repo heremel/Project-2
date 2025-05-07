@@ -1,0 +1,38 @@
+/* --primary-color: #374f59;
+	--secondary-color: #9db3c1;
+	--thirdary-color: #d7dee1; */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+}
+
+.firstPart {
+	width: 45%;
+}
+
+.secondPart {
+	width: 45%;
+}
+
+.allParts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+label {
+	color: #374f59;
+	display: flex;
+	justify-content: space-around;
+}
+
+img {
+	width: 140px;
+	height: 100px;
+	border-radius: 10px;
+	margin-top: 20px;
+}

@@ -1,10 +1,10 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import style from ".././assets/styles/FiltersTab.module.css"
 import { useCountries } from "../contexts/CountriesContext";
 import FilterPage from "./FilterPage";
 
 function FiltersTab() {
-    const { filters, setFilters } = useCountries();
+    const { filters, setFilters,setCurrentList } = useCountries();
 
     const [isOpen, setIsOpen] = useState(false)
 
@@ -33,6 +33,7 @@ function FiltersTab() {
         setFilters((prev) => ({ ...prev, search: eventTargetValue }))
     }
 
+    useEffect(() => { setCurrentList("search")},[])
     return (
         <>
             <div className={style.filterTabContainer}>

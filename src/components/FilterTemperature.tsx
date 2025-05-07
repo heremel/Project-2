@@ -1,25 +1,28 @@
 import { useCountries } from "../contexts/CountriesContext";
+import style from ".././assets/styles/FilterTemperature.module.css"
 
 
 function FilterTemperature() {
-    const { filters, setFilters  } = useCountries();
+    const { filters, setFilters, favoriteList, setFavoriteList, currentList } = useCountries();
 
     function handleChangeMin(number: number) {
-            setFilters((prev) => ({ ...prev, meantempmin: number }))
+        if (currentList==="search") { setFilters((prev) => ({ ...prev, meantempmin: number }))}
+        if (currentList==="favorite") { setFavoriteList((prev) => ({ ...prev, meantempmin: number }))}
         }
 
         function handleChangeMax(number: number) {
-            setFilters((prev) => ({ ...prev, meantempmax: number }))
+            if (currentList==="search") { setFilters((prev) => ({ ...prev, meantempmax: number }))}
+            if (currentList==="favorite") { setFavoriteList((prev) => ({ ...prev, meantempmax: number }))}
         }
 
 
 
-    return (<fieldset>
+    return (<fieldset className={style.inLine}>
         <legend>Mean temperature in C°</legend>
         <label htmlFor="min">between</label>
-        <input type="number" id="min" name="min" min="-99" max={filters.meantempmax} value={filters.meantempmin} onChange={(event)=>(handleChangeMin(parseInt(event.target.value)))} />
+        <input type="number" id="min" name="min" min="-99" max={currentList==="search"?(filters.meantempmax):(favoriteList.meantempmax)} value={currentList==="search"?(filters.meantempmin):(favoriteList.meantempmin)} onChange={(event)=>(handleChangeMin(parseInt(event.target.value)))} />
         <label htmlFor="max">and</label>
-        <input type="number" id="max" name="max" min={filters.meantempmin} max="99" value={filters.meantempmax} onChange={(event)=>(handleChangeMax(parseInt(event.target.value)))} />        
+        <input type="number" id="max" name="max" min={currentList==="search"?(filters.meantempmin):(favoriteList.meantempmin)} max="99" value={currentList==="search"?(filters.meantempmax):(favoriteList.meantempmax)} onChange={(event)=>(handleChangeMax(parseInt(event.target.value)))} />        
     </fieldset>)
 }
 
