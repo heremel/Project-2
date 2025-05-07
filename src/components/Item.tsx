@@ -44,7 +44,9 @@ function Item({ currentCountry, weathers }: ItemProps) {
 			
 			</div>
 			<div className={styles.itemContent}>
+				<div className={styles.itemContentImgcontainer}>
 				<img className={styles.itemContentImg} src={!currentCountry.image ? currentCountry.flags.png : currentCountry.image} alt={currentCountry.name.common}/>
+				</div>
 				<div className={styles.subdiv}>
 					
 					<p className={styles.miniP}><img src="/src/assets/pictogram/picto_neutralThermometer.svg" className={styles.miniPicto} /> : {weatherResults.meanTemp} °C</p>
