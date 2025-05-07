@@ -24,10 +24,35 @@ body {
 	justify-content: center;
 }
 
+.miniPicto{
+	display: inline;
+	margin:0;
+	padding: 0;
+	width: 2.5rem;
+	height: 2.5rem;
+}
+.miniP{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding:0
+}
+
+.inLine{
+    display: flex;
+    flex-direction: row;
+    margin-right: 1rem
+}
+
+.checkBoxes{
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    align-items: center;
+}
+
 label {
 	color: #374f59;
-	display: flex;
-	justify-content: space-around;
 }
 
 img {
@@ -35,4 +60,34 @@ img {
 	height: 100px;
 	border-radius: 10px;
 	margin-top: 20px;
+}
+
+.flagImg {
+	width: 55px;
+	height: auto;
+}
+
+.imgDiv {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.pFlag {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	justify-content: center;
+}
+
+.linkTo {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 20px;
+}
+
+.crossImg{
+	width: 50px;
+	height: auto;
 }

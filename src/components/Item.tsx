@@ -1,7 +1,8 @@
 // import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "../assets/styles/Item.module.css";
-import { Country, Weathers } from "../interfaces/allInterfaces";
+import type { Country, Weathers } from "../interfaces/allInterfaces";
+import { useLocation, useNavigate } from "react-router";
 
 interface ItemProps {
 	currentCountry: Country;
@@ -22,7 +23,6 @@ function Item({ currentCountry, weathers }: ItemProps) {
 	);
 	if (!currentWeather) {
 		throw new Error("No match between country and weather");
-		;
 	}
 
 	const sum = currentWeather.daily.temperature_2m_mean.reduce((a, b) => a + b);
@@ -32,20 +32,22 @@ function Item({ currentCountry, weathers }: ItemProps) {
 	weatherResults.minTemp = Math.min(...currentWeather.daily.temperature_2m_min);
 	weatherResults.maxTemp = Math.max(...currentWeather.daily.temperature_2m_max);
 
+	const location = useLocation();
+
 	return (
 		<div className={styles.item}>
-			<h2 className={styles.h2item}>{currentCountry.name.common}</h2>
+			<h2 className={styles.h2item}>{currentCountry.name.common}{!currentCountry.landlocked &&<img src="/src/assets/pictogram/picto_wave.svg" className={styles.miniPictoLL} />}</h2>
 			<div className={styles.itemContent}>
-				<img src={!currentCountry.image ? currentCountry.flags.png : currentCountry.image} />
+				<img className={styles.itemContentImg} src={!currentCountry.image ? currentCountry.flags.png : currentCountry.image} alt={currentCountry.name.common}/>
 				<div className={styles.subdiv}>
-					{/* <img src={currentCountry.flags.png} /> */}
+					
+					<p className={styles.miniP}><img src="/src/assets/pictogram/picto_neutralThermometer.svg" className={styles.miniPicto} /> : {weatherResults.meanTemp} °C</p>
+					<p className={styles.miniP}><img src="/src/assets/pictogram/picto_mainCurrency.svg" className={styles.miniPicto} /> : {currentCountry.currencies}</p>
 
-					<p>Average Temperature : {weatherResults.meanTemp} °C</p>
-					<p>Currency : {currentCountry.currencies}</p>
-					<p>Landlocked : {currentCountry.landlocked ? "true" : "false"}</p>
-					<p>Subregion : {currentCountry.subregion}</p>
-					<p>Languages : {currentCountry.languages.join(", ")}</p>
-					<Link to={`/details/${currentCountry.location_id}`}>More Info</Link>
+					<p className={styles.miniP}>Subregion : {currentCountry.subregion}</p>
+					<p className={styles.miniP}>Languages : {currentCountry.languages.join(", ")}</p>
+
+					<Link to={`/details/${currentCountry.location_id}`} state={{from:location.pathname}} >More Info</Link>
 				</div>
 			</div>
 		</div>

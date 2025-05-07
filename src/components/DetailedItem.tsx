@@ -4,6 +4,9 @@ import { countries } from "../databases/countries";
 import { weathers } from "../databases/weather";
 import { useCountries } from "../contexts/CountriesContext";
 import styles from "../assets/styles/DetailedItem.module.css";
+import { Link } from "react-router-dom";
+import { useLocation } from "react-router";
+import crossImage from "../assets/pictogram/picto_cross.svg";
 
 function DetailedItem() {
 	const { location_id } = useParams<{ location_id: string }>();
@@ -11,8 +14,21 @@ function DetailedItem() {
 		(currentLocatedCountry) =>
 			currentLocatedCountry.location_id === Number(location_id),
 	);
-	//cree une nouvelle const qui s'appelle country, qui est un find de location_id dans countries
-	//une constant qui sappelle country et une qui sappelle weather (même location_id)
+	const location = useLocation();
+
+	const defaultFood = {
+		strMeal: "",
+		strMealThumb: "",
+		idMeal: "",
+	};
+
+	const [food, setFood] = useState(defaultFood);
+
+	const urlFood = `https://www.themealdb.com/api/json/v1/1/filter.php?a=${country.demonyms.eng.masc}`;
+
+	const { favoriteList, setFavoriteList } = useCountries();
+
+	const initialPage = location.state?.from || "/";
 
 	if (!country || country.location_id !== Number(location_id)) {
 		return <p>Country not found!</p>;
@@ -36,7 +52,7 @@ function DetailedItem() {
 	const weatherMinTemp = Math.min(...weather.daily.temperature_2m_min);
 	const weatherMaxTemp = Math.max(...weather.daily.temperature_2m_max);
 
-	const urlWeather = `https://api.open-meteo.com/v1/forecast?latitude=${weather.latitude}&longitude=${weather.longitude}&current=temperature_2m`;
+	const urlWeather = `https://api.open-meteo.com/v1/forecast?latitude=${country.capitalInfo.latlng[0]}&longitude=${country.capitalInfo.latlng[1]}&current=temperature_2m`;
 	const [currentWeather, setCurrentWeather] = useState(0);
 
 	fetch(urlWeather)
@@ -50,8 +66,6 @@ function DetailedItem() {
 	const sumOfRainyDays = weather.daily.rain_sum.reduce((a, b) => a + b, 0);
 	const averageRainPerDay =
 		Math.round((sumOfRainyDays / weather.daily.rain_sum.length) * 100) / 100;
-
-	const { favoriteList, setFavoriteList } = useCountries(); //permet de récuperer dans le context.
 
 	const handleChangeMemories = (location_id: number) => {
 		if (favoriteList.memories.includes(location_id)) {
@@ -83,17 +97,6 @@ function DetailedItem() {
 		}
 	};
 
-	//pour trouver la food
-	const urlFood = `https://www.themealdb.com/api/json/v1/1/filter.php?a=${country.demonyms.eng.masc}`;
-
-	const defaultFood = {
-		strMeal: "",
-		strMealThumb: "",
-		idMeal: "",
-	};
-
-	const [food, setFood] = useState(defaultFood);
-
 	useEffect(() => {
 		fetch(urlFood)
 			.then((response) => response.json())
@@ -103,7 +106,9 @@ function DetailedItem() {
 
 	return (
 		<>
-			<div>
+			<Link className={styles.linkTo} to={initialPage}><img className={styles.crossImg} alt="Cross Pictogram" src={crossImage}/></Link>
+			<div className={styles.checkBoxes}>
+			<div className={styles.inLine}>
 				<input
 					type="checkbox"
 					name="memories"
@@ -111,6 +116,9 @@ function DetailedItem() {
 					onChange={() => handleChangeMemories(country.location_id)}
 				/>
 				<label htmlFor="memories">Add to your memories</label>
+				<img alt="Approved Pictogram" src="/src/assets/pictogram/picto_approved.svg" className={styles.miniPicto} />
+				</div>
+				<div className={styles.inLine}>
 				<input
 					type="checkbox"
 					name="dreams"
@@ -118,22 +126,25 @@ function DetailedItem() {
 					onChange={() => handleChangeDreams(country.location_id)}
 				/>
 				<label htmlFor="dreams">Add to your dreams</label>
+				<img alt="Reflexion Bubble Pictogram" src="/src/assets/pictogram/picto_reflexionBubble.svg" className={styles.miniPicto} />
+				</div>
 			</div>
-			<img alt={country.name.common} src={!country.image ? country.flags.png : country.image} />
-			<p>Name: {country.name.common}</p>
+			<img
+				alt={country.name.common}
+				src={!country.image ? country.flags.png : country.image}
+			/>
+			<h2>{country.name.common}</h2>
 			<div className={styles.allParts}>
 				<div className={styles.firstPart}>
-					<p>Capital: {country.capital}</p>
-					<p>Region: {country.region}</p>
-					<p>Subregion: {country.subregion}</p>
+					<p>Subregion: {country.subregion}, {country.region} </p>
 					<p>Languages: {country.languages.join(", ")}</p>
-					<p>Current Temp: {currentWeather}°C</p>
-					<p>Min Temp: {weatherMinTemp}°C</p>
-					<p>Max Temp: {weatherMaxTemp}°C</p>
+					<p className={styles.miniP}>Current <img alt="Neutral Thermometer Pictogram" src="/src/assets/pictogram/picto_neutralThermometer.svg" className={styles.miniPicto} /> in {country.capital} (Capital): {currentWeather}°C</p>
+					<p className={styles.miniP}><img alt="Cold Thermometer Pictogram" src="/src/assets/pictogram/picto_coldThermometer.svg" className={styles.miniPicto} />: {weatherMinTemp}°C</p>
+					<p className={styles.miniP}><img alt="Hot Thermometer Pictogram" src="/src/assets/pictogram/picto_hotThermometer.svg" className={styles.miniPicto} />: {weatherMaxTemp}°C</p>
+					<p className={styles.miniP}>Average<img alt="Neutral Thermometer Pictogram" src="/src/assets/pictogram/picto_neutralThermometer.svg" className={styles.miniPicto} />: {weatherMeanTemp}°C</p>
 				</div>
 				<div className={styles.secondPart}>
-					<p>Average Temp: {weatherMeanTemp}°C</p>
-					<p>Landlocked: {country.landlocked ? "Yes" : "No"}</p>
+					<p className={styles.miniP}>Has a seashore<img alt="Wave Pictogram" src="/src/assets/pictogram/picto_wave.svg" className={styles.miniPicto} />: {country.landlocked ? "No" : "Yes"}</p>
 					<p>Snowfall: {hasSnowfall ? "Yes" : "No"}</p>
 					<p>Rainy Days: {rainyDays.length}</p>
 					{/* 
@@ -147,6 +158,7 @@ function DetailedItem() {
 							View
 						</a>
 					</p>
+					<p className={styles.pFlag}>Flag : <img className={styles.flagImg} src={country.flags.png} alt={`Flag of ${country.name.common}`} /></p>
 				</div>
 				{!food.strMeal ? (
 					<div>
@@ -155,7 +167,7 @@ function DetailedItem() {
 				) : (
 					<div>
 						<p>Typical food: {food.strMeal} </p>
-						<img src={food.strMealThumb} />
+						<img alt="Typical food" src={food.strMealThumb} />
 					</div>
 				)}
 			</div>

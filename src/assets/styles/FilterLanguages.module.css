@@ -25,3 +25,10 @@ label{
     flex-direction: row;
     margin-right: 1rem
 }
+
+@media screen and (max-width: 420px) {
+    .filterLang{
+        margin : 0.01rem auto
+    }
+
+} 
