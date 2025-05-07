@@ -91,6 +91,11 @@
 	height: 2rem;
 }
 
+.titleAndIcons{
+	display: flex;
+	justify-content: end;
+}
+
 .miniP{
 	display: flex;
 	align-items: center;
