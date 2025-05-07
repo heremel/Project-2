@@ -154,7 +154,7 @@ function DetailedItem() {
 			*/}
 					<p>Average Rain Per Day: {averageRainPerDay}mm</p>
 					<p>
-						Google Maps Link:{" "}
+					<img src="/src/assets/pictogram/picto_googleLocalisation.svg" className={styles.miniPicto} />:{" "}
 						<a target="_blank" href={country.maps.googleMaps} rel="noreferrer">
 							View
 						</a>
