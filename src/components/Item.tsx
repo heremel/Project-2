@@ -54,8 +54,8 @@ function Item({ currentCountry, weathers }: ItemProps) {
 
 					<p className={styles.miniP}>Subregion : {currentCountry.subregion}</p>
 					<p className={styles.miniP}>Languages : {currentCountry.languages.join(", ")}</p>
-
-					<Link to={`/details/${currentCountry.location_id}`} state={{from:location.pathname}} >More Info</Link>
+				
+					<Link to={`/details/${currentCountry.location_id}`} state={{from:location.pathname} } className={styles.moreInfo} >More Info</Link>
 				</div>
 			</div>
 		</div>
