@@ -58,8 +58,8 @@ function ListOfFavoriteItems() {
 		<>
 			<FiltersTabFavorite />
 			<h2>Check your favs!</h2>
-			<p>Here are listed all your Dreams, Plans, and Remembrances</p>
-			<p>Current results:{filteredArray.length}</p>
+			<p className={styles.itemlistp}>Here are listed all your Dreams, Plans, and Remembrances</p>
+			<p className={styles.itemlistp}>Current results:{filteredArray.length}</p>
 			<div className={styles.container}>
 				{filteredArray.map((country) => (
 					<Item
