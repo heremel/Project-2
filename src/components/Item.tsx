@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import styles from "../assets/styles/Item.module.css";
 import type { Country, Weathers } from "../interfaces/allInterfaces";
 import { useLocation, useNavigate } from "react-router";
+import { useCountries } from "../contexts/CountriesContext";
 
 interface ItemProps {
 	currentCountry: Country;
@@ -10,6 +11,7 @@ interface ItemProps {
 }
 
 function Item({ currentCountry, weathers }: ItemProps) {
+	const { favoriteList, } = useCountries();
 
 	const weatherResults = {
 		meanTemp: 0,
@@ -35,8 +37,12 @@ function Item({ currentCountry, weathers }: ItemProps) {
 	const location = useLocation();
 
 	return (
-		<div className={styles.item}>
+		<div className={styles.item}><div className={styles.titleAndIcons}>
 			<h2 className={styles.h2item}>{currentCountry.name.common}{!currentCountry.landlocked &&<img src="/src/assets/pictogram/picto_wave.svg" className={styles.miniPictoLL} />}</h2>
+			{favoriteList.memories.includes(currentCountry.location_id)&&<img src="/src/assets/pictogram/picto_approved.svg" className={styles.miniPictoLL} />}
+			{favoriteList.dreams.includes(currentCountry.location_id)&&<img src="/src/assets/pictogram/picto_reflexionBubble.svg" className={styles.miniPictoLL} />}
+			
+			</div>
 			<div className={styles.itemContent}>
 				<img className={styles.itemContentImg} src={!currentCountry.image ? currentCountry.flags.png : currentCountry.image} alt={currentCountry.name.common}/>
 				<div className={styles.subdiv}>
