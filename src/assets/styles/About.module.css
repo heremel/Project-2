@@ -41,6 +41,7 @@ margin-left: 2rem;
 justify-content: left;
 color: var(--secondary-color);
 }
+
 h3{
 justify-content: left;
 margin-left: 2rem;
@@ -49,6 +50,7 @@ font-weight: 600px;
 padding: 0.5rem;
 color: var(--secondary-color);
 }
+
 p{
   font-size: 1rem;
   font-weight: 400px;
