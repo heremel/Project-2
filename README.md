@@ -21,8 +21,8 @@ You'll find:
 
 ## Usage
 To use DiPiRi, go to the website and explore the various features:
--Filter countries with many filters : Region, Subregion, Languages, Temperature,
--Add countries to your favorites : Memories/Dreams.
+-Filter countries with many filters: Region, Subregion, Languages, Temperature,
+-Add countries to your favorites: Memories/Dreams.
 
 ## Contact
 
