@@ -1,7 +1,7 @@
 :root {
 	--primary-color: #9db3c1;
 	/* background color */
-	--secondary-color: #374F59;
+	--secondary-color: #374f59;
 	/* text color */
 	--thirdary-color: #d7dee1;
 	/* text color 2 */
@@ -74,36 +74,36 @@
 	transition: 2, 5s;
 }
 
-.miniPicto{
+.miniPicto {
 	display: inline;
-	margin:	0 0 0 0.8rem;
+	margin: 0 0 0 0.8rem;
 	padding: 0;
 	width: 1.5rem;
 	height: 1.5rem;
+	margin-right: 2px;
 }
 
-.miniPictoLL{
+.miniPictoLL {
 	display: inline;
-	margin:0 0 0 0.7rem;
+	margin: 0 0 0 0.7rem;
 	padding: 0;
 	width: 2rem;
 	height: 2rem;
 }
 
-.titleAndIcons{
+.titleAndIcons {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.miniP{
+.miniP {
 	display: flex;
 	align-items: center;
 	padding: 0 0 0 0;
 	margin: 0 30px 0 30px;
-	
 }
-.moreInfo{
+.moreInfo {
 	margin-top: 15px;
 }
 @media screen and (min-width: 841px) and (max-width: 3000px) {
@@ -127,7 +127,6 @@
 		padding-top: 5px;
 		margin-left: 30px;
 		color: var(--thirdary-color);
-
 	}
 
 	.itemContent {
@@ -135,14 +134,11 @@
 		flex-direction: row;
 	}
 
-	.itemContentImgcontainer{
-
+	.itemContentImgcontainer {
 		width: 300px;
 	}
 
-	.subdiv{
+	.subdiv {
 		width: 340px;
 	}
-
-
 }
