@@ -28,15 +28,15 @@ function FiltersTabFavorite() {
             setFavoriteList((prev) => ({ ...prev, meantempmin: -99, meantempmax: 99 }))
         }
         if (property === "memoriesOrDreams") {
-            setFavoriteList((prev) => ({ ...prev, memoriesOrDreams:"both" }))
+            setFavoriteList((prev) => ({ ...prev, memoriesOrDreams: "both" }))
         }
     }
 
     function handleOnChangeSearch(eventTargetValue: string) {
         setFavoriteList((prev) => ({ ...prev, search: eventTargetValue }))
     }
-    
-    useEffect(() => { setCurrentList("favorite")},[])
+
+    useEffect(() => { setCurrentList("favorite") }, [])
 
     return (
         <>
@@ -44,7 +44,7 @@ function FiltersTabFavorite() {
                 <div>
                     <form className={style.searchForm} onSubmit={event => event.preventDefault()}>
                         <label htmlFor="search">Search (official & common names):  </label>
-                        <input type="text" id="search" name="search" value={favoriteList.search} onChange={(event) => { handleOnChangeSearch(event.target.value) }} />
+                        <input className={style.search} type="text" id="search" name="search" value={favoriteList.search} onChange={(event) => { handleOnChangeSearch(event.target.value) }} />
                     </form>
                     <button className={style.moreFilters} onClick={handleOnClickMore}>{isOpen ? "Less Filters" : "More Filters"}</button>
                 </div>
@@ -58,7 +58,7 @@ function FiltersTabFavorite() {
                     {favoriteList.memoriesOrDreams === "dreams" && (<button onClick={() => handleOnClickFilters("memoriesOrDreams")}>Dreams only</button>)}
                 </div>
             </div>
-            {isOpen && (<FilterPage/>)}
+            {isOpen && (<FilterPage />)}
         </>)
 }
 
