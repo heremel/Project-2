@@ -1,6 +1,39 @@
-.filterPageContainer {
-    background-color: blanchedalmond;
-    border-radius: 5%;
-    padding: 1rem;
+* {
     margin: 0;
+    padding: 0;
 }
+
+.checkBoxes{
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.filterPageContainer {
+    background-color: var(--thirdary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 0 auto;
+    width: min(85vw, 1280px);
+    height: auto;
+    align-items: center;
+}
+
+fieldset {
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+}
+
+legend{
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 420px) {
+    .checkBoxes{
+        gap: 0.25rem;
+       
+    }
+
+} 

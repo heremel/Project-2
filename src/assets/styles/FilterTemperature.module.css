@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.inLine {
+    display: flex;
+    flex-direction: row;
+    margin-right: 1rem;
+    justify-content: center;
+}
+
+label {
+    margin-right: 0.5rem
+}
+
+.number {
+    background-color: white;
+    color: var(--secondary-color);
+    padding-left: 2px;
+}

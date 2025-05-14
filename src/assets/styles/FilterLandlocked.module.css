@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.inLine{
+    display: flex;
+    flex-direction: row;
+    margin-right: 1rem;
+}
+
+label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media screen and (max-width: 420px) {
+    .inLine{
+        margin-right: 0.5rem
+    }
+
+} 

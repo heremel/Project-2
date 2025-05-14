@@ -1,0 +1,170 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+}
+
+.firstPart {
+	width: 45%;
+}
+
+.secondPart {
+	width: 45%;
+}
+
+.thirdPart {
+	justify-self: center;
+}
+
+.twoParts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: min(100vw, 1280px);
+	padding-left: 20px;
+}
+
+.allParts {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.miniPicto {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 0;
+	margin-right: 2px;
+}
+
+.miniPictoLL {
+	display: inline;
+	margin: 0 0.2rem 0 0.2rem;
+	padding: 0;
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 0;
+}
+
+p {
+	text-align: start;
+}
+
+.typical {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.typicalImg {
+	margin-top: 0;
+	width: min(30vw, 300px);
+}
+
+.miniP {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	padding: 8px;
+}
+
+.inLine {
+	display: flex;
+	flex-direction: row;
+	margin-right: 1rem;
+}
+
+.checkBoxes {
+	display: flex;
+	gap: 0.75rem;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+label {
+	color: #374f59;
+}
+
+.imgCountry {
+	width: min(600px, 40vw);
+	aspect-ratio: 25 / 18;
+	object-fit: cover;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.flagImg {
+	width: 55px;
+	height: auto;
+	margin: 0;
+	border-radius: 0;
+}
+
+.imgDiv {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.pFlag {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	justify-content: start;
+}
+
+.linkTo {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.arrowImg {
+	width: 50px;
+	height: auto;
+}
+
+.linkColor:any-link {
+	color: var(--thirdary-color)
+}
+
+@media screen and (max-width: 800px) {
+	.firstPart {
+		width: 95%;
+	}
+
+	.secondPart {
+		width: 95%;
+	}
+
+	p {
+		text-align: center;
+	}
+
+	.pFlag {
+		justify-content: center;
+	}
+
+	.miniP {
+		justify-content: center;
+	}
+
+	.typicalImg {
+		margin-bottom: 100px;
+		width: min(50vw, 300px);
+	}
+
+	.imgCountry {
+		width: max(250px, 75vw);
+	}
+}

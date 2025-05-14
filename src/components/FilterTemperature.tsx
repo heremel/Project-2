@@ -1,19 +1,29 @@
 import { useCountries } from "../contexts/CountriesContext";
+import style from ".././assets/styles/FilterTemperature.module.css"
 
 
 function FilterTemperature() {
-    const { filters, setFilters  } = useCountries();
+    const { filters, setFilters, favoriteList, setFavoriteList, currentList } = useCountries();
 
-    const handleChangeLLS = () => {
-
-        setFilters((prev) => ({ ...prev, landlockedshown: !prev.landlockedshown }))
-
+    function handleChangeMin(number: number) {
+        if (currentList === "search") { setFilters((prev) => ({ ...prev, meantempmin: number })) }
+        if (currentList === "favorite") { setFavoriteList((prev) => ({ ...prev, meantempmin: number })) }
     }
-    return <>
-        <input type="checkbox" id="landlocked" name="landlocked" checked={!filters.landlockedshown} onChange={handleChangeLLS} />
-        <label htmlFor="landlocked">Has a seashore</label>
 
-    </>
+    function handleChangeMax(number: number) {
+        if (currentList === "search") { setFilters((prev) => ({ ...prev, meantempmax: number })) }
+        if (currentList === "favorite") { setFavoriteList((prev) => ({ ...prev, meantempmax: number })) }
+    }
+
+
+
+    return (<fieldset className={style.inLine}>
+        <legend>Mean temperature in C°</legend>
+        <label htmlFor="min">between</label>
+        <input className={style.number} type="number" id="min" name="min" min="-99" max={currentList === "search" ? (filters.meantempmax) : (favoriteList.meantempmax)} value={currentList === "search" ? (filters.meantempmin) : (favoriteList.meantempmin)} onChange={(event) => (handleChangeMin(parseInt(event.target.value)))} />
+        <label htmlFor="max">and</label>
+        <input className={style.number} type="number" id="max" name="max" min={currentList === "search" ? (filters.meantempmin) : (favoriteList.meantempmin)} max="99" value={currentList === "search" ? (filters.meantempmax) : (favoriteList.meantempmax)} onChange={(event) => (handleChangeMax(parseInt(event.target.value)))} />
+    </fieldset>)
 }
 
 export default FilterTemperature

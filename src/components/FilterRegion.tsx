@@ -1,26 +1,30 @@
 import { useCountries } from "../contexts/CountriesContext";
-import { Regions  } from "../interfaces/allInterfaces";
+import type { Regions  } from "../interfaces/allInterfaces";
 import style from ".././assets/styles/FilterRegion.module.css"
 
 function FilterRegion() {
-    const { filters, setFilters } = useCountries();
+    const { filters, setFilters, favoriteList, setFavoriteList, currentList } = useCountries();
 
     function handleChangeRegion(string: Regions) {
-        setFilters((prev) => ({ ...prev, region: string }))
+        if (currentList==="search") {setFilters((prev) => ({ ...prev, region: string }))}
+        if (currentList==="favorite") { setFavoriteList((prev) => ({ ...prev, region: string }))}
     }
 
-    const regionArray: Regions[] = ["none", "Europe", "Africa", "Americas", "Asia", "Oceania"]
+    const regionArray: Regions[] = ["none", "Africa", "Americas", "Asia", "Europe",  "Oceania"]
 
-    return (<div className={style.regionContainer}>
+    return (<fieldset>
+        <legend>Continents</legend>
+    <div className={style.regionContainer}>
         {regionArray.map((region) => (
-            <div key={region}>
-                <input type="radio" id={region} name={region} checked={filters.region === region} onChange={() => handleChangeRegion(region)} />
+            <div className={style.inLine} key={region}>
+                <input type="radio" id={region} name={region} checked={currentList==="search"?(filters.region === region):(favoriteList.region === region)} onChange={() => handleChangeRegion(region)} />
                 <label htmlFor={region}> {region} </label>
             </div>
         ))}
 
 
-    </div>)
+    </div>
+    </fieldset>)
 }
 
 export default FilterRegion

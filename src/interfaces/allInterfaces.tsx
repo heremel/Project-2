@@ -1,5 +1,7 @@
 //INTERFACES ET TYPES
 export interface Country {
+    location_id: number;
+    image?: string;
     name: {
         common: string;
         official: string;
@@ -76,30 +78,64 @@ export interface Weather {
 
 export type Weathers = Weather[];
 
-export type Regions = "none" | "Europe" | "Africa" | "Americas" | "Asia" | "Oceania";
+export type WeatherCountry = Country & Weather;
+export type WeathersCountries = WeatherCountry[];
+
+export type Regions =
+    | "none"
+    | "Europe"
+    | "Africa"
+    | "Americas"
+    | "Asia"
+    | "Oceania";
 
 export interface Filters {
     region: Regions;
-    subregion: string;
+    subregion: Subregion;
     languages: string[];
     meantempmin: number;
     meantempmax: number;
     landlockedshown: boolean
+    search: string
 }
 
 export interface Meal {
-	strMeal: string;
-	strMealThumb: string;
+    strMeal: string;
+    strMealThumb: string;
 }
 
 export type Meals = Meal[];
 
 export interface WeatherResult {
-	countryLat: number;
-	countryLong: number;
-	meanTemp: number;
-	minTemp: number;
-	maxTemp: number;
-	currentTemperature: number;
-	elevation: number;
+    meanTemp: number;
+    minTemp: number;
+    maxTemp: number;
 }
+
+export interface SubInRegion {
+    region: Regions;
+    subregions: Subregion[];
+}
+
+
+export type Subregion = "none" | "Northern Africa" | "Eastern Africa" | "Middle Africa" | "Southern Africa" | "Western Africa" | "Caribbean" | "Central America" | "South America" | "North America" | "Central Asia" | "Eastern Asia" | "South-Eastern Asia" | "Southern Asia" | "Western Asia" | "Eastern Europe" | "Northern Europe" | "Southern Europe" | "Western Europe" | "Australia and New Zealand" | "Melanesia" | "Micronesia" | "Polynesia"
+
+
+export type LocationId = number;
+
+export type MoD =  "both"|"memories"|"dreams"
+
+export interface FavoriteListInterface {
+    memories: LocationId[];
+    dreams: LocationId[];
+    memoriesOrDreams: MoD;
+    region: Regions;
+    subregion: Subregion;
+    languages: string[];
+    meantempmin: number;
+    meantempmax: number;
+    landlockedshown: boolean;
+    search: string
+}
+
+export type ItemList = "search" | "favorite" | "none"

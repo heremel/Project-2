@@ -1,4 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.inLine{
+    display: flex;
+    flex-direction: row;
+    margin-right: 1rem
+}
+
 .regionContainer{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }

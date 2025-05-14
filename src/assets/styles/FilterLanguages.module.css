@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.filterLangContainer{
+    display: grid;
+    grid-template: auto / 1fr 1fr 1fr;
+}
+
+label{
+    margin-left: 0.3rem;
+    font-size: 0.8rem;
+}
+
+.filterLang{
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    margin : 0.25rem auto
+}
+
+.inLine{
+    display: flex;
+    flex-direction: row;
+    margin-right: 1rem
+}
+
+@media screen and (max-width: 420px) {
+    .filterLang{
+        margin : 0.01rem auto
+    }
+
+} 

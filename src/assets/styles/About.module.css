@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --primary-color: #9db3c1;
+  /* background color */
+  --secondary-color: #374F59;
+  /* text color */
+  --thirdary-color: #d7dee1;
+  /* text color 2 */
+  --quaternary-color: #374f594d;
+  /* background color of cards */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  color: var(--secondary-color);
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600px;
+  margin-bottom: 0.2rem;
+  margin-left: 2rem;
+  justify-content: left;
+  color: var(--secondary-color);
+}
+
+h3 {
+  justify-content: left;
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  font-weight: 600px;
+  padding: 0.5rem;
+  color: var(--secondary-color);
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400px;
+  padding: 0.5rem;
+  color: var(--secondary-color);
+  text-align: left;
+}
+
+.miniparagraph {
+  text-align: left;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: left;
+  text-align: left;
+  margin-bottom: 1rem;
+  padding: 2rem, 1rem, 1rem, 1rem;
+}
+
+.contenair {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: var(--primary-color);
+}
+
+.contenairParagraphs {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.paragraphs {
+  width: 100%;
+  align-items: center;
+  justify-content: left;
+}
+
+.teamCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  border: 3px;
+  color: var(--secondary-color);
+  background-color: var(--quaternary-color);
+}
+
+.teamCard h3 {
+  justify-content: left;
+  font-size: 1.2rem;
+  font-weight: 600px;
+  padding: 0.5rem;
+  color: var(--secondary-color);
+}
+
+.contenair_H1 {
+  display: flex;
+  width: 100%;
+  font-size: 4rem;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+
+}
+
+.teamCardText {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  border-radius: 8px;
+  ;
+  color: var(--thirdary-color);
+}
+
+.teamCardpicture {
+  width: min(23vw, 250px);
+  aspect-ratio: 1/1.1;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+
+@media screen and (max-width: 650px) {
+  body {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  p {
+    text-align: left;
+    margin: 0 2rem 0 2rem;
+  }
+
+  .teamCardpicture {
+    width: 70%;
+  }
+
+  .contenairTeamCards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .teamCard {
+    padding: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: 3px;
+  }
+
+  .teamCard h3 {
+    width: 100%;
+    justify-content: left;
+    font-size: 1.2rem;
+    font-weight: 600px;
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 651px) and (max-width: 3000px) {
+  body {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  p {
+    text-align: left;
+    margin: 0 2rem 0 2rem;
+  }
+
+  section {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .contenairlogo section {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+
+  img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .teamCard {
+    padding: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: 3px;
+    gap: 1rem;
+  }
+
+  .contenairTeamCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 1rem;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .teamCardText p {
+    justify-content: left;
+    font-size: 1rem;
+    font-weight: 400px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+  }
+
+  .teamCard h3 {
+    justify-content: left;
+    font-size: 1.2rem;
+    font-weight: 600px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+  }
+}
