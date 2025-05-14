@@ -134,6 +134,10 @@ label {
 	height: auto;
 }
 
+.linkColor:any-link {
+	color: var(--thirdary-color)
+}
+
 @media screen and (max-width: 800px) {
 	.firstPart {
 		width: 95%;
