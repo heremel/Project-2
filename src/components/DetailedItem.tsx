@@ -6,7 +6,8 @@ import { useCountries } from "../contexts/CountriesContext";
 import styles from "../assets/styles/DetailedItem.module.css";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router";
-import crossImage from "../assets/pictogram/picto_cross.svg";
+import arrowImage from "../assets/pictogram/picto_arrow.svg";
+import mainCurrencyImage from "../assets/pictogram/picto_mainCurrency.svg";
 
 function DetailedItem() {
 	const { location_id } = useParams<{ location_id: string }>();
@@ -106,7 +107,7 @@ function DetailedItem() {
 
 	return (
 		<>
-			<Link className={styles.linkTo} to={initialPage}><img className={styles.crossImg} alt="Cross Pictogram" src={crossImage}/></Link>
+			<Link className={styles.linkTo} to={initialPage}><img className={styles.crossImg} alt="Cross Pictogram" src={arrowImage}/></Link>
 			<div className={styles.checkBoxes}>
 			<div className={styles.inLine}>
 				<input
@@ -147,6 +148,7 @@ function DetailedItem() {
 				</div>
 				<div className={styles.secondPart}>
 					<p className={styles.miniP}>Has a seashore<img alt="Wave Pictogram" src="/src/assets/pictogram/picto_wave.svg" className={styles.miniPictoLL} />: {country.landlocked ? "No" : "Yes"}</p>
+					<p className={styles.miniP}><img alt="Currency Pictogram" src={mainCurrencyImage} className={styles.miniPicto} /> : {country.currencies}</p>
 					<p>Snowfall: {hasSnowfall ? "Yes" : "No"}</p>
 					<p>Rainy Days: {rainyDays.length}</p>
 					{/* 
@@ -155,7 +157,7 @@ function DetailedItem() {
 			*/}
 					<p>Average Rain Per Day: {averageRainPerDay}mm</p>
 					<p>
-					<img src="/src/assets/pictogram/picto_googleLocalisation.svg" className={styles.miniPicto} />:{" "}
+					<img alt="Google Pictogram" src="/src/assets/pictogram/picto_googleLocalisation.svg" className={styles.miniPicto} />:{" "}
 						<a target="_blank" href={country.maps.googleMaps} rel="noreferrer">
 							View
 						</a>
