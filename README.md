@@ -1,25 +1,28 @@
 DiPiRi
 (Dream, Plan, Rembember)
 ===
-DiPiRi is an informative travel planning website in English. It provides essential information for planning your trips, such as weather forecasts, currency exchange rates, and typical food (for some countries), without booking options. It's purely informational to help you plan your journey!
+DiPiRi is an informative travel planning website in English. It provides essential information for your trips, without booking options. It's purely informational to help you plan your journey!
 
 ## Installation
 
-Since DiPiRi is hosted on GitHub Pages, there is no installation required. Simply visit the website to start planning your trip!
+Simply visit the website to start dreaming!
+
+## About the project
+DiPiRi aims to be your go-to platform for travel planning by offering lots of information about countries!
+You'll find:
+-Current temperature in the Capital (updates in real time to be really accurate), Highest/Lowest & Average Temperature,
+-Average Rainy Days,
+-If the countries have a Seashore,
+-If they have snowy days,
+-Typical food (for some countries),
+-Currency,
+-All the spoken languages,
+-Flag.
 
 ## Usage
-
 To use DiPiRi, go to the website and explore the various features:
-- Check the weather for your destination.
-- Learn about the local currency used in different countries.
-- See the typical food of some countries !
-
-## About the Project
-
-DiPiRi aims to be your go-to platform for travel planning by offering:
-- **Weather Forecasts**: Get up-to-date weather information for your destination.
-- **Currency Information**: Learn about the local currency used in different countries (e.g., $, €).
-- **Adding to favorites** : Add destinations to your memories and dreams !
+-Filter countries with many filters : Region, Subregion, Languages, Temperature,
+-Add countries to your favorites : Memories/Dreams.
 
 ## Contact
 
@@ -30,4 +33,4 @@ Feel free to reach out to us with any questions or suggestions:
 - [heremel](https://www.linkedin.com/in/m%C3%A9lissa-ferreira-61a84b286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
 
-###### tags: `Documentation` `React Project` 
+###### tags: `Documentation` `React Project` `Traveling App Project`
