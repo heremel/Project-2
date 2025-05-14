@@ -6,11 +6,10 @@
 //   plugins: [react()],
 // })
 
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-// 👇 Ajoute ceci si ton dépôt s'appelle "mon-projet"
 export default defineConfig({
-	base: "/Project-2/",
-	plugins: [react()],
-});
+  base: '/Project-2/', // ← important !
+  plugins: [react()],
+})
