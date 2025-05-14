@@ -10,19 +10,19 @@ Simply visit the website to start dreaming!
 ## About the project
 DiPiRi aims to be your go-to platform for travel planning by offering lots of information about countries!
 You'll find:
--Current temperature in the Capital (updates in real time to be really accurate), Highest/Lowest & Average Temperature,
--Average Rainy Days,
--If the countries have a Seashore,
--If they have snowy days,
--Typical food (for some countries),
--Currency,
--All the spoken languages,
--Flag.
+- Current temperature in the Capital (updates in real time to be really accurate), Highest/Lowest & Average Temperature,
+- Average Rainy Days,
+- If the countries have a Seashore,
+- If they have snowy days,
+- Typical food (for some countries),
+- Currency,
+- All the spoken languages,
+- Flag.
 
 ## Usage
 To use DiPiRi, go to the website and explore the various features:
--Filter countries with many filters: Region, Subregion, Languages, Temperature,
--Add countries to your favorites: Memories/Dreams.
+- Filter countries with many filters: Region, Subregion, Languages, Temperature,
+- Add countries to your favorites: Memories/Dreams.
 
 ## Contact
 
