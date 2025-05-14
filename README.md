@@ -1,7 +1,7 @@
 DiPiRi
 (Dream, Plan, Rembember)
 ===
-DiPiRi is an informative travel planning website in English. It provides essential information for planning your trips, such as weather forecasts, currency exchange rates, and living standards (e.g., inequality rate in each country), without booking options. It's purely informational to help you plan your journey!
+DiPiRi is an informative travel planning website in English. It provides essential information for planning your trips, such as weather forecasts, currency exchange rates, and typical food (for some countries), without booking options. It's purely informational to help you plan your journey!
 
 ## Installation
 
@@ -11,16 +11,15 @@ Since DiPiRi is hosted on GitHub Pages, there is no installation required. Simpl
 
 To use DiPiRi, go to the website and explore the various features:
 - Check the weather for your destination.
--  Learn about the local currency used in different countries
-- Know about the living standards in different countries.
+- Learn about the local currency used in different countries.
+- See the typical food of some countries !
 
 ## About the Project
 
 DiPiRi aims to be your go-to platform for travel planning by offering:
 - **Weather Forecasts**: Get up-to-date weather information for your destination.
 - **Currency Information**: Learn about the local currency used in different countries (e.g., $, €).
-- **Living Standards**: Understand the economic status of different countries to plan your budget accordingly.
-- **Recommendations**: See different recommendations when you first arrive on the main page to inspire your travel plans.
+- **Adding to favorites** : Add destinations to your memories and dreams !
 
 ## Contact
 
