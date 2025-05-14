@@ -8,7 +8,7 @@ DiPiRi is an informative travel planning website in English. It provides essenti
 Simply visit the website to start dreaming!
 
 ## About the project
-DiPiRi aims to be your go-to platform for travel planning by offering lots of information about countries!
+DiPiRi aims to be your go-to platform for travel planning by offering lots of information about countries!    
 You'll find:
 - Current temperature in the Capital (updates in real time to be really accurate), Highest/Lowest & Average Temperature,
 - Average Rainy Days,
