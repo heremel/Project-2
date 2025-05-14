@@ -56,8 +56,17 @@ p{
   font-weight: 400px;
   padding: 0.5rem;
   color: var(--secondary-color);
+  text-align: left;
+}
+.miniparagraph{
+  text-align: left;
 }
 
+.teamCardpictureContainer{
+  height: auto;
+  width: 100%;
+  align-items: center;
+}
   section{
     display: flex;
     flex-direction: column;
@@ -158,7 +167,6 @@ p{
     width: 50%;
     height: auto;
     align-items: center;
-    border-radius: 8px;
     margin-bottom: 1rem;
   }
   .contenairTeamCards{
@@ -210,6 +218,7 @@ p{
   .contenairlogo section{
     display: flex;
     width: 100%;
+    height: auto;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -219,7 +228,6 @@ p{
   img{
     width: 50%;
     height: auto;
-    border-radius: 8px;
     margin-bottom: 1rem;
   }
   .teamCard{

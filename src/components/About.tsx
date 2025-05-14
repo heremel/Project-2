@@ -20,7 +20,7 @@ function About()  {
             {h1Section.map((section, index) => (
                 <div key={index} className={style.H1}>
                     <h1>{section.title}</h1>
-                    <p>{section.description}</p>
+                    <p className={style.miniparagraph}>{section.description}</p>
                 </div>
             ))}
         </section>
@@ -28,7 +28,7 @@ function About()  {
           {h2Section.map((section, index) => (
                 <div key={index} className={style.paragraphs}>
                     <h2>{section.title}</h2>
-                    <p>{section.description}</p>
+                    <p className={style.miniparagraph}>{section.description}</p>
                 </div>
             ))}
         </section>
@@ -39,7 +39,7 @@ function About()  {
                     <img className={style.teamCardpicture} src={person.picture} alt={person.name} />
                     <div className ={style.teamCardText}>
                     <h3>{person.name}</h3>
-                    <p>{person.description}</p>
+                    <p className={style.miniparagraph}>{person.description}</p>
                     </div>
                 </div>
             ))}
