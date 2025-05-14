@@ -14,7 +14,7 @@ function About()  {
     return (
         <>
         <section className={style.contenairlogo}>            
-            <img className={style.logo} src="src/assets/pictures/logo.png" alt="Logo DiPiRi" />        
+            <img className={style.logo} src="src/assets/pictures/logo.svg" alt="Logo DiPiRi" />        
         </section>
         <section className={style.contenair_H1}>
             {h1Section.map((section, index) => (
