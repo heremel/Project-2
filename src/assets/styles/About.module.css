@@ -69,12 +69,6 @@ p {
   text-align: left;
 }
 
-.teamCardpictureContainer {
-  height: auto;
-  width: 100%;
-  align-items: center;
-}
-
 section {
   display: flex;
   flex-direction: column;
@@ -117,7 +111,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   text-align: left;
   width: 100%;
   height: 100%;
@@ -159,10 +153,12 @@ section {
 }
 
 .teamCardpicture {
-  width: 70%;
-  height: auto;
+  width: min(23vw, 250px);
+  aspect-ratio: 1/1.1;
+  object-fit: cover;
   border-radius: 8px;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 
@@ -180,11 +176,8 @@ section {
     margin: 0 2rem 0 2rem;
   }
 
-  img {
-    width: 50%;
-    height: auto;
-    align-items: center;
-    margin-bottom: 1rem;
+  .teamCardpicture {
+    width: 70%;
   }
 
   .contenairTeamCards {
@@ -202,7 +195,7 @@ section {
     padding: 0.5rem;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     text-align: left;
     width: 100%;
     height: 100%;
@@ -259,7 +252,7 @@ section {
     padding: 0.5rem;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     text-align: left;
     width: 100%;
     height: 100%;
