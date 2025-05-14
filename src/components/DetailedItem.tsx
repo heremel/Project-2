@@ -107,7 +107,7 @@ function DetailedItem() {
 
 	return (
 		<>
-			<Link className={styles.linkTo} to={initialPage}><img className={styles.crossImg} alt="Cross Pictogram" src={arrowImage}/></Link>
+			<Link className={styles.linkTo} to={initialPage}><img className={styles.arrowImg} alt="Cross Pictogram" src={arrowImage}/></Link>
 			<div className={styles.checkBoxes}>
 			<div className={styles.inLine}>
 				<input

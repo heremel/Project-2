@@ -42,6 +42,7 @@ body {
 	border-radius: 0;
 	margin-right: 2px;
 }
+
 .miniPictoLL {
 	display: inline;
 	margin: 0 0.2rem 0 0.2rem;
@@ -62,6 +63,7 @@ p {
 
 .typicalImg {
 	margin-top: 0;
+	width: min(30vw, 300px)
 }
 
 .miniP {
@@ -92,8 +94,8 @@ label {
 }
 
 .imgCountry {
-	width: 250px;
-	height: 180px;
+	width: min(600px, 40vw);
+	aspect-ratio: 25/18;
 	object-fit: cover;
 	border-radius: 10px;
 	margin-top: 20px;
@@ -126,7 +128,8 @@ label {
 	margin-top: 20px;
 	margin-left: 20px;
 }
-.crossImg {
+
+.arrowImg {
 	width: 50px;
 	height: auto;
 }
@@ -151,7 +154,13 @@ label {
 	.miniP {
 		justify-content: center;
 	}
+
 	.typicalImg {
 		margin-bottom: 100px;
+		width: min(50vw, 300px)
+	}
+
+	.imgCountry {
+		width: max(250px, 75vw);
 	}
 }
