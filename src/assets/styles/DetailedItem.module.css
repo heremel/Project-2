@@ -22,7 +22,7 @@ body {
 .twoParts {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: center;
 	width: min(100vw, 1280px);
 	padding-left: 20px;
 }
@@ -63,7 +63,7 @@ p {
 
 .typicalImg {
 	margin-top: 0;
-	width: min(30vw, 300px)
+	width: min(30vw, 300px);
 }
 
 .miniP {
@@ -95,7 +95,7 @@ label {
 
 .imgCountry {
 	width: min(600px, 40vw);
-	aspect-ratio: 25/18;
+	aspect-ratio: 25 / 18;
 	object-fit: cover;
 	border-radius: 10px;
 	margin-top: 20px;
@@ -157,7 +157,7 @@ label {
 
 	.typicalImg {
 		margin-bottom: 100px;
-		width: min(50vw, 300px)
+		width: min(50vw, 300px);
 	}
 
 	.imgCountry {

@@ -141,10 +141,11 @@ function DetailedItem() {
 				<div className={styles.firstPart}>
 					<p>Subregion: {country.subregion}, {country.region} </p>
 					<p>Languages: {country.languages.join(", ")}</p>
-					<p className={styles.miniP}>Current <img alt="Neutral Thermometer Pictogram" src="/src/assets/pictogram/picto_neutralThermometer.svg" className={styles.miniPicto} /> in {country.capital} (Capital): {currentWeather}°C</p>
+					<p className={styles.miniP}>Capital: {country.capital}</p>
 					<p className={styles.miniP}><img alt="Cold Thermometer Pictogram" src="/src/assets/pictogram/picto_coldThermometer.svg" className={styles.miniPicto} />: {weatherMinTemp}°C</p>
 					<p className={styles.miniP}><img alt="Hot Thermometer Pictogram" src="/src/assets/pictogram/picto_hotThermometer.svg" className={styles.miniPicto} />: {weatherMaxTemp}°C</p>
 					<p className={styles.miniP}>Average<img alt="Neutral Thermometer Pictogram" src="/src/assets/pictogram/picto_neutralThermometer.svg" className={styles.miniPicto} />: {weatherMeanTemp}°C</p>
+					<p className={styles.miniP}>Current <img alt="Neutral Thermometer Pictogram" src="/src/assets/pictogram/picto_neutralThermometer.svg" className={styles.miniPicto} /> in Capital: {currentWeather}°C</p>
 				</div>
 				<div className={styles.secondPart}>
 					<p className={styles.miniP}>Has a seashore<img alt="Wave Pictogram" src="/src/assets/pictogram/picto_wave.svg" className={styles.miniPictoLL} />: {country.landlocked ? "No" : "Yes"}</p>
