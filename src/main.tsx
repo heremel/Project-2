@@ -6,7 +6,6 @@ import ListOfItems from "./components/ListOfItems.tsx";
 import ListOfFavoriteItems from "./components/ListOfFavoriteItems.tsx";
 import About from "./components/About.tsx";
 import DetailedItem from "./components/DetailedItem.tsx";
-import { countries } from "./databases/countries.ts";
 
 const router = createBrowserRouter([
   {

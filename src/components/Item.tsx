@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import styles from "../assets/styles/Item.module.css";
 import type { Country, Weathers } from "../interfaces/allInterfaces";
-import { useLocation, useNavigate } from "react-router";
+import { useLocation } from "react-router";
 import { useCountries } from "../contexts/CountriesContext";
 
 interface ItemProps {
