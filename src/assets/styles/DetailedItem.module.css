@@ -1,4 +1,3 @@
-
 * {
 	margin: 0;
 	padding: 0;
@@ -23,7 +22,7 @@ body {
 .twoParts {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: center;
 	width: min(100vw, 1280px);
 	padding-left: 20px;
 }
@@ -40,6 +39,17 @@ body {
 	padding: 0;
 	width: 1.5rem;
 	height: 1.5rem;
+	border-radius: 0;
+	margin-right: 2px;
+}
+
+.miniPictoLL {
+	display: inline;
+	margin: 0 0.2rem 0 0.2rem;
+	padding: 0;
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 0;
 }
 
 p {
@@ -53,6 +63,7 @@ p {
 
 .typicalImg {
 	margin-top: 0;
+	width: min(30vw, 300px);
 }
 
 .miniP {
@@ -65,7 +76,7 @@ p {
 .inLine {
 	display: flex;
 	flex-direction: row;
-	margin-right: 1rem
+	margin-right: 1rem;
 }
 
 .checkBoxes {
@@ -73,16 +84,19 @@ p {
 	gap: 0.75rem;
 	justify-content: center;
 	align-items: center;
-	width: 100%
+	width: 100%;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 label {
 	color: #374f59;
 }
 
-img {
-	width: 140px;
-	height: 100px;
+.imgCountry {
+	width: min(600px, 40vw);
+	aspect-ratio: 25 / 18;
+	object-fit: cover;
 	border-radius: 10px;
 	margin-top: 20px;
 }
@@ -91,6 +105,7 @@ img {
 	width: 55px;
 	height: auto;
 	margin: 0;
+	border-radius: 0;
 }
 
 .imgDiv {
@@ -109,10 +124,12 @@ img {
 
 .linkTo {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: flex-start;
 	margin-top: 20px;
+	margin-left: 20px;
 }
-.crossImg{
+
+.arrowImg {
 	width: 50px;
 	height: auto;
 }
@@ -137,8 +154,13 @@ img {
 	.miniP {
 		justify-content: center;
 	}
+
 	.typicalImg {
 		margin-bottom: 100px;
+		width: min(50vw, 300px);
 	}
 
+	.imgCountry {
+		width: max(250px, 75vw);
+	}
 }

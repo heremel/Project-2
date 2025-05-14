@@ -2976,6 +2976,7 @@ export const countries: Countries = [
     },
     {
         location_id: 51,
+        image: "https://images.pexels.com/photos/27788910/pexels-photo-27788910/free-photo-of-paysage-nature-monument-ete.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "San Marino",
             official: "Republic of San Marino",
@@ -4051,6 +4052,7 @@ export const countries: Countries = [
     },
     {
         location_id: 70,
+        image: "https://images.pexels.com/photos/3030308/pexels-photo-3030308.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Equatorial Guinea",
             official: "Republic of Equatorial Guinea",
@@ -4401,6 +4403,7 @@ export const countries: Countries = [
     },
     {
         location_id: 76,
+        image: "https://images.pexels.com/photos/12871825/pexels-photo-12871825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Mayotte",
             official: "Department of Mayotte",
@@ -5303,6 +5306,7 @@ export const countries: Countries = [
     },
     {
         location_id: 92,
+        image: "https://images.pexels.com/photos/15922459/pexels-photo-15922459/free-photo-of-toit-batiments-buildings-immeubles.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Togo",
             official: "Togolese Republic",
@@ -5770,6 +5774,7 @@ export const countries: Countries = [
     },
     {
         location_id: 100,
+        image: "https://images.unsplash.com/photo-1623930376524-ead3734be423?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Guinea-Bissau",
             official: "Republic of Guinea-Bissau",
@@ -6236,6 +6241,7 @@ export const countries: Countries = [
     },
     {
         location_id: 108,
+        image: "https://images.unsplash.com/photo-1633960721714-48d0a9edb9cb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Republic of the Congo",
             official: "Republic of the Congo",
@@ -6292,6 +6298,7 @@ export const countries: Countries = [
     },
     {
         location_id: 109,
+        image: "https://images.unsplash.com/photo-1544704325-8c4f82787278?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Djibouti",
             official: "Republic of Djibouti",
@@ -7414,6 +7421,7 @@ export const countries: Countries = [
     },
     {
         location_id: 129,
+        image: "https://images.pexels.com/photos/31713219/pexels-photo-31713219.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Caribbean Netherlands",
             official: "Bonaire, Sint Eustatius and Saba",
@@ -8105,6 +8113,7 @@ export const countries: Countries = [
     },
     {
         location_id: 141,
+        image: "https://images.unsplash.com/photo-1444466194851-3b0c9f181f3d?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Suriname",
             official: "Republic of Suriname",
@@ -8159,6 +8168,7 @@ export const countries: Countries = [
     },
     {
         location_id: 142,
+        image: "https://images.unsplash.com/photo-1590083948592-a5a1f0310d0e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Saint Barthélemy",
             official: "Collectivity of Saint Barthélemy",
@@ -12942,6 +12952,7 @@ export const countries: Countries = [
     },
     {
         location_id: 226,
+        image: "https://images.pexels.com/photos/30402997/pexels-photo-30402997/free-photo-of-alofi-futuna.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: {
             common: "Wallis and Futuna",
             official: "Territory of the Wallis and Futuna Islands",
@@ -13164,6 +13175,7 @@ export const countries: Countries = [
     },
     {
         location_id: 230,
+        image: "https://images.unsplash.com/photo-1728492123464-063f416e0b53?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         name: {
             common: "Pitcairn Islands",
             official: "Pitcairn Group of Islands",
@@ -14003,7 +14015,7 @@ export const countries: Countries = [
 
     }
 
-
+ 
 
 
 

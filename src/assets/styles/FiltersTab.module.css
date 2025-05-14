@@ -10,7 +10,7 @@
     background-color: var(--thirdary-color);
     border-radius: 15px;
     padding: 1rem;
-    margin:0 auto .5rem;
+    margin: 0 auto .5rem;
     width: min(85vw, 1280px);
 }
 
@@ -32,11 +32,17 @@ button {
     font-family: inherit;
 }
 
-.searchForm{
+.searchForm {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.search {
+    background-color: white;
+    color: var(--secondary-color);
+    padding-left: 2px;
 }
 
 .currentFilters {
@@ -55,12 +61,13 @@ fieldset {
 
 @media screen and (max-width: 420px) {
     fieldset {
-        margin-top: 0.5rem;   
+        margin-top: 0.5rem;
     }
+
     button {
         padding: 0.3rem;
         margin: 0.2rem;
         font-size: 0.6rem;
     }
 
-} 
+}

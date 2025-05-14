@@ -1,7 +1,7 @@
 :root {
 	--primary-color: #9db3c1;
 	/* background color */
-	--secondary-color: #374F59;
+	--secondary-color: #374f59;
 	/* text color */
 	--thirdary-color: #d7dee1;
 	/* text color 2 */
@@ -12,7 +12,6 @@
 .item {
 	gap: 5px;
 	width: 300px;
-	height: 450px;
 	margin: 20px;
 	padding: 0 0 30px 0;
 	border-radius: 10px;
@@ -20,9 +19,10 @@
 }
 
 .itemContentImg {
-	width: 140px;
-	height: 100px;
+	width: 250px;
+	height: 180px;
 	border-radius: 10px;
+	object-fit: cover;
 }
 
 .itemContent {
@@ -42,10 +42,9 @@
 }
 
 .subdiv p {
-	width: 100%;
 	text-align: left;
 	color: var(--thirdary-color);
-	padding-left: 30px;
+	padding-left: 0px;
 }
 
 .h2item {
@@ -75,33 +74,42 @@
 	transition: 2, 5s;
 }
 
-.miniPicto{
+.miniPicto {
 	display: inline;
-	margin:0;
+	margin: 0 0 0 0.8rem;
 	padding: 0;
 	width: 1.5rem;
 	height: 1.5rem;
+	margin-right: 2px;
 }
 
-.miniPictoLL{
+.miniPictoLL {
 	display: inline;
-	margin:0 0 0 0;
+	margin: 0 0 0 0.7rem;
 	padding: 0;
 	width: 2rem;
 	height: 2rem;
 }
 
-.miniP{
+.titleAndIcons {
 	display: flex;
+	justify-content: center;
 	align-items: center;
-	padding: 0 0 0 30px;
-	
 }
 
+.miniP {
+	display: flex;
+	align-items: center;
+	padding: 0 0 0 0;
+	margin: 0 30px 0 30px;
+}
+.moreInfo {
+	margin-top: 15px;
+}
 @media screen and (min-width: 841px) and (max-width: 3000px) {
 	.item {
 		gap: 5px;
-		width: 50%;
+		width: 640px;
 		height: 100%;
 		margin: 20px;
 		padding: 0 0 30px 0;
@@ -110,7 +118,7 @@
 	}
 
 	.itemContentImg {
-		margin: 0 30px 0 30px;
+		margin: 0 auto;
 	}
 
 	.h2item {
@@ -119,11 +127,18 @@
 		padding-top: 5px;
 		margin-left: 30px;
 		color: var(--thirdary-color);
-
 	}
 
 	.itemContent {
 		display: flex;
 		flex-direction: row;
+	}
+
+	.itemContentImgcontainer {
+		width: 300px;
+	}
+
+	.subdiv {
+		width: 340px;
 	}
 }

@@ -4,7 +4,7 @@ import { useCountries } from "../contexts/CountriesContext";
 import FilterPage from "./FilterPage";
 
 function FiltersTab() {
-    const { filters, setFilters,setCurrentList } = useCountries();
+    const { filters, setFilters, setCurrentList } = useCountries();
 
     const [isOpen, setIsOpen] = useState(false)
 
@@ -33,14 +33,14 @@ function FiltersTab() {
         setFilters((prev) => ({ ...prev, search: eventTargetValue }))
     }
 
-    useEffect(() => { setCurrentList("search")},[])
+    useEffect(() => { setCurrentList("search") }, [])
     return (
         <>
             <div className={style.filterTabContainer}>
                 <div>
                     <form className={style.searchForm} onSubmit={event => event.preventDefault()}>
                         <label htmlFor="search">Search (official & common names):  </label>
-                        <input type="text" id="search" name="search" value={filters.search} onChange={(event) => { handleOnChangeSearch(event.target.value) }} />
+                        <input className={style.search} type="text" id="search" name="search" value={filters.search} onChange={(event) => { handleOnChangeSearch(event.target.value) }} />
                     </form>
                     <button type="button" className={style.moreFilters} onClick={handleOnClickMore}>{isOpen ? "Less Filters" : "More Filters"}</button>
                 </div>
