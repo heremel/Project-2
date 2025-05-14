@@ -103,7 +103,7 @@ function DetailedItem() {
 			.then((response) => response.json())
 			.then((data) => setFood(data.meals[0]))
 			.catch((err) => console.error(err));
-	}, []);
+	}, [urlFood]);
 
 	return (
 		<>

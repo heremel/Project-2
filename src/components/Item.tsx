@@ -38,9 +38,9 @@ function Item({ currentCountry, weathers }: ItemProps) {
 
 	return (
 		<div className={styles.item}><div className={styles.titleAndIcons}>
-			<h2 className={styles.h2item}>{currentCountry.name.common}{!currentCountry.landlocked &&<img src="/src/assets/pictogram/picto_wave.svg" className={styles.miniPictoLL} />}</h2>
-			{favoriteList.memories.includes(currentCountry.location_id)&&<img src="/src/assets/pictogram/picto_approved.svg" className={styles.miniPictoLL} />}
-			{favoriteList.dreams.includes(currentCountry.location_id)&&<img src="/src/assets/pictogram/picto_reflexionBubble.svg" className={styles.miniPictoLL} />}
+			<h2 className={styles.h2item}>{currentCountry.name.common}{!currentCountry.landlocked &&<img alt="" src="/src/assets/pictogram/picto_wave.svg" className={styles.miniPictoLL} />}</h2>
+			{favoriteList.memories.includes(currentCountry.location_id)&&<img alt="" src="/src/assets/pictogram/picto_approved.svg" className={styles.miniPictoLL} />}
+			{favoriteList.dreams.includes(currentCountry.location_id)&&<img alt="" src="/src/assets/pictogram/picto_reflexionBubble.svg" className={styles.miniPictoLL} />}
 			
 			</div>
 			<div className={styles.itemContent}>
@@ -49,8 +49,8 @@ function Item({ currentCountry, weathers }: ItemProps) {
 				</div>
 				<div className={styles.subdiv}>
 					
-					<p className={styles.miniP}><img src="/src/assets/pictogram/picto_neutralThermometer.svg" className={styles.miniPicto} /> : {weatherResults.meanTemp} °C</p>
-					<p className={styles.miniP}><img src="/src/assets/pictogram/picto_mainCurrency.svg" className={styles.miniPicto} /> : {currentCountry.currencies}</p>
+					<p className={styles.miniP}><img alt="" src="/src/assets/pictogram/picto_neutralThermometer.svg" className={styles.miniPicto} /> : {weatherResults.meanTemp} °C</p>
+					<p className={styles.miniP}><img alt="" src="/src/assets/pictogram/picto_mainCurrency.svg" className={styles.miniPicto} /> : {currentCountry.currencies}</p>
 
 					<p className={styles.miniP}>Subregion : {currentCountry.subregion}</p>
 					<p className={styles.miniP}>Languages : {currentCountry.languages.join(", ")}</p>
