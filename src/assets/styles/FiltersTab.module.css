@@ -41,6 +41,8 @@ button {
 
 .search {
     background-color: white;
+    color: var(--secondary-color);
+    padding-left: 2px;
 }
 
 .currentFilters {

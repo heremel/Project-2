@@ -16,5 +16,6 @@ label {
 
 .number {
     background-color: white;
-    color: var(--secondary-color)
+    color: var(--secondary-color);
+    padding-left: 2px;
 }
